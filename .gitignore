@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+node_modules/
+.openai/
+.wrangler/
+*.log
+*.tmp
+*.bak
+*.zip
+.vscode/
+.idea/
