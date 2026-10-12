@@ -1,6 +1,6 @@
 // A warm adaptation of the supplied Green Frog classroom story.
 const frogWords={
-activity:["마음 활동","Heart activity","Actividad de los sentimientos"],
+activity:["마음 건네보기 활동","Sharing My Heart","Compartir lo que siento"],
 readNote:["그림과 함께 청개구리의 이야기를 읽어요.","Read Little Frog’s story with its pictures.","Lee el cuento de la ranita con sus imágenes."],
 categories:['이야기 고르기','Choose a story collection','Elige una colección'],
 diary:['같은 하루, 다른 마음','One day, different hearts','Un día, distintos corazones'],
@@ -10,7 +10,7 @@ talesSub:['다르게 펼쳐보는 전래동화','Folktales with new possibilitie
 title:['청개구리의 무거운 마음','Little Frog’s Heavy Heart','El corazón pesado de la ranita'],
 subtitle:['서로의 말을 듣는 청개구리 이야기','A little frog learns to share and listen','Una ranita aprende a expresarse y escuchar'],
 about:['전래동화 청개구리를 따뜻한 결말로 새롭게 읽어요. 엄마와 아기의 말 속에 어떤 마음이 있었을까요?','A warm, happy-ending adaptation of The Green Frog. What feelings were hidden in Mama’s and Little Frog’s words?','Una adaptación de La rana verde con un final feliz. ¿Qué sentimientos escondían las palabras de mamá y la ranita?'],
-gameNote:['마음을 살피고, 따뜻한 말을 골라 대화를 이어가요.','Notice feelings and choose kind words to continue the conversation.','Observa las emociones y elige palabras amables para continuar.'],
+gameNote:['내가 청개구리가 되어 엄마의 마음을 듣고, 내 마음도 말해봐요.','Become Little Frog, listen to Mama’s feelings, and share your own.','Conviértete en la ranita, escucha lo que siente mamá y comparte tus sentimientos.'],
 feelTitle:['아기 청개구리는 어떤 마음일까요?','How might Little Frog feel?','¿Cómo podría sentirse la ranita?'],
 feelNote:['여러 마음을 골라도 괜찮아요. 아직 잘 모르겠어도 괜찮아요.','You can choose more than one feeling. It is okay not to know yet.','Puedes elegir más de una emoción. Está bien no saberlo todavía.'],
 feelings:[['조금 아쉬워요','I feel disappointed','Me da pena parar'],['끝까지 만들고 싶어요','I want to finish','Quiero terminar'],['내가 정하고 싶어요','I want a choice','Quiero poder elegir'],['아직 잘 모르겠어요','I am not sure yet','Todavía no lo sé']],
