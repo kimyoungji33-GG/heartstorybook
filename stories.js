@@ -47,7 +47,7 @@ const books=[
           "아이가 할아버지 드릴 부드러운 빵을 물었어요. 이제야 무엇을 알고 싶은지 알았어요. 나는 천천히 설명하고 두 아이의 말도 들었어요. 아이에게 빵 봉지를 건넸어요. 두 아이가 서로를 보며 웃었어요. 기다려주니 저마다 하고 싶던 말이 나왔네요."
         ]
       ],
-      "menuContext": "빵집 심부름에서 생긴 일"
+      "menuContext": "첫 빵 심부름"
     },
     "en": {
       "title": "Warm Bread in Little Hands",
@@ -190,7 +190,7 @@ const books=[
           "두 사람은 빵을 받아 나갔다. 한 사람은 약속에, 한 사람은 할머니께 마음이 가 있었다. 나는 오늘 말하기 편한 시간을 조금 만들었는지 돌아보았다."
         ]
       ],
-      "menuContext": "빵집에서 생긴 일"
+      "menuContext": "아침의 동네 빵집"
     },
     "en": {
       "title": "The Heart Behind the Bread",
@@ -334,7 +334,7 @@ const books=[
           "두 아이는 다음엔 함께 고르자고 이야기했다. 나는 주문을 실수했나 걱정했는데, 아이는 선물을 잘 전하고 싶었던 거였다. 같은 질문을 우리는 다르게 받아들였다."
         ]
       ],
-      "menuContext": "생일파티에서 생긴 일"
+      "menuContext": "친구의 생일 초대"
     },
     "en": {
       "title": "Two Cups on a Birthday",
@@ -477,7 +477,7 @@ const books=[
           "접시가 한 번씩 비워졌다. 나는 오늘 두 사람에게 같은 질문을 했지만 서로 다른 망설임을 들었다. 겉으로 보이는 손짓만으로는 알 수 없었다."
         ]
       ],
-      "menuContext": "식당에서 생긴 일"
+      "menuContext": "둘이 앉은 식탁"
     },
     "en": {
       "title": "Who Is the Last Piece For?",
@@ -620,7 +620,7 @@ const books=[
           "둘이 별을 붙이는 동안 나는 테이프를 잘라주었다. 바로 정리시키고 싶었던 내 마음도 조금 쉬었다. 무엇이 필요한지 먼저 물어보는 시간을 기억해두고 싶다."
         ]
       ],
-      "menuContext": "집에서 생긴 일"
+      "menuContext": "친구를 맞는 집"
     },
     "en": {
       "title": "The Star Behind the Door",
@@ -763,7 +763,7 @@ const books=[
           "두 보호자가 강아지를 살피며 기다렸다. 나는 같은 공이 한쪽에겐 초대이고 다른 쪽에겐 낯선 자극일 수 있음을 다시 생각했다. 오늘은 조금 천천히 안내했다."
         ]
       ],
-      "menuContext": "놀이터에서 생긴 일"
+      "menuContext": "놀이터에서의 기다림"
     },
     "en": {
       "title": "The Day the Yellow Ball Waited",
@@ -906,7 +906,7 @@ const books=[
           "아이들이 별을 붙이는 동안 나는 필요한 것을 물었다. 빨리 완성시키고 싶던 내 마음도 알아차렸다. 오늘은 완성보다 아이들이 자기 말을 꺼내는 시간이 기억에 남는다."
         ]
       ],
-      "menuContext": "학교에서 생긴 일"
+      "menuContext": "함께 꾸미는 교실"
     },
     "en": {
       "title": "Our Wonderfully Wobbly Stars",
@@ -1049,7 +1049,7 @@ const books=[
           "차가 필요하면 알려달라고 했다. 같은 빈 의자를 보며 나는 주문을, 손님은 관계를 생각했다. 작은 카페에서도 마음이 향하는 곳은 제각각이었다."
         ]
       ],
-      "menuContext": "친구와 차를 마시다 생긴 일"
+      "menuContext": "친구와 차 한 잔"
     },
     "en": {
       "title": "Two Cups of Cooling Tea",
@@ -1192,7 +1192,7 @@ const books=[
           "컵은 그대로 기울어져 있었다. 오늘은 결과를 잘 만드는 일만큼 서로의 말을 듣는 시간이 중요했다. 나도 서둘러 도와주려던 마음을 잠시 내려놓았다."
         ]
       ],
-      "menuContext": "처음 간 공방에서 생긴 일"
+      "menuContext": "처음 찾아간 공방"
     },
     "en": {
       "title": "A First Step, a Little Later",
@@ -1335,7 +1335,7 @@ const books=[
           "문을 닫고 우리 집으로 돌아왔다. 같은 불빛을 보고 나는 조명의 방향을, 이웃은 돌아오는 사람을 생각했었다. 오늘 저녁에는 나도 인사를 한마디 더 건네고 싶었다."
         ]
       ],
-      "menuContext": "집으로 돌아온 저녁에 생긴 일"
+      "menuContext": "등불이 켜진 집"
     },
     "en": {
       "title": "A Light Left On",
