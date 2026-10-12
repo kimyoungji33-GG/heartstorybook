@@ -1,0 +1,1 @@
+(()=>{const lang=window.heartLanguage();if(lang!=='ko'&&window.heartBookLocales?.[lang])visualBooks.splice(0,visualBooks.length,...JSON.parse(JSON.stringify(window.heartBookLocales[lang])));})();
