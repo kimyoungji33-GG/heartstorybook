@@ -12,3 +12,5 @@
 
 .tale-books{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1000px;margin:24px auto 0;padding:24px;gap:34px}.tale-cover-picture{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;margin:0}.tale-cover .book-cover{padding:0;transform:none}.tale-cover .book-base{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;padding:16px 4px}.tale-book-title{font-size:24px;line-height:1.4}.tale-source{font:13px/1.7 'Malgun Gothic',sans-serif;color:#8a7961}.tale-open{font-size:18px;color:#63715c;margin-top:6px}@media(max-width:520px){.tale-books{grid-template-columns:1fr;padding:16px;gap:24px}}
 .tale-cover-picture{aspect-ratio:3/2;object-fit:contain}
+
+.guide-key-help{margin:14px 0 10px}.guide-key-help>b{font-size:16px;font-weight:400;color:#5e7056}.guide-key-help p{margin:5px 0;font-size:14px}
