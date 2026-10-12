@@ -1,0 +1,1 @@
+window.heartNarrationTracks={"bread:ko:read:0":{"src":"./audio/bread-ko-seoyeon-1.mp3","text":"나는 마음제빵소에서 내 차례를 기다렸어요. 빵 냄새를 맡으니 입꼬리가 올라갔어요. 주인아저씨는 앞 손님에게 빵 봉지를 건네고 나를 보며 고개를 끄덕였어요. 나는 장바구니를 들고 어떤 빵을 고를지 생각했어요.","character":"서연","provider":"TTSMaker","voice":"5706 Yerin","speed":0.9,"paragraphPauseMs":600}};
