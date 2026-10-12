@@ -14,7 +14,7 @@ gameNote:['내가 청개구리가 되어 엄마의 마음을 듣고, 내 마음�
 feelTitle:['아기 청개구리는 어떤 마음일까요?','How might Little Frog feel?','¿Cómo podría sentirse la ranita?'],
 feelNote:['여러 마음을 골라도 괜찮아요. 아직 잘 모르겠어도 괜찮아요.','You can choose more than one feeling. It is okay not to know yet.','Puedes elegir más de una emoción. Está bien no saberlo todavía.'],
 feelings:[['조금 아쉬워요','I feel disappointed','Me da pena parar'],['끝까지 만들고 싶어요','I want to finish','Quiero terminar'],['내가 정하고 싶어요','I want a choice','Quiero poder elegir'],['아직 잘 모르겠어요','I am not sure yet','Todavía no lo sé']],
-clueTitle:['작은 단서를 살펴봐요','Look at a small clue','Observa una pequeña pista'],
+clueTitle:['그림을 자세히 볼까요?','Shall we look closely at the picture?','¿Miramos el dibujo con atención?'],
 clue:['배에 마지막 나뭇잎이 아직 붙지 않았어요. 엄마는 하늘을 올려다보고 있어요. 둘은 무엇을 보고 있었을까요?','The boat still needs its last leaf. Mama is looking at the sky. What was each of them noticing?','Al barco le falta la última hoja. Mamá mira al cielo. ¿En qué se fijaba cada una?'],
 talkTitle:['내 마음을 어떻게 전해볼까요?','How could I share my feelings?','¿Cómo podría expresar lo que siento?'],
 talkNote:['모두 시도해볼 수 있는 말이에요. 마음에 드는 표현을 골라보세요.','All of these are words you can try. Choose one that feels right to you.','Puedes probar cualquiera de estas frases. Elige la que prefieras.'],
