@@ -1,6 +1,595 @@
 window.heartBookLocales = {
   "en": [
     {
+      "id": "errand",
+      "audience": "child",
+      "title": "Warm Bread in Little Hands",
+      "place": "Bakery",
+      "narrator": "Dasom",
+      "roles": [
+        "Dasom",
+        "Junho",
+        "The baker"
+      ],
+      "characters": [
+        {
+          "name": "Dasom",
+          "age": 8
+        },
+        {
+          "name": "Junho",
+          "age": 9
+        },
+        {
+          "name": "The baker",
+          "age": null
+        }
+      ],
+      "atlas": "./images/errand-view-0.png",
+      "atlasRows": 3,
+      "atlasCols": 2,
+      "scenes": [
+        {
+          "title": "My first bread errand",
+          "text": "I came to buy soft bread for Grandpa. I held my picture note and waited my turn. The baker smiled at me. Junho said hello from behind me, holding a yellow book.",
+          "viewpoint": "Dasom",
+          "panel": 0,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "The corners of a mouth lift a little.",
+              "x": 30,
+              "y": 54
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "There is a picture note of bread in a hand.",
+              "x": 40,
+              "y": 65
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/335",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.7148
+          }
+        },
+        {
+          "title": "Which bread should I choose?",
+          "text": "Two breads looked almost the same. The baker pointed to one. I wondered if she wanted me to hurry, so I stayed quiet. I really wanted to ask which bread was soft.",
+          "viewpoint": "Dasom",
+          "panel": 1,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Eyes open wide or a head tilts to look closer.",
+              "x": 23,
+              "y": 48
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "A hand points to one bread.",
+              "x": 52,
+              "y": 68
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/335",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.7148
+          }
+        },
+        {
+          "title": "Was I making him late?",
+          "text": "Junho looked at the clock and held his book tightly. I wondered if he was cross because I was taking so long. I pressed my lips together and fiddled with my note. Junho looked at his own book more often than at me.",
+          "viewpoint": "Dasom",
+          "panel": 2,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Lips close and shoulders draw inward.",
+              "x": 28,
+              "y": 49
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Junho holds his yellow book tightly.",
+              "x": 72,
+              "y": 71
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/308",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6094,
+            "h": 30.0781
+          }
+        },
+        {
+          "title": "A little glimpse between the pages",
+          "text": "A blue bookmark stuck out of the yellow book. Junho kept smoothing its crumpled end. That looked different from rushing me. I wondered what was worrying him.",
+          "viewpoint": "Dasom",
+          "panel": 3,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "A face turns toward the other person to listen.",
+              "x": 75,
+              "y": 26
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "The blue bookmark has a crumpled end.",
+              "x": 64,
+              "y": 52
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/308",
+          "crop": {
+            "x": 50.1953,
+            "y": 33.5938,
+            "w": 49.6094,
+            "h": 30.0781
+          }
+        },
+        {
+          "title": "A small question out loud",
+          "text": "“Which bread is soft? It is for Grandpa,” I asked. The baker looked at my note and explained slowly. Junho said, “I was worried about losing the library bookmark.” His thoughts were different from what I had guessed.",
+          "viewpoint": "Dasom",
+          "panel": 4,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Faces soften as they look toward one another.",
+              "x": 55,
+              "y": 43
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Dasom holds out her picture note.",
+              "x": 39,
+              "y": 62
+            },
+            {
+              "kind": "👂 귀 열쇠",
+              "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+              "x": 63,
+              "y": 57
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/363",
+          "crop": {
+            "x": 0.1953,
+            "y": 64.2578,
+            "w": 49.6094,
+            "h": 35.4492
+          }
+        },
+        {
+          "title": "A warm bag in my hands",
+          "text": "The baker handed the bread bag to my small hands. I thanked her for helping. Junho and I smiled as he tucked his bookmark back in. When I am unsure, I can ask and listen.",
+          "viewpoint": "Dasom",
+          "panel": 5,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Mouths lift into smiles and shoulders relax.",
+              "x": 84,
+              "y": 40
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Hands are passing the bread bag.",
+              "x": 43,
+              "y": 54
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/363",
+          "crop": {
+            "x": 50.1953,
+            "y": 64.2578,
+            "w": 49.6094,
+            "h": 35.4492
+          }
+        }
+      ],
+      "activities": [
+        {
+          "role": "Junho",
+          "atlas": "./images/errand-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "panel": 2,
+          "clues": [],
+          "scenes": [
+            {
+              "title": "My first bread errand",
+              "text": "I said hello when I saw Dasom at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me.",
+              "viewpoint": "Junho",
+              "panel": 0,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 72,
+                  "y": 48
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "There is a picture note of bread in a hand.",
+                  "x": 65,
+                  "y": 65
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/330",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "Which bread should I choose?",
+              "text": "My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Dasom seemed unsure what to choose too.",
+              "viewpoint": "Junho",
+              "panel": 1,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 74,
+                  "y": 49
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A hand points to one bread.",
+                  "x": 52,
+                  "y": 68
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/330",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "Was I making him late?",
+              "text": "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Dasom.",
+              "viewpoint": "Junho",
+              "panel": 2,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 74,
+                  "y": 47
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Junho holds his yellow book tightly.",
+                  "x": 30,
+                  "y": 79
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/308",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.1055,
+                "w": 49.6094,
+                "h": 30.0781
+              }
+            },
+            {
+              "title": "A little glimpse between the pages",
+              "text": "While smoothing the bookmark, I noticed pictures of bread on Dasom’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
+              "viewpoint": "Junho",
+              "panel": 3,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 74,
+                  "y": 52
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The blue bookmark has a crumpled end.",
+                  "x": 38,
+                  "y": 71
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/308",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.1055,
+                "w": 49.6094,
+                "h": 30.0781
+              }
+            },
+            {
+              "title": "A small question out loud",
+              "text": "Dasom asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her.",
+              "viewpoint": "Junho",
+              "panel": 4,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 72,
+                  "y": 46
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Dasom holds out her picture note.",
+                  "x": 65,
+                  "y": 68
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 80,
+                  "y": 60
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/368",
+              "crop": {
+                "x": 0.1953,
+                "y": 63.7695,
+                "w": 49.6094,
+                "h": 35.9375
+              }
+            },
+            {
+              "title": "A warm bag in my hands",
+              "text": "We smiled as I put the bookmark back. Dasom said she had missed my hello while looking at her note. Hearing her reason felt better than guessing.",
+              "viewpoint": "Junho",
+              "panel": 5,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 81,
+                  "y": 52
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hands are passing the bread bag.",
+                  "x": 68,
+                  "y": 70
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/368",
+              "crop": {
+                "x": 50.1953,
+                "y": 63.7695,
+                "w": 49.6094,
+                "h": 35.9375
+              }
+            }
+          ],
+          "aspect": "762/308",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.1055,
+            "w": 49.6094,
+            "h": 30.0781
+          }
+        },
+        {
+          "role": "The baker",
+          "atlas": "./images/errand-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "panel": 2,
+          "clues": [],
+          "scenes": [
+            {
+              "title": "My first bread errand",
+              "text": "A child came in holding a picture note. I smiled and gave her time to choose. It seemed like an errand she wanted to try herself.",
+              "viewpoint": "The baker",
+              "panel": 0,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 60,
+                  "y": 47
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "There is a picture note of bread in a hand.",
+                  "x": 55,
+                  "y": 68
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "763/330",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "Which bread should I choose?",
+              "text": "I pointed to one bread to help. When she stayed quiet, I wondered if she was counting her money. My gesture might have looked different to her.",
+              "viewpoint": "The baker",
+              "panel": 1,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 68,
+                  "y": 48
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A hand points to one bread.",
+                  "x": 49,
+                  "y": 66
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "761/330",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "Was I making him late?",
+              "text": "Two children stood quietly. One held a note and the other held a book. Could they each be worrying about something different?",
+              "viewpoint": "The baker",
+              "panel": 2,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 57,
+                  "y": 49
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Junho holds his yellow book tightly.",
+                  "x": 80,
+                  "y": 72
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "763/326",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.1055,
+                "w": 49.6745,
+                "h": 31.8359
+              }
+            },
+            {
+              "title": "A little glimpse between the pages",
+              "text": "I saw a crumpled bookmark in the yellow book. The child with the note kept looking between the breads. I left room for a question instead of hurrying them.",
+              "viewpoint": "The baker",
+              "panel": 3,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 72,
+                  "y": 35
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The blue bookmark has a crumpled end.",
+                  "x": 78,
+                  "y": 57
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "761/326",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.1055,
+                "w": 49.5443,
+                "h": 31.8359
+              }
+            },
+            {
+              "title": "A small question out loud",
+              "text": "The child asked which bread was soft enough for Grandpa. Now I understood what she needed to know. I explained slowly and listened to both children.",
+              "viewpoint": "The baker",
+              "panel": 4,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 57,
+                  "y": 45
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Dasom holds out her picture note.",
+                  "x": 48,
+                  "y": 70
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 65,
+                  "y": 59
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "763/350",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.5273,
+                "w": 49.6745,
+                "h": 34.1797
+              }
+            },
+            {
+              "title": "A warm bag in my hands",
+              "text": "I handed over the bread bag. The children smiled at each other. Giving them time helped their words come out.",
+              "viewpoint": "The baker",
+              "panel": 5,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 66,
+                  "y": 48
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hands are passing the bread bag.",
+                  "x": 62,
+                  "y": 76
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "761/350",
+              "crop": {
+                "x": 50.2604,
+                "y": 65.5273,
+                "w": 49.5443,
+                "h": 34.1797
+              }
+            }
+          ],
+          "aspect": "763/326",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.1055,
+            "w": 49.6745,
+            "h": 31.8359
+          }
+        }
+      ]
+    },
+    {
       "id": "bread",
       "title": "The Heart Behind the Bread",
       "place": "Bakery",
@@ -499,7 +1088,7 @@ window.heartBookLocales = {
           ]
         }
       ],
-      "audience": "child",
+      "audience": "adult",
       "characters": [
         {
           "name": "Seoyeon",
@@ -517,39 +1106,43 @@ window.heartBookLocales = {
     },
     {
       "id": "cups",
-      "title": "Your Cup, My Cup",
-      "place": "Café",
+      "title": "Two Cups on a Birthday",
+      "place": "Birthday party",
       "narrator": "Minseo",
       "roles": [
         "Minseo",
         "Yuna",
-        "The café owner"
+        "The party host"
       ],
-      "atlas": "./images/cups-story-atlas.png",
+      "atlas": "./images/cups-view-0.png",
       "scenes": [
         {
           "title": "A moment to share",
-          "text": "Yuna and I decided to have warm milk at the café. I chose a blue mug and Yuna chose an orange one. I felt happy seeing them side by side. I could not wait to tell her about my day.",
+          "text": "Yuna and I decided to have warm milk at the birthday party. I chose a blue mug and Yuna chose an orange one. I felt happy seeing them side by side. I could not wait to tell her about my day.",
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Minseo’s smile lifts a little. Is he happy to meet his friend today?",
-              "location": "Look at the marked place in the picture.",
-              "x": 30,
-              "y": 40
+              "kind": "👀 눈 열쇠",
+              "message": "The corners of a mouth lift a little.",
+              "x": 29,
+              "y": 56
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The blue and orange mugs are side by side. Notice how the friends sit together.",
-              "location": "Look at the marked place in the picture.",
-              "x": 48,
-              "y": 80
+              "kind": "🏃 행동 열쇠",
+              "message": "The two mugs sit close together.",
+              "x": 37,
+              "y": 86
             }
           ],
           "panel": 0,
-          "image": "./images/cups-panel-0.png",
-          "aspect": "512/355"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "764/335",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.7396,
+            "h": 32.7148
+          }
         },
         {
           "title": "What does that mean?",
@@ -557,23 +1150,27 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Yuna’s eyebrows are raised and her eyes turn toward the blue mug. What is she seeing?",
-              "location": "Look at the marked place in the picture.",
-              "x": 60,
-              "y": 44
+              "kind": "👀 눈 열쇠",
+              "message": "Eyes open wide or a head tilts to look closer.",
+              "x": 72,
+              "y": 47
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Yuna’s finger is close to the side of the blue mug. She is looking at its side, not just the whole mug.",
-              "location": "Look at the marked place in the picture.",
-              "x": 55,
-              "y": 75
+              "kind": "🏃 행동 열쇠",
+              "message": "A thin line is visible on the blue mug.",
+              "x": 48,
+              "y": 77
             }
           ],
           "panel": 1,
-          "image": "./images/cups-panel-1.png",
-          "aspect": "512/355"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "760/335",
+          "crop": {
+            "x": 50.3255,
+            "y": 0.293,
+            "w": 49.4792,
+            "h": 32.7148
+          }
         },
         {
           "title": "What I first imagined",
@@ -581,47 +1178,55 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Minseo’s smile drops and his shoulders stiffen. He might feel hurt.",
-              "location": "Look at the marked place in the picture.",
-              "x": 25,
-              "y": 42
+              "kind": "👀 눈 열쇠",
+              "message": "Lips close and shoulders draw inward.",
+              "x": 29,
+              "y": 53
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Yuna does not pick up the mug. Her hand pauses near its side. Why might she hesitate?",
-              "location": "Look at the marked place in the picture.",
-              "x": 70,
-              "y": 71
+              "kind": "🏃 행동 열쇠",
+              "message": "A hand pauses near the blue mug.",
+              "x": 46,
+              "y": 82
             }
           ],
           "panel": 2,
-          "image": "./images/cups-panel-2.png",
-          "aspect": "512/353"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "764/332",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.7396,
+            "h": 32.4219
+          }
         },
         {
           "title": "Looking a little closer",
-          "text": "The café owner came over to look at the mug. Yuna pointed to a thin line on its side. Only then did I lean closer. I wondered what she had been looking at all along.",
+          "text": "The party host came over to look at the mug. Yuna pointed to a thin line on its side. Only then did I lean closer. I wondered what she had been looking at all along.",
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "The café owner leans toward the mug. She is looking closely.",
-              "location": "Look at the marked place in the picture.",
-              "x": 40,
-              "y": 28
+              "kind": "👀 눈 열쇠",
+              "message": "A face turns toward the other person to listen.",
+              "x": 75,
+              "y": 54
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Yuna points to a thin line on its side. Shall we look at the same place?",
-              "location": "Look at the marked place in the picture.",
-              "x": 64,
-              "y": 66
+              "kind": "🏃 행동 열쇠",
+              "message": "A finger points toward the blue mug.",
+              "x": 44,
+              "y": 83
             }
           ],
           "panel": 3,
-          "image": "./images/cups-panel-3.png",
-          "aspect": "512/353"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "760/332",
+          "crop": {
+            "x": 50.3255,
+            "y": 33.5938,
+            "w": 49.4792,
+            "h": 32.4219
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -629,30 +1234,33 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Minseo’s eyebrows relax a little. Perhaps he has learned something new.",
-              "location": "Look at the marked place in the picture.",
-              "x": 25,
-              "y": 56
+              "kind": "👀 눈 열쇠",
+              "message": "Faces soften as they look toward one another.",
+              "x": 73,
+              "y": 53
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The owner brings a new mug. The side Yuna was watching had a thin crack.",
-              "location": "Look at the marked place in the picture.",
+              "kind": "🏃 행동 열쇠",
+              "message": "A new blue mug has been brought over.",
               "x": 46,
-              "y": 73
+              "y": 85
             },
             {
-              "kind": "👂 Ear key",
-              "message": "Words from the story: I was worried your mug might break,",
-              "x": 25,
-              "y": 71,
-              "location": "Look at the marked place in the picture."
+              "kind": "👂 귀 열쇠",
+              "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+              "x": 81,
+              "y": 67
             }
           ],
           "panel": 4,
-          "image": "./images/cups-panel-4.png",
-          "aspect": "512/337"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "764/339",
+          "crop": {
+            "x": 0.1953,
+            "y": 66.6016,
+            "w": 49.7396,
+            "h": 33.1055
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -660,30 +1268,34 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Both friends smile and their shoulders relax. Compare their faces with before.",
-              "location": "Look at the marked place in the picture.",
-              "x": 30,
-              "y": 41
+              "kind": "👀 눈 열쇠",
+              "message": "Mouths lift into smiles and shoulders relax.",
+              "x": 72,
+              "y": 55
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The friends look at each other again. Now it is time to listen to each other rather than watch the mugs.",
-              "location": "Look at the marked place in the picture.",
-              "x": 71,
-              "y": 39
+              "kind": "🏃 행동 열쇠",
+              "message": "The mugs are in front of them as they talk again.",
+              "x": 39,
+              "y": 83
             }
           ],
           "panel": 5,
-          "image": "./images/cups-panel-5.png",
-          "aspect": "512/337"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "760/339",
+          "crop": {
+            "x": 50.3255,
+            "y": 66.6016,
+            "w": 49.4792,
+            "h": 33.1055
+          }
         }
       ],
       "activities": [
         {
           "role": "Yuna",
           "text": "I was glad to sit beside Minseo. I wanted to listen to his day without rushing.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -691,23 +1303,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo is smiling.",
-                  "x": 49,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 73,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "A hand pauses beside the blue mug.",
-                  "x": 50,
-                  "y": 70
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The two mugs sit close together.",
+                  "x": 76,
+                  "y": 79
                 }
               ],
               "panel": 0,
-              "image": "./images/cups-camera-0-scene-1.png",
-              "aspect": "627/399"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "What does that mean?",
@@ -715,23 +1331,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo looks at the mug with wide eyes.",
-                  "x": 47,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 77,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Look again at the side of the blue mug.",
-                  "x": 61,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A thin line is visible on the blue mug.",
+                  "x": 77,
+                  "y": 80
                 }
               ],
               "panel": 1,
-              "image": "./images/cups-camera-0-scene-2.png",
-              "aspect": "619/399"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "What I first imagined",
@@ -739,23 +1359,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo’s smile has dropped.",
-                  "x": 40,
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 77,
                   "y": 45
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo waits with his arms drawn together.",
-                  "x": 40,
-                  "y": 66
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A hand pauses near the blue mug.",
+                  "x": 76,
+                  "y": 80
                 }
               ],
               "panel": 2,
-              "image": "./images/cups-camera-0-scene-3.png",
-              "aspect": "627/380"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "763/329",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.1289
+              }
             },
             {
               "title": "Looking a little closer",
@@ -763,23 +1387,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo rests his chin on his hands while waiting.",
-                  "x": 30,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 78,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The owner carefully picks up the blue mug.",
-                  "x": 64,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A finger points toward the blue mug.",
+                  "x": 70,
+                  "y": 82
                 }
               ],
               "panel": 3,
-              "image": "./images/cups-camera-0-scene-4.png",
-              "aspect": "619/380"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "761/329",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.1289
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -787,30 +1415,33 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo’s eyes grow wide.",
-                  "x": 28,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 77,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The owner brings a new mug.",
-                  "x": 55,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A new blue mug has been brought over.",
+                  "x": 58,
+                  "y": 75
                 },
                 {
-                  "kind": "👂 Ear key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Words from the story: I was worried your mug might break,",
-                  "x": 41,
-                  "y": 58
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 85,
+                  "y": 66
                 }
               ],
               "panel": 4,
-              "image": "./images/cups-camera-0-scene-5.png",
-              "aspect": "627/463"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "763/342",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.3086,
+                "w": 49.6745,
+                "h": 33.3984
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -818,180 +1449,230 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo smiles again.",
-                  "x": 50,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 80,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "With a new mug in front of them, they talk again.",
-                  "x": 50,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The mugs are in front of them as they talk again.",
+                  "x": 70,
+                  "y": 84
                 }
               ],
               "panel": 5,
-              "image": "./images/cups-camera-0-scene-6.png",
-              "aspect": "619/463"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "761/342",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.3086,
+                "w": 49.5443,
+                "h": 33.3984
+              }
             }
           ],
-          "image": "./images/cups-camera-0-scene-3.png",
-          "aspect": "512/491"
+          "atlas": "./images/cups-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/329",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6745,
+            "h": 32.1289
+          }
         },
         {
-          "role": "The café owner",
+          "role": "The party host",
           "text": "The two children chose their mugs and sat together. I hoped they would enjoy sharing their stories.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
               "text": "The two children chose their mugs and sat together. I hoped they would enjoy sharing their stories.",
-              "viewpoint": "The café owner",
+              "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The two children sit smiling.",
-                  "x": 48,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 51,
+                  "y": 54
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "A hand pauses beside the blue mug.",
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The two mugs sit close together.",
                   "x": 50,
-                  "y": 70
+                  "y": 83
                 }
               ],
               "panel": 0,
-              "image": "./images/cups-camera-1-scene-1.png",
-              "aspect": "622/387"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "763/336",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.8125
+              }
             },
             {
               "title": "What does that mean?",
               "text": "One child kept looking at a mug. I wanted to come closer and see what had caught her eye.",
-              "viewpoint": "The café owner",
+              "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo’s eyes grow wide.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 51,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Look again at the side of the blue mug.",
-                  "x": 63,
-                  "y": 70
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A thin line is visible on the blue mug.",
+                  "x": 57,
+                  "y": 82
                 }
               ],
               "panel": 1,
-              "image": "./images/cups-camera-1-scene-2.png",
-              "aspect": "624/387"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "761/336",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.8125
+              }
             },
             {
               "title": "What I first imagined",
               "text": "Minseo turned his face away and Yuna stopped her hand. Silence did not necessarily mean they were thinking the same thing.",
-              "viewpoint": "The café owner",
+              "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo’s lips are pressed shut.",
-                  "x": 45,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 51,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo waits with his arms drawn together.",
-                  "x": 45,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A hand pauses near the blue mug.",
+                  "x": 64,
+                  "y": 81
                 }
               ],
               "panel": 2,
-              "image": "./images/cups-camera-1-scene-3.png",
-              "aspect": "622/395"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "763/333",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.6914,
+                "w": 49.6745,
+                "h": 32.5195
+              }
             },
             {
               "title": "Looking a little closer",
               "text": "I saw a crack where Yuna pointed. I decided to change the mug so they could drink safely.",
-              "viewpoint": "The café owner",
+              "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Yuna keeps looking at the mug.",
-                  "x": 78,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 77,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The owner carefully picks up the blue mug.",
-                  "x": 66,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A finger points toward the blue mug.",
+                  "x": 64,
+                  "y": 84
                 }
               ],
               "panel": 3,
-              "image": "./images/cups-camera-1-scene-4.png",
-              "aspect": "624/395"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "761/333",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.6914,
+                "w": 49.5443,
+                "h": 32.5195
+              }
             },
             {
               "title": "A feeling I had not seen",
               "text": "When I brought a new mug, the children told each other what they had first thought. I listened instead of explaining their feelings for them.",
-              "viewpoint": "The café owner",
+              "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Minseo looks at Yuna.",
-                  "x": 45,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 53,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The owner brings a new mug.",
-                  "x": 60,
-                  "y": 75
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A new blue mug has been brought over.",
+                  "x": 65,
+                  "y": 84
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 61,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/cups-camera-1-scene-5.png",
-              "aspect": "622/460"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "763/337",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.7969,
+                "w": 49.6745,
+                "h": 32.9102
+              }
             },
             {
               "title": "The same moment, a new feeling",
               "text": "The two children looked at each other and smiled again. While we changed the mug, they also shared feelings they had not spoken about.",
-              "viewpoint": "The café owner",
+              "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The two children are smiling.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 79,
+                  "y": 54
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "With a new mug in front of them, they talk again.",
-                  "x": 50,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The mugs are in front of them as they talk again.",
+                  "x": 66,
+                  "y": 83
                 }
               ],
               "panel": 5,
-              "image": "./images/cups-camera-1-scene-6.png",
-              "aspect": "624/460"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "761/337",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.7969,
+                "w": 49.5443,
+                "h": 32.9102
+              }
             }
           ],
-          "image": "./images/cups-camera-1-scene-3.png",
-          "aspect": "512/491"
+          "atlas": "./images/cups-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/333",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.6914,
+            "w": 49.6745,
+            "h": 32.5195
+          }
         }
       ],
       "audience": "child",
@@ -1005,14 +1686,16 @@ window.heartBookLocales = {
           "age": 9
         },
         {
-          "name": "The café owner",
+          "name": "The party host",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "plate",
-      "title": "After You",
+      "title": "Who Is the Last Piece For?",
       "place": "Restaurant",
       "narrator": "Sofia",
       "roles": [
@@ -1020,7 +1703,7 @@ window.heartBookLocales = {
         "Noah",
         "The restaurant owner"
       ],
-      "atlas": "./images/plate-story-atlas.png",
+      "atlas": "./images/plate-view-0.png",
       "scenes": [
         {
           "title": "A moment to share",
@@ -1028,23 +1711,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sofia’s smile lifts. Does she enjoy eating together?",
-              "location": "Look at the marked place in the picture.",
-              "x": 28,
-              "y": 39
+              "kind": "👀 눈 열쇠",
+              "message": "The corners of a mouth lift a little.",
+              "x": 27,
+              "y": 55
             },
             {
-              "kind": "🏃 Action key",
-              "message": "One piece of bread is between them. We do not yet know what each is thinking.",
-              "location": "Look at the marked place in the picture.",
+              "kind": "🏃 행동 열쇠",
+              "message": "A piece of bread sits between them.",
               "x": 50,
-              "y": 80
+              "y": 83
             }
           ],
           "panel": 0,
-          "image": "./images/plate-panel-0.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/409",
+          "crop": {
+            "x": 0.2392,
+            "y": 0.2392,
+            "w": 49.5215,
+            "h": 32.6156
+          }
         },
         {
           "title": "What does that mean?",
@@ -1052,23 +1739,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Noah looks down. Can a face alone tell us his reason?",
-              "location": "Look at the marked place in the picture.",
-              "x": 28,
-              "y": 30
+              "kind": "👀 눈 열쇠",
+              "message": "Eyes open wide or a head tilts to look closer.",
+              "x": 74,
+              "y": 49
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Noah pushes the plate toward Sofia. He might not want it, or might want to give it to her.",
-              "location": "Look at the marked place in the picture.",
-              "x": 55,
-              "y": 77
+              "kind": "🏃 행동 열쇠",
+              "message": "A hand is sliding the plate closer.",
+              "x": 54,
+              "y": 83
             }
           ],
           "panel": 1,
-          "image": "./images/plate-panel-1.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/409",
+          "crop": {
+            "x": 50.2392,
+            "y": 0.2392,
+            "w": 49.5215,
+            "h": 32.6156
+          }
         },
         {
           "title": "What I first imagined",
@@ -1076,23 +1767,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sofia presses her lips shut. Has she not yet spoken about feeling hurt?",
-              "location": "Look at the marked place in the picture.",
-              "x": 27,
-              "y": 45
+              "kind": "👀 눈 열쇠",
+              "message": "Lips close and shoulders draw inward.",
+              "x": 30,
+              "y": 47
             },
             {
-              "kind": "🏃 Action key",
-              "message": "One of Noah’s hands is on his chest. Is there something he wants to say?",
-              "location": "Look at the marked place in the picture.",
-              "x": 75,
-              "y": 65
+              "kind": "🏃 행동 열쇠",
+              "message": "Hands are near a chest and the plate.",
+              "x": 57,
+              "y": 84
             }
           ],
           "panel": 2,
-          "image": "./images/plate-panel-2.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/408",
+          "crop": {
+            "x": 0.2392,
+            "y": 33.3333,
+            "w": 49.5215,
+            "h": 32.5359
+          }
         },
         {
           "title": "Looking a little closer",
@@ -1100,23 +1795,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Noah’s eyes widen. Sofia’s thought seems to surprise him.",
-              "location": "Look at the marked place in the picture.",
-              "x": 74,
+              "kind": "👀 눈 열쇠",
+              "message": "A face turns toward the other person to listen.",
+              "x": 28,
               "y": 49
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The owner lowers herself and opens her hands while waiting for their words.",
-              "location": "Look at the marked place in the picture.",
-              "x": 32,
-              "y": 70
+              "kind": "🏃 행동 열쇠",
+              "message": "Someone speaks with open hands.",
+              "x": 57,
+              "y": 84
             }
           ],
           "panel": 3,
-          "image": "./images/plate-panel-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/408",
+          "crop": {
+            "x": 50.2392,
+            "y": 33.3333,
+            "w": 49.5215,
+            "h": 32.5359
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -1124,30 +1823,33 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sofia’s eyebrows relax a little. She has heard something different from her first thought.",
-              "location": "Look at the marked place in the picture.",
-              "x": 72,
-              "y": 43
+              "kind": "👀 눈 열쇠",
+              "message": "Faces soften as they look toward one another.",
+              "x": 30,
+              "y": 48
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Noah speaks with a hand on his chest. He is sharing a feeling he had not put into words.",
-              "location": "Look at the marked place in the picture.",
-              "x": 26,
-              "y": 51
+              "kind": "🏃 행동 열쇠",
+              "message": "They point gently toward one another as they speak.",
+              "x": 52,
+              "y": 80
             },
             {
-              "kind": "👂 Ear key",
-              "message": "Words from the story: You walked a lot, so I thought you might be hungry,",
-              "x": 72,
-              "y": 58,
-              "location": "Look at the marked place in the picture."
+              "kind": "👂 귀 열쇠",
+              "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+              "x": 38,
+              "y": 62
             }
           ],
           "panel": 4,
-          "image": "./images/plate-panel-4.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/419",
+          "crop": {
+            "x": 0.2392,
+            "y": 66.3477,
+            "w": 49.5215,
+            "h": 33.4131
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -1155,30 +1857,34 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Their shoulders lower and they smile. Listening has changed their expressions.",
-              "location": "Look at the marked place in the picture.",
-              "x": 25,
+              "kind": "👀 눈 열쇠",
+              "message": "Mouths lift into smiles and shoulders relax.",
+              "x": 73,
               "y": 51
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The bread is divided in two. They chose together after asking about each other’s feelings.",
-              "location": "Look at the marked place in the picture.",
-              "x": 50,
-              "y": 83
+              "kind": "🏃 행동 열쇠",
+              "message": "The bread has been divided into little pieces.",
+              "x": 51,
+              "y": 84
             }
           ],
           "panel": 5,
-          "image": "./images/plate-panel-5.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/419",
+          "crop": {
+            "x": 50.2392,
+            "y": 66.3477,
+            "w": 49.5215,
+            "h": 33.4131
+          }
         }
       ],
       "activities": [
         {
           "role": "Noah",
           "text": "I liked eating with Sofia. Seeing the last piece of bread reminded me that she had walked a lot.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -1186,23 +1892,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia smiles.",
-                  "x": 58,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 72,
+                  "y": 45
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "A piece of bread is between them.",
-                  "x": 62,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A piece of bread sits between them.",
+                  "x": 57,
+                  "y": 79
                 }
               ],
               "panel": 0,
-              "image": "./images/plate-camera-0-scene-1.png",
-              "aspect": "623/408"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/408",
+              "crop": {
+                "x": 0.2392,
+                "y": 0.2392,
+                "w": 49.5215,
+                "h": 32.5359
+              }
             },
             {
               "title": "What does that mean?",
@@ -1210,23 +1920,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia widens her eyes and raises her hands.",
-                  "x": 62,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 71,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Noah pushes the plate toward Sofia.",
-                  "x": 40,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A hand is sliding the plate closer.",
+                  "x": 53,
+                  "y": 82
                 }
               ],
               "panel": 1,
-              "image": "./images/plate-camera-0-scene-2.png",
-              "aspect": "623/408"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/408",
+              "crop": {
+                "x": 50.2392,
+                "y": 0.2392,
+                "w": 49.5215,
+                "h": 32.5359
+              }
             },
             {
               "title": "What I first imagined",
@@ -1234,23 +1948,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia’s smile drops.",
-                  "x": 60,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 72,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia’s hand stops instead of reaching for the plate.",
-                  "x": 60,
-                  "y": 57
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hands are near a chest and the plate.",
+                  "x": 53,
+                  "y": 86
                 }
               ],
               "panel": 2,
-              "image": "./images/plate-camera-0-scene-3.png",
-              "aspect": "623/401"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/407",
+              "crop": {
+                "x": 0.2392,
+                "y": 33.2536,
+                "w": 49.5215,
+                "h": 32.4561
+              }
             },
             {
               "title": "Looking a little closer",
@@ -1258,23 +1976,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia opens her mouth to share her thought.",
-                  "x": 80,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 75,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "With open hands, they listen to each other.",
-                  "x": 57,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Someone speaks with open hands.",
+                  "x": 60,
+                  "y": 87
                 }
               ],
               "panel": 3,
-              "image": "./images/plate-camera-0-scene-4.png",
-              "aspect": "623/401"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/407",
+              "crop": {
+                "x": 50.2392,
+                "y": 33.2536,
+                "w": 49.5215,
+                "h": 32.4561
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -1282,23 +2004,33 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia looks at Noah.",
-                  "x": 58,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 70,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Noah puts a hand on his chest and shares his feeling.",
-                  "x": 33,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "They point gently toward one another as they speak.",
+                  "x": 52,
+                  "y": 88
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 78,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/plate-camera-0-scene-5.png",
-              "aspect": "623/433"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/421",
+              "crop": {
+                "x": 0.2392,
+                "y": 66.1882,
+                "w": 49.5215,
+                "h": 33.5726
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -1306,32 +2038,44 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia smiles again.",
-                  "x": 76,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 75,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They share the bread and put it on two plates.",
-                  "x": 76,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The bread has been divided into little pieces.",
+                  "x": 62,
+                  "y": 77
                 }
               ],
               "panel": 5,
-              "image": "./images/plate-camera-0-scene-6.png",
-              "aspect": "623/433"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/421",
+              "crop": {
+                "x": 50.2392,
+                "y": 66.1882,
+                "w": 49.5215,
+                "h": 33.5726
+              }
             }
           ],
-          "image": "./images/plate-camera-0-scene-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "621/407",
+          "crop": {
+            "x": 0.2392,
+            "y": 33.2536,
+            "w": 49.5215,
+            "h": 32.4561
+          }
         },
         {
           "role": "The restaurant owner",
           "text": "One piece of bread remained between the children. I did not yet know how they wanted to share it.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -1339,23 +2083,27 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The two children are smiling.",
-                  "x": 49,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 75,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "A piece of bread is between them.",
-                  "x": 60,
-                  "y": 74
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A piece of bread sits between them.",
+                  "x": 64,
+                  "y": 83
                 }
               ],
               "panel": 0,
-              "image": "./images/plate-camera-1-scene-1.png",
-              "aspect": "622/397"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "What does that mean?",
@@ -1363,23 +2111,27 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia raises her hand and pauses.",
-                  "x": 80,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 49,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Noah pushes the plate toward Sofia.",
-                  "x": 53,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A hand is sliding the plate closer.",
+                  "x": 63,
+                  "y": 82
                 }
               ],
               "panel": 1,
-              "image": "./images/plate-camera-1-scene-2.png",
-              "aspect": "624/397"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "What I first imagined",
@@ -1387,23 +2139,27 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia folds her arms and presses her lips shut.",
-                  "x": 45,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 76,
+                  "y": 53
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia’s hand stops instead of reaching for the plate.",
-                  "x": 45,
-                  "y": 60
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hands are near a chest and the plate.",
+                  "x": 61,
+                  "y": 83
                 }
               ],
               "panel": 2,
-              "image": "./images/plate-camera-1-scene-3.png",
-              "aspect": "622/390"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "763/333",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.5195
+              }
             },
             {
               "title": "Looking a little closer",
@@ -1411,23 +2167,27 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The two children look with wide eyes.",
-                  "x": 49,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 75,
+                  "y": 55
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "With open hands, they listen to each other.",
-                  "x": 46,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Someone speaks with open hands.",
+                  "x": 65,
+                  "y": 84
                 }
               ],
               "panel": 3,
-              "image": "./images/plate-camera-1-scene-4.png",
-              "aspect": "624/390"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "761/333",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.5195
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -1435,23 +2195,33 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sofia listens to Noah.",
-                  "x": 78,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 77,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Noah puts a hand on his chest and shares his feeling.",
-                  "x": 42,
-                  "y": 58
+                  "kind": "🏃 행동 열쇠",
+                  "message": "They point gently toward one another as they speak.",
+                  "x": 63,
+                  "y": 84
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 85,
+                  "y": 62
                 }
               ],
               "panel": 4,
-              "image": "./images/plate-camera-1-scene-5.png",
-              "aspect": "622/455"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "763/338",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.6992,
+                "w": 49.6745,
+                "h": 33.0078
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -1459,27 +2229,39 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The children look at each other and smile.",
-                  "x": 48,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 75,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They share the bread and put it on two plates.",
-                  "x": 70,
-                  "y": 76
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The bread has been divided into little pieces.",
+                  "x": 64,
+                  "y": 83
                 }
               ],
               "panel": 5,
-              "image": "./images/plate-camera-1-scene-6.png",
-              "aspect": "624/455"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "761/338",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.6992,
+                "w": 49.5443,
+                "h": 33.0078
+              }
             }
           ],
-          "image": "./images/plate-camera-1-scene-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/333",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6745,
+            "h": 32.5195
+          }
         }
       ],
       "audience": "child",
@@ -1496,11 +2278,13 @@ window.heartBookLocales = {
           "name": "The restaurant owner",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "door",
-      "title": "Before the Door Opens",
+      "title": "The Star Behind the Door",
       "place": "Home",
       "narrator": "Sora",
       "roles": [
@@ -1508,7 +2292,7 @@ window.heartBookLocales = {
         "Mom",
         "Sua"
       ],
-      "atlas": "./images/door-story-atlas.png",
+      "atlas": "./images/door-view-0.png",
       "scenes": [
         {
           "title": "A moment to share",
@@ -1516,23 +2300,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sora smiles. Who might she be thinking of while making her star?",
-              "location": "Look at the marked place in the picture.",
-              "x": 30,
-              "y": 47
+              "kind": "👀 눈 열쇠",
+              "message": "The corners of a mouth lift a little.",
+              "x": 27,
+              "y": 44
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Sora holds a yellow paper star. Some points are still not glued.",
-              "location": "Look at the marked place in the picture.",
-              "x": 53,
-              "y": 70
+              "kind": "🏃 행동 열쇠",
+              "message": "A yellow paper star is being made.",
+              "x": 29,
+              "y": 66
             }
           ],
           "panel": 0,
-          "image": "./images/door-panel-0.png",
-          "aspect": "512/369"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "What does that mean?",
@@ -1540,23 +2328,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sora’s eyes widen and her shoulders rise. Has something surprised her?",
-              "location": "Look at the marked place in the picture.",
-              "x": 32,
-              "y": 41
+              "kind": "👀 눈 열쇠",
+              "message": "Eyes open wide or a head tilts to look closer.",
+              "x": 30,
+              "y": 43
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Sora hides the yellow star behind her back. We have not heard why yet.",
-              "location": "Look at the marked place in the picture.",
-              "x": 34,
-              "y": 60
+              "kind": "🏃 행동 열쇠",
+              "message": "The tip of a yellow star peeks from behind a back.",
+              "x": 18,
+              "y": 70
             }
           ],
           "panel": 1,
-          "image": "./images/door-panel-1.png",
-          "aspect": "512/369"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "What I first imagined",
@@ -1564,23 +2356,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sora’s lips press shut and Mom draws her eyebrows together too. Are they thinking the same thing?",
-              "location": "Look at the marked place in the picture.",
-              "x": 32,
-              "y": 42
+              "kind": "👀 눈 열쇠",
+              "message": "Lips close and shoulders draw inward.",
+              "x": 27,
+              "y": 50
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Sora holds the star tightly. Is what she is making important to her?",
-              "location": "Look at the marked place in the picture.",
-              "x": 26,
-              "y": 66
+              "kind": "🏃 행동 열쇠",
+              "message": "The star is held behind a back.",
+              "x": 17,
+              "y": 70
             }
           ],
           "panel": 2,
-          "image": "./images/door-panel-2.png",
-          "aspect": "512/397"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/328",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 32.0313
+          }
         },
         {
           "title": "Looking a little closer",
@@ -1588,23 +2384,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Mom looks at Sora at her eye level. She waits without rushing to an answer.",
-              "location": "Look at the marked place in the picture.",
-              "x": 60,
-              "y": 42
+              "kind": "👀 눈 열쇠",
+              "message": "A face turns toward the other person to listen.",
+              "x": 35,
+              "y": 50
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Mom’s hands are open and a point of the yellow star shows behind Sora’s hand.",
-              "location": "Look at the marked place in the picture.",
-              "x": 59,
-              "y": 60
+              "kind": "🏃 행동 열쇠",
+              "message": "An open hand leaves time to speak.",
+              "x": 45,
+              "y": 59
             }
           ],
           "panel": 3,
-          "image": "./images/door-panel-3.png",
-          "aspect": "512/397"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/328",
+          "crop": {
+            "x": 50.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 32.0313
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -1612,30 +2412,33 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Sua’s eyebrows rise. Has he heard something different from his first guess?",
-              "location": "Look at the marked place in the picture.",
-              "x": 84,
-              "y": 34
+              "kind": "👀 눈 열쇠",
+              "message": "Faces soften as they look toward one another.",
+              "x": 31,
+              "y": 51
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Sora shows the star she had hidden. Her words also share the feeling behind making the gift.",
-              "location": "Look at the marked place in the picture.",
-              "x": 43,
-              "y": 52
+              "kind": "🏃 행동 열쇠",
+              "message": "The unfinished star is being shown.",
+              "x": 40,
+              "y": 72
             },
             {
-              "kind": "👂 Ear key",
-              "message": "Words from the story: I want to give it to Sua, but I have not finished,",
-              "x": 84,
-              "y": 49,
-              "location": "Look at the marked place in the picture."
+              "kind": "👂 귀 열쇠",
+              "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+              "x": 39,
+              "y": 65
             }
           ],
           "panel": 4,
-          "image": "./images/door-panel-4.png",
-          "aspect": "512/370"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/342",
+          "crop": {
+            "x": 0.1953,
+            "y": 66.3086,
+            "w": 49.6094,
+            "h": 33.3984
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -1643,30 +2446,34 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "All three smile. Compare their faces with those at the doorway before.",
-              "location": "Look at the marked place in the picture.",
-              "x": 44,
-              "y": 54
+              "kind": "👀 눈 열쇠",
+              "message": "Mouths lift into smiles and shoulders relax.",
+              "x": 42,
+              "y": 43
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Sora gives the star to Sua. Waiting helped them learn a little about each other’s feelings.",
-              "location": "Look at the marked place in the picture.",
-              "x": 50,
-              "y": 63
+              "kind": "🏃 행동 열쇠",
+              "message": "Hands come together to finish the star.",
+              "x": 57,
+              "y": 77
             }
           ],
           "panel": 5,
-          "image": "./images/door-panel-5.png",
-          "aspect": "512/370"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/342",
+          "crop": {
+            "x": 50.1953,
+            "y": 66.3086,
+            "w": 49.6094,
+            "h": 33.3984
+          }
         }
       ],
       "activities": [
         {
           "role": "Mom",
           "text": "I looked around the doorway because Sua was coming. I did not yet know what Sora was making with the paper.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -1674,23 +2481,27 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora smiles at her star.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 53,
+                  "y": 43
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora holds a yellow star and scissors.",
-                  "x": 54,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A yellow paper star is being made.",
+                  "x": 56,
+                  "y": 69
                 }
               ],
               "panel": 0,
-              "image": "./images/door-camera-0-scene-1.png",
-              "aspect": "622/412"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "What does that mean?",
@@ -1698,23 +2509,27 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora turns around with wide eyes.",
-                  "x": 55,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 50,
+                  "y": 43
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora holds the star tightly close to her body.",
-                  "x": 46,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The tip of a yellow star peeks from behind a back.",
+                  "x": 40,
+                  "y": 70
                 }
               ],
               "panel": 1,
-              "image": "./images/door-camera-0-scene-2.png",
-              "aspect": "624/412"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "What I first imagined",
@@ -1722,23 +2537,27 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora lowers her head and presses her lips shut.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 55,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora waits while holding the star tightly.",
-                  "x": 51,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The star is held behind a back.",
+                  "x": 42,
+                  "y": 72
                 }
               ],
               "panel": 2,
-              "image": "./images/door-camera-0-scene-3.png",
-              "aspect": "622/396"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.4961,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "Looking a little closer",
@@ -1746,23 +2565,27 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora is looking down.",
-                  "x": 50,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 57,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Mom opens her hands and waits for words.",
-                  "x": 64,
-                  "y": 77
+                  "kind": "🏃 행동 열쇠",
+                  "message": "An open hand leaves time to speak.",
+                  "x": 45,
+                  "y": 54
                 }
               ],
               "panel": 3,
-              "image": "./images/door-camera-0-scene-4.png",
-              "aspect": "624/396"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.4961,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -1770,23 +2593,33 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora opens her mouth to talk about the star.",
-                  "x": 53,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 57,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora shows the yellow star.",
-                  "x": 59,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The unfinished star is being shown.",
+                  "x": 48,
+                  "y": 74
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 65,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/door-camera-0-scene-5.png",
-              "aspect": "622/434"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/350",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.5273,
+                "w": 49.6094,
+                "h": 34.1797
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -1794,32 +2627,44 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora and Sua smile.",
-                  "x": 55,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 56,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora hands the star to Sua.",
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hands come together to finish the star.",
                   "x": 66,
-                  "y": 70
+                  "y": 77
                 }
               ],
               "panel": 5,
-              "image": "./images/door-camera-0-scene-6.png",
-              "aspect": "624/434"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/350",
+              "crop": {
+                "x": 50.1953,
+                "y": 65.5273,
+                "w": 49.6094,
+                "h": 34.1797
+              }
             }
           ],
-          "image": "./images/door-camera-0-scene-3.png",
-          "aspect": "512/400"
+          "atlas": "./images/door-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "762/322",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.4961,
+            "w": 49.6094,
+            "h": 31.4453
+          }
         },
         {
           "role": "Sua",
           "text": "I enjoyed going to Sora’s home. I wondered what we would do together.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -1827,23 +2672,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora smiles at her star.",
-                  "x": 30,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 75,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora holds a yellow star and scissors.",
-                  "x": 40,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A yellow paper star is being made.",
+                  "x": 75,
+                  "y": 68
                 }
               ],
               "panel": 0,
-              "image": "./images/door-camera-1-scene-1.png",
-              "aspect": "623/410"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "What does that mean?",
@@ -1851,23 +2700,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora opens her eyes wide as if surprised.",
-                  "x": 29,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 77,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora holds the star tightly close to her body.",
-                  "x": 27,
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The tip of a yellow star peeks from behind a back.",
+                  "x": 69,
                   "y": 69
                 }
               ],
               "panel": 1,
-              "image": "./images/door-camera-1-scene-2.png",
-              "aspect": "623/410"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 50.1302,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "What I first imagined",
@@ -1875,23 +2728,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora’s head is lowered.",
-                  "x": 24,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 69,
+                  "y": 56
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora waits while holding the star tightly.",
-                  "x": 22,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The star is held behind a back.",
+                  "x": 62,
+                  "y": 76
                 }
               ],
               "panel": 2,
-              "image": "./images/door-camera-1-scene-3.png",
-              "aspect": "623/404"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "761/329",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.1289
+              }
             },
             {
               "title": "Looking a little closer",
@@ -1899,23 +2756,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Mom leans toward Sora.",
-                  "x": 46,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 74,
+                  "y": 56
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Mom opens her hands and waits for words.",
-                  "x": 40,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "An open hand leaves time to speak.",
+                  "x": 69,
+                  "y": 76
                 }
               ],
               "panel": 3,
-              "image": "./images/door-camera-1-scene-4.png",
-              "aspect": "623/404"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "763/329",
+              "crop": {
+                "x": 50.1302,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.1289
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -1923,23 +2784,33 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora speaks with wide eyes.",
-                  "x": 26,
-                  "y": 39
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 49,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora shows the yellow star.",
-                  "x": 42,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The unfinished star is being shown.",
+                  "x": 50,
+                  "y": 72
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 57,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/door-camera-1-scene-5.png",
-              "aspect": "623/428"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "761/342",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.3086,
+                "w": 49.5443,
+                "h": 33.3984
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -1947,27 +2818,39 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora is smiling.",
-                  "x": 27,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 68,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Sora hands the star to Sua.",
-                  "x": 54,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hands come together to finish the star.",
+                  "x": 73,
+                  "y": 72
                 }
               ],
               "panel": 5,
-              "image": "./images/door-camera-1-scene-6.png",
-              "aspect": "623/428"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "763/342",
+              "crop": {
+                "x": 50.1302,
+                "y": 66.3086,
+                "w": 49.6745,
+                "h": 33.3984
+              }
             }
           ],
-          "image": "./images/door-camera-1-scene-3.png",
-          "aspect": "512/400"
+          "atlas": "./images/door-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "761/329",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.5443,
+            "h": 32.1289
+          }
         }
       ],
       "audience": "child",
@@ -1984,43 +2867,49 @@ window.heartBookLocales = {
           "name": "Sua",
           "age": 8
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "ball",
-      "title": "Waiting for the Yellow Ball",
-      "place": "Dog park",
+      "title": "The Day the Yellow Ball Waited",
+      "place": "Playground",
       "narrator": "Haneul",
       "roles": [
         "Haneul",
         "Subin",
         "The park helper"
       ],
-      "atlas": "./images/ball-story-atlas.png",
+      "atlas": "./images/ball-view-0.png",
       "scenes": [
         {
           "title": "A moment to share",
-          "text": "I met Subin at the dog park. My dog was sniffing the grass. I saw a yellow ball in Subin’s hand. I smiled a little, thinking we would play together.",
+          "text": "I met Subin at the playground lawn. My dog was sniffing the grass. I saw a yellow ball in Subin’s hand. I smiled a little, thinking we would play together.",
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Haneul smiles. Is she happy at the thought of playing together?",
-              "location": "Look at the marked place in the picture.",
-              "x": 29,
-              "y": 41
+              "kind": "👀 눈 열쇠",
+              "message": "The corners of a mouth lift a little.",
+              "x": 30,
+              "y": 44
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Subin holds the yellow ball. Notice what the dogs are doing too.",
-              "location": "Look at the marked place in the picture.",
-              "x": 66,
-              "y": 53
+              "kind": "🏃 행동 열쇠",
+              "message": "The yellow ball is held in a hand.",
+              "x": 67,
+              "y": 48
             }
           ],
           "panel": 0,
-          "image": "./images/ball-panel-0.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "What does that mean?",
@@ -2028,23 +2917,27 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Haneul’s eyes widen. What she expected has not happened yet.",
-              "location": "Look at the marked place in the picture.",
-              "x": 31,
-              "y": 37
+              "kind": "👀 눈 열쇠",
+              "message": "Eyes open wide or a head tilts to look closer.",
+              "x": 76,
+              "y": 43
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Subin holds the ball still while her dog sniffs the grass. Watching only the ball could miss this.",
-              "location": "Look at the marked place in the picture.",
-              "x": 73,
-              "y": 63
+              "kind": "🏃 행동 열쇠",
+              "message": "The ball is held still for a moment.",
+              "x": 72,
+              "y": 54
             }
           ],
           "panel": 1,
-          "image": "./images/ball-panel-1.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "What I first imagined",
@@ -2052,23 +2945,27 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Haneul’s smile drops and Subin hunches her shoulders. They may feel different things.",
-              "location": "Look at the marked place in the picture.",
-              "x": 26,
-              "y": 44
+              "kind": "👀 눈 열쇠",
+              "message": "Lips close and shoulders draw inward.",
+              "x": 75,
+              "y": 48
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The grey dog’s nose points toward the grass. Is it exploring unfamiliar smells?",
-              "location": "Look at the marked place in the picture.",
-              "x": 88,
-              "y": 86
+              "kind": "🏃 행동 열쇠",
+              "message": "The hands holding the ball are close together.",
+              "x": 74,
+              "y": 57
             }
           ],
           "panel": 2,
-          "image": "./images/ball-panel-2.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "Looking a little closer",
@@ -2076,30 +2973,27 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Subin speaks while looking at her dog. She had been watching its movements rather than Haneul.",
-              "location": "Look at the marked place in the picture.",
-              "x": 75,
-              "y": 43
+              "kind": "👀 눈 열쇠",
+              "message": "A face turns toward the other person to listen.",
+              "x": 76,
+              "y": 46
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The helper points from a comfortable distance without touching the dog. We can observe without going too close.",
-              "location": "Look at the marked place in the picture.",
-              "x": 60,
-              "y": 67
-            },
-            {
-              "kind": "👂 Ear key",
-              "message": "Words from the story: This is its first time here, so I want to give it a little time,",
-              "x": 75,
-              "y": 58,
-              "location": "Look at the marked place in the picture."
+              "kind": "🏃 행동 열쇠",
+              "message": "The dog’s nose points down to the grass.",
+              "x": 70,
+              "y": 80
             }
           ],
           "panel": 3,
-          "image": "./images/ball-panel-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 50.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -2107,23 +3001,33 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Haneul’s hands and shoulders relax a little. Has her first feeling changed?",
-              "location": "Look at the marked place in the picture.",
-              "x": 22,
-              "y": 44
+              "kind": "👀 눈 열쇠",
+              "message": "Faces soften as they look toward one another.",
+              "x": 31,
+              "y": 49
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The ball is on the grass and the dog approaches on its own. They waited for its pace.",
-              "location": "Look at the marked place in the picture.",
-              "x": 66,
-              "y": 84
+              "kind": "🏃 행동 열쇠",
+              "message": "The yellow ball has been set on the grass.",
+              "x": 69,
+              "y": 91
+            },
+            {
+              "kind": "👂 귀 열쇠",
+              "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+              "x": 39,
+              "y": 63
             }
           ],
           "panel": 4,
-          "image": "./images/ball-panel-4.png",
-          "aspect": "512/369"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/354",
+          "crop": {
+            "x": 0.1953,
+            "y": 65.1367,
+            "w": 49.6094,
+            "h": 34.5703
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -2131,30 +3035,34 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "The children smile. They have shared their different feelings in words.",
-              "location": "Look at the marked place in the picture.",
-              "x": 24,
-              "y": 40
+              "kind": "👀 눈 열쇠",
+              "message": "Mouths lift into smiles and shoulders relax.",
+              "x": 76,
+              "y": 47
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The dogs sniff the ball. Playing together does not have to mean running or carrying it.",
-              "location": "Look at the marked place in the picture.",
-              "x": 48,
-              "y": 77
+              "kind": "🏃 행동 열쇠",
+              "message": "The dogs sniff the ball together.",
+              "x": 69,
+              "y": 93
             }
           ],
           "panel": 5,
-          "image": "./images/ball-panel-5.png",
-          "aspect": "512/369"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/354",
+          "crop": {
+            "x": 50.1953,
+            "y": 65.1367,
+            "w": 49.6094,
+            "h": 34.5703
+          }
         }
       ],
       "activities": [
         {
           "role": "Subin",
           "text": "This was my dog’s first time at this park. Holding the yellow ball, I looked around slowly.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -2162,23 +3070,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul smiles at the dog.",
-                  "x": 32,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 76,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Subin waits with the yellow ball.",
-                  "x": 37,
-                  "y": 76
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The yellow ball is held in a hand.",
+                  "x": 33,
+                  "y": 73
                 }
               ],
               "panel": 0,
-              "image": "./images/ball-camera-0-scene-1.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             },
             {
               "title": "What does that mean?",
@@ -2186,23 +3098,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul looks at the dog with wide eyes.",
-                  "x": 29,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 76,
+                  "y": 45
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The dog lowers its nose close to the grass.",
-                  "x": 77,
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The ball is held still for a moment.",
+                  "x": 31,
                   "y": 74
                 }
               ],
               "panel": 1,
-              "image": "./images/ball-camera-0-scene-2.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             },
             {
               "title": "What I first imagined",
@@ -2210,23 +3126,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul folds her arms and her smile drops.",
-                  "x": 29,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 76,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They wait without rolling the ball.",
-                  "x": 37,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The hands holding the ball are close together.",
+                  "x": 31,
+                  "y": 76
                 }
               ],
               "panel": 2,
-              "image": "./images/ball-camera-0-scene-3.png",
-              "aspect": "623/388"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.7891,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2234,30 +3154,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul looks at the park helper.",
-                  "x": 26,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 72,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The helper points to the dog.",
-                  "x": 62,
-                  "y": 60
-                },
-                {
-                  "kind": "👂 Ear key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Words from the story: It is our first time here, so I want to wait a little,",
-                  "x": 39,
-                  "y": 55
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The dog’s nose points down to the grass.",
+                  "x": 60,
+                  "y": 76
                 }
               ],
               "panel": 3,
-              "image": "./images/ball-camera-0-scene-4.png",
-              "aspect": "623/388"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.7891,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2265,23 +3182,33 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul’s smile lifts a little.",
-                  "x": 28,
-                  "y": 34
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 73,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "When the ball is put down, the dog approaches.",
-                  "x": 62,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The yellow ball has been set on the grass.",
+                  "x": 54,
+                  "y": 92
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 81,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/ball-camera-0-scene-5.png",
-              "aspect": "623/442"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/347",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.8203,
+                "w": 49.6094,
+                "h": 33.8867
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2289,32 +3216,44 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul smiles while waiting.",
-                  "x": 27,
-                  "y": 35
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 76,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The dogs explore around the ball at their own pace.",
-                  "x": 58,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The dogs sniff the ball together.",
+                  "x": 60,
+                  "y": 93
                 }
               ],
               "panel": 5,
-              "image": "./images/ball-camera-0-scene-6.png",
-              "aspect": "623/442"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/347",
+              "crop": {
+                "x": 50.1953,
+                "y": 65.8203,
+                "w": 49.6094,
+                "h": 33.8867
+              }
             }
           ],
-          "image": "./images/ball-camera-0-scene-3.png",
-          "aspect": "512/399"
+          "atlas": "./images/ball-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "762/322",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.7891,
+            "w": 49.6094,
+            "h": 31.4453
+          }
         },
         {
           "role": "The park helper",
           "text": "Two children and their dogs came to the park. In a new place, they might need time to look around slowly.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -2322,23 +3261,27 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The two children smile.",
-                  "x": 43,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 76,
+                  "y": 45
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Subin waits with the yellow ball.",
-                  "x": 71,
-                  "y": 51
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The yellow ball is held in a hand.",
+                  "x": 53,
+                  "y": 57
                 }
               ],
               "panel": 0,
-              "image": "./images/ball-camera-1-scene-1.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.7148
+              }
             },
             {
               "title": "What does that mean?",
@@ -2346,23 +3289,27 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Subin lowers her head while holding the ball.",
-                  "x": 71,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 77,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The dog lowers its nose close to the grass.",
-                  "x": 71,
-                  "y": 71
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The ball is held still for a moment.",
+                  "x": 54,
+                  "y": 60
                 }
               ],
               "panel": 1,
-              "image": "./images/ball-camera-1-scene-2.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/335",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.7148
+              }
             },
             {
               "title": "What I first imagined",
@@ -2370,23 +3317,27 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Haneul folds her arms and Subin’s smile drops too.",
-                  "x": 42,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 77,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They wait without rolling the ball.",
-                  "x": 71,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The hands holding the ball are close together.",
+                  "x": 58,
+                  "y": 71
                 }
               ],
               "panel": 2,
-              "image": "./images/ball-camera-1-scene-3.png",
-              "aspect": "623/410"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2394,23 +3345,27 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Both children turn their eyes toward the dog.",
-                  "x": 44,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 76,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The helper points to the dog.",
-                  "x": 53,
-                  "y": 68
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The dog’s nose points down to the grass.",
+                  "x": 66,
+                  "y": 84
                 }
               ],
               "panel": 3,
-              "image": "./images/ball-camera-1-scene-4.png",
-              "aspect": "623/410"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.5938,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2418,23 +3373,33 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The children look at the dog slowly.",
-                  "x": 72,
-                  "y": 32
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 76,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "When the ball is put down, the dog approaches.",
-                  "x": 59,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The yellow ball has been set on the grass.",
+                  "x": 54,
+                  "y": 92
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 84,
+                  "y": 62
                 }
               ],
               "panel": 4,
-              "image": "./images/ball-camera-1-scene-5.png",
-              "aspect": "623/420"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.7969,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2442,27 +3407,39 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The children are smiling.",
-                  "x": 47,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 77,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The dogs explore around the ball at their own pace.",
-                  "x": 60,
-                  "y": 76
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The dogs sniff the ball together.",
+                  "x": 54,
+                  "y": 94
                 }
               ],
               "panel": 5,
-              "image": "./images/ball-camera-1-scene-6.png",
-              "aspect": "623/420"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 50.1953,
+                "y": 66.7969,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             }
           ],
-          "image": "./images/ball-camera-1-scene-3.png",
-          "aspect": "512/399"
+          "atlas": "./images/ball-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "762/334",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6094,
+            "h": 32.6172
+          }
         }
       ],
       "audience": "child",
@@ -2479,11 +3456,13 @@ window.heartBookLocales = {
           "name": "The park helper",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "stars",
-      "title": "Stars We Place Together",
+      "title": "Our Wonderfully Wobbly Stars",
       "place": "School",
       "narrator": "Jun",
       "roles": [
@@ -2491,7 +3470,7 @@ window.heartBookLocales = {
         "Harin",
         "The teacher"
       ],
-      "atlas": "./images/stars-story-atlas.png",
+      "atlas": "./images/stars-view-0.png",
       "scenes": [
         {
           "title": "A moment to share",
@@ -2499,23 +3478,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Jun smiles. Is he glad they are making something together?",
-              "location": "Look at the marked place in the picture.",
+              "kind": "👀 눈 열쇠",
+              "message": "The corners of a mouth lift a little.",
               "x": 30,
-              "y": 46
+              "y": 45
             },
             {
-              "kind": "🏃 Action key",
-              "message": "The children have star papers of different colours. Their shapes can differ too.",
-              "location": "Look at the marked place in the picture.",
-              "x": 48,
-              "y": 75
+              "kind": "🏃 행동 열쇠",
+              "message": "They hold stars with different colors and shapes.",
+              "x": 31,
+              "y": 72
             }
           ],
           "panel": 0,
-          "image": "./images/stars-panel-0.png",
-          "aspect": "512/371"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "What does that mean?",
@@ -2523,23 +3506,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Harin looks down and the inner ends of her eyebrows rise. Might she be worried?",
-              "location": "Look at the marked place in the picture.",
-              "x": 73,
-              "y": 46
+              "kind": "👀 눈 열쇠",
+              "message": "Eyes open wide or a head tilts to look closer.",
+              "x": 30,
+              "y": 43
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Harin covers her drawing and we can see eraser crumbs. She has been doing something.",
-              "location": "Look at the marked place in the picture.",
-              "x": 61,
-              "y": 74
+              "kind": "🏃 행동 열쇠",
+              "message": "There are eraser crumbs beside the paper.",
+              "x": 81,
+              "y": 81
             }
           ],
           "panel": 1,
-          "image": "./images/stars-panel-1.png",
-          "aspect": "512/371"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "What I first imagined",
@@ -2547,23 +3534,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Jun’s smile drops and he folds his arms. Has he felt alone?",
-              "location": "Look at the marked place in the picture.",
+              "kind": "👀 눈 열쇠",
+              "message": "Lips close and shoulders draw inward.",
               "x": 28,
-              "y": 49
+              "y": 53
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Harin covers the paper, but her eraser is nearby. What was she doing before pausing?",
-              "location": "Look at the marked place in the picture.",
-              "x": 72,
-              "y": 69
+              "kind": "🏃 행동 열쇠",
+              "message": "The picture is hidden under folded arms.",
+              "x": 69,
+              "y": 70
             }
           ],
           "panel": 2,
-          "image": "./images/stars-panel-2.png",
-          "aspect": "512/388"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/315",
+          "crop": {
+            "x": 0.1953,
+            "y": 31.7383,
+            "w": 49.6094,
+            "h": 30.7617
+          }
         },
         {
           "title": "Looking a little closer",
@@ -2571,23 +3562,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "The teacher sits low to look at their faces. She does not rush them to show the drawing.",
-              "location": "Look at the marked place in the picture.",
-              "x": 45,
-              "y": 39
+              "kind": "👀 눈 열쇠",
+              "message": "A face turns toward the other person to listen.",
+              "x": 27,
+              "y": 48
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Harin’s hand is still on the paper. Waiting until she is ready is another way to work together.",
-              "location": "Look at the marked place in the picture.",
-              "x": 82,
-              "y": 72
+              "kind": "🏃 행동 열쇠",
+              "message": "An open hand waits for words.",
+              "x": 55,
+              "y": 70
             }
           ],
           "panel": 3,
-          "image": "./images/stars-panel-3.png",
-          "aspect": "512/388"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/315",
+          "crop": {
+            "x": 50.1953,
+            "y": 31.7383,
+            "w": 49.6094,
+            "h": 30.7617
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -2595,30 +3590,33 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Jun’s eyebrows relax a little. Harin’s words have shown him a feeling he did not know.",
-              "location": "Look at the marked place in the picture.",
-              "x": 26,
-              "y": 46
+              "kind": "👀 눈 열쇠",
+              "message": "Faces soften as they look toward one another.",
+              "x": 70,
+              "y": 47
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Harin moves her hand to show a slightly crooked star. Notice the feeling she shared, not only its shape.",
-              "location": "Look at the marked place in the picture.",
-              "x": 64,
-              "y": 72
+              "kind": "🏃 행동 열쇠",
+              "message": "A slightly crooked star is being shown.",
+              "x": 65,
+              "y": 65
             },
             {
-              "kind": "👂 Ear key",
-              "message": "Words from the story: I felt I had to draw it well, so I kept erasing,",
-              "x": 26,
-              "y": 61,
-              "location": "Look at the marked place in the picture."
+              "kind": "👂 귀 열쇠",
+              "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+              "x": 78,
+              "y": 61
             }
           ],
           "panel": 4,
-          "image": "./images/stars-panel-4.png",
-          "aspect": "512/358"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/375",
+          "crop": {
+            "x": 0.1953,
+            "y": 63.0859,
+            "w": 49.6094,
+            "h": 36.6211
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -2626,30 +3624,34 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
-              "message": "Both children relax their shoulders and smile. Their faces have changed after sharing feelings.",
-              "location": "Look at the marked place in the picture.",
-              "x": 30,
-              "y": 45
+              "kind": "👀 눈 열쇠",
+              "message": "Mouths lift into smiles and shoulders relax.",
+              "x": 28,
+              "y": 49
             },
             {
-              "kind": "🏃 Action key",
-              "message": "Stars of different shapes are together. They do not all need to be the same.",
-              "location": "Look at the marked place in the picture.",
-              "x": 49,
+              "kind": "🏃 행동 열쇠",
+              "message": "They stick different stars on together.",
+              "x": 55,
               "y": 80
             }
           ],
           "panel": 5,
-          "image": "./images/stars-panel-5.png",
-          "aspect": "512/358"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/375",
+          "crop": {
+            "x": 50.1953,
+            "y": 63.0859,
+            "w": 49.6094,
+            "h": 36.6211
+          }
         }
       ],
       "activities": [
         {
           "role": "Harin",
           "text": "Jun and I decided to make a star picture together. I wanted to show him a beautiful star.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -2657,23 +3659,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun smiles at the star.",
-                  "x": 47,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 67,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Paper and coloured pencils are side by side.",
-                  "x": 55,
-                  "y": 70
+                  "kind": "🏃 행동 열쇠",
+                  "message": "They hold stars with different colors and shapes.",
+                  "x": 28,
+                  "y": 73
                 }
               ],
               "panel": 0,
-              "image": "./images/stars-camera-0-scene-1.png",
-              "aspect": "623/411"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "What does that mean?",
@@ -2681,23 +3687,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun’s eyes grow wide.",
-                  "x": 40,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 70,
+                  "y": 43
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Harin brings her hands close to the paper.",
-                  "x": 70,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "There are eraser crumbs beside the paper.",
+                  "x": 46,
+                  "y": 80
                 }
               ],
               "panel": 1,
-              "image": "./images/stars-camera-0-scene-2.png",
-              "aspect": "623/411"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "What I first imagined",
@@ -2705,23 +3715,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun’s smile drops.",
-                  "x": 45,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 72,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Harin grips her paper tightly.",
-                  "x": 42,
-                  "y": 60
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The picture is hidden under folded arms.",
+                  "x": 47,
+                  "y": 80
                 }
               ],
               "panel": 2,
-              "image": "./images/stars-camera-0-scene-3.png",
-              "aspect": "623/403"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "763/336",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.8125
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2729,23 +3743,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun listens to the teacher.",
-                  "x": 35,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 71,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The teacher waits at their eye level.",
-                  "x": 63,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "An open hand waits for words.",
+                  "x": 47,
+                  "y": 81
                 }
               ],
               "panel": 3,
-              "image": "./images/stars-camera-0-scene-4.png",
-              "aspect": "623/403"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "761/336",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.8125
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2753,23 +3771,33 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun looks at Harin.",
-                  "x": 44,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 72,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They show the star and share their thoughts.",
-                  "x": 44,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A slightly crooked star is being shown.",
+                  "x": 33,
+                  "y": 77
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 80,
+                  "y": 61
                 }
               ],
               "panel": 4,
-              "image": "./images/stars-camera-0-scene-5.png",
-              "aspect": "623/428"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.9922,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2777,32 +3805,44 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun smiles at the star.",
-                  "x": 45,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 72,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They have put different stars together.",
-                  "x": 60,
-                  "y": 75
+                  "kind": "🏃 행동 열쇠",
+                  "message": "They stick different stars on together.",
+                  "x": 46,
+                  "y": 81
                 }
               ],
               "panel": 5,
-              "image": "./images/stars-camera-0-scene-6.png",
-              "aspect": "623/428"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.9922,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             }
           ],
-          "image": "./images/stars-camera-0-scene-3.png",
-          "aspect": "512/419"
+          "atlas": "./images/stars-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/336",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6745,
+            "h": 32.8125
+          }
         },
         {
           "role": "The teacher",
           "text": "The two children made stars side by side. I waited to see the stars each would create.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "A moment to share",
@@ -2810,23 +3850,27 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The children smile while making stars.",
-                  "x": 46,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "The corners of a mouth lift a little.",
+                  "x": 49,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Paper and coloured pencils are side by side.",
-                  "x": 62,
-                  "y": 63
+                  "kind": "🏃 행동 열쇠",
+                  "message": "They hold stars with different colors and shapes.",
+                  "x": 57,
+                  "y": 79
                 }
               ],
               "panel": 0,
-              "image": "./images/stars-camera-1-scene-1.png",
-              "aspect": "623/394"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "761/333",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.5195
+              }
             },
             {
               "title": "What does that mean?",
@@ -2834,23 +3878,27 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun looks toward Harin’s paper.",
-                  "x": 45,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Eyes open wide or a head tilts to look closer.",
+                  "x": 53,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Harin brings her hands close to the paper.",
-                  "x": 80,
-                  "y": 63
+                  "kind": "🏃 행동 열쇠",
+                  "message": "There are eraser crumbs beside the paper.",
+                  "x": 75,
+                  "y": 83
                 }
               ],
               "panel": 1,
-              "image": "./images/stars-camera-1-scene-2.png",
-              "aspect": "623/394"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "763/333",
+              "crop": {
+                "x": 50.1302,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.5195
+              }
             },
             {
               "title": "What I first imagined",
@@ -2858,23 +3906,27 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Jun folds his arms while Harin lowers her head.",
-                  "x": 48,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Lips close and shoulders draw inward.",
+                  "x": 53,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "Harin grips her paper tightly.",
-                  "x": 79,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "The picture is hidden under folded arms.",
+                  "x": 77,
+                  "y": 67
                 }
               ],
               "panel": 2,
-              "image": "./images/stars-camera-1-scene-3.png",
-              "aspect": "623/375"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "761/321",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.3984,
+                "w": 49.5443,
+                "h": 31.3477
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2882,23 +3934,27 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The children look toward the teacher.",
-                  "x": 43,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "A face turns toward the other person to listen.",
+                  "x": 53,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The teacher waits at their eye level.",
-                  "x": 45,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "An open hand waits for words.",
+                  "x": 46,
+                  "y": 78
                 }
               ],
               "panel": 3,
-              "image": "./images/stars-camera-1-scene-4.png",
-              "aspect": "623/375"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "763/321",
+              "crop": {
+                "x": 50.1302,
+                "y": 33.3984,
+                "w": 49.6745,
+                "h": 31.3477
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2906,23 +3962,33 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The children listen to each other.",
-                  "x": 72,
-                  "y": 41
+                  "kind": "👀 눈 열쇠",
+                  "message": "Faces soften as they look toward one another.",
+                  "x": 76,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They show the star and share their thoughts.",
-                  "x": 64,
-                  "y": 69
+                  "kind": "🏃 행동 열쇠",
+                  "message": "A slightly crooked star is being shown.",
+                  "x": 74,
+                  "y": 70
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
+                  "x": 84,
+                  "y": 62
                 }
               ],
               "panel": 4,
-              "image": "./images/stars-camera-1-scene-5.png",
-              "aspect": "623/473"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "761/352",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.332,
+                "w": 49.5443,
+                "h": 34.375
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2930,27 +3996,39 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "The two children are smiling.",
-                  "x": 45,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Mouths lift into smiles and shoulders relax.",
+                  "x": 53,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "location": "Look at the marked place in the picture.",
-                  "message": "They have put different stars together.",
-                  "x": 65,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "They stick different stars on together.",
+                  "x": 59,
+                  "y": 81
                 }
               ],
               "panel": 5,
-              "image": "./images/stars-camera-1-scene-6.png",
-              "aspect": "623/473"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "763/352",
+              "crop": {
+                "x": 50.1302,
+                "y": 65.332,
+                "w": 49.6745,
+                "h": 34.375
+              }
             }
           ],
-          "image": "./images/stars-camera-1-scene-3.png",
-          "aspect": "512/419"
+          "atlas": "./images/stars-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "761/321",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.3984,
+            "w": 49.5443,
+            "h": 31.3477
+          }
         }
       ],
       "audience": "child",
@@ -2967,7 +4045,9 @@ window.heartBookLocales = {
           "name": "The teacher",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "twohomes",
@@ -4437,6 +5517,595 @@ window.heartBookLocales = {
   ],
   "es": [
     {
+      "id": "errand",
+      "audience": "child",
+      "title": "Pan tibio en manos pequeñas",
+      "place": "Panadería",
+      "narrator": "Dasom",
+      "roles": [
+        "Dasom",
+        "Junho",
+        "La panadera"
+      ],
+      "characters": [
+        {
+          "name": "Dasom",
+          "age": 8
+        },
+        {
+          "name": "Junho",
+          "age": 9
+        },
+        {
+          "name": "La panadera",
+          "age": null
+        }
+      ],
+      "atlas": "./images/errand-view-0.png",
+      "atlasRows": 3,
+      "atlasCols": 2,
+      "scenes": [
+        {
+          "title": "Mi primer encargo de pan",
+          "text": "Vine a comprar pan blandito para el abuelo. Sujeté mi nota con dibujos y esperé mi turno. La panadera me sonrió. Junho me saludó desde atrás con un libro amarillo.",
+          "viewpoint": "Dasom",
+          "panel": 0,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Las comisuras de una boca suben un poco.",
+              "x": 30,
+              "y": 54
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Hay una nota con dibujos de pan en una mano.",
+              "x": 40,
+              "y": 65
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/335",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.7148
+          }
+        },
+        {
+          "title": "¿Qué pan elijo?",
+          "text": "Dos panes parecían casi iguales. La panadera señaló uno. Pensé que quería que me diera prisa y me quedé callada. En realidad quería preguntar cuál era blandito.",
+          "viewpoint": "Dasom",
+          "panel": 1,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Abre los ojos o inclina la cabeza para mirar.",
+              "x": 23,
+              "y": 48
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Una mano señala un pan.",
+              "x": 52,
+              "y": 68
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/335",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.7148
+          }
+        },
+        {
+          "title": "¿Lo estaba haciendo llegar tarde?",
+          "text": "Junho miró el reloj y sujetó el libro con fuerza. Pensé que estaba enfadado porque yo tardaba mucho. Apreté los labios y jugué con mi nota. Junho miraba su libro más que a mí.",
+          "viewpoint": "Dasom",
+          "panel": 2,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Cierra los labios y encoge los hombros.",
+              "x": 28,
+              "y": 49
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Junho sujeta fuerte su libro amarillo.",
+              "x": 72,
+              "y": 71
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/308",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6094,
+            "h": 30.0781
+          }
+        },
+        {
+          "title": "Algo pequeño entre las páginas",
+          "text": "Del libro amarillo asomaba un separador azul. Junho alisaba una punta arrugada. Eso no parecía una manera de darme prisa. Me pregunté qué le preocupaba.",
+          "viewpoint": "Dasom",
+          "panel": 3,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+              "x": 75,
+              "y": 26
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "El separador azul tiene una punta arrugada.",
+              "x": 64,
+              "y": 52
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/308",
+          "crop": {
+            "x": 50.1953,
+            "y": 33.5938,
+            "w": 49.6094,
+            "h": 30.0781
+          }
+        },
+        {
+          "title": "Una pregunta en voz bajita",
+          "text": "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el separador de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado.",
+          "viewpoint": "Dasom",
+          "panel": 4,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Los rostros se relajan al mirarse.",
+              "x": 55,
+              "y": 43
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Dasom muestra su nota con dibujos.",
+              "x": 39,
+              "y": 62
+            },
+            {
+              "kind": "👂 귀 열쇠",
+              "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+              "x": 63,
+              "y": 57
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/363",
+          "crop": {
+            "x": 0.1953,
+            "y": 64.2578,
+            "w": 49.6094,
+            "h": 35.4492
+          }
+        },
+        {
+          "title": "Una bolsa tibia en mis manos",
+          "text": "La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su separador. Si no sé algo, puedo preguntar y escuchar.",
+          "viewpoint": "Dasom",
+          "panel": 5,
+          "clues": [
+            {
+              "kind": "👀 눈 열쇠",
+              "message": "Sonríen y los hombros se relajan.",
+              "x": 84,
+              "y": 40
+            },
+            {
+              "kind": "🏃 행동 열쇠",
+              "message": "Unas manos entregan la bolsa de pan.",
+              "x": 43,
+              "y": 54
+            }
+          ],
+          "atlas": "./images/errand-view-0.png",
+          "aspect": "762/363",
+          "crop": {
+            "x": 50.1953,
+            "y": 64.2578,
+            "w": 49.6094,
+            "h": 35.4492
+          }
+        }
+      ],
+      "activities": [
+        {
+          "role": "Junho",
+          "atlas": "./images/errand-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "panel": 2,
+          "clues": [],
+          "scenes": [
+            {
+              "title": "Mi primer encargo de pan",
+              "text": "Saludé a Dasom al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo.",
+              "viewpoint": "Junho",
+              "panel": 0,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 72,
+                  "y": 48
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay una nota con dibujos de pan en una mano.",
+                  "x": 65,
+                  "y": 65
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/330",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "¿Qué pan elijo?",
+              "text": "El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Dasom también parecía no saber qué elegir.",
+              "viewpoint": "Junho",
+              "panel": 1,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 74,
+                  "y": 49
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano señala un pan.",
+                  "x": 52,
+                  "y": 68
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/330",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "¿Lo estaba haciendo llegar tarde?",
+              "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Dasom.",
+              "viewpoint": "Junho",
+              "panel": 2,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 74,
+                  "y": 47
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Junho sujeta fuerte su libro amarillo.",
+                  "x": 30,
+                  "y": 79
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/308",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.1055,
+                "w": 49.6094,
+                "h": 30.0781
+              }
+            },
+            {
+              "title": "Algo pequeño entre las páginas",
+              "text": "Al alisar el separador vi dibujos de panes en la nota de Dasom. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
+              "viewpoint": "Junho",
+              "panel": 3,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 74,
+                  "y": 52
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "El separador azul tiene una punta arrugada.",
+                  "x": 38,
+                  "y": 71
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/308",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.1055,
+                "w": 49.6094,
+                "h": 30.0781
+              }
+            },
+            {
+              "title": "Una pregunta en voz bajita",
+              "text": "Dasom preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella.",
+              "viewpoint": "Junho",
+              "panel": 4,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 72,
+                  "y": 46
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Dasom muestra su nota con dibujos.",
+                  "x": 65,
+                  "y": 68
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 80,
+                  "y": 60
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/368",
+              "crop": {
+                "x": 0.1953,
+                "y": 63.7695,
+                "w": 49.6094,
+                "h": 35.9375
+              }
+            },
+            {
+              "title": "Una bolsa tibia en mis manos",
+              "text": "Sonreímos mientras guardaba el separador. Dasom dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
+              "viewpoint": "Junho",
+              "panel": 5,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 81,
+                  "y": 52
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Unas manos entregan la bolsa de pan.",
+                  "x": 68,
+                  "y": 70
+                }
+              ],
+              "atlas": "./images/errand-view-1.png",
+              "aspect": "762/368",
+              "crop": {
+                "x": 50.1953,
+                "y": 63.7695,
+                "w": 49.6094,
+                "h": 35.9375
+              }
+            }
+          ],
+          "aspect": "762/308",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.1055,
+            "w": 49.6094,
+            "h": 30.0781
+          }
+        },
+        {
+          "role": "La panadera",
+          "atlas": "./images/errand-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "panel": 2,
+          "clues": [],
+          "scenes": [
+            {
+              "title": "Mi primer encargo de pan",
+              "text": "Entró una niña con una nota de dibujos. Le sonreí y le di tiempo para elegir. Parecía un encargo que quería probar por sí misma.",
+              "viewpoint": "La panadera",
+              "panel": 0,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 60,
+                  "y": 47
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay una nota con dibujos de pan en una mano.",
+                  "x": 55,
+                  "y": 68
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "763/330",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "¿Qué pan elijo?",
+              "text": "Señalé un pan para ayudar. Al verla callada pensé que quizá contaba sus monedas. Mi gesto podía parecerle distinto.",
+              "viewpoint": "La panadera",
+              "panel": 1,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 68,
+                  "y": 48
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano señala un pan.",
+                  "x": 49,
+                  "y": 66
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "761/330",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.2266
+              }
+            },
+            {
+              "title": "¿Lo estaba haciendo llegar tarde?",
+              "text": "Dos niños estaban callados. Una sujetaba una nota y el otro un libro. ¿Estarían preocupados por cosas distintas?",
+              "viewpoint": "La panadera",
+              "panel": 2,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 57,
+                  "y": 49
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Junho sujeta fuerte su libro amarillo.",
+                  "x": 80,
+                  "y": 72
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "763/326",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.1055,
+                "w": 49.6745,
+                "h": 31.8359
+              }
+            },
+            {
+              "title": "Algo pequeño entre las páginas",
+              "text": "Vi un separador arrugado en el libro amarillo. La niña miraba de un pan a otro. Dejé espacio para preguntar sin darles prisa.",
+              "viewpoint": "La panadera",
+              "panel": 3,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 72,
+                  "y": 35
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "El separador azul tiene una punta arrugada.",
+                  "x": 78,
+                  "y": 57
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "761/326",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.1055,
+                "w": 49.5443,
+                "h": 31.8359
+              }
+            },
+            {
+              "title": "Una pregunta en voz bajita",
+              "text": "La niña preguntó qué pan era blandito para el abuelo. Por fin entendí qué necesitaba saber. Se lo expliqué despacio y escuché a los dos.",
+              "viewpoint": "La panadera",
+              "panel": 4,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 57,
+                  "y": 45
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Dasom muestra su nota con dibujos.",
+                  "x": 48,
+                  "y": 70
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 65,
+                  "y": 59
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "763/350",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.5273,
+                "w": 49.6745,
+                "h": 34.1797
+              }
+            },
+            {
+              "title": "Una bolsa tibia en mis manos",
+              "text": "Le entregué la bolsa de pan. Los niños se sonrieron. Darles tiempo les ayudó a decir lo que pensaban.",
+              "viewpoint": "La panadera",
+              "panel": 5,
+              "clues": [
+                {
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 66,
+                  "y": 48
+                },
+                {
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Unas manos entregan la bolsa de pan.",
+                  "x": 62,
+                  "y": 76
+                }
+              ],
+              "atlas": "./images/errand-view-2.png",
+              "aspect": "761/350",
+              "crop": {
+                "x": 50.2604,
+                "y": 65.5273,
+                "w": 49.5443,
+                "h": 34.1797
+              }
+            }
+          ],
+          "aspect": "763/326",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.1055,
+            "w": 49.6745,
+            "h": 31.8359
+          }
+        }
+      ]
+    },
+    {
       "id": "bread",
       "title": "El corazón detrás del pan",
       "place": "Panadería",
@@ -4935,7 +6604,7 @@ window.heartBookLocales = {
           ]
         }
       ],
-      "audience": "child",
+      "audience": "adult",
       "characters": [
         {
           "name": "Seoyeon",
@@ -4953,39 +6622,43 @@ window.heartBookLocales = {
     },
     {
       "id": "cups",
-      "title": "Tu taza, mi taza",
-      "place": "Cafetería",
+      "title": "Dos tazas en un cumpleaños",
+      "place": "Fiesta de cumpleaños",
       "narrator": "Minseo",
       "roles": [
         "Minseo",
         "Yuna",
-        "La dueña del café"
+        "La anfitriona"
       ],
-      "atlas": "./images/cups-story-atlas.png",
+      "atlas": "./images/cups-view-0.png",
       "scenes": [
         {
           "title": "Un momento para compartir",
-          "text": "Yuna y yo decidimos tomar leche calentita en el café. Elegí una taza azul y Yuna una naranja. Me alegró verlas una al lado de la otra. Tenía muchas ganas de contarle lo que había pasado ese día.",
+          "text": "Yuna y yo decidimos tomar leche calentita en la fiesta de cumpleaños. Elegí una taza azul y Yuna una naranja. Me alegró verlas una al lado de la otra. Tenía muchas ganas de contarle lo que había pasado ese día.",
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Minseo sonríe un poco. ¿Le alegra encontrarse hoy con su amiga?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 30,
-              "y": 40
+              "kind": "👀 눈 열쇠",
+              "message": "Las comisuras de una boca suben un poco.",
+              "x": 29,
+              "y": 56
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Las tazas azul y naranja están juntas. Mira cómo se sientan los amigos.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 48,
-              "y": 80
+              "kind": "🏃 행동 열쇠",
+              "message": "Las dos tazas están cerca.",
+              "x": 37,
+              "y": 86
             }
           ],
           "panel": 0,
-          "image": "./images/cups-panel-0.png",
-          "aspect": "512/355"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "764/335",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.7396,
+            "h": 32.7148
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -4993,23 +6666,27 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Yuna levanta las cejas y mira la taza azul. ¿Qué ve?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 60,
-              "y": 44
+              "kind": "👀 눈 열쇠",
+              "message": "Abre los ojos o inclina la cabeza para mirar.",
+              "x": 72,
+              "y": 47
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "El dedo de Yuna está cerca del costado de la taza azul. Mira ese lado, no solo la taza entera.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 55,
-              "y": 75
+              "kind": "🏃 행동 열쇠",
+              "message": "Se ve una línea fina en la taza azul.",
+              "x": 48,
+              "y": 77
             }
           ],
           "panel": 1,
-          "image": "./images/cups-panel-1.png",
-          "aspect": "512/355"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "760/335",
+          "crop": {
+            "x": 50.3255,
+            "y": 0.293,
+            "w": 49.4792,
+            "h": 32.7148
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -5017,47 +6694,55 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Minseo deja de sonreír y tensa los hombros. Quizá se siente dolido.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 25,
-              "y": 42
+              "kind": "👀 눈 열쇠",
+              "message": "Cierra los labios y encoge los hombros.",
+              "x": 29,
+              "y": 53
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Yuna no levanta la taza. Detiene la mano cerca del costado. ¿Por qué duda?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 70,
-              "y": 71
+              "kind": "🏃 행동 열쇠",
+              "message": "Una mano se detiene junto a la taza azul.",
+              "x": 46,
+              "y": 82
             }
           ],
           "panel": 2,
-          "image": "./images/cups-panel-2.png",
-          "aspect": "512/353"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "764/332",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.7396,
+            "h": 32.4219
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
-          "text": "La dueña del café se acercó para mirar la taza. Yuna señaló una línea fina en el costado. Solo entonces me incliné para verla de cerca. Me pregunté qué llevaba tanto tiempo mirando.",
+          "text": "La anfitriona se acercó para mirar la taza. Yuna señaló una línea fina en el costado. Solo entonces me incliné para verla de cerca. Me pregunté qué llevaba tanto tiempo mirando.",
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "La dueña del café se inclina hacia la taza. La mira de cerca.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 40,
-              "y": 28
+              "kind": "👀 눈 열쇠",
+              "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+              "x": 75,
+              "y": 54
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Yuna señala una línea fina en el costado. ¿Miramos el mismo lugar?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 64,
-              "y": 66
+              "kind": "🏃 행동 열쇠",
+              "message": "Un dedo señala la taza azul.",
+              "x": 44,
+              "y": 83
             }
           ],
           "panel": 3,
-          "image": "./images/cups-panel-3.png",
-          "aspect": "512/353"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "760/332",
+          "crop": {
+            "x": 50.3255,
+            "y": 33.5938,
+            "w": 49.4792,
+            "h": 32.4219
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -5065,30 +6750,33 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Minseo relaja un poco las cejas. Quizá descubrió algo nuevo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 25,
-              "y": 56
+              "kind": "👀 눈 열쇠",
+              "message": "Los rostros se relajan al mirarse.",
+              "x": 73,
+              "y": 53
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "La dueña trae una taza nueva. El costado que miraba Yuna tenía una grieta fina.",
-              "location": "Observa el lugar señalado en la imagen.",
+              "kind": "🏃 행동 열쇠",
+              "message": "Han traído una taza azul nueva.",
               "x": 46,
-              "y": 73
+              "y": 85
             },
             {
-              "kind": "👂 Llave del oído",
-              "message": "Palabras del cuento: Me preocupaba que tu taza se rompiera",
-              "x": 25,
-              "y": 71,
-              "location": "Observa el lugar señalado en la imagen."
+              "kind": "👂 귀 열쇠",
+              "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+              "x": 81,
+              "y": 67
             }
           ],
           "panel": 4,
-          "image": "./images/cups-panel-4.png",
-          "aspect": "512/337"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "764/339",
+          "crop": {
+            "x": 0.1953,
+            "y": 66.6016,
+            "w": 49.7396,
+            "h": 33.1055
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -5096,30 +6784,34 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Los dos amigos sonríen y relajan los hombros. Compara sus caras con las de antes.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 30,
-              "y": 41
+              "kind": "👀 눈 열쇠",
+              "message": "Sonríen y los hombros se relajan.",
+              "x": 72,
+              "y": 55
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Los amigos vuelven a mirarse. Ahora toca escucharse en vez de mirar las tazas.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 71,
-              "y": 39
+              "kind": "🏃 행동 열쇠",
+              "message": "Vuelven a conversar con las tazas delante.",
+              "x": 39,
+              "y": 83
             }
           ],
           "panel": 5,
-          "image": "./images/cups-panel-5.png",
-          "aspect": "512/337"
+          "atlas": "./images/cups-view-0.png",
+          "aspect": "760/339",
+          "crop": {
+            "x": 50.3255,
+            "y": 66.6016,
+            "w": 49.4792,
+            "h": 33.1055
+          }
         }
       ],
       "activities": [
         {
           "role": "Yuna",
           "text": "Me alegró sentarme junto a Minseo. Quería escuchar lo que había pasado en su día sin prisas.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -5127,23 +6819,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo sonríe.",
-                  "x": 49,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 73,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Una mano se detiene junto a la taza azul.",
-                  "x": 50,
-                  "y": 70
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Las dos tazas están cerca.",
+                  "x": 76,
+                  "y": 79
                 }
               ],
               "panel": 0,
-              "image": "./images/cups-camera-0-scene-1.png",
-              "aspect": "627/399"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -5151,23 +6847,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo mira la taza con los ojos muy abiertos.",
-                  "x": 47,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 77,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Mira de nuevo el costado de la taza azul.",
-                  "x": 61,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Se ve una línea fina en la taza azul.",
+                  "x": 77,
+                  "y": 80
                 }
               ],
               "panel": 1,
-              "image": "./images/cups-camera-0-scene-2.png",
-              "aspect": "619/399"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -5175,23 +6875,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo ha dejado de sonreír.",
-                  "x": 40,
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 77,
                   "y": 45
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo espera con los brazos recogidos.",
-                  "x": 40,
-                  "y": 66
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano se detiene junto a la taza azul.",
+                  "x": 76,
+                  "y": 80
                 }
               ],
               "panel": 2,
-              "image": "./images/cups-camera-0-scene-3.png",
-              "aspect": "627/380"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "763/329",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.1289
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -5199,23 +6903,27 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo apoya la barbilla en las manos mientras espera.",
-                  "x": 30,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 78,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La dueña levanta con cuidado la taza azul.",
-                  "x": 64,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Un dedo señala la taza azul.",
+                  "x": 70,
+                  "y": 82
                 }
               ],
               "panel": 3,
-              "image": "./images/cups-camera-0-scene-4.png",
-              "aspect": "619/380"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "761/329",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.1289
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -5223,30 +6931,33 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo abre mucho los ojos.",
-                  "x": 28,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 77,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La dueña trae una taza nueva.",
-                  "x": 55,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Han traído una taza azul nueva.",
+                  "x": 58,
+                  "y": 75
                 },
                 {
-                  "kind": "👂 Llave del oído",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Palabras del cuento: Me preocupaba que tu taza se rompiera",
-                  "x": 41,
-                  "y": 58
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 85,
+                  "y": 66
                 }
               ],
               "panel": 4,
-              "image": "./images/cups-camera-0-scene-5.png",
-              "aspect": "627/463"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "763/342",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.3086,
+                "w": 49.6745,
+                "h": 33.3984
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -5254,180 +6965,230 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo vuelve a sonreír.",
-                  "x": 50,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 80,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Con una taza nueva delante, vuelven a conversar.",
-                  "x": 50,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Vuelven a conversar con las tazas delante.",
+                  "x": 70,
+                  "y": 84
                 }
               ],
               "panel": 5,
-              "image": "./images/cups-camera-0-scene-6.png",
-              "aspect": "619/463"
+              "atlas": "./images/cups-view-1.png",
+              "aspect": "761/342",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.3086,
+                "w": 49.5443,
+                "h": 33.3984
+              }
             }
           ],
-          "image": "./images/cups-camera-0-scene-3.png",
-          "aspect": "512/491"
+          "atlas": "./images/cups-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/329",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6745,
+            "h": 32.1289
+          }
         },
         {
-          "role": "La dueña del café",
+          "role": "La anfitriona",
           "text": "Los dos niños eligieron sus tazas y se sentaron juntos. Esperaba que disfrutaran compartiendo sus historias.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
               "text": "Los dos niños eligieron sus tazas y se sentaron juntos. Esperaba que disfrutaran compartiendo sus historias.",
-              "viewpoint": "La dueña del café",
+              "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los dos niños están sentados y sonríen.",
-                  "x": 48,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 51,
+                  "y": 54
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Una mano se detiene junto a la taza azul.",
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Las dos tazas están cerca.",
                   "x": 50,
-                  "y": 70
+                  "y": 83
                 }
               ],
               "panel": 0,
-              "image": "./images/cups-camera-1-scene-1.png",
-              "aspect": "622/387"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "763/336",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.8125
+              }
             },
             {
               "title": "¿Qué significa eso?",
               "text": "La niña miraba una taza durante mucho tiempo. Quería acercarme y ver qué le había llamado la atención.",
-              "viewpoint": "La dueña del café",
+              "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo abre mucho los ojos.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 51,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Mira de nuevo el costado de la taza azul.",
-                  "x": 63,
-                  "y": 70
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Se ve una línea fina en la taza azul.",
+                  "x": 57,
+                  "y": 82
                 }
               ],
               "panel": 1,
-              "image": "./images/cups-camera-1-scene-2.png",
-              "aspect": "624/387"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "761/336",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.8125
+              }
             },
             {
               "title": "Lo que imaginé al principio",
               "text": "Minseo apartó la cara y Yuna detuvo la mano. Que guardaran silencio no significaba que pensaran lo mismo.",
-              "viewpoint": "La dueña del café",
+              "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo tiene los labios apretados.",
-                  "x": 45,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 51,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo espera con los brazos recogidos.",
-                  "x": 45,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano se detiene junto a la taza azul.",
+                  "x": 64,
+                  "y": 81
                 }
               ],
               "panel": 2,
-              "image": "./images/cups-camera-1-scene-3.png",
-              "aspect": "622/395"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "763/333",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.6914,
+                "w": 49.6745,
+                "h": 32.5195
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
               "text": "Vi una grieta donde Yuna señaló. Decidí cambiar la taza para que pudieran beber sin peligro.",
-              "viewpoint": "La dueña del café",
+              "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Yuna sigue mirando la taza.",
-                  "x": 78,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 77,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La dueña levanta con cuidado la taza azul.",
-                  "x": 66,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Un dedo señala la taza azul.",
+                  "x": 64,
+                  "y": 84
                 }
               ],
               "panel": 3,
-              "image": "./images/cups-camera-1-scene-4.png",
-              "aspect": "624/395"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "761/333",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.6914,
+                "w": 49.5443,
+                "h": 32.5195
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
               "text": "Cuando llevé una taza nueva, los niños se contaron lo que habían pensado al principio. Escuché en vez de explicar sus sentimientos por ellos.",
-              "viewpoint": "La dueña del café",
+              "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Minseo mira a Yuna.",
-                  "x": 45,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 53,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La dueña trae una taza nueva.",
-                  "x": 60,
-                  "y": 75
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Han traído una taza azul nueva.",
+                  "x": 65,
+                  "y": 84
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 61,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/cups-camera-1-scene-5.png",
-              "aspect": "622/460"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "763/337",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.7969,
+                "w": 49.6745,
+                "h": 32.9102
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
               "text": "Los dos niños se miraron y volvieron a sonreír. Mientras cambiábamos la taza, también compartieron sentimientos de los que no habían hablado.",
-              "viewpoint": "La dueña del café",
+              "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los dos niños sonríen.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 79,
+                  "y": 54
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Con una taza nueva delante, vuelven a conversar.",
-                  "x": 50,
-                  "y": 73
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Vuelven a conversar con las tazas delante.",
+                  "x": 66,
+                  "y": 83
                 }
               ],
               "panel": 5,
-              "image": "./images/cups-camera-1-scene-6.png",
-              "aspect": "624/460"
+              "atlas": "./images/cups-view-2.png",
+              "aspect": "761/337",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.7969,
+                "w": 49.5443,
+                "h": 32.9102
+              }
             }
           ],
-          "image": "./images/cups-camera-1-scene-3.png",
-          "aspect": "512/491"
+          "atlas": "./images/cups-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/333",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.6914,
+            "w": 49.6745,
+            "h": 32.5195
+          }
         }
       ],
       "audience": "child",
@@ -5441,14 +7202,16 @@ window.heartBookLocales = {
           "age": 9
         },
         {
-          "name": "La dueña del café",
+          "name": "La anfitriona",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "plate",
-      "title": "Tú primero",
+      "title": "¿Para quién es el último trocito?",
       "place": "Restaurante",
       "narrator": "Sofía",
       "roles": [
@@ -5456,7 +7219,7 @@ window.heartBookLocales = {
         "Noah",
         "La dueña del restaurante"
       ],
-      "atlas": "./images/plate-story-atlas.png",
+      "atlas": "./images/plate-view-0.png",
       "scenes": [
         {
           "title": "Un momento para compartir",
@@ -5464,23 +7227,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sofía sonríe. ¿Disfruta de comer acompañada?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 28,
-              "y": 39
+              "kind": "👀 눈 열쇠",
+              "message": "Las comisuras de una boca suben un poco.",
+              "x": 27,
+              "y": 55
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Hay un trozo de pan entre ambos. Aún no sabemos qué piensa cada uno.",
-              "location": "Observa el lugar señalado en la imagen.",
+              "kind": "🏃 행동 열쇠",
+              "message": "Hay un trocito de pan entre los dos.",
               "x": 50,
-              "y": 80
+              "y": 83
             }
           ],
           "panel": 0,
-          "image": "./images/plate-panel-0.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/409",
+          "crop": {
+            "x": 0.2392,
+            "y": 0.2392,
+            "w": 49.5215,
+            "h": 32.6156
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -5488,23 +7255,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Noah baja la mirada. ¿Una cara basta para saber el motivo?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 28,
-              "y": 30
+              "kind": "👀 눈 열쇠",
+              "message": "Abre los ojos o inclina la cabeza para mirar.",
+              "x": 74,
+              "y": 49
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Noah empuja el plato hacia Sofía. Quizá no lo quiere o quizá quiere dárselo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 55,
-              "y": 77
+              "kind": "🏃 행동 열쇠",
+              "message": "Una mano acerca el plato.",
+              "x": 54,
+              "y": 83
             }
           ],
           "panel": 1,
-          "image": "./images/plate-panel-1.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/409",
+          "crop": {
+            "x": 50.2392,
+            "y": 0.2392,
+            "w": 49.5215,
+            "h": 32.6156
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -5512,23 +7283,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sofía aprieta los labios. ¿Aún no ha contado que se siente dolida?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 27,
-              "y": 45
+              "kind": "👀 눈 열쇠",
+              "message": "Cierra los labios y encoge los hombros.",
+              "x": 30,
+              "y": 47
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Noah tiene una mano en el pecho. ¿Quiere decir algo?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 75,
-              "y": 65
+              "kind": "🏃 행동 열쇠",
+              "message": "Hay manos cerca del pecho y del plato.",
+              "x": 57,
+              "y": 84
             }
           ],
           "panel": 2,
-          "image": "./images/plate-panel-2.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/408",
+          "crop": {
+            "x": 0.2392,
+            "y": 33.3333,
+            "w": 49.5215,
+            "h": 32.5359
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -5536,23 +7311,27 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Noah abre mucho los ojos. El pensamiento de Sofía parece sorprenderlo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 74,
+              "kind": "👀 눈 열쇠",
+              "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+              "x": 28,
               "y": 49
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "La dueña se pone a su altura y abre las manos mientras espera sus palabras.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 32,
-              "y": 70
+              "kind": "🏃 행동 열쇠",
+              "message": "Alguien habla con las manos abiertas.",
+              "x": 57,
+              "y": 84
             }
           ],
           "panel": 3,
-          "image": "./images/plate-panel-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/408",
+          "crop": {
+            "x": 50.2392,
+            "y": 33.3333,
+            "w": 49.5215,
+            "h": 32.5359
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -5560,30 +7339,33 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sofía relaja un poco las cejas. Escuchó algo distinto de su primer pensamiento.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 72,
-              "y": 43
+              "kind": "👀 눈 열쇠",
+              "message": "Los rostros se relajan al mirarse.",
+              "x": 30,
+              "y": 48
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Noah habla con una mano en el pecho. Cuenta un sentimiento que no había expresado.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 26,
-              "y": 51
+              "kind": "🏃 행동 열쇠",
+              "message": "Se señalan con suavidad mientras hablan.",
+              "x": 52,
+              "y": 80
             },
             {
-              "kind": "👂 Llave del oído",
-              "message": "Palabras del cuento: Has caminado mucho y pensé que tendrías hambre",
-              "x": 72,
-              "y": 58,
-              "location": "Observa el lugar señalado en la imagen."
+              "kind": "👂 귀 열쇠",
+              "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+              "x": 38,
+              "y": 62
             }
           ],
           "panel": 4,
-          "image": "./images/plate-panel-4.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/419",
+          "crop": {
+            "x": 0.2392,
+            "y": 66.3477,
+            "w": 49.5215,
+            "h": 33.4131
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -5591,30 +7373,34 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Bajan los hombros y sonríen. Escucharse ha cambiado sus caras.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 25,
+              "kind": "👀 눈 열쇠",
+              "message": "Sonríen y los hombros se relajan.",
+              "x": 73,
               "y": 51
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "El pan está dividido en dos. Eligieron juntos después de preguntar por sus sentimientos.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 50,
-              "y": 83
+              "kind": "🏃 행동 열쇠",
+              "message": "Han dividido el pan en trocitos.",
+              "x": 51,
+              "y": 84
             }
           ],
           "panel": 5,
-          "image": "./images/plate-panel-5.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-0.png",
+          "aspect": "621/419",
+          "crop": {
+            "x": 50.2392,
+            "y": 66.3477,
+            "w": 49.5215,
+            "h": 33.4131
+          }
         }
       ],
       "activities": [
         {
           "role": "Noah",
           "text": "Me gustaba comer con Sofía. Al ver el último trozo de pan, recordé que ella había caminado mucho.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -5622,23 +7408,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía sonríe.",
-                  "x": 58,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 72,
+                  "y": 45
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Hay un trozo de pan entre ambos.",
-                  "x": 62,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay un trocito de pan entre los dos.",
+                  "x": 57,
+                  "y": 79
                 }
               ],
               "panel": 0,
-              "image": "./images/plate-camera-0-scene-1.png",
-              "aspect": "623/408"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/408",
+              "crop": {
+                "x": 0.2392,
+                "y": 0.2392,
+                "w": 49.5215,
+                "h": 32.5359
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -5646,23 +7436,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía abre mucho los ojos y levanta las manos.",
-                  "x": 62,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 71,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Noah empuja el plato hacia Sofía.",
-                  "x": 40,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano acerca el plato.",
+                  "x": 53,
+                  "y": 82
                 }
               ],
               "panel": 1,
-              "image": "./images/plate-camera-0-scene-2.png",
-              "aspect": "623/408"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/408",
+              "crop": {
+                "x": 50.2392,
+                "y": 0.2392,
+                "w": 49.5215,
+                "h": 32.5359
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -5670,23 +7464,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía deja de sonreír.",
-                  "x": 60,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 72,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía detiene la mano en vez de llevarla al plato.",
-                  "x": 60,
-                  "y": 57
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay manos cerca del pecho y del plato.",
+                  "x": 53,
+                  "y": 86
                 }
               ],
               "panel": 2,
-              "image": "./images/plate-camera-0-scene-3.png",
-              "aspect": "623/401"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/407",
+              "crop": {
+                "x": 0.2392,
+                "y": 33.2536,
+                "w": 49.5215,
+                "h": 32.4561
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -5694,23 +7492,27 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía abre la boca para contar lo que piensa.",
-                  "x": 80,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 75,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Con las manos abiertas, se escuchan.",
-                  "x": 57,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Alguien habla con las manos abiertas.",
+                  "x": 60,
+                  "y": 87
                 }
               ],
               "panel": 3,
-              "image": "./images/plate-camera-0-scene-4.png",
-              "aspect": "623/401"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/407",
+              "crop": {
+                "x": 50.2392,
+                "y": 33.2536,
+                "w": 49.5215,
+                "h": 32.4561
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -5718,23 +7520,33 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía mira a Noah.",
-                  "x": 58,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 70,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Noah se pone una mano en el pecho y cuenta lo que siente.",
-                  "x": 33,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Se señalan con suavidad mientras hablan.",
+                  "x": 52,
+                  "y": 88
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 78,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/plate-camera-0-scene-5.png",
-              "aspect": "623/433"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/421",
+              "crop": {
+                "x": 0.2392,
+                "y": 66.1882,
+                "w": 49.5215,
+                "h": 33.5726
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -5742,32 +7554,44 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía vuelve a sonreír.",
-                  "x": 76,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 75,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Comparten el pan y lo ponen en dos platos.",
-                  "x": 76,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Han dividido el pan en trocitos.",
+                  "x": 62,
+                  "y": 77
                 }
               ],
               "panel": 5,
-              "image": "./images/plate-camera-0-scene-6.png",
-              "aspect": "623/433"
+              "atlas": "./images/plate-view-1.png",
+              "aspect": "621/421",
+              "crop": {
+                "x": 50.2392,
+                "y": 66.1882,
+                "w": 49.5215,
+                "h": 33.5726
+              }
             }
           ],
-          "image": "./images/plate-camera-0-scene-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "621/407",
+          "crop": {
+            "x": 0.2392,
+            "y": 33.2536,
+            "w": 49.5215,
+            "h": 32.4561
+          }
         },
         {
           "role": "La dueña del restaurante",
           "text": "Quedaba un trozo de pan entre los dos niños. Aún no sabía cómo querían compartirlo.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -5775,23 +7599,27 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los dos niños sonríen.",
-                  "x": 49,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 75,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Hay un trozo de pan entre ambos.",
-                  "x": 60,
-                  "y": 74
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay un trocito de pan entre los dos.",
+                  "x": 64,
+                  "y": 83
                 }
               ],
               "panel": 0,
-              "image": "./images/plate-camera-1-scene-1.png",
-              "aspect": "622/397"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -5799,23 +7627,27 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía levanta la mano y se detiene.",
-                  "x": 80,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 49,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Noah empuja el plato hacia Sofía.",
-                  "x": 53,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano acerca el plato.",
+                  "x": 63,
+                  "y": 82
                 }
               ],
               "panel": 1,
-              "image": "./images/plate-camera-1-scene-2.png",
-              "aspect": "624/397"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -5823,23 +7655,27 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía recoge los brazos y aprieta los labios.",
-                  "x": 45,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 76,
+                  "y": 53
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía detiene la mano en vez de llevarla al plato.",
-                  "x": 45,
-                  "y": 60
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay manos cerca del pecho y del plato.",
+                  "x": 61,
+                  "y": 83
                 }
               ],
               "panel": 2,
-              "image": "./images/plate-camera-1-scene-3.png",
-              "aspect": "622/390"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "763/333",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.5195
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -5847,23 +7683,27 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los dos niños miran con los ojos muy abiertos.",
-                  "x": 49,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 75,
+                  "y": 55
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Con las manos abiertas, se escuchan.",
-                  "x": 46,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Alguien habla con las manos abiertas.",
+                  "x": 65,
+                  "y": 84
                 }
               ],
               "panel": 3,
-              "image": "./images/plate-camera-1-scene-4.png",
-              "aspect": "624/390"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "761/333",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.5195
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -5871,23 +7711,33 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sofía escucha a Noah.",
-                  "x": 78,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 77,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Noah se pone una mano en el pecho y cuenta lo que siente.",
-                  "x": 42,
-                  "y": 58
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Se señalan con suavidad mientras hablan.",
+                  "x": 63,
+                  "y": 84
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 85,
+                  "y": 62
                 }
               ],
               "panel": 4,
-              "image": "./images/plate-camera-1-scene-5.png",
-              "aspect": "622/455"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "763/338",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.6992,
+                "w": 49.6745,
+                "h": 33.0078
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -5895,27 +7745,39 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los niños se miran y sonríen.",
-                  "x": 48,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 75,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Comparten el pan y lo ponen en dos platos.",
-                  "x": 70,
-                  "y": 76
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Han dividido el pan en trocitos.",
+                  "x": 64,
+                  "y": 83
                 }
               ],
               "panel": 5,
-              "image": "./images/plate-camera-1-scene-6.png",
-              "aspect": "624/455"
+              "atlas": "./images/plate-view-2.png",
+              "aspect": "761/338",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.6992,
+                "w": 49.5443,
+                "h": 33.0078
+              }
             }
           ],
-          "image": "./images/plate-camera-1-scene-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/plate-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/333",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6745,
+            "h": 32.5195
+          }
         }
       ],
       "audience": "child",
@@ -5932,11 +7794,13 @@ window.heartBookLocales = {
           "name": "La dueña del restaurante",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "door",
-      "title": "Antes de abrir la puerta",
+      "title": "La estrella detrás de la puerta",
       "place": "Casa",
       "narrator": "Sora",
       "roles": [
@@ -5944,7 +7808,7 @@ window.heartBookLocales = {
         "Mamá",
         "Sua"
       ],
-      "atlas": "./images/door-story-atlas.png",
+      "atlas": "./images/door-view-0.png",
       "scenes": [
         {
           "title": "Un momento para compartir",
@@ -5952,23 +7816,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sora sonríe. ¿En quién piensa mientras hace su estrella?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 30,
-              "y": 47
+              "kind": "👀 눈 열쇠",
+              "message": "Las comisuras de una boca suben un poco.",
+              "x": 27,
+              "y": 44
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Sora tiene una estrella amarilla de papel. Algunas puntas aún no están pegadas.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 53,
-              "y": 70
+              "kind": "🏃 행동 열쇠",
+              "message": "Están haciendo una estrella de papel amarilla.",
+              "x": 29,
+              "y": 66
             }
           ],
           "panel": 0,
-          "image": "./images/door-panel-0.png",
-          "aspect": "512/369"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -5976,23 +7844,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sora abre los ojos y sube los hombros. ¿Algo la sorprendió?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 32,
-              "y": 41
+              "kind": "👀 눈 열쇠",
+              "message": "Abre los ojos o inclina la cabeza para mirar.",
+              "x": 30,
+              "y": 43
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Sora esconde la estrella amarilla detrás de la espalda. Todavía no sabemos por qué.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 34,
-              "y": 60
+              "kind": "🏃 행동 열쇠",
+              "message": "Asoma una punta amarilla detrás de la espalda.",
+              "x": 18,
+              "y": 70
             }
           ],
           "panel": 1,
-          "image": "./images/door-panel-1.png",
-          "aspect": "512/369"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -6000,23 +7872,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sora aprieta los labios y mamá también junta las cejas. ¿Piensan lo mismo?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 32,
-              "y": 42
+              "kind": "👀 눈 열쇠",
+              "message": "Cierra los labios y encoge los hombros.",
+              "x": 27,
+              "y": 50
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Sora sujeta la estrella con fuerza. ¿Es importante para ella lo que hace?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 26,
-              "y": 66
+              "kind": "🏃 행동 열쇠",
+              "message": "Sujeta la estrella detrás de la espalda.",
+              "x": 17,
+              "y": 70
             }
           ],
           "panel": 2,
-          "image": "./images/door-panel-2.png",
-          "aspect": "512/397"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/328",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 32.0313
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -6024,23 +7900,27 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Mamá mira a Sora a su altura. Espera sin apresurarse a dar una respuesta.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 60,
-              "y": 42
+              "kind": "👀 눈 열쇠",
+              "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+              "x": 35,
+              "y": 50
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Mamá tiene las manos abiertas y una punta amarilla asoma detrás de la mano de Sora.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 59,
-              "y": 60
+              "kind": "🏃 행동 열쇠",
+              "message": "Una mano abierta espera a que hablen.",
+              "x": 45,
+              "y": 59
             }
           ],
           "panel": 3,
-          "image": "./images/door-panel-3.png",
-          "aspect": "512/397"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/328",
+          "crop": {
+            "x": 50.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 32.0313
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -6048,30 +7928,33 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Sua levanta las cejas. ¿Escuchó algo distinto de lo que imaginó?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 84,
-              "y": 34
+              "kind": "👀 눈 열쇠",
+              "message": "Los rostros se relajan al mirarse.",
+              "x": 31,
+              "y": 51
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Sora muestra la estrella que escondía. Sus palabras también cuentan el cariño con que hacía el regalo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 43,
-              "y": 52
+              "kind": "🏃 행동 열쇠",
+              "message": "Muestra la estrella sin terminar.",
+              "x": 40,
+              "y": 72
             },
             {
-              "kind": "👂 Llave del oído",
-              "message": "Palabras del cuento: Quiero dársela a Sua, pero aún no he terminado",
-              "x": 84,
-              "y": 49,
-              "location": "Observa el lugar señalado en la imagen."
+              "kind": "👂 귀 열쇠",
+              "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+              "x": 39,
+              "y": 65
             }
           ],
           "panel": 4,
-          "image": "./images/door-panel-4.png",
-          "aspect": "512/370"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/342",
+          "crop": {
+            "x": 0.1953,
+            "y": 66.3086,
+            "w": 49.6094,
+            "h": 33.3984
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -6079,30 +7962,34 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Los tres sonríen. Compara sus caras con las que tenían antes junto a la puerta.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 44,
-              "y": 54
+              "kind": "👀 눈 열쇠",
+              "message": "Sonríen y los hombros se relajan.",
+              "x": 42,
+              "y": 43
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Sora entrega la estrella a Sua. La espera les ayudó a conocer un poco sus sentimientos.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 50,
-              "y": 63
+              "kind": "🏃 행동 열쇠",
+              "message": "Unen sus manos para terminar la estrella.",
+              "x": 57,
+              "y": 77
             }
           ],
           "panel": 5,
-          "image": "./images/door-panel-5.png",
-          "aspect": "512/370"
+          "atlas": "./images/door-view-0.png",
+          "aspect": "762/342",
+          "crop": {
+            "x": 50.1953,
+            "y": 66.3086,
+            "w": 49.6094,
+            "h": 33.3984
+          }
         }
       ],
       "activities": [
         {
           "role": "Mamá",
           "text": "Miré alrededor de la puerta porque iba a venir Sua. Aún no sabía qué estaba haciendo Sora con el papel.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -6110,23 +7997,27 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora sonríe al mirar su estrella.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 53,
+                  "y": 43
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora sostiene una estrella amarilla y unas tijeras.",
-                  "x": 54,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Están haciendo una estrella de papel amarilla.",
+                  "x": 56,
+                  "y": 69
                 }
               ],
               "panel": 0,
-              "image": "./images/door-camera-0-scene-1.png",
-              "aspect": "622/412"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -6134,23 +8025,27 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora se vuelve con los ojos muy abiertos.",
-                  "x": 55,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 50,
+                  "y": 43
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora aprieta la estrella cerca de su cuerpo.",
-                  "x": 46,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Asoma una punta amarilla detrás de la espalda.",
+                  "x": 40,
+                  "y": 70
                 }
               ],
               "panel": 1,
-              "image": "./images/door-camera-0-scene-2.png",
-              "aspect": "624/412"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -6158,23 +8053,27 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora baja la cabeza y aprieta los labios.",
-                  "x": 50,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 55,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora espera sujetando la estrella con fuerza.",
-                  "x": 51,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Sujeta la estrella detrás de la espalda.",
+                  "x": 42,
+                  "y": 72
                 }
               ],
               "panel": 2,
-              "image": "./images/door-camera-0-scene-3.png",
-              "aspect": "622/396"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.4961,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -6182,23 +8081,27 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora baja la mirada.",
-                  "x": 50,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 57,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Mamá abre las manos y espera las palabras.",
-                  "x": 64,
-                  "y": 77
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano abierta espera a que hablen.",
+                  "x": 45,
+                  "y": 54
                 }
               ],
               "panel": 3,
-              "image": "./images/door-camera-0-scene-4.png",
-              "aspect": "624/396"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.4961,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -6206,23 +8109,33 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora abre la boca para hablar de la estrella.",
-                  "x": 53,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 57,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora muestra la estrella amarilla.",
-                  "x": 59,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Muestra la estrella sin terminar.",
+                  "x": 48,
+                  "y": 74
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 65,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/door-camera-0-scene-5.png",
-              "aspect": "622/434"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/350",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.5273,
+                "w": 49.6094,
+                "h": 34.1797
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -6230,32 +8143,44 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora y Sua sonríen.",
-                  "x": 55,
-                  "y": 46
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 56,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora entrega la estrella a Sua.",
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Unen sus manos para terminar la estrella.",
                   "x": 66,
-                  "y": 70
+                  "y": 77
                 }
               ],
               "panel": 5,
-              "image": "./images/door-camera-0-scene-6.png",
-              "aspect": "624/434"
+              "atlas": "./images/door-view-1.png",
+              "aspect": "762/350",
+              "crop": {
+                "x": 50.1953,
+                "y": 65.5273,
+                "w": 49.6094,
+                "h": 34.1797
+              }
             }
           ],
-          "image": "./images/door-camera-0-scene-3.png",
-          "aspect": "512/400"
+          "atlas": "./images/door-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "762/322",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.4961,
+            "w": 49.6094,
+            "h": 31.4453
+          }
         },
         {
           "role": "Sua",
           "text": "Disfruté del camino a casa de Sora. Me preguntaba qué haríamos juntos.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -6263,23 +8188,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora sonríe al mirar su estrella.",
-                  "x": 30,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 75,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora sostiene una estrella amarilla y unas tijeras.",
-                  "x": 40,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Están haciendo una estrella de papel amarilla.",
+                  "x": 75,
+                  "y": 68
                 }
               ],
               "panel": 0,
-              "image": "./images/door-camera-1-scene-1.png",
-              "aspect": "623/410"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -6287,23 +8216,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora abre mucho los ojos, como sorprendida.",
-                  "x": 29,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 77,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora aprieta la estrella cerca de su cuerpo.",
-                  "x": 27,
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Asoma una punta amarilla detrás de la espalda.",
+                  "x": 69,
                   "y": 69
                 }
               ],
               "panel": 1,
-              "image": "./images/door-camera-1-scene-2.png",
-              "aspect": "623/410"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 50.1302,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -6311,23 +8244,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora tiene la cabeza baja.",
-                  "x": 24,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 69,
+                  "y": 56
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora espera sujetando la estrella con fuerza.",
-                  "x": 22,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Sujeta la estrella detrás de la espalda.",
+                  "x": 62,
+                  "y": 76
                 }
               ],
               "panel": 2,
-              "image": "./images/door-camera-1-scene-3.png",
-              "aspect": "623/404"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "761/329",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.1289
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -6335,23 +8272,27 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Mamá se inclina hacia Sora.",
-                  "x": 46,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 74,
+                  "y": 56
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Mamá abre las manos y espera las palabras.",
-                  "x": 40,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano abierta espera a que hablen.",
+                  "x": 69,
+                  "y": 76
                 }
               ],
               "panel": 3,
-              "image": "./images/door-camera-1-scene-4.png",
-              "aspect": "623/404"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "763/329",
+              "crop": {
+                "x": 50.1302,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.1289
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -6359,23 +8300,33 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora habla con los ojos muy abiertos.",
-                  "x": 26,
-                  "y": 39
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 49,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora muestra la estrella amarilla.",
-                  "x": 42,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Muestra la estrella sin terminar.",
+                  "x": 50,
+                  "y": 72
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 57,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/door-camera-1-scene-5.png",
-              "aspect": "623/428"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "761/342",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.3086,
+                "w": 49.5443,
+                "h": 33.3984
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -6383,27 +8334,39 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora sonríe.",
-                  "x": 27,
-                  "y": 45
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 68,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Sora entrega la estrella a Sua.",
-                  "x": 54,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Unen sus manos para terminar la estrella.",
+                  "x": 73,
+                  "y": 72
                 }
               ],
               "panel": 5,
-              "image": "./images/door-camera-1-scene-6.png",
-              "aspect": "623/428"
+              "atlas": "./images/door-view-2.png",
+              "aspect": "763/342",
+              "crop": {
+                "x": 50.1302,
+                "y": 66.3086,
+                "w": 49.6745,
+                "h": 33.3984
+              }
             }
           ],
-          "image": "./images/door-camera-1-scene-3.png",
-          "aspect": "512/400"
+          "atlas": "./images/door-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "761/329",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.5443,
+            "h": 32.1289
+          }
         }
       ],
       "audience": "child",
@@ -6420,43 +8383,49 @@ window.heartBookLocales = {
           "name": "Sua",
           "age": 8
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "ball",
-      "title": "Esperando la pelota amarilla",
-      "place": "Parque para perros",
+      "title": "El día que la pelota amarilla esperó",
+      "place": "Parque infantil",
       "narrator": "Haneul",
       "roles": [
         "Haneul",
         "Subin",
         "La encargada del parque"
       ],
-      "atlas": "./images/ball-story-atlas.png",
+      "atlas": "./images/ball-view-0.png",
       "scenes": [
         {
           "title": "Un momento para compartir",
-          "text": "Me encontré con Subin en el parque para perros. Mi perro olfateaba la hierba. Vi una pelota amarilla en la mano de Subin. Sonreí un poco pensando que jugaríamos juntas.",
+          "text": "Me encontré con Subin en el césped junto al parque infantil. Mi perro olfateaba la hierba. Vi una pelota amarilla en la mano de Subin. Sonreí un poco pensando que jugaríamos juntas.",
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Haneul sonríe. ¿Le alegra pensar en jugar juntas?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 29,
-              "y": 41
+              "kind": "👀 눈 열쇠",
+              "message": "Las comisuras de una boca suben un poco.",
+              "x": 30,
+              "y": 44
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Subin tiene la pelota amarilla. Mira también qué hacen los perros.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 66,
-              "y": 53
+              "kind": "🏃 행동 열쇠",
+              "message": "Tiene la pelota amarilla en la mano.",
+              "x": 67,
+              "y": 48
             }
           ],
           "panel": 0,
-          "image": "./images/ball-panel-0.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -6464,23 +8433,27 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Haneul abre mucho los ojos. Lo que esperaba aún no ha pasado.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 31,
-              "y": 37
+              "kind": "👀 눈 열쇠",
+              "message": "Abre los ojos o inclina la cabeza para mirar.",
+              "x": 76,
+              "y": 43
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Subin mantiene quieta la pelota mientras su perro huele la hierba. Si solo miramos la pelota, no vemos esto.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 73,
-              "y": 63
+              "kind": "🏃 행동 열쇠",
+              "message": "Espera un momento sin hacer rodar la pelota.",
+              "x": 72,
+              "y": 54
             }
           ],
           "panel": 1,
-          "image": "./images/ball-panel-1.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/336",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 32.8125
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -6488,23 +8461,27 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Haneul deja de sonreír y Subin encoge los hombros. Quizá sienten cosas distintas.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 26,
-              "y": 44
+              "kind": "👀 눈 열쇠",
+              "message": "Cierra los labios y encoge los hombros.",
+              "x": 75,
+              "y": 48
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "El hocico del perro gris apunta a la hierba. ¿Explora olores nuevos?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 88,
-              "y": 86
+              "kind": "🏃 행동 열쇠",
+              "message": "Las manos que sujetan la pelota están juntas.",
+              "x": 74,
+              "y": 57
             }
           ],
           "panel": 2,
-          "image": "./images/ball-panel-2.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -6512,30 +8489,27 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Subin habla mirando a su perro. Había mirado sus movimientos en vez de a Haneul.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 75,
-              "y": 43
+              "kind": "👀 눈 열쇠",
+              "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+              "x": 76,
+              "y": 46
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "La encargada señala desde una distancia cómoda sin tocar al perro. Podemos observar sin acercarnos demasiado.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 60,
-              "y": 67
-            },
-            {
-              "kind": "👂 Llave del oído",
-              "message": "Palabras del cuento: Es su primera vez aquí y quiero darle un poco de tiempo",
-              "x": 75,
-              "y": 58,
-              "location": "Observa el lugar señalado en la imagen."
+              "kind": "🏃 행동 열쇠",
+              "message": "El perro baja la nariz hacia la hierba.",
+              "x": 70,
+              "y": 80
             }
           ],
           "panel": 3,
-          "image": "./images/ball-panel-3.png",
-          "aspect": "512/384"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 50.1953,
+            "y": 33.6914,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -6543,23 +8517,33 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Haneul relaja un poco las manos y los hombros. ¿Cambió su primer sentimiento?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 22,
-              "y": 44
+              "kind": "👀 눈 열쇠",
+              "message": "Los rostros se relajan al mirarse.",
+              "x": 31,
+              "y": 49
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "La pelota está en la hierba y el perro se acerca solo. Esperaron a su ritmo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 66,
-              "y": 84
+              "kind": "🏃 행동 열쇠",
+              "message": "Ha dejado la pelota amarilla en la hierba.",
+              "x": 69,
+              "y": 91
+            },
+            {
+              "kind": "👂 귀 열쇠",
+              "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+              "x": 39,
+              "y": 63
             }
           ],
           "panel": 4,
-          "image": "./images/ball-panel-4.png",
-          "aspect": "512/369"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/354",
+          "crop": {
+            "x": 0.1953,
+            "y": 65.1367,
+            "w": 49.6094,
+            "h": 34.5703
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -6567,30 +8551,34 @@ window.heartBookLocales = {
           "viewpoint": "Haneul",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Las niñas sonríen. Han contado con palabras sus sentimientos distintos.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 24,
-              "y": 40
+              "kind": "👀 눈 열쇠",
+              "message": "Sonríen y los hombros se relajan.",
+              "x": 76,
+              "y": 47
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Los perros huelen la pelota. Jugar juntos no tiene que ser correr o llevarla en la boca.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 48,
-              "y": 77
+              "kind": "🏃 행동 열쇠",
+              "message": "Los perros huelen la pelota juntos.",
+              "x": 69,
+              "y": 93
             }
           ],
           "panel": 5,
-          "image": "./images/ball-panel-5.png",
-          "aspect": "512/369"
+          "atlas": "./images/ball-view-0.png",
+          "aspect": "762/354",
+          "crop": {
+            "x": 50.1953,
+            "y": 65.1367,
+            "w": 49.6094,
+            "h": 34.5703
+          }
         }
       ],
       "activities": [
         {
           "role": "Subin",
           "text": "Era la primera vez de mi perro en este parque. Sostuve la pelota amarilla y miré alrededor con calma.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -6598,23 +8586,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul sonríe al mirar al perro.",
-                  "x": 32,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 76,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Subin espera con la pelota amarilla.",
-                  "x": 37,
-                  "y": 76
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Tiene la pelota amarilla en la mano.",
+                  "x": 33,
+                  "y": 73
                 }
               ],
               "panel": 0,
-              "image": "./images/ball-camera-0-scene-1.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -6622,23 +8614,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul mira al perro con los ojos muy abiertos.",
-                  "x": 29,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 76,
+                  "y": 45
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "El perro acerca el hocico a la hierba.",
-                  "x": 77,
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Espera un momento sin hacer rodar la pelota.",
+                  "x": 31,
                   "y": 74
                 }
               ],
               "panel": 1,
-              "image": "./images/ball-camera-0-scene-2.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -6646,23 +8642,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul recoge los brazos y deja de sonreír.",
-                  "x": 29,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 76,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Esperan sin hacer rodar la pelota.",
-                  "x": 37,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Las manos que sujetan la pelota están juntas.",
+                  "x": 31,
+                  "y": 76
                 }
               ],
               "panel": 2,
-              "image": "./images/ball-camera-0-scene-3.png",
-              "aspect": "623/388"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.7891,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -6670,30 +8670,27 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul mira a la encargada del parque.",
-                  "x": 26,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 72,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La encargada señala al perro.",
-                  "x": 62,
-                  "y": 60
-                },
-                {
-                  "kind": "👂 Llave del oído",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Palabras del cuento: Es nuestra primera vez aquí y quiero esperar un poco",
-                  "x": 39,
-                  "y": 55
+                  "kind": "🏃 행동 열쇠",
+                  "message": "El perro baja la nariz hacia la hierba.",
+                  "x": 60,
+                  "y": 76
                 }
               ],
               "panel": 3,
-              "image": "./images/ball-camera-0-scene-4.png",
-              "aspect": "623/388"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/322",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.7891,
+                "w": 49.6094,
+                "h": 31.4453
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -6701,23 +8698,33 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul sonríe un poco.",
-                  "x": 28,
-                  "y": 34
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 73,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Cuando dejan la pelota, el perro se acerca.",
-                  "x": 62,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Ha dejado la pelota amarilla en la hierba.",
+                  "x": 54,
+                  "y": 92
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 81,
+                  "y": 64
                 }
               ],
               "panel": 4,
-              "image": "./images/ball-camera-0-scene-5.png",
-              "aspect": "623/442"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/347",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.8203,
+                "w": 49.6094,
+                "h": 33.8867
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -6725,32 +8732,44 @@ window.heartBookLocales = {
               "viewpoint": "Subin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul sonríe mientras espera.",
-                  "x": 27,
-                  "y": 35
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 76,
+                  "y": 52
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los perros exploran alrededor de la pelota a su ritmo.",
-                  "x": 58,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Los perros huelen la pelota juntos.",
+                  "x": 60,
+                  "y": 93
                 }
               ],
               "panel": 5,
-              "image": "./images/ball-camera-0-scene-6.png",
-              "aspect": "623/442"
+              "atlas": "./images/ball-view-1.png",
+              "aspect": "762/347",
+              "crop": {
+                "x": 50.1953,
+                "y": 65.8203,
+                "w": 49.6094,
+                "h": 33.8867
+              }
             }
           ],
-          "image": "./images/ball-camera-0-scene-3.png",
-          "aspect": "512/399"
+          "atlas": "./images/ball-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "762/322",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.7891,
+            "w": 49.6094,
+            "h": 31.4453
+          }
         },
         {
           "role": "La encargada del parque",
           "text": "Dos niñas y sus perros llegaron al parque. En un lugar nuevo, quizá necesitaban tiempo para mirar alrededor con calma.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -6758,23 +8777,27 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Las dos niñas sonríen.",
-                  "x": 43,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 76,
+                  "y": 45
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Subin espera con la pelota amarilla.",
-                  "x": 71,
-                  "y": 51
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Tiene la pelota amarilla en la mano.",
+                  "x": 53,
+                  "y": 57
                 }
               ],
               "panel": 0,
-              "image": "./images/ball-camera-1-scene-1.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.7148
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -6782,23 +8805,27 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Subin baja la cabeza sosteniendo la pelota.",
-                  "x": 71,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 77,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "El perro acerca el hocico a la hierba.",
-                  "x": 71,
-                  "y": 71
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Espera un momento sin hacer rodar la pelota.",
+                  "x": 54,
+                  "y": 60
                 }
               ],
               "panel": 1,
-              "image": "./images/ball-camera-1-scene-2.png",
-              "aspect": "623/412"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/335",
+              "crop": {
+                "x": 50.1953,
+                "y": 0.293,
+                "w": 49.6094,
+                "h": 32.7148
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -6806,23 +8833,27 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Haneul recoge los brazos y Subin también deja de sonreír.",
-                  "x": 42,
-                  "y": 33
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 77,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Esperan sin hacer rodar la pelota.",
-                  "x": 71,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Las manos que sujetan la pelota están juntas.",
+                  "x": 58,
+                  "y": 71
                 }
               ],
               "panel": 2,
-              "image": "./images/ball-camera-1-scene-3.png",
-              "aspect": "623/410"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -6830,23 +8861,27 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Las dos niñas miran al perro.",
-                  "x": 44,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 76,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La encargada señala al perro.",
-                  "x": 53,
-                  "y": 68
+                  "kind": "🏃 행동 열쇠",
+                  "message": "El perro baja la nariz hacia la hierba.",
+                  "x": 66,
+                  "y": 84
                 }
               ],
               "panel": 3,
-              "image": "./images/ball-camera-1-scene-4.png",
-              "aspect": "623/410"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/334",
+              "crop": {
+                "x": 50.1953,
+                "y": 33.5938,
+                "w": 49.6094,
+                "h": 32.6172
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -6854,23 +8889,33 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Las niñas observan al perro con calma.",
-                  "x": 72,
-                  "y": 32
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 76,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Cuando dejan la pelota, el perro se acerca.",
-                  "x": 59,
-                  "y": 80
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Ha dejado la pelota amarilla en la hierba.",
+                  "x": 54,
+                  "y": 92
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 84,
+                  "y": 62
                 }
               ],
               "panel": 4,
-              "image": "./images/ball-camera-1-scene-5.png",
-              "aspect": "623/420"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.7969,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -6878,27 +8923,39 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Las niñas sonríen.",
-                  "x": 47,
-                  "y": 31
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 77,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los perros exploran alrededor de la pelota a su ritmo.",
-                  "x": 60,
-                  "y": 76
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Los perros huelen la pelota juntos.",
+                  "x": 54,
+                  "y": 94
                 }
               ],
               "panel": 5,
-              "image": "./images/ball-camera-1-scene-6.png",
-              "aspect": "623/420"
+              "atlas": "./images/ball-view-2.png",
+              "aspect": "762/337",
+              "crop": {
+                "x": 50.1953,
+                "y": 66.7969,
+                "w": 49.6094,
+                "h": 32.9102
+              }
             }
           ],
-          "image": "./images/ball-camera-1-scene-3.png",
-          "aspect": "512/399"
+          "atlas": "./images/ball-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "762/334",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6094,
+            "h": 32.6172
+          }
         }
       ],
       "audience": "child",
@@ -6915,11 +8972,13 @@ window.heartBookLocales = {
           "name": "La encargada del parque",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "stars",
-      "title": "Estrellas que pegamos juntos",
+      "title": "Nuestras estrellas un poquito torcidas",
       "place": "Escuela",
       "narrator": "Jun",
       "roles": [
@@ -6927,7 +8986,7 @@ window.heartBookLocales = {
         "Harin",
         "La maestra"
       ],
-      "atlas": "./images/stars-story-atlas.png",
+      "atlas": "./images/stars-view-0.png",
       "scenes": [
         {
           "title": "Un momento para compartir",
@@ -6935,23 +8994,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Jun sonríe. ¿Le alegra crear algo juntos?",
-              "location": "Observa el lugar señalado en la imagen.",
+              "kind": "👀 눈 열쇠",
+              "message": "Las comisuras de una boca suben un poco.",
               "x": 30,
-              "y": 46
+              "y": 45
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Los niños tienen papeles de estrellas de colores distintos. Sus formas también pueden ser distintas.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 48,
-              "y": 75
+              "kind": "🏃 행동 열쇠",
+              "message": "Sujetan estrellas de colores y formas distintos.",
+              "x": 31,
+              "y": 72
             }
           ],
           "panel": 0,
-          "image": "./images/stars-panel-0.png",
-          "aspect": "512/371"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 0.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -6959,23 +9022,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Harin baja la mirada y levanta la parte interior de las cejas. ¿Está preocupada?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 73,
-              "y": 46
+              "kind": "👀 눈 열쇠",
+              "message": "Abre los ojos o inclina la cabeza para mirar.",
+              "x": 30,
+              "y": 43
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Harin tapa su dibujo y se ven restos de goma. Sí ha estado haciendo algo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 61,
-              "y": 74
+              "kind": "🏃 행동 열쇠",
+              "message": "Hay restos de goma junto al papel.",
+              "x": 81,
+              "y": 81
             }
           ],
           "panel": 1,
-          "image": "./images/stars-panel-1.png",
-          "aspect": "512/371"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/316",
+          "crop": {
+            "x": 50.1953,
+            "y": 0.293,
+            "w": 49.6094,
+            "h": 30.8594
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -6983,23 +9050,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Jun deja de sonreír y recoge los brazos. ¿Se ha sentido solo?",
-              "location": "Observa el lugar señalado en la imagen.",
+              "kind": "👀 눈 열쇠",
+              "message": "Cierra los labios y encoge los hombros.",
               "x": 28,
-              "y": 49
+              "y": 53
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Harin tapa el papel, pero tiene la goma cerca. ¿Qué hacía antes de detenerse?",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 72,
-              "y": 69
+              "kind": "🏃 행동 열쇠",
+              "message": "El dibujo está escondido bajo los brazos.",
+              "x": 69,
+              "y": 70
             }
           ],
           "panel": 2,
-          "image": "./images/stars-panel-2.png",
-          "aspect": "512/388"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/315",
+          "crop": {
+            "x": 0.1953,
+            "y": 31.7383,
+            "w": 49.6094,
+            "h": 30.7617
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -7007,23 +9078,27 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "La maestra se sienta a su altura para mirar sus caras. No los apura para mostrar el dibujo.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 45,
-              "y": 39
+              "kind": "👀 눈 열쇠",
+              "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+              "x": 27,
+              "y": 48
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Harin aún tiene la mano en el papel. Esperar a que esté lista también es trabajar juntos.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 82,
-              "y": 72
+              "kind": "🏃 행동 열쇠",
+              "message": "Una mano abierta espera sus palabras.",
+              "x": 55,
+              "y": 70
             }
           ],
           "panel": 3,
-          "image": "./images/stars-panel-3.png",
-          "aspect": "512/388"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/315",
+          "crop": {
+            "x": 50.1953,
+            "y": 31.7383,
+            "w": 49.6094,
+            "h": 30.7617
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -7031,30 +9106,33 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Jun relaja un poco las cejas. Las palabras de Harin le muestran un sentimiento que no conocía.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 26,
-              "y": 46
+              "kind": "👀 눈 열쇠",
+              "message": "Los rostros se relajan al mirarse.",
+              "x": 70,
+              "y": 47
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Harin aparta la mano y muestra una estrella un poco torcida. Fíjate en lo que contó, no solo en la forma.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 64,
-              "y": 72
+              "kind": "🏃 행동 열쇠",
+              "message": "Muestra una estrella un poco torcida.",
+              "x": 65,
+              "y": 65
             },
             {
-              "kind": "👂 Llave del oído",
-              "message": "Palabras del cuento: Sentía que tenía que dibujarla bien, por eso seguía borrando",
-              "x": 26,
-              "y": 61,
-              "location": "Observa el lugar señalado en la imagen."
+              "kind": "👂 귀 열쇠",
+              "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+              "x": 78,
+              "y": 61
             }
           ],
           "panel": 4,
-          "image": "./images/stars-panel-4.png",
-          "aspect": "512/358"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/375",
+          "crop": {
+            "x": 0.1953,
+            "y": 63.0859,
+            "w": 49.6094,
+            "h": 36.6211
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -7062,30 +9140,34 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de los ojos",
-              "message": "Los dos niños relajan los hombros y sonríen. Sus caras cambiaron al contar lo que sentían.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 30,
-              "y": 45
+              "kind": "👀 눈 열쇠",
+              "message": "Sonríen y los hombros se relajan.",
+              "x": 28,
+              "y": 49
             },
             {
-              "kind": "🏃 Llave de las acciones",
-              "message": "Hay estrellas de formas distintas juntas. No todas tienen que ser iguales.",
-              "location": "Observa el lugar señalado en la imagen.",
-              "x": 49,
+              "kind": "🏃 행동 열쇠",
+              "message": "Pegan juntos estrellas distintas.",
+              "x": 55,
               "y": 80
             }
           ],
           "panel": 5,
-          "image": "./images/stars-panel-5.png",
-          "aspect": "512/358"
+          "atlas": "./images/stars-view-0.png",
+          "aspect": "762/375",
+          "crop": {
+            "x": 50.1953,
+            "y": 63.0859,
+            "w": 49.6094,
+            "h": 36.6211
+          }
         }
       ],
       "activities": [
         {
           "role": "Harin",
           "text": "Jun y yo decidimos hacer juntos un dibujo de estrellas. Quería mostrarle una estrella bonita.",
-          "panel": 6,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -7093,23 +9175,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun sonríe al mirar la estrella.",
-                  "x": 47,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 67,
+                  "y": 44
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "El papel y los lápices de colores están juntos.",
-                  "x": 55,
-                  "y": 70
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Sujetan estrellas de colores y formas distintos.",
+                  "x": 28,
+                  "y": 73
                 }
               ],
               "panel": 0,
-              "image": "./images/stars-camera-0-scene-1.png",
-              "aspect": "623/411"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -7117,23 +9203,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun abre mucho los ojos.",
-                  "x": 40,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 70,
+                  "y": 43
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Harin acerca las manos al papel.",
-                  "x": 70,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay restos de goma junto al papel.",
+                  "x": 46,
+                  "y": 80
                 }
               ],
               "panel": 1,
-              "image": "./images/stars-camera-0-scene-2.png",
-              "aspect": "623/411"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -7141,23 +9231,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun deja de sonreír.",
-                  "x": 45,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 72,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Harin sujeta el papel con fuerza.",
-                  "x": 42,
-                  "y": 60
+                  "kind": "🏃 행동 열쇠",
+                  "message": "El dibujo está escondido bajo los brazos.",
+                  "x": 47,
+                  "y": 80
                 }
               ],
               "panel": 2,
-              "image": "./images/stars-camera-0-scene-3.png",
-              "aspect": "623/403"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "763/336",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.5938,
+                "w": 49.6745,
+                "h": 32.8125
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -7165,23 +9259,27 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun escucha a la maestra.",
-                  "x": 35,
-                  "y": 44
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 71,
+                  "y": 46
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La maestra espera a su altura.",
-                  "x": 63,
-                  "y": 67
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano abierta espera sus palabras.",
+                  "x": 47,
+                  "y": 81
                 }
               ],
               "panel": 3,
-              "image": "./images/stars-camera-0-scene-4.png",
-              "aspect": "623/403"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "761/336",
+              "crop": {
+                "x": 50.2604,
+                "y": 33.5938,
+                "w": 49.5443,
+                "h": 32.8125
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -7189,23 +9287,33 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun mira a Harin.",
-                  "x": 44,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 72,
+                  "y": 47
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Muestran la estrella y cuentan sus pensamientos.",
-                  "x": 44,
-                  "y": 64
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Muestra una estrella un poco torcida.",
+                  "x": 33,
+                  "y": 77
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 80,
+                  "y": 61
                 }
               ],
               "panel": 4,
-              "image": "./images/stars-camera-0-scene-5.png",
-              "aspect": "623/428"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "763/335",
+              "crop": {
+                "x": 0.1953,
+                "y": 66.9922,
+                "w": 49.6745,
+                "h": 32.7148
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -7213,32 +9321,44 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun sonríe al mirar la estrella.",
-                  "x": 45,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 72,
+                  "y": 49
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Han juntado estrellas diferentes.",
-                  "x": 60,
-                  "y": 75
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Pegan juntos estrellas distintas.",
+                  "x": 46,
+                  "y": 81
                 }
               ],
               "panel": 5,
-              "image": "./images/stars-camera-0-scene-6.png",
-              "aspect": "623/428"
+              "atlas": "./images/stars-view-1.png",
+              "aspect": "761/335",
+              "crop": {
+                "x": 50.2604,
+                "y": 66.9922,
+                "w": 49.5443,
+                "h": 32.7148
+              }
             }
           ],
-          "image": "./images/stars-camera-0-scene-3.png",
-          "aspect": "512/419"
+          "atlas": "./images/stars-view-1.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "763/336",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.5938,
+            "w": 49.6745,
+            "h": 32.8125
+          }
         },
         {
           "role": "La maestra",
           "text": "Los dos niños hicieron estrellas uno junto al otro. Esperé para ver qué crearía cada uno.",
-          "panel": 7,
+          "panel": 2,
           "scenes": [
             {
               "title": "Un momento para compartir",
@@ -7246,23 +9366,27 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los niños sonríen mientras hacen estrellas.",
-                  "x": 46,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Las comisuras de una boca suben un poco.",
+                  "x": 49,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "El papel y los lápices de colores están juntos.",
-                  "x": 62,
-                  "y": 63
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Sujetan estrellas de colores y formas distintos.",
+                  "x": 57,
+                  "y": 79
                 }
               ],
               "panel": 0,
-              "image": "./images/stars-camera-1-scene-1.png",
-              "aspect": "623/394"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "761/333",
+              "crop": {
+                "x": 0.1953,
+                "y": 0.293,
+                "w": 49.5443,
+                "h": 32.5195
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -7270,23 +9394,27 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun mira hacia el papel de Harin.",
-                  "x": 45,
-                  "y": 42
+                  "kind": "👀 눈 열쇠",
+                  "message": "Abre los ojos o inclina la cabeza para mirar.",
+                  "x": 53,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Harin acerca las manos al papel.",
-                  "x": 80,
-                  "y": 63
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Hay restos de goma junto al papel.",
+                  "x": 75,
+                  "y": 83
                 }
               ],
               "panel": 1,
-              "image": "./images/stars-camera-1-scene-2.png",
-              "aspect": "623/394"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "763/333",
+              "crop": {
+                "x": 50.1302,
+                "y": 0.293,
+                "w": 49.6745,
+                "h": 32.5195
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -7294,23 +9422,27 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Jun recoge los brazos mientras Harin baja la cabeza.",
-                  "x": 48,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Cierra los labios y encoge los hombros.",
+                  "x": 53,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Harin sujeta el papel con fuerza.",
-                  "x": 79,
-                  "y": 65
+                  "kind": "🏃 행동 열쇠",
+                  "message": "El dibujo está escondido bajo los brazos.",
+                  "x": 77,
+                  "y": 67
                 }
               ],
               "panel": 2,
-              "image": "./images/stars-camera-1-scene-3.png",
-              "aspect": "623/375"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "761/321",
+              "crop": {
+                "x": 0.1953,
+                "y": 33.3984,
+                "w": 49.5443,
+                "h": 31.3477
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -7318,23 +9450,27 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los niños miran hacia la maestra.",
-                  "x": 43,
-                  "y": 43
+                  "kind": "👀 눈 열쇠",
+                  "message": "Vuelve el rostro hacia la otra persona para escuchar.",
+                  "x": 53,
+                  "y": 50
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "La maestra espera a su altura.",
-                  "x": 45,
-                  "y": 62
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Una mano abierta espera sus palabras.",
+                  "x": 46,
+                  "y": 78
                 }
               ],
               "panel": 3,
-              "image": "./images/stars-camera-1-scene-4.png",
-              "aspect": "623/375"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "763/321",
+              "crop": {
+                "x": 50.1302,
+                "y": 33.3984,
+                "w": 49.6745,
+                "h": 31.3477
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -7342,23 +9478,33 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los niños se escuchan.",
-                  "x": 72,
-                  "y": 41
+                  "kind": "👀 눈 열쇠",
+                  "message": "Los rostros se relajan al mirarse.",
+                  "x": 76,
+                  "y": 48
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Muestran la estrella y cuentan sus pensamientos.",
-                  "x": 64,
-                  "y": 69
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Muestra una estrella un poco torcida.",
+                  "x": 74,
+                  "y": 70
+                },
+                {
+                  "kind": "👂 귀 열쇠",
+                  "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
+                  "x": 84,
+                  "y": 62
                 }
               ],
               "panel": 4,
-              "image": "./images/stars-camera-1-scene-5.png",
-              "aspect": "623/473"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "761/352",
+              "crop": {
+                "x": 0.1953,
+                "y": 65.332,
+                "w": 49.5443,
+                "h": 34.375
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -7366,27 +9512,39 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de los ojos",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Los dos niños sonríen.",
-                  "x": 45,
-                  "y": 40
+                  "kind": "👀 눈 열쇠",
+                  "message": "Sonríen y los hombros se relajan.",
+                  "x": 53,
+                  "y": 51
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "location": "Observa el lugar señalado en la imagen.",
-                  "message": "Han juntado estrellas diferentes.",
-                  "x": 65,
-                  "y": 72
+                  "kind": "🏃 행동 열쇠",
+                  "message": "Pegan juntos estrellas distintas.",
+                  "x": 59,
+                  "y": 81
                 }
               ],
               "panel": 5,
-              "image": "./images/stars-camera-1-scene-6.png",
-              "aspect": "623/473"
+              "atlas": "./images/stars-view-2.png",
+              "aspect": "763/352",
+              "crop": {
+                "x": 50.1302,
+                "y": 65.332,
+                "w": 49.6745,
+                "h": 34.375
+              }
             }
           ],
-          "image": "./images/stars-camera-1-scene-3.png",
-          "aspect": "512/419"
+          "atlas": "./images/stars-view-2.png",
+          "atlasRows": 3,
+          "atlasCols": 2,
+          "aspect": "761/321",
+          "crop": {
+            "x": 0.1953,
+            "y": 33.3984,
+            "w": 49.5443,
+            "h": 31.3477
+          }
         }
       ],
       "audience": "child",
@@ -7403,7 +9561,9 @@ window.heartBookLocales = {
           "name": "La maestra",
           "age": null
         }
-      ]
+      ],
+      "atlasRows": 3,
+      "atlasCols": 2
     },
     {
       "id": "twohomes",

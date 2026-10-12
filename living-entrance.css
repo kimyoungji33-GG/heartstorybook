@@ -1,0 +1,9 @@
+.entry:not(.same-day-entry) .gate-art.living-entrance{overflow:hidden;isolation:isolate;position:relative;background-size:auto 104%;background-position:center;animation:quiet-bookshop 24s ease-in-out infinite;transform:translate(var(--wander-x,0px),var(--wander-y,0px));transition:transform 1.8s ease;box-shadow:0 12px 35px #866b3910;border-radius:5px}
+.entrance-sunlight{position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 35%,#fff3c825 61%,transparent 83%);mix-blend-mode:soft-light;animation:quiet-sunlight 16s ease-in-out infinite}
+.entrance-dust{position:absolute;inset:0;pointer-events:none;opacity:.4;background:radial-gradient(circle at 72% 24%,#fff9df 0 1px,transparent 2px),radial-gradient(circle at 78% 38%,#fff9df 0 1px,transparent 2px),radial-gradient(circle at 64% 52%,#fff9df 0 1px,transparent 2px);animation:quiet-dust 20s ease-in-out infinite}
+.entrance-motion-control{display:block;margin:5px auto 20px;font-size:14px;color:#80745e;padding:5px 12px}
+.living-entrance.motion-paused,.motion-paused .entrance-sunlight,.motion-paused .entrance-dust{animation-play-state:paused;transform:none!important}
+@keyframes quiet-bookshop{0%,100%{background-size:auto 104%;background-position:50% 50%}50%{background-size:auto 109%;background-position:51% 49%}}
+@keyframes quiet-sunlight{0%,100%{opacity:.2;transform:translateX(-1%)}50%{opacity:.65;transform:translateX(1%)}}
+@keyframes quiet-dust{0%,100%{transform:translateY(3px);opacity:.15}50%{transform:translateY(-6px);opacity:.35}}
+@media(prefers-reduced-motion:reduce){.living-entrance,.entrance-sunlight,.entrance-dust{animation:none!important;transition:none!important}}

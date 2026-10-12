@@ -1,8 +1,150 @@
-// Fixed fictional perspectives: each person has three diary pages in each language.
 const books=[
   {
-    "id": "bread",
+    "id": "errand",
     "audience": "child",
+    "art": 0,
+    "ko": {
+      "title": "작은 손에 담긴 따뜻한 빵",
+      "place": "빵집",
+      "subtitle": "처음 맡은 작은 심부름",
+      "roles": [
+        "다솜",
+        "준호",
+        "빵집 주인"
+      ],
+      "views": [
+        "앞사람이 빵을 오래 고르고 있다. 나는 친구와의 약속에 늦을까 봐 발끝을 꼼지락거린다. 나를 신경 쓰지 않는 걸까?",
+        "할머니께 드릴 빵을 고르고 있다. 좋아하시는 맛을 기억하고 싶은데 잘 떠오르지 않는다. 뒤에 사람이 오자 질문하기가 망설여진다.",
+        "손님이 빵을 가리켰다 손을 거둔다. 뒤의 손님은 시계를 본다. 나는 둘 다 편하게 물어볼 수 있으면 좋겠다."
+      ],
+      "hints": [
+        "앞사람은 가격표보다 빵의 속을 오래 본다. 손에는 여러 번 접은 메모가 있다.",
+        "내 메모에는 작은 글씨로 “할머니, 우유빵?”이 적혀 있다. 종이 모서리를 자꾸 만지는 내 손이 보인다.",
+        "“제가 먹을 건 아니어서요.” 손님이 말을 멈춘다. 나는 포장하던 손을 잠깐 내려놓는다."
+      ],
+      "next": "주인이 “어떤 빵을 찾고 있니?” 하고 물었어. 아이가 할머니께 드릴 빵이라고 말했어. 나는 조금 전까지 시계만 보고 있었는데, 아이 손에 쥔 선물 쪽지가 이제야 보였어.",
+      "nextHint": "메모를 꺼내 보여주는 손이 조금 느슨해졌다. 기다리는 손님도 친구에게 연락하고 어깨를 내린다.",
+      "ending": "빵 봉투를 받으며 “친구와 약속이 있어서 조금 급했어요”라고 말했어. 아이도 고개를 끄덕였어. 아직 바빴지만 마음은 덜 뾰족했어. 다음에는 내 사정도 말해보고 싶어.",
+      "minds": [
+        "“늦으면 친구가 서운할까 봐 걱정했어요.”",
+        "“할머니를 생각하니 잘 고르고 싶었어요. 물어보면 도와줄 사람이 있었네요.”",
+        "“말하기 편한 시간을 만들어주고 싶었어요.”"
+      ],
+      "diaries": [
+        [
+          "할아버지가 좋아하시는 부드러운 빵을 사러 왔어요. 나는 그림 쪽지를 꼭 쥐고 내 차례를 기다렸어요. 빵집 아주머니가 웃으며 나를 바라보셨어요. 뒤에서 준호가 노란 책을 들고 인사했어요. 진열대의 빵 두 개가 비슷해 보였어요. 아주머니가 한쪽 빵을 가리켰어요. 나는 빨리 고르라는 뜻인가 싶어서 입을 다물었어요. 사실은 어떤 빵이 부드러운지 묻고 싶었어요.",
+          "준호가 시계를 보고 책을 꼭 쥐었어요. 나는 내가 늦게 골라서 준호가 화났나 싶었어요. 입술을 다물고 쪽지를 만지작거렸어요. 준호는 나보다 자기 책을 더 자주 봤어요. 노란 책 사이로 파란 책갈피가 삐져나왔어요. 준호는 구겨진 끝을 자꾸 펴고 있었어요. 나를 재촉하는 것과는 조금 다른 모습이었어요. 나는 준호가 무슨 걱정을 하는지 궁금해졌어요.",
+          "“할아버지 드릴 빵인데, 어떤 게 부드러워요?” 하고 물었어요. 아주머니는 내 쪽지를 보며 천천히 알려주셨어요. 준호는 “도서관 책갈피를 잃어버릴까 봐 걱정했어”라고 했어요. 내 생각과는 다른 마음이었어요. 아주머니가 빵 봉지를 내 작은 손에 건네셨어요. 나는 알려주셔서 고맙다고 말했어요. 준호와 웃으며 책갈피를 다시 끼웠어요. 모를 때 묻고, 다른 사람의 말도 들어보면 되겠어요."
+        ],
+        [
+          "빵집에서 다솜을 만나 인사했어요. 다솜은 쪽지를 보느라 나를 못 본 것 같았어요. 내가 반갑지 않은 걸까 싶었어요. 빌린 책의 책갈피가 자꾸 빠졌어요. 나는 책을 내려다보며 책갈피를 다시 끼웠어요. 다솜도 무언가 고르기 어려운 얼굴이었어요.",
+          "책을 돌려줄 시간까지 얼마나 남았는지 시계를 봤어요. 나는 책갈피가 없어질까 봐 책을 꼭 쥐었어요. 다솜을 빨리 가게 하려던 건 아니었어요. 구겨진 책갈피 끝을 펴다 다솜의 쪽지를 봤어요. 빵 그림이 여러 개 그려져 있었어요. 처음 하는 심부름이라 망설이는 걸까요?",
+          "다솜이 아주머니에게 빵을 물었어요. 나는 책갈피가 걱정됐다고 말했어요. 다솜이 나 때문에 그런 줄 알았다고 해서 놀랐어요. 다솜과 웃으며 책갈피를 끼웠어요. 아까 인사를 못 들은 것도 쪽지를 보느라 그랬대요. 내 짐작과 다른 까닭을 들으니 마음이 가벼워졌어요."
+        ],
+        [
+          "아이가 그림 쪽지를 들고 들어왔어요. 나는 웃으며 고를 시간을 기다렸어요. 아이가 혼자 해보고 싶은 심부름 같았어요. 빵 하나를 가리켜 보여주었어요. 아이가 조용해져서 돈을 세고 있나 싶었어요. 내 뜻이 아이에게 다르게 보일 수도 있겠네요.",
+          "두 아이가 말없이 서 있었어요. 한 아이는 쪽지를, 다른 아이는 책을 꼭 쥐었어요. 저마다 다른 걱정이 있는 걸까요? 노란 책에서 구겨진 책갈피가 보였어요. 쪽지를 든 아이는 빵을 번갈아 보았어요. 나는 서두르지 않고 물어볼 틈을 남겨두었어요.",
+          "아이가 할아버지 드릴 부드러운 빵을 물었어요. 이제야 무엇을 알고 싶은지 알았어요. 나는 천천히 설명하고 두 아이의 말도 들었어요. 아이에게 빵 봉지를 건넸어요. 두 아이가 서로를 보며 웃었어요. 기다려주니 저마다 하고 싶던 말이 나왔네요."
+        ]
+      ],
+      "menuContext": "빵집 심부름에서 생긴 일"
+    },
+    "en": {
+      "title": "Warm Bread in Little Hands",
+      "place": "Bakery",
+      "subtitle": "A first little errand",
+      "roles": [
+        "Dasom",
+        "Junho",
+        "The baker"
+      ],
+      "views": [
+        "The person ahead takes a long time choosing bread. I wiggle my toes, worried I will be late to meet a friend. Have they forgotten I am here?",
+        "I am choosing bread for Grandma. I want to remember her favorite, but I am not sure. When someone joins the line, I hesitate to ask.",
+        "A customer points at a loaf, then pulls back. The person behind checks the time. I want both of them to feel free to speak."
+      ],
+      "hints": [
+        "The customer studies the inside of the bread, not its price. They hold a folded note.",
+        "My note says “Grandma, milk bread?” in tiny letters. I keep rubbing its corner.",
+        "“It is for someone else,” the customer says, then pauses. I put my wrapping down."
+      ],
+      "next": "The baker asked what bread the child wanted. It was a gift for Grandma. I had been watching the clock; only now did I notice the gift note in the child’s hand.",
+      "nextHint": "The hand holding the note relaxes. The waiting customer sends a message and lowers their shoulders.",
+      "ending": "I explained that I was hurrying to meet a friend. The child nodded. I still needed to go, but I felt less tense. Next time I would like to say what I need too.",
+      "minds": [
+        "“I was worried my friend would feel hurt if I was late.”",
+        "“I wanted to choose well for Grandma. There was someone I could ask for help.”",
+        "“I wanted to make room for both voices.”"
+      ],
+      "diaries": [
+        [
+          "I came to buy soft bread for Grandpa. I held my picture note and waited my turn. The baker smiled at me. Junho said hello from behind me, holding a yellow book. Two breads looked almost the same. The baker pointed to one. I wondered if she wanted me to hurry, so I stayed quiet. I really wanted to ask which bread was soft.",
+          "Junho looked at the clock and held his book tightly. I wondered if he was cross because I was taking so long. I pressed my lips together and fiddled with my note. Junho looked at his own book more often than at me. A blue bookmark stuck out of the yellow book. Junho kept smoothing its crumpled end. That looked different from rushing me. I wondered what was worrying him.",
+          "“Which bread is soft? It is for Grandpa,” I asked. The baker looked at my note and explained slowly. Junho said, “I was worried about losing the library bookmark.” His thoughts were different from what I had guessed. The baker handed the bread bag to my small hands. I thanked her for helping. Junho and I smiled as he tucked his bookmark back in. When I am unsure, I can ask and listen."
+        ],
+        [
+          "I said hello when I saw Dasom at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me. My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Dasom seemed unsure what to choose too.",
+          "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Dasom. While smoothing the bookmark, I noticed pictures of bread on Dasom’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
+          "Dasom asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her. We smiled as I put the bookmark back. Dasom said she had missed my hello while looking at her note. Hearing her reason felt better than guessing."
+        ],
+        [
+          "A child came in holding a picture note. I smiled and gave her time to choose. It seemed like an errand she wanted to try herself. I pointed to one bread to help. When she stayed quiet, I wondered if she was counting her money. My gesture might have looked different to her.",
+          "Two children stood quietly. One held a note and the other held a book. Could they each be worrying about something different? I saw a crumpled bookmark in the yellow book. The child with the note kept looking between the breads. I left room for a question instead of hurrying them.",
+          "The child asked which bread was soft enough for Grandpa. Now I understood what she needed to know. I explained slowly and listened to both children. I handed over the bread bag. The children smiled at each other. Giving them time helped their words come out."
+        ]
+      ],
+      "menuContext": "An errand at the bakery"
+    },
+    "es": {
+      "title": "Pan tibio en manos pequeñas",
+      "place": "Panadería",
+      "subtitle": "Un primer pequeño encargo",
+      "roles": [
+        "Dasom",
+        "Junho",
+        "La panadera"
+      ],
+      "views": [
+        "La persona de delante tarda en elegir. Muevo los pies: temo llegar tarde a ver a una amistad. ¿No se ha dado cuenta de que estoy aquí?",
+        "Elijo pan para mi abuela. Quiero recordar cuál le gusta, pero no estoy seguro. Cuando llega otra persona, me cuesta preguntar.",
+        "Alguien señala un pan y retira la mano. La persona de atrás mira la hora. Quisiera que ambas pudieran hablar con tranquilidad."
+      ],
+      "hints": [
+        "La persona mira la miga, no el precio. Lleva una nota doblada.",
+        "Mi nota dice “Abuela, ¿pan de leche?”. No dejo de tocar una esquina del papel.",
+        "“No es para mí”, dice la persona y hace una pausa. Dejo un momento el papel de envolver."
+      ],
+      "next": "Quien atendía preguntó qué pan buscaba la niña. Era un regalo para su abuela. Yo solo miraba el reloj; entonces vi la nota de regalo en su mano.",
+      "nextHint": "La mano que sujeta la nota se relaja. La persona que espera envía un mensaje y baja los hombros.",
+      "ending": "Expliqué que tenía prisa por ver a una amistad. La niña asintió. Aún debía irme, pero sentí menos tensión. La próxima vez quiero contar también lo que necesito.",
+      "minds": [
+        "“Me preocupaba que mi amistad se sintiera mal si llegaba tarde.”",
+        "“Quería elegir bien para mi abuela. Había alguien a quien pedir ayuda.”",
+        "“Quería dejar espacio para las dos voces.”"
+      ],
+      "diaries": [
+        [
+          "Vine a comprar pan blandito para el abuelo. Sujeté mi nota con dibujos y esperé mi turno. La panadera me sonrió. Junho me saludó desde atrás con un libro amarillo. Dos panes parecían casi iguales. La panadera señaló uno. Pensé que quería que me diera prisa y me quedé callada. En realidad quería preguntar cuál era blandito.",
+          "Junho miró el reloj y sujetó el libro con fuerza. Pensé que estaba enfadado porque yo tardaba mucho. Apreté los labios y jugué con mi nota. Junho miraba su libro más que a mí. Del libro amarillo asomaba un separador azul. Junho alisaba una punta arrugada. Eso no parecía una manera de darme prisa. Me pregunté qué le preocupaba.",
+          "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el separador de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado. La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su separador. Si no sé algo, puedo preguntar y escuchar."
+        ],
+        [
+          "Saludé a Dasom al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo. El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Dasom también parecía no saber qué elegir.",
+          "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Dasom. Al alisar el separador vi dibujos de panes en la nota de Dasom. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
+          "Dasom preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella. Sonreímos mientras guardaba el separador. Dasom dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor."
+        ],
+        [
+          "Entró una niña con una nota de dibujos. Le sonreí y le di tiempo para elegir. Parecía un encargo que quería probar por sí misma. Señalé un pan para ayudar. Al verla callada pensé que quizá contaba sus monedas. Mi gesto podía parecerle distinto.",
+          "Dos niños estaban callados. Una sujetaba una nota y el otro un libro. ¿Estarían preocupados por cosas distintas? Vi un separador arrugado en el libro amarillo. La niña miraba de un pan a otro. Dejé espacio para preguntar sin darles prisa.",
+          "La niña preguntó qué pan era blandito para el abuelo. Por fin entendí qué necesitaba saber. Se lo expliqué despacio y escuché a los dos. Le entregué la bolsa de pan. Los niños se sonrieron. Darles tiempo les ayudó a decir lo que pensaban."
+        ]
+      ],
+      "menuContext": "Un encargo en la panadería"
+    }
+  },
+  {
+    "id": "bread",
+    "audience": "adult",
     "art": 0,
     "ko": {
       "title": "빵을 고르는 마음",
@@ -47,7 +189,8 @@ const books=[
           "아이에게 어떤 빵을 찾는지 물었다. 할머니 선물이라는 대답 뒤에 기다리던 손님도 약속 시간을 말했다. 나는 두 봉투를 준비하며 누구의 말부터 들어야 할지 생각했다.",
           "두 사람은 빵을 받아 나갔다. 한 사람은 약속에, 한 사람은 할머니께 마음이 가 있었다. 나는 오늘 말하기 편한 시간을 조금 만들었는지 돌아보았다."
         ]
-      ]
+      ],
+      "menuContext": "빵집에서 생긴 일"
     },
     "en": {
       "title": "The Heart Behind the Bread",
@@ -92,7 +235,8 @@ const books=[
           "I asked the child about the bread. After hearing about Grandma, I heard the guest’s meeting time too. As I prepared two bags, I thought about giving both people room to speak.",
           "They left with their bread. One was thinking of a meeting, the other of Grandma. I wondered whether I had made it a little easier for them to share their thoughts."
         ]
-      ]
+      ],
+      "menuContext": "A moment at the bakery"
     },
     "es": {
       "title": "El corazón detrás del pan",
@@ -137,24 +281,26 @@ const books=[
           "Pregunté a la niña por el pan. Después de escuchar lo de su abuela, escuché también la hora de la cita. Al preparar dos bolsas pensé en dejar hablar a ambas personas.",
           "Se fueron con su pan. Una pensaba en una cita y la otra en su abuela. Me pregunté si había facilitado un poco que compartieran sus pensamientos."
         ]
-      ]
-    }
+      ],
+      "menuContext": "Lo que pasó en la panadería"
+    },
+    "cover": "./bread-adult-cover.png"
   },
   {
     "id": "cups",
     "audience": "child",
     "art": 1,
     "ko": {
-      "title": "너의 잔, 나의 잔",
-      "place": "카페",
+      "title": "생일날, 두 개의 잔",
+      "place": "생일파티",
       "subtitle": "두 잔 사이의 작은 마음",
       "roles": [
         "함께 온 친구",
         "주문하는 친구",
-        "카페 직원"
+        "생일파티 직원"
       ],
       "views": [
-        "오늘 친구와 카페에 갔어. 친구는 나에게 묻지 않고 파란 잔에 코코아, 주황 잔에 우유를 주문했어. 그리고 내 파란 잔의 음료 표시와 내 표정을 번갈아 봤어. 내 선택을 못 믿는 걸까? 조금 답답했어.",
+        "오늘 친구와 생일파티에 갔어. 친구는 나에게 묻지 않고 파란 잔에 코코아, 주황 잔에 우유를 주문했어. 그리고 내 파란 잔의 음료 표시와 내 표정을 번갈아 봤어. 내 선택을 못 믿는 걸까? 조금 답답했어.",
         "오늘 같이 와준 친구에게 음료를 선물하고 싶었어. 코코아를 좋아한다고 했던 게 생각났어. 음료가 바뀔까 봐 파란 잔의 표시를 보고 직원에게 두 번 물었어. 친구가 좋아할지 자꾸 얼굴을 보게 됐어.",
         "오늘 아이가 “파란 잔이 코코아 맞죠?”라고 두 번 물었다. 나는 주문을 잘못 받았나 걱정해서 주문표와 잔의 표시를 다시 보았다. 아이는 자꾸 친구 쪽을 바라보았다."
       ],
@@ -173,7 +319,7 @@ const books=[
       ],
       "diaries": [
         [
-          "오늘 친구와 카페에 갔어. 친구는 나에게 묻지 않고 파란 잔에 코코아, 주황 잔에 우유를 주문했어. 그리고 내 파란 잔의 음료 표시와 내 표정을 번갈아 봤어. 내 선택을 못 믿는 걸까? 조금 답답했어.",
+          "오늘 친구와 생일파티에 갔어. 친구는 나에게 묻지 않고 파란 잔에 코코아, 주황 잔에 우유를 주문했어. 그리고 내 파란 잔의 음료 표시와 내 표정을 번갈아 봤어. 내 선택을 못 믿는 걸까? 조금 답답했어.",
           "직원이 “파란 잔은 코코아, 주황 잔은 우유가 맞죠?” 하고 물었어. 친구가 끄덕이고 작은 카드를 꺼냈어. “오늘 같이 와줘서 고마워.” 내 잔을 자꾸 보던 건 음료가 바뀔까 걱정해서였대.",
           "나는 “고마워. 그런데 다음에는 나도 같이 고르고 싶어”라고 말했어. 친구는 좋다고 했어. 답답했던 마음이 다 없어지진 않았지만, 친구가 왜 그랬는지는 조금 알 것 같았어."
         ],
@@ -187,19 +333,20 @@ const books=[
           "나는 파란 잔의 코코아와 주황 잔의 우유를 소리 내어 확인했다. 주문한 아이가 작은 감사 카드를 꺼냈다. 반복해서 묻던 데에는 음료를 바꾸지 않으려는 마음이 있었다.",
           "두 아이는 다음엔 함께 고르자고 이야기했다. 나는 주문을 실수했나 걱정했는데, 아이는 선물을 잘 전하고 싶었던 거였다. 같은 질문을 우리는 다르게 받아들였다."
         ]
-      ]
+      ],
+      "menuContext": "생일파티에서 생긴 일"
     },
     "en": {
-      "title": "Your Cup, My Cup",
-      "place": "Café",
+      "title": "Two Cups on a Birthday",
+      "place": "Birthday party",
       "subtitle": "A small feeling between two cups",
       "roles": [
         "The visiting friend",
         "The ordering friend",
-        "The café worker"
+        "The birthday party worker"
       ],
       "views": [
-        "Today I went to a café with my friend. Without asking me, they ordered cocoa in a blue cup and milk in an orange one. They kept looking between the label on my blue cup and my face. Did they not trust me to choose? I felt frustrated.",
+        "Today I went to a birthday party with my friend. Without asking me, they ordered cocoa in a blue cup and milk in an orange one. They kept looking between the label on my blue cup and my face. Did they not trust me to choose? I felt frustrated.",
         "Today I wanted to give my friend a drink for coming with me. I remembered they liked cocoa. Afraid the drinks might switch, I checked the blue cup’s label and asked the worker twice. I kept looking at my friend to see if they liked it.",
         "Today a child asked twice whether the blue cup was cocoa. I worried I had taken the order wrongly, so I checked the order and cup labels. The child kept glancing toward their friend."
       ],
@@ -218,7 +365,7 @@ const books=[
       ],
       "diaries": [
         [
-          "Today I went to a café with my friend. Without asking me, they ordered cocoa in a blue cup and milk in an orange one. They kept looking between the label on my blue cup and my face. Did they not trust me to choose? I felt frustrated.",
+          "Today I went to a birthday party with my friend. Without asking me, they ordered cocoa in a blue cup and milk in an orange one. They kept looking between the label on my blue cup and my face. Did they not trust me to choose? I felt frustrated.",
           "The worker asked, “Cocoa in the blue cup and milk in the orange one, right?” My friend nodded and gave me a little thank-you card. They had been checking that the drinks would not get mixed up.",
           "I said, “Thank you. Next time I want to choose together.” My friend agreed. Some frustration remained, but now I understood a little more about their checking."
         ],
@@ -232,11 +379,12 @@ const books=[
           "I read the labels aloud: cocoa in blue, milk in orange. The child brought out a thank-you card. The repeated questions were about keeping the gift’s drinks from being switched.",
           "The friends agreed to choose together next time. I had worried about an order mistake; the child had worried about giving a gift. We had heard the same question differently."
         ]
-      ]
+      ],
+      "menuContext": "What happened at a birthday party"
     },
     "es": {
-      "title": "Tu taza, mi taza",
-      "place": "Cafetería",
+      "title": "Dos tazas en un cumpleaños",
+      "place": "Fiesta de cumpleaños",
       "subtitle": "Un pequeño sentimiento entre dos tazas",
       "roles": [
         "La amistad que acompaña",
@@ -244,7 +392,7 @@ const books=[
         "La persona que atiende"
       ],
       "views": [
-        "Hoy fui a una cafetería con mi amiga. Sin preguntarme, pidió cacao en una taza azul y leche en una naranja. Miraba la etiqueta de mi taza y luego mi cara. ¿No confiaba en que yo eligiera? Me molestó un poco.",
+        "Hoy fui a una fiesta de cumpleaños con mi amiga. Sin preguntarme, pidió cacao en una taza azul y leche en una naranja. Miraba la etiqueta de mi taza y luego mi cara. ¿No confiaba en que yo eligiera? Me molestó un poco.",
         "Hoy quería regalar una bebida a mi amigo por venir conmigo. Recordé que le gustaba el cacao. Revisé la etiqueta azul y pregunté dos veces para no confundir las bebidas. Miraba su cara para saber si le gustaba.",
         "Hoy una niña preguntó dos veces si la taza azul tenía cacao. Temí haber anotado mal el pedido y revisé el papel y las etiquetas. Miraba mucho hacia su amigo."
       ],
@@ -263,7 +411,7 @@ const books=[
       ],
       "diaries": [
         [
-          "Hoy fui a una cafetería con mi amiga. Sin preguntarme, pidió cacao en una taza azul y leche en una naranja. Miraba la etiqueta de mi taza y luego mi cara. ¿No confiaba en que yo eligiera? Me molestó un poco.",
+          "Hoy fui a una fiesta de cumpleaños con mi amiga. Sin preguntarme, pidió cacao en una taza azul y leche en una naranja. Miraba la etiqueta de mi taza y luego mi cara. ¿No confiaba en que yo eligiera? Me molestó un poco.",
           "Quien atendía preguntó: “Cacao en la taza azul y leche en la naranja, ¿verdad?”. Mi amiga asintió y me dio una tarjeta de agradecimiento. Miraba las tazas para que las bebidas no se confundieran.",
           "Dije: “Gracias. La próxima vez quiero elegir contigo”. Estuvo de acuerdo. Aún sentía algo de molestia, pero entendía mejor por qué revisaba las tazas."
         ],
@@ -277,7 +425,8 @@ const books=[
           "Leí las etiquetas: cacao en azul y leche en naranja. La niña sacó una tarjeta de agradecimiento. Las preguntas repetidas buscaban que las bebidas del regalo no se intercambiaran.",
           "Acordaron elegir juntos la próxima vez. Yo temía un error en el pedido; la niña temía equivocarse con el regalo. Habíamos entendido la misma pregunta de maneras distintas."
         ]
-      ]
+      ],
+      "menuContext": "Lo que pasó en una fiesta de cumpleaños"
     }
   },
   {
@@ -285,7 +434,7 @@ const books=[
     "audience": "child",
     "art": 2,
     "ko": {
-      "title": "먼저 드세요",
+      "title": "마지막 한 조각은 누구에게?",
       "place": "식당",
       "subtitle": "마지막 한 조각 이야기",
       "roles": [
@@ -327,10 +476,11 @@ const books=[
           "나누어 먹을지 물었다. 두 사람 모두 먹고 싶었다고 대답했다. 나는 두 작은 접시를 가져왔다. 다투는 줄 잠깐 걱정했는데 서로 양보하고 있었다.",
           "접시가 한 번씩 비워졌다. 나는 오늘 두 사람에게 같은 질문을 했지만 서로 다른 망설임을 들었다. 겉으로 보이는 손짓만으로는 알 수 없었다."
         ]
-      ]
+      ],
+      "menuContext": "식당에서 생긴 일"
     },
     "en": {
-      "title": "After You",
+      "title": "Who Is the Last Piece For?",
       "place": "Restaurant",
       "subtitle": "The story of the last piece",
       "roles": [
@@ -372,10 +522,11 @@ const books=[
           "I asked whether they wanted to share. Both wanted some, so I fetched two small plates. I had briefly worried about an argument, but they were offering it to each other.",
           "Both plates became empty. One question revealed two kinds of hesitation. Their hand movements alone had not told me why."
         ]
-      ]
+      ],
+      "menuContext": "A moment at the restaurant"
     },
     "es": {
-      "title": "Tú primero",
+      "title": "¿Para quién es el último trocito?",
       "place": "Restaurante",
       "subtitle": "La historia del último trozo",
       "roles": [
@@ -417,7 +568,8 @@ const books=[
           "Pregunté si querían compartir. Ambas personas querían pan, así que traje dos platos pequeños. Temí una discusión un instante, pero se lo ofrecían mutuamente.",
           "Los dos platos quedaron vacíos. Una pregunta mostró dos dudas distintas. Los movimientos de sus manos no me habían dicho por qué."
         ]
-      ]
+      ],
+      "menuContext": "Lo que pasó en el restaurante"
     }
   },
   {
@@ -425,7 +577,7 @@ const books=[
     "audience": "child",
     "art": 3,
     "ko": {
-      "title": "문이 열리기 전에",
+      "title": "문 뒤에 숨겨 둔 별",
       "place": "집",
       "subtitle": "종이 별과 작은 환영",
       "roles": [
@@ -467,10 +619,11 @@ const books=[
           "나는 아이와 돌아온 사람의 말을 차례로 들었다. 아이는 기쁘게 해주고 싶었고 아빠는 피곤했다고 했다. 종이 조각보다 두 사람의 목소리에 먼저 귀를 기울였다.",
           "둘이 별을 붙이는 동안 나는 테이프를 잘라주었다. 바로 정리시키고 싶었던 내 마음도 조금 쉬었다. 무엇이 필요한지 먼저 물어보는 시간을 기억해두고 싶다."
         ]
-      ]
+      ],
+      "menuContext": "집에서 생긴 일"
     },
     "en": {
-      "title": "Before the Door Opens",
+      "title": "The Star Behind the Door",
       "place": "Home",
       "subtitle": "Paper stars and a little welcome",
       "roles": [
@@ -512,10 +665,11 @@ const books=[
           "I listened to the child and the returning parent in turn. One wanted to give a happy surprise; the other was tired. I listened to their voices before dealing with the paper.",
           "I cut tape while they hung the star. My urge to tidy right away rested for a moment too. I want to remember to ask what is needed first."
         ]
-      ]
+      ],
+      "menuContext": "A moment at home"
     },
     "es": {
-      "title": "Antes de abrir la puerta",
+      "title": "La estrella detrás de la puerta",
       "place": "Casa",
       "subtitle": "Estrellas de papel y una bienvenida",
       "roles": [
@@ -557,7 +711,8 @@ const books=[
           "Escuché por turnos a la niña y a quien volvía. Una quería dar una sorpresa y el otro estaba cansado. Escuché sus voces antes de ocuparme de los papeles.",
           "Corté cinta mientras colgaban la estrella. También descansaron mis ganas de ordenar enseguida. Quiero recordar preguntar primero qué necesitan."
         ]
-      ]
+      ],
+      "menuContext": "Lo que pasó en casa"
     }
   },
   {
@@ -565,13 +720,13 @@ const books=[
     "audience": "child",
     "art": 4,
     "ko": {
-      "title": "노란공을 기다리며",
-      "place": "애견운동장",
+      "title": "노란 공이 기다려 준 날",
+      "place": "놀이터",
       "subtitle": "천천히 가까워지는 시간",
       "roles": [
         "먼저 온 보호자",
         "새로 온 보호자",
-        "운동장 안내자"
+        "놀이터 안내자"
       ],
       "views": [
         "새로 온 사람이 멀리 서 있다. 우리와 놀기 싫은 걸까? 나는 공을 쥔 채 조금 서운해졌다.",
@@ -607,11 +762,12 @@ const books=[
           "나는 새 보호자에게 강아지의 상태를 물었다. 시간이 필요하다는 말을 듣고 거리를 두어도 된다고 했다. 공을 건넨 사람은 반갑게 맞고 싶었던 거였다.",
           "두 보호자가 강아지를 살피며 기다렸다. 나는 같은 공이 한쪽에겐 초대이고 다른 쪽에겐 낯선 자극일 수 있음을 다시 생각했다. 오늘은 조금 천천히 안내했다."
         ]
-      ]
+      ],
+      "menuContext": "놀이터에서 생긴 일"
     },
     "en": {
-      "title": "Waiting for the Yellow Ball",
-      "place": "Dog park",
+      "title": "The Day the Yellow Ball Waited",
+      "place": "Playground",
       "subtitle": "Getting closer, slowly",
       "roles": [
         "The first guardian",
@@ -652,11 +808,12 @@ const books=[
           "I asked how the new dog was feeling. Hearing that it needed time, I offered space. The person with the ball had wanted to welcome them.",
           "The guardians waited and watched their dogs. I thought again about how the same ball could feel like an invitation or something unfamiliar. Today I guided a little more slowly."
         ]
-      ]
+      ],
+      "menuContext": "A moment at the playground"
     },
     "es": {
-      "title": "Esperando la pelota amarilla",
-      "place": "Parque para perros",
+      "title": "El día que la pelota amarilla esperó",
+      "place": "Parque infantil",
       "subtitle": "Acercarse poco a poco",
       "roles": [
         "La persona que llegó primero",
@@ -697,7 +854,8 @@ const books=[
           "Pregunté cómo estaba el perro nuevo. Necesitaba tiempo y ofrecí espacio. Quien tenía la pelota quería dar una bienvenida.",
           "Esperaron observando a sus perros. Pensé que la misma pelota podía ser una invitación o algo desconocido. Hoy orienté con un poco más de calma."
         ]
-      ]
+      ],
+      "menuContext": "Lo que pasó en el parque infantil"
     }
   },
   {
@@ -705,7 +863,7 @@ const books=[
     "audience": "child",
     "art": 5,
     "ko": {
-      "title": "함께 붙이는 별",
+      "title": "삐뚤빼뚤, 우리의 별",
       "place": "학교",
       "subtitle": "아직 보여주지 못한 그림",
       "roles": [
@@ -747,10 +905,11 @@ const books=[
           "나는 누구 탓인지 말하기 전에 각자 생각을 물었다. 한 아이는 혼자라고 느꼈고 다른 아이는 모두의 생각을 넣으려 애쓰고 있었다. 둘이 같은 종이를 보면서도 다른 걱정을 하고 있었다.",
           "아이들이 별을 붙이는 동안 나는 필요한 것을 물었다. 빨리 완성시키고 싶던 내 마음도 알아차렸다. 오늘은 완성보다 아이들이 자기 말을 꺼내는 시간이 기억에 남는다."
         ]
-      ]
+      ],
+      "menuContext": "학교에서 생긴 일"
     },
     "en": {
-      "title": "Stars We Place Together",
+      "title": "Our Wonderfully Wobbly Stars",
       "place": "School",
       "subtitle": "The picture not yet shared",
       "roles": [
@@ -792,10 +951,11 @@ const books=[
           "Before deciding whose fault it was, I asked each child about their thoughts. One felt alone; the other was trying to include everyone. The same paper held two different worries.",
           "As they added stars, I asked what they needed. I noticed my own wish to finish quickly too. Today I remember their voices more than the finished picture."
         ]
-      ]
+      ],
+      "menuContext": "A moment at school"
     },
     "es": {
-      "title": "Estrellas que pegamos juntos",
+      "title": "Nuestras estrellas un poquito torcidas",
       "place": "Escuela",
       "subtitle": "El dibujo que aún no mostramos",
       "roles": [
@@ -837,7 +997,8 @@ const books=[
           "Antes de decidir de quién era la culpa, pregunté qué pensaba cada cual. Una persona se sentía sola y la otra intentaba incluir a todas. El mismo papel guardaba dos preocupaciones.",
           "Pregunté qué necesitaban mientras pegaban estrellas. Noté también mis propias ganas de terminar pronto. Hoy recuerdo sus voces más que el dibujo acabado."
         ]
-      ]
+      ],
+      "menuContext": "Lo que pasó en la escuela"
     }
   },
   {
@@ -887,7 +1048,8 @@ const books=[
           "손님이 목도리를 들고 돌아왔다. 기다리던 손님은 서운했다고 말했다. 나는 새 차를 준비할까 생각하다가 둘이 이야기를 이어갈 시간을 두었다.",
           "차가 필요하면 알려달라고 했다. 같은 빈 의자를 보며 나는 주문을, 손님은 관계를 생각했다. 작은 카페에서도 마음이 향하는 곳은 제각각이었다."
         ]
-      ]
+      ],
+      "menuContext": "친구와 차를 마시다 생긴 일"
     },
     "en": {
       "title": "Two Cups of Cooling Tea",
@@ -932,7 +1094,8 @@ const books=[
           "The guest returned with a scarf. The waiting guest shared their hurt. I considered fresh tea, then gave them space to keep talking.",
           "I offered tea if they wanted it. Looking at the same empty chair, I had thought about an order; the guest had thought about a friendship. Our attention had gone to different places."
         ]
-      ]
+      ],
+      "menuContext": "A moment over tea with a friend"
     },
     "es": {
       "title": "Dos tazas de té que se enfrían",
@@ -977,7 +1140,8 @@ const books=[
           "Volvió con una bufanda. La persona que esperaba contó su tristeza. Pensé en traer té nuevo, pero dejé espacio para que siguieran conversando.",
           "Ofrecí té si lo querían. Ante la misma silla vacía yo pensaba en el pedido y la persona en una amistad. Nuestra atención iba a lugares distintos."
         ]
-      ]
+      ],
+      "menuContext": "Una tarde de té con una amistad"
     }
   },
   {
@@ -1027,7 +1191,8 @@ const books=[
           "같은 모양의 두 컵을 보고 한 사람은 긴장했고 다른 사람은 반가워했다. 나는 고치는 방법보다 만드는 동안 어떤 마음이었는지 물었다.",
           "컵은 그대로 기울어져 있었다. 오늘은 결과를 잘 만드는 일만큼 서로의 말을 듣는 시간이 중요했다. 나도 서둘러 도와주려던 마음을 잠시 내려놓았다."
         ]
-      ]
+      ],
+      "menuContext": "처음 간 공방에서 생긴 일"
     },
     "en": {
       "title": "A First Step, a Little Later",
@@ -1072,7 +1237,8 @@ const books=[
           "Two similar cups had brought nervousness to one person and recognition to the other. I asked how making them had felt before offering a repair.",
           "The cups still leaned. Listening mattered alongside making things well. I paused my own urge to help quickly."
         ]
-      ]
+      ],
+      "menuContext": "A first visit to the workshop"
     },
     "es": {
       "title": "Un primer paso, un poco más tarde",
@@ -1117,7 +1283,8 @@ const books=[
           "Dos tazas parecidas habían provocado nervios en una persona y reconocimiento en la otra. Pregunté cómo se habían sentido antes de ofrecer una reparación.",
           "Las tazas seguían inclinadas. Escuchar importaba tanto como hacerlas bien. Detuve un momento mis propias ganas de ayudar enseguida."
         ]
-      ]
+      ],
+      "menuContext": "La primera visita al taller"
     }
   },
   {
@@ -1167,7 +1334,8 @@ const books=[
           "작은 등 아래로 두 사람이 식탁에 앉는 모습이 보였다. 나는 아까 불빛이 현관에서 보이는지 물어왔던 말을 떠올렸다. 기다린다는 마음이 그런 질문으로 나올 수도 있었다.",
           "문을 닫고 우리 집으로 돌아왔다. 같은 불빛을 보고 나는 조명의 방향을, 이웃은 돌아오는 사람을 생각했었다. 오늘 저녁에는 나도 인사를 한마디 더 건네고 싶었다."
         ]
-      ]
+      ],
+      "menuContext": "집으로 돌아온 저녁에 생긴 일"
     },
     "en": {
       "title": "A Light Left On",
@@ -1212,7 +1380,8 @@ const books=[
           "I saw the pair sit beneath the little lamp. I remembered the earlier question about whether its light reached the doorway. Waiting for someone could sound like a question about a lamp.",
           "I went back to my home. The same light had made me think about its direction and my neighbor about someone returning. Tonight I wanted to offer one more greeting too."
         ]
-      ]
+      ],
+      "menuContext": "An evening coming home"
     },
     "es": {
       "title": "Una luz encendida al volver",
@@ -1257,7 +1426,8 @@ const books=[
           "Vi a la pareja sentarse bajo la lámpara. Recordé la pregunta sobre si su luz llegaba a la entrada. Esperar a alguien podía sonar como una pregunta sobre una lámpara.",
           "Volví a mi casa. La misma luz me hacía pensar en su dirección y a mi vecina en alguien que regresaba. Esa noche quise ofrecer también un saludo más."
         ]
-      ]
+      ],
+      "menuContext": "Una noche al volver a casa"
     }
   }
 ];
