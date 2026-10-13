@@ -8,7 +8,7 @@ const books=[
       "place": "빵집",
       "subtitle": "처음 맡은 작은 심부름",
       "roles": [
-        "다솜",
+        "지우",
         "준호",
         "빵집 주인"
       ],
@@ -37,9 +37,9 @@ const books=[
           "“할아버지 드릴 빵인데, 어떤 게 부드러워요?” 하고 물었어요. 아주머니는 내 쪽지를 보며 천천히 알려주셨어요. 준호는 “도서관 책갈피를 잃어버릴까 봐 걱정했어”라고 했어요. 내 생각과는 다른 마음이었어요. 아주머니가 빵 봉지를 내 작은 손에 건네셨어요. 나는 알려주셔서 고맙다고 말했어요. 준호와 웃으며 책갈피를 다시 끼웠어요. 모를 때 묻고, 다른 사람의 말도 들어보면 되겠어요."
         ],
         [
-          "빵집에서 다솜을 만나 인사했어요. 다솜은 쪽지를 보느라 나를 못 본 것 같았어요. 내가 반갑지 않은 걸까 싶었어요. 빌린 책의 책갈피가 자꾸 빠졌어요. 나는 책을 내려다보며 책갈피를 다시 끼웠어요. 다솜도 무언가 고르기 어려운 얼굴이었어요.",
-          "책을 돌려줄 시간까지 얼마나 남았는지 시계를 봤어요. 나는 책갈피가 없어질까 봐 책을 꼭 쥐었어요. 다솜을 빨리 가게 하려던 건 아니었어요. 구겨진 책갈피 끝을 펴다 다솜의 쪽지를 봤어요. 빵 그림이 여러 개 그려져 있었어요. 처음 하는 심부름이라 망설이는 걸까요?",
-          "다솜이 아주머니에게 빵을 물었어요. 나는 책갈피가 걱정됐다고 말했어요. 다솜이 나 때문에 그런 줄 알았다고 해서 놀랐어요. 다솜과 웃으며 책갈피를 끼웠어요. 아까 인사를 못 들은 것도 쪽지를 보느라 그랬대요. 내 짐작과 다른 까닭을 들으니 마음이 가벼워졌어요."
+          "빵집에서 지우를 만나 인사했어요. 지우는 쪽지를 보느라 나를 못 본 것 같았어요. 내가 반갑지 않은 걸까 싶었어요. 빌린 책의 책갈피가 자꾸 빠졌어요. 나는 책을 내려다보며 책갈피를 다시 끼웠어요. 지우도 무언가 고르기 어려운 얼굴이었어요.",
+          "책을 돌려줄 시간까지 얼마나 남았는지 시계를 봤어요. 나는 책갈피가 없어질까 봐 책을 꼭 쥐었어요. 지우를 빨리 가게 하려던 건 아니었어요. 구겨진 책갈피 끝을 펴다 지우의 쪽지를 봤어요. 빵 그림이 여러 개 그려져 있었어요. 처음 하는 심부름이라 망설이는 걸까요?",
+          "지우가 아주머니에게 빵을 물었어요. 나는 책갈피가 걱정됐다고 말했어요. 지우가 나 때문에 그런 줄 알았다고 해서 놀랐어요. 지우와 웃으며 책갈피를 끼웠어요. 아까 인사를 못 들은 것도 쪽지를 보느라 그랬대요. 내 짐작과 다른 까닭을 들으니 마음이 가벼워졌어요."
         ],
         [
           "아이가 그림 쪽지를 들고 들어왔어요. 나는 웃으며 고를 시간을 기다렸어요. 아이가 혼자 해보고 싶은 심부름 같았어요. 빵 하나를 가리켜 보여주었어요. 아이가 조용해져서 돈을 세고 있나 싶었어요. 내 뜻이 아이에게 다르게 보일 수도 있겠네요.",
@@ -54,7 +54,7 @@ const books=[
       "place": "Bakery",
       "subtitle": "A first little errand",
       "roles": [
-        "Dasom",
+        "Jiwoo",
         "Junho",
         "The baker"
       ],
@@ -83,9 +83,9 @@ const books=[
           "“Which bread is soft? It is for Grandpa,” I asked. The baker looked at my note and explained slowly. Junho said, “I was worried about losing the library bookmark.” His thoughts were different from what I had guessed. The baker handed the bread bag to my small hands. I thanked her for helping. Junho and I smiled as he tucked his bookmark back in. When I am unsure, I can ask and listen."
         ],
         [
-          "I said hello when I saw Dasom at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me. My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Dasom seemed unsure what to choose too.",
-          "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Dasom. While smoothing the bookmark, I noticed pictures of bread on Dasom’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
-          "Dasom asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her. We smiled as I put the bookmark back. Dasom said she had missed my hello while looking at her note. Hearing her reason felt better than guessing."
+          "I said hello when I saw Jiwoo at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me. My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Jiwoo seemed unsure what to choose too.",
+          "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Jiwoo. While smoothing the bookmark, I noticed pictures of bread on Jiwoo’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
+          "Jiwoo asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her. We smiled as I put the bookmark back. Jiwoo said she had missed my hello while looking at her note. Hearing her reason felt better than guessing."
         ],
         [
           "A child came in holding a picture note. I smiled and gave her time to choose. It seemed like an errand she wanted to try herself. I pointed to one bread to help. When she stayed quiet, I wondered if she was counting her money. My gesture might have looked different to her.",
@@ -100,7 +100,7 @@ const books=[
       "place": "Panadería",
       "subtitle": "Un primer pequeño encargo",
       "roles": [
-        "Dasom",
+        "Jiwoo",
         "Junho",
         "La panadera"
       ],
@@ -129,9 +129,9 @@ const books=[
           "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el separador de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado. La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su separador. Si no sé algo, puedo preguntar y escuchar."
         ],
         [
-          "Saludé a Dasom al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo. El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Dasom también parecía no saber qué elegir.",
-          "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Dasom. Al alisar el separador vi dibujos de panes en la nota de Dasom. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
-          "Dasom preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella. Sonreímos mientras guardaba el separador. Dasom dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor."
+          "Saludé a Jiwoo al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo. El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Jiwoo también parecía no saber qué elegir.",
+          "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Jiwoo. Al alisar el separador vi dibujos de panes en la nota de Jiwoo. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
+          "Jiwoo preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella. Sonreímos mientras guardaba el separador. Jiwoo dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor."
         ],
         [
           "Entró una niña con una nota de dibujos. Le sonreí y le di tiempo para elegir. Parecía un encargo que quería probar por sí misma. Señalé un pan para ayudar. Al verla callada pensé que quizá contaba sus monedas. Mi gesto podía parecerle distinto.",

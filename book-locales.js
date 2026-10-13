@@ -5,15 +5,15 @@ window.heartBookLocales = {
       "audience": "child",
       "title": "Warm Bread in Little Hands",
       "place": "Bakery",
-      "narrator": "Dasom",
+      "narrator": "Jiwoo",
       "roles": [
-        "Dasom",
+        "Jiwoo",
         "Junho",
         "The baker"
       ],
       "characters": [
         {
-          "name": "Dasom",
+          "name": "Jiwoo",
           "age": 8
         },
         {
@@ -32,7 +32,7 @@ window.heartBookLocales = {
         {
           "title": "My first bread errand",
           "text": "I came to buy soft bread for Grandpa. I held my picture note and waited my turn. The baker smiled at me. Junho said hello from behind me, holding a yellow book.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 0,
           "clues": [
             {
@@ -60,7 +60,7 @@ window.heartBookLocales = {
         {
           "title": "Which bread should I choose?",
           "text": "Two breads looked almost the same. The baker pointed to one. I wondered if she wanted me to hurry, so I stayed quiet. I really wanted to ask which bread was soft.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 1,
           "clues": [
             {
@@ -88,7 +88,7 @@ window.heartBookLocales = {
         {
           "title": "Was I making him late?",
           "text": "Junho looked at the clock and held his book tightly. I wondered if he was cross because I was taking so long. I pressed my lips together and fiddled with my note. Junho looked at his own book more often than at me.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 2,
           "clues": [
             {
@@ -116,7 +116,7 @@ window.heartBookLocales = {
         {
           "title": "A little glimpse between the pages",
           "text": "A blue bookmark stuck out of the yellow book. Junho kept smoothing its crumpled end. That looked different from rushing me. I wondered what was worrying him.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 3,
           "clues": [
             {
@@ -144,7 +144,7 @@ window.heartBookLocales = {
         {
           "title": "A small question out loud",
           "text": "“Which bread is soft? It is for Grandpa,” I asked. The baker looked at my note and explained slowly. Junho said, “I was worried about losing the library bookmark.” His thoughts were different from what I had guessed.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 4,
           "clues": [
             {
@@ -155,7 +155,7 @@ window.heartBookLocales = {
             },
             {
               "kind": "🏃 행동 열쇠",
-              "message": "Dasom holds out her picture note.",
+              "message": "Jiwoo holds out her picture note.",
               "x": 39,
               "y": 62
             },
@@ -178,7 +178,7 @@ window.heartBookLocales = {
         {
           "title": "A warm bag in my hands",
           "text": "The baker handed the bread bag to my small hands. I thanked her for helping. Junho and I smiled as he tucked his bookmark back in. When I am unsure, I can ask and listen.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 5,
           "clues": [
             {
@@ -215,7 +215,7 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "My first bread errand",
-              "text": "I said hello when I saw Dasom at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me.",
+              "text": "I said hello when I saw Jiwoo at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me.",
               "viewpoint": "Junho",
               "panel": 0,
               "clues": [
@@ -243,7 +243,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Which bread should I choose?",
-              "text": "My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Dasom seemed unsure what to choose too.",
+              "text": "My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Jiwoo seemed unsure what to choose too.",
               "viewpoint": "Junho",
               "panel": 1,
               "clues": [
@@ -271,7 +271,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Was I making him late?",
-              "text": "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Dasom.",
+              "text": "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Jiwoo.",
               "viewpoint": "Junho",
               "panel": 2,
               "clues": [
@@ -299,7 +299,7 @@ window.heartBookLocales = {
             },
             {
               "title": "A little glimpse between the pages",
-              "text": "While smoothing the bookmark, I noticed pictures of bread on Dasom’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
+              "text": "While smoothing the bookmark, I noticed pictures of bread on Jiwoo’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
               "viewpoint": "Junho",
               "panel": 3,
               "clues": [
@@ -327,7 +327,7 @@ window.heartBookLocales = {
             },
             {
               "title": "A small question out loud",
-              "text": "Dasom asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her.",
+              "text": "Jiwoo asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her.",
               "viewpoint": "Junho",
               "panel": 4,
               "clues": [
@@ -339,7 +339,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🏃 행동 열쇠",
-                  "message": "Dasom holds out her picture note.",
+                  "message": "Jiwoo holds out her picture note.",
                   "x": 65,
                   "y": 68
                 },
@@ -361,7 +361,7 @@ window.heartBookLocales = {
             },
             {
               "title": "A warm bag in my hands",
-              "text": "We smiled as I put the bookmark back. Dasom said she had missed my hello while looking at her note. Hearing her reason felt better than guessing.",
+              "text": "We smiled as I put the bookmark back. Jiwoo said she had missed my hello while looking at her note. Hearing her reason felt better than guessing.",
               "viewpoint": "Junho",
               "panel": 5,
               "clues": [
@@ -530,7 +530,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🏃 행동 열쇠",
-                  "message": "Dasom holds out her picture note.",
+                  "message": "Jiwoo holds out her picture note.",
                   "x": 48,
                   "y": 70
                 },
@@ -5521,15 +5521,15 @@ window.heartBookLocales = {
       "audience": "child",
       "title": "Pan tibio en manos pequeñas",
       "place": "Panadería",
-      "narrator": "Dasom",
+      "narrator": "Jiwoo",
       "roles": [
-        "Dasom",
+        "Jiwoo",
         "Junho",
         "La panadera"
       ],
       "characters": [
         {
-          "name": "Dasom",
+          "name": "Jiwoo",
           "age": 8
         },
         {
@@ -5548,7 +5548,7 @@ window.heartBookLocales = {
         {
           "title": "Mi primer encargo de pan",
           "text": "Vine a comprar pan blandito para el abuelo. Sujeté mi nota con dibujos y esperé mi turno. La panadera me sonrió. Junho me saludó desde atrás con un libro amarillo.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 0,
           "clues": [
             {
@@ -5576,7 +5576,7 @@ window.heartBookLocales = {
         {
           "title": "¿Qué pan elijo?",
           "text": "Dos panes parecían casi iguales. La panadera señaló uno. Pensé que quería que me diera prisa y me quedé callada. En realidad quería preguntar cuál era blandito.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 1,
           "clues": [
             {
@@ -5604,7 +5604,7 @@ window.heartBookLocales = {
         {
           "title": "¿Lo estaba haciendo llegar tarde?",
           "text": "Junho miró el reloj y sujetó el libro con fuerza. Pensé que estaba enfadado porque yo tardaba mucho. Apreté los labios y jugué con mi nota. Junho miraba su libro más que a mí.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 2,
           "clues": [
             {
@@ -5632,7 +5632,7 @@ window.heartBookLocales = {
         {
           "title": "Algo pequeño entre las páginas",
           "text": "Del libro amarillo asomaba un separador azul. Junho alisaba una punta arrugada. Eso no parecía una manera de darme prisa. Me pregunté qué le preocupaba.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 3,
           "clues": [
             {
@@ -5660,7 +5660,7 @@ window.heartBookLocales = {
         {
           "title": "Una pregunta en voz bajita",
           "text": "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el separador de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 4,
           "clues": [
             {
@@ -5671,7 +5671,7 @@ window.heartBookLocales = {
             },
             {
               "kind": "🏃 행동 열쇠",
-              "message": "Dasom muestra su nota con dibujos.",
+              "message": "Jiwoo muestra su nota con dibujos.",
               "x": 39,
               "y": 62
             },
@@ -5694,7 +5694,7 @@ window.heartBookLocales = {
         {
           "title": "Una bolsa tibia en mis manos",
           "text": "La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su separador. Si no sé algo, puedo preguntar y escuchar.",
-          "viewpoint": "Dasom",
+          "viewpoint": "Jiwoo",
           "panel": 5,
           "clues": [
             {
@@ -5731,7 +5731,7 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "Mi primer encargo de pan",
-              "text": "Saludé a Dasom al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo.",
+              "text": "Saludé a Jiwoo al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo.",
               "viewpoint": "Junho",
               "panel": 0,
               "clues": [
@@ -5759,7 +5759,7 @@ window.heartBookLocales = {
             },
             {
               "title": "¿Qué pan elijo?",
-              "text": "El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Dasom también parecía no saber qué elegir.",
+              "text": "El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Jiwoo también parecía no saber qué elegir.",
               "viewpoint": "Junho",
               "panel": 1,
               "clues": [
@@ -5787,7 +5787,7 @@ window.heartBookLocales = {
             },
             {
               "title": "¿Lo estaba haciendo llegar tarde?",
-              "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Dasom.",
+              "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Jiwoo.",
               "viewpoint": "Junho",
               "panel": 2,
               "clues": [
@@ -5815,7 +5815,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Algo pequeño entre las páginas",
-              "text": "Al alisar el separador vi dibujos de panes en la nota de Dasom. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
+              "text": "Al alisar el separador vi dibujos de panes en la nota de Jiwoo. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
               "viewpoint": "Junho",
               "panel": 3,
               "clues": [
@@ -5843,7 +5843,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Una pregunta en voz bajita",
-              "text": "Dasom preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella.",
+              "text": "Jiwoo preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella.",
               "viewpoint": "Junho",
               "panel": 4,
               "clues": [
@@ -5855,7 +5855,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🏃 행동 열쇠",
-                  "message": "Dasom muestra su nota con dibujos.",
+                  "message": "Jiwoo muestra su nota con dibujos.",
                   "x": 65,
                   "y": 68
                 },
@@ -5877,7 +5877,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Una bolsa tibia en mis manos",
-              "text": "Sonreímos mientras guardaba el separador. Dasom dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
+              "text": "Sonreímos mientras guardaba el separador. Jiwoo dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
               "viewpoint": "Junho",
               "panel": 5,
               "clues": [
@@ -6046,7 +6046,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🏃 행동 열쇠",
-                  "message": "Dasom muestra su nota con dibujos.",
+                  "message": "Jiwoo muestra su nota con dibujos.",
                   "x": 48,
                   "y": 70
                 },

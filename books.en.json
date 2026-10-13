@@ -4,15 +4,15 @@
     "audience": "child",
     "title": "Warm Bread in Little Hands",
     "place": "Bakery",
-    "narrator": "Dasom",
+    "narrator": "Jiwoo",
     "roles": [
-      "Dasom",
+      "Jiwoo",
       "Junho",
       "The baker"
     ],
     "characters": [
       {
-        "name": "Dasom",
+        "name": "Jiwoo",
         "age": 8
       },
       {
@@ -31,7 +31,7 @@
       {
         "title": "My first bread errand",
         "text": "I came to buy soft bread for Grandpa. I held my picture note and waited my turn. The baker smiled at me. Junho said hello from behind me, holding a yellow book.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 0,
         "clues": [
           {
@@ -59,7 +59,7 @@
       {
         "title": "Which bread should I choose?",
         "text": "Two breads looked almost the same. The baker pointed to one. I wondered if she wanted me to hurry, so I stayed quiet. I really wanted to ask which bread was soft.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 1,
         "clues": [
           {
@@ -87,7 +87,7 @@
       {
         "title": "Was I making him late?",
         "text": "Junho looked at the clock and held his book tightly. I wondered if he was cross because I was taking so long. I pressed my lips together and fiddled with my note. Junho looked at his own book more often than at me.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 2,
         "clues": [
           {
@@ -115,7 +115,7 @@
       {
         "title": "A little glimpse between the pages",
         "text": "A blue bookmark stuck out of the yellow book. Junho kept smoothing its crumpled end. That looked different from rushing me. I wondered what was worrying him.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 3,
         "clues": [
           {
@@ -143,7 +143,7 @@
       {
         "title": "A small question out loud",
         "text": "“Which bread is soft? It is for Grandpa,” I asked. The baker looked at my note and explained slowly. Junho said, “I was worried about losing the library bookmark.” His thoughts were different from what I had guessed.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 4,
         "clues": [
           {
@@ -154,7 +154,7 @@
           },
           {
             "kind": "🏃 행동 열쇠",
-            "message": "Dasom holds out her picture note.",
+            "message": "Jiwoo holds out her picture note.",
             "x": 39,
             "y": 62
           },
@@ -177,7 +177,7 @@
       {
         "title": "A warm bag in my hands",
         "text": "The baker handed the bread bag to my small hands. I thanked her for helping. Junho and I smiled as he tucked his bookmark back in. When I am unsure, I can ask and listen.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 5,
         "clues": [
           {
@@ -214,7 +214,7 @@
         "scenes": [
           {
             "title": "My first bread errand",
-            "text": "I said hello when I saw Dasom at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me.",
+            "text": "I said hello when I saw Jiwoo at the bakery. She was looking at a note and seemed not to notice. I wondered if she was not pleased to see me.",
             "viewpoint": "Junho",
             "panel": 0,
             "clues": [
@@ -242,7 +242,7 @@
           },
           {
             "title": "Which bread should I choose?",
-            "text": "My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Dasom seemed unsure what to choose too.",
+            "text": "My bookmark kept slipping out of the borrowed book. I looked down and tucked it back in. Jiwoo seemed unsure what to choose too.",
             "viewpoint": "Junho",
             "panel": 1,
             "clues": [
@@ -270,7 +270,7 @@
           },
           {
             "title": "Was I making him late?",
-            "text": "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Dasom.",
+            "text": "I checked the clock to see how long I had before returning the book. I gripped the book because I did not want to lose the bookmark. I was not trying to hurry Jiwoo.",
             "viewpoint": "Junho",
             "panel": 2,
             "clues": [
@@ -298,7 +298,7 @@
           },
           {
             "title": "A little glimpse between the pages",
-            "text": "While smoothing the bookmark, I noticed pictures of bread on Dasom’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
+            "text": "While smoothing the bookmark, I noticed pictures of bread on Jiwoo’s note. Perhaps this was her first errand. I wondered if she needed help choosing.",
             "viewpoint": "Junho",
             "panel": 3,
             "clues": [
@@ -326,7 +326,7 @@
           },
           {
             "title": "A small question out loud",
-            "text": "Dasom asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her.",
+            "text": "Jiwoo asked the baker about the bread. I explained my worry about the bookmark. I was surprised that she had thought I was upset with her.",
             "viewpoint": "Junho",
             "panel": 4,
             "clues": [
@@ -338,7 +338,7 @@
               },
               {
                 "kind": "🏃 행동 열쇠",
-                "message": "Dasom holds out her picture note.",
+                "message": "Jiwoo holds out her picture note.",
                 "x": 65,
                 "y": 68
               },
@@ -360,7 +360,7 @@
           },
           {
             "title": "A warm bag in my hands",
-            "text": "We smiled as I put the bookmark back. Dasom said she had missed my hello while looking at her note. Hearing her reason felt better than guessing.",
+            "text": "We smiled as I put the bookmark back. Jiwoo said she had missed my hello while looking at her note. Hearing her reason felt better than guessing.",
             "viewpoint": "Junho",
             "panel": 5,
             "clues": [
@@ -529,7 +529,7 @@
               },
               {
                 "kind": "🏃 행동 열쇠",
-                "message": "Dasom holds out her picture note.",
+                "message": "Jiwoo holds out her picture note.",
                 "x": 48,
                 "y": 70
               },

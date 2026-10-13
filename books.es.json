@@ -4,15 +4,15 @@
     "audience": "child",
     "title": "Pan tibio en manos pequeñas",
     "place": "Panadería",
-    "narrator": "Dasom",
+    "narrator": "Jiwoo",
     "roles": [
-      "Dasom",
+      "Jiwoo",
       "Junho",
       "La panadera"
     ],
     "characters": [
       {
-        "name": "Dasom",
+        "name": "Jiwoo",
         "age": 8
       },
       {
@@ -31,7 +31,7 @@
       {
         "title": "Mi primer encargo de pan",
         "text": "Vine a comprar pan blandito para el abuelo. Sujeté mi nota con dibujos y esperé mi turno. La panadera me sonrió. Junho me saludó desde atrás con un libro amarillo.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 0,
         "clues": [
           {
@@ -59,7 +59,7 @@
       {
         "title": "¿Qué pan elijo?",
         "text": "Dos panes parecían casi iguales. La panadera señaló uno. Pensé que quería que me diera prisa y me quedé callada. En realidad quería preguntar cuál era blandito.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 1,
         "clues": [
           {
@@ -87,7 +87,7 @@
       {
         "title": "¿Lo estaba haciendo llegar tarde?",
         "text": "Junho miró el reloj y sujetó el libro con fuerza. Pensé que estaba enfadado porque yo tardaba mucho. Apreté los labios y jugué con mi nota. Junho miraba su libro más que a mí.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 2,
         "clues": [
           {
@@ -115,7 +115,7 @@
       {
         "title": "Algo pequeño entre las páginas",
         "text": "Del libro amarillo asomaba un separador azul. Junho alisaba una punta arrugada. Eso no parecía una manera de darme prisa. Me pregunté qué le preocupaba.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 3,
         "clues": [
           {
@@ -143,7 +143,7 @@
       {
         "title": "Una pregunta en voz bajita",
         "text": "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el separador de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 4,
         "clues": [
           {
@@ -154,7 +154,7 @@
           },
           {
             "kind": "🏃 행동 열쇠",
-            "message": "Dasom muestra su nota con dibujos.",
+            "message": "Jiwoo muestra su nota con dibujos.",
             "x": 39,
             "y": 62
           },
@@ -177,7 +177,7 @@
       {
         "title": "Una bolsa tibia en mis manos",
         "text": "La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su separador. Si no sé algo, puedo preguntar y escuchar.",
-        "viewpoint": "Dasom",
+        "viewpoint": "Jiwoo",
         "panel": 5,
         "clues": [
           {
@@ -214,7 +214,7 @@
         "scenes": [
           {
             "title": "Mi primer encargo de pan",
-            "text": "Saludé a Dasom al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo.",
+            "text": "Saludé a Jiwoo al verla en la panadería. Miraba una nota y parecía no verme. Pensé que quizá no le alegraba encontrarse conmigo.",
             "viewpoint": "Junho",
             "panel": 0,
             "clues": [
@@ -242,7 +242,7 @@
           },
           {
             "title": "¿Qué pan elijo?",
-            "text": "El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Dasom también parecía no saber qué elegir.",
+            "text": "El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Jiwoo también parecía no saber qué elegir.",
             "viewpoint": "Junho",
             "panel": 1,
             "clues": [
@@ -270,7 +270,7 @@
           },
           {
             "title": "¿Lo estaba haciendo llegar tarde?",
-            "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Dasom.",
+            "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Jiwoo.",
             "viewpoint": "Junho",
             "panel": 2,
             "clues": [
@@ -298,7 +298,7 @@
           },
           {
             "title": "Algo pequeño entre las páginas",
-            "text": "Al alisar el separador vi dibujos de panes en la nota de Dasom. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
+            "text": "Al alisar el separador vi dibujos de panes en la nota de Jiwoo. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
             "viewpoint": "Junho",
             "panel": 3,
             "clues": [
@@ -326,7 +326,7 @@
           },
           {
             "title": "Una pregunta en voz bajita",
-            "text": "Dasom preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella.",
+            "text": "Jiwoo preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella.",
             "viewpoint": "Junho",
             "panel": 4,
             "clues": [
@@ -338,7 +338,7 @@
               },
               {
                 "kind": "🏃 행동 열쇠",
-                "message": "Dasom muestra su nota con dibujos.",
+                "message": "Jiwoo muestra su nota con dibujos.",
                 "x": 65,
                 "y": 68
               },
@@ -360,7 +360,7 @@
           },
           {
             "title": "Una bolsa tibia en mis manos",
-            "text": "Sonreímos mientras guardaba el separador. Dasom dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
+            "text": "Sonreímos mientras guardaba el separador. Jiwoo dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
             "viewpoint": "Junho",
             "panel": 5,
             "clues": [
@@ -529,7 +529,7 @@
               },
               {
                 "kind": "🏃 행동 열쇠",
-                "message": "Dasom muestra su nota con dibujos.",
+                "message": "Jiwoo muestra su nota con dibujos.",
                 "x": 48,
                 "y": 70
               },
