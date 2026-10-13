@@ -8,9 +8,4 @@ body[data-audience="adult"] .story{font-size:20px;line-height:2.1}body[data-audi
 html[lang=ko] body[data-audience=child] .story{font-family:'Hi Melody','Gamja Flower','Malgun Gothic',sans-serif;font-size:27px;line-height:1.9;letter-spacing:.2px;color:#504936}html[lang=ko] body[data-audience=child] .reading h1{font-family:'Hi Melody','Gamja Flower',sans-serif;font-size:32px;font-weight:400}html[lang=ko] body[data-audience=adult] .story{font-family:'Gowun Batang','Batang',Georgia,serif;font-size:20px;line-height:2.05;letter-spacing:0;color:#50483e}html[lang=ko] body[data-audience=adult] .reading h1{font-family:'Gowun Batang','Batang',serif;font-size:26px;font-weight:400}html:not([lang=ko]) body[data-audience=child] .story{font-family:Nunito,system-ui,sans-serif;font-size:22px;line-height:1.85}html:not([lang=ko]) body[data-audience=adult] .story{font-family:Georgia,serif;font-size:20px;line-height:1.9}@media(max-width:650px){html[lang=ko] body[data-audience=child] .story{font-size:24px}html[lang=ko] body[data-audience=adult] .story{font-size:18px}}
 
 .role-card .mini{aspect-ratio:3/2}
-.story-key{display:inline-flex;align-items:center;vertical-align:middle;margin:3px 2px;padding:3px 9px;border:1px solid #c8d2b8;background:#eff3e6;color:#52634b;font-family:'Hi Melody','Nunito','Malgun Gothic',sans-serif;font-size:17px;line-height:1.5;white-space:nowrap}
-.story-key[aria-expanded=true]{background:#dce7ce;border-color:#819474}
-.story .text-key-note{margin:6px 0 16px;padding:12px 15px;border-left:3px solid #a9bc92;border-radius:0 10px 10px 0;background:#f3f4ea;color:#5c6b51;font-family:'Malgun Gothic','Nunito',sans-serif;font-size:16px;line-height:1.7}
-.story .text-key-note[hidden]{display:none}
 .picture .spot span{opacity:.8}
-@media(max-width:650px){.story-key{font-size:16px}.story .text-key-note{font-size:14px}}

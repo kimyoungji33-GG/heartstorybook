@@ -55,21 +55,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Which bread should I choose?",
@@ -97,17 +83,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Was I making him late?",
@@ -135,21 +111,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.6094,
             "h": 30.0781
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "A little glimpse between the pages",
@@ -177,17 +139,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.6094,
             "h": 30.0781
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "A small question out loud",
@@ -221,21 +173,7 @@ window.heartBookLocales = {
             "y": 64.2578,
             "w": 49.6094,
             "h": 35.4492
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "A warm bag in my hands",
@@ -263,17 +201,7 @@ window.heartBookLocales = {
             "y": 64.2578,
             "w": 49.6094,
             "h": 35.4492
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -311,13 +239,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "Which bread should I choose?",
@@ -345,17 +267,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Was I making him late?",
@@ -383,8 +295,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.6094,
                 "h": 30.0781
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "A little glimpse between the pages",
@@ -412,13 +323,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.6094,
                 "h": 30.0781
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A small question out loud",
@@ -452,17 +357,7 @@ window.heartBookLocales = {
                 "y": 63.7695,
                 "w": 49.6094,
                 "h": 35.9375
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "A warm bag in my hands",
@@ -490,17 +385,7 @@ window.heartBookLocales = {
                 "y": 63.7695,
                 "w": 49.6094,
                 "h": 35.9375
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             }
           ],
           "aspect": "762/308",
@@ -545,17 +430,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Which bread should I choose?",
@@ -583,17 +458,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Was I making him late?",
@@ -621,13 +486,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.6745,
                 "h": 31.8359
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A little glimpse between the pages",
@@ -655,13 +514,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.5443,
                 "h": 31.8359
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A small question out loud",
@@ -695,17 +548,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.6745,
                 "h": 34.1797
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "A warm bag in my hands",
@@ -733,17 +576,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.5443,
                 "h": 34.1797
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             }
           ],
           "aspect": "763/326",
@@ -787,21 +620,7 @@ window.heartBookLocales = {
               "y": 45
             }
           ],
-          "image": "./images/bakery-1.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "image": "./images/bakery-1.png"
         },
         {
           "title": "The door opens and I am startled",
@@ -830,17 +649,7 @@ window.heartBookLocales = {
               "y": 78
             }
           ],
-          "image": "./images/bakery-2.png",
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          "image": "./images/bakery-2.png"
         },
         {
           "title": "It was my turn",
@@ -862,13 +671,7 @@ window.heartBookLocales = {
               "y": 63
             }
           ],
-          "image": "./images/bakery-3.png",
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "eye"
-            }
-          ]
+          "image": "./images/bakery-3.png"
         },
         {
           "title": "A quiet moment of waiting",
@@ -897,17 +700,7 @@ window.heartBookLocales = {
               "y": 35
             }
           ],
-          "image": "./images/bakery-4.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          "image": "./images/bakery-4.png"
         },
         {
           "title": "Words open a little door",
@@ -943,21 +736,7 @@ window.heartBookLocales = {
               "location": "Look at the marked place in the picture."
             }
           ],
-          "image": "./images/bakery-5.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "image": "./images/bakery-5.png"
         },
         {
           "title": "A warmer goodbye",
@@ -986,17 +765,7 @@ window.heartBookLocales = {
               "y": 37
             }
           ],
-          "image": "./images/bakery-6.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            }
-          ]
+          "image": "./images/bakery-6.png"
         }
       ],
       "activities": [
@@ -1026,13 +795,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-1.png",
-              "aspect": "625/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/415"
             },
             {
               "title": "The door opens and I am startled",
@@ -1055,13 +818,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-2.png",
-              "aspect": "626/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/415"
             },
             {
               "title": "It was my turn",
@@ -1084,13 +841,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-3.png",
-              "aspect": "625/404",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/404"
             },
             {
               "title": "A quiet moment of waiting",
@@ -1113,13 +864,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-4.png",
-              "aspect": "626/404",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/404"
             },
             {
               "title": "Words open a little door",
@@ -1149,13 +894,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-5.png",
-              "aspect": "625/432",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "625/432"
             },
             {
               "title": "A warmer goodbye",
@@ -1185,21 +924,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-6.png",
-              "aspect": "626/432",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 3,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "626/432"
             }
           ]
         },
@@ -1229,13 +954,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-1.png",
-              "aspect": "625/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/415"
             },
             {
               "title": "The door opens and I am startled",
@@ -1258,13 +977,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-2.png",
-              "aspect": "626/415",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "626/415"
             },
             {
               "title": "It was my turn",
@@ -1287,13 +1000,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-3.png",
-              "aspect": "625/414",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/414"
             },
             {
               "title": "A quiet moment of waiting",
@@ -1316,13 +1023,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-4.png",
-              "aspect": "626/414",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/414"
             },
             {
               "title": "Words open a little door",
@@ -1352,17 +1053,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-5.png",
-              "aspect": "625/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/417"
             },
             {
               "title": "A warmer goodbye",
@@ -1392,17 +1083,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-6.png",
-              "aspect": "626/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "626/417"
             }
           ]
         }
@@ -1461,8 +1142,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.7396,
             "h": 32.7148
-          },
-          "textKeys": []
+          }
         },
         {
           "title": "What does that mean?",
@@ -1490,17 +1170,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.4792,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "What I first imagined",
@@ -1528,17 +1198,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.7396,
             "h": 32.4219
-          },
-          "textKeys": [
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Looking a little closer",
@@ -1566,17 +1226,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.4792,
             "h": 32.4219
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -1610,17 +1260,7 @@ window.heartBookLocales = {
             "y": 66.6016,
             "w": 49.7396,
             "h": 33.1055
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 3,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -1648,21 +1288,7 @@ window.heartBookLocales = {
             "y": 66.6016,
             "w": 49.4792,
             "h": 33.1055
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -1697,8 +1323,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "What does that mean?",
@@ -1726,13 +1351,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -1760,13 +1379,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -1794,17 +1407,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -1838,17 +1441,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.6745,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -1876,13 +1469,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.5443,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/cups-view-1.png",
@@ -1927,13 +1514,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.8125
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -1961,8 +1542,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.8125
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "What I first imagined",
@@ -1990,13 +1570,7 @@ window.heartBookLocales = {
                 "y": 33.6914,
                 "w": 49.6745,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2024,13 +1598,7 @@ window.heartBookLocales = {
                 "y": 33.6914,
                 "w": 49.5443,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2064,13 +1632,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.6745,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2098,13 +1660,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.5443,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/cups-view-2.png",
@@ -2175,17 +1731,7 @@ window.heartBookLocales = {
             "y": 0.2392,
             "w": 49.5215,
             "h": 32.6156
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "What does that mean?",
@@ -2213,21 +1759,7 @@ window.heartBookLocales = {
             "y": 0.2392,
             "w": 49.5215,
             "h": 32.6156
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "What I first imagined",
@@ -2255,21 +1787,7 @@ window.heartBookLocales = {
             "y": 33.3333,
             "w": 49.5215,
             "h": 32.5359
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Looking a little closer",
@@ -2297,21 +1815,7 @@ window.heartBookLocales = {
             "y": 33.3333,
             "w": 49.5215,
             "h": 32.5359
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -2345,21 +1849,7 @@ window.heartBookLocales = {
             "y": 66.3477,
             "w": 49.5215,
             "h": 33.4131
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -2387,21 +1877,7 @@ window.heartBookLocales = {
             "y": 66.3477,
             "w": 49.5215,
             "h": 33.4131
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -2436,13 +1912,7 @@ window.heartBookLocales = {
                 "y": 0.2392,
                 "w": 49.5215,
                 "h": 32.5359
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -2470,8 +1940,7 @@ window.heartBookLocales = {
                 "y": 0.2392,
                 "w": 49.5215,
                 "h": 32.5359
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "What I first imagined",
@@ -2499,13 +1968,7 @@ window.heartBookLocales = {
                 "y": 33.2536,
                 "w": 49.5215,
                 "h": 32.4561
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2533,21 +1996,7 @@ window.heartBookLocales = {
                 "y": 33.2536,
                 "w": 49.5215,
                 "h": 32.4561
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2581,17 +2030,7 @@ window.heartBookLocales = {
                 "y": 66.1882,
                 "w": 49.5215,
                 "h": 33.5726
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2619,13 +2058,7 @@ window.heartBookLocales = {
                 "y": 66.1882,
                 "w": 49.5215,
                 "h": 33.5726
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/plate-view-1.png",
@@ -2670,13 +2103,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -2704,17 +2131,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -2742,13 +2159,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -2776,13 +2187,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -2816,13 +2221,7 @@ window.heartBookLocales = {
                 "y": 66.6992,
                 "w": 49.6745,
                 "h": 33.0078
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -2850,17 +2249,7 @@ window.heartBookLocales = {
                 "y": 66.6992,
                 "w": 49.5443,
                 "h": 33.0078
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/plate-view-2.png",
@@ -2931,17 +2320,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "What does that mean?",
@@ -2969,21 +2348,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "What I first imagined",
@@ -3011,21 +2376,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 32.0313
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Looking a little closer",
@@ -3053,17 +2404,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 32.0313
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -3097,21 +2438,7 @@ window.heartBookLocales = {
             "y": 66.3086,
             "w": 49.6094,
             "h": 33.3984
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -3139,21 +2466,7 @@ window.heartBookLocales = {
             "y": 66.3086,
             "w": 49.6094,
             "h": 33.3984
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -3188,13 +2501,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -3222,17 +2529,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -3260,21 +2557,7 @@ window.heartBookLocales = {
                 "y": 33.4961,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -3302,13 +2585,7 @@ window.heartBookLocales = {
                 "y": 33.4961,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -3342,13 +2619,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.6094,
                 "h": 34.1797
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -3376,8 +2647,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.6094,
                 "h": 34.1797
-              },
-              "textKeys": []
+              }
             }
           ],
           "atlas": "./images/door-view-1.png",
@@ -3422,8 +2692,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "What does that mean?",
@@ -3451,13 +2720,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -3485,17 +2748,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -3523,13 +2776,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -3563,17 +2810,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.5443,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -3601,13 +2838,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.6745,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/door-view-2.png",
@@ -3678,21 +2909,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "What does that mean?",
@@ -3720,21 +2937,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "What I first imagined",
@@ -3762,21 +2965,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Looking a little closer",
@@ -3804,21 +2993,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -3852,21 +3027,7 @@ window.heartBookLocales = {
             "y": 65.1367,
             "w": 49.6094,
             "h": 34.5703
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -3894,17 +3055,7 @@ window.heartBookLocales = {
             "y": 65.1367,
             "w": 49.6094,
             "h": 34.5703
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "ear"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -3939,17 +3090,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -3977,17 +3118,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -4015,13 +3146,7 @@ window.heartBookLocales = {
                 "y": 33.7891,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -4049,17 +3174,7 @@ window.heartBookLocales = {
                 "y": 33.7891,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -4093,17 +3208,7 @@ window.heartBookLocales = {
                 "y": 65.8203,
                 "w": 49.6094,
                 "h": 33.8867
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -4131,13 +3236,7 @@ window.heartBookLocales = {
                 "y": 65.8203,
                 "w": 49.6094,
                 "h": 33.8867
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/ball-view-1.png",
@@ -4182,17 +3281,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -4220,13 +3309,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -4254,13 +3337,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -4288,17 +3365,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -4332,13 +3399,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -4366,8 +3427,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": []
+              }
             }
           ],
           "atlas": "./images/ball-view-2.png",
@@ -4438,8 +3498,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": []
+          }
         },
         {
           "title": "What does that mean?",
@@ -4467,21 +3526,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "What I first imagined",
@@ -4509,17 +3554,7 @@ window.heartBookLocales = {
             "y": 31.7383,
             "w": 49.6094,
             "h": 30.7617
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Looking a little closer",
@@ -4547,21 +3582,7 @@ window.heartBookLocales = {
             "y": 31.7383,
             "w": 49.6094,
             "h": 30.7617
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "A feeling I had not seen",
@@ -4595,21 +3616,7 @@ window.heartBookLocales = {
             "y": 63.0859,
             "w": 49.6094,
             "h": 36.6211
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "The same moment, a new feeling",
@@ -4637,17 +3644,7 @@ window.heartBookLocales = {
             "y": 63.0859,
             "w": 49.6094,
             "h": 36.6211
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -4682,8 +3679,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "What does that mean?",
@@ -4711,17 +3707,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -4749,13 +3735,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.8125
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -4783,21 +3763,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.8125
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -4831,17 +3797,7 @@ window.heartBookLocales = {
                 "y": 66.9922,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -4869,13 +3825,7 @@ window.heartBookLocales = {
                 "y": 66.9922,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/stars-view-1.png",
@@ -4920,13 +3870,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What does that mean?",
@@ -4954,17 +3898,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "What I first imagined",
@@ -4992,13 +3926,7 @@ window.heartBookLocales = {
                 "y": 33.3984,
                 "w": 49.5443,
                 "h": 31.3477
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Looking a little closer",
@@ -5026,13 +3954,7 @@ window.heartBookLocales = {
                 "y": 33.3984,
                 "w": 49.6745,
                 "h": 31.3477
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "A feeling I had not seen",
@@ -5066,13 +3988,7 @@ window.heartBookLocales = {
                 "y": 65.332,
                 "w": 49.5443,
                 "h": 34.375
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "The same moment, a new feeling",
@@ -5100,8 +4016,7 @@ window.heartBookLocales = {
                 "y": 65.332,
                 "w": 49.6745,
                 "h": 34.375
-              },
-              "textKeys": []
+              }
             }
           ],
           "atlas": "./images/stars-view-2.png",
@@ -5167,13 +4082,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-1.png",
-          "aspect": "625/408",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "625/408"
         },
         {
           "title": "What first caught my eye",
@@ -5196,17 +4105,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-2.png",
-          "aspect": "621/408",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "621/408"
         },
         {
           "title": "The feeling I imagined",
@@ -5229,17 +4128,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-3.png",
-          "aspect": "625/399",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          "aspect": "625/399"
         },
         {
           "title": "Looking again",
@@ -5262,17 +4151,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-4.png",
-          "aspect": "621/399",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            }
-          ]
+          "aspect": "621/399"
         },
         {
           "title": "A feeling spoken aloud",
@@ -5302,17 +4181,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-5.png",
-          "aspect": "625/435",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "625/435"
         },
         {
           "title": "A little change of heart",
@@ -5335,13 +4204,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-6.png",
-          "aspect": "621/435",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "621/435"
         }
       ],
       "activities": [
@@ -5371,13 +4234,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-1.png",
-              "aspect": "622/412",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "622/412"
             },
             {
               "title": "What first caught my eye",
@@ -5400,13 +4257,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-2.png",
-              "aspect": "624/412",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/412"
             },
             {
               "title": "The feeling I imagined",
@@ -5429,13 +4280,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-3.png",
-              "aspect": "622/399",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "622/399"
             },
             {
               "title": "Looking again",
@@ -5458,13 +4303,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-4.png",
-              "aspect": "624/399",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/399"
             },
             {
               "title": "A feeling spoken aloud",
@@ -5494,17 +4333,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-5.png",
-              "aspect": "622/431",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "622/431"
             },
             {
               "title": "A little change of heart",
@@ -5527,17 +4356,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-6.png",
-              "aspect": "624/431",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/431"
             }
           ]
         },
@@ -5567,17 +4386,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-1.png",
-              "aspect": "625/411",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/411"
             },
             {
               "title": "What first caught my eye",
@@ -5600,13 +4409,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-2.png",
-              "aspect": "621/411",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "621/411"
             },
             {
               "title": "The feeling I imagined",
@@ -5629,13 +4432,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-3.png",
-              "aspect": "625/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/417"
             },
             {
               "title": "Looking again",
@@ -5658,13 +4455,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-4.png",
-              "aspect": "621/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "621/417"
             },
             {
               "title": "A feeling spoken aloud",
@@ -5694,8 +4485,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-5.png",
-              "aspect": "625/414",
-              "textKeys": []
+              "aspect": "625/414"
             },
             {
               "title": "A little change of heart",
@@ -5718,13 +4508,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-6.png",
-              "aspect": "621/414",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "621/414"
             }
           ]
         }
@@ -5777,21 +4561,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-1.png",
-          "aspect": "624/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "624/412"
         },
         {
           "title": "What first caught my eye",
@@ -5814,21 +4584,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-2.png",
-          "aspect": "622/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "622/412"
         },
         {
           "title": "The feeling I imagined",
@@ -5851,17 +4607,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-3.png",
-          "aspect": "624/404",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            }
-          ]
+          "aspect": "624/404"
         },
         {
           "title": "Looking again",
@@ -5884,21 +4630,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-4.png",
-          "aspect": "622/404",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "622/404"
         },
         {
           "title": "A feeling spoken aloud",
@@ -5935,21 +4667,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-5.png",
-          "aspect": "624/426",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "624/426"
         },
         {
           "title": "A little change of heart",
@@ -5972,13 +4690,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-6.png",
-          "aspect": "622/426",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "622/426"
         }
       ],
       "activities": [
@@ -6008,17 +4720,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-1.png",
-              "aspect": "624/410",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/410"
             },
             {
               "title": "What first caught my eye",
@@ -6041,17 +4743,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-2.png",
-              "aspect": "622/410",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "622/410"
             },
             {
               "title": "The feeling I imagined",
@@ -6074,17 +4766,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-3.png",
-              "aspect": "624/402",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/402"
             },
             {
               "title": "Looking again",
@@ -6107,17 +4789,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-4.png",
-              "aspect": "622/402",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "622/402"
             },
             {
               "title": "A feeling spoken aloud",
@@ -6147,17 +4819,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-5.png",
-              "aspect": "624/430",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/430"
             },
             {
               "title": "A little change of heart",
@@ -6180,13 +4842,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-6.png",
-              "aspect": "622/430",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "622/430"
             }
           ]
         },
@@ -6216,21 +4872,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-1.png",
-              "aspect": "622/408",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "622/408"
             },
             {
               "title": "What first caught my eye",
@@ -6253,17 +4895,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-2.png",
-              "aspect": "624/408",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/408"
             },
             {
               "title": "The feeling I imagined",
@@ -6286,21 +4918,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-3.png",
-              "aspect": "622/404",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/404"
             },
             {
               "title": "Looking again",
@@ -6323,17 +4941,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-4.png",
-              "aspect": "624/404",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/404"
             },
             {
               "title": "A feeling spoken aloud",
@@ -6363,13 +4971,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-5.png",
-              "aspect": "622/430",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/430"
             },
             {
               "title": "A little change of heart",
@@ -6392,13 +4994,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-6.png",
-              "aspect": "624/430",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/430"
             }
           ]
         }
@@ -6451,13 +5047,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-1.png",
-          "aspect": "627/412",
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          "aspect": "627/412"
         },
         {
           "title": "What first caught my eye",
@@ -6487,17 +5077,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-2.png",
-          "aspect": "619/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "619/412"
         },
         {
           "title": "The feeling I imagined",
@@ -6520,17 +5100,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-3.png",
-          "aspect": "627/400",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "aspect": "627/400"
         },
         {
           "title": "Looking again",
@@ -6553,8 +5123,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-4.png",
-          "aspect": "619/400",
-          "textKeys": []
+          "aspect": "619/400"
         },
         {
           "title": "A feeling spoken aloud",
@@ -6584,17 +5153,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-5.png",
-          "aspect": "627/430",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "627/430"
         },
         {
           "title": "A little change of heart",
@@ -6617,13 +5176,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-6.png",
-          "aspect": "619/430",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "619/430"
         }
       ],
       "activities": [
@@ -6653,13 +5206,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-1.png",
-              "aspect": "622/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/400"
             },
             {
               "title": "What first caught my eye",
@@ -6689,13 +5236,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-2.png",
-              "aspect": "624/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/400"
             },
             {
               "title": "The feeling I imagined",
@@ -6718,13 +5259,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-3.png",
-              "aspect": "622/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/400"
             },
             {
               "title": "Looking again",
@@ -6747,13 +5282,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-4.png",
-              "aspect": "624/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/400"
             },
             {
               "title": "A feeling spoken aloud",
@@ -6783,17 +5312,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-5.png",
-              "aspect": "622/442",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "622/442"
             },
             {
               "title": "A little change of heart",
@@ -6823,17 +5342,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-6.png",
-              "aspect": "624/442",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/442"
             }
           ]
         },
@@ -6863,21 +5372,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-1.png",
-              "aspect": "625/411",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/411"
             },
             {
               "title": "What first caught my eye",
@@ -6900,8 +5395,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-2.png",
-              "aspect": "621/411",
-              "textKeys": []
+              "aspect": "621/411"
             },
             {
               "title": "The feeling I imagined",
@@ -6924,13 +5418,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-3.png",
-              "aspect": "625/413",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/413"
             },
             {
               "title": "Looking again",
@@ -6953,13 +5441,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-4.png",
-              "aspect": "621/413",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "621/413"
             },
             {
               "title": "A feeling spoken aloud",
@@ -6989,8 +5471,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-5.png",
-              "aspect": "625/418",
-              "textKeys": []
+              "aspect": "625/418"
             },
             {
               "title": "A little change of heart",
@@ -7013,13 +5494,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-6.png",
-              "aspect": "621/418",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "621/418"
             }
           ]
         }
@@ -7096,21 +5571,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "¿Qué pan elijo?",
@@ -7138,13 +5599,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "¿Lo estaba haciendo llegar tarde?",
@@ -7172,21 +5627,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.6094,
             "h": 30.0781
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Algo pequeño entre las páginas",
@@ -7214,8 +5655,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.6094,
             "h": 30.0781
-          },
-          "textKeys": []
+          }
         },
         {
           "title": "Una pregunta en voz bajita",
@@ -7249,21 +5689,7 @@ window.heartBookLocales = {
             "y": 64.2578,
             "w": 49.6094,
             "h": 35.4492
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Una bolsa tibia en mis manos",
@@ -7291,17 +5717,7 @@ window.heartBookLocales = {
             "y": 64.2578,
             "w": 49.6094,
             "h": 35.4492
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -7339,8 +5755,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.2266
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "¿Qué pan elijo?",
@@ -7368,13 +5783,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Lo estaba haciendo llegar tarde?",
@@ -7402,13 +5811,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.6094,
                 "h": 30.0781
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Algo pequeño entre las páginas",
@@ -7436,13 +5839,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.6094,
                 "h": 30.0781
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Una pregunta en voz bajita",
@@ -7476,13 +5873,7 @@ window.heartBookLocales = {
                 "y": 63.7695,
                 "w": 49.6094,
                 "h": 35.9375
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Una bolsa tibia en mis manos",
@@ -7510,17 +5901,7 @@ window.heartBookLocales = {
                 "y": 63.7695,
                 "w": 49.6094,
                 "h": 35.9375
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             }
           ],
           "aspect": "762/308",
@@ -7565,13 +5946,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué pan elijo?",
@@ -7599,13 +5974,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.2266
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Lo estaba haciendo llegar tarde?",
@@ -7633,8 +6002,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.6745,
                 "h": 31.8359
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "Algo pequeño entre las páginas",
@@ -7662,17 +6030,7 @@ window.heartBookLocales = {
                 "y": 33.1055,
                 "w": 49.5443,
                 "h": 31.8359
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Una pregunta en voz bajita",
@@ -7706,13 +6064,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.6745,
                 "h": 34.1797
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Una bolsa tibia en mis manos",
@@ -7740,17 +6092,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.5443,
                 "h": 34.1797
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             }
           ],
           "aspect": "763/326",
@@ -7794,21 +6136,7 @@ window.heartBookLocales = {
               "y": 45
             }
           ],
-          "image": "./images/bakery-1.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          "image": "./images/bakery-1.png"
         },
         {
           "title": "La puerta se abre y me sorprendo",
@@ -7837,21 +6165,7 @@ window.heartBookLocales = {
               "y": 78
             }
           ],
-          "image": "./images/bakery-2.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 3,
-              "kind": "eye"
-            }
-          ]
+          "image": "./images/bakery-2.png"
         },
         {
           "title": "Era mi turno",
@@ -7873,17 +6187,7 @@ window.heartBookLocales = {
               "y": 63
             }
           ],
-          "image": "./images/bakery-3.png",
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "image": "./images/bakery-3.png"
         },
         {
           "title": "Una espera tranquila",
@@ -7912,17 +6216,7 @@ window.heartBookLocales = {
               "y": 35
             }
           ],
-          "image": "./images/bakery-4.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          "image": "./images/bakery-4.png"
         },
         {
           "title": "Las palabras abren una puerta",
@@ -7958,21 +6252,7 @@ window.heartBookLocales = {
               "location": "Observa el lugar señalado en la imagen."
             }
           ],
-          "image": "./images/bakery-5.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "image": "./images/bakery-5.png"
         },
         {
           "title": "Una despedida más cálida",
@@ -8001,21 +6281,7 @@ window.heartBookLocales = {
               "y": 37
             }
           ],
-          "image": "./images/bakery-6.png",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "image": "./images/bakery-6.png"
         }
       ],
       "activities": [
@@ -8045,13 +6311,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-1.png",
-              "aspect": "625/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/415"
             },
             {
               "title": "La puerta se abre y me sorprendo",
@@ -8074,17 +6334,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-2.png",
-              "aspect": "626/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/415"
             },
             {
               "title": "Era mi turno",
@@ -8107,13 +6357,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-3.png",
-              "aspect": "625/404",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/404"
             },
             {
               "title": "Una espera tranquila",
@@ -8136,13 +6380,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-4.png",
-              "aspect": "626/404",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/404"
             },
             {
               "title": "Las palabras abren una puerta",
@@ -8172,13 +6410,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-5.png",
-              "aspect": "625/432",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "625/432"
             },
             {
               "title": "Una despedida más cálida",
@@ -8208,21 +6440,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-hajun-scene-6.png",
-              "aspect": "626/432",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 3,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/432"
             }
           ]
         },
@@ -8252,13 +6470,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-1.png",
-              "aspect": "625/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/415"
             },
             {
               "title": "La puerta se abre y me sorprendo",
@@ -8281,13 +6493,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-2.png",
-              "aspect": "626/415",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/415"
             },
             {
               "title": "Era mi turno",
@@ -8310,13 +6516,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-3.png",
-              "aspect": "625/414",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/414"
             },
             {
               "title": "Una espera tranquila",
@@ -8339,13 +6539,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-4.png",
-              "aspect": "626/414",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "626/414"
             },
             {
               "title": "Las palabras abren una puerta",
@@ -8375,13 +6569,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-5.png",
-              "aspect": "625/417",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/417"
             },
             {
               "title": "Una despedida más cálida",
@@ -8411,17 +6599,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/bakery-owner-scene-6.png",
-              "aspect": "626/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "626/417"
             }
           ]
         }
@@ -8480,17 +6658,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.7396,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -8518,21 +6686,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.4792,
             "h": 32.7148
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -8560,21 +6714,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.7396,
             "h": 32.4219
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -8602,21 +6742,7 @@ window.heartBookLocales = {
             "y": 33.5938,
             "w": 49.4792,
             "h": 32.4219
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -8650,21 +6776,7 @@ window.heartBookLocales = {
             "y": 66.6016,
             "w": 49.7396,
             "h": 33.1055
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -8692,17 +6804,7 @@ window.heartBookLocales = {
             "y": 66.6016,
             "w": 49.4792,
             "h": 33.1055
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -8737,8 +6839,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -8766,17 +6867,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -8804,8 +6895,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.1289
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -8833,13 +6923,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -8873,13 +6957,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.6745,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -8907,13 +6985,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.5443,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/cups-view-1.png",
@@ -8958,17 +7030,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.8125
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -8996,13 +7058,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.8125
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -9030,13 +7086,7 @@ window.heartBookLocales = {
                 "y": 33.6914,
                 "w": 49.6745,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -9064,17 +7114,7 @@ window.heartBookLocales = {
                 "y": 33.6914,
                 "w": 49.5443,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -9108,8 +7148,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.6745,
                 "h": 32.9102
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -9137,17 +7176,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.5443,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/cups-view-2.png",
@@ -9218,13 +7247,7 @@ window.heartBookLocales = {
             "y": 0.2392,
             "w": 49.5215,
             "h": 32.6156
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -9252,21 +7275,7 @@ window.heartBookLocales = {
             "y": 0.2392,
             "w": 49.5215,
             "h": 32.6156
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -9294,17 +7303,7 @@ window.heartBookLocales = {
             "y": 33.3333,
             "w": 49.5215,
             "h": 32.5359
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -9332,21 +7331,7 @@ window.heartBookLocales = {
             "y": 33.3333,
             "w": 49.5215,
             "h": 32.5359
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -9380,17 +7365,7 @@ window.heartBookLocales = {
             "y": 66.3477,
             "w": 49.5215,
             "h": 33.4131
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 3,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -9418,21 +7393,7 @@ window.heartBookLocales = {
             "y": 66.3477,
             "w": 49.5215,
             "h": 33.4131
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -9467,13 +7428,7 @@ window.heartBookLocales = {
                 "y": 0.2392,
                 "w": 49.5215,
                 "h": 32.5359
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -9501,8 +7456,7 @@ window.heartBookLocales = {
                 "y": 0.2392,
                 "w": 49.5215,
                 "h": 32.5359
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -9530,13 +7484,7 @@ window.heartBookLocales = {
                 "y": 33.2536,
                 "w": 49.5215,
                 "h": 32.4561
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -9564,17 +7512,7 @@ window.heartBookLocales = {
                 "y": 33.2536,
                 "w": 49.5215,
                 "h": 32.4561
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -9608,13 +7546,7 @@ window.heartBookLocales = {
                 "y": 66.1882,
                 "w": 49.5215,
                 "h": 33.5726
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -9642,13 +7574,7 @@ window.heartBookLocales = {
                 "y": 66.1882,
                 "w": 49.5215,
                 "h": 33.5726
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/plate-view-1.png",
@@ -9693,13 +7619,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -9727,17 +7647,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -9765,8 +7675,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.5195
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -9794,13 +7703,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -9834,13 +7737,7 @@ window.heartBookLocales = {
                 "y": 66.6992,
                 "w": 49.6745,
                 "h": 33.0078
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -9868,13 +7765,7 @@ window.heartBookLocales = {
                 "y": 66.6992,
                 "w": 49.5443,
                 "h": 33.0078
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/plate-view-2.png",
@@ -9945,13 +7836,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -9979,21 +7864,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -10021,21 +7892,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 32.0313
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -10063,17 +7920,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 32.0313
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -10107,21 +7954,7 @@ window.heartBookLocales = {
             "y": 66.3086,
             "w": 49.6094,
             "h": 33.3984
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            },
-            {
-              "sentence": 3,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -10149,21 +7982,7 @@ window.heartBookLocales = {
             "y": 66.3086,
             "w": 49.6094,
             "h": 33.3984
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -10198,13 +8017,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -10232,13 +8045,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -10266,17 +8073,7 @@ window.heartBookLocales = {
                 "y": 33.4961,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -10304,13 +8101,7 @@ window.heartBookLocales = {
                 "y": 33.4961,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -10344,13 +8135,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.6094,
                 "h": 34.1797
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -10378,8 +8163,7 @@ window.heartBookLocales = {
                 "y": 65.5273,
                 "w": 49.6094,
                 "h": 34.1797
-              },
-              "textKeys": []
+              }
             }
           ],
           "atlas": "./images/door-view-1.png",
@@ -10424,13 +8208,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -10458,13 +8236,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -10492,13 +8264,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -10526,13 +8292,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.1289
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -10566,17 +8326,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.5443,
                 "h": 33.3984
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -10604,8 +8354,7 @@ window.heartBookLocales = {
                 "y": 66.3086,
                 "w": 49.6745,
                 "h": 33.3984
-              },
-              "textKeys": []
+              }
             }
           ],
           "atlas": "./images/door-view-2.png",
@@ -10676,17 +8425,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -10714,21 +8453,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 32.8125
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -10756,21 +8481,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            },
-            {
-              "sentence": 3,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -10798,21 +8509,7 @@ window.heartBookLocales = {
             "y": 33.6914,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -10846,21 +8543,7 @@ window.heartBookLocales = {
             "y": 65.1367,
             "w": 49.6094,
             "h": 34.5703
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -10888,21 +8571,7 @@ window.heartBookLocales = {
             "y": 65.1367,
             "w": 49.6094,
             "h": 34.5703
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -10937,17 +8606,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -10975,17 +8634,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -11013,13 +8662,7 @@ window.heartBookLocales = {
                 "y": 33.7891,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -11047,17 +8690,7 @@ window.heartBookLocales = {
                 "y": 33.7891,
                 "w": 49.6094,
                 "h": 31.4453
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -11091,17 +8724,7 @@ window.heartBookLocales = {
                 "y": 65.8203,
                 "w": 49.6094,
                 "h": 33.8867
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -11129,21 +8752,7 @@ window.heartBookLocales = {
                 "y": 65.8203,
                 "w": 49.6094,
                 "h": 33.8867
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/ball-view-1.png",
@@ -11188,13 +8797,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -11222,13 +8825,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6094,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -11256,17 +8853,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -11294,17 +8881,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6094,
                 "h": 32.6172
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -11338,17 +8915,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -11376,17 +8943,7 @@ window.heartBookLocales = {
                 "y": 66.7969,
                 "w": 49.6094,
                 "h": 32.9102
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/ball-view-2.png",
@@ -11457,13 +9014,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "¿Qué significa eso?",
@@ -11491,21 +9042,7 @@ window.heartBookLocales = {
             "y": 0.293,
             "w": 49.6094,
             "h": 30.8594
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Lo que imaginé al principio",
@@ -11533,13 +9070,7 @@ window.heartBookLocales = {
             "y": 31.7383,
             "w": 49.6094,
             "h": 30.7617
-          },
-          "textKeys": [
-            {
-              "sentence": 2,
-              "kind": "eye"
-            }
-          ]
+          }
         },
         {
           "title": "Mirar un poco más de cerca",
@@ -11567,21 +9098,7 @@ window.heartBookLocales = {
             "y": 31.7383,
             "w": 49.6094,
             "h": 30.7617
-          },
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          }
         },
         {
           "title": "Un sentimiento que no había visto",
@@ -11615,17 +9132,7 @@ window.heartBookLocales = {
             "y": 63.0859,
             "w": 49.6094,
             "h": 36.6211
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -11653,17 +9160,7 @@ window.heartBookLocales = {
             "y": 63.0859,
             "w": 49.6094,
             "h": 36.6211
-          },
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          }
         }
       ],
       "activities": [
@@ -11698,8 +9195,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -11727,17 +9223,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -11765,8 +9251,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.6745,
                 "h": 32.8125
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -11794,13 +9279,7 @@ window.heartBookLocales = {
                 "y": 33.5938,
                 "w": 49.5443,
                 "h": 32.8125
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -11834,13 +9313,7 @@ window.heartBookLocales = {
                 "y": 66.9922,
                 "w": 49.6745,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -11868,13 +9341,7 @@ window.heartBookLocales = {
                 "y": 66.9922,
                 "w": 49.5443,
                 "h": 32.7148
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             }
           ],
           "atlas": "./images/stars-view-1.png",
@@ -11919,13 +9386,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.5443,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "¿Qué significa eso?",
@@ -11953,13 +9414,7 @@ window.heartBookLocales = {
                 "y": 0.293,
                 "w": 49.6745,
                 "h": 32.5195
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Lo que imaginé al principio",
@@ -11987,13 +9442,7 @@ window.heartBookLocales = {
                 "y": 33.3984,
                 "w": 49.5443,
                 "h": 31.3477
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -12021,13 +9470,7 @@ window.heartBookLocales = {
                 "y": 33.3984,
                 "w": 49.6745,
                 "h": 31.3477
-              },
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              }
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -12061,8 +9504,7 @@ window.heartBookLocales = {
                 "y": 65.332,
                 "w": 49.5443,
                 "h": 34.375
-              },
-              "textKeys": []
+              }
             },
             {
               "title": "El mismo momento, un nuevo sentir",
@@ -12090,8 +9532,7 @@ window.heartBookLocales = {
                 "y": 65.332,
                 "w": 49.6745,
                 "h": 34.375
-              },
-              "textKeys": []
+              }
             }
           ],
           "atlas": "./images/stars-view-2.png",
@@ -12157,13 +9598,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-1.png",
-          "aspect": "625/408",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "625/408"
         },
         {
           "title": "Lo primero que vi",
@@ -12186,13 +9621,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-2.png",
-          "aspect": "621/408",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "621/408"
         },
         {
           "title": "El sentimiento que imaginé",
@@ -12215,13 +9644,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-3.png",
-          "aspect": "625/399",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "625/399"
         },
         {
           "title": "Volver a mirar",
@@ -12244,17 +9667,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-4.png",
-          "aspect": "621/399",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            }
-          ]
+          "aspect": "621/399"
         },
         {
           "title": "Un sentimiento dicho en voz alta",
@@ -12284,17 +9697,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-5.png",
-          "aspect": "625/435",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "aspect": "625/435"
         },
         {
           "title": "Un pequeño cambio de mirada",
@@ -12317,17 +9720,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/twohomes-camera-0-scene-6.png",
-          "aspect": "621/435",
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "aspect": "621/435"
         }
       ],
       "activities": [
@@ -12357,13 +9750,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-1.png",
-              "aspect": "622/412",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "622/412"
             },
             {
               "title": "Lo primero que vi",
@@ -12386,17 +9773,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-2.png",
-              "aspect": "624/412",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/412"
             },
             {
               "title": "El sentimiento que imaginé",
@@ -12419,13 +9796,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-3.png",
-              "aspect": "622/399",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/399"
             },
             {
               "title": "Volver a mirar",
@@ -12448,13 +9819,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-4.png",
-              "aspect": "624/399",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/399"
             },
             {
               "title": "Un sentimiento dicho en voz alta",
@@ -12484,17 +9849,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-5.png",
-              "aspect": "622/431",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/431"
             },
             {
               "title": "Un pequeño cambio de mirada",
@@ -12517,8 +9872,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-1-scene-6.png",
-              "aspect": "624/431",
-              "textKeys": []
+              "aspect": "624/431"
             }
           ]
         },
@@ -12548,13 +9902,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-1.png",
-              "aspect": "625/411",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "625/411"
             },
             {
               "title": "Lo primero que vi",
@@ -12577,13 +9925,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-2.png",
-              "aspect": "621/411",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "621/411"
             },
             {
               "title": "El sentimiento que imaginé",
@@ -12606,13 +9948,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-3.png",
-              "aspect": "625/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/417"
             },
             {
               "title": "Volver a mirar",
@@ -12635,13 +9971,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-4.png",
-              "aspect": "621/417",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "621/417"
             },
             {
               "title": "Un sentimiento dicho en voz alta",
@@ -12671,8 +10001,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-5.png",
-              "aspect": "625/414",
-              "textKeys": []
+              "aspect": "625/414"
             },
             {
               "title": "Un pequeño cambio de mirada",
@@ -12695,13 +10024,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/twohomes-camera-2-scene-6.png",
-              "aspect": "621/414",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "621/414"
             }
           ]
         }
@@ -12754,17 +10077,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-1.png",
-          "aspect": "624/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          "aspect": "624/412"
         },
         {
           "title": "Lo primero que vi",
@@ -12787,13 +10100,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-2.png",
-          "aspect": "622/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            }
-          ]
+          "aspect": "622/412"
         },
         {
           "title": "El sentimiento que imaginé",
@@ -12816,17 +10123,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-3.png",
-          "aspect": "624/404",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "eye"
-            }
-          ]
+          "aspect": "624/404"
         },
         {
           "title": "Volver a mirar",
@@ -12849,21 +10146,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-4.png",
-          "aspect": "622/404",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "622/404"
         },
         {
           "title": "Un sentimiento dicho en voz alta",
@@ -12900,21 +10183,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-5.png",
-          "aspect": "624/426",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "624/426"
         },
         {
           "title": "Un pequeño cambio de mirada",
@@ -12937,13 +10206,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/page-camera-0-scene-6.png",
-          "aspect": "622/426",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            }
-          ]
+          "aspect": "622/426"
         }
       ],
       "activities": [
@@ -12973,13 +10236,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-1.png",
-              "aspect": "624/410",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/410"
             },
             {
               "title": "Lo primero que vi",
@@ -13002,8 +10259,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-2.png",
-              "aspect": "622/410",
-              "textKeys": []
+              "aspect": "622/410"
             },
             {
               "title": "El sentimiento que imaginé",
@@ -13026,17 +10282,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-3.png",
-              "aspect": "624/402",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "624/402"
             },
             {
               "title": "Volver a mirar",
@@ -13059,17 +10305,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-4.png",
-              "aspect": "622/402",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "622/402"
             },
             {
               "title": "Un sentimiento dicho en voz alta",
@@ -13099,17 +10335,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-5.png",
-              "aspect": "624/430",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "624/430"
             },
             {
               "title": "Un pequeño cambio de mirada",
@@ -13132,13 +10358,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-1-scene-6.png",
-              "aspect": "622/430",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/430"
             }
           ]
         },
@@ -13168,21 +10388,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-1.png",
-              "aspect": "622/408",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "622/408"
             },
             {
               "title": "Lo primero que vi",
@@ -13205,21 +10411,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-2.png",
-              "aspect": "624/408",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "eye"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "eye"
-                }
-              ]
+              "aspect": "624/408"
             },
             {
               "title": "El sentimiento que imaginé",
@@ -13242,17 +10434,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-3.png",
-              "aspect": "622/404",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/404"
             },
             {
               "title": "Volver a mirar",
@@ -13275,17 +10457,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-4.png",
-              "aspect": "624/404",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/404"
             },
             {
               "title": "Un sentimiento dicho en voz alta",
@@ -13315,13 +10487,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-5.png",
-              "aspect": "622/430",
-              "textKeys": [
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/430"
             },
             {
               "title": "Un pequeño cambio de mirada",
@@ -13344,13 +10510,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/page-camera-2-scene-6.png",
-              "aspect": "624/430",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/430"
             }
           ]
         }
@@ -13403,17 +10563,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-1.png",
-          "aspect": "627/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "action"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            }
-          ]
+          "aspect": "627/412"
         },
         {
           "title": "Lo primero que vi",
@@ -13443,21 +10593,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-2.png",
-          "aspect": "619/412",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            },
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "619/412"
         },
         {
           "title": "El sentimiento que imaginé",
@@ -13480,17 +10616,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-3.png",
-          "aspect": "627/400",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "eye"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "aspect": "627/400"
         },
         {
           "title": "Volver a mirar",
@@ -13513,8 +10639,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-4.png",
-          "aspect": "619/400",
-          "textKeys": []
+          "aspect": "619/400"
         },
         {
           "title": "Un sentimiento dicho en voz alta",
@@ -13544,13 +10669,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-5.png",
-          "aspect": "627/430",
-          "textKeys": [
-            {
-              "sentence": 0,
-              "kind": "ear"
-            }
-          ]
+          "aspect": "627/430"
         },
         {
           "title": "Un pequeño cambio de mirada",
@@ -13573,17 +10692,7 @@ window.heartBookLocales = {
             }
           ],
           "image": "./images/shop-camera-0-scene-6.png",
-          "aspect": "619/430",
-          "textKeys": [
-            {
-              "sentence": 1,
-              "kind": "action"
-            },
-            {
-              "sentence": 2,
-              "kind": "action"
-            }
-          ]
+          "aspect": "619/430"
         }
       ],
       "activities": [
@@ -13613,13 +10722,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-1.png",
-              "aspect": "622/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/400"
             },
             {
               "title": "Lo primero que vi",
@@ -13649,13 +10752,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-2.png",
-              "aspect": "624/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/400"
             },
             {
               "title": "El sentimiento que imaginé",
@@ -13678,13 +10775,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-3.png",
-              "aspect": "622/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "622/400"
             },
             {
               "title": "Volver a mirar",
@@ -13707,13 +10798,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-4.png",
-              "aspect": "624/400",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "624/400"
             },
             {
               "title": "Un sentimiento dicho en voz alta",
@@ -13743,13 +10828,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-5.png",
-              "aspect": "622/442",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "622/442"
             },
             {
               "title": "Un pequeño cambio de mirada",
@@ -13779,17 +10858,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-1-scene-6.png",
-              "aspect": "624/442",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "ear"
-                }
-              ]
+              "aspect": "624/442"
             }
           ]
         },
@@ -13819,21 +10888,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-1.png",
-              "aspect": "625/411",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 2,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/411"
             },
             {
               "title": "Lo primero que vi",
@@ -13856,8 +10911,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-2.png",
-              "aspect": "621/411",
-              "textKeys": []
+              "aspect": "621/411"
             },
             {
               "title": "El sentimiento que imaginé",
@@ -13880,13 +10934,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-3.png",
-              "aspect": "625/413",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "625/413"
             },
             {
               "title": "Volver a mirar",
@@ -13909,17 +10957,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-4.png",
-              "aspect": "621/413",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                },
-                {
-                  "sentence": 1,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "621/413"
             },
             {
               "title": "Un sentimiento dicho en voz alta",
@@ -13949,8 +10987,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-5.png",
-              "aspect": "625/418",
-              "textKeys": []
+              "aspect": "625/418"
             },
             {
               "title": "Un pequeño cambio de mirada",
@@ -13973,13 +11010,7 @@ window.heartBookLocales = {
                 }
               ],
               "image": "./images/shop-camera-2-scene-6.png",
-              "aspect": "621/418",
-              "textKeys": [
-                {
-                  "sentence": 0,
-                  "kind": "action"
-                }
-              ]
+              "aspect": "621/418"
             }
           ]
         }

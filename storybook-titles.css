@@ -22,3 +22,8 @@ body .simple-menu-dialog:has(nav){width:min(460px,calc(100% - 24px))}
 body .key-help-button,body .paths button,body .experience-tabs button,body .book-paths strong{font-family:'Hi Melody','Nunito','Malgun Gothic',sans-serif!important;font-weight:400!important;letter-spacing:0!important}
 body .key-help-button{font-size:21px;line-height:1.5}
 body .paths button,body .experience-tabs button{font-size:23px;line-height:1.5}
+body .navigation-lettering,body .navigation-lettering span,body .navigation-lettering strong,body .navigation-lettering small,body .navigation-lettering b,body .menu-group-heading,body .standalone-menu-category{font-family:'Hi Melody','Nunito','Malgun Gothic',sans-serif!important;font-weight:400!important;letter-spacing:0!important}
+body .reader-header a,body .back-link,body .text-button{font-size:20px;line-height:1.6}
+body .turn button.navigation-lettering{font-size:21px}
+body .tale-open,body .entrance-card small.navigation-lettering{font-size:18px}
+@media(max-width:650px){body .reader-header a,body .back-link,body .text-button{font-size:18px}body .turn button.navigation-lettering{font-size:19px}}
