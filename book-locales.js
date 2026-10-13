@@ -552,7 +552,7 @@ window.heartBookLocales = {
             },
             {
               "title": "A warm bag in my hands",
-              "text": "I handed over the bread bag. The children smiled at each other. Giving them time helped their words come out.",
+              "text": "I handed the bag of bread into the child’s small hands. The two children smiled at each other. When I gave them time, each child found the words they wanted to say. Their gentle efforts to share their feelings warmed my heart.",
               "viewpoint": "The baker",
               "panel": 5,
               "clues": [
@@ -6068,7 +6068,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Una bolsa tibia en mis manos",
-              "text": "Le entregué la bolsa de pan. Los niños se sonrieron. Darles tiempo les ayudó a decir lo que pensaban.",
+              "text": "Entregué la bolsa de pan en las pequeñas manos de la niña. Los dos niños se sonrieron. Al darles tiempo, cada uno encontró las palabras que quería decir. Me enterneció ver cómo intentaban expresar lo que sentían, aunque les costara un poco.",
               "viewpoint": "La panadera",
               "panel": 5,
               "clues": [
