@@ -3107,28 +3107,28 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has upturned mouth corners.",
-                "x": 44,
-                "y": 40,
+                "x": 75.8,
+                "y": 48.7,
                 "type": "expression",
                 "reflection": "What might have made this person happy?"
               },
               {
                 "kind": "🔑 Heart key",
                 "message": "Luca holds the yellow ball still.",
-                "x": 66,
-                "y": 51,
+                "x": 21.9,
+                "y": 58.5,
                 "type": "action",
                 "reflection": "Could there be something to wait for besides the ball?"
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-guide-fixed-lens.png",
-            "aspect": 2.2853,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.2670623145400595,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.5443,
-              "h": 32.5195
+              "x": 0,
+              "y": 0,
+              "w": 49.73958333333333,
+              "h": 32.91015625
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3141,28 +3141,28 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has a slightly open mouth.",
-                "x": 46,
-                "y": 45,
+                "x": 79.6,
+                "y": 49.5,
                 "type": "expression",
                 "reflection": "What might this person want to say?"
               },
               {
                 "kind": "🔑 Heart key",
                 "message": "Luca holds the yellow ball still.",
-                "x": 74,
-                "y": 52,
+                "x": 22.3,
+                "y": 60.8,
                 "type": "action",
                 "reflection": "Could there be something to wait for besides the ball?"
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-guide-fixed-lens.png",
-            "aspect": 2.2913,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.2670623145400595,
             "crop": {
-              "x": 50.1302,
-              "y": 0.293,
-              "w": 49.6745,
-              "h": 32.5195
+              "x": 50.260416666666664,
+              "y": 0,
+              "w": 49.73958333333333,
+              "h": 32.91015625
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3175,28 +3175,28 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has downturned mouth corners.",
-                "x": 45,
-                "y": 46,
+                "x": 76.6,
+                "y": 49.9,
                 "type": "expression",
                 "reflection": "Could there be a story we have not heard yet?"
               },
               {
                 "kind": "🔑 Heart key",
                 "message": "Luca holds the yellow ball still.",
-                "x": 74,
-                "y": 54,
+                "x": 23.2,
+                "y": 60.5,
                 "type": "action",
                 "reflection": "Could there be something to wait for besides the ball?"
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-guide-fixed-lens.png",
-            "aspect": 2.2582,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
-              "x": 0.1953,
-              "y": 33.3984,
-              "w": 49.5443,
-              "h": 32.9102
+              "x": 0,
+              "y": 33.69140625,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3209,31 +3209,31 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Luca has a slightly open mouth.",
-                "x": 42.4,
-                "y": 34.2,
+                "x": 21.1,
+                "y": 45.5,
                 "type": "expression",
                 "reflection": "What might this person want to say?"
               },
               {
                 "kind": "🔑 Heart key",
                 "message": "Luca has an open palm.",
-                "x": 50,
-                "y": 40,
+                "x": 29.7,
+                "y": 56,
                 "type": "action",
                 "reflection": "Could this person want to explain a thought?"
               }
             ],
-            "panel": 0,
-            "atlas": "./images/ball-guide-scene4-final-lens.png",
-            "aspect": 1.5,
+            "panel": 3,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
-              "x": 0,
-              "y": 0,
-              "w": 100,
-              "h": 100
+              "x": 50.260416666666664,
+              "y": 33.69140625,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
-            "atlasRows": 1,
-            "atlasCols": 1
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -3243,31 +3243,31 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has upturned mouth corners.",
-                "x": 73,
-                "y": 35.8,
+                "x": 78.5,
+                "y": 41.3,
                 "type": "expression",
                 "reflection": "What might have made this person happy?"
               },
               {
                 "kind": "🔑 Heart key",
                 "message": "The yellow ball is on the grass in front of the dogs.",
-                "x": 46.3,
-                "y": 67.5,
+                "x": 50.3,
+                "y": 62.6,
                 "type": "action",
                 "reflection": "Could they be getting ready to play together at their own pace?"
               }
             ],
-            "panel": 0,
-            "atlas": "./images/ball-guide-scene5-final-lens.png",
-            "aspect": 1.5,
+            "panel": 4,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
               "x": 0,
-              "y": 0,
-              "w": 100,
-              "h": 100
+              "y": 67.3828125,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
-            "atlasRows": 1,
-            "atlasCols": 1
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -3277,42 +3277,42 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has upturned mouth corners.",
-                "x": 70.7,
-                "y": 36.1,
+                "x": 75.5,
+                "y": 45.2,
                 "type": "expression",
                 "reflection": "What might have made this person happy?"
               },
               {
                 "kind": "🔑 Heart key",
                 "message": "Both dogs point their noses toward the same ball.",
-                "x": 53.8,
-                "y": 73.2,
+                "x": 50.1,
+                "y": 61.4,
                 "type": "action",
                 "reflection": "Could the dogs be exploring the ball together now?"
               }
             ],
-            "panel": 0,
-            "atlas": "./images/ball-guide-scene6-final-lens.png",
-            "aspect": 1.5,
+            "panel": 5,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
-              "x": 0,
-              "y": 0,
-              "w": 100,
-              "h": 100
+              "x": 50.260416666666664,
+              "y": 67.3828125,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
-            "atlasRows": 1,
-            "atlasCols": 1
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/ball-guide-fixed-lens.png",
+        "atlas": "./images/ball-guide-close-position-v2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": 2.2853,
+        "aspect": 2.2670623145400595,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 49.5443,
-          "h": 32.5195
+          "x": 0,
+          "y": 0,
+          "w": 49.73958333333333,
+          "h": 32.91015625
         }
       }
     ],

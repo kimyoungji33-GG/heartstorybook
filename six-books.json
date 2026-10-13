@@ -3268,28 +3268,28 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 44,
-                "y": 40,
+                "x": 75.8,
+                "y": 48.7,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
-                "x": 66,
-                "y": 51,
+                "x": 21.9,
+                "y": 58.5,
                 "type": "action",
                 "reflection": "공 말고 기다리는 것이 있을까요?"
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-guide-fixed-lens.png",
-            "aspect": 2.2853,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.2670623145400595,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.5443,
-              "h": 32.5195
+              "x": 0,
+              "y": 0,
+              "w": 49.73958333333333,
+              "h": 32.91015625
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3302,28 +3302,28 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입이 살짝 벌어져 있어요.",
-                "x": 46,
-                "y": 45,
+                "x": 79.6,
+                "y": 49.5,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
-                "x": 74,
-                "y": 52,
+                "x": 22.3,
+                "y": 60.8,
                 "type": "action",
                 "reflection": "공 말고 기다리는 것이 있을까요?"
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-guide-fixed-lens.png",
-            "aspect": 2.2913,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.2670623145400595,
             "crop": {
-              "x": 50.1302,
-              "y": 0.293,
-              "w": 49.6745,
-              "h": 32.5195
+              "x": 50.260416666666664,
+              "y": 0,
+              "w": 49.73958333333333,
+              "h": 32.91015625
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3336,28 +3336,28 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 내려가 있어요.",
-                "x": 45,
-                "y": 46,
+                "x": 76.6,
+                "y": 49.9,
                 "type": "expression",
                 "reflection": "아직 듣지 못한 이야기가 있을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
-                "x": 74,
-                "y": 54,
+                "x": 23.2,
+                "y": 60.5,
                 "type": "action",
                 "reflection": "공 말고 기다리는 것이 있을까요?"
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-guide-fixed-lens.png",
-            "aspect": 2.2582,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
-              "x": 0.1953,
-              "y": 33.3984,
-              "w": 49.5443,
-              "h": 32.9102
+              "x": 0,
+              "y": 33.69140625,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3370,31 +3370,31 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "루카의 입이 살짝 벌어져 있어요.",
-                "x": 42.4,
-                "y": 34.2,
+                "x": 21.1,
+                "y": 45.5,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "루카의 손바닥이 펴져 있어요.",
-                "x": 50,
-                "y": 40,
+                "x": 29.7,
+                "y": 56,
                 "type": "action",
                 "reflection": "자기 생각을 설명하고 싶은 걸까요?"
               }
             ],
-            "panel": 0,
-            "atlas": "./images/ball-guide-scene4-final-lens.png",
-            "aspect": 1.5,
+            "panel": 3,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
-              "x": 0,
-              "y": 0,
-              "w": 100,
-              "h": 100
+              "x": 50.260416666666664,
+              "y": 33.69140625,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
-            "atlasRows": 1,
-            "atlasCols": 1
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "새로 보이는 마음",
@@ -3404,31 +3404,31 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 73,
-                "y": 35.8,
+                "x": 78.5,
+                "y": 41.3,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노란 공이 두 강아지 앞의 풀밭에 놓였어요.",
-                "x": 46.3,
-                "y": 67.5,
+                "x": 50.3,
+                "y": 62.6,
                 "type": "action",
                 "reflection": "함께 놀 준비를 천천히 하는 걸까요?"
               }
             ],
-            "panel": 0,
-            "atlas": "./images/ball-guide-scene5-final-lens.png",
-            "aspect": 1.5,
+            "panel": 4,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
               "x": 0,
-              "y": 0,
-              "w": 100,
-              "h": 100
+              "y": 67.3828125,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
-            "atlasRows": 1,
-            "atlasCols": 1
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -3438,42 +3438,42 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 70.7,
-                "y": 36.1,
+                "x": 75.5,
+                "y": 45.2,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "두 강아지의 코가 같은 공을 향해 있어요.",
-                "x": 53.8,
-                "y": 73.2,
+                "x": 50.1,
+                "y": 61.4,
                 "type": "action",
                 "reflection": "이제 같이 공을 살펴보는 걸까요?"
               }
             ],
-            "panel": 0,
-            "atlas": "./images/ball-guide-scene6-final-lens.png",
-            "aspect": 1.5,
+            "panel": 5,
+            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "aspect": 2.287425149700599,
             "crop": {
-              "x": 0,
-              "y": 0,
-              "w": 100,
-              "h": 100
+              "x": 50.260416666666664,
+              "y": 67.3828125,
+              "w": 49.73958333333333,
+              "h": 32.6171875
             },
-            "atlasRows": 1,
-            "atlasCols": 1
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/ball-guide-fixed-lens.png",
+        "atlas": "./images/ball-guide-close-position-v2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": 2.2853,
+        "aspect": 2.2670623145400595,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 49.5443,
-          "h": 32.5195
+          "x": 0,
+          "y": 0,
+          "w": 49.73958333333333,
+          "h": 32.91015625
         }
       }
     ],
