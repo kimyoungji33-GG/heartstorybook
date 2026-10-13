@@ -433,7 +433,7 @@
           },
           {
             "title": "¿Qué pan elijo?",
-            "text": "Señalé un pan para ayudar. Al verla callada pensé que quizá contaba sus monedas. Mi gesto podía parecerle distinto.",
+            "text": "Señalé un pan para mostrar cuál era blandito. Jiwoo se quedó callada, así que esperé. Me pregunté si mi gesto le había parecido una invitación a elegir deprisa. Quise preguntarle si quería saber algo.",
             "viewpoint": "La panadera",
             "panel": 1,
             "clues": [
@@ -585,521 +585,6 @@
           "w": 49.6745,
           "h": 31.8359
         }
-      }
-    ]
-  },
-  {
-    "id": "bread",
-    "title": "El corazón detrás del pan",
-    "place": "Panadería",
-    "narrator": "Seoyeon",
-    "roles": [
-      "Seoyeon",
-      "Hajun",
-      "El panadero"
-    ],
-    "scenes": [
-      {
-        "title": "El pan me da la bienvenida",
-        "text": "Esperé mi turno en la Panadería del Corazón. El olor a pan me hizo sonreír. El panadero entregó una bolsa a la persona que iba delante y me saludó con la cabeza. Con mi bolsa de compras en la mano, pensé qué pan elegir.",
-        "viewpoint": "Seoyeon",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Seoyeon sonríe un poco.",
-            "x": 80,
-            "y": 34
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "El panadero entrega el pan por orden de llegada.",
-            "x": 34,
-            "y": 45
-          }
-        ],
-        "image": "./images/bakery-1.png"
-      },
-      {
-        "title": "La puerta se abre y me sorprendo",
-        "text": "La puerta se abrió de golpe y entró Hajun con una chaqueta azul. Se puso delante de mí y dijo deprisa: «¡Dos panecillos, por favor!». Tenía sudor en la frente. Abrí mucho los ojos y apreté las asas de mi bolsa.",
-        "viewpoint": "Seoyeon",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hajun tiene sudor en la frente. Quizá llegó deprisa.",
-            "x": 51,
-            "y": 27
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: ¡Dos panecillos, por favor!",
-            "x": 43,
-            "y": 46
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hajun se puso delante de Seoyeon, que esperaba.",
-            "x": 64,
-            "y": 78
-          }
-        ],
-        "image": "./images/bakery-2.png"
-      },
-      {
-        "title": "Era mi turno",
-        "text": "Era mi turno, pero Hajun pidió primero y me enfadé. Junté las cejas y apreté los labios. ¿No importaba que yo hubiera esperado? Me sentí dolida, pero aún no sabía por qué tenía tanta prisa.",
-        "viewpoint": "Seoyeon",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Seoyeon junta las cejas y aprieta los labios.",
-            "x": 80,
-            "y": 36
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Seoyeon aprieta más las asas.",
-            "x": 79,
-            "y": 63
-          }
-        ],
-        "image": "./images/bakery-3.png"
-      },
-      {
-        "title": "Una espera tranquila",
-        "text": "El panadero escuchó a Hajun, pero envolvió primero mi pan en silencio. Me miró y asintió. Sentí que había notado que yo estaba esperando. Todavía no había escuchado por qué Hajun tenía prisa.",
-        "viewpoint": "Seoyeon",
-        "clues": [
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: El panadero escuchó a Hajun, pero envolvió primero mi pan en silencio. Me miró y asintió. Sentí que había notado que yo estaba esperando. Todavía no había escuchado por qué Hajun tenía prisa.",
-            "x": 62,
-            "y": 33
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "El panadero envuelve primero el pan de Seoyeon porque estaba esperando.",
-            "x": 58,
-            "y": 63
-          },
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "El panadero mira a Seoyeon y asiente. Quizá también nota que ella esperaba.",
-            "x": 52,
-            "y": 35
-          }
-        ],
-        "image": "./images/bakery-4.png"
-      },
-      {
-        "title": "Las palabras abren una puerta",
-        "text": "Hajun extendió las dos manos para recibir la bolsa con cuidado, pero me vio y se detuvo. «Mis padres me esperan. Quería llevarles el pan todavía calentito», dijo. Imaginé sus ganas de compartirlo. «Entiendo, aunque yo estaba esperando primero», respondí con calma.",
-        "viewpoint": "Seoyeon",
-        "clues": [
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hajun sujeta con cuidado la bolsa con ambas manos. ¿Quiere llevarla con cariño?",
-            "x": 35,
-            "y": 62
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: Mis padres me esperan. Quería llevarles el pan todavía calentito",
-            "x": 37,
-            "y": 37
-          },
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Seoyeon relaja un poco las cejas y se vuelve hacia Hajun.",
-            "x": 75,
-            "y": 36
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "message": "Palabras del cuento: Mis padres me esperan. Quería llevarles el pan todavía calentito",
-            "x": 35,
-            "y": 77,
-            "location": "Observa el lugar señalado en la imagen."
-          }
-        ],
-        "image": "./images/bakery-5.png"
-      },
-      {
-        "title": "Una despedida más cálida",
-        "text": "Hajun dio un paso atrás en la fila y dijo: «Tú estabas primero. Lo siento». «Gracias por contármelo», respondí sonriendo. Cuando le tocó recibir su pan, también dio las gracias al panadero. Después de escucharnos, la panadería parecía más cálida.",
-        "viewpoint": "Seoyeon",
-        "clues": [
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hajun inclina un poco la cabeza y el cuerpo. Quizá así expresa disculpas y agradecimiento.",
-            "x": 28,
-            "y": 38
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: Tú estabas primero. Lo siento",
-            "x": 35,
-            "y": 33
-          },
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Los tres sonríen y relajan los hombros.",
-            "x": 80,
-            "y": 37
-          }
-        ],
-        "image": "./images/bakery-6.png"
-      }
-    ],
-    "activities": [
-      {
-        "role": "Hajun",
-        "image": "./images/bakery-hajun-scene-3.png",
-        "text": "Había prometido llevar pan a mis padres. Caminé más deprisa pensando que les gustaría recibirlo calentito.",
-        "scenes": [
-          {
-            "title": "El pan me da la bienvenida",
-            "text": "Había prometido llevar pan a mis padres. Caminé más deprisa pensando que les gustaría recibirlo calentito.",
-            "viewpoint": "Hajun",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon mira el pan. ¿Estará eligiendo cuál comprar?",
-                "x": 81,
-                "y": 40,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Seoyeon está junto al pan con su bolsa. Esperaba antes que yo.",
-                "x": 81,
-                "y": 70,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-hajun-scene-1.png",
-            "aspect": "625/415"
-          },
-          {
-            "title": "La puerta se abre y me sorprendo",
-            "text": "Al abrir la puerta, lo primero que vi fue el pan. Solo después de pedir deprisa noté que alguien estaba esperando detrás de mí.",
-            "viewpoint": "Hajun",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon abre mucho los ojos y un poco la boca. ¿La sorprendió que me pusiera delante?",
-                "x": 81,
-                "y": 42,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Mi manga azul apunta al pan. Lo miré antes de fijarme en las personas a mi alrededor.",
-                "x": 53,
-                "y": 65,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-hajun-scene-2.png",
-            "aspect": "626/415"
-          },
-          {
-            "title": "Era mi turno",
-            "text": "Seoyeon tenía los labios apretados. Yo solo había pensado en mi prisa y no había respetado su turno. Ahora me daba cuenta.",
-            "viewpoint": "Hajun",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon junta las cejas y deja de sonreír. Yo tenía prisa, pero ella quizá se siente dolida.",
-                "x": 81,
-                "y": 39,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Seoyeon aprieta las asas. ¿No noté cómo se sentía al esperar?",
-                "x": 81,
-                "y": 63,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-hajun-scene-3.png",
-            "aspect": "625/404"
-          },
-          {
-            "title": "Una espera tranquila",
-            "text": "El panadero envolvió primero el pan de Seoyeon porque había llegado antes. Di un paso atrás y esperé. Mi prisa no hacía desaparecer el turno de otra persona.",
-            "viewpoint": "Hajun",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "El panadero mira el pan que envuelve. ¿Lo cuida sin apresurarse?",
-                "x": 42,
-                "y": 32,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Envuelve primero el pan de Seoyeon. Su turno también importa cuando tengo prisa.",
-                "x": 42,
-                "y": 63,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-hajun-scene-4.png",
-            "aspect": "626/404"
-          },
-          {
-            "title": "Las palabras abren una puerta",
-            "text": "«Tenía prisa porque quería llevar pan calentito a mis padres», dije. Pensé cómo me habría visto Seoyeon, que no conocía mi motivo.",
-            "viewpoint": "Hajun",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon relaja un poco las cejas. ¿Escuchar mi historia cambió su pensamiento?",
-                "x": 79,
-                "y": 36,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Abro la mano al contar lo que siento. Ahora hago algo más que mirar el pan.",
-                "x": 56,
-                "y": 64,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "message": "Palabras del cuento: Tenía prisa porque quería llevar pan calentito a mis padres",
-                "x": 22,
-                "y": 40,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-hajun-scene-5.png",
-            "aspect": "625/432"
-          },
-          {
-            "title": "Una despedida más cálida",
-            "text": "«Estabas esperando primero. Lo siento», dije. Agradecí que Seoyeon me escuchara. La próxima vez quiero mirar la fila y decir algo antes.",
-            "viewpoint": "Hajun",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon y el panadero sonríen. ¿Escucharse les ayudó a estar más a gusto?",
-                "x": 84,
-                "y": 39,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Inclino un poco la cabeza. Puedo explicar mi prisa y también disculparme.",
-                "x": 24,
-                "y": 40,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "message": "Palabras del cuento: Estabas esperando primero. Lo siento",
-                "x": 20,
-                "y": 50,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-hajun-scene-6.png",
-            "aspect": "626/432"
-          }
-        ]
-      },
-      {
-        "role": "El panadero",
-        "image": "./images/bakery-owner-scene-3.png",
-        "text": "Empecé el día con calma, ayudando a Seoyeon a elegir su pan. Quería que las personas pudieran elegir sin sentirse apuradas.",
-        "scenes": [
-          {
-            "title": "El pan me da la bienvenida",
-            "text": "Empecé el día con calma, ayudando a Seoyeon a elegir su pan. Quería que las personas pudieran elegir sin sentirse apuradas.",
-            "viewpoint": "El panadero",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon me mira. ¿Espera para pedir?",
-                "x": 76,
-                "y": 36,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "La bolsa de Seoyeon está cerca de su mano. Está lista para llevarse el pan.",
-                "x": 77,
-                "y": 65,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-owner-scene-1.png",
-            "aspect": "625/415"
-          },
-          {
-            "title": "La puerta se abre y me sorprendo",
-            "text": "Hajun entró deprisa y pidió pan. Ya me había contado que quería llevárselo a sus padres, pero también tenía que respetar el turno de Seoyeon.",
-            "viewpoint": "El panadero",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Hajun abre mucho los ojos y tiene un poco de sudor en la frente. ¿Entró deprisa?",
-                "x": 42,
-                "y": 29,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Hajun extiende la mano hacia el pan. Quizá no vio que Seoyeon esperaba primero.",
-                "x": 36,
-                "y": 57,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-owner-scene-2.png",
-            "aspect": "626/415"
-          },
-          {
-            "title": "Era mi turno",
-            "text": "Seoyeon apretó los labios y Hajun recuperó el aliento. Quizá ella se sentía dolida y él tenía prisa. No quería decidir por ellos lo que sentían.",
-            "viewpoint": "El panadero",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Hajun habla deprisa y Seoyeon aprieta los labios. Quizá no sienten lo mismo.",
-                "x": 42,
-                "y": 34,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Seoyeon aprieta su bolsa. Podemos fijarnos en su espera aunque no hable.",
-                "x": 74,
-                "y": 66,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-owner-scene-3.png",
-            "aspect": "625/414"
-          },
-          {
-            "title": "Una espera tranquila",
-            "text": "Envolví primero el pan de Seoyeon en silencio. En vez de contar yo la historia privada de Hajun, quería darle tiempo para hablar por sí mismo.",
-            "viewpoint": "El panadero",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Hajun baja las manos y Seoyeon espera en silencio. Podemos mirar ambas caras sin prisa.",
-                "x": 38,
-                "y": 28,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Mis manos envuelven el pan de Seoyeon. Puedo comprender la prisa y respetar a quien llegó primero.",
-                "x": 44,
-                "y": 68,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-owner-scene-4.png",
-            "aspect": "626/414"
-          },
-          {
-            "title": "Las palabras abren una puerta",
-            "text": "Hajun explicó por qué tenía prisa. Las cejas de Seoyeon se relajaron un poco. Parecía que ahora había espacio para escucharse.",
-            "viewpoint": "El panadero",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Seoyeon se vuelve hacia Hajun. Ahora escucha sus palabras.",
-                "x": 76,
-                "y": 35,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Hajun se pone la mano en el pecho y explica. Esperé a que hablara por sí mismo.",
-                "x": 45,
-                "y": 58,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "message": "Palabras del cuento: Hajun explicó por qué tenía prisa. Las cejas de Seoyeon se relajaron un poco. Parecía que ahora había espacio para escucharse.",
-                "x": 43,
-                "y": 40,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-owner-scene-5.png",
-            "aspect": "625/417"
-          },
-          {
-            "title": "Una despedida más cálida",
-            "text": "Hajun se disculpó y esperó su turno. Seoyeon sonrió al responder. Podíamos comprender los sentimientos y respetar la fila al mismo tiempo.",
-            "viewpoint": "El panadero",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "message": "Hajun y Seoyeon sonríen. ¿Qué cambió desde sus primeras caras?",
-                "x": 79,
-                "y": 39,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "message": "Hajun inclina la cabeza y espera su turno. Comprender sentimientos puede ir junto a respetar la fila.",
-                "x": 44,
-                "y": 40,
-                "location": "Observa el lugar señalado en la imagen."
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "message": "Palabras del cuento: Hajun se disculpó y esperó su turno. Seoyeon sonrió al responder. Podíamos comprender los sentimientos y respetar la fila al mismo tiempo.",
-                "x": 45,
-                "y": 50,
-                "location": "Observa el lugar señalado en la imagen."
-              }
-            ],
-            "image": "./images/bakery-owner-scene-6.png",
-            "aspect": "626/417"
-          }
-        ]
-      }
-    ],
-    "audience": "adult",
-    "characters": [
-      {
-        "name": "Seoyeon",
-        "age": null
-      },
-      {
-        "name": "Hajun",
-        "age": null
-      },
-      {
-        "name": "El panadero",
-        "age": null
       }
     ]
   },
@@ -1712,24 +1197,24 @@
           {
             "kind": "👀 눈 열쇠",
             "message": "Las comisuras de una boca suben un poco.",
-            "x": 27,
-            "y": 55
+            "x": 28,
+            "y": 46
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Hay un trocito de pan entre los dos.",
-            "x": 50,
-            "y": 83
+            "x": 51,
+            "y": 82
           }
         ],
         "panel": 0,
         "atlas": "./images/plate-view-0.png",
-        "aspect": "621/409",
+        "aspect": 1.5221,
         "crop": {
           "x": 0.2392,
           "y": 0.2392,
           "w": 49.5215,
-          "h": 32.6156
+          "h": 32.5359
         }
       },
       {
@@ -1740,24 +1225,24 @@
           {
             "kind": "👀 눈 열쇠",
             "message": "Abre los ojos o inclina la cabeza para mirar.",
-            "x": 74,
-            "y": 49
+            "x": 73,
+            "y": 45
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Una mano acerca el plato.",
-            "x": 54,
-            "y": 83
+            "x": 49,
+            "y": 78
           }
         ],
         "panel": 1,
         "atlas": "./images/plate-view-0.png",
-        "aspect": "621/409",
+        "aspect": 1.5221,
         "crop": {
           "x": 50.2392,
           "y": 0.2392,
           "w": 49.5215,
-          "h": 32.6156
+          "h": 32.5359
         }
       },
       {
@@ -1768,22 +1253,22 @@
           {
             "kind": "👀 눈 열쇠",
             "message": "Cierra los labios y encoge los hombros.",
-            "x": 30,
-            "y": 47
+            "x": 28,
+            "y": 45
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Hay manos cerca del pecho y del plato.",
-            "x": 57,
-            "y": 84
+            "x": 30,
+            "y": 65
           }
         ],
         "panel": 2,
         "atlas": "./images/plate-view-0.png",
-        "aspect": "621/408",
+        "aspect": 1.5221,
         "crop": {
           "x": 0.2392,
-          "y": 33.3333,
+          "y": 33.2536,
           "w": 49.5215,
           "h": 32.5359
         }
@@ -1796,22 +1281,22 @@
           {
             "kind": "👀 눈 열쇠",
             "message": "Vuelve el rostro hacia la otra persona para escuchar.",
-            "x": 28,
-            "y": 49
+            "x": 27,
+            "y": 43
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Alguien habla con las manos abiertas.",
-            "x": 57,
-            "y": 84
+            "x": 70,
+            "y": 67
           }
         ],
         "panel": 3,
         "atlas": "./images/plate-view-0.png",
-        "aspect": "621/408",
+        "aspect": 1.5221,
         "crop": {
           "x": 50.2392,
-          "y": 33.3333,
+          "y": 33.2536,
           "w": 49.5215,
           "h": 32.5359
         }
@@ -1824,30 +1309,30 @@
           {
             "kind": "👀 눈 열쇠",
             "message": "Los rostros se relajan al mirarse.",
-            "x": 30,
-            "y": 48
+            "x": 73,
+            "y": 42
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Se señalan con suavidad mientras hablan.",
-            "x": 52,
-            "y": 80
+            "x": 55,
+            "y": 78
           },
           {
             "kind": "👂 귀 열쇠",
             "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
-            "x": 38,
-            "y": 62
+            "x": 80,
+            "y": 56
           }
         ],
         "panel": 4,
         "atlas": "./images/plate-view-0.png",
-        "aspect": "621/419",
+        "aspect": 1.4786,
         "crop": {
           "x": 0.2392,
-          "y": 66.3477,
+          "y": 66.2679,
           "w": 49.5215,
-          "h": 33.4131
+          "h": 33.4928
         }
       },
       {
@@ -1859,23 +1344,23 @@
             "kind": "👀 눈 열쇠",
             "message": "Sonríen y los hombros se relajan.",
             "x": 73,
-            "y": 51
+            "y": 43
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Han dividido el pan en trocitos.",
             "x": 51,
-            "y": 84
+            "y": 82
           }
         ],
         "panel": 5,
         "atlas": "./images/plate-view-0.png",
-        "aspect": "621/419",
+        "aspect": 1.4786,
         "crop": {
           "x": 50.2392,
-          "y": 66.3477,
+          "y": 66.2679,
           "w": 49.5215,
-          "h": 33.4131
+          "h": 33.4928
         }
       }
     ],
@@ -1893,19 +1378,19 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Las comisuras de una boca suben un poco.",
-                "x": 72,
-                "y": 45
+                "x": 75,
+                "y": 44
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Hay un trocito de pan entre los dos.",
                 "x": 57,
-                "y": 79
+                "y": 80
               }
             ],
             "panel": 0,
             "atlas": "./images/plate-view-1.png",
-            "aspect": "621/408",
+            "aspect": 1.5221,
             "crop": {
               "x": 0.2392,
               "y": 0.2392,
@@ -1921,19 +1406,19 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 71,
-                "y": 44
+                "x": 73,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Una mano acerca el plato.",
                 "x": 53,
-                "y": 82
+                "y": 80
               }
             ],
             "panel": 1,
             "atlas": "./images/plate-view-1.png",
-            "aspect": "621/408",
+            "aspect": 1.5221,
             "crop": {
               "x": 50.2392,
               "y": 0.2392,
@@ -1950,23 +1435,23 @@
                 "kind": "👀 눈 열쇠",
                 "message": "Cierra los labios y encoge los hombros.",
                 "x": 72,
-                "y": 48
+                "y": 46
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Hay manos cerca del pecho y del plato.",
                 "x": 53,
-                "y": 86
+                "y": 85
               }
             ],
             "panel": 2,
             "atlas": "./images/plate-view-1.png",
-            "aspect": "621/407",
+            "aspect": 1.5296,
             "crop": {
               "x": 0.2392,
               "y": 33.2536,
               "w": 49.5215,
-              "h": 32.4561
+              "h": 32.3764
             }
           },
           {
@@ -1977,24 +1462,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Vuelve el rostro hacia la otra persona para escuchar.",
-                "x": 75,
-                "y": 50
+                "x": 74,
+                "y": 45
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Alguien habla con las manos abiertas.",
                 "x": 60,
-                "y": 87
+                "y": 83
               }
             ],
             "panel": 3,
             "atlas": "./images/plate-view-1.png",
-            "aspect": "621/407",
+            "aspect": 1.5296,
             "crop": {
               "x": 50.2392,
               "y": 33.2536,
               "w": 49.5215,
-              "h": 32.4561
+              "h": 32.3764
             }
           },
           {
@@ -2005,30 +1490,30 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Los rostros se relajan al mirarse.",
-                "x": 70,
-                "y": 50
+                "x": 74,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Se señalan con suavidad mientras hablan.",
-                "x": 52,
-                "y": 88
+                "x": 54,
+                "y": 82
               },
               {
                 "kind": "👂 귀 열쇠",
                 "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
-                "x": 78,
-                "y": 64
+                "x": 81,
+                "y": 57
               }
             ],
             "panel": 4,
             "atlas": "./images/plate-view-1.png",
-            "aspect": "621/421",
+            "aspect": 1.4716,
             "crop": {
               "x": 0.2392,
-              "y": 66.1882,
+              "y": 66.1085,
               "w": 49.5215,
-              "h": 33.5726
+              "h": 33.6523
             }
           },
           {
@@ -2039,24 +1524,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Sonríen y los hombros se relajan.",
-                "x": 75,
-                "y": 47
+                "x": 74,
+                "y": 44
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Han dividido el pan en trocitos.",
-                "x": 62,
-                "y": 77
+                "x": 60,
+                "y": 80
               }
             ],
             "panel": 5,
             "atlas": "./images/plate-view-1.png",
-            "aspect": "621/421",
+            "aspect": 1.4716,
             "crop": {
               "x": 50.2392,
-              "y": 66.1882,
+              "y": 66.1085,
               "w": 49.5215,
-              "h": 33.5726
+              "h": 33.6523
             }
           }
         ],
@@ -2084,142 +1569,137 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Las comisuras de una boca suben un poco.",
-                "x": 75,
-                "y": 52
+                "x": 77,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Hay un trocito de pan entre los dos.",
-                "x": 64,
-                "y": 83
+                "x": 62,
+                "y": 81
               }
             ],
             "panel": 0,
             "atlas": "./images/plate-view-2.png",
-            "aspect": "763/335",
+            "aspect": 2.2746,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6745,
+              "w": 49.6094,
               "h": 32.7148
             }
           },
           {
             "title": "¿Qué significa eso?",
-            "text": "Uno empujó el plato y la otra detuvo la mano. Un gesto de «tú primero» podía guardar más de un sentimiento.",
+            "text": "Noah acercó el plato a Sofia. Su mano se detuvo delante del pan. Me pregunté por qué no cogía un trozo.",
             "viewpoint": "La dueña del restaurante",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 49,
-                "y": 47
+                "x": 48,
+                "y": 42
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Una mano acerca el plato.",
-                "x": 63,
-                "y": 82
+                "x": 62,
+                "y": 80
               }
             ],
             "panel": 1,
             "atlas": "./images/plate-view-2.png",
-            "aspect": "761/335",
+            "aspect": 2.2746,
             "crop": {
-              "x": 50.2604,
+              "x": 50.1953,
               "y": 0.293,
-              "w": 49.5443,
+              "w": 49.6094,
               "h": 32.7148
             }
           },
           {
             "title": "Lo que imaginé al principio",
-            "text": "Sus hombros parecían tensos. Quería escuchar antes de decidir que alguien había hecho algo mal.",
+            "text": "Noah apoyó una mano en el pecho. Sofia cruzó los brazos y lo miró. Quería escuchar qué pensaba cada niño.",
             "viewpoint": "La dueña del restaurante",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Cierra los labios y encoge los hombros.",
-                "x": 76,
-                "y": 53
+                "x": 77,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Hay manos cerca del pecho y del plato.",
-                "x": 61,
-                "y": 83
+                "x": 48,
+                "y": 67
               }
             ],
             "panel": 2,
             "atlas": "./images/plate-view-2.png",
-            "aspect": "763/333",
+            "aspect": 2.2814,
             "crop": {
               "x": 0.1953,
               "y": 33.5938,
-              "w": 49.6745,
-              "h": 32.5195
+              "w": 49.6094,
+              "h": 32.6172
             }
           },
           {
             "title": "Mirar un poco más de cerca",
-            "text": "Me senté a su altura y esperé un poco. Cuando Sofía compartió su pensamiento, Noah abrió mucho los ojos.",
+            "text": "Me incliné hacia los niños y escuché. Noah abrió mucho los ojos al oír a Sofia. Esperé para escuchar lo que querían decirse.",
             "viewpoint": "La dueña del restaurante",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Vuelve el rostro hacia la otra persona para escuchar.",
-                "x": 75,
-                "y": 55
+                "x": 48,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Alguien habla con las manos abiertas.",
-                "x": 65,
-                "y": 84
+                "x": 78,
+                "y": 68
               }
             ],
             "panel": 3,
             "atlas": "./images/plate-view-2.png",
-            "aspect": "761/333",
-            "crop": {
-              "x": 50.2604,
-              "y": 33.5938,
-              "w": 49.5443,
-              "h": 32.5195
-            }
+            "aspect": 2,
+            "image": "./images/plate-owner-surprise.png"
           },
           {
             "title": "Un sentimiento que no había visto",
-            "text": "Escuché que cada uno había pensado que el otro tendría hambre. Miraban el mismo pan y esperaban por motivos distintos.",
+            "text": "Los dos dijeron que habían guardado pan por si el otro tenía hambre. Se habían cuidado sin decirlo, y ninguno lo sabía. Al escucharlos, también sentí cariño.",
             "viewpoint": "La dueña del restaurante",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Los rostros se relajan al mirarse.",
                 "x": 77,
-                "y": 48
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Se señalan con suavidad mientras hablan.",
                 "x": 63,
-                "y": 84
+                "y": 83
               },
               {
                 "kind": "👂 귀 열쇠",
                 "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
-                "x": 85,
-                "y": 62
+                "x": 84,
+                "y": 57
               }
             ],
             "panel": 4,
             "atlas": "./images/plate-view-2.png",
-            "aspect": "763/338",
+            "aspect": 2.2611,
             "crop": {
               "x": 0.1953,
-              "y": 66.6992,
-              "w": 49.6745,
-              "h": 33.0078
+              "y": 66.7969,
+              "w": 49.6094,
+              "h": 32.9102
             }
           },
           {
@@ -2230,24 +1710,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Sonríen y los hombros se relajan.",
-                "x": 75,
-                "y": 52
+                "x": 77,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Han dividido el pan en trocitos.",
-                "x": 64,
+                "x": 63,
                 "y": 83
               }
             ],
             "panel": 5,
             "atlas": "./images/plate-view-2.png",
-            "aspect": "761/338",
+            "aspect": 2.2611,
             "crop": {
-              "x": 50.2604,
-              "y": 66.6992,
-              "w": 49.5443,
-              "h": 33.0078
+              "x": 50.1953,
+              "y": 66.7969,
+              "w": 49.6094,
+              "h": 32.9102
             }
           }
         ],
@@ -2329,25 +1809,20 @@
           {
             "kind": "👀 눈 열쇠",
             "message": "Abre los ojos o inclina la cabeza para mirar.",
-            "x": 30,
-            "y": 43
+            "x": 32,
+            "y": 45
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Asoma una punta amarilla detrás de la espalda.",
-            "x": 18,
-            "y": 70
+            "x": 20,
+            "y": 65
           }
         ],
         "panel": 1,
         "atlas": "./images/door-view-0.png",
-        "aspect": "762/336",
-        "crop": {
-          "x": 50.1953,
-          "y": 0.293,
-          "w": 49.6094,
-          "h": 32.8125
-        }
+        "aspect": 2,
+        "image": "./images/door-sora-arrival.png"
       },
       {
         "title": "Lo que imaginé al principio",
@@ -2482,25 +1957,20 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Las comisuras de una boca suben un poco.",
-                "x": 53,
-                "y": 43
+                "x": 50,
+                "y": 51
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Están haciendo una estrella de papel amarilla.",
-                "x": 56,
-                "y": 69
+                "x": 49,
+                "y": 72
               }
             ],
             "panel": 0,
             "atlas": "./images/door-view-1.png",
-            "aspect": "762/334",
-            "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.6094,
-              "h": 32.6172
-            }
+            "aspect": 2,
+            "image": "./images/door-mom-before-arrival.png"
           },
           {
             "title": "¿Qué significa eso?",
@@ -2510,25 +1980,20 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 50,
-                "y": 43
+                "x": 47,
+                "y": 49
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Asoma una punta amarilla detrás de la espalda.",
-                "x": 40,
-                "y": 70
+                "x": 38,
+                "y": 68
               }
             ],
             "panel": 1,
             "atlas": "./images/door-view-1.png",
-            "aspect": "762/334",
-            "crop": {
-              "x": 50.1953,
-              "y": 0.293,
-              "w": 49.6094,
-              "h": 32.6172
-            }
+            "aspect": 2,
+            "image": "./images/door-mom-arrival.png"
           },
           {
             "title": "Lo que imaginé al principio",
@@ -2622,7 +2087,7 @@
           },
           {
             "title": "El mismo momento, un nuevo sentir",
-            "text": "Terminamos la estrella juntos. Necesitaba tiempo para escuchar a Sora en vez de decidir primero lo que pensaba.",
+            "text": "Los niños terminaron juntos la estrella y sonrieron. Yo también me quedé tranquila. Al esperar un poco, pude escuchar lo que Sora quería decir. La próxima vez quiero preguntarle primero qué piensa.",
             "viewpoint": "Mamá",
             "clues": [
               {
@@ -2673,23 +2138,23 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Las comisuras de una boca suben un poco.",
-                "x": 75,
-                "y": 48
+                "x": 58,
+                "y": 49
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Están haciendo una estrella de papel amarilla.",
-                "x": 75,
-                "y": 68
+                "x": 58,
+                "y": 72
               }
             ],
             "panel": 0,
             "atlas": "./images/door-view-2.png",
-            "aspect": "761/335",
+            "aspect": 2.2746,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.5443,
+              "w": 49.6094,
               "h": 32.7148
             }
           },
@@ -2701,23 +2166,23 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 77,
-                "y": 49
+                "x": 60,
+                "y": 45
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Asoma una punta amarilla detrás de la espalda.",
-                "x": 69,
-                "y": 69
+                "x": 49,
+                "y": 63
               }
             ],
             "panel": 1,
             "atlas": "./images/door-view-2.png",
-            "aspect": "763/335",
+            "aspect": 2.2746,
             "crop": {
-              "x": 50.1302,
+              "x": 50.1953,
               "y": 0.293,
-              "w": 49.6745,
+              "w": 49.6094,
               "h": 32.7148
             }
           },
@@ -2729,24 +2194,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Cierra los labios y encoge los hombros.",
-                "x": 69,
-                "y": 56
+                "x": 56,
+                "y": 52
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Sujeta la estrella detrás de la espalda.",
-                "x": 62,
-                "y": 76
+                "x": 47,
+                "y": 72
               }
             ],
             "panel": 2,
             "atlas": "./images/door-view-2.png",
-            "aspect": "761/329",
+            "aspect": 2.2679,
             "crop": {
               "x": 0.1953,
               "y": 33.5938,
-              "w": 49.5443,
-              "h": 32.1289
+              "w": 49.6094,
+              "h": 32.8125
             }
           },
           {
@@ -2757,24 +2222,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Vuelve el rostro hacia la otra persona para escuchar.",
-                "x": 74,
-                "y": 56
+                "x": 58,
+                "y": 51
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Una mano abierta espera a que hablen.",
-                "x": 69,
-                "y": 76
+                "x": 75,
+                "y": 65
               }
             ],
             "panel": 3,
             "atlas": "./images/door-view-2.png",
-            "aspect": "763/329",
+            "aspect": 2.2679,
             "crop": {
-              "x": 50.1302,
+              "x": 50.1953,
               "y": 33.5938,
-              "w": 49.6745,
-              "h": 32.1289
+              "w": 49.6094,
+              "h": 32.8125
             }
           },
           {
@@ -2785,59 +2250,54 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Los rostros se relajan al mirarse.",
-                "x": 49,
-                "y": 50
+                "x": 56,
+                "y": 48
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Muestra la estrella sin terminar.",
-                "x": 50,
-                "y": 72
+                "x": 64,
+                "y": 69
               },
               {
                 "kind": "👂 귀 열쇠",
                 "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
-                "x": 57,
-                "y": 64
+                "x": 63,
+                "y": 62
               }
             ],
             "panel": 4,
             "atlas": "./images/door-view-2.png",
-            "aspect": "761/342",
+            "aspect": 2.2746,
             "crop": {
               "x": 0.1953,
-              "y": 66.3086,
-              "w": 49.5443,
-              "h": 33.3984
+              "y": 66.9922,
+              "w": 49.6094,
+              "h": 32.7148
             }
           },
           {
             "title": "El mismo momento, un nuevo sentir",
-            "text": "Terminamos la estrella juntos y la recibí. Mientras esperábamos, también tuvimos tiempo para escuchar un poco más los pensamientos del otro.",
+            "text": "Sora y yo terminamos la estrella y me la regaló. Le dije que había pensado que me evitaba. Me contó que la escondió porque aún no estaba terminada. Al escucharnos, se me pasó la tristeza que había sentido al esperar.",
             "viewpoint": "Sua",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Sonríen y los hombros se relajan.",
-                "x": 68,
-                "y": 46
+                "x": 35,
+                "y": 52
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Unen sus manos para terminar la estrella.",
-                "x": 73,
-                "y": 72
+                "x": 56,
+                "y": 76
               }
             ],
             "panel": 5,
             "atlas": "./images/door-view-2.png",
-            "aspect": "763/342",
-            "crop": {
-              "x": 50.1302,
-              "y": 66.3086,
-              "w": 49.6745,
-              "h": 33.3984
-            }
+            "aspect": 2,
+            "image": "./images/door-sua-together.png"
           }
         ],
         "atlas": "./images/door-view-2.png",
@@ -2874,18 +2334,18 @@
     "id": "ball",
     "title": "El día que la pelota amarilla esperó",
     "place": "Parque infantil",
-    "narrator": "Haneul",
+    "narrator": "Gia",
     "roles": [
-      "Haneul",
-      "Subin",
+      "Gia",
+      "Luca",
       "La encargada del parque"
     ],
     "atlas": "./images/ball-view-0.png",
     "scenes": [
       {
         "title": "Un momento para compartir",
-        "text": "Me encontré con Subin en el césped junto al parque infantil. Mi perro olfateaba la hierba. Vi una pelota amarilla en la mano de Subin. Sonreí un poco pensando que jugaríamos juntas.",
-        "viewpoint": "Haneul",
+        "text": "Me encontré con Luca en el césped junto al parque infantil. Mi perro olfateaba la hierba. Vi una pelota amarilla en la mano de Luca. Sonreí un poco pensando que jugaríamos juntas.",
+        "viewpoint": "Gia",
         "clues": [
           {
             "kind": "👀 눈 열쇠",
@@ -2912,36 +2372,31 @@
       },
       {
         "title": "¿Qué significa eso?",
-        "text": "Subin sostenía la pelota, pero no la hacía rodar. Su perro olfateaba la hierba cerca de sus piernas. Miré la pelota con los ojos muy abiertos. Quizá no quería jugar conmigo.",
-        "viewpoint": "Haneul",
+        "text": "Luca sostenía la pelota, pero no la hacía rodar. Su perro olfateaba la hierba cerca de sus piernas. Miré la pelota con los ojos muy abiertos. Quizá no quería jugar conmigo.",
+        "viewpoint": "Gia",
         "clues": [
           {
             "kind": "👀 눈 열쇠",
             "message": "Abre los ojos o inclina la cabeza para mirar.",
-            "x": 76,
-            "y": 43
+            "x": 28,
+            "y": 39
           },
           {
             "kind": "🏃 행동 열쇠",
             "message": "Espera un momento sin hacer rodar la pelota.",
-            "x": 72,
-            "y": 54
+            "x": 69,
+            "y": 65
           }
         ],
         "panel": 1,
         "atlas": "./images/ball-view-0.png",
-        "aspect": "762/336",
-        "crop": {
-          "x": 50.1953,
-          "y": 0.293,
-          "w": 49.6094,
-          "h": 32.8125
-        }
+        "aspect": 2,
+        "image": "./images/ball-gia-surprise.png"
       },
       {
         "title": "Lo que imaginé al principio",
-        "text": "Dejé de sonreír y crucé los brazos. Subin encogió un poco los hombros. Su perro bajó el hocico para oler la hierba que no conocía. Aún no sabía por qué la pelota no se movía.",
-        "viewpoint": "Haneul",
+        "text": "Dejé de sonreír y crucé los brazos. Luca encogió un poco los hombros. Su perro bajó el hocico para oler la hierba que no conocía. Aún no sabía por qué la pelota no se movía.",
+        "viewpoint": "Gia",
         "clues": [
           {
             "kind": "👀 눈 열쇠",
@@ -2968,8 +2423,8 @@
       },
       {
         "title": "Mirar un poco más de cerca",
-        "text": "La encargada del parque se sentó a cierta distancia y señaló al perro. «Es su primera vez aquí y quiero darle un poco de tiempo», dijo Subin. Volví a mirar su hocico y sus patas quietas. Había más cosas que observar además de la pelota.",
-        "viewpoint": "Haneul",
+        "text": "La encargada del parque se sentó a cierta distancia y señaló al perro. «Es su primera vez aquí y quiero darle un poco de tiempo», dijo Luca. Volví a mirar su hocico y sus patas quietas. Había más cosas que observar además de la pelota.",
+        "viewpoint": "Gia",
         "clues": [
           {
             "kind": "👀 눈 열쇠",
@@ -2996,8 +2451,8 @@
       },
       {
         "title": "Un sentimiento que no había visto",
-        "text": "Relajé las manos y esperé a una distancia cómoda. Subin dejó la pelota amarilla en la hierba. El perro se acercó y la olfateó a su ritmo. Comprendí que cuidar también podía ser esperar, en vez de jugar enseguida.",
-        "viewpoint": "Haneul",
+        "text": "Relajé las manos y esperé a una distancia cómoda. Luca dejó la pelota amarilla en la hierba. El perro se acercó y la olfateó a su ritmo. Comprendí que cuidar también podía ser esperar, en vez de jugar enseguida.",
+        "viewpoint": "Gia",
         "clues": [
           {
             "kind": "👀 눈 열쇠",
@@ -3030,8 +2485,8 @@
       },
       {
         "title": "El mismo momento, un nuevo sentir",
-        "text": "Los dos perros olfatearon la pelota uno junto al otro. Decidimos jugar solo mientras los perros estuvieran cómodos. Subin me dio las gracias por esperar. Le sonreí y le conté un poco lo dolida que me había sentido al principio.",
-        "viewpoint": "Haneul",
+        "text": "Los dos perros olfatearon la pelota uno junto al otro. Decidimos jugar solo mientras los perros estuvieran cómodos. Luca me dio las gracias por esperar. Le sonreí y le conté un poco lo dolida que me había sentido al principio.",
+        "viewpoint": "Gia",
         "clues": [
           {
             "kind": "👀 눈 열쇠",
@@ -3059,14 +2514,14 @@
     ],
     "activities": [
       {
-        "role": "Subin",
+        "role": "Luca",
         "text": "Era la primera vez de mi perro en este parque. Sostuve la pelota amarilla y miré alrededor con calma.",
         "panel": 2,
         "scenes": [
           {
             "title": "Un momento para compartir",
             "text": "Era la primera vez de mi perro en este parque. Sostuve la pelota amarilla y miré alrededor con calma.",
-            "viewpoint": "Subin",
+            "viewpoint": "Luca",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
@@ -3093,36 +2548,31 @@
           },
           {
             "title": "¿Qué significa eso?",
-            "text": "Mi perro olfateaba la hierba, así que no hice rodar la pelota enseguida. Todavía no había notado cómo había cambiado la cara de Haneul.",
-            "viewpoint": "Subin",
+            "text": "Mi perro olfateaba la hierba, así que no hice rodar la pelota enseguida. Todavía no había notado cómo había cambiado la cara de Gia.",
+            "viewpoint": "Luca",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 76,
-                "y": 45
+                "x": 73,
+                "y": 40
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Espera un momento sin hacer rodar la pelota.",
-                "x": 31,
-                "y": 74
+                "x": 32,
+                "y": 67
               }
             ],
             "panel": 1,
             "atlas": "./images/ball-view-1.png",
-            "aspect": "762/337",
-            "crop": {
-              "x": 50.1953,
-              "y": 0.293,
-              "w": 49.6094,
-              "h": 32.9102
-            }
+            "aspect": 2,
+            "image": "./images/ball-luca-surprise.png"
           },
           {
             "title": "Lo que imaginé al principio",
-            "text": "Haneul cruzó los brazos y dejó de sonreír. Yo esperaba a mi perro, pero ella podía sentir algo distinto.",
-            "viewpoint": "Subin",
+            "text": "Gia cruzó los brazos y dejó de sonreír. Yo esperaba a mi perro, pero ella podía sentir algo distinto.",
+            "viewpoint": "Luca",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
@@ -3149,8 +2599,8 @@
           },
           {
             "title": "Mirar un poco más de cerca",
-            "text": "«Es nuestra primera vez aquí y quiero esperar un poco», dije. Conté por qué no dejaba de mirar a mi perro.",
-            "viewpoint": "Subin",
+            "text": "Le dije a Gia: “Es la primera vez que mi perro viene aquí. Quiero darle un poco de tiempo”. Le expliqué que por eso todavía no había hecho rodar la pelota.",
+            "viewpoint": "Luca",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
@@ -3177,8 +2627,8 @@
           },
           {
             "title": "Un sentimiento que no había visto",
-            "text": "Haneul esperó conmigo. Cuando dejé la pelota, mi perro se acercó a su ritmo.",
-            "viewpoint": "Subin",
+            "text": "Gia esperó conmigo. Cuando dejé la pelota, mi perro se acercó a su ritmo.",
+            "viewpoint": "Luca",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
@@ -3211,8 +2661,8 @@
           },
           {
             "title": "El mismo momento, un nuevo sentir",
-            "text": "Le di las gracias por esperar. Haneul dijo que al principio se había sentido dolida, y entonces lo supe. La próxima vez también quiero explicar por qué espero.",
-            "viewpoint": "Subin",
+            "text": "Le di las gracias por esperar. Gia dijo que al principio se había sentido dolida, y entonces lo supe. La próxima vez también quiero explicar por qué espero.",
+            "viewpoint": "Luca",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
@@ -3262,19 +2712,19 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Las comisuras de una boca suben un poco.",
-                "x": 76,
-                "y": 45
+                "x": 78,
+                "y": 42
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Tiene la pelota amarilla en la mano.",
-                "x": 53,
-                "y": 57
+                "x": 52,
+                "y": 60
               }
             ],
             "panel": 0,
             "atlas": "./images/ball-view-2.png",
-            "aspect": "762/335",
+            "aspect": 2.2746,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
@@ -3284,25 +2734,25 @@
           },
           {
             "title": "¿Qué significa eso?",
-            "text": "La pelota estaba quieta y un perro olfateaba la hierba. Haneul parecía mirar la pelota y Subin a su perro.",
+            "text": "Luca sostenía la pelota sin moverla. Gia la miraba con los ojos muy abiertos. Parecía preguntarse por qué no la hacía rodar.",
             "viewpoint": "La encargada del parque",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 77,
-                "y": 44
+                "x": 78,
+                "y": 39
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Espera un momento sin hacer rodar la pelota.",
-                "x": 54,
+                "x": 53,
                 "y": 60
               }
             ],
             "panel": 1,
             "atlas": "./images/ball-view-2.png",
-            "aspect": "762/335",
+            "aspect": 2.2746,
             "crop": {
               "x": 50.1953,
               "y": 0.293,
@@ -3312,25 +2762,25 @@
           },
           {
             "title": "Lo que imaginé al principio",
-            "text": "Haneul cruzó los brazos y Subin también tensó los hombros. ¿Esperaban cosas diferentes al mirar el mismo momento?",
+            "text": "Gia cruzó los brazos y Luca encogió los hombros. El perro bajó la cabeza para oler la hierba. Quería preguntarles qué estaba pasando.",
             "viewpoint": "La encargada del parque",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Cierra los labios y encoge los hombros.",
-                "x": 77,
-                "y": 47
+                "x": 79,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Las manos que sujetan la pelota están juntas.",
-                "x": 58,
-                "y": 71
+                "x": 53,
+                "y": 63
               }
             ],
             "panel": 2,
             "atlas": "./images/ball-view-2.png",
-            "aspect": "762/334",
+            "aspect": 2.2814,
             "crop": {
               "x": 0.1953,
               "y": 33.5938,
@@ -3340,25 +2790,25 @@
           },
           {
             "title": "Mirar un poco más de cerca",
-            "text": "Señalé al perro desde una distancia cómoda. Esperé un poco para que Subin pudiera explicar su motivo por sí misma.",
+            "text": "Señalé al perro desde una distancia cómoda. Esperé un poco para que Luca pudiera explicar su motivo por sí misma.",
             "viewpoint": "La encargada del parque",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Vuelve el rostro hacia la otra persona para escuchar.",
-                "x": 76,
-                "y": 48
+                "x": 79,
+                "y": 44
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "El perro baja la nariz hacia la hierba.",
-                "x": 66,
-                "y": 84
+                "x": 64,
+                "y": 83
               }
             ],
             "panel": 3,
             "atlas": "./images/ball-view-2.png",
-            "aspect": "762/334",
+            "aspect": 2.2814,
             "crop": {
               "x": 50.1953,
               "y": 33.5938,
@@ -3368,31 +2818,31 @@
           },
           {
             "title": "Un sentimiento que no había visto",
-            "text": "Haneul empezó a observar los movimientos del perro además de la pelota. Mirar un poco más la ayudó a notar algo que no había visto.",
+            "text": "Gia empezó a observar los movimientos del perro además de la pelota. Mirar un poco más la ayudó a notar algo que no había visto.",
             "viewpoint": "La encargada del parque",
             "clues": [
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Los rostros se relajan al mirarse.",
-                "x": 76,
-                "y": 48
+                "x": 78,
+                "y": 46
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Ha dejado la pelota amarilla en la hierba.",
-                "x": 54,
-                "y": 92
+                "x": 53,
+                "y": 84
               },
               {
                 "kind": "👂 귀 열쇠",
                 "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
-                "x": 84,
-                "y": 62
+                "x": 85,
+                "y": 60
               }
             ],
             "panel": 4,
             "atlas": "./images/ball-view-2.png",
-            "aspect": "762/337",
+            "aspect": 2.2611,
             "crop": {
               "x": 0.1953,
               "y": 66.7969,
@@ -3408,19 +2858,19 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Sonríen y los hombros se relajan.",
-                "x": 77,
-                "y": 49
+                "x": 78,
+                "y": 47
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Los perros huelen la pelota juntos.",
-                "x": 54,
-                "y": 94
+                "x": 68,
+                "y": 88
               }
             ],
             "panel": 5,
             "atlas": "./images/ball-view-2.png",
-            "aspect": "762/337",
+            "aspect": 2.2611,
             "crop": {
               "x": 50.1953,
               "y": 66.7969,
@@ -3444,11 +2894,11 @@
     "audience": "child",
     "characters": [
       {
-        "name": "Haneul",
+        "name": "Gia",
         "age": 10
       },
       {
-        "name": "Subin",
+        "name": "Luca",
         "age": 9
       },
       {
@@ -3619,7 +3069,7 @@
       },
       {
         "title": "El mismo momento, un nuevo sentir",
-        "text": "Juntamos nuestras estrellas de formas diferentes. Harin no volvió a borrar la suya. Dije que quería escuchar sus pensamientos, tuviera la forma que tuviera su estrella. Quería seguir mirando un dibujo que guardaba los sentimientos de los dos.",
+        "text": "Pegamos juntos nuestras estrellas de formas distintas. Harin no volvió a borrar la suya. Le dije: “Me gusta que tu estrella esté junto a la mía”. Al ver las estrellas que habíamos pegado juntos, yo también sonreí.",
         "viewpoint": "Jun",
         "clues": [
           {
@@ -3660,24 +3110,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Las comisuras de una boca suben un poco.",
-                "x": 67,
-                "y": 44
+                "x": 28,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Sujetan estrellas de colores y formas distintos.",
-                "x": 28,
-                "y": 73
+                "x": 35,
+                "y": 64
               }
             ],
             "panel": 0,
             "atlas": "./images/stars-view-1.png",
-            "aspect": "763/335",
+            "aspect": 2.31,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6745,
-              "h": 32.7148
+              "w": 49.4792,
+              "h": 32.1289
             }
           },
           {
@@ -3688,24 +3138,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Abre los ojos o inclina la cabeza para mirar.",
-                "x": 70,
-                "y": 43
+                "x": 29,
+                "y": 40
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Hay restos de goma junto al papel.",
-                "x": 46,
+                "x": 82,
                 "y": 80
               }
             ],
             "panel": 1,
             "atlas": "./images/stars-view-1.png",
-            "aspect": "761/335",
+            "aspect": 2.3222,
             "crop": {
-              "x": 50.2604,
+              "x": 50.0651,
               "y": 0.293,
-              "w": 49.5443,
-              "h": 32.7148
+              "w": 49.7396,
+              "h": 32.1289
             }
           },
           {
@@ -3716,24 +3166,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Cierra los labios y encoge los hombros.",
-                "x": 72,
+                "x": 28,
                 "y": 48
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "El dibujo está escondido bajo los brazos.",
-                "x": 47,
-                "y": 80
+                "x": 82,
+                "y": 73
               }
             ],
             "panel": 2,
             "atlas": "./images/stars-view-1.png",
-            "aspect": "763/336",
+            "aspect": 2.4127,
             "crop": {
               "x": 0.1953,
-              "y": 33.5938,
-              "w": 49.6745,
-              "h": 32.8125
+              "y": 33.0078,
+              "w": 49.4792,
+              "h": 30.7617
             }
           },
           {
@@ -3744,24 +3194,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Vuelve el rostro hacia la otra persona para escuchar.",
-                "x": 71,
-                "y": 46
+                "x": 29,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Una mano abierta espera sus palabras.",
-                "x": 47,
-                "y": 81
+                "x": 50,
+                "y": 70
               }
             ],
             "panel": 3,
             "atlas": "./images/stars-view-1.png",
-            "aspect": "761/336",
+            "aspect": 2.4254,
             "crop": {
-              "x": 50.2604,
-              "y": 33.5938,
-              "w": 49.5443,
-              "h": 32.8125
+              "x": 50.0651,
+              "y": 33.0078,
+              "w": 49.7396,
+              "h": 30.7617
             }
           },
           {
@@ -3772,30 +3222,30 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Los rostros se relajan al mirarse.",
-                "x": 72,
-                "y": 47
+                "x": 29,
+                "y": 43
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Muestra una estrella un poco torcida.",
-                "x": 33,
-                "y": 77
+                "x": 71,
+                "y": 64
               },
               {
                 "kind": "👂 귀 열쇠",
                 "message": "Busca las palabras que cuentan un sentimiento. ¿Dijeron algo que no se podía ver?",
-                "x": 80,
-                "y": 61
+                "x": 36,
+                "y": 57
               }
             ],
             "panel": 4,
             "atlas": "./images/stars-view-1.png",
-            "aspect": "763/335",
+            "aspect": 2.0994,
             "crop": {
               "x": 0.1953,
-              "y": 66.9922,
-              "w": 49.6745,
-              "h": 32.7148
+              "y": 64.3555,
+              "w": 49.4792,
+              "h": 35.3516
             }
           },
           {
@@ -3806,24 +3256,24 @@
               {
                 "kind": "👀 눈 열쇠",
                 "message": "Sonríen y los hombros se relajan.",
-                "x": 72,
-                "y": 49
+                "x": 28,
+                "y": 46
               },
               {
                 "kind": "🏃 행동 열쇠",
                 "message": "Pegan juntos estrellas distintas.",
-                "x": 46,
-                "y": 81
+                "x": 54,
+                "y": 79
               }
             ],
             "panel": 5,
             "atlas": "./images/stars-view-1.png",
-            "aspect": "761/335",
+            "aspect": 2.1105,
             "crop": {
-              "x": 50.2604,
-              "y": 66.9922,
-              "w": 49.5443,
-              "h": 32.7148
+              "x": 50.0651,
+              "y": 64.3555,
+              "w": 49.7396,
+              "h": 35.3516
             }
           }
         ],
@@ -3901,7 +3351,7 @@
           },
           {
             "title": "Lo que imaginé al principio",
-            "text": "Jun cruzó los brazos y Harin sujetó su papel con fuerza. Aún no sabía si estaban tristes por el mismo motivo.",
+            "text": "Jun cruzó los brazos y Harin bajó la cabeza. Que tapara el dibujo no me decía si quería trabajar con Jun. Quise escuchar primero a los dos.",
             "viewpoint": "La maestra",
             "clues": [
               {
@@ -3957,7 +3407,7 @@
           },
           {
             "title": "Un sentimiento que no había visto",
-            "text": "Jun había pensado que trabajaba solo y Harin sentía que debía dibujar bien. Tenían preocupaciones distintas ante el mismo papel.",
+            "text": "Harin mostró una estrella un poco torcida. Dijo que borraba una y otra vez porque quería dibujarla bien. Jun contó que creía que la tapaba porque no quería trabajar con él. Al verlos conversar, yo también sonreí.",
             "viewpoint": "La maestra",
             "clues": [
               {
@@ -4047,1470 +3497,5 @@
     ],
     "atlasRows": 3,
     "atlasCols": 2
-  },
-  {
-    "id": "twohomes",
-    "title": "Dos tazas de té que se enfrían",
-    "place": "La cafetería",
-    "audience": "adult",
-    "narrator": "La amiga que espera",
-    "roles": [
-      "La amiga que espera",
-      "La amiga que se apartó",
-      "La dueña del café"
-    ],
-    "scenes": [
-      {
-        "title": "Un pequeño lugar en el día",
-        "text": "Nos sentamos junto a la ventana con dos tazas de té. Hoy sentía que podía contar una historia un poco más larga. Teníamos confianza para estar cómodas separadas, pero hoy quería a mi amiga cerca.",
-        "viewpoint": "La amiga que espera",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Una amiga apoya la barbilla en la mano y sonríe.",
-            "x": 70,
-            "y": 40
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hay dos tazas de té junto a la ventana.",
-            "x": 65,
-            "y": 74
-          }
-        ],
-        "image": "./images/twohomes-camera-0-scene-1.png",
-        "aspect": "625/408"
-      },
-      {
-        "title": "Lo primero que vi",
-        "text": "Mi amiga dijo que volvería enseguida y fue hacia la puerta. Me guardé las palabras que iba a decir. Quizá aquella acción pequeña me afectó por lo que yo esperaba ese día, más que por su intención.",
-        "viewpoint": "La amiga que espera",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Su mirada se dirige hacia la puerta.",
-            "x": 72,
-            "y": 34
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Aunque se aparta del asiento, su bolso sigue en la silla.",
-            "x": 49,
-            "y": 70
-          }
-        ],
-        "image": "./images/twohomes-camera-0-scene-2.png",
-        "aspect": "621/408"
-      },
-      {
-        "title": "El sentimiento que imaginé",
-        "text": "Mientras el vapor se hacía más tenue, jugueteé con el asa de la taza. El bolso de mi amiga seguía en la silla de enfrente, pero yo solo veía el asiento vacío. Había una señal de que volvería, y aun así pensé primero en que me había quedado sola.",
-        "viewpoint": "La amiga que espera",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La dueña mira hacia la puerta.",
-            "x": 44,
-            "y": 30
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Sujeta su taza mientras espera que vuelva su amiga.",
-            "x": 36,
-            "y": 74
-          }
-        ],
-        "image": "./images/twohomes-camera-0-scene-3.png",
-        "aspect": "625/399"
-      },
-      {
-        "title": "Volver a mirar",
-        "text": "Mi amiga volvió con una bufanda doblada. Cuando la dueña cerró un poco la ventana, noté mis propios hombros encogidos por el frío. ¿Mi amiga había notado el aire frío antes que la historia que yo intentaba contar?",
-        "viewpoint": "La amiga que espera",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Su amiga se inclina hacia delante y levanta la bufanda.",
-            "x": 48,
-            "y": 40
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La amiga que volvió tiene una bufanda doblada en las manos.",
-            "x": 48,
-            "y": 62
-          }
-        ],
-        "image": "./images/twohomes-camera-0-scene-4.png",
-        "aspect": "621/399"
-      },
-      {
-        "title": "Un sentimiento dicho en voz alta",
-        "text": "Dijo que había traído la bufanda porque parecía que tenía frío. Me sentí agradecida, pero también conté que me había dolido quedarme sola justo cuando iba a hablar. Decirlo no borraba su cariño.",
-        "viewpoint": "La amiga que espera",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Su amiga abre las manos y habla.",
-            "x": 52,
-            "y": 39
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Ofrece la bufanda y expresa su cariño con palabras.",
-            "x": 50,
-            "y": 64
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: Dijo que había traído la bufanda porque parecía que tenía frío. Me sentí agradecida, pero también conté que me había dolido quedarme sola justo cuando iba a hablar. Decirlo no borraba su cariño.",
-            "x": 64,
-            "y": 51
-          }
-        ],
-        "image": "./images/twohomes-camera-0-scene-5.png",
-        "aspect": "625/435"
-      },
-      {
-        "title": "Un pequeño cambio de mirada",
-        "text": "Volvimos a sentarnos junto a la misma ventana. El té estaba frío, pero la conversación se volvió más cálida al escuchar lo que cada una esperaba. Apreciar una buena intención y expresar mis sentimientos podían ir de la mano.",
-        "viewpoint": "La amiga que espera",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Su amiga sonríe.",
-            "x": 50,
-            "y": 40
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Las dos vuelven a estar sentadas juntas.",
-            "x": 55,
-            "y": 77
-          }
-        ],
-        "image": "./images/twohomes-camera-0-scene-6.png",
-        "aspect": "621/435"
-      }
-    ],
-    "activities": [
-      {
-        "role": "La amiga que se apartó",
-        "text": "Mi amiga encogió un poco los hombros junto a la ventana. Quería escucharla bien, pero primero quise protegerla del frío. Pensé que un pequeño gesto de ayuda mostraría mi cariño.",
-        "image": "./images/twohomes-camera-1-scene-3.png",
-        "scenes": [
-          {
-            "title": "Un pequeño lugar en el día",
-            "text": "Mi amiga encogió un poco los hombros junto a la ventana. Quería escucharla bien, pero primero quise protegerla del frío. Pensé que un pequeño gesto de ayuda mostraría mi cariño.",
-            "viewpoint": "La amiga que se apartó",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Su amiga mira con la barbilla apoyada en la mano.",
-                "x": 44,
-                "y": 42
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hay dos tazas de té junto a la ventana.",
-                "x": 57,
-                "y": 82
-              }
-            ],
-            "image": "./images/twohomes-camera-1-scene-1.png",
-            "aspect": "622/412"
-          },
-          {
-            "title": "Lo primero que vi",
-            "text": "Solo dije que volvería enseguida al levantarme. Ir por una bufanda me parecía algo pequeño, pero no había notado que ella estaba a punto de hablar. Incluso con ganas de cuidar, podemos pasar por alto el momento de otra persona.",
-            "viewpoint": "La amiga que se apartó",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Su amiga mira hacia la puerta.",
-                "x": 45,
-                "y": 40
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Aunque se aparta del asiento, su bolso sigue en la silla.",
-                "x": 17,
-                "y": 73
-              }
-            ],
-            "image": "./images/twohomes-camera-1-scene-2.png",
-            "aspect": "624/412"
-          },
-          {
-            "title": "El sentimiento que imaginé",
-            "text": "Al sacar la bufanda, pensé en volver pronto. No había preguntado cómo podía sentirse mientras esperaba. Quizá supuse que lo que yo consideraba una ayuda tendría el mismo significado para ella.",
-            "viewpoint": "La amiga que se apartó",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Su amiga ha dejado de sonreír.",
-                "x": 42,
-                "y": 48
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Sujeta su taza mientras espera que vuelva su amiga.",
-                "x": 47,
-                "y": 75
-              }
-            ],
-            "image": "./images/twohomes-camera-1-scene-3.png",
-            "aspect": "622/399"
-          },
-          {
-            "title": "Volver a mirar",
-            "text": "Al volver, la vi sujetando su taza con fuerza. ¿Un rato corto para mí también lo habría sido para ella? Tal vez hacer espacio para sus palabras era más importante que extender la bufanda.",
-            "viewpoint": "La amiga que se apartó",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Su amiga junta un poco las cejas.",
-                "x": 34,
-                "y": 43
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La amiga que volvió tiene una bufanda doblada en las manos.",
-                "x": 69,
-                "y": 77
-              }
-            ],
-            "image": "./images/twohomes-camera-1-scene-4.png",
-            "aspect": "624/399"
-          },
-          {
-            "title": "Un sentimiento dicho en voz alta",
-            "text": "Dijo que le había dolido sentirse como si la hubiera dejado sola. Expliqué que había querido cuidarla porque parecía tener frío. Decidí no usar mi buena intención para intentar borrar su dolor.",
-            "viewpoint": "La amiga que se apartó",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Su amiga abre la boca para explicar cómo se sintió.",
-                "x": 43,
-                "y": 40
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Ofrece la bufanda y expresa su cariño con palabras.",
-                "x": 66,
-                "y": 67
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Dijo que le había dolido sentirse como si la hubiera dejado sola. Expliqué que había querido cuidarla porque parecía tener frío. Decidí no usar mi buena intención para intentar borrar su dolor.",
-                "x": 55,
-                "y": 52
-              }
-            ],
-            "image": "./images/twohomes-camera-1-scene-5.png",
-            "aspect": "622/431"
-          },
-          {
-            "title": "Un pequeño cambio de mirada",
-            "text": "Volví a sentarme a su lado. La próxima vez quería decir adónde iba y preguntar si era buen momento para apartarme un rato. Entre el cuidado que quería ofrecer y el que ella quería recibir, había espacio para conversar.",
-            "viewpoint": "La amiga que se apartó",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Los ojos de su amiga parecen más relajados.",
-                "x": 43,
-                "y": 42
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos vuelven a estar sentadas juntas.",
-                "x": 49,
-                "y": 69
-              }
-            ],
-            "image": "./images/twohomes-camera-1-scene-6.png",
-            "aspect": "624/431"
-          }
-        ]
-      },
-      {
-        "role": "La dueña del café",
-        "text": "Noté que una de las dos clientas encogía los hombros junto a la ventana. Pensé en cerrarla, pero esperé mientras conversaban. Incluso el deseo de ayudar podía interrumpir el momento de otra persona.",
-        "image": "./images/twohomes-camera-2-scene-3.png",
-        "scenes": [
-          {
-            "title": "Un pequeño lugar en el día",
-            "text": "Noté que una de las dos clientas encogía los hombros junto a la ventana. Pensé en cerrarla, pero esperé mientras conversaban. Incluso el deseo de ayudar podía interrumpir el momento de otra persona.",
-            "viewpoint": "La dueña del café",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una clienta está sentada con la barbilla apoyada en la mano.",
-                "x": 53,
-                "y": 43
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hay dos tazas de té junto a la ventana.",
-                "x": 60,
-                "y": 73
-              }
-            ],
-            "image": "./images/twohomes-camera-2-scene-1.png",
-            "aspect": "625/411"
-          },
-          {
-            "title": "Lo primero que vi",
-            "text": "Una clienta fue hacia la puerta. Su bolso quedó en la silla y la mirada de la otra la siguió. Yo veía un lugar al que pronto regresaría, pero no sabía qué significaba el asiento vacío para su amiga.",
-            "viewpoint": "La dueña del café",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La clienta sentada mira hacia la puerta.",
-                "x": 45,
-                "y": 42
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Aunque se aparta del asiento, su bolso sigue en la silla.",
-                "x": 86,
-                "y": 77
-              }
-            ],
-            "image": "./images/twohomes-camera-2-scene-2.png",
-            "aspect": "621/411"
-          },
-          {
-            "title": "El sentimiento que imaginé",
-            "text": "La clienta sujetó su taza y volvió a mirar la puerta. Mi primer pensamiento fue calentarle el té. Pero, sin preguntar, no quería decidir si le inquietaba el té frío o alguna otra cosa.",
-            "viewpoint": "La dueña del café",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La clienta sentada ha dejado de sonreír.",
-                "x": 51,
-                "y": 47
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Sujeta su taza mientras espera que vuelva su amiga.",
-                "x": 54,
-                "y": 72
-              }
-            ],
-            "image": "./images/twohomes-camera-2-scene-3.png",
-            "aspect": "625/417"
-          },
-          {
-            "title": "Volver a mirar",
-            "text": "La clienta regresó con una bufanda y cerré un poco la ventana. Hice lo pequeño que estaba a mi alcance sin explicar por ellas su historia. Los detalles que conocía no eran todos sus sentimientos.",
-            "viewpoint": "La dueña del café",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La clienta sentada mira a su amiga que vuelve.",
-                "x": 76,
-                "y": 46
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La amiga que volvió tiene una bufanda doblada en las manos.",
-                "x": 47,
-                "y": 61
-              }
-            ],
-            "image": "./images/twohomes-camera-2-scene-4.png",
-            "aspect": "621/417"
-          },
-          {
-            "title": "Un sentimiento dicho en voz alta",
-            "text": "Una había sentido preocupación por el frío y la otra quería tiempo para conversar. Escuché sin elegir qué sentimiento era el correcto. Parecían necesitar un rato para expresar deseos distintos en el mismo lugar.",
-            "viewpoint": "La dueña del café",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos se miran y hablan.",
-                "x": 77,
-                "y": 43
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Ofrece la bufanda y expresa su cariño con palabras.",
-                "x": 55,
-                "y": 70
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Una había sentido preocupación por el frío y la otra quería tiempo para conversar. Escuché sin elegir qué sentimiento era el correcto. Parecían necesitar un rato para expresar deseos distintos en el mismo lugar.",
-                "x": 89,
-                "y": 55
-              }
-            ],
-            "image": "./images/twohomes-camera-2-scene-5.png",
-            "aspect": "625/414"
-          },
-          {
-            "title": "Un pequeño cambio de mirada",
-            "text": "Les dije que me avisaran si querían té nuevo y me aparté. Siguieron conversando con calma. Ayudar podía ser algo más que hacer otra cosa: también podía ser cuidar el espacio para que alguien hablara por sí misma.",
-            "viewpoint": "La dueña del café",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos se miran y sonríen.",
-                "x": 52,
-                "y": 43
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos vuelven a estar sentadas juntas.",
-                "x": 65,
-                "y": 75
-              }
-            ],
-            "image": "./images/twohomes-camera-2-scene-6.png",
-            "aspect": "621/414"
-          }
-        ]
-      }
-    ],
-    "characters": [
-      {
-        "name": "La amiga que espera",
-        "age": null
-      },
-      {
-        "name": "La amiga que se apartó",
-        "age": null
-      },
-      {
-        "name": "La dueña del café",
-        "age": null
-      }
-    ]
-  },
-  {
-    "id": "page",
-    "title": "Un primer paso, un poco más tarde",
-    "place": "El taller del barrio",
-    "audience": "adult",
-    "narrator": "La alumna que empieza",
-    "roles": [
-      "La alumna que empieza",
-      "El compañero de al lado",
-      "La profesora de cerámica"
-    ],
-    "scenes": [
-      {
-        "title": "Un pequeño lugar en el día",
-        "text": "Puse mi primera taza hecha a mano sobre la mesa. El asa se inclinaba hacia un lado. Me habían dicho que estaba bien empezar desde cero, pero mis manos aún no parecían creerlo.",
-        "viewpoint": "La alumna que empieza",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La otra persona baja la mirada hacia la taza.",
-            "x": 75,
-            "y": 34
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La taza inclinada también se hizo con cuidado.",
-            "x": 40,
-            "y": 61
-          }
-        ],
-        "image": "./images/page-camera-0-scene-1.png",
-        "aspect": "624/412"
-      },
-      {
-        "title": "Lo primero que vi",
-        "text": "El compañero de al lado miró mi taza y sonrió un poco. Se me tensaron los hombros y sentí que su sonrisa era un juicio. Antes de preguntarle qué le había hecho sonreír, puse en su mente las palabras que yo me decía a mí misma.",
-        "viewpoint": "La alumna que empieza",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La otra persona sonríe un poco.",
-            "x": 76,
-            "y": 37
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hay tazas parecidas delante de las dos personas.",
-            "x": 78,
-            "y": 69
-          }
-        ],
-        "image": "./images/page-camera-0-scene-2.png",
-        "aspect": "622/412"
-      },
-      {
-        "title": "El sentimiento que imaginé",
-        "text": "Tapé la taza con las manos. Él también tocaba la suya, pero yo solo recordaba su cara sonriente. Había venido a aprender y, aun así, intentaba ocultar que estaba empezando. Aquello me sorprendió un poco.",
-        "viewpoint": "La alumna que empieza",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La otra persona también ha dejado de sonreír.",
-            "x": 77,
-            "y": 38
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Una persona duda con las manos tapando la taza.",
-            "x": 36,
-            "y": 62
-          }
-        ],
-        "image": "./images/page-camera-0-scene-3.png",
-        "aspect": "624/404"
-      },
-      {
-        "title": "Volver a mirar",
-        "text": "La profesora trajo una silla y se sentó a mi lado. Antes de arreglar la taza, preguntó cómo me había sentido al hacerla. Dije que estaba nerviosa porque quería hacerlo bien, y aflojé un poco las manos.",
-        "viewpoint": "La alumna que empieza",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La profesora se inclina para escuchar.",
-            "x": 49,
-            "y": 38
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La maestra espera a su altura.",
-            "x": 52,
-            "y": 56
-          }
-        ],
-        "image": "./images/page-camera-0-scene-4.png",
-        "aspect": "622/404"
-      },
-      {
-        "title": "Un sentimiento dicho en voz alta",
-        "text": "Mi compañero mostró su taza. El asa se inclinaba como la mía. Cuando dijo que había sonreído porque se parecían y que él también empezaba, comprendí que mi vergüenza no era el único significado de aquella forma.",
-        "viewpoint": "La alumna que empieza",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La otra persona abre la boca y muestra la taza.",
-            "x": 50,
-            "y": 41
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Ponen las tazas juntas y conversan.",
-            "x": 45,
-            "y": 61
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: Mi compañero mostró su taza. El asa se inclinaba como la mía. Cuando dijo que había sonreído porque se parecían y que él también empezaba, comprendí que mi vergüenza no era el único significado de aquella forma.",
-            "x": 62,
-            "y": 53
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: Mi compañero mostró su taza. El asa se inclinaba como la mía. Cuando dijo que había sonreído porque se parecían y que él también empezaba, comprendí que mi vergüenza no era el único significado de aquella forma.",
-            "x": 63,
-            "y": 53
-          }
-        ],
-        "image": "./images/page-camera-0-scene-5.png",
-        "aspect": "624/426"
-      },
-      {
-        "title": "Un pequeño cambio de mirada",
-        "text": "Pusimos las tazas una junto a la otra. Mis manos seguían siendo inexpertas, pero ya no quería esconder la mía. No había empezado de pronto a disfrutar haciéndolo mal. Simplemente sentía que no hacerlo bien no me quitaba mi lugar allí.",
-        "viewpoint": "La alumna que empieza",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Los ojos de la otra persona parecen relajados.",
-            "x": 47,
-            "y": 40
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Pueden sonreír juntos sin cambiar la forma de las tazas.",
-            "x": 67,
-            "y": 80
-          }
-        ],
-        "image": "./images/page-camera-0-scene-6.png",
-        "aspect": "622/426"
-      }
-    ],
-    "activities": [
-      {
-        "role": "El compañero de al lado",
-        "text": "Toqué con cuidado el asa de mi taza. A diferencia de las cosas que solía hacer, mis manos no se movían como quería. Me pregunté si la compañera de al lado también estaba empezando, pero me costó iniciar una conversación.",
-        "image": "./images/page-camera-1-scene-3.png",
-        "scenes": [
-          {
-            "title": "Un pequeño lugar en el día",
-            "text": "Toqué con cuidado el asa de mi taza. A diferencia de las cosas que solía hacer, mis manos no se movían como quería. Me pregunté si la compañera de al lado también estaba empezando, pero me costó iniciar una conversación.",
-            "viewpoint": "El compañero de al lado",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La otra persona mira la taza de cerca.",
-                "x": 46,
-                "y": 38
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La taza inclinada también se hizo con cuidado.",
-                "x": 51,
-                "y": 59
-              }
-            ],
-            "image": "./images/page-camera-1-scene-1.png",
-            "aspect": "624/410"
-          },
-          {
-            "title": "Lo primero que vi",
-            "text": "Su taza inclinada se parecía a la mía y sonreí un poco. Me alivió pensar que no era el único al que le costaba. Supuse que aquella sonrisa de compañía significaría lo mismo para ella.",
-            "viewpoint": "El compañero de al lado",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La otra persona abre mucho los ojos y la boca.",
-                "x": 50,
-                "y": 37
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hay tazas parecidas delante de las dos personas.",
-                "x": 68,
-                "y": 74
-              }
-            ],
-            "image": "./images/page-camera-1-scene-2.png",
-            "aspect": "622/410"
-          },
-          {
-            "title": "El sentimiento que imaginé",
-            "text": "Tapó su taza y tensó los hombros. Me pregunté si mi sonrisa le habría llegado de otra manera. Casi lo expliqué enseguida, pero me detuve: quizá primero debía escuchar cómo se sentía.",
-            "viewpoint": "El compañero de al lado",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La otra persona baja la cabeza cerca de la taza.",
-                "x": 44,
-                "y": 41
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una persona duda con las manos tapando la taza.",
-                "x": 43,
-                "y": 58
-              }
-            ],
-            "image": "./images/page-camera-1-scene-3.png",
-            "aspect": "624/402"
-          },
-          {
-            "title": "Volver a mirar",
-            "text": "La profesora se sentó junto a nosotros y esperó. Mi compañera dijo que le daba nervios que vieran su trabajo torpe. Yo sentía algo parecido, pero eso no significaba que ya conociera lo que ella sentía.",
-            "viewpoint": "El compañero de al lado",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La otra persona escucha a la profesora.",
-                "x": 44,
-                "y": 41
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La maestra espera a su altura.",
-                "x": 77,
-                "y": 60
-              }
-            ],
-            "image": "./images/page-camera-1-scene-4.png",
-            "aspect": "622/402"
-          },
-          {
-            "title": "Un sentimiento dicho en voz alta",
-            "text": "Puse mi taza junto a la suya y dije que me había alegrado que se parecieran. Expliqué mi sonrisa sin dejar de escuchar su incomodidad. Compartir mi intención no era solo conseguir que aceptara mi explicación.",
-            "viewpoint": "El compañero de al lado",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La otra persona sonríe un poco.",
-                "x": 42,
-                "y": 40
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Ponen las tazas juntas y conversan.",
-                "x": 26,
-                "y": 51
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Puse mi taza junto a la suya y dije que me había alegrado que se parecieran. Expliqué mi sonrisa sin dejar de escuchar su incomodidad. Compartir mi intención no era solo conseguir que aceptara mi explicación.",
-                "x": 54,
-                "y": 52
-              }
-            ],
-            "image": "./images/page-camera-1-scene-5.png",
-            "aspect": "624/430"
-          },
-          {
-            "title": "Un pequeño cambio de mirada",
-            "text": "Miramos las dos tazas y sonreímos juntos. La próxima vez quería poner palabras detrás de mi sonrisa un poco antes. Alegrarme de compartir una dificultad no tenía por qué significar tomar a la ligera la dificultad de otra persona.",
-            "viewpoint": "El compañero de al lado",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La otra persona apoya la barbilla en la mano y sonríe.",
-                "x": 50,
-                "y": 42
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Pueden sonreír juntos sin cambiar la forma de las tazas.",
-                "x": 70,
-                "y": 77
-              }
-            ],
-            "image": "./images/page-camera-1-scene-6.png",
-            "aspect": "622/430"
-          }
-        ]
-      },
-      {
-        "role": "La profesora de cerámica",
-        "text": "Había tazas inclinadas sobre la mesa. Cada persona miraba sus propias manos. Mis ojos acostumbrados vieron primero qué corregir, pero las tazas podían guardar historias distintas para quienes las hacían.",
-        "image": "./images/page-camera-2-scene-3.png",
-        "scenes": [
-          {
-            "title": "Un pequeño lugar en el día",
-            "text": "Había tazas inclinadas sobre la mesa. Cada persona miraba sus propias manos. Mis ojos acostumbrados vieron primero qué corregir, pero las tazas podían guardar historias distintas para quienes las hacían.",
-            "viewpoint": "La profesora de cerámica",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Cada persona mira hacia su propia taza.",
-                "x": 25,
-                "y": 42
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La taza inclinada también se hizo con cuidado.",
-                "x": 32,
-                "y": 61
-              }
-            ],
-            "image": "./images/page-camera-2-scene-1.png",
-            "aspect": "622/408"
-          },
-          {
-            "title": "Lo primero que vi",
-            "text": "Cuando una persona sonrió un poco, la otra levantó los hombros. ¿La misma forma había despertado sentimientos diferentes? En vez de decidir por sus caras, elegí esperar sus palabras.",
-            "viewpoint": "La profesora de cerámica",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una persona abre mucho los ojos y la otra sonríe.",
-                "x": 23,
-                "y": 36
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hay tazas parecidas delante de las dos personas.",
-                "x": 66,
-                "y": 69
-              }
-            ],
-            "image": "./images/page-camera-2-scene-2.png",
-            "aspect": "624/408"
-          },
-          {
-            "title": "El sentimiento que imaginé",
-            "text": "Una tapaba su taza y el otro dudaba en hablar. Pensé que corregir la forma les ayudaría, pero detuve la mano. Ayudar a hacer una taza mejor y escuchar el sentimiento del momento eran cosas distintas.",
-            "viewpoint": "La profesora de cerámica",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una persona sostiene la taza y baja la cabeza.",
-                "x": 25,
-                "y": 41
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una persona duda con las manos tapando la taza.",
-                "x": 25,
-                "y": 65
-              }
-            ],
-            "image": "./images/page-camera-2-scene-3.png",
-            "aspect": "622/404"
-          },
-          {
-            "title": "Volver a mirar",
-            "text": "Traje una silla y me senté a su altura. Pregunté cómo se habían sentido al hacer las tazas y esperé. Un instante sin añadir explicaciones parecía darles espacio para hablar.",
-            "viewpoint": "La profesora de cerámica",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Los hombros y las manos aún parecen tensos.",
-                "x": 22,
-                "y": 45
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La maestra espera a su altura.",
-                "x": 48,
-                "y": 62
-              }
-            ],
-            "image": "./images/page-camera-2-scene-4.png",
-            "aspect": "624/404"
-          },
-          {
-            "title": "Un sentimiento dicho en voz alta",
-            "text": "Una temía que se notara su falta de práctica; el otro se alegraba de que las tazas se parecieran. Escuché sus palabras más tiempo del que miré las formas. Tener más experiencia no significaba conocer mejor sus sentimientos.",
-            "viewpoint": "La profesora de cerámica",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos personas se miran mientras se escuchan.",
-                "x": 26,
-                "y": 44
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Ponen las tazas juntas y conversan.",
-                "x": 63,
-                "y": 62
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Una temía que se notara su falta de práctica; el otro se alegraba de que las tazas se parecieran. Escuché sus palabras más tiempo del que miré las formas. Tener más experiencia no significaba conocer mejor sus sentimientos.",
-                "x": 38,
-                "y": 56
-              }
-            ],
-            "image": "./images/page-camera-2-scene-5.png",
-            "aspect": "622/430"
-          },
-          {
-            "title": "Un pequeño cambio de mirada",
-            "text": "Las tazas seguían inclinadas. Hoy, hablar con confianza de los sentimientos importaba tanto como corregir una forma. Dejé a un lado, por un momento, mi propia prisa por ayudar.",
-            "viewpoint": "La profesora de cerámica",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Sus ojos parecen más relajados.",
-                "x": 27,
-                "y": 43
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Pueden sonreír juntos sin cambiar la forma de las tazas.",
-                "x": 49,
-                "y": 78
-              }
-            ],
-            "image": "./images/page-camera-2-scene-6.png",
-            "aspect": "624/430"
-          }
-        ]
-      }
-    ],
-    "characters": [
-      {
-        "name": "La alumna que empieza",
-        "age": null
-      },
-      {
-        "name": "El compañero de al lado",
-        "age": null
-      },
-      {
-        "name": "La profesora de cerámica",
-        "age": null
-      }
-    ]
-  },
-  {
-    "id": "shop",
-    "title": "Una luz encendida al volver",
-    "place": "El regreso a casa",
-    "audience": "adult",
-    "narrator": "La persona que vuelve a casa",
-    "roles": [
-      "La persona que vuelve a casa",
-      "La persona que está en casa",
-      "La vecina"
-    ],
-    "scenes": [
-      {
-        "title": "Un pequeño lugar en el día",
-        "text": "Volví a casa después de un día largo. Al otro lado de la puerta vi una pequeña lámpara y dos cuencos. Quería descansar pronto, pero también esperaba que alguien me preguntara un poco por mi día.",
-        "viewpoint": "La persona que vuelve a casa",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que está en casa baja la mirada hacia la luz.",
-            "x": 66,
-            "y": 41
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hay dos cuencos y una luz hacia la entrada.",
-            "x": 75,
-            "y": 76
-          }
-        ],
-        "image": "./images/shop-camera-0-scene-1.png",
-        "aspect": "627/412"
-      },
-      {
-        "title": "Lo primero que vi",
-        "text": "La persona con quien vivía dijo brevemente: «¿Ya llegaste?». Apreté la correa de mi bolsa. En mi pensamiento de que quizá estaba enfadada porque llegaba tarde también estaba mi deseo de escuchar una voz de bienvenida.",
-        "viewpoint": "La persona que vuelve a casa",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que está en casa me mira.",
-            "x": 52,
-            "y": 42
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Una persona está junto a la puerta y la otra cerca de la mesa.",
-            "x": 60,
-            "y": 79
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: ¿Ya llegaste?",
-            "x": 65,
-            "y": 54
-          }
-        ],
-        "image": "./images/shop-camera-0-scene-2.png",
-        "aspect": "619/412"
-      },
-      {
-        "title": "El sentimiento que imaginé",
-        "text": "Su cara estaba serena y sus palabras eran cortas. Solo noté que faltaba el saludo que deseaba. Vi dos cuencos y una luz dirigida hacia la puerta, pero no supe leer el cuidado que podían guardar.",
-        "viewpoint": "La persona que vuelve a casa",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que está en casa junta un poco las cejas.",
-            "x": 57,
-            "y": 46
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que llega aprieta la correa de su bolsa.",
-            "x": 23,
-            "y": 53
-          }
-        ],
-        "image": "./images/shop-camera-0-scene-3.png",
-        "aspect": "627/400"
-      },
-      {
-        "title": "Volver a mirar",
-        "text": "Saqué las mandarinas que había comprado por el camino. Ella se inclinó un poco hacia delante. Aquel pequeño movimiento me hizo pensar que mi primera interpretación no bastaba para explicar esa noche.",
-        "viewpoint": "La persona que vuelve a casa",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que está en casa mira las mandarinas con los ojos muy abiertos.",
-            "x": 57,
-            "y": 45
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "De la bolsa sale un paquete de mandarinas.",
-            "x": 40,
-            "y": 67
-          }
-        ],
-        "image": "./images/shop-camera-0-scene-4.png",
-        "aspect": "619/400"
-      },
-      {
-        "title": "Un sentimiento dicho en voz alta",
-        "text": "Dijo que había preparado los cuencos y esperado para comer juntos. Conté que había pensado que estaba enfadada y que quería escuchar que se alegraba de verme. El cansancio y las ganas de compañía podían vivir al mismo tiempo en una persona.",
-        "viewpoint": "La persona que vuelve a casa",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que está en casa abre las manos y habla.",
-            "x": 55,
-            "y": 45
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Hablan de sentimientos que los cuencos y la luz no habían transmitido por sí solos.",
-            "x": 70,
-            "y": 63
-          },
-          {
-            "kind": "👂 Llave del oído",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Palabras del cuento: Dijo que había preparado los cuencos y esperado para comer juntos. Conté que había pensado que estaba enfadada y que quería escuchar que se alegraba de verme. El cansancio y las ganas de compañía podían vivir al mismo tiempo en una persona.",
-            "x": 67,
-            "y": 57
-          }
-        ],
-        "image": "./images/shop-camera-0-scene-5.png",
-        "aspect": "627/430"
-      },
-      {
-        "title": "Un pequeño cambio de mirada",
-        "text": "Nos sentamos uno junto al otro bajo la pequeña lámpara. Mientras pelábamos mandarinas, compartimos pequeños trozos de nuestros días largos. Podíamos guardar tanto el dolor de un saludo breve como el cuidado preparado en lugar de palabras, sin borrar ninguno.",
-        "viewpoint": "La persona que vuelve a casa",
-        "clues": [
-          {
-            "kind": "👀 Llave de los ojos",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "La persona que está en casa sonríe.",
-            "x": 70,
-            "y": 43
-          },
-          {
-            "kind": "🏃 Llave de las acciones",
-            "location": "Observa el lugar señalado en la imagen.",
-            "message": "Las dos personas se sientan juntas a la mesa.",
-            "x": 64,
-            "y": 74
-          }
-        ],
-        "image": "./images/shop-camera-0-scene-6.png",
-        "aspect": "619/430"
-      }
-    ],
-    "activities": [
-      {
-        "role": "La persona que está en casa",
-        "text": "Saqué dos cuencos y orienté la lámpara hacia la entrada. Quería que la persona que volvía viera la luz y entrara a gusto. Tenía poca energía para hablar, pero mis ganas de sentarnos juntos no habían disminuido.",
-        "image": "./images/shop-camera-1-scene-3.png",
-        "scenes": [
-          {
-            "title": "Un pequeño lugar en el día",
-            "text": "Saqué dos cuencos y orienté la lámpara hacia la entrada. Quería que la persona que volvía viera la luz y entrara a gusto. Tenía poca energía para hablar, pero mis ganas de sentarnos juntos no habían disminuido.",
-            "viewpoint": "La persona que está en casa",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La vecina sonríe cerca de la puerta.",
-                "x": 76,
-                "y": 35
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hay dos cuencos y una luz hacia la entrada.",
-                "x": 58,
-                "y": 75
-              }
-            ],
-            "image": "./images/shop-camera-1-scene-1.png",
-            "aspect": "622/400"
-          },
-          {
-            "title": "Lo primero que vi",
-            "text": "Cuando se abrió la puerta, dije: «¿Ya llegaste?». Al final de un día largo, me quedaba poco espacio para elegir una frase larga. Pensé que los cuencos y la luz hablarían por mí, pero él quizá esperaba otras palabras.",
-            "viewpoint": "La persona que está en casa",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega mira desde la puerta.",
-                "x": 56,
-                "y": 34
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una persona está junto a la puerta y la otra cerca de la mesa.",
-                "x": 69,
-                "y": 64
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: ¿Ya llegaste?",
-                "x": 69,
-                "y": 46
-              }
-            ],
-            "image": "./images/shop-camera-1-scene-2.png",
-            "aspect": "624/400"
-          },
-          {
-            "title": "El sentimiento que imaginé",
-            "text": "Estaba de pie apretando la correa de su bolsa. Primero pensé que quizá se había cansado esperándome. Necesité un poco de tiempo para imaginar cómo le habían sonado mis palabras breves.",
-            "viewpoint": "La persona que está en casa",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega baja las cejas y deja de sonreír.",
-                "x": 50,
-                "y": 34
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega aprieta la correa de su bolsa.",
-                "x": 44,
-                "y": 58
-              }
-            ],
-            "image": "./images/shop-camera-1-scene-3.png",
-            "aspect": "622/400"
-          },
-          {
-            "title": "Volver a mirar",
-            "text": "De su bolsa salió un pequeño paquete de mandarinas. Me incliné hacia delante, sintiendo que había recordado lo que me gustaba. Tal vez, incluso mientras ahorrábamos palabras, ambos intentábamos ofrecer cariño.",
-            "viewpoint": "La persona que está en casa",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega mira dentro de la bolsa.",
-                "x": 50,
-                "y": 33
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "De la bolsa sale un paquete de mandarinas.",
-                "x": 51,
-                "y": 68
-              }
-            ],
-            "image": "./images/shop-camera-1-scene-4.png",
-            "aspect": "624/400"
-          },
-          {
-            "title": "Un sentimiento dicho en voz alta",
-            "text": "Dijo que había pensado que yo estaba enfadada. Expliqué que estaba cansada, pero había esperado porque quería comer juntos. Mi forma de expresarlo no era simplemente incorrecta, aunque había sentimientos que no había conseguido transmitir.",
-            "viewpoint": "La persona que está en casa",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega abre la boca y muestra las mandarinas.",
-                "x": 68,
-                "y": 32
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hablan de sentimientos que los cuencos y la luz no habían transmitido por sí solos.",
-                "x": 42,
-                "y": 62
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Dijo que había pensado que yo estaba enfadada. Expliqué que estaba cansada, pero había esperado porque quería comer juntos. Mi forma de expresarlo no era simplemente incorrecta, aunque había sentimientos que no había conseguido transmitir.",
-                "x": 80,
-                "y": 44
-              }
-            ],
-            "image": "./images/shop-camera-1-scene-5.png",
-            "aspect": "622/442"
-          },
-          {
-            "title": "Un pequeño cambio de mirada",
-            "text": "Llenamos los cuencos y nos sentamos juntos. La próxima vez quería decir, aunque fuera brevemente: «Me alegra que hayas vuelto». Con alguien cercano, quizá podía expresar a veces un sentimiento como por primera vez, en vez de dar por hecho que ya lo sabía.",
-            "viewpoint": "La persona que está en casa",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega sonríe un poco.",
-                "x": 53,
-                "y": 35
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos personas se sientan juntas a la mesa.",
-                "x": 59,
-                "y": 68
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Me alegra que hayas vuelto",
-                "x": 66,
-                "y": 47
-              }
-            ],
-            "image": "./images/shop-camera-1-scene-6.png",
-            "aspect": "624/442"
-          }
-        ]
-      },
-      {
-        "role": "La vecina",
-        "text": "Desde el pasillo vi a mi vecina mover una pequeña lámpara. Preguntó si se veía la luz desde la entrada. La ayudé con la dirección, pero aquella pregunta también podía guardar las ganas de esperar a alguien.",
-        "image": "./images/shop-camera-2-scene-3.png",
-        "scenes": [
-          {
-            "title": "Un pequeño lugar en el día",
-            "text": "Desde el pasillo vi a mi vecina mover una pequeña lámpara. Preguntó si se veía la luz desde la entrada. La ayudé con la dirección, pero aquella pregunta también podía guardar las ganas de esperar a alguien.",
-            "viewpoint": "La vecina",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La vecina baja la mirada al comprobar la luz.",
-                "x": 55,
-                "y": 36
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hay dos cuencos y una luz hacia la entrada.",
-                "x": 66,
-                "y": 72
-              }
-            ],
-            "image": "./images/shop-camera-2-scene-1.png",
-            "aspect": "625/411"
-          },
-          {
-            "title": "Lo primero que vi",
-            "text": "La persona que volvía y mi vecina intercambiaron un saludo breve. Me quedé en el pasillo sin interrumpir su tiempo. Conocer a una vecina desde hacía años no significaba conocer sus sentimientos de ese día.",
-            "viewpoint": "La vecina",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona sentada mira a quien llega.",
-                "x": 70,
-                "y": 44
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Una persona está junto a la puerta y la otra cerca de la mesa.",
-                "x": 74,
-                "y": 76
-              }
-            ],
-            "image": "./images/shop-camera-2-scene-2.png",
-            "aspect": "621/411"
-          },
-          {
-            "title": "El sentimiento que imaginé",
-            "text": "Una persona sujetaba la correa de una bolsa y la otra estaba cerca de la mesa. Pensé que una noche callada podía parecer distancia entre ellas. Pero era mi interpretación: un saludo breve no me contaba los sentimientos de las dos.",
-            "viewpoint": "La vecina",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega deja de sonreír.",
-                "x": 45,
-                "y": 36
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega aprieta la correa de su bolsa.",
-                "x": 41,
-                "y": 57
-              }
-            ],
-            "image": "./images/shop-camera-2-scene-3.png",
-            "aspect": "625/413"
-          },
-          {
-            "title": "Volver a mirar",
-            "text": "Por la puerta abierta vi que abrían una bolsa de mandarinas. La lámpara no solo alumbraba la mesa, sino también el camino de entrada. Añadir un detalle nuevo a lo que ya había visto dejó más espacio para una historia que aún no conocía.",
-            "viewpoint": "La vecina",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "La persona que llega mira dentro de la bolsa.",
-                "x": 45,
-                "y": 29
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "De la bolsa sale un paquete de mandarinas.",
-                "x": 59,
-                "y": 70
-              }
-            ],
-            "image": "./images/shop-camera-2-scene-4.png",
-            "aspect": "621/413"
-          },
-          {
-            "title": "Un sentimiento dicho en voz alta",
-            "text": "Las dos personas hablaron con calma. Recordé la pregunta anterior sobre la luz. En vez de interpretar por ellas los sentimientos de mi vecina, quería dejarles tiempo para hablar con sus propias palabras.",
-            "viewpoint": "La vecina",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos personas se miran y conversan.",
-                "x": 71,
-                "y": 34
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Hablan de sentimientos que los cuencos y la luz no habían transmitido por sí solos.",
-                "x": 46,
-                "y": 66
-              },
-              {
-                "kind": "👂 Llave del oído",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Palabras del cuento: Las dos personas hablaron con calma. Recordé la pregunta anterior sobre la luz. En vez de interpretar por ellas los sentimientos de mi vecina, quería dejarles tiempo para hablar con sus propias palabras.",
-                "x": 83,
-                "y": 46
-              }
-            ],
-            "image": "./images/shop-camera-2-scene-5.png",
-            "aspect": "625/418"
-          },
-          {
-            "title": "Un pequeño cambio de mirada",
-            "text": "Me despedí y volví a casa. Al ver la misma luz, yo había pensado en su dirección y mi vecina quizá en quien regresaba. Hoy también quise ofrecer una palabra más de saludo a alguien cercano.",
-            "viewpoint": "La vecina",
-            "clues": [
-              {
-                "kind": "👀 Llave de los ojos",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos personas sonríen al mirar las mandarinas.",
-                "x": 65,
-                "y": 38
-              },
-              {
-                "kind": "🏃 Llave de las acciones",
-                "location": "Observa el lugar señalado en la imagen.",
-                "message": "Las dos personas se sientan juntas a la mesa.",
-                "x": 67,
-                "y": 76
-              }
-            ],
-            "image": "./images/shop-camera-2-scene-6.png",
-            "aspect": "621/418"
-          }
-        ]
-      }
-    ],
-    "characters": [
-      {
-        "name": "La persona que vuelve a casa",
-        "age": null
-      },
-      {
-        "name": "La persona que está en casa",
-        "age": null
-      },
-      {
-        "name": "La vecina",
-        "age": null
-      }
-    ]
   }
 ]
