@@ -35,16 +35,16 @@
         "panel": 0,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "The corners of a mouth lift a little.",
+            "kind": "👀 Eye key",
+            "message": "Jiwoo has a smile with upturned mouth corners.",
             "x": 30,
             "y": 54
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "There is a picture note of bread in a hand.",
+            "kind": "🏃 Action key",
+            "message": "Jiwoo holds a note with pictures of bread.",
             "x": 40,
-            "y": 65
+            "y": 62
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -63,16 +63,16 @@
         "panel": 1,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Eyes open wide or a head tilts to look closer.",
-            "x": 23,
-            "y": 48
+            "kind": "👀 Eye key",
+            "message": "Jiwoo has a slightly open mouth.",
+            "x": 28,
+            "y": 49
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A hand points to one bread.",
-            "x": 52,
-            "y": 68
+            "kind": "🏃 Action key",
+            "message": "The baker points to one loaf of bread.",
+            "x": 48,
+            "y": 59
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -86,21 +86,21 @@
       },
       {
         "title": "Was I making him late?",
-        "text": "Junho looked at the clock and held his book tightly. I wondered if he was cross because I was taking so long. I pressed my lips together and fiddled with my note. Junho looked at his own book more often than at me.",
+        "text": "Junho looked at the clock and held his book close. I wondered if he was upset because I was taking so long. I lowered my head and gripped my backpack straps. Junho looked at his book more often than at me.",
         "viewpoint": "Jiwoo",
         "panel": 2,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Lips close and shoulders draw inward.",
+            "kind": "👀 Eye key",
+            "message": "Jiwoo has lowered their head.",
             "x": 28,
             "y": 49
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "Junho holds his yellow book tightly.",
-            "x": 72,
-            "y": 71
+            "kind": "🏃 Action key",
+            "message": "Jiwoo grips both backpack straps.",
+            "x": 23,
+            "y": 72
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -119,16 +119,16 @@
         "panel": 3,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "A face turns toward the other person to listen.",
-            "x": 75,
-            "y": 26
+            "kind": "👀 Eye key",
+            "message": "Jiwoo has a slightly open mouth.",
+            "x": 38,
+            "y": 48
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The blue bookmark has a crumpled end.",
-            "x": 64,
-            "y": 52
+            "kind": "🏃 Action key",
+            "message": "A blue star bookmark sticks out of the yellow book.",
+            "x": 62,
+            "y": 56
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -147,21 +147,21 @@
         "panel": 4,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Faces soften as they look toward one another.",
-            "x": 55,
-            "y": 43
+            "kind": "👀 Eye key",
+            "message": "Jiwoo has a smile with upturned mouth corners.",
+            "x": 30,
+            "y": 49
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "Jiwoo holds out her picture note.",
+            "kind": "🏃 Action key",
+            "message": "Jiwoo holds a note with pictures of bread.",
             "x": 39,
             "y": 62
           },
           {
-            "kind": "👂 귀 열쇠",
-            "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-            "x": 63,
+            "kind": "👂 Ear key",
+            "message": "Junho said the worry was about losing the bookmark.",
+            "x": 35,
             "y": 57
           }
         ],
@@ -181,16 +181,16 @@
         "panel": 5,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Mouths lift into smiles and shoulders relax.",
-            "x": 84,
-            "y": 40
+            "kind": "👀 Eye key",
+            "message": "Jiwoo has a smile with upturned mouth corners.",
+            "x": 30,
+            "y": 48
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "Hands are passing the bread bag.",
-            "x": 43,
-            "y": 54
+            "kind": "🏃 Action key",
+            "message": "The baker is handing over a bag of bread.",
+            "x": 45,
+            "y": 56
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -206,10 +206,10 @@
     "activities": [
       {
         "role": "Junho",
-        "atlas": "./images/errand-view-1.png",
+        "atlas": "./images/errand-1-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "panel": 2,
+        "panel": 0,
         "clues": [],
         "scenes": [
           {
@@ -219,26 +219,28 @@
             "panel": 0,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 72,
-                "y": 48
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a smile with upturned mouth corners.",
+                "x": 30,
+                "y": 54
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "There is a picture note of bread in a hand.",
-                "x": 65,
-                "y": 65
+                "kind": "🏃 Action key",
+                "message": "Jiwoo holds a note with pictures of bread.",
+                "x": 41,
+                "y": 61
               }
             ],
-            "atlas": "./images/errand-view-1.png",
-            "aspect": "762/330",
+            "atlas": "./images/errand-1-lens.png",
+            "aspect": 2.2695,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.2266
-            }
+              "w": 49.349,
+              "h": 32.6172
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Which bread should I choose?",
@@ -247,26 +249,28 @@
             "panel": 1,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 74,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a slightly open mouth.",
+                "x": 29,
+                "y": 50
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A hand points to one bread.",
-                "x": 52,
-                "y": 68
+                "kind": "🏃 Action key",
+                "message": "The baker points to one loaf of bread.",
+                "x": 49,
+                "y": 58
               }
             ],
-            "atlas": "./images/errand-view-1.png",
-            "aspect": "762/330",
+            "atlas": "./images/errand-1-lens.png",
+            "aspect": 2.2934,
             "crop": {
-              "x": 50.1953,
+              "x": 49.9349,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.2266
-            }
+              "w": 49.8698,
+              "h": 32.6172
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Was I making him late?",
@@ -275,26 +279,28 @@
             "panel": 2,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 74,
-                "y": 47
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has lowered their head.",
+                "x": 23,
+                "y": 59
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Junho holds his yellow book tightly.",
-                "x": 30,
-                "y": 79
+                "kind": "🏃 Action key",
+                "message": "Jiwoo grips both backpack straps.",
+                "x": 24,
+                "y": 73
               }
             ],
-            "atlas": "./images/errand-view-1.png",
-            "aspect": "762/308",
+            "atlas": "./images/errand-1-lens.png",
+            "aspect": 2.4217,
             "crop": {
               "x": 0.1953,
-              "y": 33.1055,
-              "w": 49.6094,
-              "h": 30.0781
-            }
+              "y": 33.4961,
+              "w": 49.349,
+              "h": 30.5664
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A little glimpse between the pages",
@@ -303,26 +309,28 @@
             "panel": 3,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 74,
-                "y": 52
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a slightly open mouth.",
+                "x": 37,
+                "y": 48
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The blue bookmark has a crumpled end.",
-                "x": 38,
-                "y": 71
+                "kind": "🏃 Action key",
+                "message": "A blue star bookmark sticks out of the yellow book.",
+                "x": 66,
+                "y": 55
               }
             ],
-            "atlas": "./images/errand-view-1.png",
-            "aspect": "762/308",
+            "atlas": "./images/errand-1-lens.png",
+            "aspect": 2.4473,
             "crop": {
-              "x": 50.1953,
-              "y": 33.1055,
-              "w": 49.6094,
-              "h": 30.0781
-            }
+              "x": 49.9349,
+              "y": 33.4961,
+              "w": 49.8698,
+              "h": 30.5664
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A small question out loud",
@@ -331,32 +339,34 @@
             "panel": 4,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 72,
-                "y": 46
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a smile with upturned mouth corners.",
+                "x": 30,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Jiwoo holds out her picture note.",
-                "x": 65,
-                "y": 68
+                "kind": "🏃 Action key",
+                "message": "Jiwoo holds a note with pictures of bread.",
+                "x": 40,
+                "y": 61
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 80,
-                "y": 60
+                "kind": "👂 Ear key",
+                "message": "Junho said the worry was about losing the bookmark.",
+                "x": 35,
+                "y": 57
               }
             ],
-            "atlas": "./images/errand-view-1.png",
-            "aspect": "762/368",
+            "atlas": "./images/errand-1-lens.png",
+            "aspect": 2.1114,
             "crop": {
               "x": 0.1953,
-              "y": 63.7695,
-              "w": 49.6094,
-              "h": 35.9375
-            }
+              "y": 64.6484,
+              "w": 49.349,
+              "h": 35.0586
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A warm bag in my hands",
@@ -365,42 +375,44 @@
             "panel": 5,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 81,
-                "y": 52
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a smile with upturned mouth corners.",
+                "x": 30,
+                "y": 48
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Hands are passing the bread bag.",
-                "x": 68,
-                "y": 70
+                "kind": "🏃 Action key",
+                "message": "The baker is handing over a bag of bread.",
+                "x": 45,
+                "y": 52
               }
             ],
-            "atlas": "./images/errand-view-1.png",
-            "aspect": "762/368",
+            "atlas": "./images/errand-1-lens.png",
+            "aspect": 2.1337,
             "crop": {
-              "x": 50.1953,
-              "y": 63.7695,
-              "w": 49.6094,
-              "h": 35.9375
-            }
+              "x": 49.9349,
+              "y": 64.6484,
+              "w": 49.8698,
+              "h": 35.0586
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "aspect": "762/308",
+        "aspect": 2.2695,
         "crop": {
           "x": 0.1953,
-          "y": 33.1055,
-          "w": 49.6094,
-          "h": 30.0781
+          "y": 0.293,
+          "w": 49.349,
+          "h": 32.6172
         }
       },
       {
         "role": "The baker",
-        "atlas": "./images/errand-view-2.png",
+        "atlas": "./images/errand-2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "panel": 2,
+        "panel": 0,
         "clues": [],
         "scenes": [
           {
@@ -410,26 +422,28 @@
             "panel": 0,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 60,
-                "y": 47
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a smile with upturned mouth corners.",
+                "x": 81,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "There is a picture note of bread in a hand.",
-                "x": 55,
-                "y": 68
+                "kind": "🏃 Action key",
+                "message": "Jiwoo holds a note with pictures of bread.",
+                "x": 73,
+                "y": 59
               }
             ],
-            "atlas": "./images/errand-view-2.png",
-            "aspect": "763/330",
+            "atlas": "./images/errand-2-lens.png",
+            "aspect": 2.3242,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6745,
+              "w": 49.9349,
               "h": 32.2266
-            }
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Which bread should I choose?",
@@ -438,82 +452,88 @@
             "panel": 1,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 68,
-                "y": 48
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a slightly open mouth.",
+                "x": 82,
+                "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A hand points to one bread.",
-                "x": 49,
-                "y": 66
+                "kind": "🏃 Action key",
+                "message": "The baker points to one loaf of bread.",
+                "x": 80,
+                "y": 73
               }
             ],
-            "atlas": "./images/errand-view-2.png",
-            "aspect": "761/330",
+            "atlas": "./images/errand-2-lens.png",
+            "aspect": 2.2939,
             "crop": {
-              "x": 50.2604,
+              "x": 50.5208,
               "y": 0.293,
-              "w": 49.5443,
+              "w": 49.2839,
               "h": 32.2266
-            }
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Was I making him late?",
-            "text": "Two children stood quietly. One held a note and the other held a book. Could they each be worrying about something different?",
+            "text": "Jiwoo gripped her backpack straps, and Junho held his book close. They were quiet, and I wondered what they were thinking. I decided to wait a little before asking.",
             "viewpoint": "The baker",
             "panel": 2,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 57,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has lowered their head.",
+                "x": 80,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Junho holds his yellow book tightly.",
-                "x": 80,
-                "y": 72
+                "kind": "🏃 Action key",
+                "message": "Jiwoo grips both backpack straps.",
+                "x": 81,
+                "y": 73
               }
             ],
-            "atlas": "./images/errand-view-2.png",
-            "aspect": "763/326",
+            "atlas": "./images/errand-2-lens.png",
+            "aspect": 2.5148,
             "crop": {
               "x": 0.1953,
               "y": 33.1055,
-              "w": 49.6745,
-              "h": 31.8359
-            }
+              "w": 49.9349,
+              "h": 29.7852
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A little glimpse between the pages",
-            "text": "I saw a crumpled bookmark in the yellow book. The child with the note kept looking between the breads. I left room for a question instead of hurrying them.",
+            "text": "A blue star bookmark stuck out of the yellow book. Jiwoo pointed to it while Junho smoothed its crumpled end. I watched a little longer to hear what they wanted to say.",
             "viewpoint": "The baker",
             "panel": 3,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 72,
-                "y": 35
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a slightly open mouth.",
+                "x": 82,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The blue bookmark has a crumpled end.",
-                "x": 78,
-                "y": 57
+                "kind": "🏃 Action key",
+                "message": "A blue star bookmark sticks out of the yellow book.",
+                "x": 24,
+                "y": 67
               }
             ],
-            "atlas": "./images/errand-view-2.png",
-            "aspect": "761/326",
+            "atlas": "./images/errand-2-lens.png",
+            "aspect": 2.482,
             "crop": {
-              "x": 50.2604,
+              "x": 50.5208,
               "y": 33.1055,
-              "w": 49.5443,
-              "h": 31.8359
-            }
+              "w": 49.2839,
+              "h": 29.7852
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A small question out loud",
@@ -522,32 +542,34 @@
             "panel": 4,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a smile with upturned mouth corners.",
+                "x": 58,
+                "y": 50
+              },
+              {
+                "kind": "🏃 Action key",
+                "message": "Jiwoo holds a note with pictures of bread.",
                 "x": 57,
-                "y": 45
+                "y": 65
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Jiwoo holds out her picture note.",
-                "x": 48,
-                "y": 70
-              },
-              {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 65,
-                "y": 59
+                "kind": "👂 Ear key",
+                "message": "Junho said the worry was about losing the bookmark.",
+                "x": 63,
+                "y": 58
               }
             ],
-            "atlas": "./images/errand-view-2.png",
-            "aspect": "763/350",
+            "atlas": "./images/errand-2-lens.png",
+            "aspect": 2.0674,
             "crop": {
               "x": 0.1953,
-              "y": 65.5273,
-              "w": 49.6745,
-              "h": 34.1797
-            }
+              "y": 63.4766,
+              "w": 49.9349,
+              "h": 36.2305
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A warm bag in my hands",
@@ -556,34 +578,36 @@
             "panel": 5,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 66,
-                "y": 48
+                "kind": "👀 Eye key",
+                "message": "Jiwoo has a smile with upturned mouth corners.",
+                "x": 81,
+                "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Hands are passing the bread bag.",
-                "x": 62,
-                "y": 76
+                "kind": "🏃 Action key",
+                "message": "The baker is handing over a bag of bread.",
+                "x": 61,
+                "y": 59
               }
             ],
-            "atlas": "./images/errand-view-2.png",
-            "aspect": "761/350",
+            "atlas": "./images/errand-2-lens.png",
+            "aspect": 2.0404,
             "crop": {
-              "x": 50.2604,
-              "y": 65.5273,
-              "w": 49.5443,
-              "h": 34.1797
-            }
+              "x": 50.5208,
+              "y": 63.4766,
+              "w": 49.2839,
+              "h": 36.2305
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "aspect": "763/326",
+        "aspect": 2.3242,
         "crop": {
           "x": 0.1953,
-          "y": 33.1055,
-          "w": 49.6745,
-          "h": 31.8359
+          "y": 0.293,
+          "w": 49.9349,
+          "h": 32.2266
         }
       }
     ]
@@ -606,16 +630,16 @@
         "viewpoint": "Minseo",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "The corners of a mouth lift a little.",
-            "x": 29,
-            "y": 56
+            "kind": "👀 Eye key",
+            "message": "Minseo has a smile with upturned mouth corners.",
+            "x": 30,
+            "y": 57
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The two mugs sit close together.",
-            "x": 37,
-            "y": 86
+            "kind": "🏃 Action key",
+            "message": "A blue cup is in front of Minseo.",
+            "x": 36,
+            "y": 82
           }
         ],
         "panel": 0,
@@ -634,16 +658,16 @@
         "viewpoint": "Minseo",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Eyes open wide or a head tilts to look closer.",
-            "x": 72,
-            "y": 47
+            "kind": "👀 Eye key",
+            "message": "Minseo has a slightly open mouth.",
+            "x": 30,
+            "y": 57
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A thin line is visible on the blue mug.",
-            "x": 48,
-            "y": 77
+            "kind": "🏃 Action key",
+            "message": "A thin crack is visible on the side of the blue cup.",
+            "x": 47,
+            "y": 85
           }
         ],
         "panel": 1,
@@ -662,16 +686,16 @@
         "viewpoint": "Minseo",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Lips close and shoulders draw inward.",
-            "x": 29,
-            "y": 53
+            "kind": "👀 Eye key",
+            "message": "Minseo has downturned mouth corners.",
+            "x": 30,
+            "y": 57
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A hand pauses near the blue mug.",
-            "x": 46,
-            "y": 82
+            "kind": "🏃 Action key",
+            "message": "Yuna pauses a hand just before the blue cup.",
+            "x": 52,
+            "y": 65
           }
         ],
         "panel": 2,
@@ -690,16 +714,16 @@
         "viewpoint": "Minseo",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "A face turns toward the other person to listen.",
-            "x": 75,
-            "y": 54
+            "kind": "👀 Eye key",
+            "message": "Minseo has lowered their head.",
+            "x": 30,
+            "y": 57
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A finger points toward the blue mug.",
-            "x": 44,
-            "y": 83
+            "kind": "🏃 Action key",
+            "message": "A thin crack is visible on the side of the blue cup.",
+            "x": 47,
+            "y": 81
           }
         ],
         "panel": 3,
@@ -718,22 +742,22 @@
         "viewpoint": "Minseo",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Faces soften as they look toward one another.",
-            "x": 73,
-            "y": 53
+            "kind": "👀 Eye key",
+            "message": "Minseo has a smile with upturned mouth corners.",
+            "x": 30,
+            "y": 57
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A new blue mug has been brought over.",
-            "x": 46,
-            "y": 85
+            "kind": "🏃 Action key",
+            "message": "A new blue cup without a crack has been brought over.",
+            "x": 60,
+            "y": 57
           },
           {
-            "kind": "👂 귀 열쇠",
-            "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-            "x": 81,
-            "y": 67
+            "kind": "👂 Ear key",
+            "message": "Yuna said the worry was that the blue cup might break.",
+            "x": 35,
+            "y": 65
           }
         ],
         "panel": 4,
@@ -752,16 +776,16 @@
         "viewpoint": "Minseo",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Mouths lift into smiles and shoulders relax.",
-            "x": 72,
-            "y": 55
+            "kind": "👀 Eye key",
+            "message": "Minseo has a smile with upturned mouth corners.",
+            "x": 30,
+            "y": 57
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The mugs are in front of them as they talk again.",
-            "x": 39,
-            "y": 83
+            "kind": "🏃 Action key",
+            "message": "A blue cup is in front of Minseo.",
+            "x": 40,
+            "y": 73
           }
         ],
         "panel": 5,
@@ -779,7 +803,7 @@
       {
         "role": "Yuna",
         "text": "I was glad to sit beside Minseo. I wanted to listen to his day without rushing.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -787,27 +811,29 @@
             "viewpoint": "Yuna",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 73,
-                "y": 44
+                "kind": "👀 Eye key",
+                "message": "Minseo has a smile with upturned mouth corners.",
+                "x": 30,
+                "y": 55
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The two mugs sit close together.",
-                "x": 76,
-                "y": 79
+                "kind": "🏃 Action key",
+                "message": "A blue cup is in front of Minseo.",
+                "x": 40,
+                "y": 81
               }
             ],
             "panel": 0,
-            "atlas": "./images/cups-view-1.png",
-            "aspect": "763/335",
+            "atlas": "./images/cups-1-lens.png",
+            "aspect": 2.303,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6745,
-              "h": 32.7148
-            }
+              "w": 49.4792,
+              "h": 32.2266
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -815,27 +841,29 @@
             "viewpoint": "Yuna",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 77,
-                "y": 46
+                "kind": "👀 Eye key",
+                "message": "Minseo has a slightly open mouth.",
+                "x": 29,
+                "y": 55
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A thin line is visible on the blue mug.",
-                "x": 77,
+                "kind": "🏃 Action key",
+                "message": "A thin crack is visible on the side of the blue cup.",
+                "x": 42,
                 "y": 80
               }
             ],
             "panel": 1,
-            "atlas": "./images/cups-view-1.png",
-            "aspect": "761/335",
+            "atlas": "./images/cups-1-lens.png",
+            "aspect": 2.3152,
             "crop": {
-              "x": 50.2604,
+              "x": 50.0651,
               "y": 0.293,
-              "w": 49.5443,
-              "h": 32.7148
-            }
+              "w": 49.7396,
+              "h": 32.2266
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -843,27 +871,29 @@
             "viewpoint": "Yuna",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 77,
-                "y": 45
+                "kind": "👀 Eye key",
+                "message": "Minseo has downturned mouth corners.",
+                "x": 29,
+                "y": 59
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A hand pauses near the blue mug.",
-                "x": 76,
-                "y": 80
+                "kind": "🏃 Action key",
+                "message": "Yuna pauses a hand just before the blue cup.",
+                "x": 57,
+                "y": 66
               }
             ],
             "panel": 2,
-            "atlas": "./images/cups-view-1.png",
-            "aspect": "763/329",
+            "atlas": "./images/cups-1-lens.png",
+            "aspect": 2.375,
             "crop": {
               "x": 0.1953,
-              "y": 33.5938,
-              "w": 49.6745,
-              "h": 32.1289
-            }
+              "y": 33.1055,
+              "w": 49.4792,
+              "h": 31.25
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -871,27 +901,29 @@
             "viewpoint": "Yuna",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 78,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Minseo has lowered their head.",
+                "x": 31,
+                "y": 59
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A finger points toward the blue mug.",
-                "x": 70,
-                "y": 82
+                "kind": "🏃 Action key",
+                "message": "A thin crack is visible on the side of the blue cup.",
+                "x": 43,
+                "y": 81
               }
             ],
             "panel": 3,
-            "atlas": "./images/cups-view-1.png",
-            "aspect": "761/329",
+            "atlas": "./images/cups-1-lens.png",
+            "aspect": 2.3875,
             "crop": {
-              "x": 50.2604,
-              "y": 33.5938,
-              "w": 49.5443,
-              "h": 32.1289
-            }
+              "x": 50.0651,
+              "y": 33.1055,
+              "w": 49.7396,
+              "h": 31.25
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -899,33 +931,35 @@
             "viewpoint": "Yuna",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 77,
-                "y": 52
+                "kind": "👀 Eye key",
+                "message": "Minseo has a smile with upturned mouth corners.",
+                "x": 30,
+                "y": 56
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A new blue mug has been brought over.",
-                "x": 58,
-                "y": 75
+                "kind": "🏃 Action key",
+                "message": "A new blue cup without a crack has been brought over.",
+                "x": 50,
+                "y": 61
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 85,
-                "y": 66
+                "kind": "👂 Ear key",
+                "message": "Yuna said the worry was that the blue cup might break.",
+                "x": 35,
+                "y": 64
               }
             ],
             "panel": 4,
-            "atlas": "./images/cups-view-1.png",
-            "aspect": "763/342",
+            "atlas": "./images/cups-1-lens.png",
+            "aspect": 2.1348,
             "crop": {
               "x": 0.1953,
-              "y": 66.3086,
-              "w": 49.6745,
-              "h": 33.3984
-            }
+              "y": 64.9414,
+              "w": 49.4792,
+              "h": 34.7656
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -933,44 +967,46 @@
             "viewpoint": "Yuna",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 80,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Minseo has a smile with upturned mouth corners.",
+                "x": 29,
+                "y": 56
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The mugs are in front of them as they talk again.",
-                "x": 70,
-                "y": 84
+                "kind": "🏃 Action key",
+                "message": "Yuna has an open palm.",
+                "x": 66,
+                "y": 42
               }
             ],
             "panel": 5,
-            "atlas": "./images/cups-view-1.png",
-            "aspect": "761/342",
+            "atlas": "./images/cups-1-lens.png",
+            "aspect": 2.1461,
             "crop": {
-              "x": 50.2604,
-              "y": 66.3086,
-              "w": 49.5443,
-              "h": 33.3984
-            }
+              "x": 50.0651,
+              "y": 64.9414,
+              "w": 49.7396,
+              "h": 34.7656
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/cups-view-1.png",
+        "atlas": "./images/cups-1-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "763/329",
+        "aspect": 2.303,
         "crop": {
           "x": 0.1953,
-          "y": 33.5938,
-          "w": 49.6745,
-          "h": 32.1289
+          "y": 0.293,
+          "w": 49.4792,
+          "h": 32.2266
         }
       },
       {
         "role": "The party host",
         "text": "The two children chose their mugs and sat together. I hoped they would enjoy sharing their stories.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -978,55 +1014,59 @@
             "viewpoint": "The party host",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 51,
-                "y": 54
+                "kind": "👀 Eye key",
+                "message": "Minseo has a smile with upturned mouth corners.",
+                "x": 80,
+                "y": 53
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The two mugs sit close together.",
-                "x": 50,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "A blue cup is in front of Minseo.",
+                "x": 74,
+                "y": 57
               }
             ],
             "panel": 0,
-            "atlas": "./images/cups-view-2.png",
-            "aspect": "763/336",
+            "atlas": "./images/cups-2-lens.png",
+            "aspect": 2.3024,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6745,
-              "h": 32.8125
-            }
+              "w": 50.0651,
+              "h": 32.6172
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
-            "text": "Yuna kept looking at the blue mug. I wondered whether something at the party made her uncomfortable. I went closer, wondering if I had missed something.",
+            "text": "Yuna kept looking at the blue cup. I wondered for a moment whether she felt uncomfortable at the party. I watched what the children were looking at to see if I had missed something.",
             "viewpoint": "The party host",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 51,
-                "y": 47
+                "kind": "👀 Eye key",
+                "message": "Minseo has downturned mouth corners.",
+                "x": 80,
+                "y": 55
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A thin line is visible on the blue mug.",
-                "x": 57,
-                "y": 82
+                "kind": "🏃 Action key",
+                "message": "A thin crack is visible on the side of the blue cup.",
+                "x": 70,
+                "y": 61
               }
             ],
             "panel": 1,
-            "atlas": "./images/cups-view-2.png",
-            "aspect": "761/336",
+            "atlas": "./images/cups-2-lens.png",
+            "aspect": 2.2605,
             "crop": {
-              "x": 50.2604,
+              "x": 50.651,
               "y": 0.293,
-              "w": 49.5443,
-              "h": 32.8125
-            }
+              "w": 49.1536,
+              "h": 32.6172
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -1034,89 +1074,95 @@
             "viewpoint": "The party host",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 51,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Minseo has lowered their head.",
+                "x": 80,
+                "y": 57
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A hand pauses near the blue mug.",
-                "x": 64,
-                "y": 81
+                "kind": "🏃 Action key",
+                "message": "The blue cup is between the two children.",
+                "x": 75,
+                "y": 60
               }
             ],
             "panel": 2,
-            "atlas": "./images/cups-view-2.png",
-            "aspect": "763/333",
+            "atlas": "./images/cups-2-lens.png",
+            "aspect": 2.3163,
             "crop": {
               "x": 0.1953,
-              "y": 33.6914,
-              "w": 49.6745,
-              "h": 32.5195
-            }
+              "y": 33.4961,
+              "w": 50.0651,
+              "h": 32.4219
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
-            "text": "There was a thin crack where Yuna pointed. My heart gave a little jump at the thought of their hands getting hurt. I brought a new mug calmly so I would not frighten them. Once I had replaced it, I waited to hear what they wanted to say.",
+            "text": "I walked over and looked where Yuna pointed. There was a thin crack in the blue cup. I worried that the children might hurt their hands. I calmly checked the cup and prepared a new one.",
             "viewpoint": "The party host",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 77,
-                "y": 51
+                "kind": "👀 Eye key",
+                "message": "Minseo has downturned mouth corners.",
+                "x": 81,
+                "y": 59
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A finger points toward the blue mug.",
-                "x": 64,
-                "y": 84
+                "kind": "🏃 Action key",
+                "message": "A thin crack is visible on the side of the blue cup.",
+                "x": 66,
+                "y": 50
               }
             ],
             "panel": 3,
-            "atlas": "./images/cups-view-2.png",
-            "aspect": "761/333",
+            "atlas": "./images/cups-2-lens.png",
+            "aspect": 2.2741,
             "crop": {
-              "x": 50.2604,
-              "y": 33.6914,
-              "w": 49.5443,
-              "h": 32.5195
-            }
+              "x": 50.651,
+              "y": 33.4961,
+              "w": 49.1536,
+              "h": 32.4219
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
-            "text": "Minseo said he had thought Yuna did not like his story, while Yuna said she was worried the mug might break. They had looked at the same mug with different feelings. As they talked for themselves, my worry eased a little.",
+            "text": "I replaced the cup and listened to the children. Minseo had thought Yuna disliked the story, while Yuna had worried the cup might break. Hearing them speak to each other eased my worry too.",
             "viewpoint": "The party host",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 53,
-                "y": 50
+                "kind": "👀 Eye key",
+                "message": "Yuna has a smile with upturned mouth corners.",
+                "x": 25,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A new blue mug has been brought over.",
-                "x": 65,
-                "y": 84
+                "kind": "🏃 Action key",
+                "message": "A new blue cup without a crack has been brought over.",
+                "x": 73,
+                "y": 45
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 61,
-                "y": 64
+                "kind": "👂 Ear key",
+                "message": "Yuna said the worry was that the blue cup might break.",
+                "x": 30,
+                "y": 54
               }
             ],
             "panel": 4,
-            "atlas": "./images/cups-view-2.png",
-            "aspect": "763/337",
+            "atlas": "./images/cups-2-lens.png",
+            "aspect": 2.2618,
             "crop": {
               "x": 0.1953,
-              "y": 66.7969,
-              "w": 49.6745,
-              "h": 32.9102
-            }
+              "y": 66.5039,
+              "w": 50.0651,
+              "h": 33.2031
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -1124,38 +1170,40 @@
             "viewpoint": "The party host",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 79,
+                "kind": "👀 Eye key",
+                "message": "Minseo has a smile with upturned mouth corners.",
+                "x": 80,
                 "y": 54
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The mugs are in front of them as they talk again.",
-                "x": 66,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "A blue cup is in front of Minseo.",
+                "x": 74,
+                "y": 57
               }
             ],
             "panel": 5,
-            "atlas": "./images/cups-view-2.png",
-            "aspect": "761/337",
+            "atlas": "./images/cups-2-lens.png",
+            "aspect": 2.2206,
             "crop": {
-              "x": 50.2604,
-              "y": 66.7969,
-              "w": 49.5443,
-              "h": 32.9102
-            }
+              "x": 50.651,
+              "y": 66.5039,
+              "w": 49.1536,
+              "h": 33.2031
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/cups-view-2.png",
+        "atlas": "./images/cups-2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "763/333",
+        "aspect": 2.3024,
         "crop": {
           "x": 0.1953,
-          "y": 33.6914,
-          "w": 49.6745,
-          "h": 32.5195
+          "y": 0.293,
+          "w": 50.0651,
+          "h": 32.6172
         }
       }
     ],
@@ -1195,16 +1243,16 @@
         "viewpoint": "Sofia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "The corners of a mouth lift a little.",
-            "x": 28,
-            "y": 46
+            "kind": "👀 Eye key",
+            "message": "Sofia has a smile with upturned mouth corners.",
+            "x": 30,
+            "y": 48
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A piece of bread sits between them.",
-            "x": 51,
-            "y": 82
+            "kind": "🏃 Action key",
+            "message": "One piece of bread is left between the two people.",
+            "x": 55,
+            "y": 83
           }
         ],
         "panel": 0,
@@ -1223,16 +1271,16 @@
         "viewpoint": "Sofia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Eyes open wide or a head tilts to look closer.",
+            "kind": "👀 Eye key",
+            "message": "Noah has lowered their head.",
             "x": 73,
-            "y": 45
+            "y": 48
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A hand is sliding the plate closer.",
-            "x": 49,
-            "y": 78
+            "kind": "🏃 Action key",
+            "message": "Noah pushes the plate toward the other person.",
+            "x": 58,
+            "y": 85
           }
         ],
         "panel": 1,
@@ -1247,20 +1295,20 @@
       },
       {
         "title": "What I first imagined",
-        "text": "I wondered if Noah did not want to share with me. I pressed my lips shut and my shoulders became stiff. Noah put one hand on his chest. His other hand was still close to the plate.",
+        "text": "I thought Noah did not want to eat with me. I clasped my hands and looked at him. Noah rested one hand on his chest. Even seeing that hand did not tell me why he had pushed the plate.",
         "viewpoint": "Sofia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Lips close and shoulders draw inward.",
-            "x": 28,
-            "y": 45
+            "kind": "👀 Eye key",
+            "message": "Sofia has both hands close together.",
+            "x": 30,
+            "y": 68
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "Hands are near a chest and the plate.",
-            "x": 30,
-            "y": 65
+            "kind": "🏃 Action key",
+            "message": "One of Noah’s hands rests on their chest.",
+            "x": 73,
+            "y": 69
           }
         ],
         "panel": 2,
@@ -1279,16 +1327,16 @@
         "viewpoint": "Sofia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "A face turns toward the other person to listen.",
-            "x": 27,
-            "y": 43
+            "kind": "👀 Eye key",
+            "message": "Noah has a slightly open mouth.",
+            "x": 73,
+            "y": 44
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "Someone speaks with open hands.",
-            "x": 70,
-            "y": 67
+            "kind": "🏃 Action key",
+            "message": "Sofia has an open palm.",
+            "x": 34,
+            "y": 71
           }
         ],
         "panel": 3,
@@ -1307,22 +1355,22 @@
         "viewpoint": "Sofia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Faces soften as they look toward one another.",
-            "x": 73,
-            "y": 42
+            "kind": "👀 Eye key",
+            "message": "Sofia has a smile with upturned mouth corners.",
+            "x": 28,
+            "y": 47
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "They point gently toward one another as they speak.",
-            "x": 55,
-            "y": 78
+            "kind": "🏃 Action key",
+            "message": "Sofia points toward the other person.",
+            "x": 47,
+            "y": 71
           },
           {
-            "kind": "👂 귀 열쇠",
-            "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-            "x": 80,
-            "y": 56
+            "kind": "👂 Ear key",
+            "message": "Both children said they saved the bread in case the other was hungry.",
+            "x": 33,
+            "y": 55
           }
         ],
         "panel": 4,
@@ -1341,16 +1389,16 @@
         "viewpoint": "Sofia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Mouths lift into smiles and shoulders relax.",
-            "x": 73,
-            "y": 43
+            "kind": "👀 Eye key",
+            "message": "Sofia has a smile with upturned mouth corners.",
+            "x": 28,
+            "y": 47
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The bread has been divided into little pieces.",
-            "x": 51,
-            "y": 82
+            "kind": "🏃 Action key",
+            "message": "Each person holds a piece of the shared bread.",
+            "x": 36,
+            "y": 60
           }
         ],
         "panel": 5,
@@ -1368,7 +1416,7 @@
       {
         "role": "Noah",
         "text": "I liked eating with Sofia. Seeing the last piece of bread reminded me that she had walked a lot.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -1376,27 +1424,29 @@
             "viewpoint": "Noah",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 75,
+                "kind": "👀 Eye key",
+                "message": "Sofia has a smile with upturned mouth corners.",
+                "x": 34,
                 "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A piece of bread sits between them.",
-                "x": 57,
-                "y": 80
+                "kind": "🏃 Action key",
+                "message": "One piece of bread is left between the two people.",
+                "x": 48,
+                "y": 79
               }
             ],
             "panel": 0,
-            "atlas": "./images/plate-view-1.png",
-            "aspect": 1.5221,
+            "atlas": "./images/plate-1-lens.png",
+            "aspect": 1.5246,
             "crop": {
               "x": 0.2392,
               "y": 0.2392,
-              "w": 49.5215,
-              "h": 32.5359
-            }
+              "w": 49.362,
+              "h": 32.3764
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -1404,55 +1454,59 @@
             "viewpoint": "Noah",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 73,
+                "kind": "👀 Eye key",
+                "message": "Sofia has a slightly open mouth.",
+                "x": 35,
                 "y": 43
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A hand is sliding the plate closer.",
+                "kind": "🏃 Action key",
+                "message": "Noah pushes the plate toward the other person.",
                 "x": 53,
-                "y": 80
+                "y": 81
               }
             ],
             "panel": 1,
-            "atlas": "./images/plate-view-1.png",
-            "aspect": 1.5221,
+            "atlas": "./images/plate-1-lens.png",
+            "aspect": 1.5345,
             "crop": {
-              "x": 50.2392,
+              "x": 50.0797,
               "y": 0.2392,
-              "w": 49.5215,
-              "h": 32.5359
-            }
+              "w": 49.681,
+              "h": 32.3764
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
-            "text": "Sofia pressed her lips shut. I wanted to give her the bread, so why had she stopped her hand? Maybe my feeling had not reached her as I expected.",
+            "text": "Sofia clasped her hands and looked at me. I wanted her to have the bread, so why had she stopped? I realized I had not yet said why I pushed the plate.",
             "viewpoint": "Noah",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 72,
+                "kind": "👀 Eye key",
+                "message": "Sofia has a slightly open mouth.",
+                "x": 33,
                 "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Hands are near a chest and the plate.",
-                "x": 53,
-                "y": 85
+                "kind": "🏃 Action key",
+                "message": "Sofia has both hands close together.",
+                "x": 35,
+                "y": 65
               }
             ],
             "panel": 2,
-            "atlas": "./images/plate-view-1.png",
-            "aspect": 1.5296,
+            "atlas": "./images/plate-1-lens.png",
+            "aspect": 1.5475,
             "crop": {
               "x": 0.2392,
-              "y": 33.2536,
-              "w": 49.5215,
-              "h": 32.3764
-            }
+              "y": 33.0941,
+              "w": 49.362,
+              "h": 31.8979
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -1460,27 +1514,29 @@
             "viewpoint": "Noah",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 74,
-                "y": 45
+                "kind": "👀 Eye key",
+                "message": "Sofia has a smile with upturned mouth corners.",
+                "x": 35,
+                "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Someone speaks with open hands.",
-                "x": 60,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "Sofia has an open palm.",
+                "x": 48,
+                "y": 65
               }
             ],
             "panel": 3,
-            "atlas": "./images/plate-view-1.png",
-            "aspect": 1.5296,
+            "atlas": "./images/plate-1-lens.png",
+            "aspect": 1.5575,
             "crop": {
-              "x": 50.2392,
-              "y": 33.2536,
-              "w": 49.5215,
-              "h": 32.3764
-            }
+              "x": 50.0797,
+              "y": 33.0941,
+              "w": 49.681,
+              "h": 31.8979
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -1488,33 +1544,35 @@
             "viewpoint": "Noah",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 74,
-                "y": 43
+                "kind": "👀 Eye key",
+                "message": "Sofia has a smile with upturned mouth corners.",
+                "x": 35,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "They point gently toward one another as they speak.",
-                "x": 54,
-                "y": 82
+                "kind": "🏃 Action key",
+                "message": "Noah points toward the other person.",
+                "x": 57,
+                "y": 47
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 81,
-                "y": 57
+                "kind": "👂 Ear key",
+                "message": "Both children said they saved the bread in case the other was hungry.",
+                "x": 40,
+                "y": 53
               }
             ],
             "panel": 4,
-            "atlas": "./images/plate-view-1.png",
-            "aspect": 1.4716,
+            "atlas": "./images/plate-1-lens.png",
+            "aspect": 1.4395,
             "crop": {
               "x": 0.2392,
-              "y": 66.1085,
-              "w": 49.5215,
-              "h": 33.6523
-            }
+              "y": 65.4705,
+              "w": 49.362,
+              "h": 34.2903
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -1522,44 +1580,46 @@
             "viewpoint": "Noah",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 74,
+                "kind": "👀 Eye key",
+                "message": "Sofia has a smile with upturned mouth corners.",
+                "x": 34,
                 "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The bread has been divided into little pieces.",
-                "x": 60,
-                "y": 80
+                "kind": "🏃 Action key",
+                "message": "Each person holds a piece of the shared bread.",
+                "x": 36,
+                "y": 58
               }
             ],
             "panel": 5,
-            "atlas": "./images/plate-view-1.png",
-            "aspect": 1.4716,
+            "atlas": "./images/plate-1-lens.png",
+            "aspect": 1.4488,
             "crop": {
-              "x": 50.2392,
-              "y": 66.1085,
-              "w": 49.5215,
-              "h": 33.6523
-            }
+              "x": 50.0797,
+              "y": 65.4705,
+              "w": 49.681,
+              "h": 34.2903
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/plate-view-1.png",
+        "atlas": "./images/plate-1-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "621/407",
+        "aspect": 1.5246,
         "crop": {
           "x": 0.2392,
-          "y": 33.2536,
-          "w": 49.5215,
-          "h": 32.4561
+          "y": 0.2392,
+          "w": 49.362,
+          "h": 32.3764
         }
       },
       {
         "role": "The restaurant owner",
         "text": "One piece of bread remained between the children. I did not yet know how they wanted to share it.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -1567,27 +1627,29 @@
             "viewpoint": "The restaurant owner",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 77,
-                "y": 43
+                "kind": "👀 Eye key",
+                "message": "Noah has a smile with upturned mouth corners.",
+                "x": 23,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A piece of bread sits between them.",
-                "x": 62,
-                "y": 81
+                "kind": "🏃 Action key",
+                "message": "One piece of bread is left between the two people.",
+                "x": 61,
+                "y": 46
               }
             ],
             "panel": 0,
-            "atlas": "./images/plate-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/plate-2-lens.png",
+            "aspect": 1.5098,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "x": 0.2392,
+              "y": 0.2392,
+              "w": 49.362,
+              "h": 32.6954
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -1595,27 +1657,29 @@
             "viewpoint": "The restaurant owner",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 48,
-                "y": 42
+                "kind": "👀 Eye key",
+                "message": "Noah has lowered their head.",
+                "x": 23,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A hand is sliding the plate closer.",
-                "x": 62,
-                "y": 80
+                "kind": "🏃 Action key",
+                "message": "Sofia has an open palm.",
+                "x": 71,
+                "y": 46
               }
             ],
             "panel": 1,
-            "atlas": "./images/plate-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/plate-2-lens.png",
+            "aspect": 1.5195,
             "crop": {
-              "x": 50.1953,
-              "y": 0.293,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "x": 50.0797,
+              "y": 0.2392,
+              "w": 49.681,
+              "h": 32.6954
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -1623,27 +1687,29 @@
             "viewpoint": "The restaurant owner",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 77,
-                "y": 43
+                "kind": "👀 Eye key",
+                "message": "Noah has lowered their head.",
+                "x": 23,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Hands are near a chest and the plate.",
-                "x": 48,
-                "y": 67
+                "kind": "🏃 Action key",
+                "message": "One of Noah’s hands rests on their chest.",
+                "x": 22,
+                "y": 61
               }
             ],
             "panel": 2,
-            "atlas": "./images/plate-view-2.png",
-            "aspect": 2.2814,
+            "atlas": "./images/plate-2-lens.png",
+            "aspect": 1.5134,
             "crop": {
-              "x": 0.1953,
-              "y": 33.5938,
-              "w": 49.6094,
-              "h": 32.6172
-            }
+              "x": 0.2392,
+              "y": 33.4131,
+              "w": 49.362,
+              "h": 32.6156
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -1651,22 +1717,29 @@
             "viewpoint": "The restaurant owner",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 48,
-                "y": 43
+                "kind": "👀 Eye key",
+                "message": "Noah has a slightly open mouth.",
+                "x": 23,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Someone speaks with open hands.",
-                "x": 78,
-                "y": 68
+                "kind": "🏃 Action key",
+                "message": "Sofia has an open palm.",
+                "x": 68,
+                "y": 44
               }
             ],
             "panel": 3,
-            "atlas": "./images/plate-view-2.png",
-            "aspect": 2,
-            "image": "./images/plate-owner-surprise.png"
+            "atlas": "./images/plate-2-lens.png",
+            "aspect": 1.5232,
+            "atlasRows": 3,
+            "atlasCols": 2,
+            "crop": {
+              "x": 50.0797,
+              "y": 33.4131,
+              "w": 49.681,
+              "h": 32.6156
+            }
           },
           {
             "title": "A feeling I had not seen",
@@ -1674,33 +1747,35 @@
             "viewpoint": "The restaurant owner",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
+                "kind": "👀 Eye key",
+                "message": "Sofia has a smile with upturned mouth corners.",
                 "x": 77,
-                "y": 43
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "They point gently toward one another as they speak.",
-                "x": 63,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "Sofia points toward Noah.",
+                "x": 67,
+                "y": 44
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 84,
-                "y": 57
+                "kind": "👂 Ear key",
+                "message": "Both children said they saved the bread in case the other was hungry.",
+                "x": 82,
+                "y": 53
               }
             ],
             "panel": 4,
-            "atlas": "./images/plate-view-2.png",
-            "aspect": 2.2611,
+            "atlas": "./images/plate-2-lens.png",
+            "aspect": 1.4844,
             "crop": {
-              "x": 0.1953,
-              "y": 66.7969,
-              "w": 49.6094,
-              "h": 32.9102
-            }
+              "x": 0.2392,
+              "y": 66.5072,
+              "w": 49.362,
+              "h": 33.2536
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -1708,38 +1783,40 @@
             "viewpoint": "The restaurant owner",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
+                "kind": "👀 Eye key",
+                "message": "Sofia has a smile with upturned mouth corners.",
                 "x": 77,
-                "y": 43
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The bread has been divided into little pieces.",
-                "x": 63,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "Each person holds a piece of the shared bread.",
+                "x": 71,
+                "y": 48
               }
             ],
             "panel": 5,
-            "atlas": "./images/plate-view-2.png",
-            "aspect": 2.2611,
+            "atlas": "./images/plate-2-lens-final.png",
+            "aspect": 1.494,
             "crop": {
-              "x": 50.1953,
-              "y": 66.7969,
-              "w": 49.6094,
-              "h": 32.9102
-            }
+              "x": 50.0797,
+              "y": 66.5072,
+              "w": 49.681,
+              "h": 33.2536
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/plate-view-2.png",
+        "atlas": "./images/plate-2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "763/333",
+        "aspect": 1.5098,
         "crop": {
-          "x": 0.1953,
-          "y": 33.5938,
-          "w": 49.6745,
-          "h": 32.5195
+          "x": 0.2392,
+          "y": 0.2392,
+          "w": 49.362,
+          "h": 32.6954
         }
       }
     ],
@@ -1779,14 +1856,14 @@
         "viewpoint": "Sora",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "The corners of a mouth lift a little.",
-            "x": 27,
+            "kind": "👀 Eye key",
+            "message": "Sora has a smile with upturned mouth corners.",
+            "x": 30,
             "y": 44
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A yellow paper star is being made.",
+            "kind": "🏃 Action key",
+            "message": "Sora holds a yellow paper star.",
             "x": 29,
             "y": 66
           }
@@ -1807,16 +1884,16 @@
         "viewpoint": "Sora",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Eyes open wide or a head tilts to look closer.",
+            "kind": "👀 Eye key",
+            "message": "Sora has wide, round eyes with visible whites.",
             "x": 32,
             "y": 45
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🏃 Action key",
             "message": "The tip of a yellow star peeks from behind a back.",
-            "x": 20,
-            "y": 65
+            "x": 17,
+            "y": 70
           }
         ],
         "panel": 1,
@@ -1830,14 +1907,14 @@
         "viewpoint": "Sora",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Lips close and shoulders draw inward.",
+            "kind": "👀 Eye key",
+            "message": "Sora has lowered their head.",
             "x": 27,
             "y": 50
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The star is held behind a back.",
+            "kind": "🏃 Action key",
+            "message": "The tip of a yellow star peeks from behind a back.",
             "x": 17,
             "y": 70
           }
@@ -1858,16 +1935,16 @@
         "viewpoint": "Sora",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "A face turns toward the other person to listen.",
+            "kind": "👀 Eye key",
+            "message": "Sora has turned toward the other person.",
             "x": 35,
             "y": 50
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "An open hand leaves time to speak.",
+            "kind": "🏃 Action key",
+            "message": "Mom has an open palm.",
             "x": 45,
-            "y": 59
+            "y": 60
           }
         ],
         "panel": 3,
@@ -1886,22 +1963,22 @@
         "viewpoint": "Sora",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Faces soften as they look toward one another.",
+            "kind": "👀 Eye key",
+            "message": "Sora has a smile with upturned mouth corners.",
             "x": 31,
             "y": 51
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The unfinished star is being shown.",
-            "x": 40,
-            "y": 72
+            "kind": "🏃 Action key",
+            "message": "Sora holds the yellow star forward to show it.",
+            "x": 35,
+            "y": 49
           },
           {
-            "kind": "👂 귀 열쇠",
-            "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-            "x": 39,
-            "y": 65
+            "kind": "👂 Ear key",
+            "message": "Sora said the star for Sua was not finished yet.",
+            "x": 36,
+            "y": 59
           }
         ],
         "panel": 4,
@@ -1920,16 +1997,16 @@
         "viewpoint": "Sora",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Mouths lift into smiles and shoulders relax.",
+            "kind": "👀 Eye key",
+            "message": "Sora has a smile with upturned mouth corners.",
             "x": 42,
             "y": 43
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "Hands come together to finish the star.",
-            "x": 57,
-            "y": 77
+            "kind": "🏃 Action key",
+            "message": "Their hands work together to finish the yellow star.",
+            "x": 55,
+            "y": 58
           }
         ],
         "panel": 5,
@@ -1947,7 +2024,7 @@
       {
         "role": "Mom",
         "text": "I looked around the doorway because Sua was coming. I did not yet know what Sora was making with the paper.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -1955,22 +2032,29 @@
             "viewpoint": "Mom",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 50,
-                "y": 51
+                "kind": "👀 Eye key",
+                "message": "Sora has lowered their head.",
+                "x": 30,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A yellow paper star is being made.",
-                "x": 49,
-                "y": 72
+                "kind": "🏃 Action key",
+                "message": "Sora holds a yellow paper star.",
+                "x": 35,
+                "y": 69
               }
             ],
             "panel": 0,
-            "atlas": "./images/door-view-1.png",
-            "aspect": 2,
-            "image": "./images/door-mom-before-arrival.png"
+            "atlas": "./images/door-1-lens.png",
+            "aspect": 2.3024,
+            "atlasRows": 3,
+            "atlasCols": 2,
+            "crop": {
+              "x": 0.1953,
+              "y": 0.293,
+              "w": 50.0651,
+              "h": 32.6172
+            }
           },
           {
             "title": "What does that mean?",
@@ -1978,22 +2062,29 @@
             "viewpoint": "Mom",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 47,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Sora has a slightly open mouth.",
+                "x": 30,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🏃 Action key",
                 "message": "The tip of a yellow star peeks from behind a back.",
-                "x": 38,
+                "x": 17,
                 "y": 68
               }
             ],
             "panel": 1,
-            "atlas": "./images/door-view-1.png",
-            "aspect": 2,
-            "image": "./images/door-mom-arrival.png"
+            "atlas": "./images/door-1-lens.png",
+            "aspect": 2.2605,
+            "atlasRows": 3,
+            "atlasCols": 2,
+            "crop": {
+              "x": 50.651,
+              "y": 0.293,
+              "w": 49.1536,
+              "h": 32.6172
+            }
           },
           {
             "title": "What I first imagined",
@@ -2001,27 +2092,29 @@
             "viewpoint": "Mom",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 55,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Sora has lowered their head.",
+                "x": 25,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The star is held behind a back.",
-                "x": 42,
-                "y": 72
+                "kind": "🏃 Action key",
+                "message": "The tip of a yellow star peeks from behind a back.",
+                "x": 20,
+                "y": 61
               }
             ],
             "panel": 2,
-            "atlas": "./images/door-view-1.png",
-            "aspect": "762/322",
+            "atlas": "./images/door-1-lens.png",
+            "aspect": 2.3956,
             "crop": {
               "x": 0.1953,
               "y": 33.4961,
-              "w": 49.6094,
-              "h": 31.4453
-            }
+              "w": 50.0651,
+              "h": 31.3477
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -2029,27 +2122,29 @@
             "viewpoint": "Mom",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 57,
-                "y": 46
+                "kind": "👀 Eye key",
+                "message": "Sora has a slightly open mouth.",
+                "x": 31,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "An open hand leaves time to speak.",
-                "x": 45,
-                "y": 54
+                "kind": "🏃 Action key",
+                "message": "Mom has an open palm.",
+                "x": 39,
+                "y": 61
               }
             ],
             "panel": 3,
-            "atlas": "./images/door-view-1.png",
-            "aspect": "762/322",
+            "atlas": "./images/door-1-lens.png",
+            "aspect": 2.352,
             "crop": {
-              "x": 50.1953,
+              "x": 50.651,
               "y": 33.4961,
-              "w": 49.6094,
-              "h": 31.4453
-            }
+              "w": 49.1536,
+              "h": 31.3477
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -2057,33 +2152,35 @@
             "viewpoint": "Mom",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 57,
-                "y": 50
+                "kind": "👀 Eye key",
+                "message": "Sora has a smile with upturned mouth corners.",
+                "x": 31,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The unfinished star is being shown.",
-                "x": 48,
-                "y": 74
+                "kind": "🏃 Action key",
+                "message": "Sora holds the yellow star forward to show it.",
+                "x": 44,
+                "y": 51
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 65,
-                "y": 64
+                "kind": "👂 Ear key",
+                "message": "Sora said the star for Sua was not finished yet.",
+                "x": 36,
+                "y": 57
               }
             ],
             "panel": 4,
-            "atlas": "./images/door-view-1.png",
-            "aspect": "762/350",
+            "atlas": "./images/door-1-lens.png",
+            "aspect": 2.1909,
             "crop": {
               "x": 0.1953,
-              "y": 65.5273,
-              "w": 49.6094,
-              "h": 34.1797
-            }
+              "y": 65.4297,
+              "w": 50.0651,
+              "h": 34.2773
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -2091,44 +2188,46 @@
             "viewpoint": "Mom",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 56,
+                "kind": "👀 Eye key",
+                "message": "Sora has a smile with upturned mouth corners.",
+                "x": 77,
                 "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Hands come together to finish the star.",
-                "x": 66,
-                "y": 77
+                "kind": "🏃 Action key",
+                "message": "Sora reaches toward the star they are making.",
+                "x": 68,
+                "y": 55
               }
             ],
             "panel": 5,
-            "atlas": "./images/door-view-1.png",
-            "aspect": "762/350",
+            "atlas": "./images/door-1-lens.png",
+            "aspect": 2.151,
             "crop": {
-              "x": 50.1953,
-              "y": 65.5273,
-              "w": 49.6094,
-              "h": 34.1797
-            }
+              "x": 50.651,
+              "y": 65.4297,
+              "w": 49.1536,
+              "h": 34.2773
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/door-view-1.png",
+        "atlas": "./images/door-1-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "762/322",
+        "aspect": 2.3024,
         "crop": {
           "x": 0.1953,
-          "y": 33.4961,
-          "w": 49.6094,
-          "h": 31.4453
+          "y": 0.293,
+          "w": 50.0651,
+          "h": 32.6172
         }
       },
       {
         "role": "Sua",
         "text": "I enjoyed going to Sora’s home. I wondered what we would do together.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -2136,27 +2235,29 @@
             "viewpoint": "Sua",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 58,
+                "kind": "👀 Eye key",
+                "message": "Sora has lowered their head.",
+                "x": 54,
                 "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A yellow paper star is being made.",
-                "x": 58,
-                "y": 72
+                "kind": "🏃 Action key",
+                "message": "Sora holds a yellow paper star.",
+                "x": 53,
+                "y": 57
               }
             ],
             "panel": 0,
-            "atlas": "./images/door-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/door-2-lens.png",
+            "aspect": 2.3242,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "w": 49.4792,
+              "h": 31.9336
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -2164,27 +2265,29 @@
             "viewpoint": "Sua",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 60,
-                "y": 45
+                "kind": "👀 Eye key",
+                "message": "Sora has a slightly open mouth.",
+                "x": 54,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The tip of a yellow star peeks from behind a back.",
-                "x": 49,
-                "y": 63
+                "kind": "🏃 Action key",
+                "message": "Sora has turned toward the door.",
+                "x": 52,
+                "y": 58
               }
             ],
             "panel": 1,
-            "atlas": "./images/door-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/door-2-lens.png",
+            "aspect": 2.3364,
             "crop": {
-              "x": 50.1953,
+              "x": 50.0651,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "w": 49.7396,
+              "h": 31.9336
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -2192,55 +2295,59 @@
             "viewpoint": "Sua",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 56,
-                "y": 52
+                "kind": "👀 Eye key",
+                "message": "Sora has lowered their head.",
+                "x": 57,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The star is held behind a back.",
-                "x": 47,
-                "y": 72
-              }
-            ],
-            "panel": 2,
-            "atlas": "./images/door-view-2.png",
-            "aspect": 2.2679,
-            "crop": {
-              "x": 0.1953,
-              "y": 33.5938,
-              "w": 49.6094,
-              "h": 32.8125
-            }
-          },
-          {
-            "title": "Looking a little closer",
-            "text": "As I waited at the door, I saw a yellow star in her hands. Had she been doing something I did not know about?",
-            "viewpoint": "Sua",
-            "clues": [
-              {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 58,
-                "y": 51
-              },
-              {
-                "kind": "🏃 행동 열쇠",
-                "message": "An open hand leaves time to speak.",
-                "x": 75,
+                "kind": "🏃 Action key",
+                "message": "Mom has lowered their body to the child’s eye level.",
+                "x": 30,
                 "y": 65
               }
             ],
-            "panel": 3,
-            "atlas": "./images/door-view-2.png",
-            "aspect": 2.2679,
+            "panel": 2,
+            "atlas": "./images/door-2-lens.png",
+            "aspect": 2.4595,
             "crop": {
-              "x": 50.1953,
-              "y": 33.5938,
-              "w": 49.6094,
-              "h": 32.8125
-            }
+              "x": 0.1953,
+              "y": 32.8125,
+              "w": 49.4792,
+              "h": 30.1758
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
+          },
+          {
+            "title": "Looking a little closer",
+            "text": "Mom opened her hand and waited for Sora to speak. Sora lifted her head but had not spoken yet. I began to wonder what she had been doing.",
+            "viewpoint": "Sua",
+            "clues": [
+              {
+                "kind": "👀 Eye key",
+                "message": "Sora has a slightly open mouth.",
+                "x": 57,
+                "y": 47
+              },
+              {
+                "kind": "🏃 Action key",
+                "message": "Mom has an open palm.",
+                "x": 37,
+                "y": 57
+              }
+            ],
+            "panel": 3,
+            "atlas": "./images/door-2-lens.png",
+            "aspect": 2.4725,
+            "crop": {
+              "x": 50.0651,
+              "y": 32.8125,
+              "w": 49.7396,
+              "h": 30.1758
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -2248,33 +2355,35 @@
             "viewpoint": "Sua",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 56,
-                "y": 48
+                "kind": "👀 Eye key",
+                "message": "Sora has a smile with upturned mouth corners.",
+                "x": 61,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The unfinished star is being shown.",
-                "x": 64,
-                "y": 69
+                "kind": "🏃 Action key",
+                "message": "Sora holds the yellow star forward to show it.",
+                "x": 53,
+                "y": 50
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 63,
-                "y": 62
+                "kind": "👂 Ear key",
+                "message": "Sora said the star for Sua was not finished yet.",
+                "x": 66,
+                "y": 57
               }
             ],
             "panel": 4,
-            "atlas": "./images/door-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/door-2-lens.png",
+            "aspect": 2.0541,
             "crop": {
               "x": 0.1953,
-              "y": 66.9922,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "y": 63.5742,
+              "w": 49.4792,
+              "h": 36.1328
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -2282,33 +2391,40 @@
             "viewpoint": "Sua",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 35,
-                "y": 52
+                "kind": "👀 Eye key",
+                "message": "Sora has a smile with upturned mouth corners.",
+                "x": 37,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "Hands come together to finish the star.",
-                "x": 56,
-                "y": 76
+                "kind": "🏃 Action key",
+                "message": "Their hands work together to finish the yellow star.",
+                "x": 54,
+                "y": 56
               }
             ],
             "panel": 5,
-            "atlas": "./images/door-view-2.png",
-            "aspect": 2,
-            "image": "./images/door-sua-together.png"
+            "atlas": "./images/door-2-lens.png",
+            "aspect": 2.0649,
+            "atlasRows": 3,
+            "atlasCols": 2,
+            "crop": {
+              "x": 50.0651,
+              "y": 63.5742,
+              "w": 49.7396,
+              "h": 36.1328
+            }
           }
         ],
-        "atlas": "./images/door-view-2.png",
+        "atlas": "./images/door-2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "761/329",
+        "aspect": 2.3242,
         "crop": {
           "x": 0.1953,
-          "y": 33.5938,
-          "w": 49.5443,
-          "h": 32.1289
+          "y": 0.293,
+          "w": 49.4792,
+          "h": 31.9336
         }
       }
     ],
@@ -2348,16 +2464,16 @@
         "viewpoint": "Gia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "The corners of a mouth lift a little.",
-            "x": 30,
+            "kind": "👀 Eye key",
+            "message": "Gia has a smile with upturned mouth corners.",
+            "x": 31,
             "y": 44
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The yellow ball is held in a hand.",
-            "x": 67,
-            "y": 48
+            "kind": "🏃 Action key",
+            "message": "The yellow ball stays still in Luca’s hands.",
+            "x": 65,
+            "y": 50
           }
         ],
         "panel": 0,
@@ -2376,16 +2492,16 @@
         "viewpoint": "Gia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Eyes open wide or a head tilts to look closer.",
+            "kind": "👀 Eye key",
+            "message": "Gia has wide, round eyes with visible whites.",
             "x": 28,
             "y": 39
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The ball is held still for a moment.",
+            "kind": "🏃 Action key",
+            "message": "The yellow ball stays still in Luca’s hands.",
             "x": 69,
-            "y": 65
+            "y": 52
           }
         ],
         "panel": 1,
@@ -2399,16 +2515,16 @@
         "viewpoint": "Gia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Lips close and shoulders draw inward.",
-            "x": 75,
-            "y": 48
+            "kind": "👀 Eye key",
+            "message": "Gia has downturned mouth corners.",
+            "x": 31,
+            "y": 49
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The hands holding the ball are close together.",
-            "x": 74,
-            "y": 57
+            "kind": "🏃 Action key",
+            "message": "The dark dog with the blue leash is sniffing the grass.",
+            "x": 86,
+            "y": 84
           }
         ],
         "panel": 2,
@@ -2427,16 +2543,22 @@
         "viewpoint": "Gia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "A face turns toward the other person to listen.",
-            "x": 76,
+            "kind": "👀 Eye key",
+            "message": "Gia has turned toward the other person.",
+            "x": 31,
             "y": 46
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The dog’s nose points down to the grass.",
-            "x": 70,
-            "y": 80
+            "kind": "🏃 Action key",
+            "message": "The dark dog with the blue leash is sniffing the grass.",
+            "x": 52,
+            "y": 87
+          },
+          {
+            "kind": "👂 Ear key",
+            "message": "Luca said the dog was new here and needed a little time.",
+            "x": 36,
+            "y": 54
           }
         ],
         "panel": 3,
@@ -2455,22 +2577,16 @@
         "viewpoint": "Gia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Faces soften as they look toward one another.",
+            "kind": "👀 Eye key",
+            "message": "Gia has a smile with upturned mouth corners.",
             "x": 31,
             "y": 49
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The yellow ball has been set on the grass.",
-            "x": 69,
-            "y": 91
-          },
-          {
-            "kind": "👂 귀 열쇠",
-            "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-            "x": 39,
-            "y": 63
+            "kind": "🏃 Action key",
+            "message": "The yellow ball has been placed on the grass.",
+            "x": 72,
+            "y": 76
           }
         ],
         "panel": 4,
@@ -2489,16 +2605,16 @@
         "viewpoint": "Gia",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Mouths lift into smiles and shoulders relax.",
-            "x": 76,
-            "y": 47
+            "kind": "👀 Eye key",
+            "message": "Gia has a smile with upturned mouth corners.",
+            "x": 31,
+            "y": 45
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The dogs sniff the ball together.",
-            "x": 69,
-            "y": 93
+            "kind": "🏃 Action key",
+            "message": "Both dogs point their noses toward the same ball.",
+            "x": 53,
+            "y": 84
           }
         ],
         "panel": 5,
@@ -2516,7 +2632,7 @@
       {
         "role": "Luca",
         "text": "This was my dog’s first time at this park. Holding the yellow ball, I looked around slowly.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -2524,27 +2640,29 @@
             "viewpoint": "Luca",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 76,
-                "y": 47
+                "kind": "👀 Eye key",
+                "message": "Gia has a smile with upturned mouth corners.",
+                "x": 29,
+                "y": 43
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The yellow ball is held in a hand.",
-                "x": 33,
-                "y": 73
+                "kind": "🏃 Action key",
+                "message": "The yellow ball stays still in Luca’s hands.",
+                "x": 83,
+                "y": 70
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-view-1.png",
-            "aspect": "762/337",
+            "atlas": "./images/ball-1-lens.png",
+            "aspect": 2.3042,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.9102
-            }
+              "w": 49.8047,
+              "h": 32.4219
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -2552,22 +2670,29 @@
             "viewpoint": "Luca",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 73,
-                "y": 40
+                "kind": "👀 Eye key",
+                "message": "Gia has wide, round eyes with visible whites.",
+                "x": 29,
+                "y": 43
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The ball is held still for a moment.",
-                "x": 32,
-                "y": 67
+                "kind": "🏃 Action key",
+                "message": "The yellow ball stays still in Luca’s hands.",
+                "x": 84,
+                "y": 72
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-view-1.png",
-            "aspect": 2,
-            "image": "./images/ball-luca-surprise.png"
+            "atlas": "./images/ball-1-lens.png",
+            "aspect": 2.2861,
+            "atlasRows": 3,
+            "atlasCols": 2,
+            "crop": {
+              "x": 50.3906,
+              "y": 0.293,
+              "w": 49.4141,
+              "h": 32.4219
+            }
           },
           {
             "title": "What I first imagined",
@@ -2575,27 +2700,29 @@
             "viewpoint": "Luca",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 76,
-                "y": 50
+                "kind": "👀 Eye key",
+                "message": "Gia has downturned mouth corners.",
+                "x": 29,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The hands holding the ball are close together.",
-                "x": 31,
-                "y": 76
+                "kind": "🏃 Action key",
+                "message": "The dark dog with the blue leash is sniffing the grass.",
+                "x": 60,
+                "y": 83
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-view-1.png",
-            "aspect": "762/322",
+            "atlas": "./images/ball-1-lens.png",
+            "aspect": 2.4132,
             "crop": {
               "x": 0.1953,
-              "y": 33.7891,
-              "w": 49.6094,
-              "h": 31.4453
-            }
+              "y": 33.3008,
+              "w": 49.8047,
+              "h": 30.957
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -2603,27 +2730,35 @@
             "viewpoint": "Luca",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 72,
-                "y": 49
+                "kind": "👀 Eye key",
+                "message": "Gia has turned toward the other person.",
+                "x": 29,
+                "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The dog’s nose points down to the grass.",
-                "x": 60,
-                "y": 76
+                "kind": "🏃 Action key",
+                "message": "The dark dog with the blue leash is sniffing the grass.",
+                "x": 57,
+                "y": 88
+              },
+              {
+                "kind": "👂 Ear key",
+                "message": "Luca said the dog was new here and needed a little time.",
+                "x": 34,
+                "y": 52
               }
             ],
             "panel": 3,
-            "atlas": "./images/ball-view-1.png",
-            "aspect": "762/322",
+            "atlas": "./images/ball-1-lens.png",
+            "aspect": 2.3943,
             "crop": {
-              "x": 50.1953,
-              "y": 33.7891,
-              "w": 49.6094,
-              "h": 31.4453
-            }
+              "x": 50.3906,
+              "y": 33.3008,
+              "w": 49.4141,
+              "h": 30.957
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -2631,33 +2766,29 @@
             "viewpoint": "Luca",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 73,
-                "y": 50
+                "kind": "👀 Eye key",
+                "message": "Gia has a smile with upturned mouth corners.",
+                "x": 29,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The yellow ball has been set on the grass.",
-                "x": 54,
-                "y": 92
-              },
-              {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 81,
-                "y": 64
+                "kind": "🏃 Action key",
+                "message": "The yellow ball has been placed on the grass.",
+                "x": 59,
+                "y": 81
               }
             ],
             "panel": 4,
-            "atlas": "./images/ball-view-1.png",
-            "aspect": "762/347",
+            "atlas": "./images/ball-1-lens.png",
+            "aspect": 2.1429,
             "crop": {
               "x": 0.1953,
-              "y": 65.8203,
-              "w": 49.6094,
-              "h": 33.8867
-            }
+              "y": 64.8438,
+              "w": 49.8047,
+              "h": 34.8633
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -2665,44 +2796,46 @@
             "viewpoint": "Luca",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 76,
-                "y": 52
+                "kind": "👀 Eye key",
+                "message": "Gia has a smile with upturned mouth corners.",
+                "x": 29,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The dogs sniff the ball together.",
-                "x": 60,
-                "y": 93
+                "kind": "🏃 Action key",
+                "message": "Both dogs point their noses toward the same ball.",
+                "x": 54,
+                "y": 85
               }
             ],
             "panel": 5,
-            "atlas": "./images/ball-view-1.png",
-            "aspect": "762/347",
+            "atlas": "./images/ball-1-lens.png",
+            "aspect": 2.1261,
             "crop": {
-              "x": 50.1953,
-              "y": 65.8203,
-              "w": 49.6094,
-              "h": 33.8867
-            }
+              "x": 50.3906,
+              "y": 64.8438,
+              "w": 49.4141,
+              "h": 34.8633
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/ball-view-1.png",
+        "atlas": "./images/ball-1-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "762/322",
+        "aspect": 2.3042,
         "crop": {
           "x": 0.1953,
-          "y": 33.7891,
-          "w": 49.6094,
-          "h": 31.4453
+          "y": 0.293,
+          "w": 49.8047,
+          "h": 32.4219
         }
       },
       {
         "role": "The park helper",
         "text": "Two children and their dogs came to the park. In a new place, they might need time to look around slowly.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -2710,27 +2843,29 @@
             "viewpoint": "The park helper",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 78,
-                "y": 42
+                "kind": "👀 Eye key",
+                "message": "Gia has a smile with upturned mouth corners.",
+                "x": 46,
+                "y": 43
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The yellow ball is held in a hand.",
-                "x": 52,
-                "y": 60
+                "kind": "🏃 Action key",
+                "message": "The yellow ball stays still in Luca’s hands.",
+                "x": 73,
+                "y": 55
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/ball-2-lens.png",
+            "aspect": 2.303,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "w": 49.4792,
+              "h": 32.2266
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -2738,27 +2873,29 @@
             "viewpoint": "The park helper",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 78,
-                "y": 39
+                "kind": "👀 Eye key",
+                "message": "Gia has wide, round eyes with visible whites.",
+                "x": 47,
+                "y": 48
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The ball is held still for a moment.",
-                "x": 53,
-                "y": 60
+                "kind": "🏃 Action key",
+                "message": "The yellow ball stays still in Luca’s hands.",
+                "x": 81,
+                "y": 57
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-view-2.png",
-            "aspect": 2.2746,
+            "atlas": "./images/ball-2-lens.png",
+            "aspect": 2.3152,
             "crop": {
-              "x": 50.1953,
+              "x": 50.0651,
               "y": 0.293,
-              "w": 49.6094,
-              "h": 32.7148
-            }
+              "w": 49.7396,
+              "h": 32.2266
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -2766,27 +2903,29 @@
             "viewpoint": "The park helper",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 79,
-                "y": 43
+                "kind": "👀 Eye key",
+                "message": "Gia has lowered her head toward the ball.",
+                "x": 46,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The hands holding the ball are close together.",
-                "x": 53,
-                "y": 63
+                "kind": "🏃 Action key",
+                "message": "The yellow ball stays still in Luca’s hands.",
+                "x": 81,
+                "y": 57
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-view-2.png",
-            "aspect": 2.2814,
+            "atlas": "./images/ball-2-lens.png",
+            "aspect": 2.3385,
             "crop": {
               "x": 0.1953,
-              "y": 33.5938,
-              "w": 49.6094,
-              "h": 32.6172
-            }
+              "y": 33.1055,
+              "w": 49.4792,
+              "h": 31.7383
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -2794,27 +2933,35 @@
             "viewpoint": "The park helper",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 79,
-                "y": 44
+                "kind": "👀 Eye key",
+                "message": "Luca has a smile with upturned mouth corners.",
+                "x": 26,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The dog’s nose points down to the grass.",
-                "x": 64,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "Luca has an open palm.",
+                "x": 36,
+                "y": 59
+              },
+              {
+                "kind": "👂 Ear key",
+                "message": "Luca said the dog was new here and needed a little time.",
+                "x": 31,
+                "y": 54
               }
             ],
             "panel": 3,
-            "atlas": "./images/ball-view-2.png",
-            "aspect": 2.2814,
+            "atlas": "./images/ball-2-lens.png",
+            "aspect": 2.3508,
             "crop": {
-              "x": 50.1953,
-              "y": 33.5938,
-              "w": 49.6094,
-              "h": 32.6172
-            }
+              "x": 50.0651,
+              "y": 33.1055,
+              "w": 49.7396,
+              "h": 31.7383
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -2822,33 +2969,29 @@
             "viewpoint": "The park helper",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 78,
-                "y": 46
+                "kind": "👀 Eye key",
+                "message": "Gia has a smile with upturned mouth corners.",
+                "x": 46,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The yellow ball has been set on the grass.",
-                "x": 53,
-                "y": 84
-              },
-              {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 85,
-                "y": 60
+                "kind": "🏃 Action key",
+                "message": "The yellow ball has been placed on the grass.",
+                "x": 71,
+                "y": 85
               }
             ],
             "panel": 4,
-            "atlas": "./images/ball-view-2.png",
-            "aspect": 2.2611,
+            "atlas": "./images/ball-2-lens.png",
+            "aspect": 2.1652,
             "crop": {
               "x": 0.1953,
-              "y": 66.7969,
-              "w": 49.6094,
-              "h": 32.9102
-            }
+              "y": 65.4297,
+              "w": 49.4792,
+              "h": 34.2773
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -2856,38 +2999,40 @@
             "viewpoint": "The park helper",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 78,
-                "y": 47
+                "kind": "👀 Eye key",
+                "message": "Gia has a smile with upturned mouth corners.",
+                "x": 83,
+                "y": 43
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The dogs sniff the ball together.",
-                "x": 68,
-                "y": 88
+                "kind": "🏃 Action key",
+                "message": "Both dogs point their noses toward the same ball.",
+                "x": 57,
+                "y": 87
               }
             ],
             "panel": 5,
-            "atlas": "./images/ball-view-2.png",
-            "aspect": 2.2611,
+            "atlas": "./images/ball-2-lens.png",
+            "aspect": 2.1766,
             "crop": {
-              "x": 50.1953,
-              "y": 66.7969,
-              "w": 49.6094,
-              "h": 32.9102
-            }
+              "x": 50.0651,
+              "y": 65.4297,
+              "w": 49.7396,
+              "h": 34.2773
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/ball-view-2.png",
+        "atlas": "./images/ball-2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "762/334",
+        "aspect": 2.303,
         "crop": {
           "x": 0.1953,
-          "y": 33.5938,
-          "w": 49.6094,
-          "h": 32.6172
+          "y": 0.293,
+          "w": 49.4792,
+          "h": 32.2266
         }
       }
     ],
@@ -2927,16 +3072,16 @@
         "viewpoint": "Jun",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "The corners of a mouth lift a little.",
+            "kind": "👀 Eye key",
+            "message": "Jun has a smile with upturned mouth corners.",
             "x": 30,
             "y": 45
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "They hold stars with different colors and shapes.",
-            "x": 31,
-            "y": 72
+            "kind": "🏃 Action key",
+            "message": "They hold paper stars of different colors.",
+            "x": 36,
+            "y": 62
           }
         ],
         "panel": 0,
@@ -2951,18 +3096,18 @@
       },
       {
         "title": "What does that mean?",
-        "text": "Harin covered her drawing with her hand and kept erasing. Eraser crumbs piled up beside the paper. I looked at her with wide eyes. I wondered why she would not show it to me.",
+        "text": "Harin covered her drawing and kept erasing. Eraser crumbs were scattered beside the paper. I looked at Harin with my mouth slightly open. I wondered why she would not show me.",
         "viewpoint": "Jun",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Eyes open wide or a head tilts to look closer.",
+            "kind": "👀 Eye key",
+            "message": "Jun has a slightly open mouth.",
             "x": 30,
-            "y": 43
+            "y": 48
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "There are eraser crumbs beside the paper.",
+            "kind": "🏃 Action key",
+            "message": "There is an eraser and little crumbs beside the paper.",
             "x": 81,
             "y": 81
           }
@@ -2983,14 +3128,14 @@
         "viewpoint": "Jun",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Lips close and shoulders draw inward.",
+            "kind": "👀 Eye key",
+            "message": "Jun has downturned mouth corners.",
             "x": 28,
             "y": 53
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "The picture is hidden under folded arms.",
+            "kind": "🏃 Action key",
+            "message": "The drawing is hidden beneath folded arms.",
             "x": 69,
             "y": 70
           }
@@ -3007,20 +3152,20 @@
       },
       {
         "title": "Looking a little closer",
-        "text": "Our teacher sat at our eye level and waited for our words. “I thought she did not want to work with me,” I said. Harin could not move her hand away right away. The teacher asked her to let us know when she was ready to show it.",
+        "text": "Our teacher lowered herself near us and waited. I said, “I thought you did not want to work with me.” Harin could not move her hands away yet. Our teacher said she could tell us when she was ready to show it.",
         "viewpoint": "Jun",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "A face turns toward the other person to listen.",
+            "kind": "👀 Eye key",
+            "message": "Jun has a slightly open mouth.",
             "x": 27,
             "y": 48
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "An open hand waits for words.",
-            "x": 55,
-            "y": 70
+            "kind": "🏃 Action key",
+            "message": "Jun has an open palm.",
+            "x": 36,
+            "y": 65
           }
         ],
         "panel": 3,
@@ -3039,22 +3184,22 @@
         "viewpoint": "Jun",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Faces soften as they look toward one another.",
+            "kind": "👀 Eye key",
+            "message": "Harin has a smile with upturned mouth corners.",
             "x": 70,
             "y": 47
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "A slightly crooked star is being shown.",
-            "x": 65,
-            "y": 65
+            "kind": "🏃 Action key",
+            "message": "A slightly crooked star is visible in Harin’s hand.",
+            "x": 64,
+            "y": 47
           },
           {
-            "kind": "👂 귀 열쇠",
-            "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-            "x": 78,
-            "y": 61
+            "kind": "👂 Ear key",
+            "message": "Harin said the repeated erasing was to make the star look good.",
+            "x": 75,
+            "y": 55
           }
         ],
         "panel": 4,
@@ -3073,16 +3218,16 @@
         "viewpoint": "Jun",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
-            "message": "Mouths lift into smiles and shoulders relax.",
+            "kind": "👀 Eye key",
+            "message": "Jun has a smile with upturned mouth corners.",
             "x": 28,
             "y": 49
           },
           {
-            "kind": "🏃 행동 열쇠",
-            "message": "They stick different stars on together.",
+            "kind": "🏃 Action key",
+            "message": "They stick their different stars onto one sheet together.",
             "x": 55,
-            "y": 80
+            "y": 63
           }
         ],
         "panel": 5,
@@ -3100,7 +3245,7 @@
       {
         "role": "Harin",
         "text": "Jun and I decided to make a star picture together. I wanted to show him a beautiful star.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
@@ -3108,27 +3253,29 @@
             "viewpoint": "Harin",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 28,
-                "y": 43
+                "kind": "👀 Eye key",
+                "message": "Jun has a smile with upturned mouth corners.",
+                "x": 29,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "They hold stars with different colors and shapes.",
-                "x": 35,
-                "y": 64
+                "kind": "🏃 Action key",
+                "message": "They hold paper stars of different colors.",
+                "x": 79,
+                "y": 74
               }
             ],
             "panel": 0,
-            "atlas": "./images/stars-view-1.png",
-            "aspect": 2.31,
+            "atlas": "./images/stars-1-lens.png",
+            "aspect": 2.2523,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.4792,
-              "h": 32.1289
-            }
+              "w": 48.8281,
+              "h": 32.5195
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -3136,27 +3283,29 @@
             "viewpoint": "Harin",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
+                "kind": "👀 Eye key",
+                "message": "Jun has a slightly open mouth.",
                 "x": 29,
-                "y": 40
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "There are eraser crumbs beside the paper.",
-                "x": 82,
-                "y": 80
+                "kind": "🏃 Action key",
+                "message": "There is an eraser and little crumbs beside the paper.",
+                "x": 74,
+                "y": 83
               }
             ],
             "panel": 1,
-            "atlas": "./images/stars-view-1.png",
-            "aspect": 2.3222,
+            "atlas": "./images/stars-1-lens.png",
+            "aspect": 2.3243,
             "crop": {
-              "x": 50.0651,
+              "x": 49.4141,
               "y": 0.293,
-              "w": 49.7396,
-              "h": 32.1289
-            }
+              "w": 50.3906,
+              "h": 32.5195
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -3164,27 +3313,29 @@
             "viewpoint": "Harin",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 28,
-                "y": 48
+                "kind": "👀 Eye key",
+                "message": "Jun has downturned mouth corners.",
+                "x": 29,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The picture is hidden under folded arms.",
-                "x": 82,
-                "y": 73
+                "kind": "🏃 Action key",
+                "message": "The drawing is hidden beneath folded arms.",
+                "x": 76,
+                "y": 72
               }
             ],
             "panel": 2,
-            "atlas": "./images/stars-view-1.png",
-            "aspect": 2.4127,
+            "atlas": "./images/stars-1-lens.png",
+            "aspect": 2.2388,
             "crop": {
               "x": 0.1953,
-              "y": 33.0078,
-              "w": 49.4792,
-              "h": 30.7617
-            }
+              "y": 33.3984,
+              "w": 48.8281,
+              "h": 32.7148
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
@@ -3192,27 +3343,29 @@
             "viewpoint": "Harin",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
+                "kind": "👀 Eye key",
+                "message": "Jun has a slightly open mouth.",
                 "x": 29,
-                "y": 43
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "An open hand waits for words.",
-                "x": 50,
-                "y": 70
+                "kind": "🏃 Action key",
+                "message": "Jun has an open palm.",
+                "x": 45,
+                "y": 64
               }
             ],
             "panel": 3,
-            "atlas": "./images/stars-view-1.png",
-            "aspect": 2.4254,
+            "atlas": "./images/stars-1-lens.png",
+            "aspect": 2.3104,
             "crop": {
-              "x": 50.0651,
-              "y": 33.0078,
-              "w": 49.7396,
-              "h": 30.7617
-            }
+              "x": 49.4141,
+              "y": 33.3984,
+              "w": 50.3906,
+              "h": 32.7148
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -3220,33 +3373,35 @@
             "viewpoint": "Harin",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
+                "kind": "👀 Eye key",
+                "message": "Jun has a smile with upturned mouth corners.",
                 "x": 29,
-                "y": 43
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A slightly crooked star is being shown.",
-                "x": 71,
-                "y": 64
+                "kind": "🏃 Action key",
+                "message": "A slightly crooked star is visible in Harin’s hand.",
+                "x": 66,
+                "y": 47
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 36,
-                "y": 57
+                "kind": "👂 Ear key",
+                "message": "Harin said the repeated erasing was to make the star look good.",
+                "x": 34,
+                "y": 55
               }
             ],
             "panel": 4,
-            "atlas": "./images/stars-view-1.png",
-            "aspect": 2.0994,
+            "atlas": "./images/stars-1-lens.png",
+            "aspect": 2.2189,
             "crop": {
               "x": 0.1953,
-              "y": 64.3555,
-              "w": 49.4792,
-              "h": 35.3516
-            }
+              "y": 66.6992,
+              "w": 48.8281,
+              "h": 33.0078
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -3254,72 +3409,76 @@
             "viewpoint": "Harin",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 28,
-                "y": 46
+                "kind": "👀 Eye key",
+                "message": "Jun has a smile with upturned mouth corners.",
+                "x": 29,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "They stick different stars on together.",
-                "x": 54,
-                "y": 79
+                "kind": "🏃 Action key",
+                "message": "They stick their different stars onto one sheet together.",
+                "x": 61,
+                "y": 61
               }
             ],
             "panel": 5,
-            "atlas": "./images/stars-view-1.png",
-            "aspect": 2.1105,
+            "atlas": "./images/stars-1-lens.png",
+            "aspect": 2.2899,
             "crop": {
-              "x": 50.0651,
-              "y": 64.3555,
-              "w": 49.7396,
-              "h": 35.3516
-            }
+              "x": 49.4141,
+              "y": 66.6992,
+              "w": 50.3906,
+              "h": 33.0078
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/stars-view-1.png",
+        "atlas": "./images/stars-1-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "763/336",
+        "aspect": 2.2523,
         "crop": {
           "x": 0.1953,
-          "y": 33.5938,
-          "w": 49.6745,
-          "h": 32.8125
+          "y": 0.293,
+          "w": 48.8281,
+          "h": 32.5195
         }
       },
       {
         "role": "The teacher",
         "text": "The two children made stars side by side. I waited to see the stars each would create.",
-        "panel": 2,
+        "panel": 0,
         "scenes": [
           {
             "title": "A moment to share",
-            "text": "The two children made stars side by side. I waited to see the stars each would create.",
+            "text": "The children were making stars side by side. I wondered what each pair of hands would create. I wanted to watch how they made the stars, more than the finished shapes.",
             "viewpoint": "The teacher",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "The corners of a mouth lift a little.",
-                "x": 49,
-                "y": 50
+                "kind": "👀 Eye key",
+                "message": "Jun has a smile with upturned mouth corners.",
+                "x": 76,
+                "y": 44
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "They hold stars with different colors and shapes.",
-                "x": 57,
-                "y": 79
+                "kind": "🏃 Action key",
+                "message": "They hold paper stars of different colors.",
+                "x": 28,
+                "y": 62
               }
             ],
             "panel": 0,
-            "atlas": "./images/stars-view-2.png",
-            "aspect": "761/333",
+            "atlas": "./images/stars-2-lens.png",
+            "aspect": 2.4459,
             "crop": {
               "x": 0.1953,
               "y": 0.293,
-              "w": 49.5443,
-              "h": 32.5195
-            }
+              "w": 50,
+              "h": 30.6641
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What does that mean?",
@@ -3327,27 +3486,29 @@
             "viewpoint": "The teacher",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Eyes open wide or a head tilts to look closer.",
-                "x": 53,
-                "y": 51
+                "kind": "👀 Eye key",
+                "message": "Jun has a slightly open mouth.",
+                "x": 76,
+                "y": 47
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "There are eraser crumbs beside the paper.",
-                "x": 75,
-                "y": 83
+                "kind": "🏃 Action key",
+                "message": "There is an eraser and little crumbs beside the paper.",
+                "x": 33,
+                "y": 81
               }
             ],
             "panel": 1,
-            "atlas": "./images/stars-view-2.png",
-            "aspect": "763/333",
+            "atlas": "./images/stars-2-lens.png",
+            "aspect": 2.4076,
             "crop": {
-              "x": 50.1302,
+              "x": 50.5859,
               "y": 0.293,
-              "w": 49.6745,
-              "h": 32.5195
-            }
+              "w": 49.2188,
+              "h": 30.6641
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "What I first imagined",
@@ -3355,55 +3516,59 @@
             "viewpoint": "The teacher",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Lips close and shoulders draw inward.",
-                "x": 53,
-                "y": 51
+                "kind": "👀 Eye key",
+                "message": "Jun has downturned mouth corners.",
+                "x": 76,
+                "y": 48
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "The picture is hidden under folded arms.",
-                "x": 77,
-                "y": 67
+                "kind": "🏃 Action key",
+                "message": "The drawing is hidden beneath folded arms.",
+                "x": 29,
+                "y": 62
               }
             ],
             "panel": 2,
-            "atlas": "./images/stars-view-2.png",
-            "aspect": "761/321",
+            "atlas": "./images/stars-2-lens.png",
+            "aspect": 2.2655,
             "crop": {
               "x": 0.1953,
-              "y": 33.3984,
-              "w": 49.5443,
-              "h": 31.3477
-            }
+              "y": 31.543,
+              "w": 50,
+              "h": 33.1055
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "Looking a little closer",
-            "text": "I sat at their eye level and waited for their words. I did not rush Harin to show her drawing.",
+            "text": "I lowered myself near the children and listened. Jun said he had felt left out. I told Harin she could speak when she was ready to show her drawing.",
             "viewpoint": "The teacher",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "A face turns toward the other person to listen.",
-                "x": 53,
-                "y": 50
+                "kind": "👀 Eye key",
+                "message": "Jun has a slightly open mouth.",
+                "x": 76,
+                "y": 49
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "An open hand waits for words.",
-                "x": 46,
-                "y": 78
+                "kind": "🏃 Action key",
+                "message": "Jun has an open palm.",
+                "x": 63,
+                "y": 49
               }
             ],
             "panel": 3,
-            "atlas": "./images/stars-view-2.png",
-            "aspect": "763/321",
+            "atlas": "./images/stars-2-lens.png",
+            "aspect": 2.2301,
             "crop": {
-              "x": 50.1302,
-              "y": 33.3984,
-              "w": 49.6745,
-              "h": 31.3477
-            }
+              "x": 50.5859,
+              "y": 31.543,
+              "w": 49.2188,
+              "h": 33.1055
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "A feeling I had not seen",
@@ -3411,33 +3576,35 @@
             "viewpoint": "The teacher",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Faces soften as they look toward one another.",
-                "x": 76,
-                "y": 48
+                "kind": "👀 Eye key",
+                "message": "Harin has a smile with upturned mouth corners.",
+                "x": 28,
+                "y": 46
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "A slightly crooked star is being shown.",
-                "x": 74,
-                "y": 70
+                "kind": "🏃 Action key",
+                "message": "A slightly crooked star is visible in Harin’s hand.",
+                "x": 35,
+                "y": 47
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "Look for the words that share a feeling in the story. Did someone say something you could not see?",
-                "x": 84,
-                "y": 62
+                "kind": "👂 Ear key",
+                "message": "Harin said the repeated erasing was to make the star look good.",
+                "x": 33,
+                "y": 54
               }
             ],
             "panel": 4,
-            "atlas": "./images/stars-view-2.png",
-            "aspect": "761/352",
+            "atlas": "./images/stars-2-lens.png",
+            "aspect": 2.1756,
             "crop": {
               "x": 0.1953,
-              "y": 65.332,
-              "w": 49.5443,
-              "h": 34.375
-            }
+              "y": 65.2344,
+              "w": 50,
+              "h": 34.4727
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           },
           {
             "title": "The same moment, a new feeling",
@@ -3445,38 +3612,40 @@
             "viewpoint": "The teacher",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "Mouths lift into smiles and shoulders relax.",
-                "x": 53,
-                "y": 51
+                "kind": "👀 Eye key",
+                "message": "Jun has a smile with upturned mouth corners.",
+                "x": 76,
+                "y": 45
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "They stick different stars on together.",
-                "x": 59,
-                "y": 81
+                "kind": "🏃 Action key",
+                "message": "They stick their different stars onto one sheet together.",
+                "x": 68,
+                "y": 66
               }
             ],
             "panel": 5,
-            "atlas": "./images/stars-view-2.png",
-            "aspect": "763/352",
+            "atlas": "./images/stars-2-lens.png",
+            "aspect": 2.1416,
             "crop": {
-              "x": 50.1302,
-              "y": 65.332,
-              "w": 49.6745,
-              "h": 34.375
-            }
+              "x": 50.5859,
+              "y": 65.2344,
+              "w": 49.2188,
+              "h": 34.4727
+            },
+            "atlasRows": 3,
+            "atlasCols": 2
           }
         ],
-        "atlas": "./images/stars-view-2.png",
+        "atlas": "./images/stars-2-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": "761/321",
+        "aspect": 2.4459,
         "crop": {
           "x": 0.1953,
-          "y": 33.3984,
-          "w": 49.5443,
-          "h": 31.3477
+          "y": 0.293,
+          "w": 50,
+          "h": 30.6641
         }
       }
     ],

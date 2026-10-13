@@ -9,3 +9,5 @@ html[lang=ko] body[data-audience=child] .story{font-family:'Hi Melody','Gamja Fl
 
 .role-card .mini{aspect-ratio:3/2}
 .picture .spot span{opacity:.8}
+
+.hint-tip{display:flex;align-items:center;gap:12px;max-width:760px;z-index:3;pointer-events:none}.hint-tip:empty{display:none}.clue-closeup{flex:0 0 145px;max-height:112px;border:1px solid #dccdaf;border-radius:8px;background-repeat:no-repeat;background-color:#faf2df}.hint-tip>span{flex:1;line-height:1.65}.spot:hover,.spot:focus-visible,.spot[aria-pressed=true]{border:2px solid #b78d49;background:#fff6cc36;box-shadow:0 0 0 5px #fff3c64d}@media(max-width:600px){.clue-closeup{flex-basis:94px;max-height:90px}.hint-tip{gap:8px;padding:8px;font-size:13px}}
