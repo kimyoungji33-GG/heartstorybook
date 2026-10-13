@@ -161,8 +161,8 @@
           {
             "kind": "👂 Ear key",
             "message": "Junho said the worry was about losing the bookmark.",
-            "x": 35,
-            "y": 57
+            "x": 82,
+            "y": 54
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -353,8 +353,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Junho said the worry was about losing the bookmark.",
-                "x": 35,
-                "y": 57
+                "x": 85,
+                "y": 64
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -556,8 +556,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Junho said the worry was about losing the bookmark.",
-                "x": 63,
-                "y": 58
+                "x": 23,
+                "y": 50
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -756,8 +756,8 @@
           {
             "kind": "👂 Ear key",
             "message": "Yuna said the worry was that the blue cup might break.",
-            "x": 35,
-            "y": 65
+            "x": 70,
+            "y": 47
           }
         ],
         "panel": 4,
@@ -945,8 +945,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Yuna said the worry was that the blue cup might break.",
-                "x": 35,
-                "y": 64
+                "x": 85,
+                "y": 62
               }
             ],
             "panel": 4,
@@ -1016,8 +1016,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Minseo has a smile with upturned mouth corners.",
-                "x": 80,
-                "y": 53
+                "x": 77,
+                "y": 40
               },
               {
                 "kind": "🏃 Action key",
@@ -1046,8 +1046,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Minseo has downturned mouth corners.",
-                "x": 80,
-                "y": 55
+                "x": 74,
+                "y": 40
               },
               {
                 "kind": "🏃 Action key",
@@ -1076,8 +1076,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Minseo has lowered their head.",
-                "x": 80,
-                "y": 57
+                "x": 79,
+                "y": 51
               },
               {
                 "kind": "🏃 Action key",
@@ -1107,7 +1107,7 @@
                 "kind": "👀 Eye key",
                 "message": "Minseo has downturned mouth corners.",
                 "x": 81,
-                "y": 59
+                "y": 32
               },
               {
                 "kind": "🏃 Action key",
@@ -1136,8 +1136,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Yuna has a smile with upturned mouth corners.",
-                "x": 25,
-                "y": 46
+                "x": 20,
+                "y": 35
               },
               {
                 "kind": "🏃 Action key",
@@ -1148,8 +1148,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Yuna said the worry was that the blue cup might break.",
-                "x": 30,
-                "y": 54
+                "x": 20,
+                "y": 43
               }
             ],
             "panel": 4,
@@ -1172,8 +1172,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Minseo has a smile with upturned mouth corners.",
-                "x": 80,
-                "y": 54
+                "x": 78,
+                "y": 43
               },
               {
                 "kind": "🏃 Action key",
@@ -1369,8 +1369,8 @@
           {
             "kind": "👂 Ear key",
             "message": "Both children said they saved the bread in case the other was hungry.",
-            "x": 33,
-            "y": 55
+            "x": 32,
+            "y": 54
           }
         ],
         "panel": 4,
@@ -1558,8 +1558,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Both children said they saved the bread in case the other was hungry.",
-                "x": 40,
-                "y": 53
+                "x": 37,
+                "y": 55
               }
             ],
             "panel": 4,
@@ -1761,7 +1761,7 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Both children said they saved the bread in case the other was hungry.",
-                "x": 82,
+                "x": 77,
                 "y": 53
               }
             ],
@@ -1965,8 +1965,8 @@
           {
             "kind": "👀 Eye key",
             "message": "Sora has a smile with upturned mouth corners.",
-            "x": 31,
-            "y": 51
+            "x": 32,
+            "y": 42
           },
           {
             "kind": "🏃 Action key",
@@ -1977,8 +1977,8 @@
           {
             "kind": "👂 Ear key",
             "message": "Sora said the star for Sua was not finished yet.",
-            "x": 36,
-            "y": 59
+            "x": 33,
+            "y": 42
           }
         ],
         "panel": 4,
@@ -1999,7 +1999,7 @@
           {
             "kind": "👀 Eye key",
             "message": "Sora has a smile with upturned mouth corners.",
-            "x": 42,
+            "x": 32,
             "y": 43
           },
           {
@@ -2154,8 +2154,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Sora has a smile with upturned mouth corners.",
-                "x": 31,
-                "y": 49
+                "x": 32,
+                "y": 37
               },
               {
                 "kind": "🏃 Action key",
@@ -2166,8 +2166,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Sora said the star for Sua was not finished yet.",
-                "x": 36,
-                "y": 57
+                "x": 34,
+                "y": 42
               }
             ],
             "panel": 4,
@@ -2190,8 +2190,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Sora has a smile with upturned mouth corners.",
-                "x": 77,
-                "y": 47
+                "x": 75,
+                "y": 33
               },
               {
                 "kind": "🏃 Action key",
@@ -2357,8 +2357,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Sora has a smile with upturned mouth corners.",
-                "x": 61,
-                "y": 49
+                "x": 62,
+                "y": 31
               },
               {
                 "kind": "🏃 Action key",
@@ -2369,8 +2369,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Sora said the star for Sua was not finished yet.",
-                "x": 66,
-                "y": 57
+                "x": 62,
+                "y": 38
               }
             ],
             "panel": 4,
@@ -2393,8 +2393,8 @@
               {
                 "kind": "👀 Eye key",
                 "message": "Sora has a smile with upturned mouth corners.",
-                "x": 37,
-                "y": 49
+                "x": 46,
+                "y": 34
               },
               {
                 "kind": "🏃 Action key",
@@ -2557,8 +2557,8 @@
           {
             "kind": "👂 Ear key",
             "message": "Luca said the dog was new here and needed a little time.",
-            "x": 36,
-            "y": 54
+            "x": 72,
+            "y": 47
           }
         ],
         "panel": 3,
@@ -2744,8 +2744,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Luca said the dog was new here and needed a little time.",
-                "x": 34,
-                "y": 52
+                "x": 85,
+                "y": 69
               }
             ],
             "panel": 3,
@@ -2947,8 +2947,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Luca said the dog was new here and needed a little time.",
-                "x": 31,
-                "y": 54
+                "x": 26,
+                "y": 48
               }
             ],
             "panel": 3,
@@ -3198,8 +3198,8 @@
           {
             "kind": "👂 Ear key",
             "message": "Harin said the repeated erasing was to make the star look good.",
-            "x": 75,
-            "y": 55
+            "x": 70,
+            "y": 44
           }
         ],
         "panel": 4,
@@ -3387,7 +3387,7 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Harin said the repeated erasing was to make the star look good.",
-                "x": 34,
+                "x": 85,
                 "y": 55
               }
             ],
@@ -3590,8 +3590,8 @@
               {
                 "kind": "👂 Ear key",
                 "message": "Harin said the repeated erasing was to make the star look good.",
-                "x": 33,
-                "y": 54
+                "x": 30,
+                "y": 43
               }
             ],
             "panel": 4,

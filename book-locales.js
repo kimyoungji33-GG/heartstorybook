@@ -162,8 +162,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Ear key",
               "message": "Junho said the worry was about losing the bookmark.",
-              "x": 35,
-              "y": 57
+              "x": 82,
+              "y": 54
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -354,8 +354,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Junho said the worry was about losing the bookmark.",
-                  "x": 35,
-                  "y": 57
+                  "x": 85,
+                  "y": 64
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -557,8 +557,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Junho said the worry was about losing the bookmark.",
-                  "x": 63,
-                  "y": 58
+                  "x": 23,
+                  "y": 50
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -757,8 +757,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Ear key",
               "message": "Yuna said the worry was that the blue cup might break.",
-              "x": 35,
-              "y": 65
+              "x": 70,
+              "y": 47
             }
           ],
           "panel": 4,
@@ -946,8 +946,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Yuna said the worry was that the blue cup might break.",
-                  "x": 35,
-                  "y": 64
+                  "x": 85,
+                  "y": 62
                 }
               ],
               "panel": 4,
@@ -1017,8 +1017,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 80,
-                  "y": 53
+                  "x": 77,
+                  "y": 40
                 },
                 {
                   "kind": "🏃 Action key",
@@ -1047,8 +1047,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Minseo has downturned mouth corners.",
-                  "x": 80,
-                  "y": 55
+                  "x": 74,
+                  "y": 40
                 },
                 {
                   "kind": "🏃 Action key",
@@ -1077,8 +1077,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Minseo has lowered their head.",
-                  "x": 80,
-                  "y": 57
+                  "x": 79,
+                  "y": 51
                 },
                 {
                   "kind": "🏃 Action key",
@@ -1108,7 +1108,7 @@ window.heartBookLocales = {
                   "kind": "👀 Eye key",
                   "message": "Minseo has downturned mouth corners.",
                   "x": 81,
-                  "y": 59
+                  "y": 32
                 },
                 {
                   "kind": "🏃 Action key",
@@ -1137,8 +1137,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Yuna has a smile with upturned mouth corners.",
-                  "x": 25,
-                  "y": 46
+                  "x": 20,
+                  "y": 35
                 },
                 {
                   "kind": "🏃 Action key",
@@ -1149,8 +1149,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Yuna said the worry was that the blue cup might break.",
-                  "x": 30,
-                  "y": 54
+                  "x": 20,
+                  "y": 43
                 }
               ],
               "panel": 4,
@@ -1173,8 +1173,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 80,
-                  "y": 54
+                  "x": 78,
+                  "y": 43
                 },
                 {
                   "kind": "🏃 Action key",
@@ -1370,8 +1370,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Ear key",
               "message": "Both children said they saved the bread in case the other was hungry.",
-              "x": 33,
-              "y": 55
+              "x": 32,
+              "y": 54
             }
           ],
           "panel": 4,
@@ -1559,8 +1559,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Both children said they saved the bread in case the other was hungry.",
-                  "x": 40,
-                  "y": 53
+                  "x": 37,
+                  "y": 55
                 }
               ],
               "panel": 4,
@@ -1762,7 +1762,7 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Both children said they saved the bread in case the other was hungry.",
-                  "x": 82,
+                  "x": 77,
                   "y": 53
                 }
               ],
@@ -1966,8 +1966,8 @@ window.heartBookLocales = {
             {
               "kind": "👀 Eye key",
               "message": "Sora has a smile with upturned mouth corners.",
-              "x": 31,
-              "y": 51
+              "x": 32,
+              "y": 42
             },
             {
               "kind": "🏃 Action key",
@@ -1978,8 +1978,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Ear key",
               "message": "Sora said the star for Sua was not finished yet.",
-              "x": 36,
-              "y": 59
+              "x": 33,
+              "y": 42
             }
           ],
           "panel": 4,
@@ -2000,7 +2000,7 @@ window.heartBookLocales = {
             {
               "kind": "👀 Eye key",
               "message": "Sora has a smile with upturned mouth corners.",
-              "x": 42,
+              "x": 32,
               "y": 43
             },
             {
@@ -2155,8 +2155,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Sora has a smile with upturned mouth corners.",
-                  "x": 31,
-                  "y": 49
+                  "x": 32,
+                  "y": 37
                 },
                 {
                   "kind": "🏃 Action key",
@@ -2167,8 +2167,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Sora said the star for Sua was not finished yet.",
-                  "x": 36,
-                  "y": 57
+                  "x": 34,
+                  "y": 42
                 }
               ],
               "panel": 4,
@@ -2191,8 +2191,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Sora has a smile with upturned mouth corners.",
-                  "x": 77,
-                  "y": 47
+                  "x": 75,
+                  "y": 33
                 },
                 {
                   "kind": "🏃 Action key",
@@ -2358,8 +2358,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Sora has a smile with upturned mouth corners.",
-                  "x": 61,
-                  "y": 49
+                  "x": 62,
+                  "y": 31
                 },
                 {
                   "kind": "🏃 Action key",
@@ -2370,8 +2370,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Sora said the star for Sua was not finished yet.",
-                  "x": 66,
-                  "y": 57
+                  "x": 62,
+                  "y": 38
                 }
               ],
               "panel": 4,
@@ -2394,8 +2394,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Eye key",
                   "message": "Sora has a smile with upturned mouth corners.",
-                  "x": 37,
-                  "y": 49
+                  "x": 46,
+                  "y": 34
                 },
                 {
                   "kind": "🏃 Action key",
@@ -2558,8 +2558,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Ear key",
               "message": "Luca said the dog was new here and needed a little time.",
-              "x": 36,
-              "y": 54
+              "x": 72,
+              "y": 47
             }
           ],
           "panel": 3,
@@ -2745,8 +2745,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Luca said the dog was new here and needed a little time.",
-                  "x": 34,
-                  "y": 52
+                  "x": 85,
+                  "y": 69
                 }
               ],
               "panel": 3,
@@ -2948,8 +2948,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Luca said the dog was new here and needed a little time.",
-                  "x": 31,
-                  "y": 54
+                  "x": 26,
+                  "y": 48
                 }
               ],
               "panel": 3,
@@ -3199,8 +3199,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Ear key",
               "message": "Harin said the repeated erasing was to make the star look good.",
-              "x": 75,
-              "y": 55
+              "x": 70,
+              "y": 44
             }
           ],
           "panel": 4,
@@ -3388,7 +3388,7 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Harin said the repeated erasing was to make the star look good.",
-                  "x": 34,
+                  "x": 85,
                   "y": 55
                 }
               ],
@@ -3591,8 +3591,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Ear key",
                   "message": "Harin said the repeated erasing was to make the star look good.",
-                  "x": 33,
-                  "y": 54
+                  "x": 30,
+                  "y": 43
                 }
               ],
               "panel": 4,
@@ -3832,8 +3832,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Llave del oído",
               "message": "Junho dijo que le preocupaba perder el marcapáginas.",
-              "x": 35,
-              "y": 57
+              "x": 82,
+              "y": 54
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -4024,8 +4024,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Junho dijo que le preocupaba perder el marcapáginas.",
-                  "x": 35,
-                  "y": 57
+                  "x": 85,
+                  "y": 64
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -4227,8 +4227,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Junho dijo que le preocupaba perder el marcapáginas.",
-                  "x": 63,
-                  "y": 58
+                  "x": 23,
+                  "y": 50
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -4427,8 +4427,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Llave del oído",
               "message": "Yuna dijo que le preocupaba que se rompiera la taza azul.",
-              "x": 35,
-              "y": 65
+              "x": 70,
+              "y": 47
             }
           ],
           "panel": 4,
@@ -4616,8 +4616,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Yuna dijo que le preocupaba que se rompiera la taza azul.",
-                  "x": 35,
-                  "y": 64
+                  "x": 85,
+                  "y": 62
                 }
               ],
               "panel": 4,
@@ -4687,8 +4687,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 80,
-                  "y": 53
+                  "x": 77,
+                  "y": 40
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -4717,8 +4717,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Las comisuras de Minseo están hacia abajo.",
-                  "x": 80,
-                  "y": 55
+                  "x": 74,
+                  "y": 40
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -4747,8 +4747,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Minseo ha bajado la cabeza.",
-                  "x": 80,
-                  "y": 57
+                  "x": 79,
+                  "y": 51
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -4778,7 +4778,7 @@ window.heartBookLocales = {
                   "kind": "👀 Llave de la mirada",
                   "message": "Las comisuras de Minseo están hacia abajo.",
                   "x": 81,
-                  "y": 59
+                  "y": 32
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -4807,8 +4807,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Yuna tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 25,
-                  "y": 46
+                  "x": 20,
+                  "y": 35
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -4819,8 +4819,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Yuna dijo que le preocupaba que se rompiera la taza azul.",
-                  "x": 30,
-                  "y": 54
+                  "x": 20,
+                  "y": 43
                 }
               ],
               "panel": 4,
@@ -4843,8 +4843,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 80,
-                  "y": 54
+                  "x": 78,
+                  "y": 43
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -5040,8 +5040,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Llave del oído",
               "message": "Los dos dijeron que guardaron el pan por si el otro tenía hambre.",
-              "x": 33,
-              "y": 55
+              "x": 32,
+              "y": 54
             }
           ],
           "panel": 4,
@@ -5229,8 +5229,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Los dos dijeron que guardaron el pan por si el otro tenía hambre.",
-                  "x": 40,
-                  "y": 53
+                  "x": 37,
+                  "y": 55
                 }
               ],
               "panel": 4,
@@ -5432,7 +5432,7 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Los dos dijeron que guardaron el pan por si el otro tenía hambre.",
-                  "x": 82,
+                  "x": 77,
                   "y": 53
                 }
               ],
@@ -5636,8 +5636,8 @@ window.heartBookLocales = {
             {
               "kind": "👀 Llave de la mirada",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 31,
-              "y": 51
+              "x": 32,
+              "y": 42
             },
             {
               "kind": "🏃 Llave de las acciones",
@@ -5648,8 +5648,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Llave del oído",
               "message": "Sora dijo que aún no había terminado la estrella para Sua.",
-              "x": 36,
-              "y": 59
+              "x": 33,
+              "y": 42
             }
           ],
           "panel": 4,
@@ -5670,7 +5670,7 @@ window.heartBookLocales = {
             {
               "kind": "👀 Llave de la mirada",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 42,
+              "x": 32,
               "y": 43
             },
             {
@@ -5825,8 +5825,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 31,
-                  "y": 49
+                  "x": 32,
+                  "y": 37
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -5837,8 +5837,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Sora dijo que aún no había terminado la estrella para Sua.",
-                  "x": 36,
-                  "y": 57
+                  "x": 34,
+                  "y": 42
                 }
               ],
               "panel": 4,
@@ -5861,8 +5861,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 77,
-                  "y": 47
+                  "x": 75,
+                  "y": 33
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -6028,8 +6028,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 61,
-                  "y": 49
+                  "x": 62,
+                  "y": 31
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -6040,8 +6040,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Sora dijo que aún no había terminado la estrella para Sua.",
-                  "x": 66,
-                  "y": 57
+                  "x": 62,
+                  "y": 38
                 }
               ],
               "panel": 4,
@@ -6064,8 +6064,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👀 Llave de la mirada",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 37,
-                  "y": 49
+                  "x": 46,
+                  "y": 34
                 },
                 {
                   "kind": "🏃 Llave de las acciones",
@@ -6228,8 +6228,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Llave del oído",
               "message": "Luca dijo que el perro era nuevo aquí y necesitaba un poco de tiempo.",
-              "x": 36,
-              "y": 54
+              "x": 72,
+              "y": 47
             }
           ],
           "panel": 3,
@@ -6415,8 +6415,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Luca dijo que el perro era nuevo aquí y necesitaba un poco de tiempo.",
-                  "x": 34,
-                  "y": 52
+                  "x": 85,
+                  "y": 69
                 }
               ],
               "panel": 3,
@@ -6618,8 +6618,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Luca dijo que el perro era nuevo aquí y necesitaba un poco de tiempo.",
-                  "x": 31,
-                  "y": 54
+                  "x": 26,
+                  "y": 48
                 }
               ],
               "panel": 3,
@@ -6869,8 +6869,8 @@ window.heartBookLocales = {
             {
               "kind": "👂 Llave del oído",
               "message": "Harin dijo que borraba varias veces porque quería dibujar bien la estrella.",
-              "x": 75,
-              "y": 55
+              "x": 70,
+              "y": 44
             }
           ],
           "panel": 4,
@@ -7058,7 +7058,7 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Harin dijo que borraba varias veces porque quería dibujar bien la estrella.",
-                  "x": 34,
+                  "x": 85,
                   "y": 55
                 }
               ],
@@ -7261,8 +7261,8 @@ window.heartBookLocales = {
                 {
                   "kind": "👂 Llave del oído",
                   "message": "Harin dijo que borraba varias veces porque quería dibujar bien la estrella.",
-                  "x": 33,
-                  "y": 54
+                  "x": 30,
+                  "y": 43
                 }
               ],
               "panel": 4,
