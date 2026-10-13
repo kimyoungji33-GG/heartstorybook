@@ -54,7 +54,21 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 32.7148
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "어떤 빵을 고를까?",
@@ -82,7 +96,21 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 32.7148
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "나 때문에 늦었을까?",
@@ -110,7 +138,17 @@ const visualBooks = [
           "y": 33.5938,
           "w": 49.6094,
           "h": 30.0781
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "책 사이에 보인 작은 모습",
@@ -138,7 +176,17 @@ const visualBooks = [
           "y": 33.5938,
           "w": 49.6094,
           "h": 30.0781
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "작게 꺼내 본 말",
@@ -172,7 +220,21 @@ const visualBooks = [
           "y": 64.2578,
           "w": 49.6094,
           "h": 35.4492
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "따뜻한 봉지를 들고",
@@ -200,7 +262,21 @@ const visualBooks = [
           "y": 64.2578,
           "w": 49.6094,
           "h": 35.4492
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       }
     ],
     "activities": [
@@ -238,7 +314,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.2266
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "어떤 빵을 고를까?",
@@ -266,7 +348,21 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.2266
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              },
+              {
+                "sentence": 2,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "나 때문에 늦었을까?",
@@ -294,7 +390,13 @@ const visualBooks = [
               "y": 33.1055,
               "w": 49.6094,
               "h": 30.0781
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "책 사이에 보인 작은 모습",
@@ -322,7 +424,17 @@ const visualBooks = [
               "y": 33.1055,
               "w": 49.6094,
               "h": 30.0781
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "작게 꺼내 본 말",
@@ -356,7 +468,17 @@ const visualBooks = [
               "y": 63.7695,
               "w": 49.6094,
               "h": 35.9375
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "따뜻한 봉지를 들고",
@@ -384,7 +506,13 @@ const visualBooks = [
               "y": 63.7695,
               "w": 49.6094,
               "h": 35.9375
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           }
         ],
         "aspect": "762/308",
@@ -429,7 +557,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.2266
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "어떤 빵을 고를까?",
@@ -457,7 +595,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.2266
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "나 때문에 늦었을까?",
@@ -485,7 +629,13 @@ const visualBooks = [
               "y": 33.1055,
               "w": 49.6745,
               "h": 31.8359
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "책 사이에 보인 작은 모습",
@@ -513,7 +663,17 @@ const visualBooks = [
               "y": 33.1055,
               "w": 49.5443,
               "h": 31.8359
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "작게 꺼내 본 말",
@@ -547,7 +707,13 @@ const visualBooks = [
               "y": 65.5273,
               "w": 49.6745,
               "h": 34.1797
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "따뜻한 봉지를 들고",
@@ -575,7 +741,17 @@ const visualBooks = [
               "y": 65.5273,
               "w": 49.5443,
               "h": 34.1797
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           }
         ],
         "aspect": "763/326",
@@ -648,7 +824,17 @@ const visualBooks = [
           "feedbackCorrect": "입꼬리가 올라간 모습이 마음 열쇠였어요. 빵을 고르는 일이 즐거운가 봐요.",
           "feedbackTry": "아쉬워요, 서연의 얼굴을 다시 볼까요? 옷 색이나 가방 크기만으로 마음을 알기는 어려워요."
         },
-        "image": "./images/bakery-1.png"
+        "image": "./images/bakery-1.png",
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "문이 열리고, 마음도 깜짝",
@@ -705,7 +891,13 @@ const visualBooks = [
           "feedbackCorrect": "서두르는 것 같다는 짐작은 할 수 있어요. 왜 급한지는 아직 직접 듣지 못했어요.",
           "feedbackTry": "아쉬워요, 이마와 목소리를 다시 살펴볼까요? 한 장면만으로 늘 그런 사람이라고 정할 수는 없어요."
         },
-        "image": "./images/bakery-2.png"
+        "image": "./images/bakery-2.png",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "내 차례인데",
@@ -755,7 +947,21 @@ const visualBooks = [
           "feedbackCorrect": "기다린 마음을 알아주는 말이에요. 화가 나는 마음은 잘못이 아니에요. 어떻게 말할지는 천천히 고를 수 있어요.",
           "feedbackTry": "아쉬워요, 서연이 기다리고 있었다는 걸 다시 떠올려 볼까요? 웃으라고 하기보다 먼저 마음을 들어 주세요."
         },
-        "image": "./images/bakery-3.png"
+        "image": "./images/bakery-3.png",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          },
+          {
+            "sentence": 3,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "말하지 않고 지켜 주는 마음",
@@ -812,7 +1018,13 @@ const visualBooks = [
           "feedbackCorrect": "주인은 말해도 되는 것과 조용히 지켜 줄 것을 나누었어요. 기다린 차례도 지키며 하준이 직접 말할 시간을 주었어요.",
           "feedbackTry": "아쉬워요, 주인의 손과 포장하는 봉지를 다시 볼까요? 조용히 기다려 주는 것과 차례를 지키는 것은 함께 할 수 있어요."
         },
-        "image": "./images/bakery-4.png"
+        "image": "./images/bakery-4.png",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "빵 봉지 밖으로 나온 한마디",
@@ -875,7 +1087,17 @@ const visualBooks = [
           "feedbackCorrect": "하준이 직접 말해 주어 까닭을 알게 됐어요. 땀만 보았을 때는 짐작이었지만, 이제 말도 함께 들었어요.",
           "feedbackTry": "아쉬워요, 하준이 천천히 한 말을 다시 들어볼까요? 옷과 가방만으로 부모님을 생각하는 마음을 알 수는 없어요."
         },
-        "image": "./images/bakery-5.png"
+        "image": "./images/bakery-5.png",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "따뜻한 빵, 따뜻한 인사",
@@ -932,7 +1154,17 @@ const visualBooks = [
           "feedbackCorrect": "미리 묻고 답을 기다리면 서로의 마음과 차례를 함께 살필 수 있어요. 먼저 해도 괜찮다고 답해 주지 않으면 내 차례를 기다려요.",
           "feedbackTry": "아쉬워요, 하준이 마지막에 한 사과를 떠올려 볼까요? 급한 마음을 말하면서도 다른 사람의 차례를 함께 살피면 좋아요."
         },
-        "image": "./images/bakery-6.png"
+        "image": "./images/bakery-6.png",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 1,
+            "kind": "eye"
+          }
+        ]
       }
     ],
     "activities": [
@@ -1002,7 +1234,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 서연의 얼굴을 다시 볼까요? 옷 색이나 가방 크기만으로 마음을 알기는 어려워요."
             },
             "image": "./images/bakery-hajun-scene-1.png",
-            "aspect": "625/415"
+            "aspect": "625/415",
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "빵만 보였던 순간",
@@ -1051,7 +1293,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 이마와 목소리를 다시 살펴볼까요? 한 장면만으로 늘 그런 사람이라고 정할 수는 없어요."
             },
             "image": "./images/bakery-hajun-scene-2.png",
-            "aspect": "626/415"
+            "aspect": "626/415",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "뒤늦게 본 얼굴",
@@ -1100,7 +1352,13 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 서연이 기다리고 있었다는 걸 다시 떠올려 볼까요? 웃으라고 하기보다 먼저 마음을 들어 주세요."
             },
             "image": "./images/bakery-hajun-scene-3.png",
-            "aspect": "625/404"
+            "aspect": "625/404",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "한 걸음 기다려요",
@@ -1149,7 +1407,13 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 주인의 손과 포장하는 봉지를 다시 볼까요? 조용히 기다려 주는 것과 차례를 지키는 것은 함께 할 수 있어요."
             },
             "image": "./images/bakery-hajun-scene-4.png",
-            "aspect": "626/404"
+            "aspect": "626/404",
+            "textKeys": [
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 전한 마음",
@@ -1204,7 +1468,13 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 하준이 천천히 한 말을 다시 들어볼까요? 옷과 가방만으로 부모님을 생각하는 마음을 알 수는 없어요."
             },
             "image": "./images/bakery-hajun-scene-5.png",
-            "aspect": "625/432"
+            "aspect": "625/432",
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "미안해요, 고마워요",
@@ -1259,7 +1529,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 하준이 마지막에 한 사과를 떠올려 볼까요? 급한 마음을 말하면서도 다른 사람의 차례를 함께 살피면 좋아요."
             },
             "image": "./images/bakery-hajun-scene-6.png",
-            "aspect": "626/432"
+            "aspect": "626/432",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           }
         ]
       },
@@ -1329,7 +1609,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 서연의 얼굴을 다시 볼까요? 옷 색이나 가방 크기만으로 마음을 알기는 어려워요."
             },
             "image": "./images/bakery-owner-scene-1.png",
-            "aspect": "625/415"
+            "aspect": "625/415",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "급한 발걸음",
@@ -1378,7 +1668,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 이마와 목소리를 다시 살펴볼까요? 한 장면만으로 늘 그런 사람이라고 정할 수는 없어요."
             },
             "image": "./images/bakery-owner-scene-2.png",
-            "aspect": "626/415"
+            "aspect": "626/415",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "서로 다른 두 얼굴",
@@ -1427,7 +1727,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 서연이 기다리고 있었다는 걸 다시 떠올려 볼까요? 웃으라고 하기보다 먼저 마음을 들어 주세요."
             },
             "image": "./images/bakery-owner-scene-3.png",
-            "aspect": "625/414"
+            "aspect": "625/414",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "차례와 마음을 함께",
@@ -1476,7 +1786,17 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 주인의 손과 포장하는 봉지를 다시 볼까요? 조용히 기다려 주는 것과 차례를 지키는 것은 함께 할 수 있어요."
             },
             "image": "./images/bakery-owner-scene-4.png",
-            "aspect": "626/414"
+            "aspect": "626/414",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "직접 전하는 마음",
@@ -1531,7 +1851,13 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 하준이 천천히 한 말을 다시 들어볼까요? 옷과 가방만으로 부모님을 생각하는 마음을 알 수는 없어요."
             },
             "image": "./images/bakery-owner-scene-5.png",
-            "aspect": "625/417"
+            "aspect": "625/417",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "다시 편안해진 빵집",
@@ -1586,7 +1912,21 @@ const visualBooks = [
               "feedbackTry": "아쉬워요, 하준이 마지막에 한 사과를 떠올려 볼까요? 급한 마음을 말하면서도 다른 사람의 차례를 함께 살피면 좋아요."
             },
             "image": "./images/bakery-owner-scene-6.png",
-            "aspect": "626/417"
+            "aspect": "626/417",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           }
         ]
       }
@@ -1661,7 +2001,13 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.7396,
           "h": 32.7148
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "잠깐, 무슨 뜻일까?",
@@ -1689,7 +2035,21 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.4792,
           "h": 32.7148
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          },
+          {
+            "sentence": 3,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "내가 처음 짐작한 마음",
@@ -1717,7 +2077,17 @@ const visualBooks = [
           "y": 33.5938,
           "w": 49.7396,
           "h": 32.4219
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 2,
+            "kind": "eye"
+          },
+          {
+            "sentence": 3,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "조금 더 가까이 보기",
@@ -1745,7 +2115,21 @@ const visualBooks = [
           "y": 33.5938,
           "w": 49.4792,
           "h": 32.4219
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "새로 보이는 마음",
@@ -1779,7 +2163,21 @@ const visualBooks = [
           "y": 66.6016,
           "w": 49.7396,
           "h": 33.1055
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          },
+          {
+            "sentence": 3,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "같은 순간, 달라진 마음",
@@ -1807,7 +2205,21 @@ const visualBooks = [
           "y": 66.6016,
           "w": 49.4792,
           "h": 33.1055
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       }
     ],
     "activities": [
@@ -1856,7 +2268,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -1884,7 +2302,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -1912,7 +2336,13 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.6745,
               "h": 32.1289
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -1940,7 +2370,17 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.5443,
               "h": 32.1289
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -1974,7 +2414,13 @@ const visualBooks = [
               "y": 66.3086,
               "w": 49.6745,
               "h": 33.3984
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -2002,7 +2448,17 @@ const visualBooks = [
               "y": 66.3086,
               "w": 49.5443,
               "h": 33.3984
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/cups-view-1.png",
@@ -2061,7 +2517,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.8125
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -2089,7 +2551,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.8125
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -2117,7 +2589,17 @@ const visualBooks = [
               "y": 33.6914,
               "w": 49.6745,
               "h": 32.5195
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -2145,7 +2627,17 @@ const visualBooks = [
               "y": 33.6914,
               "w": 49.5443,
               "h": 32.5195
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -2179,7 +2671,13 @@ const visualBooks = [
               "y": 66.7969,
               "w": 49.6745,
               "h": 32.9102
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -2207,7 +2705,21 @@ const visualBooks = [
               "y": 66.7969,
               "w": 49.5443,
               "h": 32.9102
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/cups-view-2.png",
@@ -2294,7 +2806,17 @@ const visualBooks = [
           "y": 0.2392,
           "w": 49.5215,
           "h": 32.6156
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "잠깐, 무슨 뜻일까?",
@@ -2322,7 +2844,21 @@ const visualBooks = [
           "y": 0.2392,
           "w": 49.5215,
           "h": 32.6156
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "eye"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "내가 처음 짐작한 마음",
@@ -2350,7 +2886,13 @@ const visualBooks = [
           "y": 33.3333,
           "w": 49.5215,
           "h": 32.5359
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "조금 더 가까이 보기",
@@ -2378,7 +2920,21 @@ const visualBooks = [
           "y": 33.3333,
           "w": 49.5215,
           "h": 32.5359
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "새로 보이는 마음",
@@ -2412,7 +2968,17 @@ const visualBooks = [
           "y": 66.3477,
           "w": 49.5215,
           "h": 33.4131
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 3,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "같은 순간, 달라진 마음",
@@ -2440,7 +3006,21 @@ const visualBooks = [
           "y": 66.3477,
           "w": 49.5215,
           "h": 33.4131
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       }
     ],
     "activities": [
@@ -2489,7 +3069,8 @@ const visualBooks = [
               "y": 0.2392,
               "w": 49.5215,
               "h": 32.5359
-            }
+            },
+            "textKeys": []
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -2517,7 +3098,13 @@ const visualBooks = [
               "y": 0.2392,
               "w": 49.5215,
               "h": 32.5359
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -2545,7 +3132,13 @@ const visualBooks = [
               "y": 33.2536,
               "w": 49.5215,
               "h": 32.4561
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -2573,7 +3166,13 @@ const visualBooks = [
               "y": 33.2536,
               "w": 49.5215,
               "h": 32.4561
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -2607,7 +3206,13 @@ const visualBooks = [
               "y": 66.1882,
               "w": 49.5215,
               "h": 33.5726
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -2635,7 +3240,13 @@ const visualBooks = [
               "y": 66.1882,
               "w": 49.5215,
               "h": 33.5726
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/plate-view-1.png",
@@ -2694,7 +3305,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -2722,7 +3339,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -2750,7 +3373,17 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.6745,
               "h": 32.5195
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -2778,7 +3411,13 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.5443,
               "h": 32.5195
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -2812,7 +3451,13 @@ const visualBooks = [
               "y": 66.6992,
               "w": 49.6745,
               "h": 33.0078
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -2840,7 +3485,21 @@ const visualBooks = [
               "y": 66.6992,
               "w": 49.5443,
               "h": 33.0078
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/plate-view-2.png",
@@ -2927,7 +3586,17 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 32.8125
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 3,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "잠깐, 무슨 뜻일까?",
@@ -2955,7 +3624,21 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 32.8125
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "내가 처음 짐작한 마음",
@@ -2983,7 +3666,21 @@ const visualBooks = [
           "y": 33.6914,
           "w": 49.6094,
           "h": 32.0313
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "eye"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          },
+          {
+            "sentence": 3,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "조금 더 가까이 보기",
@@ -3011,7 +3708,21 @@ const visualBooks = [
           "y": 33.6914,
           "w": 49.6094,
           "h": 32.0313
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          },
+          {
+            "sentence": 3,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "새로 보이는 마음",
@@ -3045,7 +3756,21 @@ const visualBooks = [
           "y": 66.3086,
           "w": 49.6094,
           "h": 33.3984
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "같은 순간, 달라진 마음",
@@ -3073,7 +3798,21 @@ const visualBooks = [
           "y": 66.3086,
           "w": 49.6094,
           "h": 33.3984
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "eye"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       }
     ],
     "activities": [
@@ -3122,7 +3861,21 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.6172
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -3150,7 +3903,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.6172
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -3178,7 +3941,21 @@ const visualBooks = [
               "y": 33.4961,
               "w": 49.6094,
               "h": 31.4453
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -3206,7 +3983,17 @@ const visualBooks = [
               "y": 33.4961,
               "w": 49.6094,
               "h": 31.4453
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -3240,7 +4027,13 @@ const visualBooks = [
               "y": 65.5273,
               "w": 49.6094,
               "h": 34.1797
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -3268,7 +4061,13 @@ const visualBooks = [
               "y": 65.5273,
               "w": 49.6094,
               "h": 34.1797
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           }
         ],
         "atlas": "./images/door-view-1.png",
@@ -3327,7 +4126,8 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.7148
-            }
+            },
+            "textKeys": []
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -3355,7 +4155,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -3383,7 +4189,13 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.5443,
               "h": 32.1289
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -3411,7 +4223,13 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.6745,
               "h": 32.1289
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -3445,7 +4263,13 @@ const visualBooks = [
               "y": 66.3086,
               "w": 49.5443,
               "h": 33.3984
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -3473,7 +4297,13 @@ const visualBooks = [
               "y": 66.3086,
               "w": 49.6745,
               "h": 33.3984
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/door-view-2.png",
@@ -3560,7 +4390,17 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 32.8125
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "잠깐, 무슨 뜻일까?",
@@ -3588,7 +4428,21 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 32.8125
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "내가 처음 짐작한 마음",
@@ -3616,7 +4470,21 @@ const visualBooks = [
           "y": 33.6914,
           "w": 49.6094,
           "h": 30.8594
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "eye"
+          },
+          {
+            "sentence": 1,
+            "kind": "eye"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "조금 더 가까이 보기",
@@ -3644,7 +4512,21 @@ const visualBooks = [
           "y": 33.6914,
           "w": 49.6094,
           "h": 30.8594
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "새로 보이는 마음",
@@ -3678,7 +4560,21 @@ const visualBooks = [
           "y": 65.1367,
           "w": 49.6094,
           "h": 34.5703
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "같은 순간, 달라진 마음",
@@ -3706,7 +4602,21 @@ const visualBooks = [
           "y": 65.1367,
           "w": 49.6094,
           "h": 34.5703
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "action"
+          }
+        ]
       }
     ],
     "activities": [
@@ -3755,7 +4665,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.9102
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -3783,7 +4703,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.9102
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -3811,7 +4741,13 @@ const visualBooks = [
               "y": 33.7891,
               "w": 49.6094,
               "h": 31.4453
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -3839,7 +4775,17 @@ const visualBooks = [
               "y": 33.7891,
               "w": 49.6094,
               "h": 31.4453
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -3873,7 +4819,17 @@ const visualBooks = [
               "y": 65.8203,
               "w": 49.6094,
               "h": 33.8867
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -3901,7 +4857,17 @@ const visualBooks = [
               "y": 65.8203,
               "w": 49.6094,
               "h": 33.8867
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           }
         ],
         "atlas": "./images/ball-view-1.png",
@@ -3960,7 +4926,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -3988,7 +4964,17 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6094,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -4016,7 +5002,17 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.6094,
               "h": 32.6172
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -4044,7 +5040,21 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.6094,
               "h": 32.6172
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -4078,7 +5088,17 @@ const visualBooks = [
               "y": 66.7969,
               "w": 49.6094,
               "h": 32.9102
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -4106,7 +5126,17 @@ const visualBooks = [
               "y": 66.7969,
               "w": 49.6094,
               "h": 32.9102
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              }
+            ]
           }
         ],
         "atlas": "./images/ball-view-2.png",
@@ -4193,7 +5223,13 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 30.8594
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "잠깐, 무슨 뜻일까?",
@@ -4221,7 +5257,21 @@ const visualBooks = [
           "y": 0.293,
           "w": 49.6094,
           "h": 30.8594
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "내가 처음 짐작한 마음",
@@ -4249,7 +5299,17 @@ const visualBooks = [
           "y": 31.7383,
           "w": 49.6094,
           "h": 30.7617
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "eye"
+          },
+          {
+            "sentence": 2,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "조금 더 가까이 보기",
@@ -4277,7 +5337,21 @@ const visualBooks = [
           "y": 31.7383,
           "w": 49.6094,
           "h": 30.7617
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 3,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "새로 보이는 마음",
@@ -4311,7 +5385,17 @@ const visualBooks = [
           "y": 63.0859,
           "w": 49.6094,
           "h": 36.6211
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "같은 순간, 달라진 마음",
@@ -4339,7 +5423,17 @@ const visualBooks = [
           "y": 63.0859,
           "w": 49.6094,
           "h": 36.6211
-        }
+        },
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       }
     ],
     "activities": [
@@ -4388,7 +5482,8 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.7148
-            }
+            },
+            "textKeys": []
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -4416,7 +5511,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -4444,7 +5545,13 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.6745,
               "h": 32.8125
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -4472,7 +5579,17 @@ const visualBooks = [
               "y": 33.5938,
               "w": 49.5443,
               "h": 32.8125
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -4506,7 +5623,13 @@ const visualBooks = [
               "y": 66.9922,
               "w": 49.6745,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -4534,7 +5657,13 @@ const visualBooks = [
               "y": 66.9922,
               "w": 49.5443,
               "h": 32.7148
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/stars-view-1.png",
@@ -4593,7 +5722,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.5443,
               "h": 32.5195
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -4621,7 +5756,13 @@ const visualBooks = [
               "y": 0.293,
               "w": 49.6745,
               "h": 32.5195
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -4649,7 +5790,17 @@ const visualBooks = [
               "y": 33.3984,
               "w": 49.5443,
               "h": 31.3477
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 더 가까이 보기",
@@ -4677,7 +5828,21 @@ const visualBooks = [
               "y": 33.3984,
               "w": 49.6745,
               "h": 31.3477
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "새로 보이는 마음",
@@ -4711,7 +5876,13 @@ const visualBooks = [
               "y": 65.332,
               "w": 49.5443,
               "h": 34.375
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "같은 순간, 달라진 마음",
@@ -4739,7 +5910,21 @@ const visualBooks = [
               "y": 65.332,
               "w": 49.6745,
               "h": 34.375
-            }
+            },
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "eye"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           }
         ],
         "atlas": "./images/stars-view-2.png",
@@ -4820,7 +6005,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/twohomes-camera-0-scene-1.png",
-        "aspect": "625/408"
+        "aspect": "625/408",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "처음 눈에 들어온 모습",
@@ -4843,7 +6034,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/twohomes-camera-0-scene-2.png",
-        "aspect": "621/408"
+        "aspect": "621/408",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "내가 짐작했던 마음",
@@ -4866,7 +6063,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/twohomes-camera-0-scene-3.png",
-        "aspect": "625/399"
+        "aspect": "625/399",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "다시 바라보는 순간",
@@ -4889,7 +6096,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/twohomes-camera-0-scene-4.png",
-        "aspect": "621/399"
+        "aspect": "621/399",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "말로 알게 된 마음",
@@ -4919,7 +6136,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/twohomes-camera-0-scene-5.png",
-        "aspect": "625/435"
+        "aspect": "625/435",
+        "textKeys": [
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "조금 달라진 마음",
@@ -4942,7 +6169,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/twohomes-camera-0-scene-6.png",
-        "aspect": "621/435"
+        "aspect": "621/435",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       }
     ],
     "activities": [
@@ -4972,7 +6205,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-1-scene-1.png",
-            "aspect": "622/412"
+            "aspect": "622/412",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "처음 눈에 들어온 모습",
@@ -4995,7 +6234,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-1-scene-2.png",
-            "aspect": "624/412"
+            "aspect": "624/412",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "내가 짐작했던 마음",
@@ -5018,7 +6263,8 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-1-scene-3.png",
-            "aspect": "622/399"
+            "aspect": "622/399",
+            "textKeys": []
           },
           {
             "title": "다시 바라보는 순간",
@@ -5041,7 +6287,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-1-scene-4.png",
-            "aspect": "624/399"
+            "aspect": "624/399",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 알게 된 마음",
@@ -5071,7 +6323,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-1-scene-5.png",
-            "aspect": "622/431"
+            "aspect": "622/431",
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 달라진 마음",
@@ -5094,7 +6352,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-1-scene-6.png",
-            "aspect": "624/431"
+            "aspect": "624/431",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           }
         ]
       },
@@ -5124,7 +6392,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-2-scene-1.png",
-            "aspect": "625/411"
+            "aspect": "625/411",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "처음 눈에 들어온 모습",
@@ -5147,7 +6425,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-2-scene-2.png",
-            "aspect": "621/411"
+            "aspect": "621/411",
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 짐작했던 마음",
@@ -5170,7 +6454,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-2-scene-3.png",
-            "aspect": "625/417"
+            "aspect": "625/417",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "다시 바라보는 순간",
@@ -5193,7 +6483,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-2-scene-4.png",
-            "aspect": "621/417"
+            "aspect": "621/417",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 알게 된 마음",
@@ -5223,7 +6519,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-2-scene-5.png",
-            "aspect": "625/414"
+            "aspect": "625/414",
+            "textKeys": [
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 달라진 마음",
@@ -5246,7 +6548,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/twohomes-camera-2-scene-6.png",
-            "aspect": "621/414"
+            "aspect": "621/414",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           }
         ]
       }
@@ -5314,7 +6626,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/page-camera-0-scene-1.png",
-        "aspect": "624/412"
+        "aspect": "624/412",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "처음 눈에 들어온 모습",
@@ -5337,7 +6659,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/page-camera-0-scene-2.png",
-        "aspect": "622/412"
+        "aspect": "622/412",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "내가 짐작했던 마음",
@@ -5360,7 +6688,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/page-camera-0-scene-3.png",
-        "aspect": "624/404"
+        "aspect": "624/404",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "다시 바라보는 순간",
@@ -5383,7 +6721,21 @@ const visualBooks = [
           }
         ],
         "image": "./images/page-camera-0-scene-4.png",
-        "aspect": "622/404"
+        "aspect": "622/404",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "말로 알게 된 마음",
@@ -5420,7 +6772,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/page-camera-0-scene-5.png",
-        "aspect": "624/426"
+        "aspect": "624/426",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "조금 달라진 마음",
@@ -5443,7 +6801,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/page-camera-0-scene-6.png",
-        "aspect": "622/426"
+        "aspect": "622/426",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       }
     ],
     "activities": [
@@ -5473,7 +6837,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-1-scene-1.png",
-            "aspect": "624/410"
+            "aspect": "624/410",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "처음 눈에 들어온 모습",
@@ -5496,7 +6866,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-1-scene-2.png",
-            "aspect": "622/410"
+            "aspect": "622/410",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "내가 짐작했던 마음",
@@ -5519,7 +6895,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-1-scene-3.png",
-            "aspect": "624/402"
+            "aspect": "624/402",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           },
           {
             "title": "다시 바라보는 순간",
@@ -5542,7 +6924,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-1-scene-4.png",
-            "aspect": "622/402"
+            "aspect": "622/402",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 알게 된 마음",
@@ -5572,7 +6960,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-1-scene-5.png",
-            "aspect": "624/430"
+            "aspect": "624/430",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 달라진 마음",
@@ -5595,7 +6989,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-1-scene-6.png",
-            "aspect": "622/430"
+            "aspect": "622/430",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              }
+            ]
           }
         ]
       },
@@ -5625,7 +7025,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-2-scene-1.png",
-            "aspect": "622/408"
+            "aspect": "622/408",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 2,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "처음 눈에 들어온 모습",
@@ -5648,7 +7058,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-2-scene-2.png",
-            "aspect": "624/408"
+            "aspect": "624/408",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 짐작했던 마음",
@@ -5671,7 +7091,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-2-scene-3.png",
-            "aspect": "622/404"
+            "aspect": "622/404",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "다시 바라보는 순간",
@@ -5694,7 +7120,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-2-scene-4.png",
-            "aspect": "624/404"
+            "aspect": "624/404",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 알게 된 마음",
@@ -5724,7 +7156,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-2-scene-5.png",
-            "aspect": "622/430"
+            "aspect": "622/430",
+            "textKeys": [
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "조금 달라진 마음",
@@ -5747,7 +7185,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/page-camera-2-scene-6.png",
-            "aspect": "624/430"
+            "aspect": "624/430",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              }
+            ]
           }
         ]
       }
@@ -5815,7 +7263,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/shop-camera-0-scene-1.png",
-        "aspect": "627/412"
+        "aspect": "627/412",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "처음 눈에 들어온 모습",
@@ -5845,7 +7303,21 @@ const visualBooks = [
           }
         ],
         "image": "./images/shop-camera-0-scene-2.png",
-        "aspect": "619/412"
+        "aspect": "619/412",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "ear"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          },
+          {
+            "sentence": 2,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "내가 짐작했던 마음",
@@ -5868,7 +7340,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/shop-camera-0-scene-3.png",
-        "aspect": "627/400"
+        "aspect": "627/400",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "eye"
+          }
+        ]
       },
       {
         "title": "다시 바라보는 순간",
@@ -5891,7 +7369,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/shop-camera-0-scene-4.png",
-        "aspect": "619/400"
+        "aspect": "619/400",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "action"
+          }
+        ]
       },
       {
         "title": "말로 알게 된 마음",
@@ -5921,7 +7409,17 @@ const visualBooks = [
           }
         ],
         "image": "./images/shop-camera-0-scene-5.png",
-        "aspect": "627/430"
+        "aspect": "627/430",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          },
+          {
+            "sentence": 1,
+            "kind": "ear"
+          }
+        ]
       },
       {
         "title": "조금 달라진 마음",
@@ -5944,7 +7442,13 @@ const visualBooks = [
           }
         ],
         "image": "./images/shop-camera-0-scene-6.png",
-        "aspect": "619/430"
+        "aspect": "619/430",
+        "textKeys": [
+          {
+            "sentence": 0,
+            "kind": "action"
+          }
+        ]
       }
     ],
     "activities": [
@@ -5974,7 +7478,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-1-scene-1.png",
-            "aspect": "622/400"
+            "aspect": "622/400",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "처음 눈에 들어온 모습",
@@ -6004,7 +7518,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-1-scene-2.png",
-            "aspect": "624/400"
+            "aspect": "624/400",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "내가 짐작했던 마음",
@@ -6027,7 +7551,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-1-scene-3.png",
-            "aspect": "622/400"
+            "aspect": "622/400",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "다시 바라보는 순간",
@@ -6050,7 +7580,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-1-scene-4.png",
-            "aspect": "624/400"
+            "aspect": "624/400",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 알게 된 마음",
@@ -6080,7 +7616,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-1-scene-5.png",
-            "aspect": "622/442"
+            "aspect": "622/442",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 달라진 마음",
@@ -6110,7 +7652,21 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-1-scene-6.png",
-            "aspect": "624/442"
+            "aspect": "624/442",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           }
         ]
       },
@@ -6140,7 +7696,21 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-2-scene-1.png",
-            "aspect": "625/411"
+            "aspect": "625/411",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "eye"
+              },
+              {
+                "sentence": 1,
+                "kind": "ear"
+              },
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "처음 눈에 들어온 모습",
@@ -6163,7 +7733,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-2-scene-2.png",
-            "aspect": "621/411"
+            "aspect": "621/411",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "내가 짐작했던 마음",
@@ -6186,7 +7762,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-2-scene-3.png",
-            "aspect": "625/413"
+            "aspect": "625/413",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "다시 바라보는 순간",
@@ -6209,7 +7791,17 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-2-scene-4.png",
-            "aspect": "621/413"
+            "aspect": "621/413",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              },
+              {
+                "sentence": 1,
+                "kind": "action"
+              }
+            ]
           },
           {
             "title": "말로 알게 된 마음",
@@ -6239,7 +7831,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-2-scene-5.png",
-            "aspect": "625/418"
+            "aspect": "625/418",
+            "textKeys": [
+              {
+                "sentence": 2,
+                "kind": "ear"
+              }
+            ]
           },
           {
             "title": "조금 달라진 마음",
@@ -6262,7 +7860,13 @@ const visualBooks = [
               }
             ],
             "image": "./images/shop-camera-2-scene-6.png",
-            "aspect": "621/418"
+            "aspect": "621/418",
+            "textKeys": [
+              {
+                "sentence": 0,
+                "kind": "action"
+              }
+            ]
           }
         ]
       }
