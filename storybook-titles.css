@@ -18,3 +18,7 @@ body .menu-before-reading p{font-size:15px;line-height:1.6}
 body .menu-before-reading a{font-size:25px;line-height:1.5;padding:11px 4px}
 body .simple-menu-dialog:has(nav){width:min(460px,calc(100% - 24px))}
 @media(max-width:450px){body #drawer{padding:22px}body #book-menu>[data-menu-book]{padding-left:14px}body #book-menu small,body .standalone-book-link small{font-size:13px}body #book-menu h3.menu-group-heading,body #book-menu>#menu-tales,body .simple-menu-dialog .standalone-menu-category{font-size:26px}}
+/* Reading controls share the handwriting used by the pre-reading menu links. */
+body .key-help-button,body .paths button,body .experience-tabs button,body .book-paths strong{font-family:'Hi Melody','Nunito','Malgun Gothic',sans-serif!important;font-weight:400!important;letter-spacing:0!important}
+body .key-help-button{font-size:21px;line-height:1.5}
+body .paths button,body .experience-tabs button{font-size:23px;line-height:1.5}
