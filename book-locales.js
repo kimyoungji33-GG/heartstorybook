@@ -36,16 +36,18 @@ window.heartBookLocales = {
           "panel": 0,
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 54
+              "y": 54,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo holds a note with pictures of bread.",
               "x": 40,
-              "y": 62
+              "y": 62,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -64,16 +66,18 @@ window.heartBookLocales = {
           "panel": 1,
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo has a slightly open mouth.",
               "x": 28,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The baker points to one loaf of bread.",
               "x": 48,
-              "y": 59
+              "y": 59,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -92,19 +96,28 @@ window.heartBookLocales = {
           "panel": 2,
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo has lowered their head.",
               "x": 28,
-              "y": 49
+              "y": 49,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo grips both backpack straps.",
               "x": 23,
-              "y": 72
+              "y": 72,
+              "type": "action"
+            },
+            {
+              "kind": "🔑 Heart key",
+              "message": "Junho has lowered his head to look at his own book.",
+              "x": 80,
+              "y": 52,
+              "type": "action"
             }
           ],
-          "atlas": "./images/errand-view-0.png",
+          "atlas": "./images/errand-view-0-gaze.png",
           "aspect": "762/308",
           "crop": {
             "x": 0.1953,
@@ -120,16 +133,18 @@ window.heartBookLocales = {
           "panel": 3,
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo has a slightly open mouth.",
               "x": 38,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A blue star bookmark sticks out of the yellow book.",
               "x": 62,
-              "y": 56
+              "y": 56,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -148,22 +163,25 @@ window.heartBookLocales = {
           "panel": 4,
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo holds a note with pictures of bread.",
               "x": 39,
-              "y": 62
+              "y": 62,
+              "type": "action"
             },
             {
-              "kind": "👂 Ear key",
+              "kind": "🔑 Heart key",
               "message": "Junho said the worry was about losing the bookmark.",
               "x": 82,
-              "y": 54
+              "y": 54,
+              "type": "words"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -182,16 +200,18 @@ window.heartBookLocales = {
           "panel": 5,
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jiwoo has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The baker is handing over a bag of bread.",
               "x": 45,
-              "y": 56
+              "y": 56,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -220,16 +240,18 @@ window.heartBookLocales = {
               "panel": 0,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
                   "x": 30,
-                  "y": 54
+                  "y": 54,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo holds a note with pictures of bread.",
                   "x": 41,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -250,16 +272,18 @@ window.heartBookLocales = {
               "panel": 1,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
                   "x": 29,
-                  "y": 50
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The baker points to one loaf of bread.",
                   "x": 49,
-                  "y": 58
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -280,19 +304,28 @@ window.heartBookLocales = {
               "panel": 2,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has lowered their head.",
                   "x": 23,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo grips both backpack straps.",
                   "x": 24,
-                  "y": 73
+                  "y": 73,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Heart key",
+                  "message": "Junho has lowered his head to look at his own book.",
+                  "x": 83,
+                  "y": 54,
+                  "type": "action"
                 }
               ],
-              "atlas": "./images/errand-1-lens.png",
+              "atlas": "./images/errand-1-gaze-lens.png",
               "aspect": 2.4217,
               "crop": {
                 "x": 0.1953,
@@ -310,16 +343,18 @@ window.heartBookLocales = {
               "panel": 3,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
                   "x": 37,
-                  "y": 48
+                  "y": 48,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A blue star bookmark sticks out of the yellow book.",
                   "x": 66,
-                  "y": 55
+                  "y": 55,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -340,22 +375,25 @@ window.heartBookLocales = {
               "panel": 4,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
                   "x": 30,
-                  "y": 49
+                  "y": 49,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo holds a note with pictures of bread.",
                   "x": 40,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Junho said the worry was about losing the bookmark.",
                   "x": 85,
-                  "y": 64
+                  "y": 64,
+                  "type": "words"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -376,16 +414,18 @@ window.heartBookLocales = {
               "panel": 5,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
                   "x": 30,
-                  "y": 48
+                  "y": 48,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The baker is handing over a bag of bread.",
                   "x": 45,
-                  "y": 52
+                  "y": 52,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -423,16 +463,18 @@ window.heartBookLocales = {
               "panel": 0,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
                   "x": 81,
-                  "y": 46
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo holds a note with pictures of bread.",
                   "x": 73,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -453,16 +495,18 @@ window.heartBookLocales = {
               "panel": 1,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
                   "x": 82,
-                  "y": 44
+                  "y": 44,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The baker points to one loaf of bread.",
                   "x": 80,
-                  "y": 73
+                  "y": 73,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -483,19 +527,28 @@ window.heartBookLocales = {
               "panel": 2,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has lowered their head.",
                   "x": 80,
-                  "y": 46
+                  "y": 46,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo grips both backpack straps.",
                   "x": 81,
-                  "y": 73
+                  "y": 73,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Heart key",
+                  "message": "Junho has lowered his head to look at his own book.",
+                  "x": 16,
+                  "y": 44,
+                  "type": "action"
                 }
               ],
-              "atlas": "./images/errand-2-lens.png",
+              "atlas": "./images/errand-2-gaze-lens.png",
               "aspect": 2.5148,
               "crop": {
                 "x": 0.1953,
@@ -513,16 +566,18 @@ window.heartBookLocales = {
               "panel": 3,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
                   "x": 82,
-                  "y": 46
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A blue star bookmark sticks out of the yellow book.",
                   "x": 24,
-                  "y": 67
+                  "y": 67,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -543,22 +598,25 @@ window.heartBookLocales = {
               "panel": 4,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
                   "x": 58,
-                  "y": 50
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo holds a note with pictures of bread.",
                   "x": 57,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Junho said the worry was about losing the bookmark.",
                   "x": 23,
-                  "y": 50
+                  "y": 50,
+                  "type": "words"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -579,16 +637,18 @@ window.heartBookLocales = {
               "panel": 5,
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
                   "x": 81,
-                  "y": 44
+                  "y": 44,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The baker is handing over a bag of bread.",
                   "x": 61,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -631,16 +691,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Minseo has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A blue cup is in front of Minseo.",
               "x": 36,
-              "y": 82
+              "y": 82,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -659,16 +721,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Minseo has a slightly open mouth.",
-              "x": 30,
-              "y": 57
+              "x": 35,
+              "y": 60,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A thin crack is visible on the side of the blue cup.",
               "x": 47,
-              "y": 85
+              "y": 85,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -687,16 +751,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Minseo has downturned mouth corners.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Yuna pauses a hand just before the blue cup.",
               "x": 52,
-              "y": 65
+              "y": 65,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -715,16 +781,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Minseo has lowered their head.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A thin crack is visible on the side of the blue cup.",
               "x": 47,
-              "y": 81
+              "y": 81,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -743,22 +811,25 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Minseo has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A new blue cup without a crack has been brought over.",
               "x": 60,
-              "y": 57
+              "y": 57,
+              "type": "action"
             },
             {
-              "kind": "👂 Ear key",
+              "kind": "🔑 Heart key",
               "message": "Yuna said the worry was that the blue cup might break.",
               "x": 70,
-              "y": 47
+              "y": 47,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -777,16 +848,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Minseo has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A blue cup is in front of Minseo.",
               "x": 40,
-              "y": 73
+              "y": 73,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -812,16 +885,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
                   "x": 30,
-                  "y": 55
+                  "y": 55,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A blue cup is in front of Minseo.",
                   "x": 40,
-                  "y": 81
+                  "y": 81,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -842,16 +917,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has a slightly open mouth.",
-                  "x": 29,
-                  "y": 55
+                  "x": 36,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A thin crack is visible on the side of the blue cup.",
                   "x": 42,
-                  "y": 80
+                  "y": 80,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -872,16 +949,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has downturned mouth corners.",
                   "x": 29,
-                  "y": 59
+                  "y": 59,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Yuna pauses a hand just before the blue cup.",
                   "x": 57,
-                  "y": 66
+                  "y": 66,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -902,16 +981,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has lowered their head.",
                   "x": 31,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A thin crack is visible on the side of the blue cup.",
                   "x": 43,
-                  "y": 81
+                  "y": 81,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -932,22 +1013,25 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
                   "x": 30,
-                  "y": 56
+                  "y": 56,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A new blue cup without a crack has been brought over.",
                   "x": 50,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Yuna said the worry was that the blue cup might break.",
                   "x": 85,
-                  "y": 62
+                  "y": 62,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -968,16 +1052,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
                   "x": 29,
-                  "y": 56
+                  "y": 56,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Yuna has an open palm.",
                   "x": 66,
-                  "y": 42
+                  "y": 42,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -1015,16 +1101,18 @@ window.heartBookLocales = {
               "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
                   "x": 77,
-                  "y": 40
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A blue cup is in front of Minseo.",
                   "x": 74,
-                  "y": 57
+                  "y": 57,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -1045,16 +1133,18 @@ window.heartBookLocales = {
               "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has downturned mouth corners.",
                   "x": 74,
-                  "y": 40
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A thin crack is visible on the side of the blue cup.",
                   "x": 70,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -1075,16 +1165,18 @@ window.heartBookLocales = {
               "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has lowered their head.",
                   "x": 79,
-                  "y": 51
+                  "y": 51,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The blue cup is between the two children.",
                   "x": 75,
-                  "y": 60
+                  "y": 60,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -1105,16 +1197,18 @@ window.heartBookLocales = {
               "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has downturned mouth corners.",
                   "x": 81,
-                  "y": 32
+                  "y": 32,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A thin crack is visible on the side of the blue cup.",
                   "x": 66,
-                  "y": 50
+                  "y": 50,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -1135,22 +1229,25 @@ window.heartBookLocales = {
               "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Yuna has a smile with upturned mouth corners.",
                   "x": 20,
-                  "y": 35
+                  "y": 35,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A new blue cup without a crack has been brought over.",
                   "x": 73,
-                  "y": 45
+                  "y": 45,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Yuna said the worry was that the blue cup might break.",
                   "x": 20,
-                  "y": 43
+                  "y": 43,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -1167,20 +1264,22 @@ window.heartBookLocales = {
             },
             {
               "title": "The same moment, a new feeling",
-              "text": "The children smiled again with their new mugs. I felt relieved when their conversation began again. The party now had room for listening to each other, too. Seeing them smile so comfortably warmed the heart that had been busy with preparations.",
+              "text": "The children listened to each other and smiled again. Seeing them smile together put me at ease. Even after the busy party preparations, I felt warm inside.",
               "viewpoint": "The party host",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
                   "x": 78,
-                  "y": 43
+                  "y": 43,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "A blue cup is in front of Minseo.",
                   "x": 74,
-                  "y": 57
+                  "y": 57,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -1244,16 +1343,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sofia has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 48
+              "x": 42,
+              "y": 62,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "One piece of bread is left between the two people.",
               "x": 55,
-              "y": 83
+              "y": 83,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -1272,16 +1373,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Noah has lowered their head.",
               "x": 73,
-              "y": 48
+              "y": 48,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Noah pushes the plate toward the other person.",
               "x": 58,
-              "y": 85
+              "y": 85,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -1300,16 +1403,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sofia has both hands close together.",
               "x": 30,
-              "y": 68
+              "y": 68,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "One of Noah’s hands rests on their chest.",
               "x": 73,
-              "y": 69
+              "y": 69,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -1328,16 +1433,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Noah has a slightly open mouth.",
-              "x": 73,
-              "y": 44
+              "x": 79,
+              "y": 59,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Sofia has an open palm.",
-              "x": 34,
-              "y": 71
+              "x": 50,
+              "y": 63,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -1356,22 +1463,25 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sofia has a smile with upturned mouth corners.",
-              "x": 28,
-              "y": 47
+              "x": 40,
+              "y": 54,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Sofia points toward the other person.",
               "x": 47,
-              "y": 71
+              "y": 71,
+              "type": "action"
             },
             {
-              "kind": "👂 Ear key",
+              "kind": "🔑 Heart key",
               "message": "Both children said they saved the bread in case the other was hungry.",
               "x": 32,
-              "y": 54
+              "y": 54,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -1390,16 +1500,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sofia has a smile with upturned mouth corners.",
-              "x": 28,
-              "y": 47
+              "x": 38,
+              "y": 58,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Each person holds a piece of the shared bread.",
               "x": 36,
-              "y": 60
+              "y": 60,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -1425,16 +1537,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 34,
-                  "y": 44
+                  "x": 40,
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "One piece of bread is left between the two people.",
                   "x": 48,
-                  "y": 79
+                  "y": 79,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -1455,16 +1569,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a slightly open mouth.",
                   "x": 35,
-                  "y": 43
+                  "y": 43,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Noah pushes the plate toward the other person.",
                   "x": 53,
-                  "y": 81
+                  "y": 81,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -1485,16 +1601,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a slightly open mouth.",
                   "x": 33,
-                  "y": 46
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has both hands close together.",
                   "x": 35,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -1515,16 +1633,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 35,
-                  "y": 44
+                  "kind": "🔑 Heart key",
+                  "message": "Sofia has a slightly open mouth.",
+                  "x": 37,
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has an open palm.",
                   "x": 48,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -1545,22 +1665,25 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 35,
-                  "y": 45
+                  "x": 40,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Noah points toward the other person.",
                   "x": 57,
-                  "y": 47
+                  "y": 47,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Both children said they saved the bread in case the other was hungry.",
                   "x": 37,
-                  "y": 55
+                  "y": 55,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -1581,16 +1704,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 34,
-                  "y": 44
+                  "x": 36,
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Each person holds a piece of the shared bread.",
                   "x": 36,
-                  "y": 58
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -1628,16 +1753,18 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Noah has a smile with upturned mouth corners.",
                   "x": 23,
-                  "y": 47
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "One piece of bread is left between the two people.",
                   "x": 61,
-                  "y": 46
+                  "y": 46,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -1658,16 +1785,18 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Noah has lowered their head.",
                   "x": 23,
-                  "y": 45
+                  "y": 45,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has an open palm.",
                   "x": 71,
-                  "y": 46
+                  "y": 46,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -1688,16 +1817,18 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Noah has lowered their head.",
                   "x": 23,
-                  "y": 45
+                  "y": 45,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "One of Noah’s hands rests on their chest.",
                   "x": 22,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -1718,16 +1849,18 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Noah has a slightly open mouth.",
                   "x": 23,
-                  "y": 45
+                  "y": 45,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has an open palm.",
                   "x": 68,
-                  "y": 44
+                  "y": 44,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -1744,26 +1877,29 @@ window.heartBookLocales = {
             },
             {
               "title": "A feeling I had not seen",
-              "text": "Both children said they had saved bread in case the other was hungry. They had cared for each other without saying so, and neither knew. Hearing their words made me feel warm inside too.",
+              "text": "Each child had saved the bread in case their friend was hungry. Only after talking did they discover they had both been thinking of each other. Listening to them warmed my heart too.",
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 77,
-                  "y": 45
+                  "x": 70,
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia points toward Noah.",
                   "x": 67,
-                  "y": 44
+                  "y": 44,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Both children said they saved the bread in case the other was hungry.",
                   "x": 77,
-                  "y": 53
+                  "y": 53,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -1784,16 +1920,18 @@ window.heartBookLocales = {
               "viewpoint": "The restaurant owner",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 77,
-                  "y": 45
+                  "x": 75,
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Each person holds a piece of the shared bread.",
                   "x": 71,
-                  "y": 48
+                  "y": 48,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -1857,16 +1995,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sora has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 44
+              "y": 44,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Sora holds a yellow paper star.",
               "x": 29,
-              "y": 66
+              "y": 66,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -1885,16 +2025,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sora has wide, round eyes with visible whites.",
               "x": 32,
-              "y": 45
+              "y": 45,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The tip of a yellow star peeks from behind a back.",
               "x": 17,
-              "y": 70
+              "y": 70,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -1908,16 +2050,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sora has lowered their head.",
               "x": 27,
-              "y": 50
+              "y": 50,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The tip of a yellow star peeks from behind a back.",
               "x": 17,
-              "y": 70
+              "y": 70,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -1936,16 +2080,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sora has turned toward the other person.",
               "x": 35,
-              "y": 50
+              "y": 50,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Mom has an open palm.",
               "x": 45,
-              "y": 60
+              "y": 60,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -1964,22 +2110,25 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sora has a smile with upturned mouth corners.",
               "x": 32,
-              "y": 42
+              "y": 42,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Sora holds the yellow star forward to show it.",
               "x": 35,
-              "y": 49
+              "y": 49,
+              "type": "action"
             },
             {
-              "kind": "👂 Ear key",
+              "kind": "🔑 Heart key",
               "message": "Sora said the star for Sua was not finished yet.",
               "x": 33,
-              "y": 42
+              "y": 42,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -1998,16 +2147,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Sora has a smile with upturned mouth corners.",
               "x": 32,
-              "y": 43
+              "y": 43,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Their hands work together to finish the yellow star.",
               "x": 55,
-              "y": 58
+              "y": 58,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -2033,28 +2184,37 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has lowered their head.",
-                  "x": 30,
-                  "y": 47
+                  "x": 75,
+                  "y": 41,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora holds a yellow paper star.",
-                  "x": 35,
-                  "y": 69
+                  "x": 77,
+                  "y": 53,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Heart key",
+                  "message": "Mom stands beside the doorway, holding the blue door.",
+                  "x": 6,
+                  "y": 44,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/door-1-lens.png",
-              "aspect": 2.3024,
-              "atlasRows": 3,
-              "atlasCols": 2,
+              "atlas": "./images/door-mom-arrival1-lens.png",
+              "aspect": 1.5,
+              "atlasRows": 1,
+              "atlasCols": 1,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 50.0651,
-                "h": 32.6172
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               }
             },
             {
@@ -2063,28 +2223,37 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
-                  "x": 30,
-                  "y": 45
+                  "x": 71,
+                  "y": 36,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The tip of a yellow star peeks from behind a back.",
-                  "x": 17,
-                  "y": 68
+                  "kind": "🔑 Heart key",
+                  "message": "The tip of Sora’s yellow star peeks out from behind her back.",
+                  "x": 80,
+                  "y": 47,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Heart key",
+                  "message": "Mom stands beside the doorway, holding the blue door.",
+                  "x": 4,
+                  "y": 35,
+                  "type": "action"
                 }
               ],
-              "panel": 1,
-              "atlas": "./images/door-1-lens.png",
-              "aspect": 2.2605,
-              "atlasRows": 3,
-              "atlasCols": 2,
+              "panel": 0,
+              "atlas": "./images/door-mom-arrival2-lens.png",
+              "aspect": 1.5,
+              "atlasRows": 1,
+              "atlasCols": 1,
               "crop": {
-                "x": 50.651,
-                "y": 0.293,
-                "w": 49.1536,
-                "h": 32.6172
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               }
             },
             {
@@ -2093,16 +2262,18 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has lowered their head.",
                   "x": 25,
-                  "y": 47
+                  "y": 47,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The tip of a yellow star peeks from behind a back.",
                   "x": 20,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -2123,16 +2294,18 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
                   "x": 31,
-                  "y": 49
+                  "y": 49,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Mom has an open palm.",
                   "x": 39,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -2153,22 +2326,25 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a smile with upturned mouth corners.",
                   "x": 32,
-                  "y": 37
+                  "y": 37,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora holds the yellow star forward to show it.",
                   "x": 44,
-                  "y": 51
+                  "y": 51,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora said the star for Sua was not finished yet.",
                   "x": 34,
-                  "y": 42
+                  "y": 42,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -2189,16 +2365,18 @@ window.heartBookLocales = {
               "viewpoint": "Mom",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a smile with upturned mouth corners.",
                   "x": 75,
-                  "y": 33
+                  "y": 33,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora reaches toward the star they are making.",
                   "x": 68,
-                  "y": 55
+                  "y": 55,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -2214,15 +2392,15 @@ window.heartBookLocales = {
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/door-1-lens.png",
-          "atlasRows": 3,
-          "atlasCols": 2,
-          "aspect": 2.3024,
+          "atlas": "./images/door-mom-arrival1-lens.png",
+          "atlasRows": 1,
+          "atlasCols": 1,
+          "aspect": 1.5,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 50.0651,
-            "h": 32.6172
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           }
         },
         {
@@ -2232,33 +2410,42 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "A moment to share",
-              "text": "I enjoyed going to Sora’s home. I wondered what we would do together.",
+              "text": "I arrived at Sora’s house. Mom opened the door. Sora was making a yellow star inside. I wondered what we would do together.",
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has lowered their head.",
-                  "x": 54,
-                  "y": 49
+                  "x": 61,
+                  "y": 48,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora holds a yellow paper star.",
-                  "x": 53,
-                  "y": 57
+                  "x": 61,
+                  "y": 56,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Heart key",
+                  "message": "Mom stands beside the doorway, holding the blue door.",
+                  "x": 6,
+                  "y": 47,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/door-2-lens.png",
-              "aspect": 2.3242,
+              "atlas": "./images/door-sua-arrival1-lens.png",
+              "aspect": 1.5,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 49.4792,
-                "h": 31.9336
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 1,
+              "atlasCols": 1
             },
             {
               "title": "What does that mean?",
@@ -2266,29 +2453,38 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
-                  "x": 54,
-                  "y": 46
+                  "x": 63,
+                  "y": 48,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "Sora has turned toward the door.",
-                  "x": 52,
-                  "y": 58
+                  "kind": "🔑 Heart key",
+                  "message": "The tip of Sora’s yellow star peeks out from behind her back.",
+                  "x": 53,
+                  "y": 59,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Heart key",
+                  "message": "Mom stands beside the doorway, holding the blue door.",
+                  "x": 6,
+                  "y": 31,
+                  "type": "action"
                 }
               ],
-              "panel": 1,
-              "atlas": "./images/door-2-lens.png",
-              "aspect": 2.3364,
+              "panel": 0,
+              "atlas": "./images/door-sua-arrival2-lens.png",
+              "aspect": 1.5,
               "crop": {
-                "x": 50.0651,
-                "y": 0.293,
-                "w": 49.7396,
-                "h": 31.9336
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 1,
+              "atlasCols": 1
             },
             {
               "title": "What I first imagined",
@@ -2296,16 +2492,18 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has lowered their head.",
                   "x": 57,
-                  "y": 49
+                  "y": 49,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Mom has lowered their body to the child’s eye level.",
                   "x": 30,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -2326,16 +2524,18 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
                   "x": 57,
-                  "y": 47
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Mom has an open palm.",
                   "x": 37,
-                  "y": 57
+                  "y": 57,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -2356,22 +2556,25 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a smile with upturned mouth corners.",
                   "x": 62,
-                  "y": 31
+                  "y": 31,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora holds the yellow star forward to show it.",
                   "x": 53,
-                  "y": 50
+                  "y": 50,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora said the star for Sua was not finished yet.",
                   "x": 62,
-                  "y": 38
+                  "y": 38,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -2392,16 +2595,18 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Sora has a smile with upturned mouth corners.",
                   "x": 46,
-                  "y": 34
+                  "y": 34,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Their hands work together to finish the yellow star.",
                   "x": 54,
-                  "y": 56
+                  "y": 56,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -2417,15 +2622,15 @@ window.heartBookLocales = {
               }
             }
           ],
-          "atlas": "./images/door-2-lens.png",
-          "atlasRows": 3,
-          "atlasCols": 2,
-          "aspect": 2.3242,
+          "atlas": "./images/door-sua-arrival1-lens.png",
+          "atlasRows": 1,
+          "atlasCols": 1,
+          "aspect": 1.5,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 49.4792,
-            "h": 31.9336
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           }
         }
       ],
@@ -2465,16 +2670,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Gia has a smile with upturned mouth corners.",
               "x": 31,
-              "y": 44
+              "y": 44,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The yellow ball stays still in Luca’s hands.",
               "x": 65,
-              "y": 50
+              "y": 50,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -2493,16 +2700,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Gia has wide, round eyes with visible whites.",
               "x": 28,
-              "y": 39
+              "y": 39,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The yellow ball stays still in Luca’s hands.",
               "x": 69,
-              "y": 52
+              "y": 52,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -2516,16 +2725,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Gia has downturned mouth corners.",
               "x": 31,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The dark dog with the blue leash is sniffing the grass.",
               "x": 86,
-              "y": 84
+              "y": 84,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -2544,22 +2755,25 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Gia has turned toward the other person.",
               "x": 31,
-              "y": 46
+              "y": 46,
+              "type": "action"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The dark dog with the blue leash is sniffing the grass.",
               "x": 52,
-              "y": 87
+              "y": 87,
+              "type": "action"
             },
             {
-              "kind": "👂 Ear key",
+              "kind": "🔑 Heart key",
               "message": "Luca said the dog was new here and needed a little time.",
               "x": 72,
-              "y": 47
+              "y": 47,
+              "type": "words"
             }
           ],
           "panel": 3,
@@ -2578,16 +2792,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Gia has a smile with upturned mouth corners.",
               "x": 31,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The yellow ball has been placed on the grass.",
               "x": 72,
-              "y": 76
+              "y": 76,
+              "type": "action"
             }
           ],
           "panel": 4,
@@ -2606,16 +2822,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Gia has a smile with upturned mouth corners.",
               "x": 31,
-              "y": 45
+              "y": 45,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Both dogs point their noses toward the same ball.",
               "x": 53,
-              "y": 84
+              "y": 84,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -2641,26 +2859,28 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has a smile with upturned mouth corners.",
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has upturned mouth corners.",
                   "x": 29,
-                  "y": 43
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball stays still in Luca’s hands.",
-                  "x": 83,
-                  "y": 70
+                  "kind": "🔑 Heart key",
+                  "message": "Luca holds the yellow ball still.",
+                  "x": 84,
+                  "y": 71,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.3042,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.29,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 49.8047,
-                "h": 32.4219
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 49.349,
+                "h": 32.3242
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -2671,28 +2891,30 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has wide, round eyes with visible whites.",
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has wide, round eyes.",
                   "x": 29,
-                  "y": 43
+                  "y": 42,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball stays still in Luca’s hands.",
+                  "kind": "🔑 Heart key",
+                  "message": "Luca holds the yellow ball still.",
                   "x": 84,
-                  "y": 72
+                  "y": 72,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.2861,
+              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "aspect": 2.2991,
               "atlasRows": 3,
               "atlasCols": 2,
               "crop": {
-                "x": 50.3906,
-                "y": 0.293,
-                "w": 49.4141,
-                "h": 32.4219
+                "x": 50.1953,
+                "y": 0.3906,
+                "w": 49.5443,
+                "h": 32.3242
               }
             },
             {
@@ -2701,26 +2923,28 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Gia has downturned mouth corners.",
                   "x": 29,
-                  "y": 47
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The dark dog with the blue leash is sniffing the grass.",
-                  "x": 60,
-                  "y": 83
+                  "x": 63,
+                  "y": 87,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.4132,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.2493,
               "crop": {
-                "x": 0.1953,
-                "y": 33.3008,
-                "w": 49.8047,
-                "h": 30.957
+                "x": 0.2604,
+                "y": 33.4961,
+                "w": 49.349,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -2731,32 +2955,35 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has turned toward the other person.",
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has lowered their head.",
                   "x": 29,
-                  "y": 44
+                  "y": 47,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "The dark dog with the blue leash is sniffing the grass.",
-                  "x": 57,
-                  "y": 88
+                  "x": 63,
+                  "y": 87,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
-                  "message": "Luca said the dog was new here and needed a little time.",
+                  "kind": "🔑 Heart key",
+                  "message": "Luca says, “My dog is new here, so I want to give him a little time.”",
                   "x": 85,
-                  "y": 69
+                  "y": 57,
+                  "type": "words"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.3943,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.2611,
               "crop": {
-                "x": 50.3906,
-                "y": 33.3008,
-                "w": 49.4141,
-                "h": 30.957
+                "x": 50.1302,
+                "y": 33.4961,
+                "w": 49.6094,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -2767,26 +2994,28 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has a smile with upturned mouth corners.",
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has upturned mouth corners.",
                   "x": 29,
-                  "y": 45
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball has been placed on the grass.",
-                  "x": 59,
-                  "y": 81
+                  "kind": "🔑 Heart key",
+                  "message": "The yellow ball is on the grass in front of the dogs.",
+                  "x": 60,
+                  "y": 86,
+                  "type": "action"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.1429,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.2831,
               "crop": {
-                "x": 0.1953,
-                "y": 64.8438,
-                "w": 49.8047,
-                "h": 34.8633
+                "x": 0.2604,
+                "y": 67.1875,
+                "w": 49.349,
+                "h": 32.4219
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -2797,40 +3026,42 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has a smile with upturned mouth corners.",
-                  "x": 29,
-                  "y": 46
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has upturned mouth corners.",
+                  "x": 33,
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Both dogs point their noses toward the same ball.",
                   "x": 54,
-                  "y": 85
+                  "y": 86,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.1261,
+              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "aspect": 2.2922,
               "crop": {
-                "x": 50.3906,
-                "y": 64.8438,
-                "w": 49.4141,
-                "h": 34.8633
+                "x": 50.1953,
+                "y": 67.1875,
+                "w": 49.5443,
+                "h": 32.4219
               },
               "atlasRows": 3,
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/ball-1-lens.png",
+          "atlas": "./images/ball-1-close-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.3042,
+          "aspect": 2.29,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 49.8047,
-            "h": 32.4219
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 49.349,
+            "h": 32.3242
           }
         },
         {
@@ -2844,29 +3075,31 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has a smile with upturned mouth corners.",
-                  "x": 46,
-                  "y": 43
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has upturned mouth corners.",
+                  "x": 45,
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball stays still in Luca’s hands.",
-                  "x": 73,
-                  "y": 55
+                  "kind": "🔑 Heart key",
+                  "message": "Luca holds the yellow ball still.",
+                  "x": 70,
+                  "y": 50,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.303,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 1.0632,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 49.4792,
-                "h": 32.2266
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 32.8776,
+                "h": 46.3867
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "What does that mean?",
@@ -2874,29 +3107,31 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has wide, round eyes with visible whites.",
-                  "x": 47,
-                  "y": 48
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has wide, round eyes.",
+                  "x": 46,
+                  "y": 42,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball stays still in Luca’s hands.",
-                  "x": 81,
-                  "y": 57
+                  "kind": "🔑 Heart key",
+                  "message": "Luca holds the yellow ball still.",
+                  "x": 75,
+                  "y": 54,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.3152,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 1.0653,
               "crop": {
-                "x": 50.0651,
-                "y": 0.293,
-                "w": 49.7396,
-                "h": 32.2266
+                "x": 33.6589,
+                "y": 0.3906,
+                "w": 32.9427,
+                "h": 46.3867
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "What I first imagined",
@@ -2904,29 +3139,31 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has lowered her head toward the ball.",
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has downturned mouth corners.",
                   "x": 46,
-                  "y": 46
+                  "y": 44,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball stays still in Luca’s hands.",
-                  "x": 81,
-                  "y": 57
+                  "kind": "🔑 Heart key",
+                  "message": "Luca holds the yellow ball still.",
+                  "x": 77,
+                  "y": 52,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.3385,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 1.0547,
               "crop": {
-                "x": 0.1953,
-                "y": 33.1055,
-                "w": 49.4792,
-                "h": 31.7383
+                "x": 67.1224,
+                "y": 0.3906,
+                "w": 32.6172,
+                "h": 46.3867
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "Looking a little closer",
@@ -2934,35 +3171,38 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Luca has a smile with upturned mouth corners.",
-                  "x": 26,
-                  "y": 46
+                  "kind": "🔑 Heart key",
+                  "message": "Luca has a slightly open mouth.",
+                  "x": 29,
+                  "y": 32,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Luca has an open palm.",
-                  "x": 36,
-                  "y": 59
+                  "x": 51,
+                  "y": 43,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
-                  "message": "Luca said the dog was new here and needed a little time.",
-                  "x": 26,
-                  "y": 48
+                  "kind": "🔑 Heart key",
+                  "message": "Luca says, “My dog is new here, so I want to give him a little time.”",
+                  "x": 30,
+                  "y": 36,
+                  "type": "words"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.3508,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 0.9475,
               "crop": {
-                "x": 50.0651,
-                "y": 33.1055,
-                "w": 49.7396,
-                "h": 31.7383
+                "x": 0.2604,
+                "y": 47.5586,
+                "w": 32.8776,
+                "h": 52.0508
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "A feeling I had not seen",
@@ -2970,70 +3210,74 @@ window.heartBookLocales = {
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has a smile with upturned mouth corners.",
-                  "x": 46,
-                  "y": 45
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has upturned mouth corners.",
+                  "x": 80,
+                  "y": 30,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The yellow ball has been placed on the grass.",
-                  "x": 71,
-                  "y": 85
+                  "kind": "🔑 Heart key",
+                  "message": "The yellow ball is on the grass in front of the dogs.",
+                  "x": 44,
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.1652,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 0.9493,
               "crop": {
-                "x": 0.1953,
-                "y": 65.4297,
-                "w": 49.4792,
-                "h": 34.2773
+                "x": 33.6589,
+                "y": 47.5586,
+                "w": 32.9427,
+                "h": 52.0508
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "The same moment, a new feeling",
-              "text": "The children decided to play only as much as the dogs felt comfortable. Playing together could include time spent waiting too.",
+              "text": "The two dogs sniffed the ball together. Gia had wanted to start playing, while Luca wanted to give his dog time to get used to the playground. After hearing both children, I understood why Luca had not thrown the ball. Seeing them smile made me smile too.",
               "viewpoint": "The park helper",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Gia has a smile with upturned mouth corners.",
-                  "x": 83,
-                  "y": 43
+                  "kind": "🔑 Heart key",
+                  "message": "Gia has upturned mouth corners.",
+                  "x": 81,
+                  "y": 29,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Both dogs point their noses toward the same ball.",
-                  "x": 57,
-                  "y": 87
+                  "x": 53,
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.1766,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 0.94,
               "crop": {
-                "x": 50.0651,
-                "y": 65.4297,
-                "w": 49.7396,
-                "h": 34.2773
+                "x": 67.1224,
+                "y": 47.5586,
+                "w": 32.6172,
+                "h": 52.0508
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             }
           ],
-          "atlas": "./images/ball-2-lens.png",
-          "atlasRows": 3,
-          "atlasCols": 2,
-          "aspect": 2.303,
+          "atlas": "./images/ball-2-close-lens.png",
+          "atlasRows": 2,
+          "atlasCols": 3,
+          "aspect": 1.0632,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 49.4792,
-            "h": 32.2266
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 32.8776,
+            "h": 46.3867
           }
         }
       ],
@@ -3073,16 +3317,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jun has a smile with upturned mouth corners.",
               "x": 30,
-              "y": 45
+              "y": 45,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "They hold paper stars of different colors.",
               "x": 36,
-              "y": 62
+              "y": 62,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -3101,16 +3347,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jun has a slightly open mouth.",
               "x": 30,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "There is an eraser and little crumbs beside the paper.",
               "x": 81,
-              "y": 81
+              "y": 81,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -3129,16 +3377,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jun has downturned mouth corners.",
               "x": 28,
-              "y": 53
+              "y": 53,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "The drawing is hidden beneath folded arms.",
               "x": 69,
-              "y": 70
+              "y": 70,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -3157,16 +3407,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jun has a slightly open mouth.",
               "x": 27,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "Jun has an open palm.",
               "x": 36,
-              "y": 65
+              "y": 65,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -3185,22 +3437,25 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Harin has a smile with upturned mouth corners.",
               "x": 70,
-              "y": 47
+              "y": 47,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "A slightly crooked star is visible in Harin’s hand.",
               "x": 64,
-              "y": 47
+              "y": 47,
+              "type": "action"
             },
             {
-              "kind": "👂 Ear key",
+              "kind": "🔑 Heart key",
               "message": "Harin said the repeated erasing was to make the star look good.",
               "x": 70,
-              "y": 44
+              "y": 44,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -3219,16 +3474,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Eye key",
+              "kind": "🔑 Heart key",
               "message": "Jun has a smile with upturned mouth corners.",
               "x": 28,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Action key",
+              "kind": "🔑 Heart key",
               "message": "They stick their different stars onto one sheet together.",
               "x": 55,
-              "y": 63
+              "y": 63,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -3254,26 +3511,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a smile with upturned mouth corners.",
-                  "x": 29,
-                  "y": 47
+                  "kind": "🔑 Heart key",
+                  "message": "Jun has upturned mouth corners.",
+                  "x": 32,
+                  "y": 52,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "They hold paper stars of different colors.",
-                  "x": 79,
-                  "y": 74
+                  "kind": "🔑 Heart key",
+                  "message": "The children hold stars of different colors.",
+                  "x": 73,
+                  "y": 64,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2523,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.307,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 48.8281,
-                "h": 32.5195
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 49.4141,
+                "h": 32.1289
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3284,26 +3543,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jun has a slightly open mouth.",
-                  "x": 29,
-                  "y": 49
+                  "x": 35,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "There is an eraser and little crumbs beside the paper.",
-                  "x": 74,
-                  "y": 83
+                  "kind": "🔑 Heart key",
+                  "message": "Harin is erasing the drawing. There are eraser crumbs beside the paper.",
+                  "x": 75,
+                  "y": 77,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.3243,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.3131,
               "crop": {
-                "x": 49.4141,
-                "y": 0.293,
-                "w": 50.3906,
-                "h": 32.5195
+                "x": 50.1953,
+                "y": 0.3906,
+                "w": 49.5443,
+                "h": 32.1289
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3314,26 +3575,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jun has downturned mouth corners.",
-                  "x": 29,
-                  "y": 49
+                  "x": 33,
+                  "y": 62,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The drawing is hidden beneath folded arms.",
-                  "x": 76,
-                  "y": 72
+                  "kind": "🔑 Heart key",
+                  "message": "Harin covers their drawing with their arms.",
+                  "x": 80,
+                  "y": 68,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2388,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.314,
               "crop": {
-                "x": 0.1953,
-                "y": 33.3984,
-                "w": 48.8281,
-                "h": 32.7148
+                "x": 0.2604,
+                "y": 33.3008,
+                "w": 49.4141,
+                "h": 32.0313
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3344,26 +3607,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
+                  "kind": "🔑 Heart key",
                   "message": "Jun has a slightly open mouth.",
-                  "x": 29,
-                  "y": 46
+                  "x": 33,
+                  "y": 52,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
+                  "kind": "🔑 Heart key",
                   "message": "Jun has an open palm.",
-                  "x": 45,
-                  "y": 64
+                  "x": 42,
+                  "y": 64,
+                  "type": "action"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.3104,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.3201,
               "crop": {
-                "x": 49.4141,
-                "y": 33.3984,
-                "w": 50.3906,
-                "h": 32.7148
+                "x": 50.1953,
+                "y": 33.3008,
+                "w": 49.5443,
+                "h": 32.0313
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3374,32 +3639,35 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a smile with upturned mouth corners.",
-                  "x": 29,
-                  "y": 47
+                  "kind": "🔑 Heart key",
+                  "message": "Jun has upturned mouth corners.",
+                  "x": 33,
+                  "y": 52,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "A slightly crooked star is visible in Harin’s hand.",
-                  "x": 66,
-                  "y": 47
+                  "kind": "🔑 Heart key",
+                  "message": "Harin holds up a slightly crooked yellow star.",
+                  "x": 65,
+                  "y": 51,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
-                  "message": "Harin said the repeated erasing was to make the star look good.",
+                  "kind": "🔑 Heart key",
+                  "message": "Harin says the repeated erasing was to draw the star well.",
                   "x": 85,
-                  "y": 55
+                  "y": 58,
+                  "type": "words"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2189,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.2128,
               "crop": {
-                "x": 0.1953,
-                "y": 66.6992,
-                "w": 48.8281,
-                "h": 33.0078
+                "x": 0.2604,
+                "y": 66.1133,
+                "w": 49.4141,
+                "h": 33.4961
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3410,40 +3678,42 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a smile with upturned mouth corners.",
-                  "x": 29,
-                  "y": 47
+                  "kind": "🔑 Heart key",
+                  "message": "Jun has upturned mouth corners.",
+                  "x": 32,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "They stick their different stars onto one sheet together.",
-                  "x": 61,
-                  "y": 61
+                  "kind": "🔑 Heart key",
+                  "message": "They stick different stars onto one sheet.",
+                  "x": 62,
+                  "y": 72,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2899,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.2187,
               "crop": {
-                "x": 49.4141,
-                "y": 66.6992,
-                "w": 50.3906,
-                "h": 33.0078
+                "x": 50.1953,
+                "y": 66.1133,
+                "w": 49.5443,
+                "h": 33.4961
               },
               "atlasRows": 3,
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/stars-1-lens.png",
+          "atlas": "./images/stars-1-close-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.2523,
+          "aspect": 2.307,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 48.8281,
-            "h": 32.5195
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 49.4141,
+            "h": 32.1289
           }
         },
         {
@@ -3457,26 +3727,28 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a smile with upturned mouth corners.",
-                  "x": 76,
-                  "y": 44
+                  "kind": "🔑 Heart key",
+                  "message": "The children hold stars of different colors.",
+                  "x": 43,
+                  "y": 36,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "They hold paper stars of different colors.",
-                  "x": 28,
-                  "y": 62
+                  "kind": "🔑 Heart key",
+                  "message": "The children hold stars of different colors.",
+                  "x": 55,
+                  "y": 36,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.4459,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.3112,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 50,
-                "h": 30.6641
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 49.8047,
+                "h": 32.3242
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3487,26 +3759,28 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a slightly open mouth.",
-                  "x": 76,
-                  "y": 47
+                  "kind": "🔑 Heart key",
+                  "message": "Harin is erasing the drawing. There are eraser crumbs beside the paper.",
+                  "x": 44,
+                  "y": 40,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "There is an eraser and little crumbs beside the paper.",
-                  "x": 33,
-                  "y": 81
+                  "kind": "🔑 Heart key",
+                  "message": "Harin has lowered their head.",
+                  "x": 32,
+                  "y": 35,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.4076,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.281,
               "crop": {
                 "x": 50.5859,
-                "y": 0.293,
-                "w": 49.2188,
-                "h": 30.6641
+                "y": 0.3906,
+                "w": 49.1536,
+                "h": 32.3242
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3517,26 +3791,28 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has downturned mouth corners.",
-                  "x": 76,
-                  "y": 48
+                  "kind": "🔑 Heart key",
+                  "message": "Harin covers their drawing with their arms.",
+                  "x": 33,
+                  "y": 39,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "The drawing is hidden beneath folded arms.",
-                  "x": 29,
-                  "y": 62
+                  "kind": "🔑 Heart key",
+                  "message": "Harin has lowered their head.",
+                  "x": 33,
+                  "y": 28,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.2655,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.3394,
               "crop": {
-                "x": 0.1953,
-                "y": 31.543,
-                "w": 50,
-                "h": 33.1055
+                "x": 0.2604,
+                "y": 33.4961,
+                "w": 49.8047,
+                "h": 31.9336
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3547,26 +3823,28 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a slightly open mouth.",
-                  "x": 76,
-                  "y": 49
+                  "kind": "🔑 Heart key",
+                  "message": "Jun has an open palm.",
+                  "x": 55,
+                  "y": 39,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "Jun has an open palm.",
-                  "x": 63,
-                  "y": 49
+                  "kind": "🔑 Heart key",
+                  "message": "Harin covers their drawing with their arms.",
+                  "x": 33,
+                  "y": 39,
+                  "type": "action"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.2301,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.3089,
               "crop": {
                 "x": 50.5859,
-                "y": 31.543,
-                "w": 49.2188,
-                "h": 33.1055
+                "y": 33.4961,
+                "w": 49.1536,
+                "h": 31.9336
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3577,32 +3855,35 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Harin has a smile with upturned mouth corners.",
-                  "x": 28,
-                  "y": 46
+                  "kind": "🔑 Heart key",
+                  "message": "Harin holds up a slightly crooked yellow star.",
+                  "x": 44,
+                  "y": 18,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "A slightly crooked star is visible in Harin’s hand.",
-                  "x": 35,
-                  "y": 47
+                  "kind": "🔑 Heart key",
+                  "message": "Jun has lowered their head.",
+                  "x": 65,
+                  "y": 49,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Ear key",
-                  "message": "Harin said the repeated erasing was to make the star look good.",
-                  "x": 30,
-                  "y": 43
+                  "kind": "🔑 Heart key",
+                  "message": "Harin says the repeated erasing was to draw the star well.",
+                  "x": 32,
+                  "y": 38,
+                  "type": "words"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.1756,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.2368,
               "crop": {
-                "x": 0.1953,
-                "y": 65.2344,
-                "w": 50,
-                "h": 34.4727
+                "x": 0.2604,
+                "y": 66.2109,
+                "w": 49.8047,
+                "h": 33.3984
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3613,40 +3894,42 @@ window.heartBookLocales = {
               "viewpoint": "The teacher",
               "clues": [
                 {
-                  "kind": "👀 Eye key",
-                  "message": "Jun has a smile with upturned mouth corners.",
-                  "x": 76,
-                  "y": 45
+                  "kind": "🔑 Heart key",
+                  "message": "They stick different stars onto one sheet.",
+                  "x": 46,
+                  "y": 31,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Action key",
-                  "message": "They stick their different stars onto one sheet together.",
-                  "x": 68,
-                  "y": 66
+                  "kind": "🔑 Heart key",
+                  "message": "The teacher holds a red star in both hands.",
+                  "x": 51,
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.1416,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.2076,
               "crop": {
                 "x": 50.5859,
-                "y": 65.2344,
-                "w": 49.2188,
-                "h": 34.4727
+                "y": 66.2109,
+                "w": 49.1536,
+                "h": 33.3984
               },
               "atlasRows": 3,
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/stars-2-lens.png",
+          "atlas": "./images/stars-2-reverse-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.4459,
+          "aspect": 2.3112,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 50,
-            "h": 30.6641
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 49.8047,
+            "h": 32.3242
           }
         }
       ],
@@ -3706,16 +3989,18 @@ window.heartBookLocales = {
           "panel": 0,
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 54
+              "y": 54,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo sostiene una nota con dibujos de pan.",
               "x": 40,
-              "y": 62
+              "y": 62,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -3734,16 +4019,18 @@ window.heartBookLocales = {
           "panel": 1,
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene la boca un poco abierta.",
               "x": 28,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "La panadera señala un pan.",
               "x": 48,
-              "y": 59
+              "y": 59,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -3762,19 +4049,28 @@ window.heartBookLocales = {
           "panel": 2,
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo ha bajado la cabeza.",
               "x": 28,
-              "y": 49
+              "y": 49,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo agarra las dos correas de la mochila.",
               "x": 23,
-              "y": 72
+              "y": 72,
+              "type": "action"
+            },
+            {
+              "kind": "🔑 Llave del corazón",
+              "message": "Junho ha bajado la cabeza para mirar su propio libro.",
+              "x": 80,
+              "y": 52,
+              "type": "action"
             }
           ],
-          "atlas": "./images/errand-view-0.png",
+          "atlas": "./images/errand-view-0-gaze.png",
           "aspect": "762/308",
           "crop": {
             "x": 0.1953,
@@ -3790,16 +4086,18 @@ window.heartBookLocales = {
           "panel": 3,
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene la boca un poco abierta.",
               "x": 38,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
               "x": 62,
-              "y": 56
+              "y": 56,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -3818,22 +4116,25 @@ window.heartBookLocales = {
           "panel": 4,
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo sostiene una nota con dibujos de pan.",
               "x": 39,
-              "y": 62
+              "y": 62,
+              "type": "action"
             },
             {
-              "kind": "👂 Llave del oído",
+              "kind": "🔑 Llave del corazón",
               "message": "Junho dijo que le preocupaba perder el marcapáginas.",
               "x": 82,
-              "y": 54
+              "y": 54,
+              "type": "words"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -3852,16 +4153,18 @@ window.heartBookLocales = {
           "panel": 5,
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "La panadera está entregando una bolsa de pan.",
               "x": 45,
-              "y": 56
+              "y": 56,
+              "type": "action"
             }
           ],
           "atlas": "./images/errand-view-0.png",
@@ -3890,16 +4193,18 @@ window.heartBookLocales = {
               "panel": 0,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 30,
-                  "y": 54
+                  "y": 54,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo sostiene una nota con dibujos de pan.",
                   "x": 41,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -3920,16 +4225,18 @@ window.heartBookLocales = {
               "panel": 1,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
                   "x": 29,
-                  "y": 50
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "La panadera señala un pan.",
                   "x": 49,
-                  "y": 58
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -3950,19 +4257,28 @@ window.heartBookLocales = {
               "panel": 2,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo ha bajado la cabeza.",
                   "x": 23,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo agarra las dos correas de la mochila.",
                   "x": 24,
-                  "y": 73
+                  "y": 73,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Junho ha bajado la cabeza para mirar su propio libro.",
+                  "x": 83,
+                  "y": 54,
+                  "type": "action"
                 }
               ],
-              "atlas": "./images/errand-1-lens.png",
+              "atlas": "./images/errand-1-gaze-lens.png",
               "aspect": 2.4217,
               "crop": {
                 "x": 0.1953,
@@ -3980,16 +4296,18 @@ window.heartBookLocales = {
               "panel": 3,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
                   "x": 37,
-                  "y": 48
+                  "y": 48,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
                   "x": 66,
-                  "y": 55
+                  "y": 55,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -4010,22 +4328,25 @@ window.heartBookLocales = {
               "panel": 4,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 30,
-                  "y": 49
+                  "y": 49,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo sostiene una nota con dibujos de pan.",
                   "x": 40,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Junho dijo que le preocupaba perder el marcapáginas.",
                   "x": 85,
-                  "y": 64
+                  "y": 64,
+                  "type": "words"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -4046,16 +4367,18 @@ window.heartBookLocales = {
               "panel": 5,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 30,
-                  "y": 48
+                  "y": 48,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "La panadera está entregando una bolsa de pan.",
                   "x": 45,
-                  "y": 52
+                  "y": 52,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-1-lens.png",
@@ -4093,16 +4416,18 @@ window.heartBookLocales = {
               "panel": 0,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 81,
-                  "y": 46
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo sostiene una nota con dibujos de pan.",
                   "x": 73,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -4123,16 +4448,18 @@ window.heartBookLocales = {
               "panel": 1,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
                   "x": 82,
-                  "y": 44
+                  "y": 44,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "La panadera señala un pan.",
                   "x": 80,
-                  "y": 73
+                  "y": 73,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -4153,19 +4480,28 @@ window.heartBookLocales = {
               "panel": 2,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo ha bajado la cabeza.",
                   "x": 80,
-                  "y": 46
+                  "y": 46,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo agarra las dos correas de la mochila.",
                   "x": 81,
-                  "y": 73
+                  "y": 73,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Junho ha bajado la cabeza para mirar su propio libro.",
+                  "x": 16,
+                  "y": 44,
+                  "type": "action"
                 }
               ],
-              "atlas": "./images/errand-2-lens.png",
+              "atlas": "./images/errand-2-gaze-lens.png",
               "aspect": 2.5148,
               "crop": {
                 "x": 0.1953,
@@ -4183,16 +4519,18 @@ window.heartBookLocales = {
               "panel": 3,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
                   "x": 82,
-                  "y": 46
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
                   "x": 24,
-                  "y": 67
+                  "y": 67,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -4213,22 +4551,25 @@ window.heartBookLocales = {
               "panel": 4,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 58,
-                  "y": 50
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo sostiene una nota con dibujos de pan.",
                   "x": 57,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Junho dijo que le preocupaba perder el marcapáginas.",
                   "x": 23,
-                  "y": 50
+                  "y": 50,
+                  "type": "words"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -4249,16 +4590,18 @@ window.heartBookLocales = {
               "panel": 5,
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 81,
-                  "y": 44
+                  "y": 44,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "La panadera está entregando una bolsa de pan.",
                   "x": 61,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 }
               ],
               "atlas": "./images/errand-2-lens.png",
@@ -4301,16 +4644,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Hay una taza azul delante de Minseo.",
               "x": 36,
-              "y": 82
+              "y": 82,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -4329,16 +4674,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene la boca un poco abierta.",
-              "x": 30,
-              "y": 57
+              "x": 35,
+              "y": 60,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Se ve una grieta fina en el costado de la taza azul.",
               "x": 47,
-              "y": 85
+              "y": 85,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -4357,16 +4704,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Minseo están hacia abajo.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Yuna detiene una mano delante de la taza azul.",
               "x": 52,
-              "y": 65
+              "y": 65,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -4385,16 +4734,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Minseo ha bajado la cabeza.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Se ve una grieta fina en el costado de la taza azul.",
               "x": 47,
-              "y": 81
+              "y": 81,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -4413,22 +4764,25 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Han traído una taza azul nueva sin grietas.",
               "x": 60,
-              "y": 57
+              "y": 57,
+              "type": "action"
             },
             {
-              "kind": "👂 Llave del oído",
+              "kind": "🔑 Llave del corazón",
               "message": "Yuna dijo que le preocupaba que se rompiera la taza azul.",
               "x": 70,
-              "y": 47
+              "y": 47,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -4447,16 +4801,18 @@ window.heartBookLocales = {
           "viewpoint": "Minseo",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 57
+              "y": 57,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Hay una taza azul delante de Minseo.",
               "x": 40,
-              "y": 73
+              "y": 73,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -4482,16 +4838,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 30,
-                  "y": 55
+                  "y": 55,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Hay una taza azul delante de Minseo.",
                   "x": 40,
-                  "y": 81
+                  "y": 81,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -4512,16 +4870,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene la boca un poco abierta.",
-                  "x": 29,
-                  "y": 55
+                  "x": 36,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Se ve una grieta fina en el costado de la taza azul.",
                   "x": 42,
-                  "y": 80
+                  "y": 80,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -4542,16 +4902,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Minseo están hacia abajo.",
                   "x": 29,
-                  "y": 59
+                  "y": 59,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Yuna detiene una mano delante de la taza azul.",
                   "x": 57,
-                  "y": 66
+                  "y": 66,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -4572,16 +4934,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo ha bajado la cabeza.",
                   "x": 31,
-                  "y": 59
+                  "y": 59,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Se ve una grieta fina en el costado de la taza azul.",
                   "x": 43,
-                  "y": 81
+                  "y": 81,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -4602,22 +4966,25 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 30,
-                  "y": 56
+                  "y": 56,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Han traído una taza azul nueva sin grietas.",
                   "x": 50,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Yuna dijo que le preocupaba que se rompiera la taza azul.",
                   "x": 85,
-                  "y": 62
+                  "y": 62,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -4638,16 +5005,18 @@ window.heartBookLocales = {
               "viewpoint": "Yuna",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 29,
-                  "y": 56
+                  "y": 56,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Yuna tiene la palma abierta.",
                   "x": 66,
-                  "y": 42
+                  "y": 42,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -4685,16 +5054,18 @@ window.heartBookLocales = {
               "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 77,
-                  "y": 40
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Hay una taza azul delante de Minseo.",
                   "x": 74,
-                  "y": 57
+                  "y": 57,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -4715,16 +5086,18 @@ window.heartBookLocales = {
               "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Minseo están hacia abajo.",
                   "x": 74,
-                  "y": 40
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Se ve una grieta fina en el costado de la taza azul.",
                   "x": 70,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -4745,16 +5118,18 @@ window.heartBookLocales = {
               "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo ha bajado la cabeza.",
                   "x": 79,
-                  "y": 51
+                  "y": 51,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "La taza azul está entre los dos niños.",
                   "x": 75,
-                  "y": 60
+                  "y": 60,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -4775,16 +5150,18 @@ window.heartBookLocales = {
               "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Minseo están hacia abajo.",
                   "x": 81,
-                  "y": 32
+                  "y": 32,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Se ve una grieta fina en el costado de la taza azul.",
                   "x": 66,
-                  "y": 50
+                  "y": 50,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -4805,22 +5182,25 @@ window.heartBookLocales = {
               "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Yuna tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 20,
-                  "y": 35
+                  "y": 35,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Han traído una taza azul nueva sin grietas.",
                   "x": 73,
-                  "y": 45
+                  "y": 45,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Yuna dijo que le preocupaba que se rompiera la taza azul.",
                   "x": 20,
-                  "y": 43
+                  "y": 43,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -4837,20 +5217,22 @@ window.heartBookLocales = {
             },
             {
               "title": "El mismo momento, un nuevo sentir",
-              "text": "Los niños volvieron a sonreír con sus tazas nuevas. Sentí alivio al ver que retomaban su conversación. En la fiesta también había lugar para escucharse. Sus sonrisas tranquilas dieron calidez a mi corazón, que había estado ocupado con los preparativos.",
+              "text": "Los niños se escucharon y volvieron a sonreír. Verlos sonreír juntos me tranquilizó. Después de tanto preparar la fiesta, también sentí calidez por dentro.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 78,
-                  "y": 43
+                  "y": 43,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Hay una taza azul delante de Minseo.",
                   "x": 74,
-                  "y": 57
+                  "y": 57,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -4914,16 +5296,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 48
+              "x": 42,
+              "y": 62,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Queda un trozo de pan entre las dos personas.",
               "x": 55,
-              "y": 83
+              "y": 83,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -4942,16 +5326,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Noah ha bajado la cabeza.",
               "x": 73,
-              "y": 48
+              "y": 48,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Noah acerca el plato a la otra persona.",
               "x": 58,
-              "y": 85
+              "y": 85,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -4970,16 +5356,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene las dos manos juntas.",
               "x": 30,
-              "y": 68
+              "y": 68,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Una mano de Noah está sobre su pecho.",
               "x": 73,
-              "y": 69
+              "y": 69,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -4998,16 +5386,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Noah tiene la boca un poco abierta.",
-              "x": 73,
-              "y": 44
+              "x": 79,
+              "y": 59,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene la palma abierta.",
-              "x": 34,
-              "y": 71
+              "x": 50,
+              "y": 63,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -5026,22 +5416,25 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 28,
-              "y": 47
+              "x": 40,
+              "y": 54,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Sofía señala a la otra persona.",
               "x": 47,
-              "y": 71
+              "y": 71,
+              "type": "action"
             },
             {
-              "kind": "👂 Llave del oído",
+              "kind": "🔑 Llave del corazón",
               "message": "Los dos dijeron que guardaron el pan por si el otro tenía hambre.",
               "x": 32,
-              "y": 54
+              "y": 54,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -5060,16 +5453,18 @@ window.heartBookLocales = {
           "viewpoint": "Sofía",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 28,
-              "y": 47
+              "x": 38,
+              "y": 58,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Cada persona sostiene un trozo del pan compartido.",
               "x": 36,
-              "y": 60
+              "y": 60,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -5095,16 +5490,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 34,
-                  "y": 44
+                  "x": 40,
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Queda un trozo de pan entre las dos personas.",
                   "x": 48,
-                  "y": 79
+                  "y": 79,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -5125,16 +5522,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la boca un poco abierta.",
                   "x": 35,
-                  "y": 43
+                  "y": 43,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Noah acerca el plato a la otra persona.",
                   "x": 53,
-                  "y": 81
+                  "y": 81,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -5155,16 +5554,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la boca un poco abierta.",
                   "x": 33,
-                  "y": 46
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene las dos manos juntas.",
                   "x": 35,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -5185,16 +5586,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 35,
-                  "y": 44
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Sofia tiene la boca un poco abierta.",
+                  "x": 37,
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la palma abierta.",
                   "x": 48,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -5215,22 +5618,25 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 35,
-                  "y": 45
+                  "x": 40,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Noah señala a la otra persona.",
                   "x": 57,
-                  "y": 47
+                  "y": 47,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Los dos dijeron que guardaron el pan por si el otro tenía hambre.",
                   "x": 37,
-                  "y": 55
+                  "y": 55,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -5251,16 +5657,18 @@ window.heartBookLocales = {
               "viewpoint": "Noah",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 34,
-                  "y": 44
+                  "x": 36,
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Cada persona sostiene un trozo del pan compartido.",
                   "x": 36,
-                  "y": 58
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -5298,16 +5706,18 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Noah tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 23,
-                  "y": 47
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Queda un trozo de pan entre las dos personas.",
                   "x": 61,
-                  "y": 46
+                  "y": 46,
+                  "type": "action"
                 }
               ],
               "panel": 0,
@@ -5328,16 +5738,18 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Noah ha bajado la cabeza.",
                   "x": 23,
-                  "y": 45
+                  "y": 45,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofia tiene la palma abierta.",
                   "x": 71,
-                  "y": 46
+                  "y": 46,
+                  "type": "action"
                 }
               ],
               "panel": 1,
@@ -5358,16 +5770,18 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Noah ha bajado la cabeza.",
                   "x": 23,
-                  "y": 45
+                  "y": 45,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Una mano de Noah está sobre su pecho.",
                   "x": 22,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -5388,16 +5802,18 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Noah tiene la boca un poco abierta.",
                   "x": 23,
-                  "y": 45
+                  "y": 45,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la palma abierta.",
                   "x": 68,
-                  "y": 44
+                  "y": 44,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -5414,26 +5830,29 @@ window.heartBookLocales = {
             },
             {
               "title": "Un sentimiento que no había visto",
-              "text": "Los dos dijeron que habían guardado pan por si el otro tenía hambre. Se habían cuidado sin decirlo, y ninguno lo sabía. Al escucharlos, también sentí cariño.",
+              "text": "Cada niño había guardado el pan por si su amigo tenía hambre. Solo al hablar descubrieron que ambos habían pensado en el otro. Escucharlos también me dio calidez.",
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 77,
-                  "y": 45
+                  "x": 70,
+                  "y": 50,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofia señala a Noah.",
                   "x": 67,
-                  "y": 44
+                  "y": 44,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Los dos dijeron que guardaron el pan por si el otro tenía hambre.",
                   "x": 77,
-                  "y": 53
+                  "y": 53,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -5454,16 +5873,18 @@ window.heartBookLocales = {
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 77,
-                  "y": 45
+                  "x": 75,
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Cada persona sostiene un trozo del pan compartido.",
                   "x": 71,
-                  "y": 48
+                  "y": 48,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -5527,16 +5948,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 44
+              "y": 44,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora sostiene una estrella de papel amarilla.",
               "x": 29,
-              "y": 66
+              "y": 66,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -5555,16 +5978,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora tiene los ojos muy abiertos y se ve la parte blanca.",
               "x": 32,
-              "y": 45
+              "y": 45,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Asoma la punta de una estrella amarilla escondida detrás de la espalda.",
               "x": 17,
-              "y": 70
+              "y": 70,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -5578,16 +6003,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora ha bajado la cabeza.",
               "x": 27,
-              "y": 50
+              "y": 50,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Asoma la punta de una estrella amarilla escondida detrás de la espalda.",
               "x": 17,
-              "y": 70
+              "y": 70,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -5606,16 +6033,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora se ha vuelto hacia la otra persona.",
               "x": 35,
-              "y": 50
+              "y": 50,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Mamá tiene la palma abierta.",
               "x": 45,
-              "y": 60
+              "y": 60,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -5634,22 +6063,25 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
               "x": 32,
-              "y": 42
+              "y": 42,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora muestra la estrella amarilla hacia delante.",
               "x": 35,
-              "y": 49
+              "y": 49,
+              "type": "action"
             },
             {
-              "kind": "👂 Llave del oído",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora dijo que aún no había terminado la estrella para Sua.",
               "x": 33,
-              "y": 42
+              "y": 42,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -5668,16 +6100,18 @@ window.heartBookLocales = {
           "viewpoint": "Sora",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
               "x": 32,
-              "y": 43
+              "y": 43,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Sus manos trabajan juntas para terminar la estrella amarilla.",
               "x": 55,
-              "y": 58
+              "y": 58,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -5703,28 +6137,37 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora ha bajado la cabeza.",
-                  "x": 30,
-                  "y": 47
+                  "x": 75,
+                  "y": 41,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora sostiene una estrella de papel amarilla.",
-                  "x": 35,
-                  "y": 69
+                  "x": 77,
+                  "y": 53,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Mamá está junto a la entrada y sostiene la puerta azul.",
+                  "x": 6,
+                  "y": 44,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/door-1-lens.png",
-              "aspect": 2.3024,
-              "atlasRows": 3,
-              "atlasCols": 2,
+              "atlas": "./images/door-mom-arrival1-lens.png",
+              "aspect": 1.5,
+              "atlasRows": 1,
+              "atlasCols": 1,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 50.0651,
-                "h": 32.6172
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               }
             },
             {
@@ -5733,28 +6176,37 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
-                  "x": 30,
-                  "y": 45
+                  "x": 71,
+                  "y": 36,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Asoma la punta de una estrella amarilla escondida detrás de la espalda.",
-                  "x": 17,
-                  "y": 68
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Asoma la punta de la estrella amarilla detrás de la espalda de Sora.",
+                  "x": 80,
+                  "y": 47,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Mamá está junto a la entrada y sostiene la puerta azul.",
+                  "x": 4,
+                  "y": 35,
+                  "type": "action"
                 }
               ],
-              "panel": 1,
-              "atlas": "./images/door-1-lens.png",
-              "aspect": 2.2605,
-              "atlasRows": 3,
-              "atlasCols": 2,
+              "panel": 0,
+              "atlas": "./images/door-mom-arrival2-lens.png",
+              "aspect": 1.5,
+              "atlasRows": 1,
+              "atlasCols": 1,
               "crop": {
-                "x": 50.651,
-                "y": 0.293,
-                "w": 49.1536,
-                "h": 32.6172
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               }
             },
             {
@@ -5763,16 +6215,18 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora ha bajado la cabeza.",
                   "x": 25,
-                  "y": 47
+                  "y": 47,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Asoma la punta de una estrella amarilla escondida detrás de la espalda.",
                   "x": 20,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -5793,16 +6247,18 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
                   "x": 31,
-                  "y": 49
+                  "y": 49,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Mamá tiene la palma abierta.",
                   "x": 39,
-                  "y": 61
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -5823,22 +6279,25 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 32,
-                  "y": 37
+                  "y": 37,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora muestra la estrella amarilla hacia delante.",
                   "x": 44,
-                  "y": 51
+                  "y": 51,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora dijo que aún no había terminado la estrella para Sua.",
                   "x": 34,
-                  "y": 42
+                  "y": 42,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -5859,16 +6318,18 @@ window.heartBookLocales = {
               "viewpoint": "Mamá",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 75,
-                  "y": 33
+                  "y": 33,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora extiende la mano hacia la estrella que están haciendo.",
                   "x": 68,
-                  "y": 55
+                  "y": 55,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -5884,15 +6345,15 @@ window.heartBookLocales = {
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/door-1-lens.png",
-          "atlasRows": 3,
-          "atlasCols": 2,
-          "aspect": 2.3024,
+          "atlas": "./images/door-mom-arrival1-lens.png",
+          "atlasRows": 1,
+          "atlasCols": 1,
+          "aspect": 1.5,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 50.0651,
-            "h": 32.6172
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           }
         },
         {
@@ -5902,33 +6363,42 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "Un momento para compartir",
-              "text": "Disfruté del camino a casa de Sora. Me preguntaba qué haríamos juntos.",
+              "text": "Llegué a la casa de Sora. Mamá abrió la puerta. Sora estaba haciendo una estrella amarilla dentro. Me pregunté qué haríamos juntas.",
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora ha bajado la cabeza.",
-                  "x": 54,
-                  "y": 49
+                  "x": 61,
+                  "y": 48,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora sostiene una estrella de papel amarilla.",
-                  "x": 53,
-                  "y": 57
+                  "x": 61,
+                  "y": 56,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Mamá está junto a la entrada y sostiene la puerta azul.",
+                  "x": 6,
+                  "y": 47,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/door-2-lens.png",
-              "aspect": 2.3242,
+              "atlas": "./images/door-sua-arrival1-lens.png",
+              "aspect": 1.5,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 49.4792,
-                "h": 31.9336
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 1,
+              "atlasCols": 1
             },
             {
               "title": "¿Qué significa eso?",
@@ -5936,29 +6406,38 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
-                  "x": 54,
-                  "y": 46
+                  "x": 63,
+                  "y": 48,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Sora se ha vuelto hacia la puerta.",
-                  "x": 52,
-                  "y": 58
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Asoma la punta de la estrella amarilla detrás de la espalda de Sora.",
+                  "x": 53,
+                  "y": 59,
+                  "type": "action"
+                },
+                {
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Mamá está junto a la entrada y sostiene la puerta azul.",
+                  "x": 6,
+                  "y": 31,
+                  "type": "action"
                 }
               ],
-              "panel": 1,
-              "atlas": "./images/door-2-lens.png",
-              "aspect": 2.3364,
+              "panel": 0,
+              "atlas": "./images/door-sua-arrival2-lens.png",
+              "aspect": 1.5,
               "crop": {
-                "x": 50.0651,
-                "y": 0.293,
-                "w": 49.7396,
-                "h": 31.9336
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 1,
+              "atlasCols": 1
             },
             {
               "title": "Lo que imaginé al principio",
@@ -5966,16 +6445,18 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora ha bajado la cabeza.",
                   "x": 57,
-                  "y": 49
+                  "y": 49,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Mamá ha bajado a la altura de los ojos del niño.",
                   "x": 30,
-                  "y": 65
+                  "y": 65,
+                  "type": "action"
                 }
               ],
               "panel": 2,
@@ -5996,16 +6477,18 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
                   "x": 57,
-                  "y": 47
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Mamá tiene la palma abierta.",
                   "x": 37,
-                  "y": 57
+                  "y": 57,
+                  "type": "action"
                 }
               ],
               "panel": 3,
@@ -6026,22 +6509,25 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 62,
-                  "y": 31
+                  "y": 31,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora muestra la estrella amarilla hacia delante.",
                   "x": 53,
-                  "y": 50
+                  "y": 50,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora dijo que aún no había terminado la estrella para Sua.",
                   "x": 62,
-                  "y": 38
+                  "y": 38,
+                  "type": "words"
                 }
               ],
               "panel": 4,
@@ -6062,16 +6548,18 @@ window.heartBookLocales = {
               "viewpoint": "Sua",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
                   "x": 46,
-                  "y": 34
+                  "y": 34,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Sus manos trabajan juntas para terminar la estrella amarilla.",
                   "x": 54,
-                  "y": 56
+                  "y": 56,
+                  "type": "action"
                 }
               ],
               "panel": 5,
@@ -6087,15 +6575,15 @@ window.heartBookLocales = {
               }
             }
           ],
-          "atlas": "./images/door-2-lens.png",
-          "atlasRows": 3,
-          "atlasCols": 2,
-          "aspect": 2.3242,
+          "atlas": "./images/door-sua-arrival1-lens.png",
+          "atlasRows": 1,
+          "atlasCols": 1,
+          "aspect": 1.5,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 49.4792,
-            "h": 31.9336
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           }
         }
       ],
@@ -6135,16 +6623,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
               "x": 31,
-              "y": 44
+              "y": 44,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "La pelota amarilla está quieta en las manos de Luca.",
               "x": 65,
-              "y": 50
+              "y": 50,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -6163,16 +6653,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Gia tiene los ojos muy abiertos y se ve la parte blanca.",
               "x": 28,
-              "y": 39
+              "y": 39,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "La pelota amarilla está quieta en las manos de Luca.",
               "x": 69,
-              "y": 52
+              "y": 52,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -6186,16 +6678,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Gia están hacia abajo.",
               "x": 31,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "El perro oscuro con la correa azul está oliendo la hierba.",
               "x": 86,
-              "y": 84
+              "y": 84,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -6214,22 +6708,25 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Gia se ha vuelto hacia la otra persona.",
               "x": 31,
-              "y": 46
+              "y": 46,
+              "type": "action"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "El perro oscuro con la correa azul está oliendo la hierba.",
               "x": 52,
-              "y": 87
+              "y": 87,
+              "type": "action"
             },
             {
-              "kind": "👂 Llave del oído",
+              "kind": "🔑 Llave del corazón",
               "message": "Luca dijo que el perro era nuevo aquí y necesitaba un poco de tiempo.",
               "x": 72,
-              "y": 47
+              "y": 47,
+              "type": "words"
             }
           ],
           "panel": 3,
@@ -6248,16 +6745,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
               "x": 31,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Han dejado la pelota amarilla en la hierba.",
               "x": 72,
-              "y": 76
+              "y": 76,
+              "type": "action"
             }
           ],
           "panel": 4,
@@ -6276,16 +6775,18 @@ window.heartBookLocales = {
           "viewpoint": "Gia",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
               "x": 31,
-              "y": 45
+              "y": 45,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Los dos perros acercan el hocico a la misma pelota.",
               "x": 53,
-              "y": 84
+              "y": 84,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -6311,26 +6812,28 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia arriba.",
                   "x": 29,
-                  "y": 43
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "La pelota amarilla está quieta en las manos de Luca.",
-                  "x": 83,
-                  "y": 70
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca sostiene la pelota amarilla sin moverla.",
+                  "x": 84,
+                  "y": 71,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.3042,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.29,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 49.8047,
-                "h": 32.4219
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 49.349,
+                "h": 32.3242
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -6341,28 +6844,30 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene los ojos muy abiertos y se ve la parte blanca.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Gia tiene los ojos muy abiertos.",
                   "x": 29,
-                  "y": 43
+                  "y": 42,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "La pelota amarilla está quieta en las manos de Luca.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca sostiene la pelota amarilla sin moverla.",
                   "x": 84,
-                  "y": 72
+                  "y": 72,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.2861,
+              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "aspect": 2.2991,
               "atlasRows": 3,
               "atlasCols": 2,
               "crop": {
-                "x": 50.3906,
-                "y": 0.293,
-                "w": 49.4141,
-                "h": 32.4219
+                "x": 50.1953,
+                "y": 0.3906,
+                "w": 49.5443,
+                "h": 32.3242
               }
             },
             {
@@ -6371,26 +6876,28 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia abajo.",
                   "x": 29,
-                  "y": 47
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "El perro oscuro con la correa azul está oliendo la hierba.",
-                  "x": 60,
-                  "y": 83
+                  "x": 63,
+                  "y": 87,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.4132,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.2493,
               "crop": {
-                "x": 0.1953,
-                "y": 33.3008,
-                "w": 49.8047,
-                "h": 30.957
+                "x": 0.2604,
+                "y": 33.4961,
+                "w": 49.349,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -6401,32 +6908,35 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia se ha vuelto hacia la otra persona.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Gia ha bajado la cabeza.",
                   "x": 29,
-                  "y": 44
+                  "y": 47,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "El perro oscuro con la correa azul está oliendo la hierba.",
-                  "x": 57,
-                  "y": 88
+                  "x": 63,
+                  "y": 87,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
-                  "message": "Luca dijo que el perro era nuevo aquí y necesitaba un poco de tiempo.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca dice: “Mi perro es nuevo aquí, así que quiero darle un poco de tiempo”.",
                   "x": 85,
-                  "y": 69
+                  "y": 57,
+                  "type": "words"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.3943,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.2611,
               "crop": {
-                "x": 50.3906,
-                "y": 33.3008,
-                "w": 49.4141,
-                "h": 30.957
+                "x": 50.1302,
+                "y": 33.4961,
+                "w": 49.6094,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -6437,26 +6947,28 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia arriba.",
                   "x": 29,
-                  "y": 45
+                  "y": 47,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Han dejado la pelota amarilla en la hierba.",
-                  "x": 59,
-                  "y": 81
+                  "kind": "🔑 Llave del corazón",
+                  "message": "La pelota amarilla está en la hierba delante de los perros.",
+                  "x": 60,
+                  "y": 86,
+                  "type": "action"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.1429,
+              "atlas": "./images/ball-1-close-lens.png",
+              "aspect": 2.2831,
               "crop": {
-                "x": 0.1953,
-                "y": 64.8438,
-                "w": 49.8047,
-                "h": 34.8633
+                "x": 0.2604,
+                "y": 67.1875,
+                "w": 49.349,
+                "h": 32.4219
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -6467,40 +6979,42 @@ window.heartBookLocales = {
               "viewpoint": "Luca",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 29,
-                  "y": 46
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia arriba.",
+                  "x": 33,
+                  "y": 46,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Los dos perros acercan el hocico a la misma pelota.",
                   "x": 54,
-                  "y": 85
+                  "y": 86,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-1-lens.png",
-              "aspect": 2.1261,
+              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "aspect": 2.2922,
               "crop": {
-                "x": 50.3906,
-                "y": 64.8438,
-                "w": 49.4141,
-                "h": 34.8633
+                "x": 50.1953,
+                "y": 67.1875,
+                "w": 49.5443,
+                "h": 32.4219
               },
               "atlasRows": 3,
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/ball-1-lens.png",
+          "atlas": "./images/ball-1-close-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.3042,
+          "aspect": 2.29,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 49.8047,
-            "h": 32.4219
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 49.349,
+            "h": 32.3242
           }
         },
         {
@@ -6514,29 +7028,31 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 46,
-                  "y": 43
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia arriba.",
+                  "x": 45,
+                  "y": 40,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "La pelota amarilla está quieta en las manos de Luca.",
-                  "x": 73,
-                  "y": 55
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca sostiene la pelota amarilla sin moverla.",
+                  "x": 70,
+                  "y": 50,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.303,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 1.0632,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 49.4792,
-                "h": 32.2266
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 32.8776,
+                "h": 46.3867
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "¿Qué significa eso?",
@@ -6544,29 +7060,31 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene los ojos muy abiertos y se ve la parte blanca.",
-                  "x": 47,
-                  "y": 48
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Gia tiene los ojos muy abiertos.",
+                  "x": 46,
+                  "y": 42,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "La pelota amarilla está quieta en las manos de Luca.",
-                  "x": 81,
-                  "y": 57
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca sostiene la pelota amarilla sin moverla.",
+                  "x": 75,
+                  "y": 54,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.3152,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 1.0653,
               "crop": {
-                "x": 50.0651,
-                "y": 0.293,
-                "w": 49.7396,
-                "h": 32.2266
+                "x": 33.6589,
+                "y": 0.3906,
+                "w": 32.9427,
+                "h": 46.3867
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "Lo que imaginé al principio",
@@ -6574,29 +7092,31 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia ha bajado la cabeza hacia la pelota.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia abajo.",
                   "x": 46,
-                  "y": 46
+                  "y": 44,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "La pelota amarilla está quieta en las manos de Luca.",
-                  "x": 81,
-                  "y": 57
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca sostiene la pelota amarilla sin moverla.",
+                  "x": 77,
+                  "y": 52,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.3385,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 1.0547,
               "crop": {
-                "x": 0.1953,
-                "y": 33.1055,
-                "w": 49.4792,
-                "h": 31.7383
+                "x": 67.1224,
+                "y": 0.3906,
+                "w": 32.6172,
+                "h": 46.3867
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "Mirar un poco más de cerca",
@@ -6604,35 +7124,38 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Luca tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 26,
-                  "y": 46
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca tiene la boca un poco abierta.",
+                  "x": 29,
+                  "y": 32,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Luca tiene la palma abierta.",
-                  "x": 36,
-                  "y": 59
+                  "x": 51,
+                  "y": 43,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
-                  "message": "Luca dijo que el perro era nuevo aquí y necesitaba un poco de tiempo.",
-                  "x": 26,
-                  "y": 48
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Luca dice: “Mi perro es nuevo aquí, así que quiero darle un poco de tiempo”.",
+                  "x": 30,
+                  "y": 36,
+                  "type": "words"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.3508,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 0.9475,
               "crop": {
-                "x": 50.0651,
-                "y": 33.1055,
-                "w": 49.7396,
-                "h": 31.7383
+                "x": 0.2604,
+                "y": 47.5586,
+                "w": 32.8776,
+                "h": 52.0508
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "Un sentimiento que no había visto",
@@ -6640,70 +7163,74 @@ window.heartBookLocales = {
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 46,
-                  "y": 45
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia arriba.",
+                  "x": 80,
+                  "y": 30,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Han dejado la pelota amarilla en la hierba.",
-                  "x": 71,
-                  "y": 85
+                  "kind": "🔑 Llave del corazón",
+                  "message": "La pelota amarilla está en la hierba delante de los perros.",
+                  "x": 44,
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.1652,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 0.9493,
               "crop": {
-                "x": 0.1953,
-                "y": 65.4297,
-                "w": 49.4792,
-                "h": 34.2773
+                "x": 33.6589,
+                "y": 47.5586,
+                "w": 32.9427,
+                "h": 52.0508
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             },
             {
               "title": "El mismo momento, un nuevo sentir",
-              "text": "Las niñas decidieron jugar solo mientras los perros estuvieran cómodos. Jugar juntas también podía incluir un tiempo de espera.",
+              "text": "Los dos perros olieron juntos la pelota. Gia quería empezar a jugar y Luca quería darle tiempo a su perro para acostumbrarse al parque. Al escuchar a los dos, entendí por qué Luca no había lanzado la pelota. Verlos sonreír también me hizo sonreír.",
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 83,
-                  "y": 43
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Gia están hacia arriba.",
+                  "x": 81,
+                  "y": 29,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Los dos perros acercan el hocico a la misma pelota.",
-                  "x": 57,
-                  "y": 87
+                  "x": 53,
+                  "y": 61,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-2-lens.png",
-              "aspect": 2.1766,
+              "atlas": "./images/ball-2-close-lens.png",
+              "aspect": 0.94,
               "crop": {
-                "x": 50.0651,
-                "y": 65.4297,
-                "w": 49.7396,
-                "h": 34.2773
+                "x": 67.1224,
+                "y": 47.5586,
+                "w": 32.6172,
+                "h": 52.0508
               },
-              "atlasRows": 3,
-              "atlasCols": 2
+              "atlasRows": 2,
+              "atlasCols": 3
             }
           ],
-          "atlas": "./images/ball-2-lens.png",
-          "atlasRows": 3,
-          "atlasCols": 2,
-          "aspect": 2.303,
+          "atlas": "./images/ball-2-close-lens.png",
+          "atlasRows": 2,
+          "atlasCols": 3,
+          "aspect": 1.0632,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 49.4792,
-            "h": 32.2266
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 32.8776,
+            "h": 46.3867
           }
         }
       ],
@@ -6743,16 +7270,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
               "x": 30,
-              "y": 45
+              "y": 45,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Sostienen estrellas de papel de distintos colores.",
               "x": 36,
-              "y": 62
+              "y": 62,
+              "type": "action"
             }
           ],
           "panel": 0,
@@ -6771,16 +7300,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jun tiene la boca un poco abierta.",
               "x": 30,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Hay una goma y pequeñas virutas junto al papel.",
               "x": 81,
-              "y": 81
+              "y": 81,
+              "type": "action"
             }
           ],
           "panel": 1,
@@ -6799,16 +7330,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Jun están hacia abajo.",
               "x": 28,
-              "y": 53
+              "y": 53,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "El dibujo está tapado bajo los brazos.",
               "x": 69,
-              "y": 70
+              "y": 70,
+              "type": "action"
             }
           ],
           "panel": 2,
@@ -6827,16 +7360,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jun tiene la boca un poco abierta.",
               "x": 27,
-              "y": 48
+              "y": 48,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Jun tiene la palma abierta.",
               "x": 36,
-              "y": 65
+              "y": 65,
+              "type": "action"
             }
           ],
           "panel": 3,
@@ -6855,22 +7390,25 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Harin tiene una sonrisa con las comisuras hacia arriba.",
               "x": 70,
-              "y": 47
+              "y": 47,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Se ve una estrella un poco torcida en la mano de Harin.",
               "x": 64,
-              "y": 47
+              "y": 47,
+              "type": "action"
             },
             {
-              "kind": "👂 Llave del oído",
+              "kind": "🔑 Llave del corazón",
               "message": "Harin dijo que borraba varias veces porque quería dibujar bien la estrella.",
               "x": 70,
-              "y": 44
+              "y": 44,
+              "type": "words"
             }
           ],
           "panel": 4,
@@ -6889,16 +7427,18 @@ window.heartBookLocales = {
           "viewpoint": "Jun",
           "clues": [
             {
-              "kind": "👀 Llave de la mirada",
+              "kind": "🔑 Llave del corazón",
               "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
               "x": 28,
-              "y": 49
+              "y": 49,
+              "type": "expression"
             },
             {
-              "kind": "🏃 Llave de las acciones",
+              "kind": "🔑 Llave del corazón",
               "message": "Están pegando juntos sus estrellas distintas en una hoja.",
               "x": 55,
-              "y": 63
+              "y": 63,
+              "type": "action"
             }
           ],
           "panel": 5,
@@ -6924,26 +7464,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 29,
-                  "y": 47
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Jun están hacia arriba.",
+                  "x": 32,
+                  "y": 52,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Sostienen estrellas de papel de distintos colores.",
-                  "x": 79,
-                  "y": 74
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Los niños sostienen estrellas de distintos colores.",
+                  "x": 73,
+                  "y": 64,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2523,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.307,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 48.8281,
-                "h": 32.5195
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 49.4141,
+                "h": 32.1289
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -6954,26 +7496,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la boca un poco abierta.",
-                  "x": 29,
-                  "y": 49
+                  "x": 35,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Hay una goma y pequeñas virutas junto al papel.",
-                  "x": 74,
-                  "y": 83
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin está borrando el dibujo. Hay virutas de goma junto al papel.",
+                  "x": 75,
+                  "y": 77,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.3243,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.3131,
               "crop": {
-                "x": 49.4141,
-                "y": 0.293,
-                "w": 50.3906,
-                "h": 32.5195
+                "x": 50.1953,
+                "y": 0.3906,
+                "w": 49.5443,
+                "h": 32.1289
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -6984,26 +7528,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Jun están hacia abajo.",
-                  "x": 29,
-                  "y": 49
+                  "x": 33,
+                  "y": 62,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "El dibujo está tapado bajo los brazos.",
-                  "x": 76,
-                  "y": 72
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin tapa su dibujo con los brazos.",
+                  "x": 80,
+                  "y": 68,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2388,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.314,
               "crop": {
-                "x": 0.1953,
-                "y": 33.3984,
-                "w": 48.8281,
-                "h": 32.7148
+                "x": 0.2604,
+                "y": 33.3008,
+                "w": 49.4141,
+                "h": 32.0313
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7014,26 +7560,28 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la boca un poco abierta.",
-                  "x": 29,
-                  "y": 46
+                  "x": 33,
+                  "y": 52,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
+                  "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la palma abierta.",
-                  "x": 45,
-                  "y": 64
+                  "x": 42,
+                  "y": 64,
+                  "type": "action"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.3104,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.3201,
               "crop": {
-                "x": 49.4141,
-                "y": 33.3984,
-                "w": 50.3906,
-                "h": 32.7148
+                "x": 50.1953,
+                "y": 33.3008,
+                "w": 49.5443,
+                "h": 32.0313
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7044,32 +7592,35 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 29,
-                  "y": 47
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Jun están hacia arriba.",
+                  "x": 33,
+                  "y": 52,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Se ve una estrella un poco torcida en la mano de Harin.",
-                  "x": 66,
-                  "y": 47
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin muestra una estrella amarilla un poco torcida.",
+                  "x": 65,
+                  "y": 51,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
-                  "message": "Harin dijo que borraba varias veces porque quería dibujar bien la estrella.",
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin dice que borraba varias veces porque quería dibujar bien la estrella.",
                   "x": 85,
-                  "y": 55
+                  "y": 58,
+                  "type": "words"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2189,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.2128,
               "crop": {
-                "x": 0.1953,
-                "y": 66.6992,
-                "w": 48.8281,
-                "h": 33.0078
+                "x": 0.2604,
+                "y": 66.1133,
+                "w": 49.4141,
+                "h": 33.4961
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7080,40 +7631,42 @@ window.heartBookLocales = {
               "viewpoint": "Harin",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 29,
-                  "y": 47
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Las comisuras de Jun están hacia arriba.",
+                  "x": 32,
+                  "y": 53,
+                  "type": "expression"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Están pegando juntos sus estrellas distintas en una hoja.",
-                  "x": 61,
-                  "y": 61
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Están pegando estrellas diferentes en una hoja.",
+                  "x": 62,
+                  "y": 72,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/stars-1-lens.png",
-              "aspect": 2.2899,
+              "atlas": "./images/stars-1-close-lens.png",
+              "aspect": 2.2187,
               "crop": {
-                "x": 49.4141,
-                "y": 66.6992,
-                "w": 50.3906,
-                "h": 33.0078
+                "x": 50.1953,
+                "y": 66.1133,
+                "w": 49.5443,
+                "h": 33.4961
               },
               "atlasRows": 3,
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/stars-1-lens.png",
+          "atlas": "./images/stars-1-close-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.2523,
+          "aspect": 2.307,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 48.8281,
-            "h": 32.5195
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 49.4141,
+            "h": 32.1289
           }
         },
         {
@@ -7127,26 +7680,28 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 76,
-                  "y": 44
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Los niños sostienen estrellas de distintos colores.",
+                  "x": 43,
+                  "y": 36,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Sostienen estrellas de papel de distintos colores.",
-                  "x": 28,
-                  "y": 62
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Los niños sostienen estrellas de distintos colores.",
+                  "x": 55,
+                  "y": 36,
+                  "type": "action"
                 }
               ],
               "panel": 0,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.4459,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.3112,
               "crop": {
-                "x": 0.1953,
-                "y": 0.293,
-                "w": 50,
-                "h": 30.6641
+                "x": 0.2604,
+                "y": 0.3906,
+                "w": 49.8047,
+                "h": 32.3242
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7157,26 +7712,28 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene la boca un poco abierta.",
-                  "x": 76,
-                  "y": 47
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin está borrando el dibujo. Hay virutas de goma junto al papel.",
+                  "x": 44,
+                  "y": 40,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Hay una goma y pequeñas virutas junto al papel.",
-                  "x": 33,
-                  "y": 81
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin ha bajado la cabeza.",
+                  "x": 32,
+                  "y": 35,
+                  "type": "action"
                 }
               ],
               "panel": 1,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.4076,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.281,
               "crop": {
                 "x": 50.5859,
-                "y": 0.293,
-                "w": 49.2188,
-                "h": 30.6641
+                "y": 0.3906,
+                "w": 49.1536,
+                "h": 32.3242
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7187,26 +7744,28 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Las comisuras de Jun están hacia abajo.",
-                  "x": 76,
-                  "y": 48
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin tapa su dibujo con los brazos.",
+                  "x": 33,
+                  "y": 39,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "El dibujo está tapado bajo los brazos.",
-                  "x": 29,
-                  "y": 62
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin ha bajado la cabeza.",
+                  "x": 33,
+                  "y": 28,
+                  "type": "action"
                 }
               ],
               "panel": 2,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.2655,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.3394,
               "crop": {
-                "x": 0.1953,
-                "y": 31.543,
-                "w": 50,
-                "h": 33.1055
+                "x": 0.2604,
+                "y": 33.4961,
+                "w": 49.8047,
+                "h": 31.9336
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7217,26 +7776,28 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene la boca un poco abierta.",
-                  "x": 76,
-                  "y": 49
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Jun tiene la palma abierta.",
+                  "x": 55,
+                  "y": 39,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Jun tiene la palma abierta.",
-                  "x": 63,
-                  "y": 49
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin tapa su dibujo con los brazos.",
+                  "x": 33,
+                  "y": 39,
+                  "type": "action"
                 }
               ],
               "panel": 3,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.2301,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.3089,
               "crop": {
                 "x": 50.5859,
-                "y": 31.543,
-                "w": 49.2188,
-                "h": 33.1055
+                "y": 33.4961,
+                "w": 49.1536,
+                "h": 31.9336
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7247,32 +7808,35 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Harin tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 28,
-                  "y": 46
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin muestra una estrella amarilla un poco torcida.",
+                  "x": 44,
+                  "y": 18,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Se ve una estrella un poco torcida en la mano de Harin.",
-                  "x": 35,
-                  "y": 47
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Jun ha bajado la cabeza.",
+                  "x": 65,
+                  "y": 49,
+                  "type": "action"
                 },
                 {
-                  "kind": "👂 Llave del oído",
-                  "message": "Harin dijo que borraba varias veces porque quería dibujar bien la estrella.",
-                  "x": 30,
-                  "y": 43
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Harin dice que borraba varias veces porque quería dibujar bien la estrella.",
+                  "x": 32,
+                  "y": 38,
+                  "type": "words"
                 }
               ],
               "panel": 4,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.1756,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.2368,
               "crop": {
-                "x": 0.1953,
-                "y": 65.2344,
-                "w": 50,
-                "h": 34.4727
+                "x": 0.2604,
+                "y": 66.2109,
+                "w": 49.8047,
+                "h": 33.3984
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7283,40 +7847,42 @@ window.heartBookLocales = {
               "viewpoint": "La maestra",
               "clues": [
                 {
-                  "kind": "👀 Llave de la mirada",
-                  "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 76,
-                  "y": 45
+                  "kind": "🔑 Llave del corazón",
+                  "message": "Están pegando estrellas diferentes en una hoja.",
+                  "x": 46,
+                  "y": 31,
+                  "type": "action"
                 },
                 {
-                  "kind": "🏃 Llave de las acciones",
-                  "message": "Están pegando juntos sus estrellas distintas en una hoja.",
-                  "x": 68,
-                  "y": 66
+                  "kind": "🔑 Llave del corazón",
+                  "message": "La maestra sostiene una estrella roja con las dos manos.",
+                  "x": 51,
+                  "y": 58,
+                  "type": "action"
                 }
               ],
               "panel": 5,
-              "atlas": "./images/stars-2-lens.png",
-              "aspect": 2.1416,
+              "atlas": "./images/stars-2-reverse-lens.png",
+              "aspect": 2.2076,
               "crop": {
                 "x": 50.5859,
-                "y": 65.2344,
-                "w": 49.2188,
-                "h": 34.4727
+                "y": 66.2109,
+                "w": 49.1536,
+                "h": 33.3984
               },
               "atlasRows": 3,
               "atlasCols": 2
             }
           ],
-          "atlas": "./images/stars-2-lens.png",
+          "atlas": "./images/stars-2-reverse-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.4459,
+          "aspect": 2.3112,
           "crop": {
-            "x": 0.1953,
-            "y": 0.293,
-            "w": 50,
-            "h": 30.6641
+            "x": 0.2604,
+            "y": 0.3906,
+            "w": 49.8047,
+            "h": 32.3242
           }
         }
       ],

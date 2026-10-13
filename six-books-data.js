@@ -35,16 +35,18 @@ const visualBooks = [
         "panel": 0,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 54
+            "y": 54,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 손에 빵 그림 쪽지가 있어요.",
             "x": 40,
-            "y": 62
+            "y": 62,
+            "type": "action"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -63,16 +65,18 @@ const visualBooks = [
         "panel": 1,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 입이 살짝 벌어져 있어요.",
             "x": 28,
-            "y": 49
+            "y": 49,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "빵집 주인의 손가락이 빵 하나를 가리켜요.",
             "x": 48,
-            "y": 59
+            "y": 59,
+            "type": "action"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -91,19 +95,28 @@ const visualBooks = [
         "panel": 2,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 고개가 아래로 향해 있어요.",
             "x": 28,
-            "y": 49
+            "y": 49,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
             "x": 23,
-            "y": 72
+            "y": 72,
+            "type": "action"
+          },
+          {
+            "kind": "🔑 마음 열쇠",
+            "message": "준호가 고개를 숙이고 자기 책을 내려다보고 있어요.",
+            "x": 80,
+            "y": 52,
+            "type": "action"
           }
         ],
-        "atlas": "./images/errand-view-0.png",
+        "atlas": "./images/errand-view-0-gaze.png",
         "aspect": "762/308",
         "crop": {
           "x": 0.1953,
@@ -119,16 +132,18 @@ const visualBooks = [
         "panel": 3,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 입이 살짝 벌어져 있어요.",
             "x": 38,
-            "y": 48
+            "y": 48,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "노란 책 밖으로 파란 별 책갈피가 나와 있어요.",
             "x": 62,
-            "y": 56
+            "y": 56,
+            "type": "action"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -147,22 +162,25 @@ const visualBooks = [
         "panel": 4,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 49
+            "y": 49,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 손에 빵 그림 쪽지가 있어요.",
             "x": 39,
-            "y": 62
+            "y": 62,
+            "type": "action"
           },
           {
-            "kind": "👂 귀 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준호의 말: 책갈피를 잃어버릴까 봐 걱정하고 있었대요.",
             "x": 82,
-            "y": 54
+            "y": 54,
+            "type": "words"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -181,16 +199,18 @@ const visualBooks = [
         "panel": 5,
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지우의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 48
+            "y": 48,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "빵집 주인의 손에서 빵 봉지가 건네지고 있어요.",
             "x": 45,
-            "y": 56
+            "y": 56,
+            "type": "action"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -219,16 +239,18 @@ const visualBooks = [
             "panel": 0,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
                 "x": 30,
-                "y": 54
+                "y": 54,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 손에 빵 그림 쪽지가 있어요.",
                 "x": 41,
-                "y": 61
+                "y": 61,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -249,16 +271,18 @@ const visualBooks = [
             "panel": 1,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
                 "x": 29,
-                "y": 50
+                "y": 50,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손가락이 빵 하나를 가리켜요.",
                 "x": 49,
-                "y": 58
+                "y": 58,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -279,19 +303,28 @@ const visualBooks = [
             "panel": 2,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 고개가 아래로 향해 있어요.",
                 "x": 23,
-                "y": 59
+                "y": 59,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
                 "x": 24,
-                "y": 73
+                "y": 73,
+                "type": "action"
+              },
+              {
+                "kind": "🔑 마음 열쇠",
+                "message": "준호가 고개를 숙이고 자기 책을 내려다보고 있어요.",
+                "x": 83,
+                "y": 54,
+                "type": "action"
               }
             ],
-            "atlas": "./images/errand-1-lens.png",
+            "atlas": "./images/errand-1-gaze-lens.png",
             "aspect": 2.4217,
             "crop": {
               "x": 0.1953,
@@ -309,16 +342,18 @@ const visualBooks = [
             "panel": 3,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
                 "x": 37,
-                "y": 48
+                "y": 48,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노란 책 밖으로 파란 별 책갈피가 나와 있어요.",
                 "x": 66,
-                "y": 55
+                "y": 55,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -339,22 +374,25 @@ const visualBooks = [
             "panel": 4,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
                 "x": 30,
-                "y": 49
+                "y": 49,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 손에 빵 그림 쪽지가 있어요.",
                 "x": 40,
-                "y": 61
+                "y": 61,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "준호의 말: 책갈피를 잃어버릴까 봐 걱정하고 있었대요.",
                 "x": 85,
-                "y": 64
+                "y": 64,
+                "type": "words"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -375,16 +413,18 @@ const visualBooks = [
             "panel": 5,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
                 "x": 30,
-                "y": 48
+                "y": 48,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손에서 빵 봉지가 건네지고 있어요.",
                 "x": 45,
-                "y": 52
+                "y": 52,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -422,16 +462,18 @@ const visualBooks = [
             "panel": 0,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
                 "x": 81,
-                "y": 46
+                "y": 46,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 손에 빵 그림 쪽지가 있어요.",
                 "x": 73,
-                "y": 59
+                "y": 59,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -452,16 +494,18 @@ const visualBooks = [
             "panel": 1,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
                 "x": 82,
-                "y": 44
+                "y": 44,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손가락이 빵 하나를 가리켜요.",
                 "x": 80,
-                "y": 73
+                "y": 73,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -482,19 +526,28 @@ const visualBooks = [
             "panel": 2,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 고개가 아래로 향해 있어요.",
                 "x": 80,
-                "y": 46
+                "y": 46,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
                 "x": 81,
-                "y": 73
+                "y": 73,
+                "type": "action"
+              },
+              {
+                "kind": "🔑 마음 열쇠",
+                "message": "준호가 고개를 숙이고 자기 책을 내려다보고 있어요.",
+                "x": 16,
+                "y": 44,
+                "type": "action"
               }
             ],
-            "atlas": "./images/errand-2-lens.png",
+            "atlas": "./images/errand-2-gaze-lens.png",
             "aspect": 2.5148,
             "crop": {
               "x": 0.1953,
@@ -512,16 +565,18 @@ const visualBooks = [
             "panel": 3,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
                 "x": 82,
-                "y": 46
+                "y": 46,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노란 책 밖으로 파란 별 책갈피가 나와 있어요.",
                 "x": 24,
-                "y": 67
+                "y": 67,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -542,22 +597,25 @@ const visualBooks = [
             "panel": 4,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
                 "x": 58,
-                "y": 50
+                "y": 50,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 손에 빵 그림 쪽지가 있어요.",
                 "x": 57,
-                "y": 65
+                "y": 65,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "준호의 말: 책갈피를 잃어버릴까 봐 걱정하고 있었대요.",
                 "x": 23,
-                "y": 50
+                "y": 50,
+                "type": "words"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -578,16 +636,18 @@ const visualBooks = [
             "panel": 5,
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
                 "x": 81,
-                "y": 44
+                "y": 44,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손에서 빵 봉지가 건네지고 있어요.",
                 "x": 61,
-                "y": 59
+                "y": 59,
+                "type": "action"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -631,16 +691,18 @@ const visualBooks = [
         "viewpoint": "민서",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 57
+            "y": 57,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서 앞에 파란 잔이 놓여 있어요.",
             "x": 36,
-            "y": 82
+            "y": 82,
+            "type": "action"
           }
         ],
         "panel": 0,
@@ -659,16 +721,18 @@ const visualBooks = [
         "viewpoint": "민서",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서의 입이 살짝 벌어져 있어요.",
-            "x": 30,
-            "y": 57
+            "x": 35,
+            "y": 60,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "파란 잔 옆면에 가느다란 금이 보여요.",
             "x": 47,
-            "y": 85
+            "y": 85,
+            "type": "action"
           }
         ],
         "panel": 1,
@@ -687,16 +751,18 @@ const visualBooks = [
         "viewpoint": "민서",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 내려가 있어요.",
             "x": 30,
-            "y": 57
+            "y": 57,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "유나의 손이 파란 잔 앞에서 멈춰 있어요.",
             "x": 52,
-            "y": 65
+            "y": 65,
+            "type": "action"
           }
         ],
         "panel": 2,
@@ -715,16 +781,18 @@ const visualBooks = [
         "viewpoint": "민서",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서의 고개가 아래로 향해 있어요.",
             "x": 30,
-            "y": 57
+            "y": 57,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "파란 잔 옆면에 가느다란 금이 보여요.",
             "x": 47,
-            "y": 81
+            "y": 81,
+            "type": "action"
           }
         ],
         "panel": 3,
@@ -743,22 +811,25 @@ const visualBooks = [
         "viewpoint": "민서",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 57
+            "y": 57,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "금이 없는 새 파란 잔을 가져왔어요.",
             "x": 60,
-            "y": 57
+            "y": 57,
+            "type": "action"
           },
           {
-            "kind": "👂 귀 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "유나의 말: 파란 잔이 깨질까 봐 걱정했대요.",
             "x": 70,
-            "y": 47
+            "y": 47,
+            "type": "words"
           }
         ],
         "panel": 4,
@@ -777,16 +848,18 @@ const visualBooks = [
         "viewpoint": "민서",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 57
+            "y": 57,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "민서 앞에 파란 잔이 놓여 있어요.",
             "x": 40,
-            "y": 73
+            "y": 73,
+            "type": "action"
           }
         ],
         "panel": 5,
@@ -826,16 +899,18 @@ const visualBooks = [
             "viewpoint": "유나",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
                 "x": 30,
-                "y": 55
+                "y": 55,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서 앞에 파란 잔이 놓여 있어요.",
                 "x": 40,
-                "y": 81
+                "y": 81,
+                "type": "action"
               }
             ],
             "panel": 0,
@@ -856,16 +931,18 @@ const visualBooks = [
             "viewpoint": "유나",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입이 살짝 벌어져 있어요.",
-                "x": 29,
-                "y": 55
+                "x": 36,
+                "y": 53,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
                 "x": 42,
-                "y": 80
+                "y": 80,
+                "type": "action"
               }
             ],
             "panel": 1,
@@ -886,16 +963,18 @@ const visualBooks = [
             "viewpoint": "유나",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 내려가 있어요.",
                 "x": 29,
-                "y": 59
+                "y": 59,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "유나의 손이 파란 잔 앞에서 멈춰 있어요.",
                 "x": 57,
-                "y": 66
+                "y": 66,
+                "type": "action"
               }
             ],
             "panel": 2,
@@ -916,16 +995,18 @@ const visualBooks = [
             "viewpoint": "유나",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 고개가 아래로 향해 있어요.",
                 "x": 31,
-                "y": 59
+                "y": 59,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
                 "x": 43,
-                "y": 81
+                "y": 81,
+                "type": "action"
               }
             ],
             "panel": 3,
@@ -946,22 +1027,25 @@ const visualBooks = [
             "viewpoint": "유나",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
                 "x": 30,
-                "y": 56
+                "y": 56,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "금이 없는 새 파란 잔을 가져왔어요.",
                 "x": 50,
-                "y": 61
+                "y": 61,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "유나의 말: 파란 잔이 깨질까 봐 걱정했대요.",
                 "x": 85,
-                "y": 62
+                "y": 62,
+                "type": "words"
               }
             ],
             "panel": 4,
@@ -982,16 +1066,18 @@ const visualBooks = [
             "viewpoint": "유나",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
                 "x": 29,
-                "y": 56
+                "y": 56,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "유나의 손바닥이 펴져 있어요.",
                 "x": 66,
-                "y": 42
+                "y": 42,
+                "type": "action"
               }
             ],
             "panel": 5,
@@ -1043,16 +1129,18 @@ const visualBooks = [
             "viewpoint": "파티를 준비한 어른",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
                 "x": 77,
-                "y": 40
+                "y": 40,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서 앞에 파란 잔이 놓여 있어요.",
                 "x": 74,
-                "y": 57
+                "y": 57,
+                "type": "action"
               }
             ],
             "panel": 0,
@@ -1073,16 +1161,18 @@ const visualBooks = [
             "viewpoint": "파티를 준비한 어른",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 내려가 있어요.",
                 "x": 74,
-                "y": 40
+                "y": 40,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
                 "x": 70,
-                "y": 61
+                "y": 61,
+                "type": "action"
               }
             ],
             "panel": 1,
@@ -1103,16 +1193,18 @@ const visualBooks = [
             "viewpoint": "파티를 준비한 어른",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 고개가 아래로 향해 있어요.",
                 "x": 79,
-                "y": 51
+                "y": 51,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 잔이 두 아이 사이에 놓여 있어요.",
                 "x": 75,
-                "y": 60
+                "y": 60,
+                "type": "action"
               }
             ],
             "panel": 2,
@@ -1133,16 +1225,18 @@ const visualBooks = [
             "viewpoint": "파티를 준비한 어른",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 내려가 있어요.",
                 "x": 81,
-                "y": 32
+                "y": 32,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
                 "x": 66,
-                "y": 50
+                "y": 50,
+                "type": "action"
               }
             ],
             "panel": 3,
@@ -1163,22 +1257,25 @@ const visualBooks = [
             "viewpoint": "파티를 준비한 어른",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "유나의 입꼬리가 올라갔어요.",
                 "x": 20,
-                "y": 35
+                "y": 35,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "금이 없는 새 파란 잔을 가져왔어요.",
                 "x": 73,
-                "y": 45
+                "y": 45,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "유나의 말: 파란 잔이 깨질까 봐 걱정했대요.",
                 "x": 20,
-                "y": 43
+                "y": 43,
+                "type": "words"
               }
             ],
             "panel": 4,
@@ -1195,20 +1292,22 @@ const visualBooks = [
           },
           {
             "title": "같은 순간, 달라진 마음",
-            "text": "두 아이가 새 잔을 들고 다시 웃었다. 멈추었던 이야기가 이어지니 나도 마음이 놓였다. 오늘의 파티에는 서로의 말을 들어 주는 시간도 생겼다. 아이들이 편하게 웃는 모습을 보니 준비하느라 바빴던 마음까지 따뜻해졌다.",
+            "text": "두 아이가 서로의 이야기를 듣고 다시 웃었다. 함께 웃는 모습을 보니 나도 마음이 놓였다. 파티를 준비하느라 바빴던 마음까지 따뜻해졌다.",
             "viewpoint": "파티를 준비한 어른",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
                 "x": 78,
-                "y": 43
+                "y": 43,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "민서 앞에 파란 잔이 놓여 있어요.",
                 "x": 74,
-                "y": 57
+                "y": 57,
+                "type": "action"
               }
             ],
             "panel": 5,
@@ -1288,16 +1387,18 @@ const visualBooks = [
         "viewpoint": "소피아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소피아의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 48
+            "x": 42,
+            "y": 62,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "두 사람 사이에 빵 한 조각이 남아 있어요.",
             "x": 55,
-            "y": 83
+            "y": 83,
+            "type": "action"
           }
         ],
         "panel": 0,
@@ -1316,16 +1417,18 @@ const visualBooks = [
         "viewpoint": "소피아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "노아의 고개가 아래로 향해 있어요.",
             "x": 73,
-            "y": 48
+            "y": 48,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "노아의 손이 접시를 상대 쪽으로 밀어요.",
             "x": 58,
-            "y": 85
+            "y": 85,
+            "type": "action"
           }
         ],
         "panel": 1,
@@ -1344,16 +1447,18 @@ const visualBooks = [
         "viewpoint": "소피아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소피아의 두 손이 가까이 모여 있어요.",
             "x": 30,
-            "y": 68
+            "y": 68,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "노아의 한 손이 가슴에 닿아 있어요.",
             "x": 73,
-            "y": 69
+            "y": 69,
+            "type": "action"
           }
         ],
         "panel": 2,
@@ -1372,16 +1477,18 @@ const visualBooks = [
         "viewpoint": "소피아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "노아의 입이 살짝 벌어져 있어요.",
-            "x": 73,
-            "y": 44
+            "x": 79,
+            "y": 59,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소피아의 손바닥이 펴져 있어요.",
-            "x": 34,
-            "y": 71
+            "x": 50,
+            "y": 63,
+            "type": "action"
           }
         ],
         "panel": 3,
@@ -1400,22 +1507,25 @@ const visualBooks = [
         "viewpoint": "소피아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소피아의 입꼬리가 올라갔어요.",
-            "x": 28,
-            "y": 47
+            "x": 40,
+            "y": 54,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소피아의 손가락이 상대를 가리켜요.",
             "x": 47,
-            "y": 71
+            "y": 71,
+            "type": "action"
           },
           {
-            "kind": "👂 귀 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "두 아이의 말: 서로 배가 고플까 봐 빵을 남겨 두었대요.",
             "x": 32,
-            "y": 54
+            "y": 54,
+            "type": "words"
           }
         ],
         "panel": 4,
@@ -1434,16 +1544,18 @@ const visualBooks = [
         "viewpoint": "소피아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소피아의 입꼬리가 올라갔어요.",
-            "x": 28,
-            "y": 47
+            "x": 38,
+            "y": 58,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "나눈 빵을 각자의 손에 들고 있어요.",
             "x": 36,
-            "y": 60
+            "y": 60,
+            "type": "action"
           }
         ],
         "panel": 5,
@@ -1483,16 +1595,18 @@ const visualBooks = [
             "viewpoint": "노아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 34,
-                "y": 44
+                "x": 40,
+                "y": 50,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "두 사람 사이에 빵 한 조각이 남아 있어요.",
                 "x": 48,
-                "y": 79
+                "y": 79,
+                "type": "action"
               }
             ],
             "panel": 0,
@@ -1513,16 +1627,18 @@ const visualBooks = [
             "viewpoint": "노아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입이 살짝 벌어져 있어요.",
                 "x": 35,
-                "y": 43
+                "y": 43,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 손이 접시를 상대 쪽으로 밀어요.",
                 "x": 53,
-                "y": 81
+                "y": 81,
+                "type": "action"
               }
             ],
             "panel": 1,
@@ -1543,16 +1659,18 @@ const visualBooks = [
             "viewpoint": "노아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입이 살짝 벌어져 있어요.",
                 "x": 33,
-                "y": 46
+                "y": 46,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 두 손이 가까이 모여 있어요.",
                 "x": 35,
-                "y": 65
+                "y": 65,
+                "type": "action"
               }
             ],
             "panel": 2,
@@ -1573,16 +1691,18 @@ const visualBooks = [
             "viewpoint": "노아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 35,
-                "y": 44
+                "kind": "🔑 마음 열쇠",
+                "message": "소피아의 입이 살짝 벌어져 있어요.",
+                "x": 37,
+                "y": 50,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 손바닥이 펴져 있어요.",
                 "x": 48,
-                "y": 65
+                "y": 65,
+                "type": "action"
               }
             ],
             "panel": 3,
@@ -1603,22 +1723,25 @@ const visualBooks = [
             "viewpoint": "노아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 35,
-                "y": 45
+                "x": 40,
+                "y": 53,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 손가락이 상대를 가리켜요.",
                 "x": 57,
-                "y": 47
+                "y": 47,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "두 아이의 말: 서로 배가 고플까 봐 빵을 남겨 두었대요.",
                 "x": 37,
-                "y": 55
+                "y": 55,
+                "type": "words"
               }
             ],
             "panel": 4,
@@ -1639,16 +1762,18 @@ const visualBooks = [
             "viewpoint": "노아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 34,
-                "y": 44
+                "x": 36,
+                "y": 47,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "나눈 빵을 각자의 손에 들고 있어요.",
                 "x": 36,
-                "y": 58
+                "y": 58,
+                "type": "action"
               }
             ],
             "panel": 5,
@@ -1700,16 +1825,18 @@ const visualBooks = [
             "viewpoint": "식당 주인",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 입꼬리가 올라갔어요.",
                 "x": 23,
-                "y": 47
+                "y": 47,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "두 사람 사이에 빵 한 조각이 남아 있어요.",
                 "x": 61,
-                "y": 46
+                "y": 46,
+                "type": "action"
               }
             ],
             "panel": 0,
@@ -1730,16 +1857,18 @@ const visualBooks = [
             "viewpoint": "식당 주인",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 고개가 아래로 향해 있어요.",
                 "x": 23,
-                "y": 45
+                "y": 45,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 손바닥이 펴져 있어요.",
                 "x": 71,
-                "y": 46
+                "y": 46,
+                "type": "action"
               }
             ],
             "panel": 1,
@@ -1760,16 +1889,18 @@ const visualBooks = [
             "viewpoint": "식당 주인",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 고개가 아래로 향해 있어요.",
                 "x": 23,
-                "y": 45
+                "y": 45,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 한 손이 가슴에 닿아 있어요.",
                 "x": 22,
-                "y": 61
+                "y": 61,
+                "type": "action"
               }
             ],
             "panel": 2,
@@ -1790,16 +1921,18 @@ const visualBooks = [
             "viewpoint": "식당 주인",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "노아의 입이 살짝 벌어져 있어요.",
                 "x": 23,
-                "y": 45
+                "y": 45,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 손바닥이 펴져 있어요.",
                 "x": 68,
-                "y": 44
+                "y": 44,
+                "type": "action"
               }
             ],
             "panel": 3,
@@ -1816,26 +1949,29 @@ const visualBooks = [
           },
           {
             "title": "새로 보이는 마음",
-            "text": "두 아이 모두 상대가 배고플까 봐 빵을 남겼다고 했다. 서로를 챙기고 있었지만, 말을 하지 않아 그 마음을 몰랐던 것이다. 아이들 이야기를 듣고 나니 나도 마음이 따뜻해졌다.",
+            "text": "두 아이는 친구가 배고플까 봐 빵을 남겨 두고 있었다. 이야기를 나누고 나서야 서로를 생각하고 있었다는 걸 알게 되었다. 아이들 이야기를 듣고 나니 나도 마음이 따뜻해졌다.",
             "viewpoint": "식당 주인",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 77,
-                "y": 45
+                "x": 70,
+                "y": 50,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 손가락이 노아를 가리켜요.",
                 "x": 67,
-                "y": 44
+                "y": 44,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "두 아이의 말: 서로 배가 고플까 봐 빵을 남겨 두었대요.",
                 "x": 77,
-                "y": 53
+                "y": 53,
+                "type": "words"
               }
             ],
             "panel": 4,
@@ -1856,16 +1992,18 @@ const visualBooks = [
             "viewpoint": "식당 주인",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 77,
-                "y": 45
+                "x": 75,
+                "y": 40,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "나눈 빵을 각자의 손에 들고 있어요.",
                 "x": 71,
-                "y": 48
+                "y": 48,
+                "type": "action"
               }
             ],
             "panel": 5,
@@ -1945,16 +2083,18 @@ const visualBooks = [
         "viewpoint": "소라",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 44
+            "y": 44,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 손에 노란 종이 별이 있어요.",
             "x": 29,
-            "y": 66
+            "y": 66,
+            "type": "action"
           }
         ],
         "panel": 0,
@@ -1973,16 +2113,18 @@ const visualBooks = [
         "viewpoint": "소라",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 눈이 동그랗게 커졌어요. 흰자도 보여요.",
             "x": 32,
-            "y": 45
+            "y": 45,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "등 뒤로 숨긴 노란 별 끝이 보여요.",
             "x": 17,
-            "y": 70
+            "y": 70,
+            "type": "action"
           }
         ],
         "panel": 1,
@@ -1996,16 +2138,18 @@ const visualBooks = [
         "viewpoint": "소라",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 고개가 아래로 향해 있어요.",
             "x": 27,
-            "y": 50
+            "y": 50,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "등 뒤로 숨긴 노란 별 끝이 보여요.",
             "x": 17,
-            "y": 70
+            "y": 70,
+            "type": "action"
           }
         ],
         "panel": 2,
@@ -2024,16 +2168,18 @@ const visualBooks = [
         "viewpoint": "소라",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 얼굴이 상대 쪽으로 돌아가 있어요.",
             "x": 35,
-            "y": 50
+            "y": 50,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "엄마의 손바닥이 펴져 있어요.",
             "x": 45,
-            "y": 60
+            "y": 60,
+            "type": "action"
           }
         ],
         "panel": 3,
@@ -2052,22 +2198,25 @@ const visualBooks = [
         "viewpoint": "소라",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 입꼬리가 올라갔어요.",
             "x": 32,
-            "y": 42
+            "y": 42,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 손이 노란 별을 앞으로 보여 주어요.",
             "x": 35,
-            "y": 49
+            "y": 49,
+            "type": "action"
           },
           {
-            "kind": "👂 귀 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 말: 수아에게 줄 별을 아직 다 만들지 못했대요.",
             "x": 33,
-            "y": 42
+            "y": 42,
+            "type": "words"
           }
         ],
         "panel": 4,
@@ -2086,16 +2235,18 @@ const visualBooks = [
         "viewpoint": "소라",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "소라의 입꼬리가 올라갔어요.",
             "x": 32,
-            "y": 43
+            "y": 43,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "함께 손을 모아 노란 별을 마무리하고 있어요.",
             "x": 55,
-            "y": 58
+            "y": 58,
+            "type": "action"
           }
         ],
         "panel": 5,
@@ -2135,28 +2286,37 @@ const visualBooks = [
             "viewpoint": "엄마",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "소라의 고개가 아래로 향해 있어요.",
-                "x": 30,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "소라가 고개를 내리고 있어요.",
+                "x": 75,
+                "y": 41,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 손에 노란 종이 별이 있어요.",
-                "x": 35,
-                "y": 69
+                "x": 77,
+                "y": 53,
+                "type": "action"
+              },
+              {
+                "kind": "🔑 마음 열쇠",
+                "message": "엄마가 문 옆에 서서 파란 문을 잡고 있어요.",
+                "x": 6,
+                "y": 44,
+                "type": "action"
               }
             ],
             "panel": 0,
-            "atlas": "./images/door-1-lens.png",
-            "aspect": 2.3024,
-            "atlasRows": 3,
-            "atlasCols": 2,
+            "atlas": "./images/door-mom-arrival1-lens.png",
+            "aspect": 1.5,
+            "atlasRows": 1,
+            "atlasCols": 1,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 50.0651,
-              "h": 32.6172
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "h": 100
             }
           },
           {
@@ -2165,28 +2325,37 @@ const visualBooks = [
             "viewpoint": "엄마",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 30,
-                "y": 45
+                "x": 71,
+                "y": 36,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "등 뒤로 숨긴 노란 별 끝이 보여요.",
-                "x": 17,
-                "y": 68
+                "kind": "🔑 마음 열쇠",
+                "message": "소라의 등 뒤로 노란 별 끝이 보여요.",
+                "x": 80,
+                "y": 47,
+                "type": "action"
+              },
+              {
+                "kind": "🔑 마음 열쇠",
+                "message": "엄마가 문 옆에 서서 파란 문을 잡고 있어요.",
+                "x": 4,
+                "y": 35,
+                "type": "action"
               }
             ],
-            "panel": 1,
-            "atlas": "./images/door-1-lens.png",
-            "aspect": 2.2605,
-            "atlasRows": 3,
-            "atlasCols": 2,
+            "panel": 0,
+            "atlas": "./images/door-mom-arrival2-lens.png",
+            "aspect": 1.5,
+            "atlasRows": 1,
+            "atlasCols": 1,
             "crop": {
-              "x": 50.651,
-              "y": 0.293,
-              "w": 49.1536,
-              "h": 32.6172
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "h": 100
             }
           },
           {
@@ -2195,16 +2364,18 @@ const visualBooks = [
             "viewpoint": "엄마",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 고개가 아래로 향해 있어요.",
                 "x": 25,
-                "y": 47
+                "y": 47,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "등 뒤로 숨긴 노란 별 끝이 보여요.",
                 "x": 20,
-                "y": 61
+                "y": 61,
+                "type": "action"
               }
             ],
             "panel": 2,
@@ -2225,16 +2396,18 @@ const visualBooks = [
             "viewpoint": "엄마",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
                 "x": 31,
-                "y": 49
+                "y": 49,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "엄마의 손바닥이 펴져 있어요.",
                 "x": 39,
-                "y": 61
+                "y": 61,
+                "type": "action"
               }
             ],
             "panel": 3,
@@ -2255,22 +2428,25 @@ const visualBooks = [
             "viewpoint": "엄마",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
                 "x": 32,
-                "y": 37
+                "y": 37,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 손이 노란 별을 앞으로 보여 주어요.",
                 "x": 44,
-                "y": 51
+                "y": 51,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 말: 수아에게 줄 별을 아직 다 만들지 못했대요.",
                 "x": 34,
-                "y": 42
+                "y": 42,
+                "type": "words"
               }
             ],
             "panel": 4,
@@ -2291,16 +2467,18 @@ const visualBooks = [
             "viewpoint": "엄마",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
                 "x": 75,
-                "y": 33
+                "y": 33,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라가 별을 만드는 쪽으로 손을 뻗고 있어요.",
                 "x": 68,
-                "y": 55
+                "y": 55,
+                "type": "action"
               }
             ],
             "panel": 5,
@@ -2316,15 +2494,15 @@ const visualBooks = [
             "atlasCols": 2
           }
         ],
-        "atlas": "./images/door-1-lens.png",
-        "atlasRows": 3,
-        "atlasCols": 2,
-        "aspect": 2.3024,
+        "atlas": "./images/door-mom-arrival1-lens.png",
+        "atlasRows": 1,
+        "atlasCols": 1,
+        "aspect": 1.5,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 50.0651,
-          "h": 32.6172
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100
         }
       },
       {
@@ -2348,33 +2526,42 @@ const visualBooks = [
         "scenes": [
           {
             "title": "마음이 머물던 자리",
-            "text": "소라 집에 놀러 가는 길이 즐거웠어요. 함께 무엇을 할지 궁금했어요.",
+            "text": "소라 집 앞에 도착했어요. 엄마가 문을 열어 주셨어요. 소라는 안에서 노란 별을 만들고 있었어요. 함께 무엇을 할지 궁금했어요.",
             "viewpoint": "수아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "소라의 고개가 아래로 향해 있어요.",
-                "x": 54,
-                "y": 49
+                "kind": "🔑 마음 열쇠",
+                "message": "소라가 고개를 내리고 있어요.",
+                "x": 61,
+                "y": 48,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 손에 노란 종이 별이 있어요.",
-                "x": 53,
-                "y": 57
+                "x": 61,
+                "y": 56,
+                "type": "action"
+              },
+              {
+                "kind": "🔑 마음 열쇠",
+                "message": "엄마가 문 옆에 서서 파란 문을 잡고 있어요.",
+                "x": 6,
+                "y": 47,
+                "type": "action"
               }
             ],
             "panel": 0,
-            "atlas": "./images/door-2-lens.png",
-            "aspect": 2.3242,
+            "atlas": "./images/door-sua-arrival1-lens.png",
+            "aspect": 1.5,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.4792,
-              "h": 31.9336
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "h": 100
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 1,
+            "atlasCols": 1
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -2382,29 +2569,38 @@ const visualBooks = [
             "viewpoint": "수아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 54,
-                "y": 46
+                "x": 63,
+                "y": 48,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "소라가 문 쪽으로 몸을 돌렸어요.",
-                "x": 52,
-                "y": 58
+                "kind": "🔑 마음 열쇠",
+                "message": "소라의 등 뒤로 노란 별 끝이 보여요.",
+                "x": 53,
+                "y": 59,
+                "type": "action"
+              },
+              {
+                "kind": "🔑 마음 열쇠",
+                "message": "엄마가 문 옆에 서서 파란 문을 잡고 있어요.",
+                "x": 6,
+                "y": 31,
+                "type": "action"
               }
             ],
-            "panel": 1,
-            "atlas": "./images/door-2-lens.png",
-            "aspect": 2.3364,
+            "panel": 0,
+            "atlas": "./images/door-sua-arrival2-lens.png",
+            "aspect": 1.5,
             "crop": {
-              "x": 50.0651,
-              "y": 0.293,
-              "w": 49.7396,
-              "h": 31.9336
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "h": 100
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 1,
+            "atlasCols": 1
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -2412,16 +2608,18 @@ const visualBooks = [
             "viewpoint": "수아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 고개가 아래로 향해 있어요.",
                 "x": 57,
-                "y": 49
+                "y": 49,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "엄마의 몸이 아이의 눈높이로 낮아졌어요.",
                 "x": 30,
-                "y": 65
+                "y": 65,
+                "type": "action"
               }
             ],
             "panel": 2,
@@ -2442,16 +2640,18 @@ const visualBooks = [
             "viewpoint": "수아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
                 "x": 57,
-                "y": 47
+                "y": 47,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "엄마의 손바닥이 펴져 있어요.",
                 "x": 37,
-                "y": 57
+                "y": 57,
+                "type": "action"
               }
             ],
             "panel": 3,
@@ -2472,22 +2672,25 @@ const visualBooks = [
             "viewpoint": "수아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
                 "x": 62,
-                "y": 31
+                "y": 31,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 손이 노란 별을 앞으로 보여 주어요.",
                 "x": 53,
-                "y": 50
+                "y": 50,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 말: 수아에게 줄 별을 아직 다 만들지 못했대요.",
                 "x": 62,
-                "y": 38
+                "y": 38,
+                "type": "words"
               }
             ],
             "panel": 4,
@@ -2508,16 +2711,18 @@ const visualBooks = [
             "viewpoint": "수아",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
                 "x": 46,
-                "y": 34
+                "y": 34,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "함께 손을 모아 노란 별을 마무리하고 있어요.",
                 "x": 54,
-                "y": 56
+                "y": 56,
+                "type": "action"
               }
             ],
             "panel": 5,
@@ -2533,15 +2738,15 @@ const visualBooks = [
             }
           }
         ],
-        "atlas": "./images/door-2-lens.png",
-        "atlasRows": 3,
-        "atlasCols": 2,
-        "aspect": 2.3242,
+        "atlas": "./images/door-sua-arrival1-lens.png",
+        "atlasRows": 1,
+        "atlasCols": 1,
+        "aspect": 1.5,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 49.4792,
-          "h": 31.9336
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100
         }
       }
     ],
@@ -2597,16 +2802,18 @@ const visualBooks = [
         "viewpoint": "지아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 올라갔어요.",
             "x": 31,
-            "y": 44
+            "y": 44,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
             "x": 65,
-            "y": 50
+            "y": 50,
+            "type": "action"
           }
         ],
         "panel": 0,
@@ -2625,16 +2832,18 @@ const visualBooks = [
         "viewpoint": "지아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지아의 눈이 동그랗게 커졌어요. 흰자도 보여요.",
             "x": 28,
-            "y": 39
+            "y": 39,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
             "x": 69,
-            "y": 52
+            "y": 52,
+            "type": "action"
           }
         ],
         "panel": 1,
@@ -2648,16 +2857,18 @@ const visualBooks = [
         "viewpoint": "지아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 내려가 있어요.",
             "x": 31,
-            "y": 49
+            "y": 49,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
             "x": 86,
-            "y": 84
+            "y": 84,
+            "type": "action"
           }
         ],
         "panel": 2,
@@ -2676,22 +2887,25 @@ const visualBooks = [
         "viewpoint": "지아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지아의 얼굴이 상대 쪽으로 돌아가 있어요.",
             "x": 31,
-            "y": 46
+            "y": 46,
+            "type": "action"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
             "x": 52,
-            "y": 87
+            "y": 87,
+            "type": "action"
           },
           {
-            "kind": "👂 귀 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "루카의 말: 강아지가 처음 온 곳이라 조금 기다려 주고 싶대요.",
             "x": 72,
-            "y": 47
+            "y": 47,
+            "type": "words"
           }
         ],
         "panel": 3,
@@ -2710,16 +2924,18 @@ const visualBooks = [
         "viewpoint": "지아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 올라갔어요.",
             "x": 31,
-            "y": 49
+            "y": 49,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "노란 공을 풀밭에 내려놓았어요.",
             "x": 72,
-            "y": 76
+            "y": 76,
+            "type": "action"
           }
         ],
         "panel": 4,
@@ -2738,16 +2954,18 @@ const visualBooks = [
         "viewpoint": "지아",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 올라갔어요.",
             "x": 31,
-            "y": 45
+            "y": 45,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "두 강아지의 코가 같은 공을 향해 있어요.",
             "x": 53,
-            "y": 84
+            "y": 84,
+            "type": "action"
           }
         ],
         "panel": 5,
@@ -2787,26 +3005,28 @@ const visualBooks = [
             "viewpoint": "루카",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 입꼬리가 올라갔어요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 올라가 있어요.",
                 "x": 29,
-                "y": 43
+                "y": 47,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
-                "x": 83,
-                "y": 70
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "x": 84,
+                "y": 71,
+                "type": "action"
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-1-lens.png",
-            "aspect": 2.3042,
+            "atlas": "./images/ball-1-close-lens.png",
+            "aspect": 2.29,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.8047,
-              "h": 32.4219
+              "x": 0.2604,
+              "y": 0.3906,
+              "w": 49.349,
+              "h": 32.3242
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -2817,28 +3037,30 @@ const visualBooks = [
             "viewpoint": "루카",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 눈이 동그랗게 커졌어요. 흰자도 보여요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 눈이 동그랗게 커졌어요.",
                 "x": 29,
-                "y": 43
+                "y": 42,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
                 "x": 84,
-                "y": 72
+                "y": 72,
+                "type": "action"
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-1-lens.png",
-            "aspect": 2.2861,
+            "atlas": "./images/ball-1-fixed-close-lens.png",
+            "aspect": 2.2991,
             "atlasRows": 3,
             "atlasCols": 2,
             "crop": {
-              "x": 50.3906,
-              "y": 0.293,
-              "w": 49.4141,
-              "h": 32.4219
+              "x": 50.1953,
+              "y": 0.3906,
+              "w": 49.5443,
+              "h": 32.3242
             }
           },
           {
@@ -2847,26 +3069,28 @@ const visualBooks = [
             "viewpoint": "루카",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 내려가 있어요.",
                 "x": 29,
-                "y": 47
+                "y": 47,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-                "x": 60,
-                "y": 83
+                "x": 63,
+                "y": 87,
+                "type": "action"
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-1-lens.png",
-            "aspect": 2.4132,
+            "atlas": "./images/ball-1-close-lens.png",
+            "aspect": 2.2493,
             "crop": {
-              "x": 0.1953,
-              "y": 33.3008,
-              "w": 49.8047,
-              "h": 30.957
+              "x": 0.2604,
+              "y": 33.4961,
+              "w": 49.349,
+              "h": 32.9102
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -2877,32 +3101,35 @@ const visualBooks = [
             "viewpoint": "루카",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 얼굴이 상대 쪽으로 돌아가 있어요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "지아가 고개를 내리고 있어요.",
                 "x": 29,
-                "y": 44
+                "y": 47,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-                "x": 57,
-                "y": 88
+                "x": 63,
+                "y": 87,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "루카의 말: 강아지가 처음 온 곳이라 조금 기다려 주고 싶대요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 “강아지는 여기가 처음이라 조금 기다려 주고 싶어”라고 말해요.",
                 "x": 85,
-                "y": 69
+                "y": 57,
+                "type": "words"
               }
             ],
             "panel": 3,
-            "atlas": "./images/ball-1-lens.png",
-            "aspect": 2.3943,
+            "atlas": "./images/ball-1-close-lens.png",
+            "aspect": 2.2611,
             "crop": {
-              "x": 50.3906,
-              "y": 33.3008,
-              "w": 49.4141,
-              "h": 30.957
+              "x": 50.1302,
+              "y": 33.4961,
+              "w": 49.6094,
+              "h": 32.9102
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -2913,26 +3140,28 @@ const visualBooks = [
             "viewpoint": "루카",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 입꼬리가 올라갔어요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 올라가 있어요.",
                 "x": 29,
-                "y": 45
+                "y": 47,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "노란 공을 풀밭에 내려놓았어요.",
-                "x": 59,
-                "y": 81
+                "kind": "🔑 마음 열쇠",
+                "message": "노란 공이 두 강아지 앞의 풀밭에 놓였어요.",
+                "x": 60,
+                "y": 86,
+                "type": "action"
               }
             ],
             "panel": 4,
-            "atlas": "./images/ball-1-lens.png",
-            "aspect": 2.1429,
+            "atlas": "./images/ball-1-close-lens.png",
+            "aspect": 2.2831,
             "crop": {
-              "x": 0.1953,
-              "y": 64.8438,
-              "w": 49.8047,
-              "h": 34.8633
+              "x": 0.2604,
+              "y": 67.1875,
+              "w": 49.349,
+              "h": 32.4219
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -2943,40 +3172,42 @@ const visualBooks = [
             "viewpoint": "루카",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 입꼬리가 올라갔어요.",
-                "x": 29,
-                "y": 46
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 올라가 있어요.",
+                "x": 33,
+                "y": 46,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "두 강아지의 코가 같은 공을 향해 있어요.",
                 "x": 54,
-                "y": 85
+                "y": 86,
+                "type": "action"
               }
             ],
             "panel": 5,
-            "atlas": "./images/ball-1-lens.png",
-            "aspect": 2.1261,
+            "atlas": "./images/ball-1-fixed-close-lens.png",
+            "aspect": 2.2922,
             "crop": {
-              "x": 50.3906,
-              "y": 64.8438,
-              "w": 49.4141,
-              "h": 34.8633
+              "x": 50.1953,
+              "y": 67.1875,
+              "w": 49.5443,
+              "h": 32.4219
             },
             "atlasRows": 3,
             "atlasCols": 2
           }
         ],
-        "atlas": "./images/ball-1-lens.png",
+        "atlas": "./images/ball-1-close-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": 2.3042,
+        "aspect": 2.29,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 49.8047,
-          "h": 32.4219
+          "x": 0.2604,
+          "y": 0.3906,
+          "w": 49.349,
+          "h": 32.3242
         }
       },
       {
@@ -3004,29 +3235,31 @@ const visualBooks = [
             "viewpoint": "안내자",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 입꼬리가 올라갔어요.",
-                "x": 46,
-                "y": 43
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 올라가 있어요.",
+                "x": 45,
+                "y": 40,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
-                "x": 73,
-                "y": 55
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "x": 70,
+                "y": 50,
+                "type": "action"
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-2-lens.png",
-            "aspect": 2.303,
+            "atlas": "./images/ball-2-close-lens.png",
+            "aspect": 1.0632,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 49.4792,
-              "h": 32.2266
+              "x": 0.2604,
+              "y": 0.3906,
+              "w": 32.8776,
+              "h": 46.3867
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 2,
+            "atlasCols": 3
           },
           {
             "title": "잠깐, 무슨 뜻일까?",
@@ -3034,29 +3267,31 @@ const visualBooks = [
             "viewpoint": "안내자",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 눈이 동그랗게 커졌어요. 흰자도 보여요.",
-                "x": 47,
-                "y": 48
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 눈이 동그랗게 커졌어요.",
+                "x": 46,
+                "y": 42,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
-                "x": 81,
-                "y": 57
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "x": 75,
+                "y": 54,
+                "type": "action"
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-2-lens.png",
-            "aspect": 2.3152,
+            "atlas": "./images/ball-2-close-lens.png",
+            "aspect": 1.0653,
             "crop": {
-              "x": 50.0651,
-              "y": 0.293,
-              "w": 49.7396,
-              "h": 32.2266
+              "x": 33.6589,
+              "y": 0.3906,
+              "w": 32.9427,
+              "h": 46.3867
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 2,
+            "atlasCols": 3
           },
           {
             "title": "내가 처음 짐작한 마음",
@@ -3064,29 +3299,31 @@ const visualBooks = [
             "viewpoint": "안내자",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 고개가 공 쪽으로 내려가 있어요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 내려가 있어요.",
                 "x": 46,
-                "y": 46
+                "y": 44,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
-                "x": 81,
-                "y": 57
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "x": 77,
+                "y": 52,
+                "type": "action"
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-2-lens.png",
-            "aspect": 2.3385,
+            "atlas": "./images/ball-2-close-lens.png",
+            "aspect": 1.0547,
             "crop": {
-              "x": 0.1953,
-              "y": 33.1055,
-              "w": 49.4792,
-              "h": 31.7383
+              "x": 67.1224,
+              "y": 0.3906,
+              "w": 32.6172,
+              "h": 46.3867
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 2,
+            "atlasCols": 3
           },
           {
             "title": "조금 더 가까이 보기",
@@ -3094,35 +3331,38 @@ const visualBooks = [
             "viewpoint": "안내자",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "루카의 입꼬리가 올라갔어요.",
-                "x": 26,
-                "y": 46
+                "kind": "🔑 마음 열쇠",
+                "message": "루카의 입이 살짝 벌어져 있어요.",
+                "x": 29,
+                "y": 32,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "루카의 손바닥이 펴져 있어요.",
-                "x": 36,
-                "y": 59
+                "x": 51,
+                "y": 43,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "루카의 말: 강아지가 처음 온 곳이라 조금 기다려 주고 싶대요.",
-                "x": 26,
-                "y": 48
+                "kind": "🔑 마음 열쇠",
+                "message": "루카가 “강아지는 여기가 처음이라 조금 기다려 주고 싶어”라고 말해요.",
+                "x": 30,
+                "y": 36,
+                "type": "words"
               }
             ],
             "panel": 3,
-            "atlas": "./images/ball-2-lens.png",
-            "aspect": 2.3508,
+            "atlas": "./images/ball-2-close-lens.png",
+            "aspect": 0.9475,
             "crop": {
-              "x": 50.0651,
-              "y": 33.1055,
-              "w": 49.7396,
-              "h": 31.7383
+              "x": 0.2604,
+              "y": 47.5586,
+              "w": 32.8776,
+              "h": 52.0508
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 2,
+            "atlasCols": 3
           },
           {
             "title": "새로 보이는 마음",
@@ -3130,70 +3370,74 @@ const visualBooks = [
             "viewpoint": "안내자",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 입꼬리가 올라갔어요.",
-                "x": 46,
-                "y": 45
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 올라가 있어요.",
+                "x": 80,
+                "y": 30,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "노란 공을 풀밭에 내려놓았어요.",
-                "x": 71,
-                "y": 85
+                "kind": "🔑 마음 열쇠",
+                "message": "노란 공이 두 강아지 앞의 풀밭에 놓였어요.",
+                "x": 44,
+                "y": 58,
+                "type": "action"
               }
             ],
             "panel": 4,
-            "atlas": "./images/ball-2-lens.png",
-            "aspect": 2.1652,
+            "atlas": "./images/ball-2-close-lens.png",
+            "aspect": 0.9493,
             "crop": {
-              "x": 0.1953,
-              "y": 65.4297,
-              "w": 49.4792,
-              "h": 34.2773
+              "x": 33.6589,
+              "y": 47.5586,
+              "w": 32.9427,
+              "h": 52.0508
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 2,
+            "atlasCols": 3
           },
           {
             "title": "같은 순간, 달라진 마음",
-            "text": "두 강아지가 공 냄새를 나란히 맡았다. 아이들도 서로를 보며 웃었다. 오늘은 빨리 시작하는 것보다 서로의 속도를 알아보는 시간이 좋았다.",
+            "text": "두 강아지가 공 냄새를 나란히 맡았다. 지아는 빨리 공놀이를 하고 싶었고, 루카는 강아지가 놀이터에 익숙해질 때까지 기다려 주고 싶었다. 두 아이의 이야기를 듣고 나니, 루카가 공을 던지지 않았던 이유를 알 수 있었다. 함께 웃는 아이들을 보며 나도 웃었다.",
             "viewpoint": "안내자",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "지아의 입꼬리가 올라갔어요.",
-                "x": 83,
-                "y": 43
+                "kind": "🔑 마음 열쇠",
+                "message": "지아의 입꼬리가 올라가 있어요.",
+                "x": 81,
+                "y": 29,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "두 강아지의 코가 같은 공을 향해 있어요.",
-                "x": 57,
-                "y": 87
+                "x": 53,
+                "y": 61,
+                "type": "action"
               }
             ],
             "panel": 5,
-            "atlas": "./images/ball-2-lens.png",
-            "aspect": 2.1766,
+            "atlas": "./images/ball-2-close-lens.png",
+            "aspect": 0.94,
             "crop": {
-              "x": 50.0651,
-              "y": 65.4297,
-              "w": 49.7396,
-              "h": 34.2773
+              "x": 67.1224,
+              "y": 47.5586,
+              "w": 32.6172,
+              "h": 52.0508
             },
-            "atlasRows": 3,
-            "atlasCols": 2
+            "atlasRows": 2,
+            "atlasCols": 3
           }
         ],
-        "atlas": "./images/ball-2-lens.png",
-        "atlasRows": 3,
-        "atlasCols": 2,
-        "aspect": 2.303,
+        "atlas": "./images/ball-2-close-lens.png",
+        "atlasRows": 2,
+        "atlasCols": 3,
+        "aspect": 1.0632,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 49.4792,
-          "h": 32.2266
+          "x": 0.2604,
+          "y": 0.3906,
+          "w": 32.8776,
+          "h": 46.3867
         }
       }
     ],
@@ -3249,16 +3493,18 @@ const visualBooks = [
         "viewpoint": "준",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 올라갔어요.",
             "x": 30,
-            "y": 45
+            "y": 45,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "서로 다른 색의 종이 별을 들고 있어요.",
             "x": 36,
-            "y": 62
+            "y": 62,
+            "type": "action"
           }
         ],
         "panel": 0,
@@ -3277,16 +3523,18 @@ const visualBooks = [
         "viewpoint": "준",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준의 입이 살짝 벌어져 있어요.",
             "x": 30,
-            "y": 48
+            "y": 48,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "종이 옆에 지우개와 작은 부스러기가 있어요.",
             "x": 81,
-            "y": 81
+            "y": 81,
+            "type": "action"
           }
         ],
         "panel": 1,
@@ -3305,16 +3553,18 @@ const visualBooks = [
         "viewpoint": "준",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 내려가 있어요.",
             "x": 28,
-            "y": 53
+            "y": 53,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "팔 아래로 그림을 가리고 있어요.",
             "x": 69,
-            "y": 70
+            "y": 70,
+            "type": "action"
           }
         ],
         "panel": 2,
@@ -3333,16 +3583,18 @@ const visualBooks = [
         "viewpoint": "준",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준의 입이 살짝 벌어져 있어요.",
             "x": 27,
-            "y": 48
+            "y": 48,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준의 손바닥이 펴져 있어요.",
             "x": 36,
-            "y": 65
+            "y": 65,
+            "type": "action"
           }
         ],
         "panel": 3,
@@ -3361,22 +3613,25 @@ const visualBooks = [
         "viewpoint": "준",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "하린의 입꼬리가 올라갔어요.",
             "x": 70,
-            "y": 47
+            "y": 47,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "하린의 손에 조금 삐뚤어진 별이 보여요.",
             "x": 64,
-            "y": 47
+            "y": 47,
+            "type": "action"
           },
           {
-            "kind": "👂 귀 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "하린의 말: 별을 잘 그리고 싶어서 자꾸 지웠대요.",
             "x": 70,
-            "y": 44
+            "y": 44,
+            "type": "words"
           }
         ],
         "panel": 4,
@@ -3395,16 +3650,18 @@ const visualBooks = [
         "viewpoint": "준",
         "clues": [
           {
-            "kind": "👀 눈 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 올라갔어요.",
             "x": 28,
-            "y": 49
+            "y": 49,
+            "type": "expression"
           },
           {
-            "kind": "🏃 행동 열쇠",
+            "kind": "🔑 마음 열쇠",
             "message": "서로 다른 별을 한 종이에 함께 붙이고 있어요.",
             "x": 55,
-            "y": 63
+            "y": 63,
+            "type": "action"
           }
         ],
         "panel": 5,
@@ -3444,26 +3701,28 @@ const visualBooks = [
             "viewpoint": "하린",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입꼬리가 올라갔어요.",
-                "x": 29,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "준의 입꼬리가 올라가 있어요.",
+                "x": 32,
+                "y": 52,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "서로 다른 색의 종이 별을 들고 있어요.",
-                "x": 79,
-                "y": 74
+                "kind": "🔑 마음 열쇠",
+                "message": "두 아이가 서로 다른 색의 별을 들고 있어요.",
+                "x": 73,
+                "y": 64,
+                "type": "action"
               }
             ],
             "panel": 0,
-            "atlas": "./images/stars-1-lens.png",
-            "aspect": 2.2523,
+            "atlas": "./images/stars-1-close-lens.png",
+            "aspect": 2.307,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 48.8281,
-              "h": 32.5195
+              "x": 0.2604,
+              "y": 0.3906,
+              "w": 49.4141,
+              "h": 32.1289
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3474,26 +3733,28 @@ const visualBooks = [
             "viewpoint": "하린",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "준의 입이 살짝 벌어져 있어요.",
-                "x": 29,
-                "y": 49
+                "x": 35,
+                "y": 53,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "종이 옆에 지우개와 작은 부스러기가 있어요.",
-                "x": 74,
-                "y": 83
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 지우개로 그림을 지우고 있어요. 종이 옆에 부스러기도 보여요.",
+                "x": 75,
+                "y": 77,
+                "type": "action"
               }
             ],
             "panel": 1,
-            "atlas": "./images/stars-1-lens.png",
-            "aspect": 2.3243,
+            "atlas": "./images/stars-1-close-lens.png",
+            "aspect": 2.3131,
             "crop": {
-              "x": 49.4141,
-              "y": 0.293,
-              "w": 50.3906,
-              "h": 32.5195
+              "x": 50.1953,
+              "y": 0.3906,
+              "w": 49.5443,
+              "h": 32.1289
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3504,26 +3765,28 @@ const visualBooks = [
             "viewpoint": "하린",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "준의 입꼬리가 내려가 있어요.",
-                "x": 29,
-                "y": 49
+                "x": 33,
+                "y": 62,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "팔 아래로 그림을 가리고 있어요.",
-                "x": 76,
-                "y": 72
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 팔로 자기 그림을 가리고 있어요.",
+                "x": 80,
+                "y": 68,
+                "type": "action"
               }
             ],
             "panel": 2,
-            "atlas": "./images/stars-1-lens.png",
-            "aspect": 2.2388,
+            "atlas": "./images/stars-1-close-lens.png",
+            "aspect": 2.314,
             "crop": {
-              "x": 0.1953,
-              "y": 33.3984,
-              "w": 48.8281,
-              "h": 32.7148
+              "x": 0.2604,
+              "y": 33.3008,
+              "w": 49.4141,
+              "h": 32.0313
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3534,26 +3797,28 @@ const visualBooks = [
             "viewpoint": "하린",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "준의 입이 살짝 벌어져 있어요.",
-                "x": 29,
-                "y": 46
+                "x": 33,
+                "y": 52,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
+                "kind": "🔑 마음 열쇠",
                 "message": "준의 손바닥이 펴져 있어요.",
-                "x": 45,
-                "y": 64
+                "x": 42,
+                "y": 64,
+                "type": "action"
               }
             ],
             "panel": 3,
-            "atlas": "./images/stars-1-lens.png",
-            "aspect": 2.3104,
+            "atlas": "./images/stars-1-close-lens.png",
+            "aspect": 2.3201,
             "crop": {
-              "x": 49.4141,
-              "y": 33.3984,
-              "w": 50.3906,
-              "h": 32.7148
+              "x": 50.1953,
+              "y": 33.3008,
+              "w": 49.5443,
+              "h": 32.0313
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3564,32 +3829,35 @@ const visualBooks = [
             "viewpoint": "하린",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입꼬리가 올라갔어요.",
-                "x": 29,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "준의 입꼬리가 올라가 있어요.",
+                "x": 33,
+                "y": 52,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "하린의 손에 조금 삐뚤어진 별이 보여요.",
-                "x": 66,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 조금 삐뚤어진 노란 별을 들어 보여요.",
+                "x": 65,
+                "y": 51,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "하린의 말: 별을 잘 그리고 싶어서 자꾸 지웠대요.",
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 별을 잘 그리고 싶어서 자꾸 지웠다고 말해요.",
                 "x": 85,
-                "y": 55
+                "y": 58,
+                "type": "words"
               }
             ],
             "panel": 4,
-            "atlas": "./images/stars-1-lens.png",
-            "aspect": 2.2189,
+            "atlas": "./images/stars-1-close-lens.png",
+            "aspect": 2.2128,
             "crop": {
-              "x": 0.1953,
-              "y": 66.6992,
-              "w": 48.8281,
-              "h": 33.0078
+              "x": 0.2604,
+              "y": 66.1133,
+              "w": 49.4141,
+              "h": 33.4961
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3600,40 +3868,42 @@ const visualBooks = [
             "viewpoint": "하린",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입꼬리가 올라갔어요.",
-                "x": 29,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "준의 입꼬리가 올라가 있어요.",
+                "x": 32,
+                "y": 53,
+                "type": "expression"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "서로 다른 별을 한 종이에 함께 붙이고 있어요.",
-                "x": 61,
-                "y": 61
+                "kind": "🔑 마음 열쇠",
+                "message": "서로 다른 별을 한 종이에 붙이고 있어요.",
+                "x": 62,
+                "y": 72,
+                "type": "action"
               }
             ],
             "panel": 5,
-            "atlas": "./images/stars-1-lens.png",
-            "aspect": 2.2899,
+            "atlas": "./images/stars-1-close-lens.png",
+            "aspect": 2.2187,
             "crop": {
-              "x": 49.4141,
-              "y": 66.6992,
-              "w": 50.3906,
-              "h": 33.0078
+              "x": 50.1953,
+              "y": 66.1133,
+              "w": 49.5443,
+              "h": 33.4961
             },
             "atlasRows": 3,
             "atlasCols": 2
           }
         ],
-        "atlas": "./images/stars-1-lens.png",
+        "atlas": "./images/stars-1-close-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": 2.2523,
+        "aspect": 2.307,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 48.8281,
-          "h": 32.5195
+          "x": 0.2604,
+          "y": 0.3906,
+          "w": 49.4141,
+          "h": 32.1289
         }
       },
       {
@@ -3661,26 +3931,28 @@ const visualBooks = [
             "viewpoint": "선생님",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입꼬리가 올라갔어요.",
-                "x": 76,
-                "y": 44
+                "kind": "🔑 마음 열쇠",
+                "message": "두 아이가 서로 다른 색의 별을 들고 있어요.",
+                "x": 43,
+                "y": 36,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "서로 다른 색의 종이 별을 들고 있어요.",
-                "x": 28,
-                "y": 62
+                "kind": "🔑 마음 열쇠",
+                "message": "두 아이가 서로 다른 색의 별을 들고 있어요.",
+                "x": 55,
+                "y": 36,
+                "type": "action"
               }
             ],
             "panel": 0,
-            "atlas": "./images/stars-2-lens.png",
-            "aspect": 2.4459,
+            "atlas": "./images/stars-2-reverse-lens.png",
+            "aspect": 2.3112,
             "crop": {
-              "x": 0.1953,
-              "y": 0.293,
-              "w": 50,
-              "h": 30.6641
+              "x": 0.2604,
+              "y": 0.3906,
+              "w": 49.8047,
+              "h": 32.3242
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3691,26 +3963,28 @@ const visualBooks = [
             "viewpoint": "선생님",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입이 살짝 벌어져 있어요.",
-                "x": 76,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 지우개로 그림을 지우고 있어요. 종이 옆에 부스러기도 보여요.",
+                "x": 44,
+                "y": 40,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "종이 옆에 지우개와 작은 부스러기가 있어요.",
-                "x": 33,
-                "y": 81
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 고개를 내리고 있어요.",
+                "x": 32,
+                "y": 35,
+                "type": "action"
               }
             ],
             "panel": 1,
-            "atlas": "./images/stars-2-lens.png",
-            "aspect": 2.4076,
+            "atlas": "./images/stars-2-reverse-lens.png",
+            "aspect": 2.281,
             "crop": {
               "x": 50.5859,
-              "y": 0.293,
-              "w": 49.2188,
-              "h": 30.6641
+              "y": 0.3906,
+              "w": 49.1536,
+              "h": 32.3242
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3721,26 +3995,28 @@ const visualBooks = [
             "viewpoint": "선생님",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입꼬리가 내려가 있어요.",
-                "x": 76,
-                "y": 48
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 팔로 자기 그림을 가리고 있어요.",
+                "x": 33,
+                "y": 39,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "팔 아래로 그림을 가리고 있어요.",
-                "x": 29,
-                "y": 62
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 고개를 내리고 있어요.",
+                "x": 33,
+                "y": 28,
+                "type": "action"
               }
             ],
             "panel": 2,
-            "atlas": "./images/stars-2-lens.png",
-            "aspect": 2.2655,
+            "atlas": "./images/stars-2-reverse-lens.png",
+            "aspect": 2.3394,
             "crop": {
-              "x": 0.1953,
-              "y": 31.543,
-              "w": 50,
-              "h": 33.1055
+              "x": 0.2604,
+              "y": 33.4961,
+              "w": 49.8047,
+              "h": 31.9336
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3751,26 +4027,28 @@ const visualBooks = [
             "viewpoint": "선생님",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입이 살짝 벌어져 있어요.",
-                "x": 76,
-                "y": 49
+                "kind": "🔑 마음 열쇠",
+                "message": "준의 손바닥이 펴져 있어요.",
+                "x": 55,
+                "y": 39,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "준의 손바닥이 펴져 있어요.",
-                "x": 63,
-                "y": 49
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 팔로 자기 그림을 가리고 있어요.",
+                "x": 33,
+                "y": 39,
+                "type": "action"
               }
             ],
             "panel": 3,
-            "atlas": "./images/stars-2-lens.png",
-            "aspect": 2.2301,
+            "atlas": "./images/stars-2-reverse-lens.png",
+            "aspect": 2.3089,
             "crop": {
               "x": 50.5859,
-              "y": 31.543,
-              "w": 49.2188,
-              "h": 33.1055
+              "y": 33.4961,
+              "w": 49.1536,
+              "h": 31.9336
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3781,32 +4059,35 @@ const visualBooks = [
             "viewpoint": "선생님",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "하린의 입꼬리가 올라갔어요.",
-                "x": 28,
-                "y": 46
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 조금 삐뚤어진 노란 별을 들어 보여요.",
+                "x": 44,
+                "y": 18,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "하린의 손에 조금 삐뚤어진 별이 보여요.",
-                "x": 35,
-                "y": 47
+                "kind": "🔑 마음 열쇠",
+                "message": "준이 고개를 내리고 있어요.",
+                "x": 65,
+                "y": 49,
+                "type": "action"
               },
               {
-                "kind": "👂 귀 열쇠",
-                "message": "하린의 말: 별을 잘 그리고 싶어서 자꾸 지웠대요.",
-                "x": 30,
-                "y": 43
+                "kind": "🔑 마음 열쇠",
+                "message": "하린이 별을 잘 그리고 싶어서 자꾸 지웠다고 말해요.",
+                "x": 32,
+                "y": 38,
+                "type": "words"
               }
             ],
             "panel": 4,
-            "atlas": "./images/stars-2-lens.png",
-            "aspect": 2.1756,
+            "atlas": "./images/stars-2-reverse-lens.png",
+            "aspect": 2.2368,
             "crop": {
-              "x": 0.1953,
-              "y": 65.2344,
-              "w": 50,
-              "h": 34.4727
+              "x": 0.2604,
+              "y": 66.2109,
+              "w": 49.8047,
+              "h": 33.3984
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -3817,40 +4098,42 @@ const visualBooks = [
             "viewpoint": "선생님",
             "clues": [
               {
-                "kind": "👀 눈 열쇠",
-                "message": "준의 입꼬리가 올라갔어요.",
-                "x": 76,
-                "y": 45
+                "kind": "🔑 마음 열쇠",
+                "message": "서로 다른 별을 한 종이에 붙이고 있어요.",
+                "x": 46,
+                "y": 31,
+                "type": "action"
               },
               {
-                "kind": "🏃 행동 열쇠",
-                "message": "서로 다른 별을 한 종이에 함께 붙이고 있어요.",
-                "x": 68,
-                "y": 66
+                "kind": "🔑 마음 열쇠",
+                "message": "선생님의 두 손에 빨간 별이 있어요.",
+                "x": 51,
+                "y": 58,
+                "type": "action"
               }
             ],
             "panel": 5,
-            "atlas": "./images/stars-2-lens.png",
-            "aspect": 2.1416,
+            "atlas": "./images/stars-2-reverse-lens.png",
+            "aspect": 2.2076,
             "crop": {
               "x": 50.5859,
-              "y": 65.2344,
-              "w": 49.2188,
-              "h": 34.4727
+              "y": 66.2109,
+              "w": 49.1536,
+              "h": 33.3984
             },
             "atlasRows": 3,
             "atlasCols": 2
           }
         ],
-        "atlas": "./images/stars-2-lens.png",
+        "atlas": "./images/stars-2-reverse-lens.png",
         "atlasRows": 3,
         "atlasCols": 2,
-        "aspect": 2.4459,
+        "aspect": 2.3112,
         "crop": {
-          "x": 0.1953,
-          "y": 0.293,
-          "w": 50,
-          "h": 30.6641
+          "x": 0.2604,
+          "y": 0.3906,
+          "w": 49.8047,
+          "h": 32.3242
         }
       }
     ],
