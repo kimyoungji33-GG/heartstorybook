@@ -17,10 +17,13 @@
 
 .frog-reading #frog-activity strong,.frog-reading #frog-activity-tab{word-break:keep-all;overflow-wrap:normal;line-height:1.55}.frog-reading .experience-tabs{flex-wrap:wrap}
 
-.same-day-entry .gate-art{background-image:url("./together-reading.png?v=20261013-cozy41")}
+.same-day-entry .gate-art{background-image:url("./together-reading-approved.png")}
 
 .shelf-everyone{text-align:center;color:#68715f;font-size:17px;margin:23px auto 0;line-height:1.8}
 
 .coming-soon-shelf{margin:2rem auto;padding:4rem 1.5rem;text-align:center;max-width:48rem;border:1px solid #dedbcf;border-radius:18px;background:#f5f3e9;color:#4e5a50}.coming-soon-shelf h2{font-family:var(--heading-font,"Hi Melody"),cursive;font-size:2rem;font-weight:400}.coming-soon-shelf p{line-height:1.8}
 
 .entry{max-width:1240px}.entry .gate-art{width:100%;height:auto;aspect-ratio:3/2;background-size:contain;margin:20px auto 18px}.same-day-entry>.text-button{display:block;margin:0 0 22px;text-align:left}@media(max-width:700px){.entry .gate-art{height:auto;aspect-ratio:3/2;margin-top:14px}}
+
+/* Approved entry illustrations */
+.entry:not(.same-day-entry) .gate-art{background-image:url("./library-family-approved.png")}
