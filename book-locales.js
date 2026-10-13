@@ -1490,7 +1490,7 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "A moment to share",
-              "text": "The two children chose their mugs and sat together. I hoped they would enjoy sharing their stories.",
+              "text": "The two children chose their mugs and sat side by side at the birthday party. I hoped they could enjoy talking together. While preparing the cake, I looked their way and found myself smiling.",
               "viewpoint": "The party host",
               "clues": [
                 {
@@ -1518,7 +1518,7 @@ window.heartBookLocales = {
             },
             {
               "title": "What does that mean?",
-              "text": "One child kept looking at a mug. I wanted to come closer and see what had caught her eye.",
+              "text": "Yuna kept looking at the blue mug. I wondered whether something at the party made her uncomfortable. I went closer, wondering if I had missed something.",
               "viewpoint": "The party host",
               "clues": [
                 {
@@ -1546,7 +1546,7 @@ window.heartBookLocales = {
             },
             {
               "title": "What I first imagined",
-              "text": "Minseo turned his face away and Yuna stopped her hand. Silence did not necessarily mean they were thinking the same thing.",
+              "text": "Minseo closed his lips, and Yuna’s hand stopped in front of the mug. I had hoped they would have fun, so their quiet faces made me worry, too. I wanted to say something quickly, but first I looked at what had caught their attention.",
               "viewpoint": "The party host",
               "clues": [
                 {
@@ -1574,7 +1574,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Looking a little closer",
-              "text": "I saw a crack where Yuna pointed. I decided to change the mug so they could drink safely.",
+              "text": "There was a thin crack where Yuna pointed. My heart gave a little jump at the thought of their hands getting hurt. I brought a new mug calmly so I would not frighten them. Once I had replaced it, I waited to hear what they wanted to say.",
               "viewpoint": "The party host",
               "clues": [
                 {
@@ -1602,7 +1602,7 @@ window.heartBookLocales = {
             },
             {
               "title": "A feeling I had not seen",
-              "text": "When I brought a new mug, the children told each other what they had first thought. I listened instead of explaining their feelings for them.",
+              "text": "Minseo said he had thought Yuna did not like his story, while Yuna said she was worried the mug might break. They had looked at the same mug with different feelings. As they talked for themselves, my worry eased a little.",
               "viewpoint": "The party host",
               "clues": [
                 {
@@ -1636,7 +1636,7 @@ window.heartBookLocales = {
             },
             {
               "title": "The same moment, a new feeling",
-              "text": "The two children looked at each other and smiled again. While we changed the mug, they also shared feelings they had not spoken about.",
+              "text": "The children smiled again with their new mugs. I felt relieved when their conversation began again. The party now had room for listening to each other, too. Seeing them smile so comfortably warmed the heart that had been busy with preparations.",
               "viewpoint": "The party host",
               "clues": [
                 {
@@ -7006,7 +7006,7 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "Un momento para compartir",
-              "text": "Los dos niños eligieron sus tazas y se sentaron juntos. Esperaba que disfrutaran compartiendo sus historias.",
+              "text": "Los dos niños eligieron sus tazas y se sentaron uno al lado del otro en la fiesta de cumpleaños. Deseaba que pudieran conversar a gusto. Mientras preparaba la tarta, los miré y sonreí sin darme cuenta.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {
@@ -7034,7 +7034,7 @@ window.heartBookLocales = {
             },
             {
               "title": "¿Qué significa eso?",
-              "text": "La niña miraba una taza durante mucho tiempo. Quería acercarme y ver qué le había llamado la atención.",
+              "text": "Yuna miraba la taza azul durante un buen rato. Me pregunté si algo de la fiesta la hacía sentirse incómoda. Me acerqué por si había pasado algo por alto.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {
@@ -7062,7 +7062,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Lo que imaginé al principio",
-              "text": "Minseo apartó la cara y Yuna detuvo la mano. Que guardaran silencio no significaba que pensaran lo mismo.",
+              "text": "Minseo cerró los labios y la mano de Yuna se detuvo frente a la taza. Quería que lo pasaran bien, y sus caras silenciosas también me preocuparon. Deseaba decir algo enseguida, pero primero miré qué había llamado su atención.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {
@@ -7090,7 +7090,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Mirar un poco más de cerca",
-              "text": "Vi una grieta donde Yuna señaló. Decidí cambiar la taza para que pudieran beber sin peligro.",
+              "text": "Había una grieta fina donde señalaba Yuna. Sentí un pequeño sobresalto al pensar que podían hacerse daño en las manos. Traje una taza nueva con calma para no asustarlos. Después de cambiarla, esperé a escuchar sus palabras.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {
@@ -7118,7 +7118,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Un sentimiento que no había visto",
-              "text": "Cuando llevé una taza nueva, los niños se contaron lo que habían pensado al principio. Escuché en vez de explicar sus sentimientos por ellos.",
+              "text": "Minseo dijo que había pensado que a Yuna no le gustaba su historia, y Yuna explicó que temía que la taza se rompiera. Habían mirado la misma taza con sentimientos distintos. Al escucharlos conversar por sí mismos, mi preocupación se alivió un poco.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {
@@ -7152,7 +7152,7 @@ window.heartBookLocales = {
             },
             {
               "title": "El mismo momento, un nuevo sentir",
-              "text": "Los dos niños se miraron y volvieron a sonreír. Mientras cambiábamos la taza, también compartieron sentimientos de los que no habían hablado.",
+              "text": "Los niños volvieron a sonreír con sus tazas nuevas. Sentí alivio al ver que retomaban su conversación. En la fiesta también había lugar para escucharse. Sus sonrisas tranquilas dieron calidez a mi corazón, que había estado ocupado con los preparativos.",
               "viewpoint": "La anfitriona",
               "clues": [
                 {

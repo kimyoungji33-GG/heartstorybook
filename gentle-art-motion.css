@@ -1,0 +1,12 @@
+.sound-illustration.gently-listening{position:relative;overflow:hidden;isolation:isolate;animation:listening-breathe 22s ease-in-out infinite;transform-origin:center}
+.sound-tree-drift{position:absolute;inset:0;background:inherit;clip-path:ellipse(19% 14% at 36% 14%);animation:listening-trees 12s ease-in-out infinite;transform-origin:36% 24%;pointer-events:none}
+.sound-soft-light{position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 40%,#fff1d014 63%,transparent 84%);animation:listening-light 18s ease-in-out infinite}
+.sound-motion-control{display:block;margin:-12px auto 22px;background:transparent;border:0;color:#78806c;font-family:'Hi Melody','Nunito','Malgun Gothic',sans-serif;font-size:19px;padding:6px 12px}
+.gently-listening.motion-paused,.gently-listening.motion-paused span{animation-play-state:paused}
+@keyframes listening-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.012)}}
+@keyframes listening-trees{0%,100%{transform:translateX(-1px) rotate(-.12deg)}50%{transform:translateX(1px) rotate(.12deg)}}
+@keyframes listening-light{0%,100%{opacity:.25}50%{opacity:.65}}
+.entrance-leaf-shadow{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 2% 4% at 74% 12%,#6d80570d 90%,transparent),radial-gradient(ellipse 3% 2% at 83% 18%,#6d80570d 90%,transparent),radial-gradient(ellipse 2% 3% at 80% 26%,#6d805708 90%,transparent);animation:entrance-leaves 18s ease-in-out infinite;mix-blend-mode:multiply}
+@keyframes entrance-leaves{0%,100%{transform:translateX(-4px);opacity:.35}50%{transform:translateX(5px);opacity:.65}}
+.motion-paused .entrance-leaf-shadow{animation-play-state:paused}
+@media(prefers-reduced-motion:reduce){.gently-listening,.sound-tree-drift,.sound-soft-light,.entrance-leaf-shadow{animation:none!important}}
