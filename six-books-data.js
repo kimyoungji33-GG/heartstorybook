@@ -904,15 +904,16 @@ const visualBooks = [
         ],
         "panel": 4,
         "atlas": "./images/cups-clean-cups-view-lens.png",
-        "aspect": 2.2507,
+        "aspect": 2.2562874251497007,
         "crop": {
-          "x": 0.1953,
-          "y": 66.6016,
-          "w": 49.6745,
-          "h": 33.1055
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100
         },
         "atlasCols": 2,
-        "atlasRows": 3
+        "atlasRows": 3,
+        "image": "./images/cups-scene5-intact57.png"
       },
       {
         "title": "같은 순간, 달라진 마음",
@@ -1607,11 +1608,11 @@ const visualBooks = [
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "노아의 입이 살짝 벌어져 있어요.",
+            "message": "노아가 웃고 있어요.",
             "x": 77.1,
             "y": 53.5,
-            "type": "words",
-            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "type": "expression",
+            "reflection": "이 웃음을 보니 어떤 마음이 떠오르나요?",
             "labelPosition": "below"
           }
         ],

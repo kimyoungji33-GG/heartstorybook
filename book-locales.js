@@ -904,15 +904,16 @@ window.heartBookLocales = {
           ],
           "panel": 4,
           "atlas": "./images/cups-clean-cups-view-lens.png",
-          "aspect": 2.2507,
+          "aspect": 2.2562874251497007,
           "crop": {
-            "x": 0.1953,
-            "y": 66.6016,
-            "w": 49.6745,
-            "h": 33.1055
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           },
           "atlasCols": 2,
-          "atlasRows": 3
+          "atlasRows": 3,
+          "image": "./images/cups-scene5-intact57.png"
         },
         {
           "title": "The same moment, a new feeling",
@@ -1563,11 +1564,11 @@ window.heartBookLocales = {
             },
             {
               "kind": "🔑 Heart key",
-              "message": "Noah has a slightly open mouth.",
+              "message": "Noah is smiling.",
               "x": 77.1,
               "y": 53.5,
-              "type": "words",
-              "reflection": "What might this person want to say?",
+              "type": "expression",
+              "reflection": "What feelings come to mind when you see this smile?",
               "labelPosition": "below"
             }
           ],
@@ -5107,15 +5108,16 @@ window.heartBookLocales = {
           ],
           "panel": 4,
           "atlas": "./images/cups-clean-cups-view-lens.png",
-          "aspect": 2.2507,
+          "aspect": 2.2562874251497007,
           "crop": {
-            "x": 0.1953,
-            "y": 66.6016,
-            "w": 49.6745,
-            "h": 33.1055
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           },
           "atlasCols": 2,
-          "atlasRows": 3
+          "atlasRows": 3,
+          "image": "./images/cups-scene5-intact57.png"
         },
         {
           "title": "El mismo momento, un nuevo sentir",
@@ -5766,11 +5768,11 @@ window.heartBookLocales = {
             },
             {
               "kind": "🔑 Llave del corazón",
-              "message": "Noah tiene la boca un poco abierta.",
+              "message": "Noah está sonriendo.",
               "x": 77.1,
               "y": 53.5,
-              "type": "words",
-              "reflection": "¿Qué querrá decir ahora?",
+              "type": "expression",
+              "reflection": "¿Qué sentimientos te vienen a la mente al ver esta sonrisa?",
               "labelPosition": "below"
             }
           ],
