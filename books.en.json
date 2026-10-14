@@ -505,24 +505,24 @@
             "title": "Which bread should I choose?",
             "text": "I pointed to a loaf to show which one was soft. Jiwoo grew quiet, so I waited. I wondered whether my gesture had seemed like a hurry to choose. I wanted to ask if there was anything she would like to know.",
             "viewpoint": "The baker",
-            "panel": 1,
+            "panel": 0,
             "clues": [
               {
                 "kind": "🔑 Heart key",
                 "message": "Jiwoo has a slightly open mouth.",
-                "x": 82,
-                "y": 44,
+                "x": 76.8,
+                "y": 45,
                 "type": "expression",
                 "reflection": "What might this person want to say?"
               }
             ],
-            "atlas": "./images/errand-2-lens.png",
-            "aspect": 2.2939,
+            "atlas": "./images/errand-owner-scene2-mouth53-lens.png",
+            "aspect": "1900/828",
             "crop": {
-              "x": 50.5208,
-              "y": 0.293,
-              "w": 49.2839,
-              "h": 32.2266
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "h": 100
             },
             "atlasRows": 3,
             "atlasCols": 2
@@ -628,8 +628,8 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Junho has upturned mouth corners.",
-                "x": 16,
-                "y": 25,
+                "x": 15.3,
+                "y": 24.5,
                 "type": "words",
                 "reflection": "What might have made this person happy?"
               }
@@ -734,8 +734,8 @@
           {
             "kind": "🔑 Heart key",
             "message": "Minseo has a slightly open mouth.",
-            "x": 35,
-            "y": 60,
+            "x": 31.8,
+            "y": 62,
             "type": "expression",
             "reflection": "What might this person want to say?"
           },
@@ -748,14 +748,14 @@
             "reflection": "Could the friend be checking whether the cup might break?"
           }
         ],
-        "panel": 1,
-        "atlas": "./images/cups-view-0.png",
-        "aspect": "760/335",
+        "panel": 0,
+        "atlas": "./images/cups-scene2-mouth53.png",
+        "aspect": "1888/832",
         "crop": {
-          "x": 50.3255,
-          "y": 0.293,
-          "w": 49.4792,
-          "h": 32.7148
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100
         }
       },
       {
@@ -838,8 +838,8 @@
           {
             "kind": "🔑 Heart key",
             "message": "A new blue cup without a crack has been brought over.",
-            "x": 60,
-            "y": 57,
+            "x": 58.3,
+            "y": 53,
             "type": "action",
             "reflection": "Could this be a way to help the children drink comfortably?"
           },
@@ -929,8 +929,8 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Minseo has a slightly open mouth.",
-                "x": 36,
-                "y": 53,
+                "x": 35.4,
+                "y": 52.1,
                 "type": "expression",
                 "reflection": "What might this person want to say?"
               },
@@ -2699,7 +2699,7 @@
           }
         ],
         "panel": 0,
-        "atlas": "./images/ball-view-0.png",
+        "atlas": "./images/ball-view-0-beagle53.png",
         "aspect": "762/336",
         "crop": {
           "x": 0.1953,
@@ -2731,9 +2731,9 @@
           }
         ],
         "panel": 1,
-        "atlas": "./images/ball-view-0.png",
+        "atlas": "./images/ball-view-0-beagle53.png",
         "aspect": 2,
-        "image": "./images/ball-gia-surprise.png"
+        "image": "./images/ball-gia-surprise-beagle53.png"
       },
       {
         "title": "What I first imagined",
@@ -2758,7 +2758,7 @@
           }
         ],
         "panel": 2,
-        "atlas": "./images/ball-view-0.png",
+        "atlas": "./images/ball-view-0-beagle53.png",
         "aspect": "762/316",
         "crop": {
           "x": 0.1953,
@@ -2798,7 +2798,7 @@
           }
         ],
         "panel": 3,
-        "atlas": "./images/ball-view-0.png",
+        "atlas": "./images/ball-view-0-beagle53.png",
         "aspect": "762/316",
         "crop": {
           "x": 50.1953,
@@ -2816,7 +2816,7 @@
             "kind": "🔑 Heart key",
             "message": "Gia has a smile with upturned mouth corners.",
             "x": 31,
-            "y": 49,
+            "y": 33.6,
             "type": "expression",
             "reflection": "What might have made this person happy?"
           },
@@ -2830,7 +2830,7 @@
           }
         ],
         "panel": 4,
-        "atlas": "./images/ball-view-0.png",
+        "atlas": "./images/ball-view-0-beagle53.png",
         "aspect": "762/354",
         "crop": {
           "x": 0.1953,
@@ -2862,7 +2862,7 @@
           }
         ],
         "panel": 5,
-        "atlas": "./images/ball-view-0.png",
+        "atlas": "./images/ball-view-0-beagle53.png",
         "aspect": "762/354",
         "crop": {
           "x": 50.1953,
@@ -2901,7 +2901,7 @@
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-1-close-lens.png",
+            "atlas": "./images/ball-luca-beagle53-lens.png",
             "aspect": 2.29,
             "crop": {
               "x": 0.2604,
@@ -2935,7 +2935,7 @@
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-1-fixed-close-lens.png",
+            "atlas": "./images/ball-luca-fixed-beagle53-lens.png",
             "aspect": 2.2991,
             "atlasRows": 3,
             "atlasCols": 2,
@@ -2969,7 +2969,7 @@
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-1-close-lens.png",
+            "atlas": "./images/ball-luca-beagle53-lens.png",
             "aspect": 2.2493,
             "crop": {
               "x": 0.2604,
@@ -3003,7 +3003,7 @@
               }
             ],
             "panel": 3,
-            "atlas": "./images/ball-1-close-lens.png",
+            "atlas": "./images/ball-luca-beagle53-lens.png",
             "aspect": 2.2611,
             "crop": {
               "x": 50.1302,
@@ -3037,7 +3037,7 @@
               }
             ],
             "panel": 4,
-            "atlas": "./images/ball-1-close-lens.png",
+            "atlas": "./images/ball-luca-beagle53-lens.png",
             "aspect": 2.2831,
             "crop": {
               "x": 0.2604,
@@ -3071,7 +3071,7 @@
               }
             ],
             "panel": 5,
-            "atlas": "./images/ball-1-fixed-close-lens.png",
+            "atlas": "./images/ball-luca-fixed-beagle53-lens.png",
             "aspect": 2.2922,
             "crop": {
               "x": 50.1953,
@@ -3122,7 +3122,7 @@
               }
             ],
             "panel": 0,
-            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "atlas": "./images/ball-guide-beagle53-lens.png",
             "aspect": 2.2671,
             "crop": {
               "x": 0,
@@ -3156,7 +3156,7 @@
               }
             ],
             "panel": 1,
-            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "atlas": "./images/ball-guide-beagle53-lens.png",
             "aspect": 2.2671,
             "crop": {
               "x": 50.2604,
@@ -3190,7 +3190,7 @@
               }
             ],
             "panel": 2,
-            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "atlas": "./images/ball-guide-beagle53-lens.png",
             "aspect": 2.2874,
             "crop": {
               "x": 0,
@@ -3224,7 +3224,7 @@
               }
             ],
             "panel": 3,
-            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "atlas": "./images/ball-guide-beagle53-lens.png",
             "aspect": 2.2874,
             "crop": {
               "x": 50.2604,
@@ -3243,8 +3243,8 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has upturned mouth corners.",
-                "x": 78.5,
-                "y": 41.3,
+                "x": 78.2,
+                "y": 40.6,
                 "type": "expression",
                 "reflection": "What might have made this person happy?"
               },
@@ -3258,7 +3258,7 @@
               }
             ],
             "panel": 4,
-            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "atlas": "./images/ball-guide-beagle53-lens.png",
             "aspect": 2.2874,
             "crop": {
               "x": 0,
@@ -3277,8 +3277,8 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Gia has upturned mouth corners.",
-                "x": 75.5,
-                "y": 45.2,
+                "x": 76.9,
+                "y": 44.8,
                 "type": "expression",
                 "reflection": "What might have made this person happy?"
               },
@@ -3292,7 +3292,7 @@
               }
             ],
             "panel": 5,
-            "atlas": "./images/ball-guide-close-position-v2-lens.png",
+            "atlas": "./images/ball-guide-beagle53-lens.png",
             "aspect": 2.2874,
             "crop": {
               "x": 50.2604,
@@ -3418,8 +3418,8 @@
           {
             "kind": "🔑 Heart key",
             "message": "Jun has downturned mouth corners.",
-            "x": 28,
-            "y": 53,
+            "x": 30.3,
+            "y": 52.5,
             "type": "expression",
             "reflection": "Could there be a story we have not heard yet?"
           },
@@ -3450,8 +3450,8 @@
           {
             "kind": "🔑 Heart key",
             "message": "Jun has a slightly open mouth.",
-            "x": 27,
-            "y": 48,
+            "x": 29.1,
+            "y": 49.8,
             "type": "expression",
             "reflection": "What might this person want to say?"
           },
@@ -3868,8 +3868,8 @@
               {
                 "kind": "🔑 Heart key",
                 "message": "Jun has an open palm.",
-                "x": 57,
-                "y": 42,
+                "x": 54.7,
+                "y": 35,
                 "type": "action",
                 "reflection": "Could this person want to explain a thought?"
               },
@@ -3882,14 +3882,14 @@
                 "reflection": "Could this child be unsure about showing the drawing?"
               }
             ],
-            "panel": 3,
-            "atlas": "./images/stars-teacher-small-shoulder-lens.png",
-            "aspect": 2.29,
+            "panel": 0,
+            "atlas": "./images/stars-teacher-scene4-hand53-lens.png",
+            "aspect": "1900/828",
             "crop": {
-              "x": 50.4557,
-              "y": 33.3008,
-              "w": 49.349,
-              "h": 32.3242
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "h": 100
             },
             "atlasRows": 3,
             "atlasCols": 2

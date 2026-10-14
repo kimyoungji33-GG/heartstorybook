@@ -506,24 +506,24 @@ window.heartBookLocales = {
               "title": "Which bread should I choose?",
               "text": "I pointed to a loaf to show which one was soft. Jiwoo grew quiet, so I waited. I wondered whether my gesture had seemed like a hurry to choose. I wanted to ask if there was anything she would like to know.",
               "viewpoint": "The baker",
-              "panel": 1,
+              "panel": 0,
               "clues": [
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
-                  "x": 82,
-                  "y": 44,
+                  "x": 76.8,
+                  "y": 45,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 }
               ],
-              "atlas": "./images/errand-2-lens.png",
-              "aspect": 2.2939,
+              "atlas": "./images/errand-owner-scene2-mouth53-lens.png",
+              "aspect": "1900/828",
               "crop": {
-                "x": 50.5208,
-                "y": 0.293,
-                "w": 49.2839,
-                "h": 32.2266
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -629,8 +629,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Junho has upturned mouth corners.",
-                  "x": 16,
-                  "y": 25,
+                  "x": 15.3,
+                  "y": 24.5,
                   "type": "words",
                   "reflection": "What might have made this person happy?"
                 }
@@ -735,8 +735,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Minseo has a slightly open mouth.",
-              "x": 35,
-              "y": 60,
+              "x": 31.8,
+              "y": 62,
               "type": "expression",
               "reflection": "What might this person want to say?"
             },
@@ -749,14 +749,14 @@ window.heartBookLocales = {
               "reflection": "Could the friend be checking whether the cup might break?"
             }
           ],
-          "panel": 1,
-          "atlas": "./images/cups-view-0.png",
-          "aspect": "760/335",
+          "panel": 0,
+          "atlas": "./images/cups-scene2-mouth53.png",
+          "aspect": "1888/832",
           "crop": {
-            "x": 50.3255,
-            "y": 0.293,
-            "w": 49.4792,
-            "h": 32.7148
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           }
         },
         {
@@ -839,8 +839,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "A new blue cup without a crack has been brought over.",
-              "x": 60,
-              "y": 57,
+              "x": 58.3,
+              "y": 53,
               "type": "action",
               "reflection": "Could this be a way to help the children drink comfortably?"
             },
@@ -930,8 +930,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has a slightly open mouth.",
-                  "x": 36,
-                  "y": 53,
+                  "x": 35.4,
+                  "y": 52.1,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
@@ -2700,7 +2700,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 0,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/336",
           "crop": {
             "x": 0.1953,
@@ -2732,9 +2732,9 @@ window.heartBookLocales = {
             }
           ],
           "panel": 1,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": 2,
-          "image": "./images/ball-gia-surprise.png"
+          "image": "./images/ball-gia-surprise-beagle53.png"
         },
         {
           "title": "What I first imagined",
@@ -2759,7 +2759,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 2,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/316",
           "crop": {
             "x": 0.1953,
@@ -2799,7 +2799,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 3,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/316",
           "crop": {
             "x": 50.1953,
@@ -2817,7 +2817,7 @@ window.heartBookLocales = {
               "kind": "🔑 Heart key",
               "message": "Gia has a smile with upturned mouth corners.",
               "x": 31,
-              "y": 49,
+              "y": 33.6,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -2831,7 +2831,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 4,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/354",
           "crop": {
             "x": 0.1953,
@@ -2863,7 +2863,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 5,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/354",
           "crop": {
             "x": 50.1953,
@@ -2902,7 +2902,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.29,
               "crop": {
                 "x": 0.2604,
@@ -2936,7 +2936,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "atlas": "./images/ball-luca-fixed-beagle53-lens.png",
               "aspect": 2.2991,
               "atlasRows": 3,
               "atlasCols": 2,
@@ -2970,7 +2970,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.2493,
               "crop": {
                 "x": 0.2604,
@@ -3004,7 +3004,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.2611,
               "crop": {
                 "x": 50.1302,
@@ -3038,7 +3038,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.2831,
               "crop": {
                 "x": 0.2604,
@@ -3072,7 +3072,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "atlas": "./images/ball-luca-fixed-beagle53-lens.png",
               "aspect": 2.2922,
               "crop": {
                 "x": 50.1953,
@@ -3123,7 +3123,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2671,
               "crop": {
                 "x": 0,
@@ -3157,7 +3157,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2671,
               "crop": {
                 "x": 50.2604,
@@ -3191,7 +3191,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 0,
@@ -3225,7 +3225,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 50.2604,
@@ -3244,8 +3244,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 78.5,
-                  "y": 41.3,
+                  "x": 78.2,
+                  "y": 40.6,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3259,7 +3259,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 0,
@@ -3278,8 +3278,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 75.5,
-                  "y": 45.2,
+                  "x": 76.9,
+                  "y": 44.8,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3293,7 +3293,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 50.2604,
@@ -3419,8 +3419,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has downturned mouth corners.",
-              "x": 28,
-              "y": 53,
+              "x": 30.3,
+              "y": 52.5,
               "type": "expression",
               "reflection": "Could there be a story we have not heard yet?"
             },
@@ -3451,8 +3451,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has a slightly open mouth.",
-              "x": 27,
-              "y": 48,
+              "x": 29.1,
+              "y": 49.8,
               "type": "expression",
               "reflection": "What might this person want to say?"
             },
@@ -3869,8 +3869,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has an open palm.",
-                  "x": 57,
-                  "y": 42,
+                  "x": 54.7,
+                  "y": 35,
                   "type": "action",
                   "reflection": "Could this person want to explain a thought?"
                 },
@@ -3883,14 +3883,14 @@ window.heartBookLocales = {
                   "reflection": "Could this child be unsure about showing the drawing?"
                 }
               ],
-              "panel": 3,
-              "atlas": "./images/stars-teacher-small-shoulder-lens.png",
-              "aspect": 2.29,
+              "panel": 0,
+              "atlas": "./images/stars-teacher-scene4-hand53-lens.png",
+              "aspect": "1900/828",
               "crop": {
-                "x": 50.4557,
-                "y": 33.3008,
-                "w": 49.349,
-                "h": 32.3242
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -4494,24 +4494,24 @@ window.heartBookLocales = {
               "title": "¿Qué pan elijo?",
               "text": "Señalé un pan para mostrar cuál era blandito. Jiwoo se quedó callada, así que esperé. Me pregunté si mi gesto le había parecido una invitación a elegir deprisa. Quise preguntarle si quería saber algo.",
               "viewpoint": "La panadera",
-              "panel": 1,
+              "panel": 0,
               "clues": [
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
-                  "x": 82,
-                  "y": 44,
+                  "x": 76.8,
+                  "y": 45,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 }
               ],
-              "atlas": "./images/errand-2-lens.png",
-              "aspect": 2.2939,
+              "atlas": "./images/errand-owner-scene2-mouth53-lens.png",
+              "aspect": "1900/828",
               "crop": {
-                "x": 50.5208,
-                "y": 0.293,
-                "w": 49.2839,
-                "h": 32.2266
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -4617,8 +4617,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Junho están hacia arriba.",
-                  "x": 16,
-                  "y": 25,
+                  "x": 15.3,
+                  "y": 24.5,
                   "type": "words",
                   "reflection": "¿Qué pudo alegrarle?"
                 }
@@ -4723,8 +4723,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene la boca un poco abierta.",
-              "x": 35,
-              "y": 60,
+              "x": 31.8,
+              "y": 62,
               "type": "expression",
               "reflection": "¿Qué querrá decir ahora?"
             },
@@ -4737,14 +4737,14 @@ window.heartBookLocales = {
               "reflection": "¿Estará mirando la taza porque teme que se rompa?"
             }
           ],
-          "panel": 1,
-          "atlas": "./images/cups-view-0.png",
-          "aspect": "760/335",
+          "panel": 0,
+          "atlas": "./images/cups-scene2-mouth53.png",
+          "aspect": "1888/832",
           "crop": {
-            "x": 50.3255,
-            "y": 0.293,
-            "w": 49.4792,
-            "h": 32.7148
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 100
           }
         },
         {
@@ -4827,8 +4827,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Han traído una taza azul nueva sin grietas.",
-              "x": 60,
-              "y": 57,
+              "x": 58.3,
+              "y": 53,
               "type": "action",
               "reflection": "¿Será una forma de ayudarles a beber con tranquilidad?"
             },
@@ -4918,8 +4918,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene la boca un poco abierta.",
-                  "x": 36,
-                  "y": 53,
+                  "x": 35.4,
+                  "y": 52.1,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
@@ -6688,7 +6688,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 0,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/336",
           "crop": {
             "x": 0.1953,
@@ -6720,9 +6720,9 @@ window.heartBookLocales = {
             }
           ],
           "panel": 1,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": 2,
-          "image": "./images/ball-gia-surprise.png"
+          "image": "./images/ball-gia-surprise-beagle53.png"
         },
         {
           "title": "Lo que imaginé al principio",
@@ -6747,7 +6747,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 2,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/316",
           "crop": {
             "x": 0.1953,
@@ -6787,7 +6787,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 3,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/316",
           "crop": {
             "x": 50.1953,
@@ -6805,7 +6805,7 @@ window.heartBookLocales = {
               "kind": "🔑 Llave del corazón",
               "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
               "x": 31,
-              "y": 49,
+              "y": 33.6,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -6819,7 +6819,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 4,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/354",
           "crop": {
             "x": 0.1953,
@@ -6851,7 +6851,7 @@ window.heartBookLocales = {
             }
           ],
           "panel": 5,
-          "atlas": "./images/ball-view-0.png",
+          "atlas": "./images/ball-view-0-beagle53.png",
           "aspect": "762/354",
           "crop": {
             "x": 50.1953,
@@ -6890,7 +6890,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.29,
               "crop": {
                 "x": 0.2604,
@@ -6924,7 +6924,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "atlas": "./images/ball-luca-fixed-beagle53-lens.png",
               "aspect": 2.2991,
               "atlasRows": 3,
               "atlasCols": 2,
@@ -6958,7 +6958,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.2493,
               "crop": {
                 "x": 0.2604,
@@ -6992,7 +6992,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.2611,
               "crop": {
                 "x": 50.1302,
@@ -7026,7 +7026,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-1-close-lens.png",
+              "atlas": "./images/ball-luca-beagle53-lens.png",
               "aspect": 2.2831,
               "crop": {
                 "x": 0.2604,
@@ -7060,7 +7060,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-1-fixed-close-lens.png",
+              "atlas": "./images/ball-luca-fixed-beagle53-lens.png",
               "aspect": 2.2922,
               "crop": {
                 "x": 50.1953,
@@ -7111,7 +7111,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 0,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2671,
               "crop": {
                 "x": 0,
@@ -7145,7 +7145,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 1,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2671,
               "crop": {
                 "x": 50.2604,
@@ -7179,7 +7179,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 2,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 0,
@@ -7213,7 +7213,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 3,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 50.2604,
@@ -7232,8 +7232,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 78.5,
-                  "y": 41.3,
+                  "x": 78.2,
+                  "y": 40.6,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7247,7 +7247,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 4,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 0,
@@ -7266,8 +7266,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 75.5,
-                  "y": 45.2,
+                  "x": 76.9,
+                  "y": 44.8,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7281,7 +7281,7 @@ window.heartBookLocales = {
                 }
               ],
               "panel": 5,
-              "atlas": "./images/ball-guide-close-position-v2-lens.png",
+              "atlas": "./images/ball-guide-beagle53-lens.png",
               "aspect": 2.2874,
               "crop": {
                 "x": 50.2604,
@@ -7407,8 +7407,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Jun están hacia abajo.",
-              "x": 28,
-              "y": 53,
+              "x": 30.3,
+              "y": 52.5,
               "type": "expression",
               "reflection": "¿Habrá algo que todavía no hemos escuchado?"
             },
@@ -7439,8 +7439,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jun tiene la boca un poco abierta.",
-              "x": 27,
-              "y": 48,
+              "x": 29.1,
+              "y": 49.8,
               "type": "expression",
               "reflection": "¿Qué querrá decir ahora?"
             },
@@ -7857,8 +7857,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la palma abierta.",
-                  "x": 57,
-                  "y": 42,
+                  "x": 54.7,
+                  "y": 35,
                   "type": "action",
                   "reflection": "¿Querrá explicar lo que piensa?"
                 },
@@ -7871,14 +7871,14 @@ window.heartBookLocales = {
                   "reflection": "¿Le dará reparo enseñar su dibujo?"
                 }
               ],
-              "panel": 3,
-              "atlas": "./images/stars-teacher-small-shoulder-lens.png",
-              "aspect": 2.29,
+              "panel": 0,
+              "atlas": "./images/stars-teacher-scene4-hand53-lens.png",
+              "aspect": "1900/828",
               "crop": {
-                "x": 50.4557,
-                "y": 33.3008,
-                "w": 49.349,
-                "h": 32.3242
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
               },
               "atlasRows": 3,
               "atlasCols": 2

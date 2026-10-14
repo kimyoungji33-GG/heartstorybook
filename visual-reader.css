@@ -14,3 +14,23 @@ html[lang=ko] body[data-audience=child] .story{font-family:'Hi Melody','Gamja Fl
 .hint-tip{display:flex;align-items:center;gap:12px;max-width:760px;z-index:3;pointer-events:none}.hint-tip:empty{display:none}.clue-closeup{flex:0 0 145px;max-height:112px;border:1px solid #dccdaf;border-radius:8px;background-repeat:no-repeat;background-color:#faf2df}.hint-tip>span{flex:1;line-height:1.65}.spot:hover,.spot:focus-visible,.spot[aria-pressed=true]{border:2px solid #b78d49;background:#fff6cc36;box-shadow:0 0 0 5px #fff3c64d}@media(max-width:600px){.clue-closeup{flex-basis:94px;max-height:90px}.hint-tip{gap:8px;padding:8px;font-size:13px}}
 .turn{flex-wrap:wrap;justify-content:center;gap:12px}.turn .key-help-button{margin:0}.turn .dots{display:flex;justify-content:center}@media(max-width:700px){.turn .dots{order:5;flex-basis:100%;margin:4px 0}.turn button{font-size:18px;padding:9px 12px}.turn .key-help-button{flex-basis:100%;max-width:320px;order:6}}
 .clue-question{display:block;margin-top:7px;color:#4d6549;font:22px/1.5 "Gamja Flower","Nunito",sans-serif}
+
+/* Heart keys mark the target without covering it: small badge outside the feature. */
+.spot{width:44px;height:44px;min-width:44px;min-height:44px;border-radius:50%;overflow:visible}
+.picture .spot span{top:50%;left:50%;right:auto;transform:translate(60px,-11px);width:22px;height:22px;font-size:12px;background:#fffaf0e8;border:1px solid #d5cdb9;opacity:.82;box-shadow:0 2px 6px #5c48121a;pointer-events:auto}
+.spot::after{content:'';position:absolute;left:50%;top:50%;width:60px;height:1px;background:#9d926c;transform:none;transform-origin:0 50%;opacity:.5;pointer-events:none}
+.spot:hover,.spot:focus-visible,.spot[aria-pressed=true]{background:transparent;border-color:#fff9e4b3}
+@media(max-width:650px){.picture .spot span{transform:translate(33px,-10px);width:20px;height:20px;font-size:11px}.spot::after{width:33px;transform:none}}
+
+/* Separate badge layer avoids intercepting a neighbour's clue target. */
+.picture .spot-target{z-index:1}.picture .spot-target::after{display:none}
+.picture .spot-badge{z-index:4;transform:translate(calc(60px - 50%),-50%)}
+.picture .spot-badge span{left:50%;top:50%;transform:translate(-50%,-50%);pointer-events:auto}
+.picture .spot-badge::after{left:calc(50% - 60px);top:50%;width:60px;transform:none}
+.picture .spot-badge:hover,.picture .spot-badge:focus-visible{z-index:5}
+@media(max-width:650px){.picture .spot-badge{transform:translate(calc(33px - 50%),-50%)}.picture .spot-badge::after{left:calc(50% - 33px);width:33px}.picture .spot-badge span{transform:translate(-50%,-50%)}}
+
+/* Clue descriptions sit below the art so the observed expression remains visible. */
+.book>.hint-tip{position:relative;inset:auto;width:calc(100% - 24px);max-width:920px;margin:12px auto;box-shadow:none;background:#f5f0e5;border:1px solid #e1d8c7;z-index:auto}
+.hint-tip .clue-question{font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:15px!important;line-height:1.7!important}
+@media(max-width:650px){.book>.hint-tip{display:grid;grid-template-columns:88px 1fr;align-items:start;gap:8px;padding:12px}.book>.hint-tip:empty{display:none}.clue-closeup{width:88px;min-height:58px;grid-row:1 / span 2}.hint-tip>span{font-size:13px}.hint-tip .clue-question{font-size:13px!important}}

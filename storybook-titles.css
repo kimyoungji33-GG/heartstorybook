@@ -50,3 +50,8 @@ body #book-menu small,body .standalone-book-link small{max-width:135px;flex-shri
 html[lang=ko] body #welcome-guide :is(p,li span){font-size:15px}
 @media(max-width:650px){html[lang=ko] body :is(.story,.story-text,.frog-voice p){font-size:23px;line-height:1.85}}
 @media(max-width:420px){body #book-menu>#menu-frog,body .standalone-book-link{align-items:flex-start;flex-direction:column;gap:3px}body #book-menu small,body .standalone-book-link small{max-width:none}}
+
+/* Readable language choices on the entrance, books and activity pages. */
+body :is(.language select,.reader-language-choice select){font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:17px!important;line-height:1.5;padding:10px 15px;min-height:44px}
+body :is(.language select,.reader-language-choice select) option{font-size:17px}
+@media(max-width:450px){body :is(.language select,.reader-language-choice select){font-size:16px!important;padding:9px 10px}}
