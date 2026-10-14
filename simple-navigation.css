@@ -18,3 +18,5 @@ dialog nav h3.menu-group-heading,dialog nav>#menu-tales,.simple-menu-dialog nav>
 .menu-before-reading p{grid-column:2;justify-self:end;text-align:right;margin:0 0 10px;line-height:1.6}
 .menu-before-reading a{grid-column:1/-1}
 @media(max-width:420px){.menu-before-reading{grid-template-columns:1fr;row-gap:4px}.menu-before-reading p{grid-column:1;justify-self:start;text-align:left;margin:0 0 8px}}
+
+dialog nav>a[data-nature-link]{display:block;font:29px/1.5 "Hi Melody",sans-serif;color:#526c50;margin:26px 0 8px;padding:0;text-decoration:none}

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ko">
-<head><script src="./language-availability.js?v=20261014-entry56"></script>
+<head><script src="./language-availability.js?v=20261014-nature62"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="소리를 들으며 서로 다른 마음의 풍경을 만나는 놀이">
@@ -18,8 +18,10 @@ main:has(.sound-rounds){padding-top:12px}.screen:has(.sound-rounds) .back{margin
 body.sound-page .simple-page-bar>a{display:none}
 body.sound-page .simple-page-bar{justify-content:space-between}
 body.sound-page .simple-page-bar .reader-language-choice{margin-left:auto}
+
+.sound-topics{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.sound-topic{padding:22px;border:1px solid #d9d7c7;background:#faf8eb;border-radius:20px;color:#51604a;text-decoration:none;text-align:left}.sound-topic strong{display:block;font:29px/1.4 "Hi Melody",sans-serif}.sound-topic span{display:block;font:16px/1.8 "Noto Sans KR",sans-serif;margin:10px 0}.sound-topic em{font:23px "Hi Melody",sans-serif;font-style:normal}@media(max-width:650px){.sound-topics{grid-template-columns:1fr}}
 </style>
-<link rel="stylesheet" href="./simple-navigation.css?v=20261014-entry61"><link rel="stylesheet" href="./storybook-titles.css?v=20261014-entry56"></head>
+<link rel="stylesheet" href="./simple-navigation.css?v=20261014-nature62"><link rel="stylesheet" href="./storybook-titles.css?v=20261014-nature62"></head>
 <body class="heart-tools-page sound-page">
   
   <main id="app"></main>
@@ -52,7 +54,7 @@ body.sound-page .simple-page-bar .reader-language-choice{margin-left:auto}
         function resetPresentation(){announcement.textContent='';app.classList.remove('discarding');clearTimeout(transitionTimer);transitionTimer=null;generation++;stopSound();document.body.classList.remove('night');document.body.removeAttribute('data-world');document.querySelectorAll('.star-sky,.transition-shade').forEach(e=>e.remove());}
     function setScreen(name){resetPresentation();screen=name;enteredTitle='';}
     function home(){intro();}
-    function intro(){setScreen('sound-intro');app.innerHTML=`<section class="screen intro center"><a class="back-link" href="./index.html">← 책방 입구로</a><div class="sound-illustration" role="img" aria-label="헤드폰으로 소리를 듣고 편안하게 풍경을 상상하는 어린이"></div><h1>마음의 소리</h1><p class="lead">소리를 듣고, 마음에 떠오르는 풍경을 만나 봐요.</p><div class="actions"><button id="start" class="primary">소리 만나러 가기 →</button></div></section>`;document.getElementById('start').onclick=soundPlay;focusHeading();}
+    function intro(){setScreen('sound-intro');app.innerHTML=`<section class="screen intro center"><a class="back-link" href="./index.html">← 책방 입구로</a><div class="sound-illustration" role="img" aria-label="헤드폰으로 소리를 듣고 편안하게 풍경을 상상하는 어린이"></div><h1>마음의 소리</h1><p class="lead">소리를 듣고, 마음에 떠오르는 풍경을 만나 봐요.</p><div class="sound-topics"><button id="start" class="sound-topic"><strong>일상의 소리</strong><span>다섯 가지 소리에서 풍경과 기억을 만나요.</span><em>상상하러 가기 →</em></button><a class="sound-topic" href="./animal-imagination.html"><strong>야옹, 멍멍! 무슨 이야기일까?</strong><span>일곱 가지 상상 놀이 · 약 10분<br>웃어도, 다른 이야기를 떠올려도 좋아요.</span><em>동물 소리로 놀기 →</em></a></div></section>`;document.getElementById('start').onclick=soundPlay;focusHeading();}
     function updateAudioButton(){if(screen!=='sound-play')return;const button=document.getElementById('audio-play');button.textContent=isPlaying?'Ⅱ':'▶';button.setAttribute('aria-label',isPlaying?'소리 멈추기':'소리 재생하기');button.classList.toggle('playing',isPlaying);document.getElementById('audio-label').textContent=isPlaying?(useDemoSound?'예시 도레미 소리를 듣고 있어요.':'음원을 듣고 있어요.'):'소리를 다시 들어도 좋아요.';}
     function stopSound(){audio.pause();try{audio.currentTime=0;}catch{}clearTimeout(noteTimer);noteTimer=null;for(const oscillator of notes){try{oscillator.stop();}catch{}try{oscillator.disconnect();}catch{}}notes=[];isPlaying=false;updateAudioButton();}
     async function demoSound(token=generation){const AudioContextClass=window.AudioContext||window.webkitAudioContext;if(!AudioContextClass)throw new Error('이 브라우저에서는 예시 소리를 만들 수 없어요. 다른 브라우저나 실제 음원을 사용해 주세요.');if(!audioContext)audioContext=new AudioContextClass();await audioContext.resume();if(screen!=='sound-play'||token!==generation||document.hidden)return;const start=audioContext.currentTime+.04;const frequencies=[261.63,293.66,329.63,349.23,392,440,493.88,523.25];frequencies.forEach((frequency,index)=>{const oscillator=audioContext.createOscillator(),gain=audioContext.createGain();oscillator.type='sine';oscillator.frequency.value=frequency;const at=start+index*.45;gain.gain.setValueAtTime(0,at);gain.gain.linearRampToValueAtTime(.085,at+.03);gain.gain.exponentialRampToValueAtTime(.001,at+.37);oscillator.connect(gain);gain.connect(audioContext.destination);oscillator.start(at);oscillator.stop(at+.4);oscillator.onended=()=>{gain.disconnect();};notes.push(oscillator);});isPlaying=true;updateAudioButton();noteTimer=setTimeout(()=>{notes=[];isPlaying=false;updateAudioButton();},3800);}
@@ -66,6 +68,6 @@ body.sound-page .simple-page-bar .reader-language-choice{margin-left:auto}
     window.addEventListener('pagehide',()=>{stopSound();clearTimeout(transitionTimer);});
     home();
   </script>
-<script src="./heart-language.js?v=20261013-copy51"></script><script src="./stories.js"></script><script src="./simple-navigation.js?v=20261013-copy51"></script><script src="./navigation-lettering.js"></script><script src="./language-flags.js?v=20261014-entry56"></script></body>
+<script src="./heart-language.js?v=20261014-nature62"></script><script src="./stories.js?v=20261014-nature62"></script><script src="./simple-navigation.js?v=20261014-nature62"></script><script src="./navigation-lettering.js?v=20261014-nature62"></script><script src="./language-flags.js?v=20261014-nature62"></script><script src="./nature-navigation.js?v=20261014-nature62"></script></body>
 </html>
 
