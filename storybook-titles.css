@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Hi+Melody&family=Nunito:wght@400;600&display=swap');
 /* Titles share the existing before-reading menu handwriting; prose keeps its reading font. */
 body h1,body h2,body h3,body .cover-title,body .cover-bottom,body .tale-book-title,body .entrance-card strong,body .book-paths strong,body .role-card b,body .kicker,body .guide-eyebrow,body .menu-section,body #menu-frog,body #book-menu>[data-menu-book]>span,body .standalone-book-link>span,body .simple-menu-dialog .simple-nav-item,body .standalone-menu-category,body .menu-group-heading,body .menu-before-reading h3{font-family:'Gamja Flower','Nunito','Malgun Gothic',sans-serif!important;font-weight:400!important;letter-spacing:0!important}
@@ -27,3 +28,25 @@ body .reader-header a,body .back-link,body .text-button{font-size:20px;line-heig
 body .turn button.navigation-lettering{font-size:21px}
 body .tale-open,body .entrance-card small.navigation-lettering{font-size:18px}
 @media(max-width:650px){body .reader-header a,body .back-link,body .text-button{font-size:18px}body .turn button.navigation-lettering{font-size:19px}}
+
+/* Korean typography by purpose: story, instructions, navigation. */
+html[lang=ko] body :is(p,li,input,textarea,label){font-family:'Noto Sans KR','Malgun Gothic',sans-serif;letter-spacing:0}
+html[lang=ko] body :is(.story p,.story-text p,.frog-voice p){font-family:'Hi Melody','Malgun Gothic',sans-serif!important}
+
+html[lang=ko] body{--story-font:'Hi Melody','Malgun Gothic',sans-serif;--instruction-font:'Noto Sans KR','Malgun Gothic',sans-serif;--menu-font:'Hi Melody','Malgun Gothic',sans-serif}
+html[lang=ko] body :is(h1,h2,h3,.brand,.cover-title,.tale-book-title,.entrance-card strong,.role-card b){font-family:var(--menu-font)!important;letter-spacing:0!important}
+html[lang=ko] body :is(.story,.story-text,.frog-voice p){font-family:var(--story-font)!important;font-weight:400!important;letter-spacing:0!important;font-size:25px;line-height:1.85}
+html[lang=ko] body :is(.look,.hint-tip,.key-message,.soft-note,.guide-purpose,.guide-sections span,.guide-sections p,.guide-note,.heart-key-definitions p,.listen-slot,.teaching,.reflection-copy,.intro,.sound-instruction){font-family:var(--instruction-font)!important;font-weight:400;letter-spacing:0;line-height:1.8}
+html[lang=ko] body :is(button,select,.back-link,.big-link,.reader-header a,.navigation-lettering,.navigation-lettering span,.navigation-lettering small,.navigation-lettering strong){font-family:var(--menu-font)!important;letter-spacing:0!important}
+html[lang=ko] body :is(#book-menu,.simple-menu-dialog nav) :is(button,a,h3,span){font-family:var(--menu-font)!important}
+html[lang=ko] body :is(#book-menu h3.menu-group-heading,#book-menu>#menu-tales,.simple-menu-dialog nav>.standalone-menu-category){color:#365d54!important;font-size:29px!important;font-weight:400!important;line-height:1.4;margin-top:27px;border-bottom:1px solid #d7dfd5;padding-bottom:7px!important}
+html[lang=ko] body :is(#book-menu>[data-library],.simple-menu-dialog nav>.simple-nav-item:not(:first-child)){color:#765843!important;font-size:25px!important;font-weight:400!important}
+html[lang=ko] body :is(#book-menu>[data-menu-book]>span,#book-menu>#menu-frog>span,.standalone-book-link>span){color:#4c5550!important;font-size:23px!important;font-weight:400!important;line-height:1.45}
+html[lang=ko] body :is(#book-menu small,.standalone-book-link small){font-family:var(--instruction-font)!important;font-size:13px!important;color:#6e746a!important;font-weight:400!important;line-height:1.55}
+html[lang=ko] body .menu-before-reading h3{color:#526a63!important;font-size:24px!important}
+html[lang=ko] body .menu-before-reading a{color:#627366!important;font-size:23px!important}
+body #book-menu>#menu-frog{display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left}
+body #book-menu small,body .standalone-book-link small{max-width:135px;flex-shrink:0;white-space:normal}
+html[lang=ko] body #welcome-guide :is(p,li span){font-size:15px}
+@media(max-width:650px){html[lang=ko] body :is(.story,.story-text,.frog-voice p){font-size:23px;line-height:1.85}}
+@media(max-width:420px){body #book-menu>#menu-frog,body .standalone-book-link{align-items:flex-start;flex-direction:column;gap:3px}body #book-menu small,body .standalone-book-link small{max-width:none}}
