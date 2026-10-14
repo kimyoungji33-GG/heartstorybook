@@ -904,7 +904,7 @@ const visualBooks = [
         ],
         "panel": 4,
         "atlas": "./images/cups-clean-cups-view-lens.png",
-        "aspect": 2.2562874251497007,
+        "aspect": 2.2563,
         "crop": {
           "x": 0,
           "y": 0,
