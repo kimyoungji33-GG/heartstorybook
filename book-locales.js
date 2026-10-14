@@ -847,8 +847,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Yuna has an open palm.",
-              "x": 68,
-              "y": 63,
+              "x": 65.5,
+              "y": 54.3,
               "type": "words",
               "reflection": "Could this person want to explain a thought?"
             }
@@ -4835,8 +4835,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Yuna tiene la palma abierta.",
-              "x": 68,
-              "y": 63,
+              "x": 65.5,
+              "y": 54.3,
               "type": "words",
               "reflection": "¿Querrá explicar lo que piensa?"
             }

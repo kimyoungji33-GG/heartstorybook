@@ -847,8 +847,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "유나의 손바닥이 펴져 있어요.",
-            "x": 68,
-            "y": 63,
+            "x": 65.5,
+            "y": 54.3,
             "type": "words",
             "reflection": "자기 생각을 설명하고 싶은 걸까요?"
           }
