@@ -29,7 +29,7 @@
 .entry:not(.same-day-entry) .gate-art{background-image:url("./library-natural-expressions-v9.png")}
 
 /* Entrance balance: illustration sets the mood; generous cards remain easy to read. */
-.entry:not(.same-day-entry) .gate-art{background-image:url('./library-expressions-v10.png');max-width:780px;margin:18px auto 22px}
+.entry:not(.same-day-entry) .gate-art{background-image:url('./library-expressions-v10.png');max-width:1000px;margin:18px auto 22px}
 .entry .entrances{max-width:1000px;width:100%;gap:24px;margin:16px auto 30px}
 .entry .entrance-card{padding:25px 28px;gap:12px;min-height:198px}
 .entry .entrance-card strong{font-size:34px;line-height:1.35;word-break:keep-all}

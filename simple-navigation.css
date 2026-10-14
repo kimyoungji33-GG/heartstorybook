@@ -11,3 +11,10 @@
 
 /* Major categories share the same quiet handwritten typography. */
 dialog nav h3.menu-group-heading,dialog nav>#menu-tales,.simple-menu-dialog nav>.standalone-menu-category{display:block;font-family:'Gamja Flower','Nunito','Malgun Gothic',sans-serif;font-size:23px;font-weight:400;line-height:1.5;letter-spacing:0;color:#65775d;text-decoration:none;margin:26px 0 8px;padding:0!important;text-align:left;border:0;background:transparent}.simple-menu-dialog nav>a.standalone-menu-category{cursor:pointer}
+
+/* Keep the optional introduction beside its heading, with room to breathe. */
+.menu-before-reading{display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:16px;align-items:baseline}
+.menu-before-reading h3{grid-column:1}
+.menu-before-reading p{grid-column:2;justify-self:end;text-align:right;margin:0 0 10px;line-height:1.6}
+.menu-before-reading a{grid-column:1/-1}
+@media(max-width:420px){.menu-before-reading{grid-template-columns:1fr;row-gap:4px}.menu-before-reading p{grid-column:1;justify-self:start;text-align:left;margin:0 0 8px}}
