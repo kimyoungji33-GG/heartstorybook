@@ -34,3 +34,12 @@ html[lang=ko] body[data-audience=child] .story{font-family:'Hi Melody','Gamja Fl
 .book>.hint-tip{position:relative;inset:auto;width:calc(100% - 24px);max-width:920px;margin:12px auto;box-shadow:none;background:#f5f0e5;border:1px solid #e1d8c7;z-index:auto}
 .hint-tip .clue-question{font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:15px!important;line-height:1.7!important}
 @media(max-width:650px){.book>.hint-tip{display:grid;grid-template-columns:88px 1fr;align-items:start;gap:8px;padding:12px}.book>.hint-tip:empty{display:none}.clue-closeup{width:88px;min-height:58px;grid-row:1 / span 2}.hint-tip>span{font-size:13px}.hint-tip .clue-question{font-size:13px!important}}
+
+/* Short leaders keep the key close to its exact feature without hiding expressions. */
+.picture .spot-target{width:16px;height:16px;min-width:16px;min-height:16px;border-radius:50%;box-shadow:none}
+.picture .spot-target:hover,.picture .spot-target[aria-pressed=true]{border-color:transparent;background:transparent;box-shadow:none}
+.picture .spot-badge{transform:translate(calc(24px - 50%),-50%);border:0;background:transparent;box-shadow:none}
+.picture .spot-badge:hover,.picture .spot-badge:focus-visible,.picture .spot-badge[aria-pressed=true]{border:0;background:transparent;box-shadow:none}
+.picture .spot-badge span{width:18px;height:18px;font-size:10px;transform:translate(-50%,-50%)}
+.picture .spot-badge::after{left:calc(50% - 24px);width:15px;opacity:.75}
+@media(max-width:650px){.picture .spot-badge{transform:translate(calc(21px - 50%),-50%)}.picture .spot-badge::after{left:calc(50% - 21px);width:12px}.picture .spot-badge span{width:18px;height:18px;font-size:10px}}

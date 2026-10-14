@@ -38,16 +38,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jiwoo has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 54,
+              "x": 33.4,
+              "y": 52.3,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "Jiwoo holds a note with pictures of bread.",
-              "x": 40,
-              "y": 62,
+              "x": 38,
+              "y": 65,
               "type": "action",
               "reflection": "Could this child want to do the errand well?"
             }
@@ -70,16 +70,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jiwoo has a slightly open mouth.",
-              "x": 28,
-              "y": 49,
+              "x": 24.7,
+              "y": 57.6,
               "type": "expression",
               "reflection": "What might this person want to say?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "The baker points to one loaf of bread.",
-              "x": 48,
-              "y": 59,
+              "x": 48.3,
+              "y": 60.5,
               "type": "action",
               "reflection": "Shall we listen a little more to understand this feeling?"
             }
@@ -110,8 +110,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jiwoo grips both backpack straps.",
-              "x": 23,
-              "y": 72,
+              "x": 29,
+              "y": 75,
               "type": "action",
               "reflection": "Could worry be making this child grip tightly?"
             },
@@ -142,16 +142,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jiwoo has a slightly open mouth.",
-              "x": 38,
-              "y": 48,
+              "x": 41.8,
+              "y": 54.4,
               "type": "expression",
               "reflection": "What might this person want to say?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "A blue star bookmark sticks out of the yellow book.",
-              "x": 62,
-              "y": 56,
+              "x": 62.3,
+              "y": 54,
               "type": "action",
               "reflection": "Could this child want to keep a treasured bookmark safe?"
             }
@@ -190,8 +190,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Junho has an open palm.",
-              "x": 74,
-              "y": 57,
+              "x": 69.3,
+              "y": 55,
               "type": "words",
               "reflection": "Could this person want to explain a thought?"
             }
@@ -214,8 +214,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jiwoo has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 48,
+              "x": 27,
+              "y": 45.2,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -223,7 +223,7 @@ window.heartBookLocales = {
               "kind": "🔑 Heart key",
               "message": "The baker is handing over a bag of bread.",
               "x": 45,
-              "y": 56,
+              "y": 59,
               "type": "action",
               "reflection": "How might finishing the errand feel?"
             }
@@ -256,16 +256,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
-                  "x": 30,
-                  "y": 54,
+                  "x": 34,
+                  "y": 53.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo holds a note with pictures of bread.",
-                  "x": 41,
-                  "y": 61,
+                  "x": 39,
+                  "y": 64,
                   "type": "action",
                   "reflection": "Could this child want to do the errand well?"
                 }
@@ -290,16 +290,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
-                  "x": 29,
-                  "y": 50,
+                  "x": 27,
+                  "y": 59.7,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "The baker points to one loaf of bread.",
-                  "x": 49,
-                  "y": 58,
+                  "x": 49.6,
+                  "y": 61,
                   "type": "action",
                   "reflection": "Shall we listen a little more to understand this feeling?"
                 }
@@ -358,16 +358,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
-                  "x": 37,
-                  "y": 48,
+                  "x": 39.5,
+                  "y": 57,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "A blue star bookmark sticks out of the yellow book.",
-                  "x": 66,
-                  "y": 55,
+                  "x": 64.9,
+                  "y": 62.5,
                   "type": "action",
                   "reflection": "Could this child want to keep a treasured bookmark safe?"
                 }
@@ -392,8 +392,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
-                  "x": 30,
-                  "y": 49,
+                  "x": 33.4,
+                  "y": 37.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -426,16 +426,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
-                  "x": 30,
-                  "y": 48,
+                  "x": 32,
+                  "y": 41.8,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "The baker is handing over a bag of bread.",
-                  "x": 45,
-                  "y": 52,
+                  "x": 45.1,
+                  "y": 56.4,
                   "type": "action",
                   "reflection": "How might finishing the errand feel?"
                 }
@@ -477,8 +477,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
-                  "x": 81,
-                  "y": 46,
+                  "x": 76.8,
+                  "y": 41.9,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -553,8 +553,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Junho has lowered his head to look at his own book.",
-                  "x": 16,
-                  "y": 44,
+                  "x": 17,
+                  "y": 49,
                   "type": "action",
                   "reflection": "Could something about the book be on this child’s mind?"
                 }
@@ -579,16 +579,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a slightly open mouth.",
-                  "x": 82,
-                  "y": 46,
+                  "x": 75.4,
+                  "y": 49.8,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "A blue star bookmark sticks out of the yellow book.",
-                  "x": 24,
-                  "y": 67,
+                  "x": 22.7,
+                  "y": 61.3,
                   "type": "action",
                   "reflection": "Could this child want to keep a treasured bookmark safe?"
                 }
@@ -613,8 +613,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
-                  "x": 58,
-                  "y": 50,
+                  "x": 57.5,
+                  "y": 45.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -655,16 +655,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jiwoo has a smile with upturned mouth corners.",
-                  "x": 81,
-                  "y": 44,
+                  "x": 72.9,
+                  "y": 41.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "The baker is handing over a bag of bread.",
-                  "x": 61,
-                  "y": 59,
+                  "x": 64,
+                  "y": 65,
                   "type": "action",
                   "reflection": "How might finishing the errand feel?"
                 }
@@ -711,8 +711,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Minseo has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 57,
+              "x": 31.6,
+              "y": 61,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             }
@@ -743,8 +743,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "A thin crack is visible on the side of the blue cup.",
-              "x": 47,
-              "y": 85,
+              "x": 48.6,
+              "y": 83.5,
               "type": "action",
               "reflection": "Could the friend be checking whether the cup might break?"
             }
@@ -768,7 +768,7 @@ window.heartBookLocales = {
               "kind": "🔑 Heart key",
               "message": "Minseo has downturned mouth corners.",
               "x": 30,
-              "y": 57,
+              "y": 52.5,
               "type": "expression",
               "reflection": "Could there be a story we have not heard yet?"
             },
@@ -807,8 +807,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "A thin crack is visible on the side of the blue cup.",
-              "x": 47,
-              "y": 81,
+              "x": 48.5,
+              "y": 81.1,
               "type": "action",
               "reflection": "Could the friend be checking whether the cup might break?"
             }
@@ -831,8 +831,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Minseo has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 57,
+              "x": 31.1,
+              "y": 43.5,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -873,8 +873,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Minseo has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 57,
+              "x": 34.5,
+              "y": 41.5,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             }
@@ -904,8 +904,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 30,
-                  "y": 55,
+                  "x": 33.3,
+                  "y": 52.6,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 }
@@ -964,8 +964,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has downturned mouth corners.",
-                  "x": 29,
-                  "y": 59,
+                  "x": 30.3,
+                  "y": 51,
                   "type": "expression",
                   "reflection": "Could there be a story we have not heard yet?"
                 },
@@ -1032,8 +1032,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 30,
-                  "y": 56,
+                  "x": 31,
+                  "y": 40.7,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -1066,8 +1066,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 29,
-                  "y": 56,
+                  "x": 34.4,
+                  "y": 46.4,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -1117,8 +1117,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 77,
-                  "y": 40,
+                  "x": 76.5,
+                  "y": 44,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 }
@@ -1143,8 +1143,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has downturned mouth corners.",
-                  "x": 74,
-                  "y": 40,
+                  "x": 72.1,
+                  "y": 47.7,
                   "type": "expression",
                   "reflection": "Could there be a story we have not heard yet?"
                 },
@@ -1237,8 +1237,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Yuna has a smile with upturned mouth corners.",
-                  "x": 53,
-                  "y": 41,
+                  "x": 54.2,
+                  "y": 43.8,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -1271,8 +1271,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Minseo has a smile with upturned mouth corners.",
-                  "x": 78,
-                  "y": 43,
+                  "x": 76.4,
+                  "y": 48.6,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 }
@@ -1372,16 +1372,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Noah has lowered their head.",
-              "x": 73,
-              "y": 48,
+              "x": 75.2,
+              "y": 61.3,
               "type": "action",
               "reflection": "What might this person be thinking while looking down?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "Noah pushes the plate toward the other person.",
-              "x": 58,
-              "y": 85,
+              "x": 71.1,
+              "y": 85.5,
               "type": "action",
               "reflection": "Shall we listen a little more to understand this feeling?"
             }
@@ -1404,8 +1404,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sofia has both hands close together.",
-              "x": 30,
-              "y": 68,
+              "x": 36,
+              "y": 65.1,
               "type": "action",
               "reflection": "Could this child be thinking about what to say?"
             },
@@ -1436,16 +1436,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Noah has a slightly open mouth.",
-              "x": 79,
-              "y": 59,
+              "x": 74.8,
+              "y": 58.1,
               "type": "expression",
               "reflection": "What might this person want to say?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "Sofia has an open palm.",
-              "x": 50,
-              "y": 63,
+              "x": 48.9,
+              "y": 64.1,
               "type": "action",
               "reflection": "Could this person want to explain a thought?"
             }
@@ -1468,24 +1468,24 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sofia has a smile with upturned mouth corners.",
-              "x": 40,
-              "y": 54,
+              "x": 38.1,
+              "y": 52.5,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "Sofia points toward the other person.",
-              "x": 47,
-              "y": 71,
+              "x": 52.2,
+              "y": 61.5,
               "type": "action",
               "reflection": "Shall we listen a little more to understand this feeling?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "Noah has a slightly open mouth.",
-              "x": 76,
-              "y": 53,
+              "x": 77.1,
+              "y": 53.5,
               "type": "words",
               "reflection": "What might this person want to say?"
             }
@@ -1508,16 +1508,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sofia has a smile with upturned mouth corners.",
-              "x": 38,
-              "y": 58,
+              "x": 37.4,
+              "y": 52.1,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "The children each hold a piece of the shared bread.",
-              "x": 74,
-              "y": 73,
+              "x": 71.5,
+              "y": 66.7,
               "type": "action",
               "reflection": "Could sharing have helped them feel more comfortable?"
             }
@@ -1581,16 +1581,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a slightly open mouth.",
-                  "x": 35,
-                  "y": 43,
+                  "x": 29.5,
+                  "y": 51.2,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Noah pushes the plate toward the other person.",
-                  "x": 53,
-                  "y": 81,
+                  "x": 43,
+                  "y": 85.6,
                   "type": "action",
                   "reflection": "Shall we listen a little more to understand this feeling?"
                 }
@@ -1615,16 +1615,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a slightly open mouth.",
-                  "x": 33,
-                  "y": 46,
+                  "x": 36.8,
+                  "y": 45.5,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has both hands close together.",
-                  "x": 35,
-                  "y": 65,
+                  "x": 35.1,
+                  "y": 59.5,
                   "type": "action",
                   "reflection": "Could this child be thinking about what to say?"
                 }
@@ -1649,8 +1649,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a slightly open mouth.",
-                  "x": 37,
-                  "y": 50,
+                  "x": 34,
+                  "y": 47.5,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
@@ -1683,8 +1683,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 40,
-                  "y": 53,
+                  "x": 33.4,
+                  "y": 42.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -1717,8 +1717,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 36,
-                  "y": 47,
+                  "x": 34.5,
+                  "y": 44.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -1768,7 +1768,7 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Noah has a smile with upturned mouth corners.",
-                  "x": 23,
+                  "x": 25.5,
                   "y": 47,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
@@ -1810,8 +1810,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has an open palm.",
-                  "x": 71,
-                  "y": 46,
+                  "x": 66.8,
+                  "y": 53.4,
                   "type": "action",
                   "reflection": "Could this person want to explain a thought?"
                 }
@@ -1836,8 +1836,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Noah has lowered their head.",
-                  "x": 23,
-                  "y": 45,
+                  "x": 25.2,
+                  "y": 48.1,
                   "type": "action",
                   "reflection": "What might this person be thinking while looking down?"
                 },
@@ -1845,7 +1845,7 @@ window.heartBookLocales = {
                   "kind": "🔑 Heart key",
                   "message": "One of Noah’s hands rests on their chest.",
                   "x": 22,
-                  "y": 61,
+                  "y": 58.4,
                   "type": "action",
                   "reflection": "Could this child want to share a feeling?"
                 }
@@ -1878,8 +1878,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has an open palm.",
-                  "x": 68,
-                  "y": 44,
+                  "x": 65.7,
+                  "y": 48.2,
                   "type": "action",
                   "reflection": "Could this person want to explain a thought?"
                 }
@@ -1904,8 +1904,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 70,
-                  "y": 50,
+                  "x": 71,
+                  "y": 44.9,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -1938,16 +1938,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sofia has a smile with upturned mouth corners.",
-                  "x": 75,
-                  "y": 40,
+                  "x": 71.8,
+                  "y": 40.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Each person holds a piece of the shared bread.",
-                  "x": 71,
-                  "y": 48,
+                  "x": 69.4,
+                  "y": 49,
                   "type": "action",
                   "reflection": "Could sharing have helped them feel more comfortable?"
                 }
@@ -2015,8 +2015,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sora has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 44,
+              "x": 28.8,
+              "y": 50.4,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -2047,16 +2047,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sora has wide, round eyes with visible whites.",
-              "x": 32,
-              "y": 45,
+              "x": 32.4,
+              "y": 40,
               "type": "expression",
               "reflection": "Shall we listen a little more to understand this feeling?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "The tip of a yellow star peeks from behind a back.",
-              "x": 17,
-              "y": 70,
+              "x": 16.7,
+              "y": 62.5,
               "type": "action",
               "reflection": "Could this child not be ready to show it yet?"
             }
@@ -2106,8 +2106,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sora has turned toward the other person.",
-              "x": 35,
-              "y": 50,
+              "x": 32.8,
+              "y": 42.4,
               "type": "action",
               "reflection": "Shall we listen a little more to understand this feeling?"
             },
@@ -2162,8 +2162,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Sora has a smile with upturned mouth corners.",
-              "x": 32,
-              "y": 43,
+              "x": 37.2,
+              "y": 45.7,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -2243,8 +2243,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
-                  "x": 71,
-                  "y": 36,
+                  "x": 73.6,
+                  "y": 38.1,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
@@ -2319,16 +2319,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
-                  "x": 34,
-                  "y": 48,
+                  "x": 32.4,
+                  "y": 45.3,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Mom has an open palm.",
-                  "x": 78,
-                  "y": 63,
+                  "x": 70.8,
+                  "y": 65,
                   "type": "action",
                   "reflection": "Could Mom be waiting to hear the child’s words?"
                 }
@@ -2379,16 +2379,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has a smile with upturned mouth corners.",
-                  "x": 43,
-                  "y": 43,
+                  "x": 46,
+                  "y": 45.2,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora reaches toward the star they are making.",
-                  "x": 55,
-                  "y": 61,
+                  "x": 49.7,
+                  "y": 56.2,
                   "type": "action",
                   "reflection": "Could they want to include their friend’s star too?"
                 }
@@ -2446,8 +2446,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Mom stands beside the doorway, holding the blue door.",
-                  "x": 6,
-                  "y": 47,
+                  "x": 6.6,
+                  "y": 36.1,
                   "type": "action",
                   "reflection": "Who might Mom be waiting for with the door open?"
                 }
@@ -2472,8 +2472,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
-                  "x": 63,
-                  "y": 48,
+                  "x": 64.7,
+                  "y": 45.4,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
@@ -2488,8 +2488,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Mom stands beside the doorway, holding the blue door.",
-                  "x": 6,
-                  "y": 31,
+                  "x": 7.5,
+                  "y": 34.7,
                   "type": "action",
                   "reflection": "Who might Mom be waiting for with the door open?"
                 }
@@ -2514,8 +2514,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has lowered their head.",
-                  "x": 24,
-                  "y": 44,
+                  "x": 27.3,
+                  "y": 46.5,
                   "type": "action",
                   "reflection": "What might this person be thinking while looking down?"
                 },
@@ -2548,16 +2548,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has a slightly open mouth.",
-                  "x": 26,
-                  "y": 44,
+                  "x": 34,
+                  "y": 41.9,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Mom has an open palm.",
-                  "x": 55,
-                  "y": 47,
+                  "x": 53,
+                  "y": 51,
                   "type": "action",
                   "reflection": "Could Mom be waiting to hear the child’s words?"
                 }
@@ -2608,16 +2608,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Sora has a smile with upturned mouth corners.",
-                  "x": 38,
-                  "y": 45,
+                  "x": 39.3,
+                  "y": 45.8,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Their hands work together to finish the yellow star.",
-                  "x": 61,
-                  "y": 64,
+                  "x": 59.4,
+                  "y": 56.5,
                   "type": "action",
                   "reflection": "Could they want to include their friend’s star too?"
                 }
@@ -2685,8 +2685,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Gia has a smile with upturned mouth corners.",
-              "x": 31,
-              "y": 44,
+              "x": 31.1,
+              "y": 43.8,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -2744,16 +2744,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Gia has downturned mouth corners.",
-              "x": 31,
-              "y": 49,
+              "x": 28.1,
+              "y": 45.5,
               "type": "expression",
               "reflection": "Could there be a story we have not heard yet?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "The dark dog with the blue leash is sniffing the grass.",
-              "x": 86,
-              "y": 84,
+              "x": 81.5,
+              "y": 81,
               "type": "action",
               "reflection": "Could the dog be getting to know a new place slowly?"
             }
@@ -2776,24 +2776,24 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Gia has turned toward the other person.",
-              "x": 31,
-              "y": 46,
+              "x": 26.2,
+              "y": 45.2,
               "type": "action",
               "reflection": "Shall we listen a little more to understand this feeling?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "The dark dog with the blue leash is sniffing the grass.",
-              "x": 52,
-              "y": 87,
+              "x": 55.5,
+              "y": 76,
               "type": "action",
               "reflection": "Could the dog be getting to know a new place slowly?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "Luca has a slightly open mouth.",
-              "x": 84,
-              "y": 46,
+              "x": 70.3,
+              "y": 44.2,
               "type": "words",
               "reflection": "What might this person want to say?"
             }
@@ -2848,8 +2848,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Gia has a smile with upturned mouth corners.",
-              "x": 31,
-              "y": 45,
+              "x": 29.1,
+              "y": 40,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -2887,8 +2887,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 28.4,
+                  "y": 45.6,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -2921,8 +2921,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has wide, round eyes.",
-                  "x": 29,
-                  "y": 42,
+                  "x": 26.5,
+                  "y": 37.6,
                   "type": "expression",
                   "reflection": "Shall we listen a little more to understand this feeling?"
                 },
@@ -2955,16 +2955,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has downturned mouth corners.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 29.1,
+                  "y": 46.5,
                   "type": "expression",
                   "reflection": "Could there be a story we have not heard yet?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "The dark dog with the blue leash is sniffing the grass.",
-                  "x": 63,
-                  "y": 87,
+                  "x": 62,
+                  "y": 83,
                   "type": "action",
                   "reflection": "Could the dog be getting to know a new place slowly?"
                 }
@@ -2989,16 +2989,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has lowered their head.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 27,
+                  "y": 39,
                   "type": "action",
                   "reflection": "What might this person be thinking while looking down?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "The dark dog with the blue leash is sniffing the grass.",
-                  "x": 63,
-                  "y": 87,
+                  "x": 64,
+                  "y": 72,
                   "type": "action",
                   "reflection": "Could the dog be getting to know a new place slowly?"
                 }
@@ -3023,8 +3023,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 31.6,
+                  "y": 39.7,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3057,8 +3057,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 33,
-                  "y": 46,
+                  "x": 34.6,
+                  "y": 40.8,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3108,8 +3108,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 75.8,
-                  "y": 48.7,
+                  "x": 75.5,
+                  "y": 48.4,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3142,8 +3142,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has a slightly open mouth.",
-                  "x": 79.6,
-                  "y": 49.5,
+                  "x": 74.7,
+                  "y": 47.7,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
@@ -3176,8 +3176,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has downturned mouth corners.",
-                  "x": 76.6,
-                  "y": 49.9,
+                  "x": 74.6,
+                  "y": 48.5,
                   "type": "expression",
                   "reflection": "Could there be a story we have not heard yet?"
                 },
@@ -3210,8 +3210,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Luca has a slightly open mouth.",
-                  "x": 21.1,
-                  "y": 45.5,
+                  "x": 21.3,
+                  "y": 45.6,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
@@ -3244,8 +3244,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 78.2,
-                  "y": 40.6,
+                  "x": 78.1,
+                  "y": 41.2,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3278,8 +3278,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Gia has upturned mouth corners.",
-                  "x": 76.9,
-                  "y": 44.8,
+                  "x": 74.9,
+                  "y": 43.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
@@ -3355,8 +3355,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has a smile with upturned mouth corners.",
-              "x": 30,
-              "y": 45,
+              "x": 31,
+              "y": 54.1,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -3387,16 +3387,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has a slightly open mouth.",
-              "x": 30,
-              "y": 48,
+              "x": 32.7,
+              "y": 55.8,
               "type": "expression",
               "reflection": "What might this person want to say?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "There is an eraser and little crumbs beside the paper.",
-              "x": 81,
-              "y": 81,
+              "x": 85,
+              "y": 87,
               "type": "action",
               "reflection": "Could this child want to draw the star a little better?"
             }
@@ -3419,8 +3419,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has downturned mouth corners.",
-              "x": 30.3,
-              "y": 52.5,
+              "x": 30,
+              "y": 53.1,
               "type": "expression",
               "reflection": "Could there be a story we have not heard yet?"
             },
@@ -3459,8 +3459,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has an open palm.",
-              "x": 36,
-              "y": 65,
+              "x": 36.9,
+              "y": 59.3,
               "type": "action",
               "reflection": "Could this person want to explain a thought?"
             }
@@ -3483,16 +3483,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Harin has a smile with upturned mouth corners.",
-              "x": 70,
-              "y": 47,
+              "x": 73.8,
+              "y": 42.3,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
             {
               "kind": "🔑 Heart key",
               "message": "A slightly crooked star is visible in Harin’s hand.",
-              "x": 64,
-              "y": 47,
+              "x": 63.7,
+              "y": 42,
               "type": "action",
               "reflection": "Who might this child want to show the star to?"
             }
@@ -3515,8 +3515,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Heart key",
               "message": "Jun has a smile with upturned mouth corners.",
-              "x": 28,
-              "y": 49,
+              "x": 27.2,
+              "y": 47.2,
               "type": "expression",
               "reflection": "What might have made this person happy?"
             },
@@ -3524,7 +3524,7 @@ window.heartBookLocales = {
               "kind": "🔑 Heart key",
               "message": "They stick their different stars onto one sheet together.",
               "x": 55,
-              "y": 63,
+              "y": 68,
               "type": "action",
               "reflection": "Could they want to include their friend’s star too?"
             }
@@ -3554,16 +3554,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has upturned mouth corners.",
-                  "x": 35,
-                  "y": 50,
+                  "x": 37.6,
+                  "y": 52.5,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "The children hold stars of different colors.",
-                  "x": 74,
-                  "y": 67,
+                  "x": 76,
+                  "y": 78,
                   "type": "action",
                   "reflection": "Who might this child want to show the star to?"
                 }
@@ -3588,15 +3588,15 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has a slightly open mouth.",
-                  "x": 34,
-                  "y": 50,
+                  "x": 36.7,
+                  "y": 53.5,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin is erasing the drawing. There are eraser crumbs beside the paper.",
-                  "x": 80,
+                  "x": 77,
                   "y": 77,
                   "type": "action",
                   "reflection": "Could this child want to draw the star a little better?"
@@ -3622,16 +3622,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has downturned mouth corners.",
-                  "x": 33,
-                  "y": 53,
+                  "x": 37.5,
+                  "y": 56.3,
                   "type": "expression",
                   "reflection": "Could there be a story we have not heard yet?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin covers their drawing with their arms.",
-                  "x": 84,
-                  "y": 77,
+                  "x": 83,
+                  "y": 65,
                   "type": "action",
                   "reflection": "Could this child be unsure about showing the drawing?"
                 }
@@ -3657,15 +3657,15 @@ window.heartBookLocales = {
                   "kind": "🔑 Heart key",
                   "message": "Jun has a slightly open mouth.",
                   "x": 35,
-                  "y": 49,
+                  "y": 53.4,
                   "type": "expression",
                   "reflection": "What might this person want to say?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has an open palm.",
-                  "x": 46,
-                  "y": 61,
+                  "x": 43.5,
+                  "y": 56.8,
                   "type": "action",
                   "reflection": "Could this person want to explain a thought?"
                 }
@@ -3690,16 +3690,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has upturned mouth corners.",
-                  "x": 33,
-                  "y": 51,
+                  "x": 36.4,
+                  "y": 46.8,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin holds up a slightly crooked yellow star.",
-                  "x": 68,
-                  "y": 55,
+                  "x": 70.2,
+                  "y": 38.9,
                   "type": "action",
                   "reflection": "Who might this child want to show the star to?"
                 }
@@ -3724,16 +3724,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has upturned mouth corners.",
-                  "x": 31,
-                  "y": 47,
+                  "x": 34,
+                  "y": 49.9,
                   "type": "expression",
                   "reflection": "What might have made this person happy?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "They stick different stars onto one sheet.",
-                  "x": 59,
-                  "y": 73,
+                  "x": 56.5,
+                  "y": 65,
                   "type": "action",
                   "reflection": "Could they want to include their friend’s star too?"
                 }
@@ -3775,16 +3775,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin holds a blue star.",
-                  "x": 43,
-                  "y": 40,
+                  "x": 44.5,
+                  "y": 43.5,
                   "type": "action",
                   "reflection": "Who might this child want to show the star to?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun holds a yellow star.",
-                  "x": 55,
-                  "y": 40,
+                  "x": 57.1,
+                  "y": 43.5,
                   "type": "action",
                   "reflection": "Who might this child want to show the star to?"
                 }
@@ -3809,16 +3809,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin is erasing the drawing. There are eraser crumbs beside the paper.",
-                  "x": 45,
-                  "y": 41,
+                  "x": 40.8,
+                  "y": 46,
                   "type": "action",
                   "reflection": "Could this child want to draw the star a little better?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin has lowered their head.",
-                  "x": 32,
-                  "y": 36,
+                  "x": 35.5,
+                  "y": 43,
                   "type": "action",
                   "reflection": "What might this person be thinking while looking down?"
                 }
@@ -3843,8 +3843,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin covers their drawing with their arms.",
-                  "x": 41,
-                  "y": 48,
+                  "x": 36.7,
+                  "y": 51.6,
                   "type": "action",
                   "reflection": "Could this child be unsure about showing the drawing?"
                 }
@@ -3869,16 +3869,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Jun has an open palm.",
-                  "x": 54.7,
-                  "y": 35,
+                  "x": 56,
+                  "y": 37.3,
                   "type": "action",
                   "reflection": "Could this person want to explain a thought?"
                 },
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin covers their drawing with their arms.",
-                  "x": 33,
-                  "y": 42,
+                  "x": 36,
+                  "y": 43,
                   "type": "action",
                   "reflection": "Could this child be unsure about showing the drawing?"
                 }
@@ -3903,8 +3903,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "Harin holds up a slightly crooked yellow star.",
-                  "x": 46,
-                  "y": 23,
+                  "x": 47.2,
+                  "y": 22.3,
                   "type": "action",
                   "reflection": "Who might this child want to show the star to?"
                 },
@@ -3937,8 +3937,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Heart key",
                   "message": "They stick different stars onto one sheet.",
-                  "x": 47,
-                  "y": 25,
+                  "x": 48,
+                  "y": 23,
                   "type": "action",
                   "reflection": "Could they want to include their friend’s star too?"
                 }
@@ -4026,16 +4026,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 54,
+              "x": 33.4,
+              "y": 52.3,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jiwoo sostiene una nota con dibujos de pan.",
-              "x": 40,
-              "y": 62,
+              "x": 38,
+              "y": 65,
               "type": "action",
               "reflection": "¿Querrá hacer bien el encargo?"
             }
@@ -4058,16 +4058,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene la boca un poco abierta.",
-              "x": 28,
-              "y": 49,
+              "x": 24.7,
+              "y": 57.6,
               "type": "expression",
               "reflection": "¿Qué querrá decir ahora?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "La panadera señala un pan.",
-              "x": 48,
-              "y": 59,
+              "x": 48.3,
+              "y": 60.5,
               "type": "action",
               "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
             }
@@ -4098,8 +4098,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jiwoo agarra las dos correas de la mochila.",
-              "x": 23,
-              "y": 72,
+              "x": 29,
+              "y": 75,
               "type": "action",
               "reflection": "¿Estará sujetándolo fuerte porque algo le preocupa?"
             },
@@ -4130,16 +4130,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene la boca un poco abierta.",
-              "x": 38,
-              "y": 48,
+              "x": 41.8,
+              "y": 54.4,
               "type": "expression",
               "reflection": "¿Qué querrá decir ahora?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
-              "x": 62,
-              "y": 56,
+              "x": 62.3,
+              "y": 54,
               "type": "action",
               "reflection": "¿Querrá cuidar un marcapáginas especial?"
             }
@@ -4178,8 +4178,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Junho tiene la palma abierta.",
-              "x": 74,
-              "y": 57,
+              "x": 69.3,
+              "y": 55,
               "type": "words",
               "reflection": "¿Querrá explicar lo que piensa?"
             }
@@ -4202,8 +4202,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 48,
+              "x": 27,
+              "y": 45.2,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -4211,7 +4211,7 @@ window.heartBookLocales = {
               "kind": "🔑 Llave del corazón",
               "message": "La panadera está entregando una bolsa de pan.",
               "x": 45,
-              "y": 56,
+              "y": 59,
               "type": "action",
               "reflection": "¿Cómo se sentirá al terminar el encargo?"
             }
@@ -4244,16 +4244,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 30,
-                  "y": 54,
+                  "x": 34,
+                  "y": 53.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo sostiene una nota con dibujos de pan.",
-                  "x": 41,
-                  "y": 61,
+                  "x": 39,
+                  "y": 64,
                   "type": "action",
                   "reflection": "¿Querrá hacer bien el encargo?"
                 }
@@ -4278,16 +4278,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
-                  "x": 29,
-                  "y": 50,
+                  "x": 27,
+                  "y": 59.7,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "La panadera señala un pan.",
-                  "x": 49,
-                  "y": 58,
+                  "x": 49.6,
+                  "y": 61,
                   "type": "action",
                   "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
                 }
@@ -4346,16 +4346,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
-                  "x": 37,
-                  "y": 48,
+                  "x": 39.5,
+                  "y": 57,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
-                  "x": 66,
-                  "y": 55,
+                  "x": 64.9,
+                  "y": 62.5,
                   "type": "action",
                   "reflection": "¿Querrá cuidar un marcapáginas especial?"
                 }
@@ -4380,8 +4380,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 30,
-                  "y": 49,
+                  "x": 33.4,
+                  "y": 37.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -4414,16 +4414,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 30,
-                  "y": 48,
+                  "x": 32,
+                  "y": 41.8,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "La panadera está entregando una bolsa de pan.",
-                  "x": 45,
-                  "y": 52,
+                  "x": 45.1,
+                  "y": 56.4,
                   "type": "action",
                   "reflection": "¿Cómo se sentirá al terminar el encargo?"
                 }
@@ -4465,8 +4465,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 81,
-                  "y": 46,
+                  "x": 76.8,
+                  "y": 41.9,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -4541,8 +4541,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Junho ha bajado la cabeza para mirar su propio libro.",
-                  "x": 16,
-                  "y": 44,
+                  "x": 17,
+                  "y": 49,
                   "type": "action",
                   "reflection": "¿Habrá algo del libro que le preocupe?"
                 }
@@ -4567,16 +4567,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene la boca un poco abierta.",
-                  "x": 82,
-                  "y": 46,
+                  "x": 75.4,
+                  "y": 49.8,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
-                  "x": 24,
-                  "y": 67,
+                  "x": 22.7,
+                  "y": 61.3,
                   "type": "action",
                   "reflection": "¿Querrá cuidar un marcapáginas especial?"
                 }
@@ -4601,8 +4601,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 58,
-                  "y": 50,
+                  "x": 57.5,
+                  "y": 45.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -4643,16 +4643,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jiwoo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 81,
-                  "y": 44,
+                  "x": 72.9,
+                  "y": 41.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "La panadera está entregando una bolsa de pan.",
-                  "x": 61,
-                  "y": 59,
+                  "x": 64,
+                  "y": 65,
                   "type": "action",
                   "reflection": "¿Cómo se sentirá al terminar el encargo?"
                 }
@@ -4699,8 +4699,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 57,
+              "x": 31.6,
+              "y": 61,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             }
@@ -4731,8 +4731,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Se ve una grieta fina en el costado de la taza azul.",
-              "x": 47,
-              "y": 85,
+              "x": 48.6,
+              "y": 83.5,
               "type": "action",
               "reflection": "¿Estará mirando la taza porque teme que se rompa?"
             }
@@ -4756,7 +4756,7 @@ window.heartBookLocales = {
               "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Minseo están hacia abajo.",
               "x": 30,
-              "y": 57,
+              "y": 52.5,
               "type": "expression",
               "reflection": "¿Habrá algo que todavía no hemos escuchado?"
             },
@@ -4795,8 +4795,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Se ve una grieta fina en el costado de la taza azul.",
-              "x": 47,
-              "y": 81,
+              "x": 48.5,
+              "y": 81.1,
               "type": "action",
               "reflection": "¿Estará mirando la taza porque teme que se rompa?"
             }
@@ -4819,8 +4819,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 57,
+              "x": 31.1,
+              "y": 43.5,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -4861,8 +4861,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 57,
+              "x": 34.5,
+              "y": 41.5,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             }
@@ -4892,8 +4892,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 30,
-                  "y": 55,
+                  "x": 33.3,
+                  "y": 52.6,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 }
@@ -4952,8 +4952,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Minseo están hacia abajo.",
-                  "x": 29,
-                  "y": 59,
+                  "x": 30.3,
+                  "y": 51,
                   "type": "expression",
                   "reflection": "¿Habrá algo que todavía no hemos escuchado?"
                 },
@@ -5020,8 +5020,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 30,
-                  "y": 56,
+                  "x": 31,
+                  "y": 40.7,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -5054,8 +5054,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 29,
-                  "y": 56,
+                  "x": 34.4,
+                  "y": 46.4,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -5105,8 +5105,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 77,
-                  "y": 40,
+                  "x": 76.5,
+                  "y": 44,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 }
@@ -5131,8 +5131,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Minseo están hacia abajo.",
-                  "x": 74,
-                  "y": 40,
+                  "x": 72.1,
+                  "y": 47.7,
                   "type": "expression",
                   "reflection": "¿Habrá algo que todavía no hemos escuchado?"
                 },
@@ -5225,8 +5225,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Yuna tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 53,
-                  "y": 41,
+                  "x": 54.2,
+                  "y": 43.8,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -5259,8 +5259,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Minseo tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 78,
-                  "y": 43,
+                  "x": 76.4,
+                  "y": 48.6,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 }
@@ -5360,16 +5360,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Noah ha bajado la cabeza.",
-              "x": 73,
-              "y": 48,
+              "x": 75.2,
+              "y": 61.3,
               "type": "action",
               "reflection": "¿En qué pensará mientras mira hacia abajo?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Noah acerca el plato a la otra persona.",
-              "x": 58,
-              "y": 85,
+              "x": 71.1,
+              "y": 85.5,
               "type": "action",
               "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
             }
@@ -5392,8 +5392,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene las dos manos juntas.",
-              "x": 30,
-              "y": 68,
+              "x": 36,
+              "y": 65.1,
               "type": "action",
               "reflection": "¿Estará pensando qué decir?"
             },
@@ -5424,16 +5424,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Noah tiene la boca un poco abierta.",
-              "x": 79,
-              "y": 59,
+              "x": 74.8,
+              "y": 58.1,
               "type": "expression",
               "reflection": "¿Qué querrá decir ahora?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene la palma abierta.",
-              "x": 50,
-              "y": 63,
+              "x": 48.9,
+              "y": 64.1,
               "type": "action",
               "reflection": "¿Querrá explicar lo que piensa?"
             }
@@ -5456,24 +5456,24 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 40,
-              "y": 54,
+              "x": 38.1,
+              "y": 52.5,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sofía señala a la otra persona.",
-              "x": 47,
-              "y": 71,
+              "x": 52.2,
+              "y": 61.5,
               "type": "action",
               "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Noah tiene la boca un poco abierta.",
-              "x": 76,
-              "y": 53,
+              "x": 77.1,
+              "y": 53.5,
               "type": "words",
               "reflection": "¿Qué querrá decir ahora?"
             }
@@ -5496,16 +5496,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 38,
-              "y": 58,
+              "x": 37.4,
+              "y": 52.1,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Cada niño sostiene un trozo del pan que compartieron.",
-              "x": 74,
-              "y": 73,
+              "x": 71.5,
+              "y": 66.7,
               "type": "action",
               "reflection": "¿Se habrán sentido más tranquilos al compartir?"
             }
@@ -5569,16 +5569,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la boca un poco abierta.",
-                  "x": 35,
-                  "y": 43,
+                  "x": 29.5,
+                  "y": 51.2,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Noah acerca el plato a la otra persona.",
-                  "x": 53,
-                  "y": 81,
+                  "x": 43,
+                  "y": 85.6,
                   "type": "action",
                   "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
                 }
@@ -5603,16 +5603,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la boca un poco abierta.",
-                  "x": 33,
-                  "y": 46,
+                  "x": 36.8,
+                  "y": 45.5,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene las dos manos juntas.",
-                  "x": 35,
-                  "y": 65,
+                  "x": 35.1,
+                  "y": 59.5,
                   "type": "action",
                   "reflection": "¿Estará pensando qué decir?"
                 }
@@ -5637,8 +5637,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofia tiene la boca un poco abierta.",
-                  "x": 37,
-                  "y": 50,
+                  "x": 34,
+                  "y": 47.5,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
@@ -5671,8 +5671,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 40,
-                  "y": 53,
+                  "x": 33.4,
+                  "y": 42.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -5705,8 +5705,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 36,
-                  "y": 47,
+                  "x": 34.5,
+                  "y": 44.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -5756,7 +5756,7 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Noah tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 23,
+                  "x": 25.5,
                   "y": 47,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
@@ -5798,8 +5798,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofia tiene la palma abierta.",
-                  "x": 71,
-                  "y": 46,
+                  "x": 66.8,
+                  "y": 53.4,
                   "type": "action",
                   "reflection": "¿Querrá explicar lo que piensa?"
                 }
@@ -5824,8 +5824,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Noah ha bajado la cabeza.",
-                  "x": 23,
-                  "y": 45,
+                  "x": 25.2,
+                  "y": 48.1,
                   "type": "action",
                   "reflection": "¿En qué pensará mientras mira hacia abajo?"
                 },
@@ -5833,7 +5833,7 @@ window.heartBookLocales = {
                   "kind": "🔑 Llave del corazón",
                   "message": "Una mano de Noah está sobre su pecho.",
                   "x": 22,
-                  "y": 61,
+                  "y": 58.4,
                   "type": "action",
                   "reflection": "¿Querrá contar cómo se siente?"
                 }
@@ -5866,8 +5866,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene la palma abierta.",
-                  "x": 68,
-                  "y": 44,
+                  "x": 65.7,
+                  "y": 48.2,
                   "type": "action",
                   "reflection": "¿Querrá explicar lo que piensa?"
                 }
@@ -5892,8 +5892,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 70,
-                  "y": 50,
+                  "x": 71,
+                  "y": 44.9,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -5926,16 +5926,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sofía tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 75,
-                  "y": 40,
+                  "x": 71.8,
+                  "y": 40.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Cada persona sostiene un trozo del pan compartido.",
-                  "x": 71,
-                  "y": 48,
+                  "x": 69.4,
+                  "y": 49,
                   "type": "action",
                   "reflection": "¿Se habrán sentido más tranquilos al compartir?"
                 }
@@ -6003,8 +6003,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 44,
+              "x": 28.8,
+              "y": 50.4,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -6035,16 +6035,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sora tiene los ojos muy abiertos y se ve la parte blanca.",
-              "x": 32,
-              "y": 45,
+              "x": 32.4,
+              "y": 40,
               "type": "expression",
               "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Asoma la punta de una estrella amarilla escondida detrás de la espalda.",
-              "x": 17,
-              "y": 70,
+              "x": 16.7,
+              "y": 62.5,
               "type": "action",
               "reflection": "¿Quizá todavía no está listo para mostrarlo?"
             }
@@ -6094,8 +6094,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sora se ha vuelto hacia la otra persona.",
-              "x": 35,
-              "y": 50,
+              "x": 32.8,
+              "y": 42.4,
               "type": "action",
               "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
             },
@@ -6150,8 +6150,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 32,
-              "y": 43,
+              "x": 37.2,
+              "y": 45.7,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -6231,8 +6231,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
-                  "x": 71,
-                  "y": 36,
+                  "x": 73.6,
+                  "y": 38.1,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
@@ -6307,16 +6307,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
-                  "x": 34,
-                  "y": 48,
+                  "x": 32.4,
+                  "y": 45.3,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Mamá tiene la palma abierta.",
-                  "x": 78,
-                  "y": 63,
+                  "x": 70.8,
+                  "y": 65,
                   "type": "action",
                   "reflection": "¿Estará esperando a escuchar lo que diga el niño?"
                 }
@@ -6367,16 +6367,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 43,
-                  "y": 43,
+                  "x": 46,
+                  "y": 45.2,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora extiende la mano hacia la estrella que están haciendo.",
-                  "x": 55,
-                  "y": 61,
+                  "x": 49.7,
+                  "y": 56.2,
                   "type": "action",
                   "reflection": "¿Querrán pegar también la estrella de su amigo?"
                 }
@@ -6434,8 +6434,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Mamá está junto a la entrada y sostiene la puerta azul.",
-                  "x": 6,
-                  "y": 47,
+                  "x": 6.6,
+                  "y": 36.1,
                   "type": "action",
                   "reflection": "¿A quién estará esperando mamá con la puerta abierta?"
                 }
@@ -6460,8 +6460,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
-                  "x": 63,
-                  "y": 48,
+                  "x": 64.7,
+                  "y": 45.4,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
@@ -6476,8 +6476,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Mamá está junto a la entrada y sostiene la puerta azul.",
-                  "x": 6,
-                  "y": 31,
+                  "x": 7.5,
+                  "y": 34.7,
                   "type": "action",
                   "reflection": "¿A quién estará esperando mamá con la puerta abierta?"
                 }
@@ -6502,8 +6502,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora ha bajado la cabeza.",
-                  "x": 24,
-                  "y": 44,
+                  "x": 27.3,
+                  "y": 46.5,
                   "type": "action",
                   "reflection": "¿En qué pensará mientras mira hacia abajo?"
                 },
@@ -6536,16 +6536,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene la boca un poco abierta.",
-                  "x": 26,
-                  "y": 44,
+                  "x": 34,
+                  "y": 41.9,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Mamá tiene la palma abierta.",
-                  "x": 55,
-                  "y": 47,
+                  "x": 53,
+                  "y": 51,
                   "type": "action",
                   "reflection": "¿Estará esperando a escuchar lo que diga el niño?"
                 }
@@ -6596,16 +6596,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sora tiene una sonrisa con las comisuras hacia arriba.",
-                  "x": 38,
-                  "y": 45,
+                  "x": 39.3,
+                  "y": 45.8,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Sus manos trabajan juntas para terminar la estrella amarilla.",
-                  "x": 61,
-                  "y": 64,
+                  "x": 59.4,
+                  "y": 56.5,
                   "type": "action",
                   "reflection": "¿Querrán pegar también la estrella de su amigo?"
                 }
@@ -6673,8 +6673,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 31,
-              "y": 44,
+              "x": 31.1,
+              "y": 43.8,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -6732,16 +6732,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Gia están hacia abajo.",
-              "x": 31,
-              "y": 49,
+              "x": 28.1,
+              "y": 45.5,
               "type": "expression",
               "reflection": "¿Habrá algo que todavía no hemos escuchado?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "El perro oscuro con la correa azul está oliendo la hierba.",
-              "x": 86,
-              "y": 84,
+              "x": 81.5,
+              "y": 81,
               "type": "action",
               "reflection": "¿Estará conociendo poco a poco un lugar nuevo?"
             }
@@ -6764,24 +6764,24 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Gia se ha vuelto hacia la otra persona.",
-              "x": 31,
-              "y": 46,
+              "x": 26.2,
+              "y": 45.2,
               "type": "action",
               "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "El perro oscuro con la correa azul está oliendo la hierba.",
-              "x": 52,
-              "y": 87,
+              "x": 55.5,
+              "y": 76,
               "type": "action",
               "reflection": "¿Estará conociendo poco a poco un lugar nuevo?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Luca tiene la boca un poco abierta.",
-              "x": 84,
-              "y": 46,
+              "x": 70.3,
+              "y": 44.2,
               "type": "words",
               "reflection": "¿Qué querrá decir ahora?"
             }
@@ -6836,8 +6836,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Gia tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 31,
-              "y": 45,
+              "x": 29.1,
+              "y": 40,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -6875,8 +6875,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 28.4,
+                  "y": 45.6,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -6909,8 +6909,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Gia tiene los ojos muy abiertos.",
-                  "x": 29,
-                  "y": 42,
+                  "x": 26.5,
+                  "y": 37.6,
                   "type": "expression",
                   "reflection": "¿Escuchamos un poco más para comprender cómo se siente?"
                 },
@@ -6943,16 +6943,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia abajo.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 29.1,
+                  "y": 46.5,
                   "type": "expression",
                   "reflection": "¿Habrá algo que todavía no hemos escuchado?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "El perro oscuro con la correa azul está oliendo la hierba.",
-                  "x": 63,
-                  "y": 87,
+                  "x": 62,
+                  "y": 83,
                   "type": "action",
                   "reflection": "¿Estará conociendo poco a poco un lugar nuevo?"
                 }
@@ -6977,16 +6977,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Gia ha bajado la cabeza.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 27,
+                  "y": 39,
                   "type": "action",
                   "reflection": "¿En qué pensará mientras mira hacia abajo?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "El perro oscuro con la correa azul está oliendo la hierba.",
-                  "x": 63,
-                  "y": 87,
+                  "x": 64,
+                  "y": 72,
                   "type": "action",
                   "reflection": "¿Estará conociendo poco a poco un lugar nuevo?"
                 }
@@ -7011,8 +7011,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 29,
-                  "y": 47,
+                  "x": 31.6,
+                  "y": 39.7,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7045,8 +7045,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 33,
-                  "y": 46,
+                  "x": 34.6,
+                  "y": 40.8,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7096,8 +7096,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 75.8,
-                  "y": 48.7,
+                  "x": 75.5,
+                  "y": 48.4,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7130,8 +7130,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Gia tiene la boca un poco abierta.",
-                  "x": 79.6,
-                  "y": 49.5,
+                  "x": 74.7,
+                  "y": 47.7,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
@@ -7164,8 +7164,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia abajo.",
-                  "x": 76.6,
-                  "y": 49.9,
+                  "x": 74.6,
+                  "y": 48.5,
                   "type": "expression",
                   "reflection": "¿Habrá algo que todavía no hemos escuchado?"
                 },
@@ -7198,8 +7198,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Luca tiene la boca un poco abierta.",
-                  "x": 21.1,
-                  "y": 45.5,
+                  "x": 21.3,
+                  "y": 45.6,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
@@ -7232,8 +7232,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 78.2,
-                  "y": 40.6,
+                  "x": 78.1,
+                  "y": 41.2,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7266,8 +7266,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Gia están hacia arriba.",
-                  "x": 76.9,
-                  "y": 44.8,
+                  "x": 74.9,
+                  "y": 43.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
@@ -7343,8 +7343,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 30,
-              "y": 45,
+              "x": 31,
+              "y": 54.1,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -7375,16 +7375,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jun tiene la boca un poco abierta.",
-              "x": 30,
-              "y": 48,
+              "x": 32.7,
+              "y": 55.8,
               "type": "expression",
               "reflection": "¿Qué querrá decir ahora?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Hay una goma y pequeñas virutas junto al papel.",
-              "x": 81,
-              "y": 81,
+              "x": 85,
+              "y": 87,
               "type": "action",
               "reflection": "¿Querrá dibujar un poco mejor la estrella?"
             }
@@ -7407,8 +7407,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Las comisuras de Jun están hacia abajo.",
-              "x": 30.3,
-              "y": 52.5,
+              "x": 30,
+              "y": 53.1,
               "type": "expression",
               "reflection": "¿Habrá algo que todavía no hemos escuchado?"
             },
@@ -7447,8 +7447,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jun tiene la palma abierta.",
-              "x": 36,
-              "y": 65,
+              "x": 36.9,
+              "y": 59.3,
               "type": "action",
               "reflection": "¿Querrá explicar lo que piensa?"
             }
@@ -7471,16 +7471,16 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Harin tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 70,
-              "y": 47,
+              "x": 73.8,
+              "y": 42.3,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
             {
               "kind": "🔑 Llave del corazón",
               "message": "Se ve una estrella un poco torcida en la mano de Harin.",
-              "x": 64,
-              "y": 47,
+              "x": 63.7,
+              "y": 42,
               "type": "action",
               "reflection": "¿A quién querrá mostrarle la estrella?"
             }
@@ -7503,8 +7503,8 @@ window.heartBookLocales = {
             {
               "kind": "🔑 Llave del corazón",
               "message": "Jun tiene una sonrisa con las comisuras hacia arriba.",
-              "x": 28,
-              "y": 49,
+              "x": 27.2,
+              "y": 47.2,
               "type": "expression",
               "reflection": "¿Qué pudo alegrarle?"
             },
@@ -7512,7 +7512,7 @@ window.heartBookLocales = {
               "kind": "🔑 Llave del corazón",
               "message": "Están pegando juntos sus estrellas distintas en una hoja.",
               "x": 55,
-              "y": 63,
+              "y": 68,
               "type": "action",
               "reflection": "¿Querrán pegar también la estrella de su amigo?"
             }
@@ -7542,16 +7542,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Jun están hacia arriba.",
-                  "x": 35,
-                  "y": 50,
+                  "x": 37.6,
+                  "y": 52.5,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Los niños sostienen estrellas de distintos colores.",
-                  "x": 74,
-                  "y": 67,
+                  "x": 76,
+                  "y": 78,
                   "type": "action",
                   "reflection": "¿A quién querrá mostrarle la estrella?"
                 }
@@ -7576,15 +7576,15 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la boca un poco abierta.",
-                  "x": 34,
-                  "y": 50,
+                  "x": 36.7,
+                  "y": 53.5,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin está borrando el dibujo. Hay virutas de goma junto al papel.",
-                  "x": 80,
+                  "x": 77,
                   "y": 77,
                   "type": "action",
                   "reflection": "¿Querrá dibujar un poco mejor la estrella?"
@@ -7610,16 +7610,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Jun están hacia abajo.",
-                  "x": 33,
-                  "y": 53,
+                  "x": 37.5,
+                  "y": 56.3,
                   "type": "expression",
                   "reflection": "¿Habrá algo que todavía no hemos escuchado?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin tapa su dibujo con los brazos.",
-                  "x": 84,
-                  "y": 77,
+                  "x": 83,
+                  "y": 65,
                   "type": "action",
                   "reflection": "¿Le dará reparo enseñar su dibujo?"
                 }
@@ -7645,15 +7645,15 @@ window.heartBookLocales = {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la boca un poco abierta.",
                   "x": 35,
-                  "y": 49,
+                  "y": 53.4,
                   "type": "expression",
                   "reflection": "¿Qué querrá decir ahora?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la palma abierta.",
-                  "x": 46,
-                  "y": 61,
+                  "x": 43.5,
+                  "y": 56.8,
                   "type": "action",
                   "reflection": "¿Querrá explicar lo que piensa?"
                 }
@@ -7678,16 +7678,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Jun están hacia arriba.",
-                  "x": 33,
-                  "y": 51,
+                  "x": 36.4,
+                  "y": 46.8,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin muestra una estrella amarilla un poco torcida.",
-                  "x": 68,
-                  "y": 55,
+                  "x": 70.2,
+                  "y": 38.9,
                   "type": "action",
                   "reflection": "¿A quién querrá mostrarle la estrella?"
                 }
@@ -7712,16 +7712,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Las comisuras de Jun están hacia arriba.",
-                  "x": 31,
-                  "y": 47,
+                  "x": 34,
+                  "y": 49.9,
                   "type": "expression",
                   "reflection": "¿Qué pudo alegrarle?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Están pegando estrellas diferentes en una hoja.",
-                  "x": 59,
-                  "y": 73,
+                  "x": 56.5,
+                  "y": 65,
                   "type": "action",
                   "reflection": "¿Querrán pegar también la estrella de su amigo?"
                 }
@@ -7763,16 +7763,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin sostiene una estrella azul.",
-                  "x": 43,
-                  "y": 40,
+                  "x": 44.5,
+                  "y": 43.5,
                   "type": "action",
                   "reflection": "¿A quién querrá mostrarle la estrella?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jun sostiene una estrella amarilla.",
-                  "x": 55,
-                  "y": 40,
+                  "x": 57.1,
+                  "y": 43.5,
                   "type": "action",
                   "reflection": "¿A quién querrá mostrarle la estrella?"
                 }
@@ -7797,16 +7797,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin está borrando el dibujo. Hay virutas de goma junto al papel.",
-                  "x": 45,
-                  "y": 41,
+                  "x": 40.8,
+                  "y": 46,
                   "type": "action",
                   "reflection": "¿Querrá dibujar un poco mejor la estrella?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin ha bajado la cabeza.",
-                  "x": 32,
-                  "y": 36,
+                  "x": 35.5,
+                  "y": 43,
                   "type": "action",
                   "reflection": "¿En qué pensará mientras mira hacia abajo?"
                 }
@@ -7831,8 +7831,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin tapa su dibujo con los brazos.",
-                  "x": 41,
-                  "y": 48,
+                  "x": 36.7,
+                  "y": 51.6,
                   "type": "action",
                   "reflection": "¿Le dará reparo enseñar su dibujo?"
                 }
@@ -7857,16 +7857,16 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Jun tiene la palma abierta.",
-                  "x": 54.7,
-                  "y": 35,
+                  "x": 56,
+                  "y": 37.3,
                   "type": "action",
                   "reflection": "¿Querrá explicar lo que piensa?"
                 },
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin tapa su dibujo con los brazos.",
-                  "x": 33,
-                  "y": 42,
+                  "x": 36,
+                  "y": 43,
                   "type": "action",
                   "reflection": "¿Le dará reparo enseñar su dibujo?"
                 }
@@ -7891,8 +7891,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Harin muestra una estrella amarilla un poco torcida.",
-                  "x": 46,
-                  "y": 23,
+                  "x": 47.2,
+                  "y": 22.3,
                   "type": "action",
                   "reflection": "¿A quién querrá mostrarle la estrella?"
                 },
@@ -7925,8 +7925,8 @@ window.heartBookLocales = {
                 {
                   "kind": "🔑 Llave del corazón",
                   "message": "Están pegando estrellas diferentes en una hoja.",
-                  "x": 47,
-                  "y": 25,
+                  "x": 48,
+                  "y": 23,
                   "type": "action",
                   "reflection": "¿Querrán pegar también la estrella de su amigo?"
                 }

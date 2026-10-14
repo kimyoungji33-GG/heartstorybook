@@ -37,16 +37,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 54,
+            "x": 33.4,
+            "y": 52.3,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 손에 빵 그림 쪽지가 있어요.",
-            "x": 40,
-            "y": 62,
+            "x": 38,
+            "y": 65,
             "type": "action",
             "reflection": "심부름을 잘 해보고 싶은 걸까요?"
           }
@@ -69,16 +69,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 입이 살짝 벌어져 있어요.",
-            "x": 28,
-            "y": 49,
+            "x": 24.7,
+            "y": 57.6,
             "type": "expression",
             "reflection": "지금 어떤 말을 하고 싶을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "빵집 주인의 손가락이 빵 하나를 가리켜요.",
-            "x": 48,
-            "y": 59,
+            "x": 48.3,
+            "y": 60.5,
             "type": "action",
             "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
           }
@@ -109,8 +109,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
-            "x": 23,
-            "y": 72,
+            "x": 29,
+            "y": 75,
             "type": "action",
             "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?"
           },
@@ -141,16 +141,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 입이 살짝 벌어져 있어요.",
-            "x": 38,
-            "y": 48,
+            "x": 41.8,
+            "y": 54.4,
             "type": "expression",
             "reflection": "지금 어떤 말을 하고 싶을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "노란 책 밖으로 파란 별 책갈피가 나와 있어요.",
-            "x": 62,
-            "y": 56,
+            "x": 62.3,
+            "y": 54,
             "type": "action",
             "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?"
           }
@@ -189,8 +189,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "준호의 손바닥이 펴져 있어요.",
-            "x": 74,
-            "y": 57,
+            "x": 69.3,
+            "y": 55,
             "type": "words",
             "reflection": "자기 생각을 설명하고 싶은 걸까요?"
           }
@@ -213,8 +213,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 48,
+            "x": 27,
+            "y": 45.2,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -222,7 +222,7 @@ const visualBooks = [
             "kind": "🔑 마음 열쇠",
             "message": "빵집 주인의 손에서 빵 봉지가 건네지고 있어요.",
             "x": 45,
-            "y": 56,
+            "y": 59,
             "type": "action",
             "reflection": "심부름을 마친 마음은 어떨까요?"
           }
@@ -255,16 +255,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
-                "x": 30,
-                "y": 54,
+                "x": 34,
+                "y": 53.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 손에 빵 그림 쪽지가 있어요.",
-                "x": 41,
-                "y": 61,
+                "x": 39,
+                "y": 64,
                 "type": "action",
                 "reflection": "심부름을 잘 해보고 싶은 걸까요?"
               }
@@ -289,16 +289,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
-                "x": 29,
-                "y": 50,
+                "x": 27,
+                "y": 59.7,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손가락이 빵 하나를 가리켜요.",
-                "x": 49,
-                "y": 58,
+                "x": 49.6,
+                "y": 61,
                 "type": "action",
                 "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
               }
@@ -357,16 +357,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
-                "x": 37,
-                "y": 48,
+                "x": 39.5,
+                "y": 57,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노란 책 밖으로 파란 별 책갈피가 나와 있어요.",
-                "x": 66,
-                "y": 55,
+                "x": 64.9,
+                "y": 62.5,
                 "type": "action",
                 "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?"
               }
@@ -391,8 +391,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
-                "x": 30,
-                "y": 49,
+                "x": 33.4,
+                "y": 37.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -425,16 +425,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
-                "x": 30,
-                "y": 48,
+                "x": 32,
+                "y": 41.8,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손에서 빵 봉지가 건네지고 있어요.",
-                "x": 45,
-                "y": 52,
+                "x": 45.1,
+                "y": 56.4,
                 "type": "action",
                 "reflection": "심부름을 마친 마음은 어떨까요?"
               }
@@ -476,8 +476,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
-                "x": 81,
-                "y": 46,
+                "x": 76.8,
+                "y": 41.9,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -552,8 +552,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준호가 고개를 숙이고 자기 책을 내려다보고 있어요.",
-                "x": 16,
-                "y": 44,
+                "x": 17,
+                "y": 49,
                 "type": "action",
                 "reflection": "책 때문에 신경 쓰이는 일이 있을까요?"
               }
@@ -578,16 +578,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입이 살짝 벌어져 있어요.",
-                "x": 82,
-                "y": 46,
+                "x": 75.4,
+                "y": 49.8,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노란 책 밖으로 파란 별 책갈피가 나와 있어요.",
-                "x": 24,
-                "y": 67,
+                "x": 22.7,
+                "y": 61.3,
                 "type": "action",
                 "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?"
               }
@@ -612,8 +612,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
-                "x": 58,
-                "y": 50,
+                "x": 57.5,
+                "y": 45.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -654,16 +654,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 입꼬리가 올라갔어요.",
-                "x": 81,
-                "y": 44,
+                "x": 72.9,
+                "y": 41.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "빵집 주인의 손에서 빵 봉지가 건네지고 있어요.",
-                "x": 61,
-                "y": 59,
+                "x": 64,
+                "y": 65,
                 "type": "action",
                 "reflection": "심부름을 마친 마음은 어떨까요?"
               }
@@ -711,8 +711,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 57,
+            "x": 31.6,
+            "y": 61,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           }
@@ -743,8 +743,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "파란 잔 옆면에 가느다란 금이 보여요.",
-            "x": 47,
-            "y": 85,
+            "x": 48.6,
+            "y": 83.5,
             "type": "action",
             "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
           }
@@ -768,7 +768,7 @@ const visualBooks = [
             "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 내려가 있어요.",
             "x": 30,
-            "y": 57,
+            "y": 52.5,
             "type": "expression",
             "reflection": "아직 듣지 못한 이야기가 있을까요?"
           },
@@ -807,8 +807,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "파란 잔 옆면에 가느다란 금이 보여요.",
-            "x": 47,
-            "y": 81,
+            "x": 48.5,
+            "y": 81.1,
             "type": "action",
             "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
           }
@@ -831,8 +831,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 57,
+            "x": 31.1,
+            "y": 43.5,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -873,8 +873,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 57,
+            "x": 34.5,
+            "y": 41.5,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           }
@@ -918,8 +918,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 30,
-                "y": 55,
+                "x": 33.3,
+                "y": 52.6,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               }
@@ -978,8 +978,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 내려가 있어요.",
-                "x": 29,
-                "y": 59,
+                "x": 30.3,
+                "y": 51,
                 "type": "expression",
                 "reflection": "아직 듣지 못한 이야기가 있을까요?"
               },
@@ -1046,8 +1046,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 30,
-                "y": 56,
+                "x": 31,
+                "y": 40.7,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -1080,8 +1080,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 29,
-                "y": 56,
+                "x": 34.4,
+                "y": 46.4,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -1145,8 +1145,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 77,
-                "y": 40,
+                "x": 76.5,
+                "y": 44,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               }
@@ -1171,8 +1171,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 내려가 있어요.",
-                "x": 74,
-                "y": 40,
+                "x": 72.1,
+                "y": 47.7,
                 "type": "expression",
                 "reflection": "아직 듣지 못한 이야기가 있을까요?"
               },
@@ -1265,8 +1265,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "유나의 입꼬리가 올라갔어요.",
-                "x": 53,
-                "y": 41,
+                "x": 54.2,
+                "y": 43.8,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -1299,8 +1299,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 78,
-                "y": 43,
+                "x": 76.4,
+                "y": 48.6,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               }
@@ -1416,16 +1416,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "노아의 고개가 아래로 향해 있어요.",
-            "x": 73,
-            "y": 48,
+            "x": 75.2,
+            "y": 61.3,
             "type": "action",
             "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "노아의 손이 접시를 상대 쪽으로 밀어요.",
-            "x": 58,
-            "y": 85,
+            "x": 71.1,
+            "y": 85.5,
             "type": "action",
             "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
           }
@@ -1448,8 +1448,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소피아의 두 손이 가까이 모여 있어요.",
-            "x": 30,
-            "y": 68,
+            "x": 36,
+            "y": 65.1,
             "type": "action",
             "reflection": "무슨 말을 해야 할지 생각하는 걸까요?"
           },
@@ -1480,16 +1480,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "노아의 입이 살짝 벌어져 있어요.",
-            "x": 79,
-            "y": 59,
+            "x": 74.8,
+            "y": 58.1,
             "type": "expression",
             "reflection": "지금 어떤 말을 하고 싶을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "소피아의 손바닥이 펴져 있어요.",
-            "x": 50,
-            "y": 63,
+            "x": 48.9,
+            "y": 64.1,
             "type": "action",
             "reflection": "자기 생각을 설명하고 싶은 걸까요?"
           }
@@ -1512,24 +1512,24 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소피아의 입꼬리가 올라갔어요.",
-            "x": 40,
-            "y": 54,
+            "x": 38.1,
+            "y": 52.5,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "소피아의 손가락이 상대를 가리켜요.",
-            "x": 47,
-            "y": 71,
+            "x": 52.2,
+            "y": 61.5,
             "type": "action",
             "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "노아의 입이 살짝 벌어져 있어요.",
-            "x": 76,
-            "y": 53,
+            "x": 77.1,
+            "y": 53.5,
             "type": "words",
             "reflection": "지금 어떤 말을 하고 싶을까요?"
           }
@@ -1552,16 +1552,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소피아의 입꼬리가 올라갔어요.",
-            "x": 38,
-            "y": 58,
+            "x": 37.4,
+            "y": 52.1,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "나눈 빵을 각자의 손에 들고 있어요.",
-            "x": 74,
-            "y": 73,
+            "x": 71.5,
+            "y": 66.7,
             "type": "action",
             "reflection": "서로 나누니 마음도 편해졌을까요?"
           }
@@ -1639,16 +1639,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입이 살짝 벌어져 있어요.",
-                "x": 35,
-                "y": 43,
+                "x": 29.5,
+                "y": 51.2,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노아의 손이 접시를 상대 쪽으로 밀어요.",
-                "x": 53,
-                "y": 81,
+                "x": 43,
+                "y": 85.6,
                 "type": "action",
                 "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
               }
@@ -1673,16 +1673,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입이 살짝 벌어져 있어요.",
-                "x": 33,
-                "y": 46,
+                "x": 36.8,
+                "y": 45.5,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 두 손이 가까이 모여 있어요.",
-                "x": 35,
-                "y": 65,
+                "x": 35.1,
+                "y": 59.5,
                 "type": "action",
                 "reflection": "무슨 말을 해야 할지 생각하는 걸까요?"
               }
@@ -1707,8 +1707,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입이 살짝 벌어져 있어요.",
-                "x": 37,
-                "y": 50,
+                "x": 34,
+                "y": 47.5,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
@@ -1741,8 +1741,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 40,
-                "y": 53,
+                "x": 33.4,
+                "y": 42.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -1775,8 +1775,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 36,
-                "y": 47,
+                "x": 34.5,
+                "y": 44.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -1840,7 +1840,7 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노아의 입꼬리가 올라갔어요.",
-                "x": 23,
+                "x": 25.5,
                 "y": 47,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
@@ -1882,8 +1882,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 손바닥이 펴져 있어요.",
-                "x": 71,
-                "y": 46,
+                "x": 66.8,
+                "y": 53.4,
                 "type": "action",
                 "reflection": "자기 생각을 설명하고 싶은 걸까요?"
               }
@@ -1908,8 +1908,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노아의 고개가 아래로 향해 있어요.",
-                "x": 23,
-                "y": 45,
+                "x": 25.2,
+                "y": 48.1,
                 "type": "action",
                 "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
               },
@@ -1917,7 +1917,7 @@ const visualBooks = [
                 "kind": "🔑 마음 열쇠",
                 "message": "노아의 한 손이 가슴에 닿아 있어요.",
                 "x": 22,
-                "y": 61,
+                "y": 58.4,
                 "type": "action",
                 "reflection": "자기 마음을 이야기하고 싶은 걸까요?"
               }
@@ -1950,8 +1950,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 손바닥이 펴져 있어요.",
-                "x": 68,
-                "y": 44,
+                "x": 65.7,
+                "y": 48.2,
                 "type": "action",
                 "reflection": "자기 생각을 설명하고 싶은 걸까요?"
               }
@@ -1976,8 +1976,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 70,
-                "y": 50,
+                "x": 71,
+                "y": 44.9,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -2010,16 +2010,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 75,
-                "y": 40,
+                "x": 71.8,
+                "y": 40.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "나눈 빵을 각자의 손에 들고 있어요.",
-                "x": 71,
-                "y": 48,
+                "x": 69.4,
+                "y": 49,
                 "type": "action",
                 "reflection": "서로 나누니 마음도 편해졌을까요?"
               }
@@ -2103,8 +2103,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소라의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 44,
+            "x": 28.8,
+            "y": 50.4,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -2135,16 +2135,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소라의 눈이 동그랗게 커졌어요. 흰자도 보여요.",
-            "x": 32,
-            "y": 45,
+            "x": 32.4,
+            "y": 40,
             "type": "expression",
             "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "등 뒤로 숨긴 노란 별 끝이 보여요.",
-            "x": 17,
-            "y": 70,
+            "x": 16.7,
+            "y": 62.5,
             "type": "action",
             "reflection": "아직 보여 줄 준비가 안 된 걸까요?"
           }
@@ -2194,8 +2194,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소라의 얼굴이 상대 쪽으로 돌아가 있어요.",
-            "x": 35,
-            "y": 50,
+            "x": 32.8,
+            "y": 42.4,
             "type": "action",
             "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
           },
@@ -2250,8 +2250,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "소라의 입꼬리가 올라갔어요.",
-            "x": 32,
-            "y": 43,
+            "x": 37.2,
+            "y": 45.7,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -2345,8 +2345,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 71,
-                "y": 36,
+                "x": 73.6,
+                "y": 38.1,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
@@ -2421,16 +2421,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 34,
-                "y": 48,
+                "x": 32.4,
+                "y": 45.3,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "엄마의 손바닥이 펴져 있어요.",
-                "x": 78,
-                "y": 63,
+                "x": 70.8,
+                "y": 65,
                 "type": "action",
                 "reflection": "아이의 말을 기다려 주려는 걸까요?"
               }
@@ -2481,16 +2481,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
-                "x": 43,
-                "y": 43,
+                "x": 46,
+                "y": 45.2,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라가 별을 만드는 쪽으로 손을 뻗고 있어요.",
-                "x": 55,
-                "y": 61,
+                "x": 49.7,
+                "y": 56.2,
                 "type": "action",
                 "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
               }
@@ -2562,8 +2562,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "엄마가 문 옆에 서서 파란 문을 잡고 있어요.",
-                "x": 6,
-                "y": 47,
+                "x": 6.6,
+                "y": 36.1,
                 "type": "action",
                 "reflection": "문을 열어 두고 누구를 기다리는 걸까요?"
               }
@@ -2588,8 +2588,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 63,
-                "y": 48,
+                "x": 64.7,
+                "y": 45.4,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
@@ -2604,8 +2604,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "엄마가 문 옆에 서서 파란 문을 잡고 있어요.",
-                "x": 6,
-                "y": 31,
+                "x": 7.5,
+                "y": 34.7,
                 "type": "action",
                 "reflection": "문을 열어 두고 누구를 기다리는 걸까요?"
               }
@@ -2630,8 +2630,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 고개가 아래로 향해 있어요.",
-                "x": 24,
-                "y": 44,
+                "x": 27.3,
+                "y": 46.5,
                 "type": "action",
                 "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
               },
@@ -2664,16 +2664,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 26,
-                "y": 44,
+                "x": 34,
+                "y": 41.9,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "엄마의 손바닥이 펴져 있어요.",
-                "x": 55,
-                "y": 47,
+                "x": 53,
+                "y": 51,
                 "type": "action",
                 "reflection": "아이의 말을 기다려 주려는 걸까요?"
               }
@@ -2724,16 +2724,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
-                "x": 38,
-                "y": 45,
+                "x": 39.3,
+                "y": 45.8,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "함께 손을 모아 노란 별을 마무리하고 있어요.",
-                "x": 61,
-                "y": 64,
+                "x": 59.4,
+                "y": 56.5,
                 "type": "action",
                 "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
               }
@@ -2817,8 +2817,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 올라갔어요.",
-            "x": 31,
-            "y": 44,
+            "x": 31.1,
+            "y": 43.8,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -2876,16 +2876,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 내려가 있어요.",
-            "x": 31,
-            "y": 49,
+            "x": 28.1,
+            "y": 45.5,
             "type": "expression",
             "reflection": "아직 듣지 못한 이야기가 있을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-            "x": 86,
-            "y": 84,
+            "x": 81.5,
+            "y": 81,
             "type": "action",
             "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
           }
@@ -2908,24 +2908,24 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지아의 얼굴이 상대 쪽으로 돌아가 있어요.",
-            "x": 31,
-            "y": 46,
+            "x": 26.2,
+            "y": 45.2,
             "type": "action",
             "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-            "x": 52,
-            "y": 87,
+            "x": 55.5,
+            "y": 76,
             "type": "action",
             "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "루카의 입이 살짝 벌어져 있어요.",
-            "x": 84,
-            "y": 46,
+            "x": 70.3,
+            "y": 44.2,
             "type": "words",
             "reflection": "지금 어떤 말을 하고 싶을까요?"
           }
@@ -2980,8 +2980,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "지아의 입꼬리가 올라갔어요.",
-            "x": 31,
-            "y": 45,
+            "x": 29.1,
+            "y": 40,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -3033,8 +3033,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 29,
-                "y": 47,
+                "x": 28.4,
+                "y": 45.6,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -3067,8 +3067,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 눈이 동그랗게 커졌어요.",
-                "x": 29,
-                "y": 42,
+                "x": 26.5,
+                "y": 37.6,
                 "type": "expression",
                 "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
               },
@@ -3101,16 +3101,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 내려가 있어요.",
-                "x": 29,
-                "y": 47,
+                "x": 29.1,
+                "y": 46.5,
                 "type": "expression",
                 "reflection": "아직 듣지 못한 이야기가 있을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-                "x": 63,
-                "y": 87,
+                "x": 62,
+                "y": 83,
                 "type": "action",
                 "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
               }
@@ -3135,16 +3135,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아가 고개를 내리고 있어요.",
-                "x": 29,
-                "y": 47,
+                "x": 27,
+                "y": 39,
                 "type": "action",
                 "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-                "x": 63,
-                "y": 87,
+                "x": 64,
+                "y": 72,
                 "type": "action",
                 "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
               }
@@ -3169,8 +3169,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 29,
-                "y": 47,
+                "x": 31.6,
+                "y": 39.7,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -3203,8 +3203,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 33,
-                "y": 46,
+                "x": 34.6,
+                "y": 40.8,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -3268,8 +3268,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 75.8,
-                "y": 48.7,
+                "x": 75.5,
+                "y": 48.4,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -3302,8 +3302,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입이 살짝 벌어져 있어요.",
-                "x": 79.6,
-                "y": 49.5,
+                "x": 74.7,
+                "y": 47.7,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
@@ -3336,8 +3336,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 내려가 있어요.",
-                "x": 76.6,
-                "y": 49.9,
+                "x": 74.6,
+                "y": 48.5,
                 "type": "expression",
                 "reflection": "아직 듣지 못한 이야기가 있을까요?"
               },
@@ -3370,8 +3370,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "루카의 입이 살짝 벌어져 있어요.",
-                "x": 21.1,
-                "y": 45.5,
+                "x": 21.3,
+                "y": 45.6,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
@@ -3404,8 +3404,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 78.2,
-                "y": 40.6,
+                "x": 78.1,
+                "y": 41.2,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -3438,8 +3438,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 76.9,
-                "y": 44.8,
+                "x": 74.9,
+                "y": 43.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
@@ -3531,8 +3531,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 올라갔어요.",
-            "x": 30,
-            "y": 45,
+            "x": 31,
+            "y": 54.1,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -3563,16 +3563,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "준의 입이 살짝 벌어져 있어요.",
-            "x": 30,
-            "y": 48,
+            "x": 32.7,
+            "y": 55.8,
             "type": "expression",
             "reflection": "지금 어떤 말을 하고 싶을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "종이 옆에 지우개와 작은 부스러기가 있어요.",
-            "x": 81,
-            "y": 81,
+            "x": 85,
+            "y": 87,
             "type": "action",
             "reflection": "별을 더 잘 그리고 싶은 마음일까요?"
           }
@@ -3595,8 +3595,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 내려가 있어요.",
-            "x": 30.3,
-            "y": 52.5,
+            "x": 30,
+            "y": 53.1,
             "type": "expression",
             "reflection": "아직 듣지 못한 이야기가 있을까요?"
           },
@@ -3635,8 +3635,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "준의 손바닥이 펴져 있어요.",
-            "x": 36,
-            "y": 65,
+            "x": 36.9,
+            "y": 59.3,
             "type": "action",
             "reflection": "자기 생각을 설명하고 싶은 걸까요?"
           }
@@ -3659,16 +3659,16 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "하린의 입꼬리가 올라갔어요.",
-            "x": 70,
-            "y": 47,
+            "x": 73.8,
+            "y": 42.3,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "하린의 손에 조금 삐뚤어진 별이 보여요.",
-            "x": 64,
-            "y": 47,
+            "x": 63.7,
+            "y": 42,
             "type": "action",
             "reflection": "누구에게 보여 주고 싶은 별일까요?"
           }
@@ -3691,8 +3691,8 @@ const visualBooks = [
           {
             "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 올라갔어요.",
-            "x": 28,
-            "y": 49,
+            "x": 27.2,
+            "y": 47.2,
             "type": "expression",
             "reflection": "어떤 일이 기뻤을까요?"
           },
@@ -3700,7 +3700,7 @@ const visualBooks = [
             "kind": "🔑 마음 열쇠",
             "message": "서로 다른 별을 한 종이에 함께 붙이고 있어요.",
             "x": 55,
-            "y": 63,
+            "y": 68,
             "type": "action",
             "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
           }
@@ -3744,16 +3744,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입꼬리가 올라가 있어요.",
-                "x": 35,
-                "y": 50,
+                "x": 37.6,
+                "y": 52.5,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "두 아이가 서로 다른 색의 별을 들고 있어요.",
-                "x": 74,
-                "y": 67,
+                "x": 76,
+                "y": 78,
                 "type": "action",
                 "reflection": "누구에게 보여 주고 싶은 별일까요?"
               }
@@ -3778,15 +3778,15 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입이 살짝 벌어져 있어요.",
-                "x": 34,
-                "y": 50,
+                "x": 36.7,
+                "y": 53.5,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 지우개로 그림을 지우고 있어요. 종이 옆에 부스러기도 보여요.",
-                "x": 80,
+                "x": 77,
                 "y": 77,
                 "type": "action",
                 "reflection": "별을 더 잘 그리고 싶은 마음일까요?"
@@ -3812,16 +3812,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입꼬리가 내려가 있어요.",
-                "x": 33,
-                "y": 53,
+                "x": 37.5,
+                "y": 56.3,
                 "type": "expression",
                 "reflection": "아직 듣지 못한 이야기가 있을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 팔로 자기 그림을 가리고 있어요.",
-                "x": 84,
-                "y": 77,
+                "x": 83,
+                "y": 65,
                 "type": "action",
                 "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
               }
@@ -3847,15 +3847,15 @@ const visualBooks = [
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입이 살짝 벌어져 있어요.",
                 "x": 35,
-                "y": 49,
+                "y": 53.4,
                 "type": "expression",
                 "reflection": "지금 어떤 말을 하고 싶을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 손바닥이 펴져 있어요.",
-                "x": 46,
-                "y": 61,
+                "x": 43.5,
+                "y": 56.8,
                 "type": "action",
                 "reflection": "자기 생각을 설명하고 싶은 걸까요?"
               }
@@ -3880,16 +3880,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입꼬리가 올라가 있어요.",
-                "x": 33,
-                "y": 51,
+                "x": 36.4,
+                "y": 46.8,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 조금 삐뚤어진 노란 별을 들어 보여요.",
-                "x": 68,
-                "y": 55,
+                "x": 70.2,
+                "y": 38.9,
                 "type": "action",
                 "reflection": "누구에게 보여 주고 싶은 별일까요?"
               }
@@ -3914,16 +3914,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입꼬리가 올라가 있어요.",
-                "x": 31,
-                "y": 47,
+                "x": 34,
+                "y": 49.9,
                 "type": "expression",
                 "reflection": "어떤 일이 기뻤을까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "서로 다른 별을 한 종이에 붙이고 있어요.",
-                "x": 59,
-                "y": 73,
+                "x": 56.5,
+                "y": 65,
                 "type": "action",
                 "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
               }
@@ -3979,16 +3979,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린의 손에 파란 별이 있어요.",
-                "x": 43,
-                "y": 40,
+                "x": 44.5,
+                "y": 43.5,
                 "type": "action",
                 "reflection": "누구에게 보여 주고 싶은 별일까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 손에 노란 별이 있어요.",
-                "x": 55,
-                "y": 40,
+                "x": 57.1,
+                "y": 43.5,
                 "type": "action",
                 "reflection": "누구에게 보여 주고 싶은 별일까요?"
               }
@@ -4013,16 +4013,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 지우개로 그림을 지우고 있어요. 종이 옆에 부스러기도 보여요.",
-                "x": 45,
-                "y": 41,
+                "x": 40.8,
+                "y": 46,
                 "type": "action",
                 "reflection": "별을 더 잘 그리고 싶은 마음일까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 고개를 내리고 있어요.",
-                "x": 32,
-                "y": 36,
+                "x": 35.5,
+                "y": 43,
                 "type": "action",
                 "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
               }
@@ -4047,8 +4047,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 팔로 자기 그림을 가리고 있어요.",
-                "x": 41,
-                "y": 48,
+                "x": 36.7,
+                "y": 51.6,
                 "type": "action",
                 "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
               }
@@ -4073,16 +4073,16 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 손바닥이 펴져 있어요.",
-                "x": 54.7,
-                "y": 35,
+                "x": 56,
+                "y": 37.3,
                 "type": "action",
                 "reflection": "자기 생각을 설명하고 싶은 걸까요?"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 팔로 자기 그림을 가리고 있어요.",
-                "x": 33,
-                "y": 42,
+                "x": 36,
+                "y": 43,
                 "type": "action",
                 "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
               }
@@ -4107,8 +4107,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "하린이 조금 삐뚤어진 노란 별을 들어 보여요.",
-                "x": 46,
-                "y": 23,
+                "x": 47.2,
+                "y": 22.3,
                 "type": "action",
                 "reflection": "누구에게 보여 주고 싶은 별일까요?"
               },
@@ -4141,8 +4141,8 @@ const visualBooks = [
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "서로 다른 별을 한 종이에 붙이고 있어요.",
-                "x": 47,
-                "y": 25,
+                "x": 48,
+                "y": 23,
                 "type": "action",
                 "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
               }
