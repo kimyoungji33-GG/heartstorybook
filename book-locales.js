@@ -3124,12 +3124,12 @@ window.heartBookLocales = {
               ],
               "panel": 0,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.2670623145400595,
+              "aspect": 2.2671,
               "crop": {
                 "x": 0,
                 "y": 0,
-                "w": 49.73958333333333,
-                "h": 32.91015625
+                "w": 49.7396,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3158,12 +3158,12 @@ window.heartBookLocales = {
               ],
               "panel": 1,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.2670623145400595,
+              "aspect": 2.2671,
               "crop": {
-                "x": 50.260416666666664,
+                "x": 50.2604,
                 "y": 0,
-                "w": 49.73958333333333,
-                "h": 32.91015625
+                "w": 49.7396,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3192,12 +3192,12 @@ window.heartBookLocales = {
               ],
               "panel": 2,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
                 "x": 0,
-                "y": 33.69140625,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "y": 33.6914,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3226,12 +3226,12 @@ window.heartBookLocales = {
               ],
               "panel": 3,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
-                "x": 50.260416666666664,
-                "y": 33.69140625,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "x": 50.2604,
+                "y": 33.6914,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3260,12 +3260,12 @@ window.heartBookLocales = {
               ],
               "panel": 4,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
                 "x": 0,
-                "y": 67.3828125,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "y": 67.3828,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3294,12 +3294,12 @@ window.heartBookLocales = {
               ],
               "panel": 5,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
-                "x": 50.260416666666664,
-                "y": 67.3828125,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "x": 50.2604,
+                "y": 67.3828,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -3308,12 +3308,12 @@ window.heartBookLocales = {
           "atlas": "./images/ball-guide-close-position-v2-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.2670623145400595,
+          "aspect": 2.2671,
           "crop": {
             "x": 0,
             "y": 0,
-            "w": 49.73958333333333,
-            "h": 32.91015625
+            "w": 49.7396,
+            "h": 32.9102
           }
         }
       ],
@@ -7112,12 +7112,12 @@ window.heartBookLocales = {
               ],
               "panel": 0,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.2670623145400595,
+              "aspect": 2.2671,
               "crop": {
                 "x": 0,
                 "y": 0,
-                "w": 49.73958333333333,
-                "h": 32.91015625
+                "w": 49.7396,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7146,12 +7146,12 @@ window.heartBookLocales = {
               ],
               "panel": 1,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.2670623145400595,
+              "aspect": 2.2671,
               "crop": {
-                "x": 50.260416666666664,
+                "x": 50.2604,
                 "y": 0,
-                "w": 49.73958333333333,
-                "h": 32.91015625
+                "w": 49.7396,
+                "h": 32.9102
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7180,12 +7180,12 @@ window.heartBookLocales = {
               ],
               "panel": 2,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
                 "x": 0,
-                "y": 33.69140625,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "y": 33.6914,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7214,12 +7214,12 @@ window.heartBookLocales = {
               ],
               "panel": 3,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
-                "x": 50.260416666666664,
-                "y": 33.69140625,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "x": 50.2604,
+                "y": 33.6914,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7248,12 +7248,12 @@ window.heartBookLocales = {
               ],
               "panel": 4,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
                 "x": 0,
-                "y": 67.3828125,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "y": 67.3828,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7282,12 +7282,12 @@ window.heartBookLocales = {
               ],
               "panel": 5,
               "atlas": "./images/ball-guide-close-position-v2-lens.png",
-              "aspect": 2.287425149700599,
+              "aspect": 2.2874,
               "crop": {
-                "x": 50.260416666666664,
-                "y": 67.3828125,
-                "w": 49.73958333333333,
-                "h": 32.6171875
+                "x": 50.2604,
+                "y": 67.3828,
+                "w": 49.7396,
+                "h": 32.6172
               },
               "atlasRows": 3,
               "atlasCols": 2
@@ -7296,12 +7296,12 @@ window.heartBookLocales = {
           "atlas": "./images/ball-guide-close-position-v2-lens.png",
           "atlasRows": 3,
           "atlasCols": 2,
-          "aspect": 2.2670623145400595,
+          "aspect": 2.2671,
           "crop": {
             "x": 0,
             "y": 0,
-            "w": 49.73958333333333,
-            "h": 32.91015625
+            "w": 49.7396,
+            "h": 32.9102
           }
         }
       ],
