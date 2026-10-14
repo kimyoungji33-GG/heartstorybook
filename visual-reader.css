@@ -43,3 +43,18 @@ html[lang=ko] body[data-audience=child] .story{font-family:'Hi Melody','Gamja Fl
 .picture .spot-badge span{width:18px;height:18px;font-size:10px;transform:translate(-50%,-50%)}
 .picture .spot-badge::after{left:calc(50% - 24px);width:15px;opacity:.75}
 @media(max-width:650px){.picture .spot-badge{transform:translate(calc(21px - 50%),-50%)}.picture .spot-badge::after{left:calc(50% - 21px);width:12px}.picture .spot-badge span{width:18px;height:18px;font-size:10px}}
+
+/* Explicit endpoint links each nearby badge to the exact observed feature. */
+.picture .spot-badge::after{height:2px;background:#786b4f;opacity:.85}
+.picture .spot-target::before{content:'';position:absolute;left:50%;top:50%;width:4px;height:4px;transform:translate(-50%,-50%);border:1px solid #786b4f;border-radius:50%;background:transparent;pointer-events:none}
+.picture .spot-badge:hover::after,.picture .spot-badge[aria-pressed=true]::after{background:#526646;opacity:1}
+
+/* Mouth badges sit below the mouth; eye/gaze badges above the face. */
+.picture .spot-badge[data-placement=below]{transform:translate(-50%,calc(30px - 50%))}
+.picture .spot-badge[data-placement=below]::after{left:50%;top:calc(50% - 30px);width:2px;height:21px}
+.picture .spot-badge[data-placement=above]{transform:translate(-50%,calc(-30px - 50%))}
+.picture .spot-badge[data-placement=above]::after{left:50%;top:calc(50% + 9px);width:2px;height:21px}
+
+/* Neighbouring touch areas are arranged separately at each picture size. */
+.picture .spot-badge[data-placement]{transform:translate(calc(var(--badge-dx,24px) - 50%),calc(var(--badge-dy,0px) - 50%))}
+.picture .spot-badge[data-placement]::after{left:calc(50% - var(--badge-dx,24px));top:calc(50% - var(--badge-dy,0px));width:var(--leader-length,15px);height:2px;transform:rotate(var(--leader-angle,0rad));transform-origin:0 50%}

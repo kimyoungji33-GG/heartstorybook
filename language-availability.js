@@ -10,7 +10,7 @@
     for(const select of document.querySelectorAll('select')){
       const options=Array.from(select.options);
       if(!options.some(o=>o.value==='ko')||!options.some(o=>o.value==='en'))continue;
-      for(const option of options){if(option.value==='en'){if(option.textContent!=='English · 준비 중')option.textContent='English · 준비 중';option.disabled=true;}else if(option.value==='es'){if(option.textContent!=='Español · 준비 중')option.textContent='Español · 준비 중';option.disabled=true;}}
+      for(const option of options){const labels={ko:'🇰🇷 한국어',en:'🇺🇸 English · 준비 중',es:'🇪🇸 Español · 준비 중'};if(labels[option.value]&&option.textContent!==labels[option.value])option.textContent=labels[option.value];if(option.value==='en'||option.value==='es')option.disabled=true;}
       select.value='ko';
     }
   }

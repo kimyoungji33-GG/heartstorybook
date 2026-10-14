@@ -40,7 +40,8 @@
             "x": 33.4,
             "y": 52.3,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -48,7 +49,8 @@
             "x": 38,
             "y": 65,
             "type": "action",
-            "reflection": "심부름을 잘 해보고 싶은 걸까요?"
+            "reflection": "심부름을 잘 해보고 싶은 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -68,11 +70,12 @@
         "clues": [
           {
             "kind": "🔑 마음 열쇠",
-            "message": "지우의 입이 살짝 벌어져 있어요.",
+            "message": "지우가 손가락을 살짝 물고 있어요.",
             "x": 24.7,
             "y": 57.6,
-            "type": "expression",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "type": "action",
+            "reflection": "빵을 고르며 어떤 생각을 하고 있을까요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -80,7 +83,8 @@
             "x": 48.3,
             "y": 60.5,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "right"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -104,15 +108,17 @@
             "x": 28,
             "y": 49,
             "type": "action",
-            "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+            "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
-            "x": 29,
-            "y": 75,
+            "x": 25,
+            "y": 73.5,
             "type": "action",
-            "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?"
+            "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?",
+            "labelPosition": "right"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -120,7 +126,8 @@
             "x": 80,
             "y": 52,
             "type": "action",
-            "reflection": "책 때문에 신경 쓰이는 일이 있을까요?"
+            "reflection": "책 때문에 신경 쓰이는 일이 있을까요?",
+            "labelPosition": "above"
           }
         ],
         "atlas": "./images/errand-view-0-gaze.png",
@@ -144,7 +151,8 @@
             "x": 41.8,
             "y": 54.4,
             "type": "expression",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -152,7 +160,8 @@
             "x": 62.3,
             "y": 54,
             "type": "action",
-            "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?"
+            "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -176,7 +185,8 @@
             "x": 30,
             "y": 49,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -184,15 +194,17 @@
             "x": 39,
             "y": 62,
             "type": "action",
-            "reflection": "심부름을 잘 해보고 싶은 걸까요?"
+            "reflection": "심부름을 잘 해보고 싶은 걸까요?",
+            "labelPosition": "right"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "준호의 손바닥이 펴져 있어요.",
-            "x": 69.3,
-            "y": 55,
+            "x": 71,
+            "y": 50,
             "type": "words",
-            "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+            "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -216,7 +228,8 @@
             "x": 27,
             "y": 45.2,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -224,7 +237,8 @@
             "x": 45,
             "y": 59,
             "type": "action",
-            "reflection": "심부름을 마친 마음은 어떨까요?"
+            "reflection": "심부름을 마친 마음은 어떨까요?",
+            "labelPosition": "right"
           }
         ],
         "atlas": "./images/errand-view-0.png",
@@ -258,7 +272,8 @@
                 "x": 34,
                 "y": 53.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -266,7 +281,8 @@
                 "x": 39,
                 "y": 64,
                 "type": "action",
-                "reflection": "심부름을 잘 해보고 싶은 걸까요?"
+                "reflection": "심부름을 잘 해보고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -288,11 +304,12 @@
             "clues": [
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "지우의 입이 살짝 벌어져 있어요.",
+                "message": "지우가 손가락을 살짝 물고 있어요.",
                 "x": 27,
-                "y": 59.7,
-                "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "y": 58.1,
+                "type": "action",
+                "reflection": "빵을 고르며 어떤 생각을 하고 있을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -300,7 +317,8 @@
                 "x": 49.6,
                 "y": 61,
                 "type": "action",
-                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -326,15 +344,17 @@
                 "x": 23,
                 "y": 59,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
-                "x": 24,
-                "y": 73,
+                "x": 18.5,
+                "y": 73.6,
                 "type": "action",
-                "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?"
+                "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-1-gaze-lens.png",
@@ -360,7 +380,8 @@
                 "x": 39.5,
                 "y": 57,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -368,7 +389,8 @@
                 "x": 64.9,
                 "y": 62.5,
                 "type": "action",
-                "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?"
+                "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -394,7 +416,8 @@
                 "x": 33.4,
                 "y": 37.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -402,7 +425,8 @@
                 "x": 40,
                 "y": 61,
                 "type": "action",
-                "reflection": "심부름을 잘 해보고 싶은 걸까요?"
+                "reflection": "심부름을 잘 해보고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -428,7 +452,8 @@
                 "x": 32,
                 "y": 41.8,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -436,7 +461,8 @@
                 "x": 45.1,
                 "y": 56.4,
                 "type": "action",
-                "reflection": "심부름을 마친 마음은 어떨까요?"
+                "reflection": "심부름을 마친 마음은 어떨까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-1-lens.png",
@@ -479,7 +505,8 @@
                 "x": 76.8,
                 "y": 41.9,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -487,7 +514,8 @@
                 "x": 73,
                 "y": 59,
                 "type": "action",
-                "reflection": "심부름을 잘 해보고 싶은 걸까요?"
+                "reflection": "심부름을 잘 해보고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -513,7 +541,8 @@
                 "x": 76.8,
                 "y": 45,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               }
             ],
             "atlas": "./images/errand-owner-scene2-mouth53-lens.png",
@@ -539,15 +568,17 @@
                 "x": 80,
                 "y": 46,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지우의 두 손이 배낭끈을 꼭 쥐고 있어요.",
-                "x": 81,
-                "y": 73,
+                "x": 75.5,
+                "y": 71.5,
                 "type": "action",
-                "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?"
+                "reflection": "무언가 걱정되어 손에 힘이 들어간 걸까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -555,7 +586,8 @@
                 "x": 17,
                 "y": 49,
                 "type": "action",
-                "reflection": "책 때문에 신경 쓰이는 일이 있을까요?"
+                "reflection": "책 때문에 신경 쓰이는 일이 있을까요?",
+                "labelPosition": "above"
               }
             ],
             "atlas": "./images/errand-2-gaze-lens.png",
@@ -581,7 +613,8 @@
                 "x": 75.4,
                 "y": 49.8,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -589,7 +622,8 @@
                 "x": 22.7,
                 "y": 61.3,
                 "type": "action",
-                "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?"
+                "reflection": "소중한 책갈피를 잘 지키고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -615,7 +649,8 @@
                 "x": 57.5,
                 "y": 45.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -623,7 +658,8 @@
                 "x": 57,
                 "y": 65,
                 "type": "action",
-                "reflection": "심부름을 잘 해보고 싶은 걸까요?"
+                "reflection": "심부름을 잘 해보고 싶은 걸까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -631,7 +667,8 @@
                 "x": 15.3,
                 "y": 24.5,
                 "type": "words",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "어떤 일이 기뻤을까요?",
+                "labelPosition": "below"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -657,7 +694,8 @@
                 "x": 72.9,
                 "y": 41.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -665,7 +703,8 @@
                 "x": 64,
                 "y": 65,
                 "type": "action",
-                "reflection": "심부름을 마친 마음은 어떨까요?"
+                "reflection": "심부름을 마친 마음은 어떨까요?",
+                "labelPosition": "right"
               }
             ],
             "atlas": "./images/errand-2-lens.png",
@@ -714,7 +753,8 @@
             "x": 31.6,
             "y": 61,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           }
         ],
         "panel": 0,
@@ -738,7 +778,8 @@
             "x": 31.8,
             "y": 62,
             "type": "expression",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -746,7 +787,8 @@
             "x": 48.6,
             "y": 83.5,
             "type": "action",
-            "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
+            "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 0,
@@ -770,7 +812,8 @@
             "x": 30,
             "y": 52.5,
             "type": "expression",
-            "reflection": "아직 듣지 못한 이야기가 있을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -778,7 +821,8 @@
             "x": 52,
             "y": 65,
             "type": "action",
-            "reflection": "손이 왜 잔 앞에서 멈췄을까요?"
+            "reflection": "손이 왜 잔 앞에서 멈췄을까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 2,
@@ -802,7 +846,8 @@
             "x": 30,
             "y": 57,
             "type": "action",
-            "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+            "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -810,7 +855,8 @@
             "x": 48.5,
             "y": 81.1,
             "type": "action",
-            "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
+            "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 3,
@@ -834,7 +880,8 @@
             "x": 31.1,
             "y": 43.5,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -842,7 +889,8 @@
             "x": 58.3,
             "y": 53,
             "type": "action",
-            "reflection": "편하게 마실 수 있도록 도와주려는 걸까요?"
+            "reflection": "편하게 마실 수 있도록 도와주려는 걸까요?",
+            "labelPosition": "right"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -850,7 +898,8 @@
             "x": 65.5,
             "y": 54.3,
             "type": "words",
-            "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+            "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 4,
@@ -874,9 +923,10 @@
             "kind": "🔑 마음 열쇠",
             "message": "민서의 입꼬리가 올라갔어요.",
             "x": 34.5,
-            "y": 41.5,
+            "y": 45.7,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           }
         ],
         "panel": 5,
@@ -921,7 +971,8 @@
                 "x": 33.3,
                 "y": 52.6,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               }
             ],
             "panel": 0,
@@ -943,19 +994,21 @@
             "clues": [
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "민서의 입이 살짝 벌어져 있어요.",
-                "x": 35.4,
-                "y": 52.1,
-                "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "message": "민서가 손을 턱에 대고 있어요.",
+                "x": 34.3,
+                "y": 60,
+                "type": "action",
+                "reflection": "말을 꺼내기 전에 생각하고 있는 걸까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
-                "x": 42,
-                "y": 80,
+                "x": 42.8,
+                "y": 77.4,
                 "type": "action",
-                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
+                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -981,7 +1034,8 @@
                 "x": 30.3,
                 "y": 51,
                 "type": "expression",
-                "reflection": "아직 듣지 못한 이야기가 있을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -989,7 +1043,8 @@
                 "x": 57,
                 "y": 66,
                 "type": "action",
-                "reflection": "손이 왜 잔 앞에서 멈췄을까요?"
+                "reflection": "손이 왜 잔 앞에서 멈췄을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -1015,15 +1070,17 @@
                 "x": 31,
                 "y": 59,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
-                "x": 43,
-                "y": 81,
+                "x": 46.3,
+                "y": 81.9,
                 "type": "action",
-                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
+                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -1049,7 +1106,8 @@
                 "x": 31,
                 "y": 40.7,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1057,7 +1115,8 @@
                 "x": 50,
                 "y": 61,
                 "type": "action",
-                "reflection": "편하게 마실 수 있도록 도와주려는 걸까요?"
+                "reflection": "편하게 마실 수 있도록 도와주려는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 4,
@@ -1080,10 +1139,11 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 34.4,
-                "y": 46.4,
+                "x": 34.8,
+                "y": 44.9,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1091,7 +1151,8 @@
                 "x": 66,
                 "y": 42,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,
@@ -1146,9 +1207,10 @@
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
                 "x": 76.5,
-                "y": 44,
+                "y": 47,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               }
             ],
             "panel": 0,
@@ -1174,15 +1236,17 @@
                 "x": 72.1,
                 "y": 47.7,
                 "type": "expression",
-                "reflection": "아직 듣지 못한 이야기가 있을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
-                "x": 70,
-                "y": 61,
+                "x": 68.6,
+                "y": 62.5,
                 "type": "action",
-                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
+                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -1208,7 +1272,8 @@
                 "x": 79,
                 "y": 51,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               }
             ],
             "panel": 2,
@@ -1234,15 +1299,17 @@
                 "x": 80,
                 "y": 48,
                 "type": "expression",
-                "reflection": "아직 듣지 못한 이야기가 있을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "파란 잔 옆면에 가느다란 금이 보여요.",
-                "x": 75,
-                "y": 58,
+                "x": 76.5,
+                "y": 59.1,
                 "type": "action",
-                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?"
+                "reflection": "친구는 잔이 깨질까 봐 살피는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -1265,10 +1332,11 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "유나의 입꼬리가 올라갔어요.",
-                "x": 54.2,
-                "y": 43.8,
+                "x": 52.7,
+                "y": 40.8,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1276,7 +1344,8 @@
                 "x": 55,
                 "y": 60,
                 "type": "action",
-                "reflection": "편하게 마실 수 있도록 도와주려는 걸까요?"
+                "reflection": "편하게 마실 수 있도록 도와주려는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -1299,10 +1368,11 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "민서의 입꼬리가 올라갔어요.",
-                "x": 76.4,
-                "y": 48.6,
+                "x": 75.5,
+                "y": 47.3,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               }
             ],
             "panel": 5,
@@ -1387,7 +1457,8 @@
             "x": 42,
             "y": 62,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -1395,7 +1466,8 @@
             "x": 55,
             "y": 83,
             "type": "action",
-            "reflection": "친구도 먹고 싶을지 생각하는 걸까요?"
+            "reflection": "친구도 먹고 싶을지 생각하는 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 0,
@@ -1419,15 +1491,17 @@
             "x": 75.2,
             "y": 61.3,
             "type": "action",
-            "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+            "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "노아의 손이 접시를 상대 쪽으로 밀어요.",
+            "message": "노아의 손이 접시 옆에 닿아 있어요.",
             "x": 71.1,
             "y": 85.5,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "이 손짓은 어떤 뜻일까요? 이야기를 더 읽어 볼까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 1,
@@ -1451,7 +1525,8 @@
             "x": 36,
             "y": 65.1,
             "type": "action",
-            "reflection": "무슨 말을 해야 할지 생각하는 걸까요?"
+            "reflection": "무슨 말을 해야 할지 생각하는 걸까요?",
+            "labelPosition": "right"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -1459,7 +1534,8 @@
             "x": 73,
             "y": 69,
             "type": "action",
-            "reflection": "자기 마음을 이야기하고 싶은 걸까요?"
+            "reflection": "자기 마음을 이야기하고 싶은 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 2,
@@ -1483,7 +1559,8 @@
             "x": 74.8,
             "y": 58.1,
             "type": "expression",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -1491,7 +1568,8 @@
             "x": 48.9,
             "y": 64.1,
             "type": "action",
-            "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+            "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 3,
@@ -1515,7 +1593,8 @@
             "x": 38.1,
             "y": 52.5,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -1523,7 +1602,8 @@
             "x": 52.2,
             "y": 61.5,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "right"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -1531,7 +1611,8 @@
             "x": 77.1,
             "y": 53.5,
             "type": "words",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           }
         ],
         "panel": 4,
@@ -1553,9 +1634,10 @@
             "kind": "🔑 마음 열쇠",
             "message": "소피아의 입꼬리가 올라갔어요.",
             "x": 37.4,
-            "y": 52.1,
+            "y": 53.8,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -1563,7 +1645,8 @@
             "x": 71.5,
             "y": 66.7,
             "type": "action",
-            "reflection": "서로 나누니 마음도 편해졌을까요?"
+            "reflection": "서로 나누니 마음도 편해졌을까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 5,
@@ -1608,7 +1691,8 @@
                 "x": 40,
                 "y": 50,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1616,7 +1700,8 @@
                 "x": 48,
                 "y": 79,
                 "type": "action",
-                "reflection": "친구도 먹고 싶을지 생각하는 걸까요?"
+                "reflection": "친구도 먹고 싶을지 생각하는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -1638,19 +1723,21 @@
             "clues": [
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "소피아의 입이 살짝 벌어져 있어요.",
-                "x": 29.5,
-                "y": 51.2,
-                "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "message": "소피아의 한 손이 펼쳐져 있어요.",
+                "x": 41,
+                "y": 70,
+                "type": "action",
+                "reflection": "소피아는 어떤 말을 건네고 싶을까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "노아의 손이 접시를 상대 쪽으로 밀어요.",
+                "message": "노아의 손이 접시 옆에 닿아 있어요.",
                 "x": 43,
                 "y": 85.6,
                 "type": "action",
-                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+                "reflection": "이 손짓은 어떤 뜻일까요? 이야기를 더 읽어 볼까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -1672,11 +1759,12 @@
             "clues": [
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "소피아의 입이 살짝 벌어져 있어요.",
-                "x": 36.8,
-                "y": 45.5,
-                "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "message": "소피아가 노아 쪽을 바라보고 있어요.",
+                "x": 31,
+                "y": 42,
+                "type": "action",
+                "reflection": "노아에게 어떤 말을 하고 싶을까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1684,7 +1772,8 @@
                 "x": 35.1,
                 "y": 59.5,
                 "type": "action",
-                "reflection": "무슨 말을 해야 할지 생각하는 걸까요?"
+                "reflection": "무슨 말을 해야 할지 생각하는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -1710,7 +1799,8 @@
                 "x": 34,
                 "y": 47.5,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1718,7 +1808,8 @@
                 "x": 48,
                 "y": 65,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -1744,15 +1835,17 @@
                 "x": 33.4,
                 "y": 42.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "노아의 손가락이 상대를 가리켜요.",
                 "x": 57,
-                "y": 47,
+                "y": 52.4,
                 "type": "action",
-                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 4,
@@ -1778,7 +1871,8 @@
                 "x": 34.5,
                 "y": 44.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1786,7 +1880,8 @@
                 "x": 36,
                 "y": 58,
                 "type": "action",
-                "reflection": "서로 나누니 마음도 편해졌을까요?"
+                "reflection": "서로 나누니 마음도 편해졌을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,
@@ -1843,7 +1938,8 @@
                 "x": 25.5,
                 "y": 47,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1851,7 +1947,8 @@
                 "x": 61,
                 "y": 46,
                 "type": "action",
-                "reflection": "친구도 먹고 싶을지 생각하는 걸까요?"
+                "reflection": "친구도 먹고 싶을지 생각하는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -1877,7 +1974,8 @@
                 "x": 23,
                 "y": 45,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1885,7 +1983,8 @@
                 "x": 66.8,
                 "y": 53.4,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -1911,7 +2010,8 @@
                 "x": 25.2,
                 "y": 48.1,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1919,7 +2019,8 @@
                 "x": 22,
                 "y": 58.4,
                 "type": "action",
-                "reflection": "자기 마음을 이야기하고 싶은 걸까요?"
+                "reflection": "자기 마음을 이야기하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -1945,7 +2046,8 @@
                 "x": 23,
                 "y": 45,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1953,7 +2055,8 @@
                 "x": 65.7,
                 "y": 48.2,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -1976,10 +2079,11 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 71,
-                "y": 44.9,
+                "x": 72.7,
+                "y": 43.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -1987,7 +2091,8 @@
                 "x": 67,
                 "y": 44,
                 "type": "action",
-                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 4,
@@ -2010,10 +2115,11 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소피아의 입꼬리가 올라갔어요.",
-                "x": 71.8,
-                "y": 40.5,
+                "x": 74.4,
+                "y": 44.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2021,7 +2127,8 @@
                 "x": 69.4,
                 "y": 49,
                 "type": "action",
-                "reflection": "서로 나누니 마음도 편해졌을까요?"
+                "reflection": "서로 나누니 마음도 편해졌을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,
@@ -2106,7 +2213,8 @@
             "x": 28.8,
             "y": 50.4,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -2114,7 +2222,8 @@
             "x": 29,
             "y": 66,
             "type": "action",
-            "reflection": "누구에게 보여 주고 싶은 별일까요?"
+            "reflection": "누구에게 보여 주고 싶은 별일까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 0,
@@ -2138,7 +2247,8 @@
             "x": 32.4,
             "y": 40,
             "type": "expression",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "무엇을 보고 이런 표정을 지었을까요? 이야기를 더 읽어 볼까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -2146,7 +2256,8 @@
             "x": 16.7,
             "y": 62.5,
             "type": "action",
-            "reflection": "아직 보여 줄 준비가 안 된 걸까요?"
+            "reflection": "아직 보여 줄 준비가 안 된 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 1,
@@ -2165,7 +2276,8 @@
             "x": 27,
             "y": 50,
             "type": "action",
-            "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+            "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -2173,7 +2285,8 @@
             "x": 17,
             "y": 70,
             "type": "action",
-            "reflection": "아직 보여 줄 준비가 안 된 걸까요?"
+            "reflection": "아직 보여 줄 준비가 안 된 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 2,
@@ -2197,7 +2310,8 @@
             "x": 32.8,
             "y": 42.4,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -2205,7 +2319,8 @@
             "x": 45,
             "y": 60,
             "type": "action",
-            "reflection": "아이의 말을 기다려 주려는 걸까요?"
+            "reflection": "아이의 말을 기다려 주려는 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 3,
@@ -2229,7 +2344,8 @@
             "x": 35,
             "y": 49,
             "type": "action",
-            "reflection": "누구에게 보여 주고 싶은 별일까요?"
+            "reflection": "누구에게 보여 주고 싶은 별일까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 4,
@@ -2250,18 +2366,20 @@
           {
             "kind": "🔑 마음 열쇠",
             "message": "소라의 입꼬리가 올라갔어요.",
-            "x": 37.2,
-            "y": 45.7,
+            "x": 38.1,
+            "y": 47.6,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "함께 손을 모아 노란 별을 마무리하고 있어요.",
+            "message": "소라와 수아의 손이 노란 별에 닿아 있어요.",
             "x": 55,
             "y": 58,
             "type": "action",
-            "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
+            "reflection": "함께 별을 만지며 무슨 이야기를 나눌까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 5,
@@ -2306,7 +2424,8 @@
                 "x": 75,
                 "y": 41,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2314,7 +2433,8 @@
                 "x": 77,
                 "y": 53,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2322,7 +2442,8 @@
                 "x": 6,
                 "y": 44,
                 "type": "action",
-                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?"
+                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -2348,7 +2469,8 @@
                 "x": 73.6,
                 "y": 38.1,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2356,7 +2478,8 @@
                 "x": 80,
                 "y": 47,
                 "type": "action",
-                "reflection": "아직 보여 줄 준비가 안 된 걸까요?"
+                "reflection": "아직 보여 줄 준비가 안 된 걸까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2364,7 +2487,8 @@
                 "x": 4,
                 "y": 35,
                 "type": "action",
-                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?"
+                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -2390,7 +2514,8 @@
                 "x": 31,
                 "y": 46,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2398,7 +2523,8 @@
                 "x": 16,
                 "y": 56,
                 "type": "action",
-                "reflection": "아직 보여 줄 준비가 안 된 걸까요?"
+                "reflection": "아직 보여 줄 준비가 안 된 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -2422,9 +2548,10 @@
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
                 "x": 32.4,
-                "y": 45.3,
+                "y": 43.6,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2432,7 +2559,8 @@
                 "x": 70.8,
                 "y": 65,
                 "type": "action",
-                "reflection": "아이의 말을 기다려 주려는 걸까요?"
+                "reflection": "아이의 말을 기다려 주려는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -2458,7 +2586,8 @@
                 "x": 44,
                 "y": 54,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -2482,9 +2611,10 @@
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
                 "x": 46,
-                "y": 45.2,
+                "y": 44.6,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2492,7 +2622,8 @@
                 "x": 49.7,
                 "y": 56.2,
                 "type": "action",
-                "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
+                "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -2549,7 +2680,8 @@
                 "x": 61,
                 "y": 48,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2557,7 +2689,8 @@
                 "x": 61,
                 "y": 56,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2565,7 +2698,8 @@
                 "x": 6.6,
                 "y": 36.1,
                 "type": "action",
-                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?"
+                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -2588,10 +2722,11 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입이 살짝 벌어져 있어요.",
-                "x": 64.7,
-                "y": 45.4,
+                "x": 62.3,
+                "y": 49.1,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2599,7 +2734,8 @@
                 "x": 53,
                 "y": 59,
                 "type": "action",
-                "reflection": "아직 보여 줄 준비가 안 된 걸까요?"
+                "reflection": "아직 보여 줄 준비가 안 된 걸까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2607,7 +2743,8 @@
                 "x": 7.5,
                 "y": 34.7,
                 "type": "action",
-                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?"
+                "reflection": "문을 열어 두고 누구를 기다리는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -2633,15 +2770,17 @@
                 "x": 27.3,
                 "y": 46.5,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "엄마의 몸이 아이의 눈높이로 낮아졌어요.",
-                "x": 61,
-                "y": 55,
+                "message": "엄마가 소라 옆에 무릎을 꿇고 앉아 있어요.",
+                "x": 69.8,
+                "y": 64.4,
                 "type": "action",
-                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+                "reflection": "엄마는 왜 소라 곁에 앉았을까요? 이야기를 더 읽어 볼까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -2667,7 +2806,8 @@
                 "x": 34,
                 "y": 41.9,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -2675,7 +2815,8 @@
                 "x": 53,
                 "y": 51,
                 "type": "action",
-                "reflection": "아이의 말을 기다려 주려는 걸까요?"
+                "reflection": "아이의 말을 기다려 주려는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -2701,7 +2842,8 @@
                 "x": 35,
                 "y": 45,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -2725,17 +2867,19 @@
                 "kind": "🔑 마음 열쇠",
                 "message": "소라의 입꼬리가 올라갔어요.",
                 "x": 39.3,
-                "y": 45.8,
+                "y": 43.8,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "함께 손을 모아 노란 별을 마무리하고 있어요.",
+                "message": "소라와 수아의 손이 노란 별에 닿아 있어요.",
                 "x": 59.4,
                 "y": 56.5,
                 "type": "action",
-                "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
+                "reflection": "함께 별을 만지며 무슨 이야기를 나눌까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -2820,15 +2964,17 @@
             "x": 31.1,
             "y": 43.8,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
+            "message": "루카가 노란 공을 손에 들고 있어요.",
             "x": 65,
             "y": 50,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 0,
@@ -2852,15 +2998,17 @@
             "x": 28,
             "y": 39,
             "type": "expression",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "무엇을 보고 이런 표정을 지었을까요? 이야기를 더 읽어 볼까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "루카의 손안에서 노란 공이 움직이지 않아요.",
+            "message": "루카가 노란 공을 손에 들고 있어요.",
             "x": 69,
             "y": 52,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 1,
@@ -2879,15 +3027,17 @@
             "x": 28.1,
             "y": 45.5,
             "type": "expression",
-            "reflection": "아직 듣지 못한 이야기가 있을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-            "x": 81.5,
-            "y": 81,
+            "message": "파란 목줄 강아지가 풀에 코를 가까이 대고 있어요.",
+            "x": 79.3,
+            "y": 88.6,
             "type": "action",
-            "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
+            "reflection": "새로운 곳을 천천히 알아보는 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 2,
@@ -2911,15 +3061,17 @@
             "x": 26.2,
             "y": 45.2,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "above"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-            "x": 55.5,
-            "y": 76,
+            "message": "파란 목줄 강아지가 풀에 코를 가까이 대고 있어요.",
+            "x": 50,
+            "y": 82.2,
             "type": "action",
-            "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
+            "reflection": "새로운 곳을 천천히 알아보는 걸까요?",
+            "labelPosition": "right"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -2927,7 +3079,8 @@
             "x": 70.3,
             "y": 44.2,
             "type": "words",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           }
         ],
         "panel": 3,
@@ -2951,7 +3104,8 @@
             "x": 31,
             "y": 33.6,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -2959,7 +3113,8 @@
             "x": 72,
             "y": 76,
             "type": "action",
-            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+            "reflection": "어떤 마음인지 이야기를 더 들어볼까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 4,
@@ -2983,15 +3138,17 @@
             "x": 29.1,
             "y": 40,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "두 강아지의 코가 같은 공을 향해 있어요.",
-            "x": 53,
-            "y": 84,
+            "x": 56.4,
+            "y": 76,
             "type": "action",
-            "reflection": "이제 같이 공을 살펴보는 걸까요?"
+            "reflection": "이제 같이 공을 살펴보는 걸까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 5,
@@ -3036,15 +3193,17 @@
                 "x": 28.4,
                 "y": 45.6,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "message": "루카가 노란 공을 손에 들고 있어요.",
                 "x": 84,
                 "y": 71,
                 "type": "action",
-                "reflection": "공 말고 기다리는 것이 있을까요?"
+                "reflection": "공 말고 기다리는 것이 있을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -3070,15 +3229,17 @@
                 "x": 26.5,
                 "y": 37.6,
                 "type": "expression",
-                "reflection": "어떤 마음인지 이야기를 더 들어볼까요?"
+                "reflection": "무엇을 보고 이런 표정을 지었을까요? 이야기를 더 읽어 볼까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "message": "루카가 노란 공을 손에 들고 있어요.",
                 "x": 84,
                 "y": 72,
                 "type": "action",
-                "reflection": "공 말고 기다리는 것이 있을까요?"
+                "reflection": "공 말고 기다리는 것이 있을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -3104,15 +3265,17 @@
                 "x": 29.1,
                 "y": 46.5,
                 "type": "expression",
-                "reflection": "아직 듣지 못한 이야기가 있을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-                "x": 62,
-                "y": 83,
+                "message": "파란 목줄 강아지가 풀에 코를 가까이 대고 있어요.",
+                "x": 60,
+                "y": 87.3,
                 "type": "action",
-                "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
+                "reflection": "새로운 곳을 천천히 알아보는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -3138,15 +3301,17 @@
                 "x": 27,
                 "y": 39,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "파란 목줄을 한 검정 강아지가 풀 냄새를 맡고 있어요.",
-                "x": 64,
-                "y": 72,
+                "message": "파란 목줄 강아지가 풀에 코를 가까이 대고 있어요.",
+                "x": 56,
+                "y": 87,
                 "type": "action",
-                "reflection": "새로운 곳을 천천히 알아보는 걸까요?"
+                "reflection": "새로운 곳을 천천히 알아보는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -3172,7 +3337,8 @@
                 "x": 31.6,
                 "y": 39.7,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -3180,7 +3346,8 @@
                 "x": 60,
                 "y": 86,
                 "type": "action",
-                "reflection": "함께 놀 준비를 천천히 하는 걸까요?"
+                "reflection": "함께 놀 준비를 천천히 하는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 4,
@@ -3203,18 +3370,20 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 34.6,
-                "y": 40.8,
+                "x": 34.9,
+                "y": 41.4,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "두 강아지의 코가 같은 공을 향해 있어요.",
-                "x": 54,
-                "y": 86,
+                "x": 57.5,
+                "y": 77,
                 "type": "action",
-                "reflection": "이제 같이 공을 살펴보는 걸까요?"
+                "reflection": "이제 같이 공을 살펴보는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,
@@ -3271,15 +3440,17 @@
                 "x": 75.5,
                 "y": 48.4,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "message": "루카가 노란 공을 손에 들고 있어요.",
                 "x": 21.9,
                 "y": 58.5,
                 "type": "action",
-                "reflection": "공 말고 기다리는 것이 있을까요?"
+                "reflection": "공 말고 기다리는 것이 있을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -3305,15 +3476,17 @@
                 "x": 74.7,
                 "y": 47.7,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "message": "루카가 노란 공을 손에 들고 있어요.",
                 "x": 22.3,
                 "y": 60.8,
                 "type": "action",
-                "reflection": "공 말고 기다리는 것이 있을까요?"
+                "reflection": "공 말고 기다리는 것이 있을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -3339,15 +3512,17 @@
                 "x": 74.6,
                 "y": 48.5,
                 "type": "expression",
-                "reflection": "아직 듣지 못한 이야기가 있을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "루카가 노란 공을 손안에 가만히 들고 있어요.",
+                "message": "루카가 노란 공을 손에 들고 있어요.",
                 "x": 23.2,
                 "y": 60.5,
                 "type": "action",
-                "reflection": "공 말고 기다리는 것이 있을까요?"
+                "reflection": "공 말고 기다리는 것이 있을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 2,
@@ -3373,7 +3548,8 @@
                 "x": 21.3,
                 "y": 45.6,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -3381,7 +3557,8 @@
                 "x": 29.7,
                 "y": 56,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -3407,7 +3584,8 @@
                 "x": 78.1,
                 "y": 41.2,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -3415,7 +3593,8 @@
                 "x": 50.3,
                 "y": 62.6,
                 "type": "action",
-                "reflection": "함께 놀 준비를 천천히 하는 걸까요?"
+                "reflection": "함께 놀 준비를 천천히 하는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 4,
@@ -3438,18 +3617,20 @@
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "지아의 입꼬리가 올라가 있어요.",
-                "x": 74.9,
-                "y": 43.5,
+                "x": 75,
+                "y": 46.1,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "두 강아지의 코가 같은 공을 향해 있어요.",
-                "x": 50.1,
-                "y": 61.4,
+                "x": 49.6,
+                "y": 57,
                 "type": "action",
-                "reflection": "이제 같이 공을 살펴보는 걸까요?"
+                "reflection": "이제 같이 공을 살펴보는 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,
@@ -3534,15 +3715,17 @@
             "x": 31,
             "y": 54.1,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "서로 다른 색의 종이 별을 들고 있어요.",
+            "message": "준의 손에 노란 별이 들려 있어요.",
             "x": 36,
-            "y": 62,
+            "y": 69.3,
             "type": "action",
-            "reflection": "누구에게 보여 주고 싶은 별일까요?"
+            "reflection": "어떤 모양으로 만들고 싶었을까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 0,
@@ -3566,15 +3749,17 @@
             "x": 32.7,
             "y": 55.8,
             "type": "expression",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
             "message": "종이 옆에 지우개와 작은 부스러기가 있어요.",
-            "x": 85,
-            "y": 87,
+            "x": 81.8,
+            "y": 86.1,
             "type": "action",
-            "reflection": "별을 더 잘 그리고 싶은 마음일까요?"
+            "reflection": "별을 더 잘 그리고 싶은 마음일까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 1,
@@ -3595,18 +3780,20 @@
           {
             "kind": "🔑 마음 열쇠",
             "message": "준의 입꼬리가 내려가 있어요.",
-            "x": 30,
-            "y": 53.1,
+            "x": 31,
+            "y": 57.2,
             "type": "expression",
-            "reflection": "아직 듣지 못한 이야기가 있을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "팔 아래로 그림을 가리고 있어요.",
-            "x": 69,
-            "y": 70,
+            "message": "하린이 팔 위에 고개를 숙이고 있어요.",
+            "x": 72,
+            "y": 48,
             "type": "action",
-            "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
+            "reflection": "이 모습을 보니 하린에게 어떤 말을 건네고 싶나요?",
+            "labelPosition": "above"
           }
         ],
         "panel": 2,
@@ -3630,15 +3817,17 @@
             "x": 29.1,
             "y": 49.8,
             "type": "expression",
-            "reflection": "지금 어떤 말을 하고 싶을까요?"
+            "reflection": "지금 어떤 말을 하고 싶을까요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "준의 손바닥이 펴져 있어요.",
-            "x": 36.9,
-            "y": 59.3,
+            "message": "하린이 팔 위에 고개를 숙이고 있어요.",
+            "x": 74,
+            "y": 53,
             "type": "action",
-            "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+            "reflection": "이 모습을 보니 하린에게 어떤 말을 건네고 싶나요?",
+            "labelPosition": "above"
           }
         ],
         "panel": 3,
@@ -3662,7 +3851,8 @@
             "x": 73.8,
             "y": 42.3,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
@@ -3670,7 +3860,8 @@
             "x": 63.7,
             "y": 42,
             "type": "action",
-            "reflection": "누구에게 보여 주고 싶은 별일까요?"
+            "reflection": "누구에게 보여 주고 싶은 별일까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 4,
@@ -3694,15 +3885,17 @@
             "x": 27.2,
             "y": 47.2,
             "type": "expression",
-            "reflection": "어떤 일이 기뻤을까요?"
+            "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+            "labelPosition": "below"
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "서로 다른 별을 한 종이에 함께 붙이고 있어요.",
-            "x": 55,
-            "y": 68,
+            "message": "빨간 별 위에 선생님의 손이 닿아 있어요.",
+            "x": 50.8,
+            "y": 64.2,
             "type": "action",
-            "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
+            "reflection": "누가 어떤 별을 만들었는지 서로 이야기해 볼까요?",
+            "labelPosition": "right"
           }
         ],
         "panel": 5,
@@ -3747,15 +3940,17 @@
                 "x": 37.6,
                 "y": 52.5,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "두 아이가 서로 다른 색의 별을 들고 있어요.",
+                "message": "하린의 손에 파란 별이 들려 있어요.",
                 "x": 76,
                 "y": 78,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "어떤 모양으로 만들고 싶었을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -3781,7 +3976,8 @@
                 "x": 36.7,
                 "y": 53.5,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -3789,7 +3985,8 @@
                 "x": 77,
                 "y": 77,
                 "type": "action",
-                "reflection": "별을 더 잘 그리고 싶은 마음일까요?"
+                "reflection": "별을 더 잘 그리고 싶은 마음일까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 1,
@@ -3813,17 +4010,19 @@
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 입꼬리가 내려가 있어요.",
                 "x": 37.5,
-                "y": 56.3,
+                "y": 59.1,
                 "type": "expression",
-                "reflection": "아직 듣지 못한 이야기가 있을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "하린이 팔로 자기 그림을 가리고 있어요.",
-                "x": 83,
-                "y": 65,
+                "message": "하린이 팔 위에 고개를 숙이고 있어요.",
+                "x": 85,
+                "y": 47,
                 "type": "action",
-                "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
+                "reflection": "이 모습을 보니 하린에게 어떤 말을 건네고 싶나요?",
+                "labelPosition": "above"
               }
             ],
             "panel": 2,
@@ -3849,15 +4048,17 @@
                 "x": 35,
                 "y": 53.4,
                 "type": "expression",
-                "reflection": "지금 어떤 말을 하고 싶을까요?"
+                "reflection": "지금 어떤 말을 하고 싶을까요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
                 "message": "준의 손바닥이 펴져 있어요.",
                 "x": 43.5,
-                "y": 56.8,
+                "y": 61.9,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 3,
@@ -3883,7 +4084,8 @@
                 "x": 36.4,
                 "y": 46.8,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -3891,7 +4093,8 @@
                 "x": 70.2,
                 "y": 38.9,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 4,
@@ -3917,15 +4120,17 @@
                 "x": 34,
                 "y": 49.9,
                 "type": "expression",
-                "reflection": "어떤 일이 기뻤을까요?"
+                "reflection": "이 표정을 보니 어떤 마음이 떠오르나요?",
+                "labelPosition": "below"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "서로 다른 별을 한 종이에 붙이고 있어요.",
+                "message": "빨간 별 위에 선생님의 손이 닿아 있어요.",
                 "x": 56.5,
                 "y": 65,
                 "type": "action",
-                "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
+                "reflection": "누가 어떤 별을 만들었는지 서로 이야기해 볼까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,
@@ -3982,7 +4187,8 @@
                 "x": 44.5,
                 "y": 43.5,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -3990,7 +4196,8 @@
                 "x": 57.1,
                 "y": 43.5,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 0,
@@ -4016,7 +4223,8 @@
                 "x": 40.8,
                 "y": 46,
                 "type": "action",
-                "reflection": "별을 더 잘 그리고 싶은 마음일까요?"
+                "reflection": "별을 더 잘 그리고 싶은 마음일까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -4024,7 +4232,8 @@
                 "x": 35.5,
                 "y": 43,
                 "type": "action",
-                "reflection": "무슨 생각을 하며 내려다보는 걸까요?"
+                "reflection": "무슨 생각을 하며 내려다보는 걸까요?",
+                "labelPosition": "above"
               }
             ],
             "panel": 1,
@@ -4046,11 +4255,12 @@
             "clues": [
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "하린이 팔로 자기 그림을 가리고 있어요.",
-                "x": 36.7,
-                "y": 51.6,
+                "message": "하린이 팔 위에 고개를 숙이고 있어요.",
+                "x": 32,
+                "y": 33,
                 "type": "action",
-                "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
+                "reflection": "이 모습을 보니 하린에게 어떤 말을 건네고 싶나요?",
+                "labelPosition": "above"
               }
             ],
             "panel": 2,
@@ -4076,15 +4286,17 @@
                 "x": 56,
                 "y": 37.3,
                 "type": "action",
-                "reflection": "자기 생각을 설명하고 싶은 걸까요?"
+                "reflection": "자기 생각을 설명하고 싶은 걸까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "하린이 팔로 자기 그림을 가리고 있어요.",
-                "x": 36,
-                "y": 43,
+                "message": "하린이 팔 위에 고개를 숙이고 있어요.",
+                "x": 31,
+                "y": 31,
                 "type": "action",
-                "reflection": "그림을 보여 주기가 망설여지는 걸까요?"
+                "reflection": "이 모습을 보니 하린에게 어떤 말을 건네고 싶나요?",
+                "labelPosition": "above"
               }
             ],
             "panel": 0,
@@ -4110,7 +4322,8 @@
                 "x": 47.2,
                 "y": 22.3,
                 "type": "action",
-                "reflection": "누구에게 보여 주고 싶은 별일까요?"
+                "reflection": "누구에게 보여 주고 싶은 별일까요?",
+                "labelPosition": "right"
               },
               {
                 "kind": "🔑 마음 열쇠",
@@ -4118,7 +4331,8 @@
                 "x": 65,
                 "y": 44,
                 "type": "action",
-                "reflection": "친구의 이야기를 들어 보려는 걸까요?"
+                "reflection": "친구의 이야기를 들어 보려는 걸까요?",
+                "labelPosition": "above"
               }
             ],
             "panel": 4,
@@ -4140,11 +4354,12 @@
             "clues": [
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "서로 다른 별을 한 종이에 붙이고 있어요.",
+                "message": "하린의 손 아래에 노란 별이 놓여 있어요.",
                 "x": 48,
                 "y": 23,
                 "type": "action",
-                "reflection": "친구의 별도 함께 붙이고 싶은 걸까요?"
+                "reflection": "노란 별을 어디에 붙이고 싶을까요?",
+                "labelPosition": "right"
               }
             ],
             "panel": 5,

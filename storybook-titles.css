@@ -55,3 +55,21 @@ html[lang=ko] body #welcome-guide :is(p,li span){font-size:15px}
 body :is(.language select,.reader-language-choice select){font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:17px!important;line-height:1.5;padding:10px 15px;min-height:44px}
 body :is(.language select,.reader-language-choice select) option{font-size:17px}
 @media(max-width:450px){body :is(.language select,.reader-language-choice select){font-size:16px!important;padding:9px 10px}}
+
+/* Clearly readable language names and country flags across all screens. */
+body :is(.language select,.reader-language-choice select){font-size:20px!important;min-height:48px;padding:10px 14px;line-height:1.5}
+body :is(.language select,.reader-language-choice select) option{font-size:20px!important}
+@media(max-width:450px){body :is(.language select,.reader-language-choice select){font-size:18px!important;padding:9px 10px;min-height:46px}.simple-page-bar{column-gap:7px}.simple-page-bar>a{font-size:16px}}
+
+.language-enhanced{position:relative;display:block;justify-self:end}
+.language-enhanced select{display:none}
+body .language-current,body .language-option{font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:20px!important;line-height:1.5;letter-spacing:0!important;display:flex;align-items:center;gap:10px;background:#faf7ee;border:1px solid #dedbcf;border-radius:24px;min-height:48px;padding:9px 14px;color:#526052}
+.language-current img,.language-option img{width:29px;height:20px;object-fit:cover;border:1px solid #ddd6ca;border-radius:2px;flex-shrink:0}
+.language-chevron{font-size:18px;color:#75816e;margin-left:8px}
+.language-options{position:absolute;top:calc(100% + 8px);right:0;z-index:30;min-width:245px;padding:9px;border:1px solid #dedbcf;background:#fffdf6;border-radius:14px;box-shadow:0 8px 22px #4b4d391f}
+body .language-option{border:0;border-radius:8px;width:100%;background:transparent;text-align:left;padding:11px 10px}
+body .language-option:disabled{opacity:.7;cursor:default}
+.language-option small{font-size:14px;color:#7b8175;white-space:nowrap}
+html[lang=ko] body .entry .entrance-card>span{font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:18px!important;line-height:1.8!important}
+html[lang=ko] body .language-enhanced :is(.language-current,.language-option,.language-current span,.language-option span,.language-option small){font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important}
+@media(max-width:450px){body .language-current,body .language-option{font-size:18px!important;padding:9px 11px;min-height:46px}.language-current{gap:7px}.language-current img{width:26px;height:18px}.language-options{min-width:235px}}

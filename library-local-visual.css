@@ -27,3 +27,13 @@
 
 /* Approved entry illustrations */
 .entry:not(.same-day-entry) .gate-art{background-image:url("./library-natural-expressions-v9.png")}
+
+/* Entrance balance: illustration sets the mood; generous cards remain easy to read. */
+.entry:not(.same-day-entry) .gate-art{background-image:url('./library-expressions-v10.png');max-width:780px;margin:18px auto 22px}
+.entry .entrances{max-width:1000px;width:100%;gap:24px;margin:16px auto 30px}
+.entry .entrance-card{padding:25px 28px;gap:12px;min-height:198px}
+.entry .entrance-card strong{font-size:34px;line-height:1.35;word-break:keep-all}
+.entry .entrance-card>span{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;font-size:18px;line-height:1.8;word-break:keep-all;color:#666e61}
+.entry .entrance-card em{font-size:22px;line-height:1.5;margin-top:4px}
+@media(max-width:700px){.entry .entrances{gap:14px}.entry .entrance-card{padding:21px 19px;min-height:185px}.entry .entrance-card strong{font-size:29px}.entry .entrance-card>span{font-size:17px}.entry .entrance-card em{font-size:21px}}
+@media(max-width:520px){.entry .entrances{grid-template-columns:1fr;gap:14px}.entry .entrance-card{min-height:0;padding:20px 23px;gap:7px}.entry .entrance-card strong{font-size:29px}.entry:not(.same-day-entry) .gate-art{margin-bottom:16px}}
