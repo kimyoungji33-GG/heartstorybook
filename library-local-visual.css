@@ -45,3 +45,6 @@
 @media(max-width:500px){.entry .entry-copy>.kicker{font-size:16px!important}.entry .entry-copy>.intro{font-size:15px}}
 
 .entry .nature-entry{grid-column:1/-1;text-decoration:none;color:inherit;background:#eef0e5;min-height:160px}.entry .nature-entry strong{color:#596e51}.entry .nature-entry em{font-style:normal}@media(max-width:520px){.entry .nature-entry{min-height:0}}
+
+/* User-approved hand-drawn bakery tone entrance. */
+.entry:not(.same-day-entry) .gate-art{background-image:url("./images/library-bakery-tone92.png")}
