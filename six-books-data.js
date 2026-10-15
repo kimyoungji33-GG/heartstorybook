@@ -3891,7 +3891,7 @@ const visualBooks = [
           },
           {
             "kind": "🔑 마음 열쇠",
-            "message": "빨간 별 위에 선생님의 손이 닿아 있어요.",
+            "message": "빨간 하트 위에 선생님의 손이 닿아 있어요.",
             "x": 50.8,
             "y": 64.2,
             "type": "action",
@@ -4126,7 +4126,7 @@ const visualBooks = [
               },
               {
                 "kind": "🔑 마음 열쇠",
-                "message": "빨간 별 위에 선생님의 손이 닿아 있어요.",
+                "message": "빨간 하트 위에 선생님의 손이 닿아 있어요.",
                 "x": 56.5,
                 "y": 65,
                 "type": "action",
