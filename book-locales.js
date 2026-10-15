@@ -3715,7 +3715,7 @@ window.heartBookLocales = {
             },
             {
               "kind": "🔑 Heart key",
-              "message": "They stick their different stars onto one sheet together.",
+              "message": "The teacher’s hand touches the red heart.",
               "x": 50.8,
               "y": 64.2,
               "type": "action",
@@ -3936,7 +3936,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🔑 Heart key",
-                  "message": "They stick different stars onto one sheet.",
+                  "message": "The teacher’s hand touches the red heart.",
                   "x": 56.5,
                   "y": 65,
                   "type": "action",
@@ -7919,7 +7919,7 @@ window.heartBookLocales = {
             },
             {
               "kind": "🔑 Llave del corazón",
-              "message": "Están pegando juntos sus estrellas distintas en una hoja.",
+              "message": "The teacher’s hand touches the red heart.",
               "x": 50.8,
               "y": 64.2,
               "type": "action",
@@ -8140,7 +8140,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🔑 Llave del corazón",
-                  "message": "Están pegando estrellas diferentes en una hoja.",
+                  "message": "The teacher’s hand touches the red heart.",
                   "x": 56.5,
                   "y": 65,
                   "type": "action",
