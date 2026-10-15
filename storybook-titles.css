@@ -73,3 +73,14 @@ body .language-option:disabled{opacity:.7;cursor:default}
 html[lang=ko] body .entry .entrance-card>span{font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important;font-size:18px!important;line-height:1.8!important}
 html[lang=ko] body .language-enhanced :is(.language-current,.language-option,.language-current span,.language-option span,.language-option small){font-family:'Noto Sans KR','Malgun Gothic',sans-serif!important}
 @media(max-width:450px){body .language-current,body .language-option{font-size:18px!important;padding:9px 11px;min-height:46px}.language-current{gap:7px}.language-current img{width:26px;height:18px}.language-options{min-width:235px}}
+
+/* Latin editions: natural word wrapping and room for longer translations. */
+html:is([lang=en],[lang=es]) body {overflow-wrap:break-word;word-break:normal;}
+html:is([lang=en],[lang=es]) body :is(h1,h2,h3,button,a,.cover-title,.entrance-card strong,.entrance-card>span,.story-text,.story p,.story,.navigation-lettering) {word-break:normal;overflow-wrap:break-word;white-space:normal;}
+html:is([lang=en],[lang=es]) body .entry .entrance-card>span {font-family:'Nunito',system-ui,sans-serif!important;font-size:17px!important;line-height:1.6!important;}
+html:is([lang=en],[lang=es]) body :is(.story,.story-text,.frog-voice p) {font-family:'Nunito',system-ui,sans-serif!important;line-height:1.8;}
+html:is([lang=en],[lang=es]) body :is(.paths,.experience-tabs,.turn,.reading-nav) {flex-wrap:wrap;gap:10px;}
+html:is([lang=en],[lang=es]) body :is(.paths button,.experience-tabs button,.turn button,.reading-nav button) {height:auto;max-width:100%;min-width:0;}
+html:is([lang=en],[lang=es]) body :is(#book-menu>[data-menu-book],#book-menu>#menu-frog,.standalone-book-link) {flex-wrap:wrap;gap:6px;}
+html:is([lang=en],[lang=es]) body :is(#book-menu>[data-menu-book]>span,.standalone-book-link>span) {flex:1 1 180px;}
+@media(max-width:520px){html:is([lang=en],[lang=es]) body .entry h1{font-size:34px;}html:is([lang=en],[lang=es]) body .entry .entrance-card strong{font-size:27px;}html:is([lang=en],[lang=es]) body .brand{font-size:18px;}html:is([lang=en],[lang=es]) body :is(.simple-page-bar>a,.reader-header a){font-size:16px;}html:is([lang=en],[lang=es]) body .simple-page-bar{flex-wrap:wrap;row-gap:10px;}}

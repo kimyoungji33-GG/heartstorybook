@@ -65,7 +65,7 @@ window.heartBookLocales = {
         },
         {
           "title": "Which bread should I choose?",
-          "text": "Two breads looked almost the same. The baker pointed to one. I wondered if she wanted me to hurry, so I stayed quiet. I really wanted to ask which bread was soft.",
+          "text": "Two kinds of bread looked almost the same. The baker pointed to one. I wondered if she wanted me to hurry, so I stayed quiet. I really wanted to ask which bread was soft.",
           "viewpoint": "Jiwoo",
           "panel": 1,
           "clues": [
@@ -532,7 +532,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Which bread should I choose?",
-              "text": "I pointed to a loaf to show which one was soft. Jiwoo grew quiet, so I waited. I wondered whether my gesture had seemed like a hurry to choose. I wanted to ask if there was anything she would like to know.",
+              "text": "I pointed to a loaf to show which one was soft. Jiwoo grew quiet, so I waited. I wondered whether my gesture had seemed like a sign to hurry up and choose. I wanted to ask if there was anything she would like to know.",
               "viewpoint": "The baker",
               "panel": 0,
               "clues": [
@@ -871,7 +871,7 @@ window.heartBookLocales = {
         },
         {
           "title": "A feeling I had not seen",
-          "text": "There was a thin crack in the side. “I was worried your mug might break,” Yuna said. The owner brought a new mug. “I thought you did not like my story,” I said quietly.",
+          "text": "There was a thin crack in the side. “I was worried your mug might break,” Yuna said. The party host brought a new mug. “I thought you did not like my story,” I said quietly.",
           "viewpoint": "Minseo",
           "clues": [
             {
@@ -1048,7 +1048,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Looking a little closer",
-              "text": "I pointed out the side of the mug to the owner. I wished I had told Minseo what worried me too.",
+              "text": "I pointed out the side of the mug to the party host. I wished I had told Minseo what worried me too.",
               "viewpoint": "Yuna",
               "clues": [
                 {
@@ -2117,7 +2117,7 @@ window.heartBookLocales = {
       "scenes": [
         {
           "title": "A moment to share",
-          "text": "Today Sua, who had just moved nearby, was coming to visit. I made a yellow paper star. I wanted to show him I was glad he was here. Gluing the points made me smile a little.",
+          "text": "Today Sua, who had just moved nearby, was coming to visit. I made a yellow paper star. I wanted to show her I was glad she was here. Gluing the points made me smile a little.",
           "viewpoint": "Sora",
           "clues": [
             {
@@ -2556,7 +2556,7 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "A moment to share",
-              "text": "I arrived at Sora’s house. Mom opened the door. Sora was making a yellow star inside. I wondered what we would do together.",
+              "text": "I arrived at Sora’s house. Sora’s mom opened the door. Sora was making a yellow star inside. I wondered what we would do together.",
               "viewpoint": "Sua",
               "clues": [
                 {
@@ -2682,7 +2682,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Looking a little closer",
-              "text": "Mom opened her hand and waited for Sora to speak. Sora lifted her head but had not spoken yet. I began to wonder what she had been doing.",
+              "text": "Sora’s mom opened her hand and waited for Sora to speak. Sora lifted her head but had not spoken yet. I began to wonder what she had been doing.",
               "viewpoint": "Sua",
               "clues": [
                 {
@@ -3308,7 +3308,7 @@ window.heartBookLocales = {
             },
             {
               "title": "What does that mean?",
-              "text": "Luca held the ball still. Gia looked at it with wide, round eyes. She seemed to wonder why he had not rolled it.",
+              "text": "Luca held the ball still. Gia looked at it with wide, round eyes. She seemed to wonder why she had not rolled it.",
               "viewpoint": "The park helper",
               "clues": [
                 {
@@ -3344,7 +3344,7 @@ window.heartBookLocales = {
             },
             {
               "title": "What I first imagined",
-              "text": "Gia folded her arms, and Luca hunched his shoulders. The dog lowered its head to sniff the grass. I wanted to ask the children what was happening.",
+              "text": "Gia folded her arms, and Luca hunched her shoulders. The dog lowered its head to sniff the grass. I wanted to ask the children what was happening.",
               "viewpoint": "The park helper",
               "clues": [
                 {
@@ -3452,7 +3452,7 @@ window.heartBookLocales = {
             },
             {
               "title": "The same moment, a new feeling",
-              "text": "The two dogs sniffed the ball together. Gia had wanted to start playing, while Luca wanted to give his dog time to get used to the playground. After hearing both children, I understood why Luca had not thrown the ball. Seeing them smile made me smile too.",
+              "text": "The two dogs sniffed the ball together. Gia had wanted to start playing, while Luca wanted to give her dog time to get used to the playground. After hearing both children, I understood why Luca had not thrown the ball. Seeing them smile made me smile too.",
               "viewpoint": "The park helper",
               "clues": [
                 {
@@ -4346,7 +4346,7 @@ window.heartBookLocales = {
         },
         {
           "title": "Algo pequeño entre las páginas",
-          "text": "Del libro amarillo asomaba un separador azul. Junho alisaba una punta arrugada. Eso no parecía una manera de darme prisa. Me pregunté qué le preocupaba.",
+          "text": "Del libro amarillo asomaba un marcapáginas azul. Junho alisaba una punta arrugada. Eso no parecía una manera de darme prisa. Me pregunté qué le preocupaba.",
           "viewpoint": "Jiwoo",
           "panel": 3,
           "clues": [
@@ -4361,7 +4361,7 @@ window.heartBookLocales = {
             },
             {
               "kind": "🔑 Llave del corazón",
-              "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
+              "message": "Un marcapáginas azul en forma de estrella sobresale del libro amarillo.",
               "x": 62.3,
               "y": 54,
               "type": "action",
@@ -4380,7 +4380,7 @@ window.heartBookLocales = {
         },
         {
           "title": "Una pregunta en voz bajita",
-          "text": "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el separador de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado.",
+          "text": "“¿Cuál es blandito? Es para el abuelo”, pregunté. La panadera miró mi nota y me lo explicó despacio. Junho dijo: “Me preocupaba perder el marcapáginas de la biblioteca”. Pensaba algo distinto de lo que yo había imaginado.",
           "viewpoint": "Jiwoo",
           "panel": 4,
           "clues": [
@@ -4423,7 +4423,7 @@ window.heartBookLocales = {
         },
         {
           "title": "Una bolsa tibia en mis manos",
-          "text": "La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su separador. Si no sé algo, puedo preguntar y escuchar.",
+          "text": "La panadera puso la bolsa de pan en mis manos pequeñas. Le di las gracias por ayudarme. Junho y yo sonreímos mientras guardaba su marcapáginas. Si no sé algo, puedo preguntar y escuchar.",
           "viewpoint": "Jiwoo",
           "panel": 5,
           "clues": [
@@ -4503,7 +4503,7 @@ window.heartBookLocales = {
             },
             {
               "title": "¿Qué pan elijo?",
-              "text": "El separador se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Jiwoo también parecía no saber qué elegir.",
+              "text": "El marcapáginas se salía del libro prestado. Miré hacia abajo y lo coloqué otra vez. Jiwoo también parecía no saber qué elegir.",
               "viewpoint": "Junho",
               "panel": 1,
               "clues": [
@@ -4539,7 +4539,7 @@ window.heartBookLocales = {
             },
             {
               "title": "¿Lo estaba haciendo llegar tarde?",
-              "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el separador. No quería dar prisa a Jiwoo.",
+              "text": "Miré el reloj para saber cuánto faltaba para devolver el libro. Lo sujeté fuerte para no perder el marcapáginas. No quería dar prisa a Jiwoo.",
               "viewpoint": "Junho",
               "panel": 2,
               "clues": [
@@ -4575,7 +4575,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Algo pequeño entre las páginas",
-              "text": "Al alisar el separador vi dibujos de panes en la nota de Jiwoo. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
+              "text": "Al alisar el marcapáginas vi dibujos de panes en la nota de Jiwoo. Quizá era su primer encargo. Me pregunté si necesitaba ayuda.",
               "viewpoint": "Junho",
               "panel": 3,
               "clues": [
@@ -4590,7 +4590,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🔑 Llave del corazón",
-                  "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
+                  "message": "Un marcapáginas azul en forma de estrella sobresale del libro amarillo.",
                   "x": 64.9,
                   "y": 62.5,
                   "type": "action",
@@ -4611,7 +4611,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Una pregunta en voz bajita",
-              "text": "Jiwoo preguntó a la panadera por el pan. Le conté mi preocupación por el separador. Me sorprendió que pensara que estaba enfadado con ella.",
+              "text": "Jiwoo preguntó a la panadera por el pan. Le conté mi preocupación por el marcapáginas. Me sorprendió que pensara que estaba enfadado con ella.",
               "viewpoint": "Junho",
               "panel": 4,
               "clues": [
@@ -4647,7 +4647,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Una bolsa tibia en mis manos",
-              "text": "Sonreímos mientras guardaba el separador. Jiwoo dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
+              "text": "Sonreímos mientras guardaba el marcapáginas. Jiwoo dijo que no había oído mi saludo porque miraba su nota. Escuchar su razón me hizo sentir mejor.",
               "viewpoint": "Junho",
               "panel": 5,
               "clues": [
@@ -4808,7 +4808,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Algo pequeño entre las páginas",
-              "text": "Un marcapáginas azul con estrellas sobresalía del libro amarillo. Jiwoo lo señaló mientras Junho alisaba la punta arrugada. Miré un poco más para escuchar qué querían decir.",
+              "text": "Un marcapáginas azul en forma de estrella sobresalía del libro amarillo. Jiwoo lo señaló mientras Junho alisaba la punta arrugada. Miré un poco más para escuchar qué querían decir.",
               "viewpoint": "La panadera",
               "panel": 3,
               "clues": [
@@ -4823,7 +4823,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🔑 Llave del corazón",
-                  "message": "Un marcapáginas azul con estrellas sobresale del libro amarillo.",
+                  "message": "Un marcapáginas azul en forma de estrella sobresale del libro amarillo.",
                   "x": 22.7,
                   "y": 61.3,
                   "type": "action",
@@ -5075,7 +5075,7 @@ window.heartBookLocales = {
         },
         {
           "title": "Un sentimiento que no había visto",
-          "text": "Había una grieta fina en el costado. «Me preocupaba que tu taza se rompiera», dijo Yuna. La dueña trajo una taza nueva. «Pensé que no te gustaba mi historia», dije en voz baja.",
+          "text": "Había una grieta fina en el costado. «Me preocupaba que tu taza se rompiera», dijo Yuna. La anfitriona trajo una taza nueva. «Pensé que no te gustaba mi historia», dije en voz baja.",
           "viewpoint": "Minseo",
           "clues": [
             {
@@ -5252,7 +5252,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Mirar un poco más de cerca",
-              "text": "Señalé el costado de la taza a la dueña. Deseé haberle contado también a Minseo qué me preocupaba.",
+              "text": "Señalé el costado de la taza a la anfitriona. Deseé haberle contado también a Minseo qué me preocupaba.",
               "viewpoint": "Yuna",
               "clues": [
                 {
@@ -5901,7 +5901,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Lo que imaginé al principio",
-              "text": "Sofia juntó las manos y me miró. Quería darle el pan, así que ¿por qué se había detenido? Me di cuenta de que aún no había dicho por qué acerqué el plato.",
+              "text": "Sofía juntó las manos y me miró. Quería darle el pan, así que ¿por qué se había detenido? Me di cuenta de que aún no había dicho por qué acerqué el plato.",
               "viewpoint": "Noah",
               "clues": [
                 {
@@ -5942,7 +5942,7 @@ window.heartBookLocales = {
               "clues": [
                 {
                   "kind": "🔑 Llave del corazón",
-                  "message": "Sofia tiene la boca un poco abierta.",
+                  "message": "Sofía tiene la boca un poco abierta.",
                   "x": 34,
                   "y": 47.5,
                   "type": "expression",
@@ -6098,7 +6098,7 @@ window.heartBookLocales = {
             },
             {
               "title": "¿Qué significa eso?",
-              "text": "Noah acercó el plato a Sofia. Su mano se detuvo delante del pan. Me pregunté por qué no cogía un trozo.",
+              "text": "Noah acercó el plato a Sofía. Su mano se detuvo delante del pan. Me pregunté por qué no cogía un trozo.",
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
@@ -6112,7 +6112,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🔑 Llave del corazón",
-                  "message": "Sofia tiene la palma abierta.",
+                  "message": "Sofía tiene la palma abierta.",
                   "x": 66.8,
                   "y": 53.4,
                   "type": "action",
@@ -6134,7 +6134,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Lo que imaginé al principio",
-              "text": "Noah apoyó una mano en el pecho. Sofia cruzó los brazos y lo miró. Quería escuchar qué pensaba cada niño.",
+              "text": "Noah apoyó una mano en el pecho. Sofía cruzó los brazos y lo miró. Quería escuchar qué pensaba cada niño.",
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
@@ -6170,7 +6170,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Mirar un poco más de cerca",
-              "text": "Me incliné hacia los niños y escuché. Noah abrió mucho los ojos al oír a Sofia. Esperé para escuchar lo que querían decirse.",
+              "text": "Me incliné hacia los niños y escuché. Noah abrió mucho los ojos al oír a Sofía. Esperé para escuchar lo que querían decirse.",
               "viewpoint": "La dueña del restaurante",
               "clues": [
                 {
@@ -6220,7 +6220,7 @@ window.heartBookLocales = {
                 },
                 {
                   "kind": "🔑 Llave del corazón",
-                  "message": "Sofia señala a Noah.",
+                  "message": "Sofía señala a Noah.",
                   "x": 67,
                   "y": 44,
                   "type": "action",
@@ -6760,7 +6760,7 @@ window.heartBookLocales = {
           "scenes": [
             {
               "title": "Un momento para compartir",
-              "text": "Llegué a la casa de Sora. Mamá abrió la puerta. Sora estaba haciendo una estrella amarilla dentro. Me pregunté qué haríamos juntas.",
+              "text": "Llegué a la casa de Sora. La mamá de Sora abrió la puerta. Sora estaba haciendo una estrella amarilla dentro. Me pregunté qué haríamos juntas.",
               "viewpoint": "Sua",
               "clues": [
                 {
@@ -6886,7 +6886,7 @@ window.heartBookLocales = {
             },
             {
               "title": "Mirar un poco más de cerca",
-              "text": "Mamá abrió la mano y esperó a que Sora hablara. Sora levantó la cabeza, pero todavía no decía nada. Empecé a preguntarme qué estaba haciendo.",
+              "text": "La mamá de Sora abrió la mano y esperó a que Sora hablara. Sora levantó la cabeza, pero todavía no decía nada. Empecé a preguntarme qué estaba haciendo.",
               "viewpoint": "Sua",
               "clues": [
                 {
@@ -7656,7 +7656,7 @@ window.heartBookLocales = {
             },
             {
               "title": "El mismo momento, un nuevo sentir",
-              "text": "Los dos perros olieron juntos la pelota. Gia quería empezar a jugar y Luca quería darle tiempo a su perro para acostumbrarse al parque. Al escuchar a los dos, entendí por qué Luca no había lanzado la pelota. Verlos sonreír también me hizo sonreír.",
+              "text": "Los dos perros olieron juntos la pelota. Gia quería empezar a jugar y Luca quería darle tiempo a su perro para acostumbrarse al parque. Al escuchar a las dos, entendí por qué Luca no había lanzado la pelota. Verlas sonreír también me hizo sonreír.",
               "viewpoint": "La encargada del parque",
               "clues": [
                 {
