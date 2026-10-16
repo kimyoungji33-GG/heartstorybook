@@ -113,4 +113,3 @@ body .language-current,body .language-current>span{white-space:nowrap!important;
 
 /* Longer translated reader labels keep their full wording and comfortable type. */
 @media(max-width:520px){html:is([lang=en],[lang=es]) body .paths{grid-template-columns:1fr;}html:is([lang=en],[lang=es]) body .paths button{width:100%;white-space:normal;word-break:normal;line-height:1.5;}}
-
