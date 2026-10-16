@@ -7,11 +7,10 @@
     stop();slot.replaceChildren();
     if(window.heartLanguage()!=='ko')return;
     const track=window.heartNarrationTracks?.[context.book]?.[context.view]?.[context.page];
+    if(typeof track!=='string'||!track.startsWith('./audio/'))return;
     const bar=document.createElement('div');bar.className='story-audio';
     const status=document.createElement('small');status.setAttribute('role','status');
     bar.append(status);slot.append(bar);
-    if(!track){status.textContent='이 장의 읽어주기를 준비하고 있어요.';return;}
-    if(typeof track!=='string'||!track.startsWith('./audio/')){status.textContent='읽어주기를 준비하고 있어요.';return;}
     const player=new Audio(track);audio=player;player.preload='metadata';
     const play=document.createElement('button'),pause=document.createElement('button'),restart=document.createElement('button');
     play.type=pause.type=restart.type='button';play.textContent='읽어주기';pause.textContent='일시정지';restart.textContent='처음부터 듣기';pause.disabled=true;
