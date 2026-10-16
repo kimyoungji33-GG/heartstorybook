@@ -1,0 +1,2 @@
+/* Metadata for the same three adult books in the shared library. */
+for(const b of window.adultPreviewBooks){const c=b.crops[0];const coverStyle=`background-image:url('${b.atlas}');background-size:${10000/c.w}% ${10000/c.h}%;background-position:0 0;aspect-ratio:${c.w/c.h}`;const entry={id:b.id,audience:'adult',art:0,cover:b.atlas,coverStyle};for(const lang of ['ko','en','es']){const t=lang==='ko'?b:window.adultBookLocales[lang][b.id];entry[lang]={title:t.title,place:t.place,subtitle:t.description,roles:t.people};}if(!books.some(v=>v.id===b.id))books.push(entry);}

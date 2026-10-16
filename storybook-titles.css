@@ -110,3 +110,7 @@ body .language-current,body .language-current>span{white-space:nowrap!important;
  body .paths{display:grid;grid-template-columns:1fr 1.6fr;gap:8px;}
  body .paths button{font-size:20px!important;padding:10px 12px;word-break:keep-all;line-height:1.5;}
 }
+
+/* Longer translated reader labels keep their full wording and comfortable type. */
+@media(max-width:520px){html:is([lang=en],[lang=es]) body .paths{grid-template-columns:1fr;}html:is([lang=en],[lang=es]) body .paths button{width:100%;white-space:normal;word-break:normal;line-height:1.5;}}
+

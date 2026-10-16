@@ -5,9 +5,16 @@
   function mount(slot,context){
     if(!slot)return;
     stop();slot.replaceChildren();
-    if(window.heartLanguage()!=='ko')return;
+    if((window.heartLanguage?.()||'ko')!=='ko')return;
     const track=window.heartNarrationTracks?.[context.book]?.[context.view]?.[context.page];
-    if(typeof track!=='string'||!track.startsWith('./audio/'))return;
+    if(typeof track!=='string'||!track.startsWith('./audio/')){
+      if(context.showPending){
+        const bar=document.createElement('div');bar.className='story-audio';
+        ['읽어주기','일시정지','처음부터 듣기'].forEach(label=>{const b=document.createElement('button');b.type='button';b.textContent=label;b.disabled=true;bar.append(b);});
+        const status=document.createElement('small');status.textContent='직접 녹음한 목소리를 준비하고 있어요.';status.setAttribute('role','status');bar.append(status);slot.append(bar);
+      }
+      return;
+    }
     const bar=document.createElement('div');bar.className='story-audio';
     const status=document.createElement('small');status.setAttribute('role','status');
     bar.append(status);slot.append(bar);
@@ -23,6 +30,6 @@
   }
   window.heartNarration={stop,mount};
   const slot=document.getElementById('narration-slot');
-  if(slot)mount(slot,{book:slot.dataset.book,view:slot.dataset.listenView,page:Number(slot.dataset.listenPage)});
+  if(slot)mount(slot,{book:slot.dataset.book,view:slot.dataset.listenView,page:Number(slot.dataset.listenPage),showPending:document.body.dataset.audience==='adult'});
   window.addEventListener('pagehide',stop);
 })();

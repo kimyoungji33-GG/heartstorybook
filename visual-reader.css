@@ -74,3 +74,8 @@ html[lang=ko] body[data-audience=child] .story{font-family:'Hi Melody','Gamja Fl
 .ending-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:20px;}
 .ending-actions a{display:inline-flex;align-items:center;justify-content:center;border:1px solid #d5d1bf;border-radius:22px;padding:10px 18px;text-decoration:none;line-height:1.6;}
 @media(max-width:650px){.picture .spot-badge span{width:36px;height:36px;font-size:22px;}.look{font-size:15px;}.book>.hint-tip{padding:13px;}.book>.hint-tip>span{font-size:16px;}.hint-tip .clue-question{font-size:15px!important;}.ending-actions>*{max-width:100%;}}
+
+/* The adult review reader shares the same type scale and reading controls. */
+html[lang=ko] body[data-audience=adult] .story{font-family:'Hi Melody','Gamja Flower','Malgun Gothic',sans-serif;font-size:27px;line-height:1.9;letter-spacing:.2px;color:#504936}
+html[lang=ko] body[data-audience=adult] .reading h1{font-family:'Hi Melody','Gamja Flower',sans-serif;font-size:32px;font-weight:400}
+@media(max-width:650px){html[lang=ko] body[data-audience=adult] .story{font-size:24px}}
