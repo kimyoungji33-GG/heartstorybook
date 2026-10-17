@@ -7,7 +7,7 @@
  };
  const language=()=>window.heartLanguage?.()||'ko';
  const supported=new Set(['errand','cups','plate','door','ball','stars','sleeve','station','flowers','notes']);
- const activityUrl=(id,role)=>'./pilot/play.html?'+new URLSearchParams({book:id,role,lang:language()});
+ const activityUrl=(id,role)=>'./pilot/play.html?'+new URLSearchParams({book:id,role,lang:language(),v:'published129'});
  function intro(){
   if(typeof state==='undefined'||state.screen!=='book'||!supported.has(state.book?.id))return;
   const paths=document.querySelector('.book-paths');if(!paths||paths.querySelector('#choose-heart-sharing'))return;

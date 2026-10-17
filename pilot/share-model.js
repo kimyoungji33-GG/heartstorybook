@@ -7,7 +7,7 @@ export function restoreShare(search){
  const feelings=[...new Set(p.getAll('feel').filter(n=>/^[0-6]$/.test(n)))].map(Number);
  return {...s,stage,feelings,revealed:count>0&&(p.get('revealed')==='1'||stage==='reply'||stage==='end'),clue:p.get('clue')==='1'};
 }
-export function serializeShare(s){const p=new URLSearchParams(serialize(getShareBook(s.book),s));p.set('stage',s.stage);s.feelings.forEach(n=>p.append('feel',n));if(s.revealed)p.set('revealed','1');if(s.clue)p.set('clue','1');return '?'+p;}
+export function serializeShare(s){const p=new URLSearchParams(serialize(getShareBook(s.book),s));p.set('stage',s.stage);p.set('v','published129');s.feelings.forEach(n=>p.append('feel',n));if(s.revealed)p.set('revealed','1');if(s.clue)p.set('clue','1');return '?'+p;}
 export function nextShare(s){
  if(s.stage==='feel')return {...s,stage:'talk'};
  if(s.stage==='listen'&&s.revealed)return {...s,stage:'reply'};

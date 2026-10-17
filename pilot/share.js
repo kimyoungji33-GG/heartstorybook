@@ -55,7 +55,7 @@ function artBox(){
 function render(focus=false){
  const {role,node,trail}=walk(book,state.role,state.choices),heart=role.heart,s=state.stage;
  document.documentElement.lang=state.lang;document.title=text(book.title)+' · '+text(words.title);select.value=state.lang;
- document.querySelector('#language-label').textContent=text(words.language);const shelf=document.querySelector('#shelf');shelf.textContent=text(words.shelf);shelf.href='../index.html?book='+book.id+'&lang='+state.lang;
+ document.querySelector('#language-label').textContent=text(words.language);const shelf=document.querySelector('#shelf');shelf.textContent=text(words.shelf);shelf.href='../index.html?book='+book.id+'&lang='+state.lang+'&v=published129';
  app.replaceChildren();app.append(el('p',text(book.title),'kicker'),el('h1',text(words.title)),el('p',text(words.intro),'intro'));
  const roles=el('nav',undefined,'roles');roles.setAttribute('aria-label',text(words.otherRole));book.roles.forEach(r=>{const b=button(text(r.name),()=>restart(r.id),'role');b.dataset.role=r.id;b.setAttribute('aria-pressed',String(r.id===role.id));roles.append(b);});app.append(roles);
  const stages=el('ol',undefined,'stages');const current=['feel','talk','listen','reply','end'].indexOf(s);words.stages.forEach((v,i)=>{const li=el('li',text(v));if(i===Math.min(current,3))li.setAttribute('aria-current','step');stages.append(li);});app.append(stages);
@@ -89,7 +89,7 @@ function render(focus=false){
  if(s==='listen'&&state.revealed)nav.append(button(text(words.continue),()=>save(nextShare(state)),'primary'));
  if(s==='end'){nav.append(button(text(words.retry),()=>save({...backShare(backShare(backShare(state))),stage:'talk',revealed:false,clue:false}),'primary'));const back=el('a',text(words.shelf),'secondary');back.href='../index.html?book=errand&lang='+state.lang;nav.append(back);}
  activity.append(nav);app.append(activity);
- const footer=el('div',undefined,'footer');const allDrafts=el('a',text(t('다른 책 활동 살펴보기','Explore the other book activities','Explorar las actividades de otros libros')));allDrafts.href='./review.html?lang='+state.lang;footer.append(allDrafts);const original=el('a',text(words.original));original.href=book.original+'&lang='+state.lang;footer.append(original);if(s==='end')footer.append(button(text(words.otherRole),()=>restart(book.roles[(book.roles.findIndex(r=>r.id===state.role)+1)%book.roles.length].id)));app.append(footer,el('p',text(words.fine),'fine'));
+ const footer=el('div',undefined,'footer');const allDrafts=el('a',text(t('다른 책 활동 살펴보기','Explore the other book activities','Explorar las actividades de otros libros')));allDrafts.href='./review.html?lang='+state.lang+'&v=published129';footer.append(allDrafts);const original=el('a',text(words.original));original.href=book.original+'&lang='+state.lang;footer.append(original);if(s==='end')footer.append(button(text(words.otherRole),()=>restart(book.roles[(book.roles.findIndex(r=>r.id===state.role)+1)%book.roles.length].id)));app.append(footer,el('p',text(words.fine),'fine'));
  if(focus){title.focus({preventScroll:true});bookFrame.scrollIntoView({block:'start'});}
 }
 select.onchange=()=>save({...state,lang:select.value},false);
