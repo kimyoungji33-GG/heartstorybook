@@ -7,7 +7,6 @@ const words={
  title:t('마음 건네보기','Sharing my heart','Compartir lo que siento'),
  subtitle:t('같은 순간, 서로 다른 마음','One moment, different feelings','Un mismo momento, distintos sentimientos'),
  intro:t('동화 속 한 사람의 자리에 서서 내 생각과 마음을 살펴보고, 상대의 이야기도 들어보세요.','Step into a character’s place, notice your own thoughts and feelings, and hear the other person too.','Ponte en el lugar de un personaje, observa lo que piensas y sientes y escucha también a la otra persona.'),
- draft:t('시범 활동','Activity preview','Actividad de prueba'),
  shelf:t('← 책으로 돌아가기','← Back to the book','← Volver al libro'),language:t('언어','Language','Idioma'),
  stages:[t('마음 살피기','Notice','Observar'),t('건네기','Share','Compartir'),t('듣기','Listen','Escuchar'),t('이어가기','Continue','Continuar')],
  artnote:t('이 동화의 그림과 함께해요.','With illustrations from this story.','Con ilustraciones de este cuento.'),
@@ -35,7 +34,7 @@ const words={
  otherRole:t('다른 사람의 자리에서','From another person’s place','Desde el lugar de otra persona'),
  original:t('원래 동화 읽기','Read the original story','Leer el cuento original'),
  endNote:t('이야기를 듣고 내게 남은 마음은 무엇인가요? 지금 답을 정하지 않고, 다음에 다시 생각해도 좋아요.','What feelings stay with me after this conversation? I can leave the question open and return to it another time.','¿Qué siento después de esta conversación? Puedo dejar la pregunta abierta y volver a pensarla en otro momento.'),
- fine:t('원래 동화와 별도로 쓴 활동 시안입니다. 그림은 원래 동화의 장면을 사용하며, 새로 고른 말의 모든 행동을 그대로 그린 것은 아니에요. 지금 마음을 바꾸거나 결론을 내리지 않아도 괜찮아요.','An activity draft separate from the original. The pictures are scenes from the story, not exact depictions of every new action. You do not have to change your feelings or reach a conclusion now.','Un borrador independiente del original. Las imágenes son del cuento y no representan exactamente cada gesto nuevo. No tienes que cambiar lo que sientes ni llegar ahora a una conclusión.'),
+ fine:t('원래 동화와 함께 마음을 나누는 활동입니다. 그림은 원래 동화의 장면을 사용하며, 새로 고른 말의 모든 행동을 그대로 그린 것은 아니에요. 지금 마음을 바꾸거나 결론을 내리지 않아도 괜찮아요.','An activity for sharing feelings alongside the original story. The pictures are scenes from the story, not exact depictions of every new action. You do not have to change your feelings or reach a conclusion now.','Una actividad para compartir lo que sentimos a partir del cuento original. Las imágenes son del cuento y no representan exactamente cada gesto nuevo. No tienes que cambiar lo que sientes ni llegar ahora a una conclusión.'),
  pending:t('준비 중','Coming soon','Próximamente')
 };
 const app=document.querySelector('#app'),select=document.querySelector('#language');
@@ -56,7 +55,7 @@ function artBox(){
 function render(focus=false){
  const {role,node,trail}=walk(book,state.role,state.choices),heart=role.heart,s=state.stage;
  document.documentElement.lang=state.lang;document.title=text(book.title)+' · '+text(words.title);select.value=state.lang;
- document.querySelector('#draft').textContent=text(words.draft);document.querySelector('#language-label').textContent=text(words.language);const shelf=document.querySelector('#shelf');shelf.textContent=text(words.shelf);shelf.href='../index.html?book='+book.id+'&lang='+state.lang;
+ document.querySelector('#language-label').textContent=text(words.language);const shelf=document.querySelector('#shelf');shelf.textContent=text(words.shelf);shelf.href='../index.html?book='+book.id+'&lang='+state.lang;
  app.replaceChildren();app.append(el('p',text(book.title),'kicker'),el('h1',text(words.title)),el('p',text(words.intro),'intro'));
  const roles=el('nav',undefined,'roles');roles.setAttribute('aria-label',text(words.otherRole));book.roles.forEach(r=>{const b=button(text(r.name),()=>restart(r.id),'role');b.dataset.role=r.id;b.setAttribute('aria-pressed',String(r.id===role.id));roles.append(b);});app.append(roles);
  const stages=el('ol',undefined,'stages');const current=['feel','talk','listen','reply','end'].indexOf(s);words.stages.forEach((v,i)=>{const li=el('li',text(v));if(i===Math.min(current,3))li.setAttribute('aria-current','step');stages.append(li);});app.append(stages);
