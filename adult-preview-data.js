@@ -808,3 +808,7 @@ window.adultPreviewBooks = [
     ]
   }
 ];
+
+// 2026-10-16: author withdrew this story; retain source material for future editing.
+window.archivedAdultBooks = window.adultPreviewBooks.filter(book => book.id === 'plant');
+window.adultPreviewBooks = window.adultPreviewBooks.filter(book => book.id !== 'plant');

@@ -1,0 +1,12 @@
+/* Same rounded illustration frame and cover rhythm as the child bookshelf. */
+body[data-audience=adult] .cover-picture{border-radius:50% 47% 43% 45%/43% 46% 42% 45%;box-shadow:0 0 12px 9px #f4e8d5 inset;opacity:.94;aspect-ratio:1}
+body[data-audience=adult] .cover-title{font-family:'Gamja Flower','Nunito','Malgun Gothic',sans-serif;font-size:31px;font-weight:400;line-height:1.35;min-height:93px}
+body[data-audience=adult] .cover-place,body[data-audience=adult] .cover-bottom{font-family:'Gamja Flower','Nunito','Malgun Gothic',sans-serif;font-size:15px}
+body[data-audience=adult] .book-base{font-family:'Gamja Flower','Nunito','Malgun Gothic',sans-serif}
+body[data-audience=adult] .book-base>span{font-size:20px;line-height:1.5}
+body[data-audience=adult] .shelves{background:linear-gradient(#f3ede329,#ede3d670);border-bottom-color:#d4c5ad}
+body[data-audience=adult] .shelves .cover-book .book-cover{background:#f7ecd9;border-color:#e2d5c3}
+body[data-audience=adult] .shelves .cover-book:nth-child(2) .book-cover{background:#f3e2d5}
+@media(max-width:700px){body[data-audience=adult] .cover-title{font-size:25px;min-height:85px}}
+@media(max-width:700px){body[data-audience=adult] .book-base>span{font-size:18px}}
+@media(max-width:430px){body[data-audience=adult] .cover-title{font-size:23px}}
