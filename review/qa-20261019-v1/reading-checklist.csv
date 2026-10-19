@@ -1,0 +1,469 @@
+﻿state,book,bookTitle,view,person,page,lang,fileCheck,browserCheck,humanReview
+errand:read:1:ko,errand,작은 손에 담긴 따뜻한 빵,read,지우,1,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:2:ko,errand,작은 손에 담긴 따뜻한 빵,read,지우,2,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:3:ko,errand,작은 손에 담긴 따뜻한 빵,read,지우,3,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:4:ko,errand,작은 손에 담긴 따뜻한 빵,read,지우,4,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:5:ko,errand,작은 손에 담긴 따뜻한 빵,read,지우,5,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:6:ko,errand,작은 손에 담긴 따뜻한 빵,read,지우,6,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:1:ko,errand,작은 손에 담긴 따뜻한 빵,role-0,준호,1,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:2:ko,errand,작은 손에 담긴 따뜻한 빵,role-0,준호,2,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:3:ko,errand,작은 손에 담긴 따뜻한 빵,role-0,준호,3,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:4:ko,errand,작은 손에 담긴 따뜻한 빵,role-0,준호,4,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:5:ko,errand,작은 손에 담긴 따뜻한 빵,role-0,준호,5,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:6:ko,errand,작은 손에 담긴 따뜻한 빵,role-0,준호,6,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:1:ko,errand,작은 손에 담긴 따뜻한 빵,role-1,빵집 주인,1,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:2:ko,errand,작은 손에 담긴 따뜻한 빵,role-1,빵집 주인,2,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:3:ko,errand,작은 손에 담긴 따뜻한 빵,role-1,빵집 주인,3,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:4:ko,errand,작은 손에 담긴 따뜻한 빵,role-1,빵집 주인,4,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:5:ko,errand,작은 손에 담긴 따뜻한 빵,role-1,빵집 주인,5,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:6:ko,errand,작은 손에 담긴 따뜻한 빵,role-1,빵집 주인,6,ko,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:1:ko,cups,"생일날, 두 개의 잔",read,민서,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:2:ko,cups,"생일날, 두 개의 잔",read,민서,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:3:ko,cups,"생일날, 두 개의 잔",read,민서,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:4:ko,cups,"생일날, 두 개의 잔",read,민서,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:5:ko,cups,"생일날, 두 개의 잔",read,민서,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:6:ko,cups,"생일날, 두 개의 잔",read,민서,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:1:ko,cups,"생일날, 두 개의 잔",role-0,유나,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:2:ko,cups,"생일날, 두 개의 잔",role-0,유나,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:3:ko,cups,"생일날, 두 개의 잔",role-0,유나,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:4:ko,cups,"생일날, 두 개의 잔",role-0,유나,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:5:ko,cups,"생일날, 두 개의 잔",role-0,유나,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:6:ko,cups,"생일날, 두 개의 잔",role-0,유나,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:1:ko,cups,"생일날, 두 개의 잔",role-1,파티를 준비한 어른,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:2:ko,cups,"생일날, 두 개의 잔",role-1,파티를 준비한 어른,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:3:ko,cups,"생일날, 두 개의 잔",role-1,파티를 준비한 어른,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:4:ko,cups,"생일날, 두 개의 잔",role-1,파티를 준비한 어른,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:5:ko,cups,"생일날, 두 개의 잔",role-1,파티를 준비한 어른,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:6:ko,cups,"생일날, 두 개의 잔",role-1,파티를 준비한 어른,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:1:ko,plate,마지막 한 조각은 누구에게?,read,소피아,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:2:ko,plate,마지막 한 조각은 누구에게?,read,소피아,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:3:ko,plate,마지막 한 조각은 누구에게?,read,소피아,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:4:ko,plate,마지막 한 조각은 누구에게?,read,소피아,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:5:ko,plate,마지막 한 조각은 누구에게?,read,소피아,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:6:ko,plate,마지막 한 조각은 누구에게?,read,소피아,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:1:ko,plate,마지막 한 조각은 누구에게?,role-0,노아,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:2:ko,plate,마지막 한 조각은 누구에게?,role-0,노아,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:3:ko,plate,마지막 한 조각은 누구에게?,role-0,노아,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:4:ko,plate,마지막 한 조각은 누구에게?,role-0,노아,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:5:ko,plate,마지막 한 조각은 누구에게?,role-0,노아,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:6:ko,plate,마지막 한 조각은 누구에게?,role-0,노아,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:1:ko,plate,마지막 한 조각은 누구에게?,role-1,식당 주인,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:2:ko,plate,마지막 한 조각은 누구에게?,role-1,식당 주인,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:3:ko,plate,마지막 한 조각은 누구에게?,role-1,식당 주인,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:4:ko,plate,마지막 한 조각은 누구에게?,role-1,식당 주인,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:5:ko,plate,마지막 한 조각은 누구에게?,role-1,식당 주인,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:6:ko,plate,마지막 한 조각은 누구에게?,role-1,식당 주인,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:1:ko,door,문 뒤에 숨겨 둔 별,read,소라,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:2:ko,door,문 뒤에 숨겨 둔 별,read,소라,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:3:ko,door,문 뒤에 숨겨 둔 별,read,소라,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:4:ko,door,문 뒤에 숨겨 둔 별,read,소라,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:5:ko,door,문 뒤에 숨겨 둔 별,read,소라,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:6:ko,door,문 뒤에 숨겨 둔 별,read,소라,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:1:ko,door,문 뒤에 숨겨 둔 별,role-0,엄마,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:2:ko,door,문 뒤에 숨겨 둔 별,role-0,엄마,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:3:ko,door,문 뒤에 숨겨 둔 별,role-0,엄마,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:4:ko,door,문 뒤에 숨겨 둔 별,role-0,엄마,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:5:ko,door,문 뒤에 숨겨 둔 별,role-0,엄마,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:6:ko,door,문 뒤에 숨겨 둔 별,role-0,엄마,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:1:ko,door,문 뒤에 숨겨 둔 별,role-1,수아,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:2:ko,door,문 뒤에 숨겨 둔 별,role-1,수아,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:3:ko,door,문 뒤에 숨겨 둔 별,role-1,수아,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:4:ko,door,문 뒤에 숨겨 둔 별,role-1,수아,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:5:ko,door,문 뒤에 숨겨 둔 별,role-1,수아,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:6:ko,door,문 뒤에 숨겨 둔 별,role-1,수아,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:1:ko,ball,노란 공이 기다려 준 날,read,지아,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:2:ko,ball,노란 공이 기다려 준 날,read,지아,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:3:ko,ball,노란 공이 기다려 준 날,read,지아,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:4:ko,ball,노란 공이 기다려 준 날,read,지아,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:5:ko,ball,노란 공이 기다려 준 날,read,지아,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:6:ko,ball,노란 공이 기다려 준 날,read,지아,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:1:ko,ball,노란 공이 기다려 준 날,role-0,루카,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:2:ko,ball,노란 공이 기다려 준 날,role-0,루카,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:3:ko,ball,노란 공이 기다려 준 날,role-0,루카,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:4:ko,ball,노란 공이 기다려 준 날,role-0,루카,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:5:ko,ball,노란 공이 기다려 준 날,role-0,루카,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:6:ko,ball,노란 공이 기다려 준 날,role-0,루카,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:1:ko,ball,노란 공이 기다려 준 날,role-1,안내자,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:2:ko,ball,노란 공이 기다려 준 날,role-1,안내자,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:3:ko,ball,노란 공이 기다려 준 날,role-1,안내자,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:4:ko,ball,노란 공이 기다려 준 날,role-1,안내자,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:5:ko,ball,노란 공이 기다려 준 날,role-1,안내자,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:6:ko,ball,노란 공이 기다려 준 날,role-1,안내자,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:1:ko,stars,"삐뚤빼뚤, 우리의 별",read,준,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:2:ko,stars,"삐뚤빼뚤, 우리의 별",read,준,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:3:ko,stars,"삐뚤빼뚤, 우리의 별",read,준,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:4:ko,stars,"삐뚤빼뚤, 우리의 별",read,준,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:5:ko,stars,"삐뚤빼뚤, 우리의 별",read,준,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:6:ko,stars,"삐뚤빼뚤, 우리의 별",read,준,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:1:ko,stars,"삐뚤빼뚤, 우리의 별",role-0,하린,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:2:ko,stars,"삐뚤빼뚤, 우리의 별",role-0,하린,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:3:ko,stars,"삐뚤빼뚤, 우리의 별",role-0,하린,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:4:ko,stars,"삐뚤빼뚤, 우리의 별",role-0,하린,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:5:ko,stars,"삐뚤빼뚤, 우리의 별",role-0,하린,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:6:ko,stars,"삐뚤빼뚤, 우리의 별",role-0,하린,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:1:ko,stars,"삐뚤빼뚤, 우리의 별",role-1,선생님,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:2:ko,stars,"삐뚤빼뚤, 우리의 별",role-1,선생님,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:3:ko,stars,"삐뚤빼뚤, 우리의 별",role-1,선생님,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:4:ko,stars,"삐뚤빼뚤, 우리의 별",role-1,선생님,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:5:ko,stars,"삐뚤빼뚤, 우리의 별",role-1,선생님,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:6:ko,stars,"삐뚤빼뚤, 우리의 별",role-1,선생님,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:1:ko,sleeve,접어 둔 소매 한 뼘,read,미라,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:2:ko,sleeve,접어 둔 소매 한 뼘,read,미라,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:3:ko,sleeve,접어 둔 소매 한 뼘,read,미라,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:4:ko,sleeve,접어 둔 소매 한 뼘,read,미라,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:5:ko,sleeve,접어 둔 소매 한 뼘,read,미라,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:6:ko,sleeve,접어 둔 소매 한 뼘,read,미라,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:1:ko,sleeve,접어 둔 소매 한 뼘,role-0,루벤,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:2:ko,sleeve,접어 둔 소매 한 뼘,role-0,루벤,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:3:ko,sleeve,접어 둔 소매 한 뼘,role-0,루벤,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:4:ko,sleeve,접어 둔 소매 한 뼘,role-0,루벤,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:5:ko,sleeve,접어 둔 소매 한 뼘,role-0,루벤,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:6:ko,sleeve,접어 둔 소매 한 뼘,role-0,루벤,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:1:ko,station,아직 남겨 둔 의자,read,아샤,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:2:ko,station,아직 남겨 둔 의자,read,아샤,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:3:ko,station,아직 남겨 둔 의자,read,아샤,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:4:ko,station,아직 남겨 둔 의자,read,아샤,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:5:ko,station,아직 남겨 둔 의자,read,아샤,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:6:ko,station,아직 남겨 둔 의자,read,아샤,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:1:ko,station,아직 남겨 둔 의자,role-0,마테오,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:2:ko,station,아직 남겨 둔 의자,role-0,마테오,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:3:ko,station,아직 남겨 둔 의자,role-0,마테오,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:4:ko,station,아직 남겨 둔 의자,role-0,마테오,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:5:ko,station,아직 남겨 둔 의자,role-0,마테오,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:6:ko,station,아직 남겨 둔 의자,role-0,마테오,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:1:ko,flowers,엄마가 고른 오늘의 꽃,read,루시아,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:2:ko,flowers,엄마가 고른 오늘의 꽃,read,루시아,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:3:ko,flowers,엄마가 고른 오늘의 꽃,read,루시아,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:4:ko,flowers,엄마가 고른 오늘의 꽃,read,루시아,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:5:ko,flowers,엄마가 고른 오늘의 꽃,read,루시아,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:6:ko,flowers,엄마가 고른 오늘의 꽃,read,루시아,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:1:ko,flowers,엄마가 고른 오늘의 꽃,role-0,엘레나,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:2:ko,flowers,엄마가 고른 오늘의 꽃,role-0,엘레나,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:3:ko,flowers,엄마가 고른 오늘의 꽃,role-0,엘레나,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:4:ko,flowers,엄마가 고른 오늘의 꽃,role-0,엘레나,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:5:ko,flowers,엄마가 고른 오늘의 꽃,role-0,엘레나,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:6:ko,flowers,엄마가 고른 오늘의 꽃,role-0,엘레나,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:1:ko,notes,빨간 표시 옆의 한마디,read,다비,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:2:ko,notes,빨간 표시 옆의 한마디,read,다비,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:3:ko,notes,빨간 표시 옆의 한마디,read,다비,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:4:ko,notes,빨간 표시 옆의 한마디,read,다비,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:5:ko,notes,빨간 표시 옆의 한마디,read,다비,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:6:ko,notes,빨간 표시 옆의 한마디,read,다비,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:1:ko,notes,빨간 표시 옆의 한마디,role-0,렌,1,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:2:ko,notes,빨간 표시 옆의 한마디,role-0,렌,2,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:3:ko,notes,빨간 표시 옆의 한마디,role-0,렌,3,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:4:ko,notes,빨간 표시 옆의 한마디,role-0,렌,4,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:5:ko,notes,빨간 표시 옆의 한마디,role-0,렌,5,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:6:ko,notes,빨간 표시 옆의 한마디,role-0,렌,6,ko,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:1:en,errand,Warm Bread in Little Hands,read,Jiwoo,1,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:2:en,errand,Warm Bread in Little Hands,read,Jiwoo,2,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:3:en,errand,Warm Bread in Little Hands,read,Jiwoo,3,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:4:en,errand,Warm Bread in Little Hands,read,Jiwoo,4,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:5:en,errand,Warm Bread in Little Hands,read,Jiwoo,5,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:6:en,errand,Warm Bread in Little Hands,read,Jiwoo,6,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:1:en,errand,Warm Bread in Little Hands,role-0,Junho,1,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:2:en,errand,Warm Bread in Little Hands,role-0,Junho,2,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:3:en,errand,Warm Bread in Little Hands,role-0,Junho,3,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:4:en,errand,Warm Bread in Little Hands,role-0,Junho,4,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:5:en,errand,Warm Bread in Little Hands,role-0,Junho,5,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:6:en,errand,Warm Bread in Little Hands,role-0,Junho,6,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:1:en,errand,Warm Bread in Little Hands,role-1,The baker,1,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:2:en,errand,Warm Bread in Little Hands,role-1,The baker,2,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:3:en,errand,Warm Bread in Little Hands,role-1,The baker,3,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:4:en,errand,Warm Bread in Little Hands,role-1,The baker,4,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:5:en,errand,Warm Bread in Little Hands,role-1,The baker,5,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:6:en,errand,Warm Bread in Little Hands,role-1,The baker,6,en,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:1:en,cups,Two Cups on a Birthday,read,Minseo,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:2:en,cups,Two Cups on a Birthday,read,Minseo,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:3:en,cups,Two Cups on a Birthday,read,Minseo,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:4:en,cups,Two Cups on a Birthday,read,Minseo,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:5:en,cups,Two Cups on a Birthday,read,Minseo,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:6:en,cups,Two Cups on a Birthday,read,Minseo,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:1:en,cups,Two Cups on a Birthday,role-0,Yuna,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:2:en,cups,Two Cups on a Birthday,role-0,Yuna,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:3:en,cups,Two Cups on a Birthday,role-0,Yuna,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:4:en,cups,Two Cups on a Birthday,role-0,Yuna,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:5:en,cups,Two Cups on a Birthday,role-0,Yuna,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:6:en,cups,Two Cups on a Birthday,role-0,Yuna,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:1:en,cups,Two Cups on a Birthday,role-1,The party host,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:2:en,cups,Two Cups on a Birthday,role-1,The party host,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:3:en,cups,Two Cups on a Birthday,role-1,The party host,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:4:en,cups,Two Cups on a Birthday,role-1,The party host,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:5:en,cups,Two Cups on a Birthday,role-1,The party host,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:6:en,cups,Two Cups on a Birthday,role-1,The party host,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:1:en,plate,Who Is the Last Piece For?,read,Sofia,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:2:en,plate,Who Is the Last Piece For?,read,Sofia,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:3:en,plate,Who Is the Last Piece For?,read,Sofia,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:4:en,plate,Who Is the Last Piece For?,read,Sofia,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:5:en,plate,Who Is the Last Piece For?,read,Sofia,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:6:en,plate,Who Is the Last Piece For?,read,Sofia,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:1:en,plate,Who Is the Last Piece For?,role-0,Noah,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:2:en,plate,Who Is the Last Piece For?,role-0,Noah,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:3:en,plate,Who Is the Last Piece For?,role-0,Noah,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:4:en,plate,Who Is the Last Piece For?,role-0,Noah,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:5:en,plate,Who Is the Last Piece For?,role-0,Noah,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:6:en,plate,Who Is the Last Piece For?,role-0,Noah,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:1:en,plate,Who Is the Last Piece For?,role-1,The restaurant owner,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:2:en,plate,Who Is the Last Piece For?,role-1,The restaurant owner,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:3:en,plate,Who Is the Last Piece For?,role-1,The restaurant owner,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:4:en,plate,Who Is the Last Piece For?,role-1,The restaurant owner,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:5:en,plate,Who Is the Last Piece For?,role-1,The restaurant owner,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:6:en,plate,Who Is the Last Piece For?,role-1,The restaurant owner,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:1:en,door,The Star Behind the Door,read,Sora,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:2:en,door,The Star Behind the Door,read,Sora,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:3:en,door,The Star Behind the Door,read,Sora,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:4:en,door,The Star Behind the Door,read,Sora,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:5:en,door,The Star Behind the Door,read,Sora,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:6:en,door,The Star Behind the Door,read,Sora,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:1:en,door,The Star Behind the Door,role-0,Mom,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:2:en,door,The Star Behind the Door,role-0,Mom,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:3:en,door,The Star Behind the Door,role-0,Mom,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:4:en,door,The Star Behind the Door,role-0,Mom,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:5:en,door,The Star Behind the Door,role-0,Mom,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:6:en,door,The Star Behind the Door,role-0,Mom,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:1:en,door,The Star Behind the Door,role-1,Sua,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:2:en,door,The Star Behind the Door,role-1,Sua,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:3:en,door,The Star Behind the Door,role-1,Sua,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:4:en,door,The Star Behind the Door,role-1,Sua,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:5:en,door,The Star Behind the Door,role-1,Sua,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:6:en,door,The Star Behind the Door,role-1,Sua,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:1:en,ball,The Day the Yellow Ball Waited,read,Gia,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:2:en,ball,The Day the Yellow Ball Waited,read,Gia,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:3:en,ball,The Day the Yellow Ball Waited,read,Gia,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:4:en,ball,The Day the Yellow Ball Waited,read,Gia,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:5:en,ball,The Day the Yellow Ball Waited,read,Gia,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:6:en,ball,The Day the Yellow Ball Waited,read,Gia,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:1:en,ball,The Day the Yellow Ball Waited,role-0,Luca,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:2:en,ball,The Day the Yellow Ball Waited,role-0,Luca,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:3:en,ball,The Day the Yellow Ball Waited,role-0,Luca,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:4:en,ball,The Day the Yellow Ball Waited,role-0,Luca,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:5:en,ball,The Day the Yellow Ball Waited,role-0,Luca,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:6:en,ball,The Day the Yellow Ball Waited,role-0,Luca,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:1:en,ball,The Day the Yellow Ball Waited,role-1,The park helper,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:2:en,ball,The Day the Yellow Ball Waited,role-1,The park helper,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:3:en,ball,The Day the Yellow Ball Waited,role-1,The park helper,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:4:en,ball,The Day the Yellow Ball Waited,role-1,The park helper,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:5:en,ball,The Day the Yellow Ball Waited,role-1,The park helper,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:6:en,ball,The Day the Yellow Ball Waited,role-1,The park helper,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:1:en,stars,Our Wonderfully Wobbly Stars,read,Jun,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:2:en,stars,Our Wonderfully Wobbly Stars,read,Jun,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:3:en,stars,Our Wonderfully Wobbly Stars,read,Jun,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:4:en,stars,Our Wonderfully Wobbly Stars,read,Jun,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:5:en,stars,Our Wonderfully Wobbly Stars,read,Jun,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:6:en,stars,Our Wonderfully Wobbly Stars,read,Jun,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:1:en,stars,Our Wonderfully Wobbly Stars,role-0,Harin,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:2:en,stars,Our Wonderfully Wobbly Stars,role-0,Harin,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:3:en,stars,Our Wonderfully Wobbly Stars,role-0,Harin,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:4:en,stars,Our Wonderfully Wobbly Stars,role-0,Harin,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:5:en,stars,Our Wonderfully Wobbly Stars,role-0,Harin,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:6:en,stars,Our Wonderfully Wobbly Stars,role-0,Harin,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:1:en,stars,Our Wonderfully Wobbly Stars,role-1,The teacher,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:2:en,stars,Our Wonderfully Wobbly Stars,role-1,The teacher,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:3:en,stars,Our Wonderfully Wobbly Stars,role-1,The teacher,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:4:en,stars,Our Wonderfully Wobbly Stars,role-1,The teacher,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:5:en,stars,Our Wonderfully Wobbly Stars,role-1,The teacher,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:6:en,stars,Our Wonderfully Wobbly Stars,role-1,The teacher,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:1:en,sleeve,A Fold in the Sleeve,read,Mira,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:2:en,sleeve,A Fold in the Sleeve,read,Mira,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:3:en,sleeve,A Fold in the Sleeve,read,Mira,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:4:en,sleeve,A Fold in the Sleeve,read,Mira,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:5:en,sleeve,A Fold in the Sleeve,read,Mira,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:6:en,sleeve,A Fold in the Sleeve,read,Mira,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:1:en,sleeve,A Fold in the Sleeve,role-0,Reuben,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:2:en,sleeve,A Fold in the Sleeve,role-0,Reuben,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:3:en,sleeve,A Fold in the Sleeve,role-0,Reuben,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:4:en,sleeve,A Fold in the Sleeve,role-0,Reuben,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:5:en,sleeve,A Fold in the Sleeve,role-0,Reuben,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:6:en,sleeve,A Fold in the Sleeve,role-0,Reuben,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:1:en,station,Room on the Bench,read,Asha,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:2:en,station,Room on the Bench,read,Asha,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:3:en,station,Room on the Bench,read,Asha,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:4:en,station,Room on the Bench,read,Asha,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:5:en,station,Room on the Bench,read,Asha,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:6:en,station,Room on the Bench,read,Asha,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:1:en,station,Room on the Bench,role-0,Mateo,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:2:en,station,Room on the Bench,role-0,Mateo,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:3:en,station,Room on the Bench,role-0,Mateo,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:4:en,station,Room on the Bench,role-0,Mateo,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:5:en,station,Room on the Bench,role-0,Mateo,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:6:en,station,Room on the Bench,role-0,Mateo,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:1:en,flowers,The Flowers Mum Chose Today,read,Lucia,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:2:en,flowers,The Flowers Mum Chose Today,read,Lucia,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:3:en,flowers,The Flowers Mum Chose Today,read,Lucia,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:4:en,flowers,The Flowers Mum Chose Today,read,Lucia,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:5:en,flowers,The Flowers Mum Chose Today,read,Lucia,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:6:en,flowers,The Flowers Mum Chose Today,read,Lucia,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:1:en,flowers,The Flowers Mum Chose Today,role-0,Elena,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:2:en,flowers,The Flowers Mum Chose Today,role-0,Elena,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:3:en,flowers,The Flowers Mum Chose Today,role-0,Elena,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:4:en,flowers,The Flowers Mum Chose Today,role-0,Elena,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:5:en,flowers,The Flowers Mum Chose Today,role-0,Elena,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:6:en,flowers,The Flowers Mum Chose Today,role-0,Elena,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:1:en,notes,A Word Beside the Red Marks,read,Davi,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:2:en,notes,A Word Beside the Red Marks,read,Davi,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:3:en,notes,A Word Beside the Red Marks,read,Davi,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:4:en,notes,A Word Beside the Red Marks,read,Davi,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:5:en,notes,A Word Beside the Red Marks,read,Davi,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:6:en,notes,A Word Beside the Red Marks,read,Davi,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:1:en,notes,A Word Beside the Red Marks,role-0,Ren,1,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:2:en,notes,A Word Beside the Red Marks,role-0,Ren,2,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:3:en,notes,A Word Beside the Red Marks,role-0,Ren,3,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:4:en,notes,A Word Beside the Red Marks,role-0,Ren,4,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:5:en,notes,A Word Beside the Red Marks,role-0,Ren,5,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:6:en,notes,A Word Beside the Red Marks,role-0,Ren,6,en,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:1:es,errand,Pan tibio en manos pequeñas,read,Jiwoo,1,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:2:es,errand,Pan tibio en manos pequeñas,read,Jiwoo,2,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:3:es,errand,Pan tibio en manos pequeñas,read,Jiwoo,3,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:4:es,errand,Pan tibio en manos pequeñas,read,Jiwoo,4,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:5:es,errand,Pan tibio en manos pequeñas,read,Jiwoo,5,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:read:6:es,errand,Pan tibio en manos pequeñas,read,Jiwoo,6,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:1:es,errand,Pan tibio en manos pequeñas,role-0,Junho,1,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:2:es,errand,Pan tibio en manos pequeñas,role-0,Junho,2,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:3:es,errand,Pan tibio en manos pequeñas,role-0,Junho,3,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:4:es,errand,Pan tibio en manos pequeñas,role-0,Junho,4,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:5:es,errand,Pan tibio en manos pequeñas,role-0,Junho,5,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-0:6:es,errand,Pan tibio en manos pequeñas,role-0,Junho,6,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:1:es,errand,Pan tibio en manos pequeñas,role-1,La panadera,1,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:2:es,errand,Pan tibio en manos pequeñas,role-1,La panadera,2,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:3:es,errand,Pan tibio en manos pequeñas,role-1,La panadera,3,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:4:es,errand,Pan tibio en manos pequeñas,role-1,La panadera,4,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:5:es,errand,Pan tibio en manos pequeñas,role-1,La panadera,5,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+errand:role-1:6:es,errand,Pan tibio en manos pequeñas,role-1,La panadera,6,es,자료 연결 확인,실제 화면 확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:1:es,cups,Dos tazas en un cumpleaños,read,Minseo,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:2:es,cups,Dos tazas en un cumpleaños,read,Minseo,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:3:es,cups,Dos tazas en un cumpleaños,read,Minseo,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:4:es,cups,Dos tazas en un cumpleaños,read,Minseo,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:5:es,cups,Dos tazas en un cumpleaños,read,Minseo,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:read:6:es,cups,Dos tazas en un cumpleaños,read,Minseo,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:1:es,cups,Dos tazas en un cumpleaños,role-0,Yuna,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:2:es,cups,Dos tazas en un cumpleaños,role-0,Yuna,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:3:es,cups,Dos tazas en un cumpleaños,role-0,Yuna,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:4:es,cups,Dos tazas en un cumpleaños,role-0,Yuna,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:5:es,cups,Dos tazas en un cumpleaños,role-0,Yuna,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-0:6:es,cups,Dos tazas en un cumpleaños,role-0,Yuna,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:1:es,cups,Dos tazas en un cumpleaños,role-1,La anfitriona,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:2:es,cups,Dos tazas en un cumpleaños,role-1,La anfitriona,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:3:es,cups,Dos tazas en un cumpleaños,role-1,La anfitriona,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:4:es,cups,Dos tazas en un cumpleaños,role-1,La anfitriona,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:5:es,cups,Dos tazas en un cumpleaños,role-1,La anfitriona,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+cups:role-1:6:es,cups,Dos tazas en un cumpleaños,role-1,La anfitriona,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:1:es,plate,¿Para quién es el último trocito?,read,Sofía,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:2:es,plate,¿Para quién es el último trocito?,read,Sofía,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:3:es,plate,¿Para quién es el último trocito?,read,Sofía,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:4:es,plate,¿Para quién es el último trocito?,read,Sofía,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:5:es,plate,¿Para quién es el último trocito?,read,Sofía,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:read:6:es,plate,¿Para quién es el último trocito?,read,Sofía,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:1:es,plate,¿Para quién es el último trocito?,role-0,Noah,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:2:es,plate,¿Para quién es el último trocito?,role-0,Noah,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:3:es,plate,¿Para quién es el último trocito?,role-0,Noah,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:4:es,plate,¿Para quién es el último trocito?,role-0,Noah,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:5:es,plate,¿Para quién es el último trocito?,role-0,Noah,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-0:6:es,plate,¿Para quién es el último trocito?,role-0,Noah,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:1:es,plate,¿Para quién es el último trocito?,role-1,La dueña del restaurante,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:2:es,plate,¿Para quién es el último trocito?,role-1,La dueña del restaurante,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:3:es,plate,¿Para quién es el último trocito?,role-1,La dueña del restaurante,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:4:es,plate,¿Para quién es el último trocito?,role-1,La dueña del restaurante,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:5:es,plate,¿Para quién es el último trocito?,role-1,La dueña del restaurante,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+plate:role-1:6:es,plate,¿Para quién es el último trocito?,role-1,La dueña del restaurante,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:1:es,door,La estrella detrás de la puerta,read,Sora,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:2:es,door,La estrella detrás de la puerta,read,Sora,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:3:es,door,La estrella detrás de la puerta,read,Sora,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:4:es,door,La estrella detrás de la puerta,read,Sora,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:5:es,door,La estrella detrás de la puerta,read,Sora,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:read:6:es,door,La estrella detrás de la puerta,read,Sora,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:1:es,door,La estrella detrás de la puerta,role-0,Mamá,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:2:es,door,La estrella detrás de la puerta,role-0,Mamá,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:3:es,door,La estrella detrás de la puerta,role-0,Mamá,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:4:es,door,La estrella detrás de la puerta,role-0,Mamá,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:5:es,door,La estrella detrás de la puerta,role-0,Mamá,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-0:6:es,door,La estrella detrás de la puerta,role-0,Mamá,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:1:es,door,La estrella detrás de la puerta,role-1,Sua,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:2:es,door,La estrella detrás de la puerta,role-1,Sua,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:3:es,door,La estrella detrás de la puerta,role-1,Sua,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:4:es,door,La estrella detrás de la puerta,role-1,Sua,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:5:es,door,La estrella detrás de la puerta,role-1,Sua,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+door:role-1:6:es,door,La estrella detrás de la puerta,role-1,Sua,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:1:es,ball,El día que la pelota amarilla esperó,read,Gia,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:2:es,ball,El día que la pelota amarilla esperó,read,Gia,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:3:es,ball,El día que la pelota amarilla esperó,read,Gia,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:4:es,ball,El día que la pelota amarilla esperó,read,Gia,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:5:es,ball,El día que la pelota amarilla esperó,read,Gia,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:read:6:es,ball,El día que la pelota amarilla esperó,read,Gia,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:1:es,ball,El día que la pelota amarilla esperó,role-0,Luca,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:2:es,ball,El día que la pelota amarilla esperó,role-0,Luca,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:3:es,ball,El día que la pelota amarilla esperó,role-0,Luca,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:4:es,ball,El día que la pelota amarilla esperó,role-0,Luca,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:5:es,ball,El día que la pelota amarilla esperó,role-0,Luca,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-0:6:es,ball,El día que la pelota amarilla esperó,role-0,Luca,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:1:es,ball,El día que la pelota amarilla esperó,role-1,La encargada del parque,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:2:es,ball,El día que la pelota amarilla esperó,role-1,La encargada del parque,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:3:es,ball,El día que la pelota amarilla esperó,role-1,La encargada del parque,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:4:es,ball,El día que la pelota amarilla esperó,role-1,La encargada del parque,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:5:es,ball,El día que la pelota amarilla esperó,role-1,La encargada del parque,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+ball:role-1:6:es,ball,El día que la pelota amarilla esperó,role-1,La encargada del parque,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:1:es,stars,Nuestras estrellas un poquito torcidas,read,Jun,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:2:es,stars,Nuestras estrellas un poquito torcidas,read,Jun,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:3:es,stars,Nuestras estrellas un poquito torcidas,read,Jun,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:4:es,stars,Nuestras estrellas un poquito torcidas,read,Jun,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:5:es,stars,Nuestras estrellas un poquito torcidas,read,Jun,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:read:6:es,stars,Nuestras estrellas un poquito torcidas,read,Jun,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:1:es,stars,Nuestras estrellas un poquito torcidas,role-0,Harin,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:2:es,stars,Nuestras estrellas un poquito torcidas,role-0,Harin,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:3:es,stars,Nuestras estrellas un poquito torcidas,role-0,Harin,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:4:es,stars,Nuestras estrellas un poquito torcidas,role-0,Harin,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:5:es,stars,Nuestras estrellas un poquito torcidas,role-0,Harin,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-0:6:es,stars,Nuestras estrellas un poquito torcidas,role-0,Harin,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:1:es,stars,Nuestras estrellas un poquito torcidas,role-1,La maestra,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:2:es,stars,Nuestras estrellas un poquito torcidas,role-1,La maestra,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:3:es,stars,Nuestras estrellas un poquito torcidas,role-1,La maestra,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:4:es,stars,Nuestras estrellas un poquito torcidas,role-1,La maestra,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:5:es,stars,Nuestras estrellas un poquito torcidas,role-1,La maestra,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+stars:role-1:6:es,stars,Nuestras estrellas un poquito torcidas,role-1,La maestra,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:1:es,sleeve,Un pliegue en la manga,read,Mira,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:2:es,sleeve,Un pliegue en la manga,read,Mira,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:3:es,sleeve,Un pliegue en la manga,read,Mira,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:4:es,sleeve,Un pliegue en la manga,read,Mira,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:5:es,sleeve,Un pliegue en la manga,read,Mira,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:read:6:es,sleeve,Un pliegue en la manga,read,Mira,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:1:es,sleeve,Un pliegue en la manga,role-0,Reuben,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:2:es,sleeve,Un pliegue en la manga,role-0,Reuben,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:3:es,sleeve,Un pliegue en la manga,role-0,Reuben,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:4:es,sleeve,Un pliegue en la manga,role-0,Reuben,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:5:es,sleeve,Un pliegue en la manga,role-0,Reuben,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+sleeve:role-0:6:es,sleeve,Un pliegue en la manga,role-0,Reuben,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:1:es,station,Un sitio en el banco,read,Asha,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:2:es,station,Un sitio en el banco,read,Asha,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:3:es,station,Un sitio en el banco,read,Asha,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:4:es,station,Un sitio en el banco,read,Asha,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:5:es,station,Un sitio en el banco,read,Asha,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:read:6:es,station,Un sitio en el banco,read,Asha,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:1:es,station,Un sitio en el banco,role-0,Mateo,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:2:es,station,Un sitio en el banco,role-0,Mateo,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:3:es,station,Un sitio en el banco,role-0,Mateo,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:4:es,station,Un sitio en el banco,role-0,Mateo,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:5:es,station,Un sitio en el banco,role-0,Mateo,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+station:role-0:6:es,station,Un sitio en el banco,role-0,Mateo,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:1:es,flowers,Las flores que mamá eligió hoy,read,Lucía,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:2:es,flowers,Las flores que mamá eligió hoy,read,Lucía,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:3:es,flowers,Las flores que mamá eligió hoy,read,Lucía,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:4:es,flowers,Las flores que mamá eligió hoy,read,Lucía,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:5:es,flowers,Las flores que mamá eligió hoy,read,Lucía,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:read:6:es,flowers,Las flores que mamá eligió hoy,read,Lucía,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:1:es,flowers,Las flores que mamá eligió hoy,role-0,Elena,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:2:es,flowers,Las flores que mamá eligió hoy,role-0,Elena,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:3:es,flowers,Las flores que mamá eligió hoy,role-0,Elena,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:4:es,flowers,Las flores que mamá eligió hoy,role-0,Elena,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:5:es,flowers,Las flores que mamá eligió hoy,role-0,Elena,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+flowers:role-0:6:es,flowers,Las flores que mamá eligió hoy,role-0,Elena,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:1:es,notes,Una frase junto a las marcas rojas,read,Davi,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:2:es,notes,Una frase junto a las marcas rojas,read,Davi,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:3:es,notes,Una frase junto a las marcas rojas,read,Davi,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:4:es,notes,Una frase junto a las marcas rojas,read,Davi,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:5:es,notes,Una frase junto a las marcas rojas,read,Davi,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:read:6:es,notes,Una frase junto a las marcas rojas,read,Davi,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:1:es,notes,Una frase junto a las marcas rojas,role-0,Ren,1,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:2:es,notes,Una frase junto a las marcas rojas,role-0,Ren,2,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:3:es,notes,Una frase junto a las marcas rojas,role-0,Ren,3,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:4:es,notes,Una frase junto a las marcas rojas,role-0,Ren,4,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:5:es,notes,Una frase junto a las marcas rojas,role-0,Ren,5,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기
+notes:role-0:6:es,notes,Una frase junto a las marcas rojas,role-0,Ren,6,es,자료 연결 확인,미확인,그림·문장 난이도·번역 자연스러움 대조 대기

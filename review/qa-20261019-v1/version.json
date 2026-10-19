@@ -1,0 +1,118 @@
+{
+  "version": "qa-public-20261019-v1",
+  "based_on_local_review": "qa-20261019-v1",
+  "date": "2026-10-19",
+  "base_commit": "63c2cf0a40b7c9bccebc3cb08f6a82c73a2828ef",
+  "repository": "https://github.com/kimyoungji33-GG/heartstorybook",
+  "scope": "Public review handoff and bread translation preview only. Not full QA completion or production reader replacement.",
+  "preview_files": [
+    {
+      "file": "reader-language.js",
+      "sha256": "2403a1736c3caefe21b47386ebbe4afc3455fe29218b3194415f475cf954896a"
+    },
+    {
+      "file": "six-book-reader.js",
+      "sha256": "bedb4e1e34463f883fe56471f3a9d8bb4084dc24e4b09b0d05ce3af10e9b5117"
+    }
+  ],
+  "existing_public_dependencies": [
+    {
+      "file": "language-availability.js",
+      "sha256": "b031304d9deebe77ffab864a0addc4e1a7e3d491682c0299bb9d1c838753a3d4"
+    },
+    {
+      "file": "visual-reader.css",
+      "sha256": "f2c65ee401e3901aa462cbee553bfea7f4b46730b09d69d674757445c5a60869"
+    },
+    {
+      "file": "simple-navigation.css",
+      "sha256": "840037c411ca937ff1b4d34bd21de20d1b04d42a2eb46121a801a2dfd1846372"
+    },
+    {
+      "file": "storybook-titles.css",
+      "sha256": "aee5022b67718a3593899b3c02b8379a46eac7804c9d2d7b8a271a0857ff774b"
+    },
+    {
+      "file": "story-audio.css",
+      "sha256": "eb92ae45274be9bcd62c619fd223f818274244d6ecb098b7a30b1384f7fabbc4"
+    },
+    {
+      "file": "book-swipe.css",
+      "sha256": "6ac9ba8cf51dee55863262461c0543ee95d46f67af675d75e37f41822abe1262"
+    },
+    {
+      "file": "heart-journal.css",
+      "sha256": "791f7e3a45396be3ae69310568dc4a16289b30d63b89a19d955c0732de5cd4e9"
+    },
+    {
+      "file": "heart-sharing-entry.css",
+      "sha256": "21b888e3313db8ad148d90ad3acc3ca01c35f1cfe1a5dd6c5b618d1374ce5e7a"
+    },
+    {
+      "file": "heart-language.js",
+      "sha256": "8d44804a5cc51ca15334014557aeef74ac725cc4138b8ad013af621256ecdace"
+    },
+    {
+      "file": "six-books-data.js",
+      "sha256": "2237fcd56c3494dd273a5dbddeb1e7e9a6ef721b0138ba3ee4d3655d3b76f602"
+    },
+    {
+      "file": "book-locales.js",
+      "sha256": "966a203792c81aa28f9e40c5d508e1a0511fadb233d3e31a93ec7055aefaf25a"
+    },
+    {
+      "file": "book-swipe.js",
+      "sha256": "600c4afbbfd0025e9062c81acd7537e17ba734c891b9c28f3997b552ddc696e0"
+    },
+    {
+      "file": "open-clue-locations.js",
+      "sha256": "89826b7598af88f112708025e6cd9c04ae078eecee906f92d0933211af27efcf"
+    },
+    {
+      "file": "story-refinement.js",
+      "sha256": "479e858a6317fa9e644bcc59d242f60251b9198756454a99a170dabc63df337d"
+    },
+    {
+      "file": "stories.js",
+      "sha256": "8982ae854167cee3f67c3435f43e88b15af7849d3dcb1998166500fc85348446"
+    },
+    {
+      "file": "simple-navigation.js",
+      "sha256": "b160dac78491ad7908e471bc177a340b1b13bb242fa2dd11d19df21fcc4d9b02"
+    },
+    {
+      "file": "narration-audio-data.js",
+      "sha256": "5b139003a705e63c5583c896490ccc15408a8319eb7e8938a180a963f89dbe1b"
+    },
+    {
+      "file": "story-audio.js",
+      "sha256": "83b60c954c3ed75a0afe6ea5b000ce467fbf1f07f7daf701b660b7737aefa3cd"
+    },
+    {
+      "file": "navigation-lettering.js",
+      "sha256": "4fd9531b2020d3a153da03947af354d9dd55e5031f344ffedde47c55a4a382c2"
+    },
+    {
+      "file": "language-flags.js",
+      "sha256": "ffc7c29325f7caf7b4a9b704372df87b8bc2ed102360965aaa0a6ea75716f1ab"
+    },
+    {
+      "file": "nature-navigation.js",
+      "sha256": "dcb265374abde895dd3d06f6dc77883c5ad97e8c1bac4df76a293de26cc5e134"
+    },
+    {
+      "file": "heart-sharing-entry.js",
+      "sha256": "0b0c3fc20665bddf048341f32d6272bd0206dda0eac65df40858f8e025e715bd"
+    }
+  ],
+  "tested_local_states": 54,
+  "all_current_state_count": 468,
+  "definition_state_count": 432,
+  "korean_recording_asset_count": 36,
+  "not_completed": [
+    "Other book browser checks",
+    "Human illustration and manuscript review",
+    "External translation review",
+    "Full recording listening checks"
+  ]
+}
