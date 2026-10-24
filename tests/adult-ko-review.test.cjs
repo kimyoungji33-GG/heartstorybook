@@ -49,3 +49,26 @@ test('shared turning-point dialogue agrees across viewpoints',()=>{
  ];
  for(const [id,page,line]of lines){const b=books.find(b=>b.id===id);for(const s of [b.scenes[page],b.activities[0].scenes[page]])assert.ok(s.text.includes(line),`${id} ${page+1}: shared dialogue missing`);}
 });
+test('all eight narrators speak as I outside dialogue throughout their six pages',()=>{
+ const books=load('ko',true).books.filter(b=>b.audience==='adult');let count=0;
+ for(const b of books)for(const [narrator,list]of [[b.narrator,b.scenes],...b.activities.map(a=>[a.role,a.scenes])]){
+  for(const [page,s]of list.entries()){
+   const narration=s.text.replace(/“[^”]*”|‘[^’]*’/g,'');
+   assert.match(narration,/(?:^|\s)(?:나는|내가|내게|내|나를|나도|나와|나에게)(?:\s|[,.?!]|$)/,`${b.id} ${narrator} ${page+1}: first person only appears in dialogue`);
+   assert.ok(!narration.includes(narrator),`${b.id} ${page+1}: narrator referred to by name`);
+   assert.doesNotMatch(narration,/두 사람은/,`${b.id} ${page+1}: external narrator describes both characters`);
+   count++;
+  }
+ }
+ assert.equal(count,48);
+});
+test('Mateo describes his own focus rather than narrating a gesture he did not see',()=>{
+ const b=load('ko',true).books.find(b=>b.id==='station'),s=b.activities[0].scenes[1];
+ assert.doesNotMatch(s.text,/보지 못했|손을 내밀|손을.*거두/);
+ assert.match(s.text,/내가 미리 알아둔 길/);
+});
+test('the tailor learns Mira’s worry from her words, and Davi’s fear remains his own interpretation',()=>{
+ const books=load('ko',true).books,tailor=books.find(b=>b.id==='sleeve').activities[0].scenes[5].text;
+ assert.match(tailor,/그 말을 듣고서야 나는/);
+ assert.match(books.find(b=>b.id==='notes').scenes[2].text,/렌이 빼라고 한 것은 아니었지만/);
+});

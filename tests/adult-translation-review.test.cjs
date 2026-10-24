@@ -61,6 +61,26 @@ for(const lang of ['en','es']){
   for(const [id,page,line]of lines){const b=books.find(b=>b.id===id);for(const s of [b.scenes[page],b.activities[0].scenes[page]])assert.ok(s.text.includes(line.replace(/\.$/,'')),`${id} ${page+1}: shared dialogue missing`);}
   const station=books.find(b=>b.id==='station');
   assert.doesNotMatch(station.scenes[3].text,lang==='en'?/I like (this place|it here)/:/Me gusta (este lugar|aquí)/);
-  assert.match(station.scenes[0].text,lang==='en'?/since she left her job/:/desde que dejó de trabajar/);
+  assert.match(station.scenes[0].text,lang==='en'?/since I left my job/:/desde que dejé de trabajar/);
+ });
+ test(`${lang}: all eight narrators tell every scene in first person outside dialogue`,()=>{
+  const books=load(lang).books.filter(b=>b.audience==='adult');let count=0;
+  for(const b of books)for(const [narrator,list]of [[b.narrator,b.scenes],...b.activities.map(a=>[a.role,a.scenes])])for(const [page,s]of list.entries()){
+   const narration=s.text.replace(/“[^”]*”|‘[^’]*’|«[^»]*»/g,'');
+   assert.ok(!narration.includes(narrator),`${b.id} ${narrator} ${page+1}: self described by name`);
+   if(lang==='en'){
+    assert.match(narration,/\b(?:I|me|my|we|our|us)\b/,`${b.id} ${page+1}: no first-person narration`);
+   }else{
+    // Spanish can omit yo: a first-person verb is as valid as an explicit pronoun.
+    assert.match(narration,/(?:^|[^\p{L}])(?:yo|me|mi|mis|mí|nos|nuestro|nuestra|encontré|examiné|oí|sentí|dije|escuché|asentí|señalé|empecé|dejé|decidimos)(?=[^\p{L}]|$)/iu,`${b.id} ${page+1}: no first-person narration`);
+   }
+   count++;
+  }
+  assert.equal(count,48);
+ });
+ test(`${lang}: Mateo cannot narrate an unseen gesture and Reuben learns the worry from Mira’s words`,()=>{
+  const books=load(lang).books,station=books.find(b=>b.id==='station'),sleeve=books.find(b=>b.id==='sleeve');
+  assert.doesNotMatch(station.activities[0].scenes[1].text,lang==='en'?/did not see|reach.*hand|draw.*hand/:/no vi|acerc.*mano|retir.*mano/);
+  assert.match(sleeve.activities[0].scenes[5].text,lang==='en'?/Only after hearing that did I learn/:/Solo al oírlo supe/);
  });
 }
