@@ -6,5 +6,15 @@
     "originCountry": "한국",
     "adaptationNote": "서로의 마음을 듣고 따뜻한 결말로 새롭게 펼친 이야기",
     "coverImage": "./frog-cover.png"
+  },
+  {
+    "id": "hansel-gretel",
+    "title": "헨젤과 그레텔의 두근거리는 마음",
+    "originalName": "독일 전래동화 · 그림 형제의 헨젤과 그레텔",
+    "originCountry": "독일",
+    "adaptationNote": "아이가 무섭고 화난 마음을 꺼냈을 때, 어른이 멈추고 들어주며 함께 가족을 찾는 이야기",
+    "coverImage": "./images/hansel-gretel/v7/cover.png",
+    "href": "./hansel-gretel.html",
+    "languages": ["ko"]
   }
 ]

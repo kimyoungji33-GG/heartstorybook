@@ -1,0 +1,11 @@
+/* Share Little Frog's layout, colors and type; only story-specific details live here. */
+#hansel-app:focus{outline:none}
+.hansel-reading .frog-scene{display:block;width:100%;height:auto;max-height:none;object-fit:contain;aspect-ratio:3/2}
+.hansel-reading .story-text{white-space:pre-line;word-break:keep-all}
+.hansel-reading .story-text p{margin:0 0 1em}
+.hansel-reading .story-text p:last-child{margin-bottom:0}
+.hansel-reading .hansel-source{font-family:var(--instruction-font);font-size:14px;line-height:1.8;color:var(--muted);margin-top:20px}
+.hansel-reading .frog-summary p{white-space:pre-line}
+.hansel-reading .story-page,.hansel-reading .illustration-page{min-width:0}
+.hansel-reading .activity-panel .choices{grid-template-columns:1fr}
+@media(max-width:700px){.hansel-reading .reading-nav{flex-wrap:wrap;gap:10px}.hansel-reading .hansel-source{font-size:13px}}
