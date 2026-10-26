@@ -9,3 +9,6 @@
 .hansel-reading .story-page,.hansel-reading .illustration-page{min-width:0}
 .hansel-reading .activity-panel .choices{grid-template-columns:1fr}
 @media(max-width:700px){.hansel-reading .reading-nav{flex-wrap:wrap;gap:10px}.hansel-reading .hansel-source{font-size:13px}}
+html:is([lang=en],[lang=es]) .hansel-reading .story-text{word-break:normal;overflow-wrap:break-word}
+.hansel-reading :is(.book-paths button,.experience-tabs button,.reading-nav button){height:auto;white-space:normal;min-width:0}
+@media(max-width:520px){.hansel-reading .experience-tabs{display:flex;flex-wrap:wrap}.hansel-reading .experience-tabs button{flex:1 1 150px}.hansel-reading .reading-nav button{flex:1 1 140px}body>header .brand{min-width:0}body>header .language select{max-width:110px}}

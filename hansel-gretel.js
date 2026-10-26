@@ -1,9 +1,46 @@
 (() => {
   'use strict';
-  const book = window.HanselBook;
+  const koreanBook = window.HanselBook;
+  let book = koreanBook;
+  const validLanguages = ['ko', 'en', 'es'];
+  let language = new URLSearchParams(location.search).get('lang');
+  if (!language) { try { language = localStorage.getItem('heart-language'); } catch {} }
+  if (!validLanguages.includes(language)) language = 'ko';
+  const t = value => window.hanselTranslate(value, language);
+  const libraryURL = hash => './index.html?lang=' + language + (hash || '');
+  function setLanguage(next) {
+    language = validLanguages.includes(next) ? next : 'ko';
+    document.documentElement.lang = language;
+    const locale = window.HanselLocales[language];
+    book = locale ? {...koreanBook, ...locale, pages: locale.pages.map((p,i)=>({...koreanBook.pages[i],title:p[0],text:p[1],alt:p[2]}))} : koreanBook;
+    const url = new URL(location.href); url.searchParams.set('lang', language);
+    history.replaceState(null, '', url.href);
+    try { localStorage.setItem('heart-language', language); } catch {}
+    document.getElementById('language').value = language;
+    document.querySelector('meta[name="description"]').content = language === 'en' ? 'A warm retelling of Hansel and Gretel. Read the illustrated story and explore sharing feelings.' : language === 'es' ? 'Una versión cálida de Hansel y Gretel. Lee el cuento ilustrado y explora cómo compartir lo que sientes.' : '독일 전래동화 헨젤과 그레텔을 따뜻한 결말로 새롭게 읽어요. 동화 읽기와 마음 건네보기.';
+    // Keep original labels so switching back also restores Korean accurately.
+    for (const el of document.querySelectorAll('header,footer,#drawer')) {
+      if (!el.dataset.originalMarkup) el.dataset.originalMarkup = el.innerHTML;
+      if (el.tagName !== 'HEADER') el.innerHTML = el.dataset.originalMarkup;
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      let node;
+      while ((node = walker.nextNode())) {
+        if (node.parentElement.closest('select')) continue;
+        if (node._korean === undefined) node._korean = node.nodeValue;
+        node.nodeValue = t(node._korean);
+      }
+      for (const item of el.querySelectorAll('[aria-label]')) {
+        item.dataset.koreanLabel ||= item.getAttribute('aria-label');
+        item.setAttribute('aria-label', t(item.dataset.koreanLabel));
+      }
+    }
+    document.getElementById('close-menu').onclick = () => menu.close();
+    document.querySelectorAll('#drawer a').forEach(a=>{const url=new URL(a.getAttribute('href'),location.href);url.searchParams.set('lang',language);a.href=url.href;});
+    render();
+  }
   const root = document.getElementById('hansel-app');
   const menu = document.getElementById('drawer');
-  document.getElementById('brand').onclick=()=>{location.href='./index.html';};
+  document.getElementById('brand').onclick=()=>{location.href=libraryURL();};
   document.getElementById('menu').onclick=()=>{menu.showModal();document.getElementById('menu').setAttribute('aria-expanded','true');};
   document.getElementById('close-menu').onclick=()=>menu.close();
   menu.addEventListener('close',()=>document.getElementById('menu').setAttribute('aria-expanded','false'));
@@ -69,8 +106,11 @@
   }
   function render() {
     root.innerHTML = `<section class="reading frog-reading hansel-reading"><button class="text-button" id="back-shelf">← 책장으로</button>${view==='intro'?'':tabs()}${view==='intro'?intro():view==='read'?read():activity()}</section>`;
-    document.title = (view === 'read' ? book.pages[page].title + ' · ' : '') + book.title + ' · 마음동화책방';
-    on('back-shelf',()=>{location.href='./index.html#tales';});
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let node;
+    while ((node = walker.nextNode())) node.nodeValue = t(node.nodeValue);
+    for (const el of root.querySelectorAll('[alt],[aria-label]')) for (const attr of ['alt','aria-label']) if(el.hasAttribute(attr)) el.setAttribute(attr,t(el.getAttribute(attr)));
+    document.title = (view === 'read' ? book.pages[page].title + ' · ' : '') + book.title + ' · ' + t('마음동화책방');
+    on('back-shelf',()=>{location.href=libraryURL('#tales');});
     on('to-cover', () => go('intro')); on('start-read', () => go('read',0));
     on('tab-read', () => go('read')); on('tab-activity', startActivity);
     on('start-activity', startActivity); on('ending-activity', startActivity);
@@ -91,5 +131,7 @@
     if(e.key === 'ArrowLeft' && page > 0){e.preventDefault();go('read',page-1);}
   });
   window.addEventListener('popstate', readLocation);
+  document.getElementById('language').onchange = e => setLanguage(e.target.value);
   readLocation();
+  setLanguage(language);
 })();

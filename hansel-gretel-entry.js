@@ -1,12 +1,13 @@
 // Add the new folktale to the existing shelf without changing Little Frog.
 (() => {
   'use strict';
-  const href = './hansel-gretel.html';
+  const currentLanguage = () => new URLSearchParams(location.search).get('lang') || (window.heartLanguage ? window.heartLanguage() : 'ko');
+  const href = () => './hansel-gretel.html?lang=' + currentLanguage();
   function addBook() {
     const shelf = document.querySelector('.tale-books');
     if (!shelf || shelf.querySelector('[data-hansel-book]')) return;
     const card = document.createElement('a');
-    card.href = href;
+    card.href = href();
     card.className = 'cover-book tale-cover';
     card.dataset.hanselBook = '';
     card.style.cssText = 'text-decoration:none;color:inherit';
@@ -17,7 +18,7 @@
     const menu = document.getElementById('book-menu');
     if (!menu || menu.querySelector('[data-hansel-menu]')) return;
     const link = document.createElement('a');
-    link.href = href;
+    link.href = href();
     link.dataset.hanselMenu = '';
     link.id = 'menu-hansel';
     link.className = 'standalone-book-link';

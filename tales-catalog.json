@@ -15,6 +15,10 @@
     "adaptationNote": "아이가 무섭고 화난 마음을 꺼냈을 때, 어른이 멈추고 들어주며 함께 가족을 찾는 이야기",
     "coverImage": "./images/hansel-gretel/v7/cover.png",
     "href": "./hansel-gretel.html",
-    "languages": ["ko"]
+    "languages": [
+      "ko",
+      "en",
+      "es"
+    ]
   }
 ]
