@@ -1,0 +1,32 @@
+/* The sound collections use the same entrance/shelf hierarchy as the book library. */
+.sound-collections{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:32px 0;text-align:left}
+.sound-collection{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:28px;border:1px solid var(--line);border-radius:8px;background:#fffaf0;color:var(--ink);text-decoration:none;cursor:pointer}
+.sound-collection strong{font-size:30px;font-weight:400;line-height:1.4}
+.sound-collection p{font-size:20px;line-height:1.7;margin:0;color:var(--muted)}
+.sound-collection .collection-open{font-size:21px;color:#526b51;margin-top:auto;padding-top:10px}
+.sound-collection img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;margin-bottom:8px}
+.sound-collection:hover{background:#f0f2e6}.sound-collection:focus-visible{outline:3px solid #a37b45;outline-offset:4px}
+.story-sound-shelf{max-width:1000px;margin:24px auto 48px}
+.story-sound-shelf>h1{text-align:center;font-size:38px}.story-sound-shelf>.shelf-intro{text-align:center;font-size:22px;color:var(--muted)}
+.story-sound-book{max-width:520px;margin:30px auto}
+.story-shelf-hero{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:7px;margin:22px auto 28px}.season-label{color:#795d48;font-size:20px}
+.story-sound-reader{max-width:1060px;margin:25px auto 45px}
+.story-sound-reader h1{font-size:clamp(28px,3vw,38px);font-weight:400;text-align:center;line-height:1.4;margin:22px 0}
+.story-sound-reader h1:focus{outline:none}
+.story-scene{margin:0;background:#fffaf1;border:1px solid var(--line);border-radius:7px;overflow:hidden}
+.story-scene img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+.story-scene figcaption{padding:20px 25px;font-size:24px;line-height:1.7}
+.story-sound-reader :is(h1,p,figcaption){word-break:keep-all;overflow-wrap:break-word}
+.story-sound-reader>#shelf-back{border:0;background:transparent;font:21px 'Hi Melody','Nunito',sans-serif;color:var(--muted);padding:8px 0;text-align:left;cursor:pointer}
+.story-sound-reader .listening{display:flex;justify-content:center;align-items:center;gap:16px;flex-wrap:wrap;margin:23px 0 10px}
+.story-sound-reader .listening button,.story-sound-reader .sound-actions button,.story-sound-reader .sound-actions a{font:inherit;font-size:22px;line-height:1.5;border:1px solid var(--line);border-radius:18px;padding:12px 23px;color:var(--ink);background:#fffaf1;text-decoration:none}
+.story-sound-reader .listening button{min-width:170px}.story-sound-reader .sound-actions .primary{background:#657e60;border-color:#657e60;color:white}
+.story-sound-reader .listen-status{font-size:18px;color:var(--muted);min-height:1.7em;text-align:center;margin:10px 0}
+.story-sound-reader .sound-prompt{max-width:780px;margin:20px auto;text-align:center;font-size:25px;line-height:1.8;white-space:pre-line}
+.story-sound-reader .optional-note{text-align:center;font-size:20px;line-height:1.7;color:var(--muted);margin:14px auto;max-width:780px}
+.story-sound-reader .sound-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:25px 0}
+.story-sound-reader .progress{text-align:center;font-size:18px;color:var(--muted)}
+.story-sound-reader .back-link,.story-sound-shelf>.back-link{display:inline-block;color:var(--muted);font-size:21px;text-decoration:none;padding:8px 0}
+.sound-summary{max-width:820px;margin:45px auto;text-align:center}.sound-summary p{font-size:25px;line-height:1.8}
+html:is([lang=en],[lang=es]) .story-sound-reader :is(p,figcaption){font-family:'Nunito',sans-serif;word-break:normal;overflow-wrap:break-word}
+@media(max-width:650px){.sound-collections{grid-template-columns:1fr;gap:18px}.sound-collection{padding:22px}.sound-collection strong{font-size:28px}.story-sound-reader .sound-actions>*{width:100%;text-align:center}.story-sound-reader .sound-prompt,.story-scene figcaption,.sound-summary p{font-size:23px}.story-scene figcaption{padding:18px}.story-sound-shelf>h1{font-size:31px}.story-sound-reader{margin-top:12px}}

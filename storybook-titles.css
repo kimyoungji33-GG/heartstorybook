@@ -116,3 +116,6 @@ body .language-current,body .language-current>span{white-space:nowrap!important;
 
 /* Folktale titles wrap at word boundaries in every menu. */
 body #book-menu>:is(#menu-frog,#menu-hansel)>span{min-width:0;word-break:keep-all;overflow-wrap:normal;flex:1}
+
+/* Sound shelves sit beneath their parent menu entry. */
+body .menu-before-reading .sound-menu-collections{margin:0 0 12px 18px;padding-left:12px;border-left:1px solid #cbd5c5}body .menu-before-reading .sound-menu-collections a{display:block;font-size:20px!important;line-height:1.55;padding:7px 0}

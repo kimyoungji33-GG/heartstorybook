@@ -1,5 +1,6 @@
 /* Share Little Frog's layout, colors and type; only story-specific details live here. */
 #hansel-app:focus{outline:none}
+.hansel-sound-link{text-align:center;border-top:1px solid var(--line);padding-top:24px;margin-top:30px}.hansel-sound-link a{color:var(--sage);font-size:24px;text-underline-offset:5px}
 .hansel-reading .frog-scene{display:block;width:100%;height:auto;max-height:none;object-fit:contain;aspect-ratio:3/2}
 .hansel-reading .story-text{white-space:pre-line;word-break:keep-all}
 .hansel-reading .story-text p{margin:0 0 1em}

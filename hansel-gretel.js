@@ -106,6 +106,10 @@
   }
   function render() {
     root.innerHTML = `<section class="reading frog-reading hansel-reading"><button class="text-button" id="back-shelf">← 책장으로</button>${view==='intro'?'':tabs()}${view==='intro'?intro():view==='read'?read():activity()}</section>`;
+    if ((view==='read' && page===7) || view==='end') {
+      const label={ko:'마녀의 집으로 소리 탐험 가기',en:'Explore the sounds in the witch’s house',es:'Explorar los sonidos de la casa de la bruja'}[language];
+      root.querySelector('.hansel-reading').insertAdjacentHTML('beforeend',`<p class="hansel-sound-link"><a href="./story-sounds.html?lang=${language}#cover">${label} →</a></p>`);
+    }
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); let node;
     while ((node = walker.nextNode())) node.nodeValue = t(node.nodeValue);
     for (const el of root.querySelectorAll('[alt],[aria-label]')) for (const attr of ['alt','aria-label']) if(el.hasAttribute(attr)) el.setAttribute(attr,t(el.getAttribute(attr)));

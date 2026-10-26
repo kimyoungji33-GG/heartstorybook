@@ -1,0 +1,6 @@
+/* Local feedback preview; no network submission or stored letter content. */
+(()=>{
+ const words={ko:['마음동화책방 우체통','이용 후기나 궁금한 점이 있다면, 책방지기에게 편지를 남겨보세요.','편지 쓰러 가기'],en:['The Storybook Mailbox','If you have feedback or a question, you can leave a letter for the library keeper.','Write a letter'],es:['El buzón de la biblioteca','Si tienes una opinión o una pregunta, puedes dejar una carta para quien cuida la biblioteca.','Escribir una carta']};
+ function add(){const footer=document.querySelector('body>footer');if(!footer)return;if(!document.querySelector('#app>.entry:not(.same-day-entry)')){footer.querySelector('[data-mailbox]')?.remove();return;}const language=window.heartLanguage?.()||document.documentElement.lang||'ko',w=words[language]||words.ko;let box=footer.querySelector('[data-mailbox]');if(!box){box=document.createElement('aside');box.dataset.mailbox='';box.className='mailbox-invitation';footer.append(box);}if(box.dataset.language===language)return;box.dataset.language=language;box.innerHTML=`<strong>${w[0]}</strong><p>${w[1]}</p><a href="./mailbox.html?lang=${language}">${w[2]} →</a>`;}
+ add();new MutationObserver(add).observe(document.body,{childList:true,subtree:true});
+})();

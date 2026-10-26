@@ -1,0 +1,12 @@
+.mailbox-invitation{display:block;width:100%;max-width:620px;margin:12px auto 0;padding:12px 8px;border-top:1px solid var(--line);text-align:center;font-family:'Hi Melody','Nunito',sans-serif;color:var(--ink)}
+.mailbox-invitation strong{font-size:23px;font-weight:400}.mailbox-invitation p{font-size:18px;line-height:1.7;margin:5px 0}.mailbox-invitation a{font-size:20px;color:#526b51;text-underline-offset:5px}
+body>footer:has(.mailbox-invitation){flex-wrap:wrap}
+body>footer>.mailbox-invitation{border-top:0;margin-top:0}
+.mailbox-page{max-width:780px;margin:30px auto 60px}.mailbox-page h1{font-size:39px;font-weight:400}.mailbox-page p,.mailbox-page label,.mailbox-page legend{font-size:23px;line-height:1.75}.mailbox-page .intro-note{color:var(--muted);font-size:20px}
+.mailbox-page fieldset{border:0;padding:0;margin:30px 0}.mailbox-page legend,.mailbox-page .field-title{display:block;margin-bottom:12px}
+.mailbox-page .options{display:flex;flex-wrap:wrap;gap:12px 24px}.mailbox-page .options label{display:flex;align-items:center;gap:9px;font-size:21px}.mailbox-page input[type=checkbox],.mailbox-page input[type=radio]{width:19px;height:19px;accent-color:#657e60}
+.mailbox-page textarea,.mailbox-page input[type=email]{display:block;width:100%;font:20px/1.7 'Noto Sans KR','Nunito',sans-serif;padding:14px;border:1px solid var(--line);border-radius:6px;background:#fffaf3;color:var(--ink)}
+.mailbox-page textarea{min-height:130px;resize:vertical}.mailbox-page button{font:24px 'Hi Melody','Nunito',sans-serif;padding:13px 24px;border:1px solid #657e60;border-radius:15px;background:#657e60;color:white;cursor:pointer}.mailbox-page .preview-note{background:#eee9dd;padding:13px 18px;border-radius:6px;font-size:19px}.mailbox-page .letter-preview{white-space:pre-wrap;font-size:22px;line-height:1.8;padding:24px;background:#fffaf0;border:1px solid var(--line)}
+.mailbox-page :is(a,button,input,textarea):focus-visible{outline:3px solid #a37b45;outline-offset:4px}
+.mailbox-page .mailbox-form-link{display:inline-block;margin:20px 0 6px;font:26px 'Hi Melody','Nunito',sans-serif;padding:14px 28px;border-radius:16px;background:#657e60;color:white;text-decoration:none}
+@media(max-width:650px){.mailbox-page h1{font-size:32px}.mailbox-page p,.mailbox-page label,.mailbox-page legend{font-size:22px}}
