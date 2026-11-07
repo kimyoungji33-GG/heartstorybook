@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#edf3df">
+<title>마음정원 · 마음동화책방</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><button id="home" class="wordmark">마음정원</button><div class="top-actions"><span id="hearts" aria-live="polite">♥ 0</span><button id="sound" aria-pressed="false" title="발걸음, 엘리베이터 문, 손수레, 하트 소리">효과음 켜기</button></div></header>
+<main id="app" tabindex="-1"></main>
+<footer><span>적은 글은 이 기기에만 저장돼요.</span><span id="save-status">이야기와 화분도 여기에서 기억해요.</span></footer>
+<dialog id="seed-dialog" aria-labelledby="seed-title">
+  <form id="seed-form">
+    <button type="button" class="close" data-close="seed-dialog" aria-label="씨앗 창 닫기">×</button>
+    <div class="seed-heading">
+      <div id="seed-preview"></div>
+      <div><h2 id="seed-title">어떤 마음을 심을까요?</h2><p>지금 마음에 가까운 씨앗 하나를 골라요.</p></div>
+    </div>
+    <div id="seed-options" class="seed-options" aria-label="마음 씨앗"></div>
+    <details id="seed-note" class="seed-note">
+      <summary>씨앗에 한 줄 남기기 <small>선택</small></summary>
+      <label for="recipient">누구에게</label>
+      <input id="recipient" maxlength="40" placeholder="나, 친구, 오늘 만난 이웃">
+      <label for="reason">무엇 때문에</label>
+      <textarea id="reason" maxlength="240" placeholder="지금 마음에 남은 일을 적어도 좋아요."></textarea>
+    </details>
+    <button class="primary" type="submit">이 마음 심기</button>
+  </form>
+</dialog>
+<dialog id="plant-dialog" aria-labelledby="plant-title"><button type="button" class="close" data-close="plant-dialog" aria-label="화분 창 닫기">×</button><div id="plant-content"></div></dialog>
+<dialog id="journal-dialog" aria-labelledby="journal-title"><button type="button" class="close" data-close="journal-dialog" aria-label="마음 창 닫기">×</button><h2 id="journal-title">간직한 마음</h2><div id="journal-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="game.js"></script>
+</body>
+</html>
