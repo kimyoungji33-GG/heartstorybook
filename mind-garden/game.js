@@ -136,7 +136,10 @@ function episodeList(){
             <span class="episode-status">${status}</span>
             <h2>${index+1}화 · ${entry.title}</h2>
             <p>${entry.description}</p>
-            ${button(action,'episode',`data-episode="${entry.id}" aria-label="${index+1}화 ${entry.title} ${action}"`,'primary')}
+            <div class="episode-actions">
+              ${button(action,'episode',`data-episode="${entry.id}" aria-label="${index+1}화 ${entry.title} ${action}"`,'primary')}
+              ${resumable?button('처음부터 다시 시작하기','episode',`data-episode="${entry.id}" data-restart="true" aria-label="${index+1}화 ${entry.title} 처음부터 다시 시작하기"`):''}
+            </div>
           </div>
         </li>`;
       }).join('')}
@@ -341,7 +344,10 @@ if(a==='episode'&&screen==='episodes'){
   if(!entry) return;
   state.selectedEpisode=entry.id;
   const episode=progress();
-  if(episode.done&&!episode.replaying) Object.assign(episode,{step:0,choice:null,reopened:false,replaying:true});
+  const restart=b.dataset.restart==='true'&&inProgress(episode);
+  if(restart||episode.done&&!episode.replaying){
+    Object.assign(episode,{step:0,choice:null,reopened:false,replaying:episode.done});
+  }
   if(window.Image){
     for(const src of [ART.rubenLook,ART.mira,ART.landing,ART.inside]){
       const preload=new window.Image();

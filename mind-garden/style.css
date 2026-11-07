@@ -254,7 +254,8 @@ h1, h2, button, .garden-kicker, summary { font-family: var(--bookshop-menu); }
 .episode-info h2 { margin: 4px 0 6px; font-size: 34px; }
 .episode-info p { font-size: 16px; }
 .episode-status { font-size: 13px; color: #5d6e51; }
-.episode-info .primary { font-size: 24px; }
+.episode-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.episode-actions button { font-size: 23px; }
 .story-toolbar { margin: 0 0 8px; }
 .story-toolbar button { font-size: 20px; min-height: 36px; padding: 5px 14px; }
 .story-ruben, .story-mira img { filter: sepia(.08) saturate(.91) contrast(.97); }

@@ -56,6 +56,14 @@ test('previous garden saves retain plants, hearts and the exact resume point in 
   assert.match(g.html(),/다시 열기/);
   g.click('episodes');
   assert.match(g.html(),/이어서 하기/);
+  assert.match(g.html(),/처음부터 다시 시작하기/);
+  g.click('episode',{episode:'elevator',restart:'true'});
+  assert.match(g.html(),/나 · 같은 층 이웃/);
+  assert.equal(g.state().episodes.elevator.step,0);
+  assert.equal(g.state().episodes.elevator.choice,null);
+  assert.equal(g.state().episodes.elevator.reopened,false);
+  assert.equal(g.state().hearts,7);
+  assert.equal(g.state().slots[0].name,'햇살');
 });
 test('a plant grows only with available hearts; same written note is rewarded once',()=>{const g=boot();g.sow(0,'고마움','나','천천히 해도 괜찮아');assert.equal(g.state().hearts,2);g.click('plot',{slot:0});g.click('water');g.click('water');g.click('water');assert.equal(g.state().slots[0].hearts,2);assert.equal(g.state().hearts,0);g.el('care-note').value='오늘도 잘 버텼어요.';g.click('care-note');g.el('care-note').value='오늘도 잘 버텼어요.';g.click('care-note');assert.equal(g.state().hearts,2);});
 test('written text is escaped and blocked or corrupt storage does not prevent opening',()=>{const g=boot();g.sow(0,'고마움','<script>','<img src=x>');g.click('plot',{slot:0});assert.match(g.el('plant-content').innerHTML,/&lt;script&gt;/);assert.ok(!g.el('plant-content').innerHTML.includes('<img src=x>'));assert.doesNotThrow(()=>boot(new Map(),true));assert.doesNotThrow(()=>boot(new Map([['heart-meadow-simple-v2','broken']])));});
