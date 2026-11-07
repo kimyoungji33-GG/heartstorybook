@@ -3,8 +3,8 @@
 const ART={
   garden:'assets/bookshop-garden.png',hallway:'assets/hallway-continuity.png',
   plant:'assets/plant.png',blooms:'assets/seed-blooms.png',
-  ruben:'assets/ruben-welcome.png',rubenLook:'assets/ruben-look.png',rubenSpeak:'assets/ruben-speak.png',
-  mira:'assets/mira.png',inside:'assets/elevator-inside.png'
+  ruben:'assets/ruben-welcome.png',rubenLook:'assets/ruben-look.png',
+  mira:'assets/mira.png',inside:'assets/elevator-inside.png',landing:'assets/elevator-landing.png'
 };
 const RECORDINGS={
   walk:'assets/footsteps.mp3',
@@ -24,14 +24,55 @@ const SCENES=[
 {speaker:'루벤',text:'“저는 안 타요. 집에 들어가려다가 손수레 소리가 들려서 기다렸어요.”',detail:'루벤 씨가 내 쪽으로 고개를 돌려 말해요. 나는 문을 잡은 채 미라 씨가 들어갈 자리를 내줘요.',next:'내가 미라 씨와 타기'},
 {speaker:'미라 · 엘리베이터 안',text:'“루벤 씨, 기다려 주셔서 고마워요.”',detail:'미라 씨가 복도에 남은 루벤 씨에게 인사하고, 안에 함께 탄 나를 보며 말해요. “문 잡아 주셔서 고마워요.”',next:'이 마음 간직하기'}
 ];
+const EPISODES=[{
+  id:'elevator',
+  title:'엘리베이터 앞',
+  description:'같은 층 두 이웃과 엘리베이터 앞에서 잠깐 멈춰 서요.',
+  cover:ART.hallway,
+  scenes:SCENES,
+  phrases:PHRASES
+}];
 const $=id=>document.getElementById(id), app=$('app');
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const fresh=()=>({version:2,hearts:0,slots:[null,null,null],episode:{step:0,choice:null,reopened:false,done:false,rewarded:false,replaying:false},phrase:'',notes:[],sound:false,lastVisit:0});
+const freshEpisode=()=>({step:0,choice:null,reopened:false,done:false,rewarded:false,replaying:false,phrase:''});
+const fresh=()=>({
+  version:3,hearts:0,slots:[null,null,null],notes:[],sound:false,lastVisit:0,
+  selectedEpisode:EPISODES[0].id,
+  episodes:Object.fromEntries(EPISODES.map(episode=>[episode.id,freshEpisode()]))
+});
 let state=fresh(),screen='field',selectedSlot=0,selectedSeed=SEEDS[0],clue='',timer,saveOK=true,audio;
 let sceneMotion='',boardingTimer,playingRecording;
 const reduced=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const currentStory=()=>EPISODES.find(episode=>episode.id===state.selectedEpisode);
+const progress=()=>state.episodes[state.selectedEpisode];
+const inProgress=episode=>episode.replaying||(!episode.done&&episode.step>0);
 let welcome=false;
-try{const raw=JSON.parse(localStorage.getItem(KEY)||'null');if(raw?.version===2&&Array.isArray(raw.slots)&&raw.slots.length===3&&Array.isArray(raw.notes)&&raw.episode){state={...fresh(),...raw};state.hearts=Number.isSafeInteger(raw.hearts)&&raw.hearts>=0?raw.hearts:0;state.slots=raw.slots.map(p=>p&&SEEDS.includes(p.seed)?{seed:p.seed,to:String(p.to||''),why:String(p.why||''),name:String(p.name||p.seed),hearts:Math.min(8,Math.max(0,Number(p.hearts)||0))}:null);state.notes=raw.notes.filter(n=>n&&typeof n.text==='string');state.episode={...fresh().episode,...raw.episode};state.episode.step=Math.min(5,Math.max(0,Number.isInteger(raw.episode.step)?raw.episode.step:0));welcome=Date.now()-Number(raw.lastVisit)>86400000;}}catch{saveOK=false;}
+try{
+  const raw=JSON.parse(localStorage.getItem(KEY)||'null');
+  if([2,3].includes(raw?.version)&&Array.isArray(raw.slots)&&raw.slots.length===3&&Array.isArray(raw.notes)){
+    state.hearts=Number.isSafeInteger(raw.hearts)&&raw.hearts>=0?raw.hearts:0;
+    state.slots=raw.slots.map(p=>p&&SEEDS.includes(p.seed)?{
+      seed:p.seed,to:String(p.to||''),why:String(p.why||''),name:String(p.name||p.seed),
+      hearts:Math.min(8,Math.max(0,Number(p.hearts)||0))
+    }:null);
+    state.notes=raw.notes.filter(n=>n&&typeof n.text==='string');
+    state.sound=raw.sound===true;
+    if(EPISODES.some(episode=>episode.id===raw.selectedEpisode)) state.selectedEpisode=raw.selectedEpisode;
+    for(const entry of EPISODES){
+      const stored=raw.version===2&&entry.id==='elevator'
+        ? {...raw.episode,phrase:raw.phrase} : raw.episodes?.[entry.id];
+      if(!stored||typeof stored!=='object') continue;
+      state.episodes[entry.id]={
+        ...freshEpisode(),
+        choice:['open','close'].includes(stored.choice)?stored.choice:null,
+        step:Math.min(entry.scenes.length-1,Math.max(0,Number.isInteger(stored.step)?stored.step:0)),
+        reopened:stored.reopened===true,done:stored.done===true,rewarded:stored.rewarded===true,
+        replaying:stored.replaying===true,phrase:typeof stored.phrase==='string'?stored.phrase:''
+      };
+    }
+    welcome=Date.now()-Number(raw.lastVisit)>86400000;
+  }
+}catch{saveOK=false;}
 state.lastVisit=Date.now();
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state));saveOK=true;}catch{saveOK=false;}$('save-status').textContent=saveOK?'이야기와 화분도 여기에서 기억해요.':'지금은 저장이 어려워요. 창을 닫으면 내용이 남지 않을 수 있어요.';}
 function toast(t){$('toast').textContent=t;$('toast').classList.add('visible');clearTimeout(timer);timer=setTimeout(()=>$('toast').classList.remove('visible'),3500);}
@@ -55,10 +96,9 @@ $('hearts').textContent='♥ '+state.hearts;$('sound').textContent=state.sound?'
 }
 function render(){
 renderHeader();
-app.innerHTML=screen==='story'?story():screen==='reward'?reward():field();save();
+app.innerHTML=screen==='story'?story():screen==='reward'?reward():screen==='episodes'?episodeList():field();save();
 }
 function field(){
-  const inProgress=!state.episode.done&&state.episode.step>0||state.episode.replaying;
   return `
     <section class="stage field garden-scene" aria-label="마음동화책방 앞마당의 마음정원">
       <img class="backdrop" src="${ART.garden}" alt="그림책이 보이는 마음동화책방과 꽃이 핀 앞마당">
@@ -75,17 +115,43 @@ function field(){
         </button>`).join('')}</div>
     </section>
     <nav class="garden-actions" aria-label="마음정원에서 할 일">
-        ${button(inProgress?'이야기 이어서 하기':'1화 · 엘리베이터 앞','start','','primary')}
+        ${button('이야기 목록','episodes','','primary')}
         ${button('간직한 마음','journal')}
-        ${state.episode.done?button('다시 만나기','replay'):''}
     </nav>`;
 }
+function episodeList(){
+  return `<section class="episode-shelf" aria-labelledby="episode-heading">
+    <p class="garden-kicker">마음정원 이야기</p>
+    <h1 id="episode-heading">이야기 목록</h1>
+    <p>오늘 만나고 싶은 이야기를 골라 보세요.</p>
+    <ol class="episode-list">
+      ${EPISODES.map((entry,index)=>{
+        const saved=state.episodes[entry.id];
+        const resumable=inProgress(saved);
+        const status=resumable?'이어서 볼 수 있어요':saved.done?'만난 이야기':'아직 만나지 않은 이야기';
+        const action=resumable?'이어서 하기':saved.done?'다시 만나기':'시작하기';
+        return `<li class="episode-card">
+          <img src="${entry.cover}" alt="">
+          <div class="episode-info">
+            <span class="episode-status">${status}</span>
+            <h2>${index+1}화 · ${entry.title}</h2>
+            <p>${entry.description}</p>
+            ${button(action,'episode',`data-episode="${entry.id}" aria-label="${index+1}화 ${entry.title} ${action}"`,'primary')}
+          </div>
+        </li>`;
+      }).join('')}
+    </ol>
+    ${button('마음정원으로 돌아가기','home')}
+  </section>`;
+}
 function story(){
-  const episode=state.episode;
-  const scene=SCENES[episode.step];
+  const entry=currentStory();
+  const episode=progress();
+  const scene=entry.scenes[episode.step];
   const inside=episode.step===5;
   const boarding=sceneMotion==='board';
   const almostClosed=episode.step===3&&episode.choice==='close'&&!episode.reopened;
+  const landed=episode.step===4;
   const showMira=episode.step===3||episode.step===4;
   const doorState=episode.step===0?'shut':almostClosed?'narrow':'open';
   const opening=sceneMotion==='open'||sceneMotion==='reopen';
@@ -93,24 +159,28 @@ function story(){
   const wheelCue=sceneMotion==='approach'||closing;
   const soundCaption=opening?'문이 열립니다':closing?'문이 닫힙니다':wheelCue?'손수레 바퀴 소리':sceneMotion==='wheel'?'복도 끝에서 들려오는 바퀴 소리':boarding?'내 발걸음 소리':sceneMotion==='walk'?'복도를 걷는 발걸음 소리':'';
   const location=inside?'내 위치 · 엘리베이터 안':boarding?'내가 문을 지나 안으로':'내 위치 · 엘리베이터 문 앞';
-  const rubenArt=episode.step===0?ART.ruben:episode.step===4?ART.rubenSpeak:ART.rubenLook;
-  const rubenDescription=episode.step===0?'문 옆에서 손바닥을 펴 보이는 루벤 씨':episode.step===4?'손을 몸 가까이 내리고 나를 바라보며 말하는 루벤 씨':'손을 내리고 오른쪽 복도를 바라보는 루벤 씨';
+  const rubenArt=episode.step===0?ART.ruben:ART.rubenLook;
+  const rubenDescription=episode.step===0?'문 옆에서 손바닥을 펴 보이는 루벤 씨':'손을 내리고 오른쪽 복도를 바라보는 루벤 씨';
   const arrows=`
     <div class="door-actions" aria-label="내가 누르는 엘리베이터 단추">
       ${button('<span aria-hidden="true">◀ ▶</span> '+(almostClosed?'다시 열기':'열림 누르기'),almostClosed?'reopen':'choose','data-choice="open"','door-action')}
       ${almostClosed?'':button('<span aria-hidden="true">▶ ◀</span> 닫힘 누르기','choose','data-choice="close"','door-action')}
     </div>`;
   return `
-    <section class="story" aria-label="1화 · 엘리베이터 앞">
+    <section class="story" aria-label="${EPISODES.indexOf(entry)+1}화 · ${entry.title}">
+      <div class="story-toolbar">${button('‹ 이야기 목록','episodes')}</div>
       <div class="story-picture ${inside?'inside-picture':'hall-picture'} ${boarding?'boarding-picture':''}">
         <div class="camera-view">
-        <img class="story-backdrop" src="${inside?ART.inside:ART.hallway}" alt="${inside?'엘리베이터 안의 미라와 손수레, 열린 문 밖 복도에 서 있는 루벤':'왼쪽 엘리베이터와 오른쪽으로 이어지는 공용 복도'}">
+        <img class="story-backdrop" src="${inside?ART.inside:landed?ART.landing:ART.hallway}" alt="${inside?'엘리베이터 안의 미라와 손수레, 열린 문 밖 복도에 서 있는 루벤':landed?'문 옆에 서서 말하는 루벤과 복도에서 도착한 미라의 손수레':'왼쪽 엘리베이터와 오른쪽으로 이어지는 공용 복도'}">
         ${inside?'':`
           <div class="lift-opening ${doorState} ${opening?'opening':''} ${sceneMotion==='reopen'?'reopening':''} ${closing?'closing':''}" aria-hidden="true">
             <div class="lift-panel"></div><div class="lift-panel"></div>
           </div>
+        `}
+        ${inside||landed?'':`
+          <span class="ruben-floor-shadow" aria-hidden="true"></span>
           <img class="story-ruben" src="${rubenArt}" alt="${rubenDescription}">
-          ${showMira?`<div class="story-mira ${wheelCue?'approaching':''}"><img src="${ART.mira}" alt="오른쪽 복도에서 상자를 실은 손수레를 밀고 오는 미라 씨"></div>`:''}
+          ${showMira?`<div class="story-mira ${wheelCue?'approaching':''}"><span class="mira-floor-shadow" aria-hidden="true"></span><img src="${ART.mira}" alt="오른쪽 복도에서 상자를 실은 손수레를 밀고 오는 미라 씨"></div>`:''}
         `}
         </div>
         <span class="story-place">${location}</span>
@@ -132,8 +202,32 @@ function story(){
       </div>
     </section>`;
 }
-function reward(){return `<section class="stage field"><img class="backdrop" src="${ART.garden}" alt="마음동화책방 앞마당"><article class="reward-card"><div class="reward-hearts" aria-label="하트 세 개">♥ ♥ ♥</div><h1>기다려 줘서 고마워요.</h1><p>${state.episode.replaying?'다시 만나도 마음은 새롭게 보일 수 있어요.':'이야기를 끝까지 만나 하트 3개를 받았어요.'}</p><p>지금 마음에 남는 문장을 골라 주세요.</p><div class="phrases">${PHRASES.map((p,i)=>button(esc(p),'phrase',`data-index="${i}" aria-pressed="${state.phrase===p}"`)).join('')}</div><label for="own-phrase">내 말로 적어도 좋아요 <small>선택</small></label><textarea id="own-phrase" maxlength="240" placeholder="짧은 한 줄이면 충분해요."></textarea><div class="actions" style="margin-top:18px">${button('이 마음 정원에 놓기','finish','','primary')}${button('지금은 그냥 돌아가기','home')}</div><p class="hint" style="margin-top:15px">문장을 고르지 않아도 하트는 그대로예요. 첫 이야기 완료 보상은 한 번만 받아요.</p></article></section>`;}
+function reward(){
+  const episode=progress();
+  return `<section class="stage field">
+    <img class="backdrop" src="${ART.garden}" alt="마음동화책방 앞마당">
+    <article class="reward-card">
+      <div class="reward-hearts" aria-label="하트 세 개">♥ ♥ ♥</div>
+      <h1>기다려 줘서 고마워요.</h1>
+      <p>${episode.replaying?'다시 만나도 마음은 새롭게 보일 수 있어요.':'이야기를 끝까지 만나 하트 3개를 받았어요.'}</p>
+      <p>지금 마음에 남는 문장을 골라 주세요.</p>
+      <div class="phrases">${currentStory().phrases.map((phrase,i)=>button(esc(phrase),'phrase',`data-index="${i}" aria-pressed="${episode.phrase===phrase}"`)).join('')}</div>
+      <label for="own-phrase">내 말로 적어도 좋아요 <small>선택</small></label>
+      <textarea id="own-phrase" maxlength="240" placeholder="짧은 한 줄이면 충분해요."></textarea>
+      <div class="actions" style="margin-top:18px">
+        ${button('이 마음 정원에 놓기','finish','','primary')}
+        ${button('지금은 그냥 돌아가기','home')}
+      </div>
+      <p class="hint" style="margin-top:15px">문장을 고르지 않아도 하트는 그대로예요. 각 이야기를 처음 끝까지 만나면 하트를 받아요.</p>
+    </article>
+  </section>`;
+}
 function go(where,motion=''){
+  if(screen==='reward'&&where!=='reward') progress().replaying=false;
+  if(where!=='story'){
+    clearTimeout(boardingTimer);
+    stopRecording();
+  }
   screen=where;
   sceneMotion=motion;
   clue='';
@@ -143,7 +237,7 @@ function go(where,motion=''){
 }
 function boardElevator(){
   const arrive=()=>{
-    state.episode.step=5;
+    progress().step=currentStory().scenes.length-1;
     go('story');
   };
   playSound('walk');
@@ -171,9 +265,10 @@ function plantDialog(i,grow=false){selectedSlot=i;const p=state.slots[i];if(!p)r
 function addNote(text,kind){text=text.trim();if(!text||state.notes.some(n=>n.text===text))return false;state.notes.push({text,kind,date:new Date().toISOString()});if(kind==='written')state.hearts+=2;return true;}
 function journal(){$('journal-content').innerHTML=state.notes.length?state.notes.map(n=>`<article class="journal-note"><small>${n.kind==='written'?'내가 적은 마음':'이야기에서 고른 마음'}</small><p>${esc(n.text)}</p></article>`).join(''):'<p>씨앗을 심거나 이야기를 만나며 마음을 남겨 보세요.</p>';$('journal-dialog').showModal();}
 function finishStory(){
-  state.episode.done=true;
-  const firstTime=!state.episode.rewarded;
-  if(firstTime){state.hearts+=3;state.episode.rewarded=true;}
+  const episode=progress();
+  episode.done=true;
+  const firstTime=!episode.rewarded;
+  if(firstTime){state.hearts+=3;episode.rewarded=true;}
   go('reward');
   if(firstTime) playSound('heart');
 }
@@ -240,22 +335,27 @@ function water(buttonElement){const p=state.slots[selectedSlot];if(!p||p.hearts>
 document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.disabled)return;if(b.dataset.close){$(b.dataset.close).close();return;}const a=b.dataset.action;
 if(a==='plot'){const i=Number(b.dataset.slot);return state.slots[i]?plantDialog(i):seedDialog(i);}
 if(a==='seed'){selectedSeed=b.dataset.seed;document.querySelectorAll('[data-action="seed"]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.seed===selectedSeed)));return;}
-if(a==='start'){
-  if(state.episode.done&&!state.episode.replaying){go('reward');return;}
-  go('story',state.episode.step===0?'walk':'');
-  if(state.episode.step===0) playSound('walk');
-  return;
-}
-if(a==='replay'){
-  Object.assign(state.episode,{step:0,choice:null,reopened:false,replaying:true});
-  go('story','walk');
-  playSound('walk');
+if(a==='episodes'){go('episodes');return;}
+if(a==='episode'&&screen==='episodes'){
+  const entry=EPISODES.find(episode=>episode.id===b.dataset.episode);
+  if(!entry) return;
+  state.selectedEpisode=entry.id;
+  const episode=progress();
+  if(episode.done&&!episode.replaying) Object.assign(episode,{step:0,choice:null,reopened:false,replaying:true});
+  if(window.Image){
+    for(const src of [ART.rubenLook,ART.mira,ART.landing,ART.inside]){
+      const preload=new window.Image();
+      preload.src=src;
+    }
+  }
+  go('story',episode.step===0?'walk':'');
+  if(episode.step===0) playSound('walk');
   return;
 }
 if(a==='next'){
   if(screen!=='story'||sceneMotion==='board') return;
-  const episode=state.episode;
-  if(episode.step===5) return finishStory();
+  const episode=progress();
+  if(episode.step===currentStory().scenes.length-1) return finishStory();
   if(episode.step===2||(episode.step===3&&episode.choice==='close'&&!episode.reopened)) return;
   if(episode.step===4) return boardElevator();
   episode.step++;
@@ -272,23 +372,33 @@ if(a==='clue'){
   return;
 }
 if(a==='dismiss'){clue='';render();return;}
-if(a==='choose'&&screen==='story'&&state.episode.step===2){
+if(a==='choose'&&screen==='story'&&progress().step===2){
   const close=b.dataset.choice==='close';
-  Object.assign(state.episode,{choice:close?'close':'open',reopened:false,step:3});
+  Object.assign(progress(),{choice:close?'close':'open',reopened:false,step:3});
   go('story',close?'close':'approach');
   if(close) playSound('close','wheel');
   else playSound('wheel');
   return;
 }
-if(a==='reopen'&&screen==='story'&&state.episode.step===3&&state.episode.choice==='close'){
-  Object.assign(state.episode,{reopened:true,step:4});
+if(a==='reopen'&&screen==='story'&&progress().step===3&&progress().choice==='close'){
+  Object.assign(progress(),{reopened:true,step:4});
   go('story','reopen');
   playSound('open');
   return;
 }
-if(a==='phrase'){state.phrase=PHRASES[Number(b.dataset.index)]||'';document.querySelectorAll('[data-action="phrase"]').forEach(x=>x.setAttribute('aria-pressed',String(PHRASES[Number(x.dataset.index)]===state.phrase)));save();return;}
-if(a==='finish'){const own=$('own-phrase').value.trim();if(own){state.phrase=own;addNote(own,'written');}else if(state.phrase)addNote(state.phrase,'selected');state.episode.replaying=false;go('field');toast('오늘의 마음을 잘 간직했어요.');return;}
-if(a==='home'){state.episode.replaying=false;go('field');return;}
+if(a==='phrase'){
+  const phrases=currentStory().phrases;
+  progress().phrase=phrases[Number(b.dataset.index)]||'';
+  document.querySelectorAll('[data-action="phrase"]').forEach(x=>x.setAttribute('aria-pressed',String(phrases[Number(x.dataset.index)]===progress().phrase)));
+  save();return;
+}
+if(a==='finish'){
+  const own=$('own-phrase').value.trim();
+  if(own){progress().phrase=own;addNote(own,'written');}
+  else if(progress().phrase) addNote(progress().phrase,'selected');
+  go('field');toast('오늘의 마음을 잘 간직했어요.');return;
+}
+if(a==='home'){go('field');return;}
 if(a==='journal')return journal();
 if(a==='water')return water(b);
 if(a==='rename'){const p=state.slots[selectedSlot],name=$('plant-name').value.trim();if(!name)return toast('부르고 싶은 이름을 적어 주세요.');p.name=name;save();render();plantDialog(selectedSlot);toast('이름을 간직했어요.');return;}

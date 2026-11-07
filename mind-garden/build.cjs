@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 let html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8');
 let js=fs.readFileSync(path.join(__dirname,'game.js'),'utf8');
 let css=fs.readFileSync(path.join(__dirname,'style.css'),'utf8');
-for(const name of ['bookshop-garden','hallway-continuity','plant','seed-blooms','ruben-welcome','ruben-look','ruben-speak','mira','elevator-inside']){
+for(const name of ['bookshop-garden','hallway-continuity','plant','seed-blooms','ruben-welcome','ruben-look','mira','elevator-inside','elevator-landing']){
   const png=fs.readFileSync(path.join(__dirname,'assets',name+'.png'));
   js=js.replace('assets/'+name+'.png','data:image/png;base64,'+png.toString('base64'));
 }
@@ -18,8 +18,9 @@ for(const name of ['HiMelody','NotoSansKR']){
   fontLicenses.push(fs.readFileSync(path.join(__dirname,'assets',name+'-OFL.txt'),'utf8'));
 }
 html=html.replace('<head>',()=>'<head>\n<!-- Embedded font licenses\n'+fontLicenses.join('\n\n')+'\n-->');
-html=html.replace('<link rel="stylesheet" href="style.css">',()=>'<style>'+css+'</style>');
-html=html.replace('<script src="game.js"></script>',()=>'<script>'+js.replaceAll('</script','<\\/script')+'</script>');
+html=html.replace('href="../nature.html"','href="https://kimyoungji33-gg.github.io/heartstorybook/nature.html"');
+html=html.replace(/<link rel="stylesheet" href="style\.css(?:\?[^"]*)?">/,()=>'<style>'+css+'</style>');
+html=html.replace(/<script src="game\.js(?:\?[^"]*)?"><\/script>/,()=>'<script>'+js.replaceAll('</script','<\\/script')+'</script>');
 new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
 assert.equal((html.match(/data:image\/png;base64,/g)||[]).length,9);
 assert.equal((html.match(/data:audio\/mpeg;base64,/g)||[]).length,4);

@@ -1,1 +1,18 @@
-(()=>{const add=()=>{document.querySelectorAll('#book-menu,.simple-menu-dialog nav').forEach(nav=>{if(nav.querySelector('[data-nature-link]'))return;nav.insertAdjacentHTML('beforeend','<a data-nature-link class="standalone-menu-category menu-group-heading" href="./nature.html">마음으로 만나는 세상 · 준비 중</a>');});const cards=document.querySelector('.entry:not(.same-day-entry) .entrances');if(cards&&!cards.querySelector('[data-nature-entry]'))cards.insertAdjacentHTML('beforeend','<a data-nature-entry class="entrance-card nature-entry" href="./nature.html"><strong>마음으로 만나는 세상</strong><span>새로운 내용을 준비하고 있어요.</span><em>준비 중입니다</em></a>');const guide=document.querySelector('#welcome-guide .guide-sections');if(guide&&!guide.querySelector('[data-nature-guide]'))guide.insertAdjacentHTML('beforeend','<li data-nature-guide><b>마음으로 만나는 세상</b><p>새로운 이야기를 준비하고 있어요.</p></li>');};add();new MutationObserver(add).observe(document.body,{childList:true,subtree:true});})();
+(()=>{
+  const add=()=>{
+    document.querySelectorAll('#book-menu,.simple-menu-dialog nav').forEach(nav=>{
+      if(nav.querySelector('[data-nature-link]')) return;
+      nav.insertAdjacentHTML('beforeend','<a data-nature-link class="standalone-menu-category menu-group-heading" href="./nature.html">마음으로 만나는 세상</a>');
+    });
+    const cards=document.querySelector('.entry:not(.same-day-entry) .entrances');
+    if(cards&&!cards.querySelector('[data-nature-entry]')){
+      cards.insertAdjacentHTML('beforeend','<a data-nature-entry class="entrance-card nature-entry" href="./nature.html"><strong>마음으로 만나는 세상</strong><span>책방 앞마당에서 씨앗을 심고 이야기를 만나 보세요.</span><em>마음정원</em></a>');
+    }
+    const guide=document.querySelector('#welcome-guide .guide-sections');
+    if(guide&&!guide.querySelector('[data-nature-guide]')){
+      guide.insertAdjacentHTML('beforeend','<li data-nature-guide><b>마음으로 만나는 세상</b><p>책방 앞마당에서 씨앗을 심고 이야기를 만나 보세요.</p></li>');
+    }
+  };
+  add();
+  new MutationObserver(add).observe(document.body,{childList:true,subtree:true});
+})();
