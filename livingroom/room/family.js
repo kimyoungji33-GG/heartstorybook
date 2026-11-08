@@ -19,9 +19,9 @@
       say: '왔니. 이야기 하나 같이 볼까?',
       links: [{ label: '같은 하루, 다른 마음', url: URLS.sameDay },
               { label: '만약 이랬다면 어땠을까', url: URLS.whatIf }] },
-    { id: 'momo', name: '모모', img: 'images/momo_sit.webp', x: 7.1, y: 93, w: 4.8, action: 'door',
+    { id: 'momo', name: '모모', img: 'images/momo-selected.png', x: 7.1, y: 93, w: 4.8, action: 'door',
       say: '곧 열려요.' },
-    { id: 'semi', name: '세미', img: 'images/semi_sit.webp', x: 44.5, y: 93, w: 6.1, action: 'letter' }
+    { id: 'semi', name: '세미', img: 'images/semi-selected.png', x: 44.5, y: 93, w: 6.1, action: 'letter' }
   ];
   const DOOR = { x: 95, y: 48 }; // 문 틈으로 빛이 새는 위치(%)
   // ===================================
@@ -34,6 +34,8 @@
   css.textContent = `
   .fam{position:absolute;transform:translate(-50%,-100%);cursor:pointer;z-index:30;-webkit-tap-highlight-color:transparent}
   .fam img{width:100%;display:block;transform-origin:50% 100%;animation:famBreath 5s ease-in-out infinite}
+  .fam[aria-label="모모"] img{aspect-ratio:1024 / 1536;object-fit:contain;object-position:center bottom}
+  .fam[aria-label="세미"] img{aspect-ratio:1148 / 1371;object-fit:contain;object-position:center bottom}
   .fam .sh{position:absolute;left:6%;right:6%;bottom:-2%;height:10%;z-index:-1;background:radial-gradient(ellipse at center,rgba(60,35,15,.4),transparent 70%)}
   .fam:hover img,.fam:focus-visible img{filter:brightness(1.07)}
   .fam:focus-visible{outline:2px solid rgba(255,230,180,.95);outline-offset:4px;border-radius:12px}
