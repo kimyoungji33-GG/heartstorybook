@@ -19,9 +19,9 @@
       say: '왔니. 이야기 하나 같이 볼까?',
       links: [{ label: '같은 하루, 다른 마음', url: URLS.sameDay },
               { label: '만약 이랬다면 어땠을까', url: URLS.whatIf }] },
-    { id: 'momo', name: '모모', img: 'images/momo-selected.png', x: 7.1, y: 93, w: 4.8, action: 'door',
+    { id: 'momo', name: '모모', img: 'images/momo-storybook.png', x: 7.1, y: 93, w: 4.8, action: 'door',
       say: '곧 열려요.' },
-    { id: 'semi', name: '세미', img: 'images/semi-selected.png', x: 44.5, y: 93, w: 6.1,
+    { id: 'semi', name: '세미', img: 'images/semi-storybook.png', x: 44.5, y: 93, w: 6.1,
       say: '이야기 속 마음을 찾는 열쇠가 있다냥. 같이 알아볼까냥?',
       links: [{ label: '마음열쇠 알아보기', url: 'https://kimyoungji33-gg.github.io/heartstorybook/heart-keys.html' }] }
   ];
