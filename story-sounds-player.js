@@ -10,12 +10,48 @@
   {before:8,after:9,alt:w('밤의 집 밖, 불 켜진 창문에 여러 사람의 그림자가 보여요.','Outside a house at night, several silhouettes appear in a glowing window.','De noche, se ven varias siluetas en una ventana iluminada.'),reveal:w('집 안에서는 할로윈 파티가 열리고 있었어요!','There was a Halloween party inside!','¡Dentro había una fiesta de Halloween!')}
  ];
  const audio=new Audio();audio.preload='metadata';audio.volume=.7;
- let step='shelf',round=0,error='',token=0;
+ let step='shelf',round=0,error='',token=0,activeButton='',musicSource='';
  const button=(id,label,primary=false)=>`<button id="${id}" class="${primary?'primary':''}">${label}</button>`;
  const on=(id,fn)=>{const el=document.getElementById(id);if(el)el.onclick=fn;};
- function stop(){token++;audio.pause();try{audio.currentTime=0;}catch{}}
- function update(){const b=document.getElementById('play-sound'),s=document.getElementById('sound-status');if(b){b.textContent=audio.paused?w('▶ 소리 듣기','▶ Listen','▶ Escuchar'):w('Ⅱ 소리 멈추기','Ⅱ Stop','Ⅱ Detener');b.setAttribute('aria-pressed',String(!audio.paused));}if(s)s.textContent=error||(!audio.paused?w('소리를 듣고 있어요.','The sound is playing.','El sonido está sonando.'):w('눌러서 듣고, 여러 번 다시 들어도 좋아요.','Press to listen. You can listen again as often as you like.','Pulsa para escuchar. Puedes repetirlo las veces que quieras.'));}
- async function play(){if(!audio.paused){stop();update();return;}error='';const current=++token;try{audio.currentTime=0;await audio.play();if(current!==token)audio.pause();}catch(e){if(current===token)error=w('소리를 재생하지 못했어요. 다시 눌러보세요. 그림은 계속 살펴볼 수 있어요.','The sound could not play. Try again, or continue exploring the pictures.','No se pudo reproducir el sonido. Prueba otra vez o sigue explorando las imágenes.');}update();}
+ function stop(){token++;activeButton='';audio.pause();try{audio.currentTime=0;}catch{}}
+ function update(){
+  const status=document.getElementById('sound-status');
+  for(const control of root.querySelectorAll('#play-sound, [data-voice]')){
+   const playing=control.id===activeButton&&!audio.paused;
+   const label=playing
+    ? control.dataset.stop||w('소리 멈추기','Stop','Detener')
+    : control.dataset.listen||w('소리 듣기','Listen','Escuchar');
+   control.textContent=(playing?'Ⅱ ':'▶ ')+label;
+   control.setAttribute('aria-pressed',String(playing));
+  }
+  if(status)status.textContent=error||(!audio.paused?w('소리를 듣고 있어요.','The sound is playing.','El sonido está sonando.'):w('눌러서 듣고, 여러 번 다시 들어도 좋아요.','Press to listen. You can listen again as often as you like.','Pulsa para escuchar. Puedes repetirlo las veces que quieras.'));
+ }
+ async function play(id,source){
+  if(activeButton===id&&!audio.paused){stop();update();return;}
+  stop();
+  error='';
+  activeButton=id;
+  const current=token;
+  try{
+   if(audio.getAttribute('src')!==source)audio.src=source;
+   audio.currentTime=0;
+   await audio.play();
+  }catch{
+   if(current===token)error=w('소리를 재생하지 못했어요. 다시 눌러보세요. 그림은 계속 살펴볼 수 있어요.','The sound could not play. Try again, or continue exploring the pictures.','No se pudo reproducir el sonido. Prueba otra vez o sigue explorando las imágenes.');
+  }
+  if(current===token)update();
+ }
+ function setMusic(source){
+  musicSource=source;
+  on('play-sound',()=>play('play-sound',musicSource));
+ }
+ function addVoice(id,source,listen,stopLabel){
+  const control=document.getElementById(id);
+  control.dataset.voice='';
+  control.dataset.listen=listen;
+  control.dataset.stop=stopLabel;
+  on(id,()=>play(id,source));
+ }
  for(const event of ['ended','pause','playing'])audio.addEventListener(event,update);
  audio.addEventListener('error',()=>{error=w('소리를 불러오지 못했어요. 다시 눌러보세요.','The sound could not load. Please try again.','No se pudo cargar el sonido. Prueba otra vez.');update();});
  function go(next,n=round){stop();error='';location.hash=['listen','discover'].includes(next)?`${next}-${n+1}`:next;}
@@ -24,12 +60,18 @@
  const listening=()=>`<div class="listening">${button('play-sound',w('▶ 소리 듣기','▶ Listen','▶ Escuchar'))}</div><p id="sound-status" class="listen-status" role="status"></p>`;
  function render(){
   stop();error='';const hash=location.hash.slice(1),m=hash.match(/^(listen|imagine|discover)-([1-4])$/);
+  if(window.heroesAtHome?.render(root,hash,lang,{listening,setMusic,addVoice})){
+   update();
+   root.querySelector('h1')?.focus({preventScroll:true});
+   window.scrollTo(0,0);
+   return;
+  }
   step=m?m[1]:['cover','finish'].includes(hash)?hash:'shelf';round=m?Number(m[2])-1:0;
   if(step==='imagine'){step='listen';history.replaceState(null,'',location.pathname+location.search+'#listen-'+(round+1));}
   root.dataset.step=step;root.dataset.round=String(round+1);
   document.title=(step==='shelf'?t('이야기 속 소리 탐험'):title)+' · '+w('마음동화책방','Heart Storybook Library','Biblioteca de cuentos del corazón');
   if(step==='shelf'){
-   root.innerHTML=`<section class="story-sound-shelf"><a class="back-link" href="./perspective-games.html?lang=${lang}">← ${t('마음의 소리로')}</a><img class="story-shelf-hero" src="./images/story-sound-entrance-moonlit-castle-v4.png" alt="${w('따뜻한 방의 두 아이 앞에 펼쳐진 책 속 푸른 달빛과 작은 성','Two children in a warm room with a moonlit blue castle in their open storybook','Dos niños en una habitación acogedora con un castillo azul bajo la luna en su cuento abierto')}"><h1 tabindex="-1">${t('이야기 속 소리 탐험')}</h1><p class="shelf-intro">${t('잠깐 듣고, 상상하고, 그림을 펼쳐요. 정답이나 점수는 없어요.')}</p><a id="open-story" class="sound-collection story-sound-book" href="#cover"><img src="${image(1)}" alt="${w('할로윈 밤에 마녀의 집을 찾아온 헨젤과 그레텔','Hansel and Gretel visit the witch’s house on Halloween night','Hansel y Gretel visitan la casa de la bruja en Halloween')}"><span class="season-label">${w('할로윈 특집 · 소리 놀이','Halloween special · Sound game','Especial de Halloween · Juego de sonidos')}</span><strong>${title}</strong><p>${w('마녀의 집에서 들리는 네 가지 소리. 그림을 펼치며 함께 살펴봐요.','Four sounds in the witch’s house. Open the pictures and explore.','Cuatro sonidos en casa de la bruja. Despliega las imágenes y explora.')}</p><span class="collection-open">${t('소리 탐험 시작하기')} →</span></a></section>`;
+   root.innerHTML=`<section class="story-sound-shelf"><a class="back-link" href="./perspective-games.html?lang=${lang}">← ${t('마음의 소리로')}</a><img class="story-shelf-hero" src="./images/story-sound-entrance-moonlit-castle-v4.png" alt="${w('따뜻한 방의 두 아이 앞에 펼쳐진 책 속 푸른 달빛과 작은 성','Two children in a warm room with a moonlit blue castle in their open storybook','Dos niños en una habitación acogedora con un castillo azul bajo la luna en su cuento abierto')}"><h1 tabindex="-1">${t('이야기 속 소리 탐험')}</h1><p class="shelf-intro">${t('잠깐 듣고, 상상하고, 그림을 펼쳐요. 정답이나 점수는 없어요.')}</p><div class="sound-collections story-sound-books"><a id="open-story" class="sound-collection story-sound-book" href="#cover"><img src="${image(1)}" alt="${w('할로윈 밤에 마녀의 집을 찾아온 헨젤과 그레텔','Hansel and Gretel visit the witch’s house on Halloween night','Hansel y Gretel visitan la casa de la bruja en Halloween')}"><span class="season-label">${w('할로윈 특집 · 소리 놀이','Halloween special · Sound game','Especial de Halloween · Juego de sonidos')}</span><strong>${title}</strong><p>${w('마녀의 집에서 들리는 네 가지 소리. 그림을 펼치며 함께 살펴봐요.','Four sounds in the witch’s house. Open the pictures and explore.','Cuatro sonidos en casa de la bruja. Despliega las imágenes y explora.')}</p><span class="collection-open">${t('소리 탐험 시작하기')} →</span></a>${window.heroesAtHome?.card(lang)||''}</div></section>`;
   }else{
    const back=button('shelf-back','← '+w('이야기 책장으로','Back to the story shelf','Volver a la estantería'));
    let body='';
@@ -43,8 +85,8 @@
     body=`<p class="progress">${w('장면','Scene','Escena')} ${round+1} / 4 · ${phase+1} / 2</p><h1 tabindex="-1">${heading}</h1>${figure(revealed?r.after:r.before,revealed?r.reveal:r.alt,revealed?r.reveal:w('그림을 천천히 보며 소리를 들어보세요.','Take your time looking at the picture and listening.','Mira la imagen con calma y escucha.'))}${listening()}<p class="sound-prompt">${prompt}</p><p class="optional-note">${revealed?w('이 이야기에서는 이런 장면이 펼쳐졌네요.\n다른 장면을 상상했어도 괜찮아요.','This is what happened in this story.\nIt is fine if you imagined a different scene.','Esto es lo que pasó en este cuento.\nEstá bien si imaginaste otra escena.'):w('함께 있는 사람에게 말하거나, 마음속으로만 생각해도 좋아요.','You can tell someone beside you, or simply imagine it quietly.','Puedes contárselo a quien esté contigo o imaginarlo en silencio.')}</p><div class="sound-actions">${button('previous',w('← 이전으로','← Back','← Atrás'))}${button('next',next,true)}</div>`;
    }
    root.innerHTML=`<section class="story-sound-reader">${back}${body}</section>`;
-   const src=`./audio/story-sounds/hansel-${step==='cover'?0:round+1}.wav`;if(step!=='finish'&&!audio.src.endsWith(src.slice(2)))audio.src=src;
-   on('play-sound',play);on('begin',()=>go('listen',0));on('shelf-back',()=>go('shelf'));on('to-shelf',()=>go('shelf'));on('again',()=>go('cover'));
+   setMusic(`./audio/story-sounds/hansel-${step==='cover'?0:round+1}.wav`);
+   on('begin',()=>go('listen',0));on('shelf-back',()=>go('shelf'));on('to-shelf',()=>go('shelf'));on('again',()=>go('cover'));
    on('previous',()=>step==='listen'?(round===0?go('cover'):go('discover',round-1)):go('listen'));
    on('next',()=>step==='listen'?go('discover'):round<3?go('listen',round+1):go('finish'));update();
   }

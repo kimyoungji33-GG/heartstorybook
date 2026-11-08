@@ -9,6 +9,8 @@
 .story-sound-shelf{max-width:1000px;margin:24px auto 48px}
 .story-sound-shelf>h1{text-align:center;font-size:38px}.story-sound-shelf>.shelf-intro{text-align:center;font-size:22px;color:var(--muted)}
 .story-sound-book{max-width:520px;margin:30px auto}
+.story-sound-books .story-sound-book{max-width:none;margin:0;min-width:0}
+.story-sound-books .story-sound-book>img{display:block;height:auto;flex:none;object-fit:contain;background:#f4ecdf}
 .story-shelf-hero{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;border-radius:7px;margin:22px auto 28px}.season-label{color:#795d48;font-size:20px}
 .story-sound-reader{max-width:1060px;margin:25px auto 45px}
 .story-sound-reader h1{font-size:clamp(28px,3vw,38px);font-weight:400;text-align:center;line-height:1.4;margin:22px 0}
@@ -16,6 +18,12 @@
 .story-scene{margin:0;background:#fffaf1;border:1px solid var(--line);border-radius:7px;overflow:hidden}
 .story-scene img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
 .story-scene figcaption{padding:20px 25px;font-size:24px;line-height:1.7}
+.heroes-reader .story-scene img{aspect-ratio:16/9}
+.heroes-reader .story-scene figcaption{white-space:pre-line}
+.heroes-reader .heroes-quote{padding:0 16px;text-align:center}
+.heroes-quote p{font-size:22px;margin:0}
+.heroes-plan{max-width:780px;margin:16px auto;padding:14px 20px;border:1px solid var(--line);border-radius:8px;background:#fffaf1}
+.heroes-plan summary{font-size:21px;cursor:pointer}
 .story-sound-reader :is(h1,p,figcaption){word-break:keep-all;overflow-wrap:break-word}
 .story-sound-reader>#shelf-back{border:0;background:transparent;font:21px 'Hi Melody','Nunito',sans-serif;color:var(--muted);padding:8px 0;text-align:left;cursor:pointer}
 .story-sound-reader .listening{display:flex;justify-content:center;align-items:center;gap:16px;flex-wrap:wrap;margin:23px 0 10px}
