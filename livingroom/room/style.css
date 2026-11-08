@@ -56,6 +56,9 @@ button:focus-visible { outline: 2px solid #ffe6ad; outline-offset: 3px; }
 .room-home:hover { background: #4a3322; }
 .room-language select:focus-visible, .room-home:focus-visible { outline: 2px solid #ffe6ad; outline-offset: 2px; }
 html:not([lang="ko"]) .top h1 { font: 500 clamp(18px, 3vw, 36px)/1.15 Georgia, serif; }
+html[lang="es"] .experience { grid-template-rows: auto auto 1fr; }
+html[lang="es"] .top { container-type: inline-size; padding-block-end: 10px; }
+html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
 .sound {
   position: relative;
   flex: 0 0 auto;
@@ -285,6 +288,9 @@ html:not([lang="ko"]) .top h1 { font: 500 clamp(18px, 3vw, 36px)/1.15 Georgia, s
   .top { gap: 6px; }
   .top h1 { font-size: clamp(22px, 7vw, 29px); }
   .room-header-actions { gap: 4px; font-size: 14px; }
+}
+@media (max-width: 360px) {
+  html[lang="es"] .room-header-actions :is(.room-home, select) { padding-inline: 6px; }
 }
 @media (orientation: landscape) and (max-height: 500px) {
   .experience {
