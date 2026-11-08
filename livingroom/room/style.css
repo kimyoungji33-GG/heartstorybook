@@ -17,23 +17,32 @@ button:focus-visible { outline: 2px solid #ffe6ad; outline-offset: 3px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .experience {
   position: relative;
+  --room-max-width: min(calc((100svh - 120px) * 1.7768), 1800px);
   --paper: #f7e6c6;
   --floor-shadow: #271c17;
   min-height: 100vh;
   min-height: 100svh;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   grid-template-rows: 1fr auto 1fr;
   justify-items: center;
   background: radial-gradient(ellipse at 46% 51%, #54392b 0%, #2d211b 58%, #1d1815 100%);
 }
 .top, .controls {
-  width: min(100%, 1120px);
-  padding-inline: clamp(12px, 3vw, 32px);
   display: flex;
   align-items: center;
   gap: 12px;
 }
-.top { align-self: start; justify-content: space-between; width: 100%; min-height: 52px; padding: 6px clamp(12px, 1.6vw, 26px); }
+.controls {
+  width: min(100%, 1120px);
+  padding-inline: clamp(12px, 3vw, 32px);
+}
+.room-width {
+  width: 100%;
+  max-width: var(--room-max-width);
+  margin: 0 auto;
+}
+.top { align-self: start; justify-content: space-between; min-height: 52px; padding-block: 6px; }
 .top h1 {
   margin: 0;
   text-align: left;
@@ -81,7 +90,6 @@ html:not([lang="ko"]) .top h1 { font: 500 clamp(18px, 3vw, 36px)/1.15 Georgia, s
 .room {
   --room-image: url("images/room.webp");
   position: relative;
-  width: min(100vw, calc((100svh - 120px) * 1.7768), 1800px);
   aspect-ratio: 1672 / 941;
   isolation: isolate;
   overflow: hidden;
@@ -266,16 +274,23 @@ html:not([lang="ko"]) .top h1 { font: 500 clamp(18px, 3vw, 36px)/1.15 Georgia, s
 .controls button[aria-pressed="true"] { background: var(--paper); color: #332319; border-color: var(--paper); }
 .visitors { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; }
 @media (max-width: 650px) {
-  .room { width: 100%; }
+  .experience { --room-max-width: 100%; }
   .top { min-height: 54px; }
   .controls { flex-direction: column; gap: 7px; }
   .controls button { padding-inline: 8px; }
   .furniture-target span { font-size: 14px; }
   .table-target { min-width: 44px; }
 }
+@media (max-width: 420px) {
+  .top { gap: 6px; }
+  .top h1 { font-size: clamp(22px, 7vw, 29px); }
+  .room-header-actions { gap: 4px; font-size: 14px; }
+}
 @media (orientation: landscape) and (max-height: 500px) {
-  .experience { grid-template-rows: minmax(44px, 1fr) auto minmax(51px, 1fr); }
-  .room { width: min(100%, max(320px, calc((100svh - 126px) * 1.7768))); }
+  .experience {
+    --room-max-width: max(320px, calc((100svh - 126px) * 1.7768));
+    grid-template-rows: minmax(44px, 1fr) auto minmax(51px, 1fr);
+  }
   .top { min-height: 44px; padding-bottom: 0; }
   .top h1 { font-size: 29px; }
   .controls { flex-direction: row; gap: 4px 8px; padding-block: 3px; }
@@ -284,7 +299,7 @@ html:not([lang="ko"]) .top h1 { font: 500 clamp(18px, 3vw, 36px)/1.15 Georgia, s
   .table-target { min-width: 44px; }
 }
 @media (orientation: landscape) and (max-height: 390px) and (max-width: 780px) {
-  .room { width: min(100%, max(320px, calc((100svh - 158px) * 1.7768))); }
+  .experience { --room-max-width: max(320px, calc((100svh - 158px) * 1.7768)); }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0s !important; }
