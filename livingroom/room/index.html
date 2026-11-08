@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>마음동화책방 · 새 책방</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="motion.css">
+  <link rel="stylesheet" href="bookshelf.css">
+  <script src="bookshelf.js" defer></script>
+  <script src="motion-check.js" defer></script>
+  <script src="seat-check.js" defer></script>
+  <script src="room.js" defer></script>
+</head>
+<body>
+  <main id="experience" class="experience" aria-label="마음동화책방 새 책방"
+    data-test-mode="off" data-avatar-warmth="1" data-window-bird="off">
+    <header class="top">
+      <h1>마음동화책방</h1>
+    </header>
+    <div id="stage" class="room" aria-label="햇살이 드는 책방">
+      <img class="room-picture" src="images/room_a_chair_03.webp" alt="벽난로, 정면 의자, 소파가 있는 책방" draggable="false">
+      <div class="curtain curtain-left" aria-hidden="true"></div>
+      <div class="curtain curtain-right" aria-hidden="true"></div>
+      <div class="garden-pane garden-grass" aria-hidden="true"><div class="garden-leaves"></div></div>
+      <div class="garden-pane garden-branches" aria-hidden="true"><div class="garden-leaves"></div></div>
+      <div class="leaf-shadow leaf-shadow-wall" aria-hidden="true"></div>
+      <div class="leaf-shadow leaf-shadow-floor" aria-hidden="true"></div>
+      <div class="ceiling-lamp" aria-hidden="true"></div>
+      <div class="lamp-glow lamp-glow-ceiling" aria-hidden="true"></div>
+      <div class="lamp-glow lamp-glow-shelf" aria-hidden="true"></div>
+      <div id="bookshelf" class="bookshelf" role="group" aria-label="새 책방 책장">
+        <div class="shelf-back upper" aria-hidden="true"></div>
+        <div class="shelf-back lower" aria-hidden="true"></div>
+
+      </div>
+      <button id="shelf-entry" class="shelf-entry" type="button" aria-label="책장 가까이 보기" aria-haspopup="dialog"></button>
+      <p id="shelf-message" class="shelf-message" role="status" hidden>서가에서 읽을 수 있어요</p>
+      <div class="furniture chair-layer" aria-hidden="true"></div>
+      <div class="furniture chair-back" aria-hidden="true"></div>
+      <div class="furniture chair-cushion" aria-hidden="true"></div>
+      <div class="furniture sofa-layer" aria-hidden="true"></div>
+      <div class="furniture sofa-press sofa-press-left" aria-hidden="true"></div>
+      <div class="furniture sofa-press sofa-press-right" aria-hidden="true"></div>
+      <div class="furniture table-new" aria-hidden="true"></div>
+      <div id="avatar" class="avatar is-idle" aria-hidden="true">
+        <div class="avatar-shadow"></div>
+        <div class="avatar-breath">
+          <div id="pose" class="avatar-pose"><div id="frame" class="avatar-frame"><img id="sprite" alt="" draggable="false"></div></div>
+        </div>
+        <div id="seat-pose" class="avatar-pose seat-pose"><div id="seat-frame" class="avatar-frame"><img id="seat-sprite" alt="" draggable="false"></div></div>
+      </div>
+      <div class="chair-arms" aria-hidden="true"></div>
+      <div class="sofa-arms" aria-hidden="true"></div>
+      <div class="hearth-flame" aria-hidden="true"></div>
+      <div class="hearth-light" aria-hidden="true"></div>
+      <div class="hearth-spill" aria-hidden="true"></div>
+      <div class="sun-patch" aria-hidden="true"></div>
+      <svg class="dust" viewBox="0 0 1672 941" aria-hidden="true">
+        <defs>
+          <path id="dust-beam-shape" d="M 659 279 Q 774 284 914 347 L 856 701 Q 702 766 448 762 L 331 690 Z"/>
+          <filter id="dust-beam-feather" filterUnits="userSpaceOnUse" x="235" y="200" width="785" height="647">
+            <feGaussianBlur stdDeviation="19"/>
+          </filter>
+          <mask id="dust-beam-mask" maskUnits="userSpaceOnUse" x="235" y="200" width="785" height="647" style="mask-type:alpha">
+            <use href="#dust-beam-shape" fill="white" transform="translate(86.45 70.2) scale(.87)" filter="url(#dust-beam-feather)"/>
+          </mask>
+          <radialGradient id="dust-near-glow">
+            <stop offset="0%" stop-color="#fff9df"/>
+            <stop offset="42%" stop-color="#fff3cb" stop-opacity=".85"/>
+            <stop offset="100%" stop-color="#fff0b9" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <use class="dust-guide" href="#dust-beam-shape" />
+        <g class="dust-beam" mask="url(#dust-beam-mask)" transform="translate(650 25)">
+          <circle cx="592" cy="354" r="0.99" style="--dx:24.0px;--dy:-34.5px;--travel:38s;--delay:-19s;--twinkle:9.5s;--phase:-2.6s"/>
+          <circle cx="563" cy="412" r="1.27" style="--dx:22.1px;--dy:31.4px;--travel:32s;--delay:-23s;--twinkle:9.3s;--phase:-6.5s"/>
+          <circle cx="502" cy="467" r="1.19" style="--dx:30.6px;--dy:-35.8px;--travel:34s;--delay:-31s;--twinkle:7.7s;--phase:-3.6s"/>
+          <circle cx="488" cy="506" r="0.81" style="--dx:41.7px;--dy:32.4px;--travel:35s;--delay:-11s;--twinkle:7.7s;--phase:-1.5s"/>
+          <circle cx="415" cy="576" r="1.22" style="--dx:27.0px;--dy:-37.3px;--travel:48s;--delay:-21s;--twinkle:9.2s;--phase:-8.9s"/>
+          <circle cx="402" cy="613" r="0.93" style="--dx:35.4px;--dy:21.1px;--travel:35s;--delay:-13s;--twinkle:5.9s;--phase:-1.2s"/>
+          <circle class="dust-near" cx="361" cy="684" r="3.21" style="--dx:-0.4px;--dy:-38.2px;--travel:44s;--delay:-18s;--twinkle:10.9s;--phase:-1.2s"/>
+          <circle cx="679" cy="362" r="0.82" style="--dx:4.1px;--dy:21.5px;--travel:33s;--delay:-17s;--twinkle:8.4s;--phase:-1.6s"/>
+          <circle cx="618" cy="429" r="0.80" style="--dx:14.6px;--dy:-25.7px;--travel:31s;--delay:-20s;--twinkle:8.5s;--phase:-9.8s"/>
+          <circle cx="630" cy="456" r="1.18" style="--dx:-14.9px;--dy:34.4px;--travel:30s;--delay:-17s;--twinkle:5.8s;--phase:-4.2s"/>
+          <circle cx="574" cy="521" r="0.99" style="--dx:0.1px;--dy:-25.2px;--travel:42s;--delay:-15s;--twinkle:8.2s;--phase:-8.2s"/>
+          <circle class="dust-near" cx="524" cy="565" r="3.21" style="--dx:-17.4px;--dy:14.6px;--travel:42s;--delay:-6s;--twinkle:5.5s;--phase:-6.1s"/>
+          <circle cx="478" cy="637" r="0.99" style="--dx:-10.1px;--dy:-35.8px;--travel:36s;--delay:-22s;--twinkle:11.4s;--phase:-7.6s"/>
+          <circle cx="453" cy="681" r="0.80" style="--dx:6.1px;--dy:17.3px;--travel:36s;--delay:-2s;--twinkle:9.1s;--phase:-4.6s"/>
+          <circle cx="733" cy="351" r="1.24" style="--dx:-19.2px;--dy:-38.1px;--travel:45s;--delay:-13s;--twinkle:11.7s;--phase:-8.2s"/>
+          <circle cx="688" cy="414" r="0.91" style="--dx:-24.6px;--dy:27.9px;--travel:35s;--delay:-9s;--twinkle:12.2s;--phase:-9.8s"/>
+          <circle cx="651" cy="480" r="1.00" style="--dx:-29.8px;--dy:-28.8px;--travel:30s;--delay:-6s;--twinkle:8.2s;--phase:-6.0s"/>
+          <circle cx="651" cy="533" r="0.80" style="--dx:-25.0px;--dy:26.7px;--travel:45s;--delay:-30s;--twinkle:11.5s;--phase:-1.6s"/>
+          <circle cx="626" cy="567" r="1.20" style="--dx:-6.9px;--dy:-23.4px;--travel:48s;--delay:-23s;--twinkle:5.0s;--phase:-1.8s"/>
+          <circle class="dust-near" cx="583" cy="635" r="3.32" style="--dx:2.9px;--dy:40.4px;--travel:38s;--delay:-9s;--twinkle:8.6s;--phase:-2.4s"/>
+          <circle cx="540" cy="683" r="1.15" style="--dx:25.9px;--dy:-25.7px;--travel:38s;--delay:-3s;--twinkle:9.8s;--phase:-0.1s"/>
+          <circle cx="775" cy="366" r="1.10" style="--dx:24.7px;--dy:21.2px;--travel:46s;--delay:-3s;--twinkle:10.7s;--phase:-1.3s"/>
+          <circle class="dust-near" cx="774" cy="404" r="2.78" style="--dx:-8.9px;--dy:-32.1px;--travel:30s;--delay:-13s;--twinkle:5.4s;--phase:-4.3s"/>
+          <circle cx="714" cy="484" r="1.26" style="--dx:-14.8px;--dy:15.2px;--travel:36s;--delay:-12s;--twinkle:7.5s;--phase:-8.8s"/>
+          <circle cx="697" cy="518" r="1.03" style="--dx:21.8px;--dy:-23.8px;--travel:39s;--delay:-12s;--twinkle:6.6s;--phase:-4.7s"/>
+          <circle cx="670" cy="581" r="1.28" style="--dx:10.8px;--dy:23.2px;--travel:33s;--delay:-9s;--twinkle:6.9s;--phase:-6.2s"/>
+          <circle cx="649" cy="634" r="1.10" style="--dx:-18.4px;--dy:-36.2px;--travel:40s;--delay:-11s;--twinkle:5.8s;--phase:-5.9s"/>
+          <circle cx="661" cy="692" r="0.82" style="--dx:-21.1px;--dy:17.7px;--travel:35s;--delay:-2s;--twinkle:7.8s;--phase:-10.6s"/>
+          <circle cx="834" cy="377" r="0.83" style="--dx:9.5px;--dy:-25.5px;--travel:38s;--delay:-13s;--twinkle:11.6s;--phase:-4.8s"/>
+          <circle class="dust-near" cx="820" cy="429" r="3.27" style="--dx:-24.5px;--dy:36.3px;--travel:39s;--delay:-31s;--twinkle:7.5s;--phase:-8.4s"/>
+          <circle cx="817" cy="457" r="0.83" style="--dx:27.9px;--dy:-12.5px;--travel:52s;--delay:-26s;--twinkle:12.2s;--phase:-1.6s"/>
+          <circle cx="770" cy="522" r="1.17" style="--dx:24.6px;--dy:39.2px;--travel:39s;--delay:-22s;--twinkle:5.7s;--phase:-3.1s"/>
+          <circle class="dust-near" cx="773" cy="564" r="2.93" style="--dx:14.1px;--dy:-21.3px;--travel:52s;--delay:-25s;--twinkle:6.3s;--phase:-0.6s"/>
+          <circle cx="767" cy="618" r="1.22" style="--dx:4.8px;--dy:37.7px;--travel:39s;--delay:-24s;--twinkle:6.8s;--phase:-3.0s"/>
+          <circle cx="716" cy="687" r="1.21" style="--dx:16.5px;--dy:-24.6px;--travel:51s;--delay:-29s;--twinkle:6.1s;--phase:-10.4s"/>
+          <circle cx="889" cy="371" r="1.05" style="--dx:-13.6px;--dy:34.6px;--travel:45s;--delay:-23s;--twinkle:6.7s;--phase:-11.0s"/>
+          <circle cx="890" cy="423" r="1.01" style="--dx:-34.1px;--dy:-38.2px;--travel:39s;--delay:-29s;--twinkle:10.1s;--phase:-6.9s"/>
+          <circle cx="898" cy="474" r="1.04" style="--dx:-24.0px;--dy:23.8px;--travel:52s;--delay:-9s;--twinkle:5.1s;--phase:-8.2s"/>
+          <circle cx="874" cy="518" r="1.35" style="--dx:-37.4px;--dy:-40.8px;--travel:35s;--delay:-2s;--twinkle:10.8s;--phase:-1.5s"/>
+          <circle cx="879" cy="586" r="0.90" style="--dx:-34.3px;--dy:28.8px;--travel:44s;--delay:-13s;--twinkle:9.5s;--phase:-1.6s"/>
+          <circle cx="853" cy="640" r="0.87" style="--dx:-18.7px;--dy:-23.9px;--travel:36s;--delay:-12s;--twinkle:8.9s;--phase:-6.6s"/>
+          <circle cx="865" cy="673" r="1.07" style="--dx:-27.7px;--dy:37.4px;--travel:40s;--delay:-32s;--twinkle:5.8s;--phase:-2.9s"/>
+        </g>
+        <g class="dust-shade">
+          <circle cx="243" cy="550" r="1.4" style="--dx:12px;--dy:-17px;--travel:45s;--delay:-4s"/>
+          <circle cx="325" cy="407" r="1" style="--dx:-13px;--dy:15px;--travel:48s;--delay:-10s"/>
+          <circle cx="1008" cy="269" r="1.4" style="--dx:12px;--dy:-17px;--travel:51s;--delay:-16s"/>
+          <circle cx="1265" cy="556" r="1" style="--dx:-13px;--dy:15px;--travel:54s;--delay:-22s"/>
+          <circle cx="1228" cy="347" r="1.4" style="--dx:12px;--dy:-17px;--travel:57s;--delay:-28s"/>
+          <circle cx="1452" cy="520" r="1" style="--dx:-13px;--dy:15px;--travel:60s;--delay:-34s"/>
+          <circle cx="965" cy="679" r="1.4" style="--dx:12px;--dy:-17px;--travel:63s;--delay:-40s"/>
+        </g>
+      </svg>
+      <div id="seat-guides" class="seat-guides" hidden aria-hidden="true">
+        <i id="seat-line"></i><i id="seat-point"></i><i id="hip-point" hidden></i>
+      </div>
+      <button id="chair" class="furniture-target chair-target" type="button" aria-label="정면 의자에 앉기"><span>정면 의자</span></button>
+      <button id="sofa" class="furniture-target sofa-target" type="button" aria-label="소파에서 가까운 자리에 앉기"><span>소파 가까운 자리</span></button>
+      <button id="sofa-left" class="furniture-target sofa-seat sofa-left" type="button" aria-label="소파 왼쪽에 앉기"><span>왼쪽 자리</span></button>
+      <button id="sofa-right" class="furniture-target sofa-seat sofa-right" type="button" aria-label="소파 오른쪽에 앉기"><span>오른쪽 자리</span></button>
+      <button class="furniture-target table-target" type="button" aria-label="작은 탁자"><span>작은 탁자</span></button>
+    </div>
+    <dialog id="shelf-dialog" class="shelf-dialog" data-shelf-layout="b" aria-labelledby="shelf-heading">
+      <header class="shelf-preview-top">
+        <button id="shelf-close" class="shelf-close" type="button" aria-label="새 책방으로 돌아가기" autofocus>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m7-7-7 7 7 7"/></svg>
+        </button>
+        <h2 id="shelf-heading" class="sr-only">책장 가까이 보기</h2>
+      </header>
+      <div class="shelf-scene">
+        <div id="shelf-collection"></div>
+        <section id="shelf-cover-view" class="shelf-cover-view" hidden>
+          <button id="shelf-cover-return" type="button" aria-label="다른 표지 보기"><img id="shelf-large-cover" alt="" width="512" height="512"></button>
+          <h3 id="shelf-cover-title"></h3>
+          <p>서가에서 읽을 수 있어요</p>
+        </section>
+      </div>
+    </dialog>
+    <footer id="controls" class="controls" inert>
+      <p id="hint">바닥을 누르면 걸어요. 정면 의자나 소파에 앉아 보세요.</p>
+      <button id="stand" type="button" hidden>일어나기</button>
+      <div id="visitors" class="visitors" role="group" aria-label="아바타 고르기"></div>
+    </footer>
+    <aside id="motion-report" class="motion-report" aria-label="움직임 상태" hidden>
+      <strong id="motion-heading">움직임 2단계</strong>
+      <ul></ul>
+      <p id="motion-keys" hidden></p>
+      <textarea id="motion-copy" rows="6" readonly hidden aria-label="복사할 움직임 값"></textarea>
+      <p id="motion-copy-status" role="status"></p>
+    </aside>
+    <aside id="seat-report" class="seat-report" aria-label="앉는 자리 보기" hidden>
+      <strong>등받이·방석 → 아바타 → 팔걸이 앞</strong>
+      <p><span class="seat-color">●</span> 방석의 앉는 자리 · <span class="hip-color">●</span> 엉덩이</p>
+      <p id="seat-values"></p>
+      <p id="seat-keys"></p>
+      <textarea id="seat-copy" rows="5" readonly hidden aria-label="복사할 앉는 자리 값"></textarea>
+      <p id="seat-copy-status" role="status"></p>
+    </aside>
+    <p class="motion-note">움직임 줄이기가 켜져 있어요</p>
+    <p id="status" class="sr-only" role="status"></p>
+  </main>
+  <script src="family.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
