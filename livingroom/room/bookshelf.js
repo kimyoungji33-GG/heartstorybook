@@ -23,6 +23,7 @@
   ];
 
   window.makeRoomBookshelf = ({ room, artSize, canBrowse, visit, playPageTurn, stillMotion }) => {
+    const { text, bind } = window.roomLanguage;
     const stage = document.getElementById('bookshelf');
     const entry = document.getElementById('shelf-entry');
     const dialog = document.getElementById('shelf-dialog');
@@ -70,7 +71,7 @@
         shell.classList.add('shelf-spine');
         shell.style.setProperty('--spine-color', book.spine);
         const label = document.createElement('span');
-        label.textContent = book.title;
+        bind(label, book.title);
         art.append(label);
       } else art.append(coverImage(book));
       shell.append(art);
@@ -82,7 +83,7 @@
       card.type = 'button';
       card.dataset.book = book.id;
       card.className = 'shelf-card';
-      card.setAttribute('aria-label', book.title);
+      bind(card, book.title, 'aria-label');
       card.style.setProperty('--cover-angle', book.angle + 'deg');
       const art = document.createElement('span');
       art.className = 'shelf-book-art';
@@ -92,8 +93,8 @@
         if (dialog.classList.contains('is-closing')) return;
         selectedCard = card;
         largeCover.src = 'images/covers/' + book.id + '.jpg';
-        largeCover.alt = book.title + ' 표지';
-        title.textContent = book.title;
+        largeCover.alt = text('{title} 표지', { title: text(book.title) });
+        bind(title, book.title);
         collection.hidden = true;
         detail.hidden = false;
         coverReturn.focus({ preventScroll: true });
@@ -106,7 +107,7 @@
       const section = document.createElement('section');
       const heading = document.createElement('h3');
       heading.className = 'sr-only';
-      heading.textContent = shelf.label;
+      bind(heading, shelf.label);
       const row = document.createElement('div');
       row.className = 'shelf-cards';
       for (const book of shelf.books) {

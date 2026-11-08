@@ -4,21 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>마음동화책방 · 새 책방</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=room-navigation">
   <link rel="stylesheet" href="motion.css">
   <link rel="stylesheet" href="bookshelf.css">
-  <script src="bookshelf.js" defer></script>
+  <script src="bookshelf.js?v=room-language" defer></script>
   <script src="motion-check.js" defer></script>
   <script src="seat-check.js" defer></script>
-  <script src="room.js" defer></script>
+  <script src="room.js?v=room-navigation" defer></script>
 </head>
 <body>
-  <main id="experience" class="experience" aria-label="마음동화책방 새 책방"
+  <main id="experience" class="experience" aria-label="마음동화책방 새 책방" data-room-aria="마음동화책방 새 책방"
     data-test-mode="off" data-avatar-warmth="1" data-window-bird="off">
     <header class="top">
-      <h1>마음동화책방</h1>
+      <h1 data-room-text="마음동화책방">마음동화책방</h1>
+      <div class="room-header-actions">
+        <a class="room-home" id="room-home" href="../../" data-room-text="첫 화면" data-room-aria="홈페이지 첫 화면으로" aria-label="홈페이지 첫 화면으로">첫 화면</a>
+        <label class="room-language">
+          <span class="sr-only" data-room-text="언어">언어</span>
+          <select id="room-language">
+            <option value="ko" lang="ko">한국어</option>
+            <option value="en" lang="en">English</option>
+            <option value="es" lang="es">Español</option>
+          </select>
+        </label>
+      </div>
     </header>
-    <div id="stage" class="room" aria-label="햇살이 드는 책방">
+    <div id="stage" class="room" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
       <img class="room-picture" src="images/room_a_chair_03.webp" alt="벽난로, 정면 의자, 소파가 있는 책방" draggable="false">
       <div class="curtain curtain-left" aria-hidden="true"></div>
       <div class="curtain curtain-right" aria-hidden="true"></div>
@@ -29,13 +40,13 @@
       <div class="ceiling-lamp" aria-hidden="true"></div>
       <div class="lamp-glow lamp-glow-ceiling" aria-hidden="true"></div>
       <div class="lamp-glow lamp-glow-shelf" aria-hidden="true"></div>
-      <div id="bookshelf" class="bookshelf" role="group" aria-label="새 책방 책장">
+      <div id="bookshelf" class="bookshelf" role="group" aria-label="새 책방 책장" data-room-aria="새 책방 책장">
         <div class="shelf-back upper" aria-hidden="true"></div>
         <div class="shelf-back lower" aria-hidden="true"></div>
 
       </div>
-      <button id="shelf-entry" class="shelf-entry" type="button" aria-label="책장 가까이 보기" aria-haspopup="dialog"></button>
-      <p id="shelf-message" class="shelf-message" role="status" hidden>서가에서 읽을 수 있어요</p>
+      <button id="shelf-entry" class="shelf-entry" type="button" aria-label="책장 가까이 보기" data-room-aria="책장 가까이 보기" aria-haspopup="dialog"></button>
+      <p id="shelf-message" class="shelf-message" role="status" data-room-text="서가에서 읽을 수 있어요" hidden>서가에서 읽을 수 있어요</p>
       <div class="furniture chair-layer" aria-hidden="true"></div>
       <div class="furniture chair-back" aria-hidden="true"></div>
       <div class="furniture chair-cushion" aria-hidden="true"></div>
@@ -129,32 +140,32 @@
       <div id="seat-guides" class="seat-guides" hidden aria-hidden="true">
         <i id="seat-line"></i><i id="seat-point"></i><i id="hip-point" hidden></i>
       </div>
-      <button id="chair" class="furniture-target chair-target" type="button" aria-label="정면 의자에 앉기"><span>정면 의자</span></button>
-      <button id="sofa" class="furniture-target sofa-target" type="button" aria-label="소파에서 가까운 자리에 앉기"><span>소파 가까운 자리</span></button>
-      <button id="sofa-left" class="furniture-target sofa-seat sofa-left" type="button" aria-label="소파 왼쪽에 앉기"><span>왼쪽 자리</span></button>
-      <button id="sofa-right" class="furniture-target sofa-seat sofa-right" type="button" aria-label="소파 오른쪽에 앉기"><span>오른쪽 자리</span></button>
-      <button class="furniture-target table-target" type="button" aria-label="작은 탁자"><span>작은 탁자</span></button>
+      <button id="chair" class="furniture-target chair-target" type="button" aria-label="정면 의자에 앉기"><span data-room-text="정면 의자">정면 의자</span></button>
+      <button id="sofa" class="furniture-target sofa-target" type="button" aria-label="소파에서 가까운 자리에 앉기" data-room-aria="소파에서 가까운 자리에 앉기"><span data-room-text="소파 가까운 자리">소파 가까운 자리</span></button>
+      <button id="sofa-left" class="furniture-target sofa-seat sofa-left" type="button" aria-label="소파 왼쪽에 앉기"><span data-room-text="왼쪽 자리">왼쪽 자리</span></button>
+      <button id="sofa-right" class="furniture-target sofa-seat sofa-right" type="button" aria-label="소파 오른쪽에 앉기"><span data-room-text="오른쪽 자리">오른쪽 자리</span></button>
+      <button class="furniture-target table-target" type="button" aria-label="작은 탁자" data-room-aria="작은 탁자"><span data-room-text="작은 탁자">작은 탁자</span></button>
     </div>
     <dialog id="shelf-dialog" class="shelf-dialog" data-shelf-layout="b" aria-labelledby="shelf-heading">
       <header class="shelf-preview-top">
-        <button id="shelf-close" class="shelf-close" type="button" aria-label="새 책방으로 돌아가기" autofocus>
+        <button id="shelf-close" class="shelf-close" type="button" aria-label="새 책방으로 돌아가기" data-room-aria="새 책방으로 돌아가기" autofocus>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12H5m7-7-7 7 7 7"/></svg>
         </button>
-        <h2 id="shelf-heading" class="sr-only">책장 가까이 보기</h2>
+        <h2 id="shelf-heading" class="sr-only" data-room-text="책장 가까이 보기">책장 가까이 보기</h2>
       </header>
       <div class="shelf-scene">
         <div id="shelf-collection"></div>
         <section id="shelf-cover-view" class="shelf-cover-view" hidden>
-          <button id="shelf-cover-return" type="button" aria-label="다른 표지 보기"><img id="shelf-large-cover" alt="" width="512" height="512"></button>
+          <button id="shelf-cover-return" type="button" aria-label="다른 표지 보기" data-room-aria="다른 표지 보기"><img id="shelf-large-cover" alt="" width="512" height="512"></button>
           <h3 id="shelf-cover-title"></h3>
-          <p>서가에서 읽을 수 있어요</p>
+          <p data-room-text="서가에서 읽을 수 있어요">서가에서 읽을 수 있어요</p>
         </section>
       </div>
     </dialog>
     <footer id="controls" class="controls" inert>
       <p id="hint">바닥을 누르면 걸어요. 정면 의자나 소파에 앉아 보세요.</p>
-      <button id="stand" type="button" hidden>일어나기</button>
-      <div id="visitors" class="visitors" role="group" aria-label="아바타 고르기"></div>
+      <button id="stand" type="button" data-room-text="일어나기" hidden>일어나기</button>
+      <div id="visitors" class="visitors" role="group" aria-label="아바타 고르기" data-room-aria="아바타 고르기"></div>
     </footer>
     <aside id="motion-report" class="motion-report" aria-label="움직임 상태" hidden>
       <strong id="motion-heading">움직임 2단계</strong>
@@ -171,10 +182,11 @@
       <textarea id="seat-copy" rows="5" readonly hidden aria-label="복사할 앉는 자리 값"></textarea>
       <p id="seat-copy-status" role="status"></p>
     </aside>
-    <p class="motion-note">움직임 줄이기가 켜져 있어요</p>
+    <p class="motion-note" data-room-text="움직임 줄이기가 켜져 있어요">움직임 줄이기가 켜져 있어요</p>
     <p id="status" class="sr-only" role="status"></p>
   </main>
-  <script src="family.js"></script>
+  <script src="room-language.js?v=2"></script>
+  <script src="family.js?v=room-language"></script>
 </body>
 </html>
 

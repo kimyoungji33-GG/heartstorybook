@@ -33,15 +33,20 @@ button:focus-visible { outline: 2px solid #ffe6ad; outline-offset: 3px; }
   align-items: center;
   gap: 12px;
 }
-.top { align-self: end; justify-content: space-between; min-height: 52px; padding-bottom: 6px; transition: opacity .6s ease; }
+.top { align-self: start; justify-content: space-between; width: 100%; min-height: 52px; padding: 6px clamp(12px, 1.6vw, 26px); }
 .top h1 {
-  visibility: hidden;
   margin: 0;
+  text-align: left;
   font: 400 clamp(29px, 4vw, 42px)/1.2 "Hi Melody", "Malgun Gothic", sans-serif;
   letter-spacing: 0;
   word-spacing: 0;
 }
-.is-engaged .top h1 { visibility: visible; }
+.room-header-actions { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+.room-language select, .room-home { min-height: 36px; padding: 4px 8px; border: 1px solid #b89461; border-radius: 14px; background: #33261e; color: inherit; font: inherit; }
+.room-home { display: inline-flex; align-items: center; text-decoration: none; }
+.room-home:hover { background: #4a3322; }
+.room-language select:focus-visible, .room-home:focus-visible { outline: 2px solid #ffe6ad; outline-offset: 2px; }
+html:not([lang="ko"]) .top h1 { font: 500 clamp(18px, 3vw, 36px)/1.15 Georgia, serif; }
 .sound {
   position: relative;
   flex: 0 0 auto;
@@ -247,7 +252,7 @@ button:focus-visible { outline: 2px solid #ffe6ad; outline-offset: 3px; }
   transition: opacity .6s ease;
 }
 .is-engaged:not(.is-quiet) .controls { opacity: 1; pointer-events: auto; }
-.is-quiet .top, .is-quiet .controls { opacity: 0; pointer-events: none; }
+.is-quiet .controls { opacity: 0; pointer-events: none; }
 .controls p { margin: 0; font-size: clamp(16px, 1.5vw, 21px); line-height: 1.55; text-align: center; }
 .controls button {
   border: 1px solid #bf9a6b85;

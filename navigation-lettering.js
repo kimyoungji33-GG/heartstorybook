@@ -3,7 +3,7 @@
   const update = () => document.querySelectorAll('a,button,.tale-open,.entrance-card small').forEach(element => {
     const text = element.textContent.trim();
     const arrow = /[←→↗↔]/.test(text);
-    const entrance = /^(책방 입구로|책방 입구|Back to the entrance|Bookshop entrance|Volver a la entrada)$/.test(text);
+    const entrance = /^(책방 입구로|책방 입구|거실로 가기|Back to the entrance|Bookshop entrance|Volver a la entrada)$/.test(text);
     element.classList.toggle('navigation-lettering', arrow || entrance);
   });
   update();

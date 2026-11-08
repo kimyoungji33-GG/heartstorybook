@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  const { text, bind, link: localizedLink } = window.roomLanguage;
 
   // ===== 설정: 여기만 고치면 돼요 =====
   const PUBLIC = document.getElementById('experience').dataset.testMode !== 'on'; // 시험 기능은 index.html의 설정으로만 켜요
@@ -14,7 +15,7 @@
     { id: 'grandpa', name: '할아버지', img: 'images/grandpa_chair.webp', x: 16.5, y: 93, w: 20,
       say: '마음의 소리, 같이 들어 볼까?',
       links: [{ label: '소리로 떠올리는 풍경', url: '../../perspective-games.html#landscapes' },
-              { label: '이야기 속 소리탐험', url: '../../story-sounds.html' }] },
+              { label: '이야기 속 소리 탐험', url: '../../story-sounds.html' }] },
     { id: 'grandma', name: '할머니', img: 'images/grandma_chair.webp', x: 33, y: 93, w: 18.5,
       say: '왔니. 이야기 하나 같이 볼까?',
       links: [{ label: '같은 하루, 다른 마음', url: URLS.sameDay },
@@ -23,7 +24,7 @@
       say: '곧 열려요.' },
     { id: 'semi', name: '세미', img: 'images/semi-storybook.png', x: 44.5, y: 93, w: 6.1,
       say: '이야기 속 마음을 찾는 열쇠가 있다냥. 같이 알아볼까냥?',
-      links: [{ label: '마음열쇠 알아보기', url: 'https://kimyoungji33-gg.github.io/heartstorybook/heart-keys.html' }] }
+      links: [{ label: '마음열쇠 알아보기', url: '../../heart-keys.html' }] }
   ];
   const DOOR = { x: 95, y: 48 }; // 문 틈으로 빛이 새는 위치(%)
   // ===================================
@@ -36,8 +37,8 @@
   css.textContent = `
   .fam{position:absolute;transform:translate(-50%,-100%);cursor:pointer;z-index:30;-webkit-tap-highlight-color:transparent}
   .fam img{width:100%;display:block;transform-origin:50% 100%;animation:famBreath 5s ease-in-out infinite}
-  .fam[aria-label="모모"] img{aspect-ratio:1024 / 1536;object-fit:contain;object-position:center bottom}
-  .fam[aria-label="세미"] img{aspect-ratio:1148 / 1371;object-fit:contain;object-position:center bottom}
+  .fam[data-family="momo"] img{aspect-ratio:1024 / 1536;object-fit:contain;object-position:center bottom}
+  .fam[data-family="semi"] img{aspect-ratio:1148 / 1371;object-fit:contain;object-position:center bottom}
   .fam .sh{position:absolute;left:6%;right:6%;bottom:-2%;height:10%;z-index:-1;background:radial-gradient(ellipse at center,rgba(60,35,15,.4),transparent 70%)}
   .fam:hover img,.fam:focus-visible img{filter:brightness(1.07)}
   .fam:focus-visible{outline:2px solid rgba(255,230,180,.95);outline-offset:4px;border-radius:12px}
@@ -92,7 +93,7 @@
   }
   function link(label, url) {
     const a = document.createElement('a');
-    a.className = 'fam-btn'; a.textContent = label; a.href = url;
+    a.className = 'fam-btn'; a.textContent = text(label); a.href = localizedLink(url);
     a.target = '_blank'; a.rel = 'noopener';
     return a;
   }
@@ -152,7 +153,7 @@
     }
     showBubble(el, function (b) {
       const p = document.createElement('div');
-      p.textContent = c.say;
+      p.textContent = text(c.say);
       b.appendChild(p);
       const links = (c.links || []).filter(function (l) { return l.url; });
       if (links.length) {
@@ -170,14 +171,15 @@
     el.className = 'fam';
     el.tabIndex = 0;
     el.setAttribute('role', 'button');
-    el.setAttribute('aria-label', c.name);
+    bind(el, c.name, 'aria-label');
+    el.dataset.family = c.id;
     el.style.left = c.x + '%';
     el.style.top = c.y + '%';
     el.style.width = c.w + '%';
     el.style.zIndex = String(1004 + Math.round(c.y));
     el.innerHTML = '<div class="sh"></div>';
     const img = new Image();
-    img.alt = c.name; img.draggable = false;
+    img.alt = ''; img.draggable = false;
     img.onerror = function () {
       img.remove();
       if (PUBLIC) { el.remove(); return; }
@@ -204,6 +206,7 @@
   document.addEventListener('click', function (e) {
     if (bubble && !bubble.contains(e.target)) closeBubble();
   });
+  document.addEventListener('roomlanguagechange', closeBubble);
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
       closeBubble();

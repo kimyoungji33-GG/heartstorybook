@@ -18,6 +18,7 @@ const shelfDialog = element('shelf-dialog');
 const visitors = element('visitors');
 const hint = element('hint');
 const status = element('status');
+const roomText = window.roomLanguage.text;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const stillMotion = () => reducedMotion.matches || experience.classList.contains('motion-still');
 const avatarWarmth = Math.max(0, Math.min(2, Number(experience.dataset.avatarWarmth) || 0));
@@ -312,7 +313,6 @@ function setQuiet(value) {
   quiet = value;
   experience.classList.toggle('is-quiet', value);
   controls.inert = value || !engaged;
-  experience.querySelector('.top').inert = value;
 }
 
 function timeToRest() {
@@ -346,10 +346,12 @@ function showState() {
     const button = element(seat.button);
     const selected = sitting && activeSeat === seat;
     button.setAttribute('aria-pressed', String(selected));
-    button.setAttribute('aria-label', selected ? '앉아 있는 ' + seat.label : seat.label + '에 앉기');
+    const name = roomText(seat.label);
+    button.setAttribute('aria-label', roomText(selected ? '앉아 있는 {name}' : '{name}에 앉기', { name }));
   }
-  hint.textContent = sitting ? '원하는 만큼 쉬어 가세요.' : '바닥을 누르면 걸어요. 창가 의자나 소파에 앉아 보세요.';
+  hint.textContent = roomText(sitting ? '원하는 만큼 쉬어 가세요.' : '바닥을 누르면 걸어요. 창가 의자나 소파에 앉아 보세요.');
 }
+document.addEventListener('roomlanguagechange', showState);
 
 function finishWalking(destination, seat, keyboard, onArrival) {
   position = destination;
@@ -471,7 +473,7 @@ function changeSeat(seat, sit, keyboard = false, after = null) {
     draw();
     saveVisit();
     showState();
-    status.textContent = seat.label + (sit ? '에 앉았어요.' : '에서 일어났어요.');
+    status.textContent = roomText(sit ? '{name}에 앉았어요.' : '{name}에서 일어났어요.', { name: roomText(seat.label) });
     if (keyboard) (sit ? stand : element(seat.button)).focus({ preventScroll: true });
     timeToRest();
     after?.();
@@ -487,7 +489,7 @@ function playCue() {
 
 experience.addEventListener('pointerdown', interact);
 window.addEventListener('keydown', event => {
-  if (event.defaultPrevented || shelfDialog.open) return;
+  if (event.defaultPrevented || shelfDialog.open || event.target.closest?.('.room-header-actions')) return;
   if (mode === 'seated' && isSofaSeat(activeSeat) &&
       (event.key === 'Enter' || event.key === ' ') &&
       !event.target.closest?.('button:not([data-sofa-seat]):not(#sofa):not(#stand), input, textarea, [contenteditable]')) {
@@ -585,7 +587,7 @@ async function loadVisitors() {
   for (const choice of choices) {
     const button = document.createElement('button');
     button.type = 'button';
-    button.textContent = choice.label;
+    window.roomLanguage.bind(button, choice.label);
     button.setAttribute('aria-pressed', String(choice === visitor));
     button.addEventListener('click', () => {
       if (mode !== 'idle') return;
@@ -597,6 +599,7 @@ async function loadVisitors() {
     visitors.append(button);
   }
   draw();
+  showState();
 }
 
 const audio = { update() {}, step() {}, chair() {}, pageTurn() {} };
@@ -608,8 +611,8 @@ new ResizeObserver(([entry]) => {
   draw();
 }).observe(room);
 cueTimer = setTimeout(playCue, 6000);
-loadVisitors().catch(error => {
-  hint.textContent = error.message + ' VS Code의 Live Server로 열어 주세요.';
+loadVisitors().catch(() => {
+  hint.textContent = roomText('아바타 그림을 불러오지 못했어요. 페이지를 새로고침해 보세요.');
   status.textContent = hint.textContent;
 });
 
