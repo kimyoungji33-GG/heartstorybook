@@ -4,8 +4,8 @@
   // ===== 설정: 여기만 고치면 돼요 =====
   const PUBLIC = document.getElementById('experience').dataset.testMode !== 'on'; // 시험 기능은 index.html의 설정으로만 켜요
   const URLS = {
-    sameDay: '../../previous-home.html', // '같은 하루, 다른 마음' 페이지 주소로 바꾸세요
-    whatIf: '../../previous-home.html',      // '만약 이랬다면 어땠을까' 페이지 주소(없으면 비워 두면 버튼이 안 보여요)
+    sameDay: '../../previous-home.html#same-day', // '같은 하루, 다른 마음' 페이지 주소로 바꾸세요
+    whatIf: '../../previous-home.html#tales',      // '만약 이랬다면 어땠을까' 페이지 주소(없으면 비워 두면 버튼이 안 보여요)
     heartVoice: 'https://kimyoungji33-gg.github.io/heartstorybook/perspective-games.html' // '마음의 소리' 페이지 주소로 바꾸세요
   };
   // x, y = 발 위치(그림 가로세로의 %), w = 가로 크기(%)
