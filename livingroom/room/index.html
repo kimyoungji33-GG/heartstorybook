@@ -40,8 +40,9 @@
         </label>
       </div>
     </header>
-    <div id="stage" class="room room-width" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
-      <img class="room-picture" src="images/room_a_chair_03_shelf_v2.png?v=shelf-pot-removed" alt="벽난로와 안락의자, 바닥 방석이 있는 책방" draggable="false">
+    <div id="stage" class="room room-width" style="--room-image: url('images/room_a_chair_03_shelf_v2.webp?v=lighter')" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
+      <img class="room-picture" src="images/room_a_chair_03_shelf_v2.webp?v=lighter" alt="벽난로와 안락의자, 바닥 방석이 있는 책방" draggable="false"
+        onerror="if(!this.dataset.retries||+this.dataset.retries<3){this.dataset.retries=(+this.dataset.retries||0)+1;var s=this.src.split('?')[0];setTimeout(()=>{this.src=s+'?retry='+this.dataset.retries+'-'+Date.now();}, 400*this.dataset.retries);}">
       <button id="room-sound" class="sound" type="button" aria-pressed="false" aria-label="음소거" data-room-aria="음소거" title="음소거">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M11 5 6 9H3v6h3l5 4z"/>
