@@ -1,12 +1,12 @@
 (() => {
   // Each spine uses the room artwork coordinates, in pixels from the upper left.
   const books = [
-    { id: 'cups', title: '생일날, 두 개의 잔', x: 1665, y: 433, width: 16, height: 42, angle: -2 },
-    { id: 'plate', title: '마지막 한 조각은 누구에게?', x: 1683, y: 437, width: 13, height: 39, angle: -1 },
-    { id: 'errand', title: '작은 손에 담긴 따뜻한 빵', x: 1698, y: 431, width: 17, height: 46, angle: -1.2 },
-    { id: 'door', title: '문 뒤에 숨겨 둔 별', x: 1665, y: 501, width: 13, height: 32, angle: .8 },
-    { id: 'ball', title: '노란 공이 기다려 준 날', x: 1681, y: 500, width: 14, height: 35, angle: -1.2 },
-    { id: 'stars', title: '삐뚤빼뚤, 우리의 별', x: 1698, y: 503, width: 15, height: 33, angle: 1.6 },
+    { id: 'cups', title: '생일날, 두 개의 잔', x: 1665, y: 433, width: 16, height: 42, angle: -2, titleAt: 'top' },
+    { id: 'plate', title: '마지막 한 조각은 누구에게?', x: 1683, y: 437, width: 13, height: 39, angle: -1, titleAt: 'top' },
+    { id: 'errand', title: '작은 손에 담긴 따뜻한 빵', x: 1698, y: 431, width: 17, height: 46, angle: -1.2, titleAt: 'top' },
+    { id: 'door', title: '문 뒤에 숨겨 둔 별', x: 1665, y: 501, width: 13, height: 32, angle: .8, titleAt: 'bottom' },
+    { id: 'ball', title: '노란 공이 기다려 준 날', x: 1681, y: 500, width: 14, height: 35, angle: -1.2, titleAt: 'top' },
+    { id: 'stars', title: '삐뚤빼뚤, 우리의 별', x: 1698, y: 503, width: 15, height: 33, angle: 1.6, titleAt: 'top' },
   ];
   const approach = { x: 85.3, y: 61 };
 
@@ -120,6 +120,10 @@
       const art = document.createElement('span');
       art.className = 'shelf-book-art';
       art.append(coverImage(book));
+      const label = document.createElement('span');
+      label.className = 'shelf-cover-title shelf-cover-title--' + (book.titleAt || 'top');
+      label.textContent = book.title;
+      art.append(label);
       card.append(art);
       card.addEventListener('click', () => {
         if (dialog.classList.contains('is-closing')) return;
