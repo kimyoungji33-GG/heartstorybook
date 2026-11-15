@@ -6,13 +6,13 @@
   <title>마음동화책방 · 새 책방</title>
   <link rel="stylesheet" href="style.css?v=room-layout-v2">
   <link rel="stylesheet" href="motion.css?v=floor-weather">
-  <script src="settings.js?v=local-reading"></script>
+  <script src="settings.js?v=public-reading"></script>
   <script>
     // Parser-ordered scripts ensure optional features are ready before the room starts.
     const optional = [];
     if (roomSettings.reading) {
-      optional.push('<link rel="stylesheet" href="bookshelf.css?v=carry-walk">');
-      optional.push('<script src="bookshelf.js?v=local-reading" defer><\/script>');
+      optional.push('<link rel="stylesheet" href="bookshelf.css?v=public-reading">');
+      optional.push('<script src="bookshelf.js?v=public-reading" defer><\/script>');
     }
     if (roomSettings.testing) {
       optional.push('<script src="motion-check.js?v=release-review" defer><\/script>');

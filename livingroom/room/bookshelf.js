@@ -1,53 +1,95 @@
 (() => {
-  const shelves = [
-    {
-      label: '어른 동화',
-      books: [
-        { id: 'station', title: '아직 남겨 둔 의자', x: 1163, y: 190, width: 28, height: 65, angle: -2.5, spine: '#45615d' },
-        { id: 'sleeve', title: '접어 둔 소매 한 뼘', x: 1206, y: 186, width: 68, height: 69, angle: -2 },
-        { id: 'flowers', title: '엄마가 고른 오늘의 꽃', x: 1291, y: 182, width: 72, height: 73, angle: 1.2 },
-        { id: 'notes', title: '빨간 표시 옆의 한마디', x: 1383, y: 189, width: 31, height: 66, angle: 2, spine: '#8f4835' },
-      ],
-    },
-    {
-      label: '아이 동화',
-      books: [
-        { id: 'cups', title: '생일날, 두 개의 잔', x: 1162, y: 288, width: 23, height: 64, angle: -2, spine: '#82594a' },
-        { id: 'plate', title: '마지막 한 조각은 누구에게?', x: 1188, y: 286, width: 24, height: 66, angle: -1, spine: '#795832' },
-        { id: 'errand', title: '작은 손에 담긴 따뜻한 빵', x: 1218, y: 293, width: 58, height: 59, angle: -1.2 },
-        { id: 'door', title: '문 뒤에 숨겨 둔 별', x: 1280, y: 289, width: 61, height: 63, angle: .8 },
-        { id: 'ball', title: '노란 공이 기다려 준 날', x: 1346, y: 292, width: 58, height: 60, angle: -1.2 },
-        { id: 'stars', title: '삐뚤빼뚤, 우리의 별', x: 1408, y: 291, width: 19, height: 61, angle: 1.6, spine: '#416172' },
-      ],
-    },
+  // Each spine uses the room artwork coordinates, in pixels from the upper left.
+  const books = [
+    { id: 'cups', title: '생일날, 두 개의 잔', x: 1665, y: 433, width: 16, height: 42, angle: -2 },
+    { id: 'plate', title: '마지막 한 조각은 누구에게?', x: 1683, y: 437, width: 13, height: 39, angle: -1 },
+    { id: 'errand', title: '작은 손에 담긴 따뜻한 빵', x: 1698, y: 431, width: 17, height: 46, angle: -1.2 },
+    { id: 'door', title: '문 뒤에 숨겨 둔 별', x: 1665, y: 501, width: 13, height: 32, angle: .8 },
+    { id: 'ball', title: '노란 공이 기다려 준 날', x: 1681, y: 500, width: 14, height: 35, angle: -1.2 },
+    { id: 'stars', title: '삐뚤빼뚤, 우리의 별', x: 1698, y: 503, width: 15, height: 33, angle: 1.6 },
   ];
+  const approach = { x: 85.3, y: 61 };
 
-  window.makeRoomBookshelf = ({ room, artSize, canBrowse, visit, playPageTurn, stillMotion }) => {
-    const { text, bind } = window.roomLanguage;
+  window.makeRoomBookshelf = ({ room, artSize, canBrowse, visit, stillMotion, refresh }) => {
+    const { bind } = window.roomLanguage;
     const stage = document.getElementById('bookshelf');
     const entry = document.getElementById('shelf-entry');
     const dialog = document.getElementById('shelf-dialog');
     const closeButton = document.getElementById('shelf-close');
     const collection = document.getElementById('shelf-collection');
-    const detail = document.getElementById('shelf-cover-view');
-    const largeCover = document.getElementById('shelf-large-cover');
-    const title = document.getElementById('shelf-cover-title');
-    const coverReturn = document.getElementById('shelf-cover-return');
-    const message = document.getElementById('shelf-message');
-    const avatarFrame = document.getElementById('frame');
     const layoutKey = 'heartstorybook-sunroom-shelf-layout';
-    let selectedCard = null;
-    let messageTimer;
+    const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+    let heldBook = null;
+    let pageTimer;
+    let flipTimer;
+    let closeTimer;
+    let pendingBook;
+    let reading = false;
+    let turning = false;
+
+    function stopTurning() {
+      clearTimeout(pageTimer);
+      clearTimeout(flipTimer);
+      pageTimer = flipTimer = undefined;
+      turning = false;
+      refresh();
+    }
+
+    function schedulePage() {
+      if (!reading || stillMotion() || pageTimer !== undefined || flipTimer !== undefined) return;
+      pageTimer = setTimeout(() => {
+        pageTimer = undefined;
+        if (!reading || stillMotion()) return;
+        turning = true;
+        flipTimer = setTimeout(() => {
+          flipTimer = undefined;
+          turning = false;
+          refresh();
+        }, 400);
+        refresh();
+      }, 15000 + Math.random() * 10000);
+    }
+
+    function renderBook(isSeated, art) {
+      reading = Boolean(heldBook && isSeated && art?.reading && art?.turning);
+      if (reading) schedulePage();
+      else if (pageTimer !== undefined || flipTimer !== undefined) stopTurning();
+    }
+
+    function hold(book) {
+      heldBook = book;
+      for (const card of collection.querySelectorAll('.shelf-card')) {
+        card.disabled = card.dataset.book === book?.id;
+        card.classList.toggle('is-borrowed', card.disabled);
+      }
+      for (const spine of stage.children) spine.hidden = spine.dataset.book === book?.id;
+      refresh();
+    }
+
+    function updateMotion() {
+      if (stillMotion()) {
+        stopTurning();
+        if (dialog.classList.contains('is-closing')) finishClose();
+      } else schedulePage();
+      dialog.classList.toggle('skip-motion', stillMotion());
+    }
+    motionPreference.addEventListener('change', updateMotion);
+    new MutationObserver(updateMotion).observe(room.closest('.experience'), {
+      attributes: true, attributeFilter: ['class'],
+    });
+
     try {
-      const savedLayout = localStorage.getItem(layoutKey);
+      const savedLayout = roomSettings.testing ? localStorage.getItem(layoutKey) : null;
       if (savedLayout === 'a' || savedLayout === 'b') dialog.dataset.shelfLayout = savedLayout;
     } catch {
       // Keep the default when browser storage is unavailable.
     }
 
+    const coverPath = book => 'images/covers/' + book.id + '.jpg';
+
     function coverImage(book) {
       const cover = document.createElement('img');
-      cover.src = 'images/covers/' + book.id + '.jpg';
+      cover.src = coverPath(book);
       cover.alt = '';
       cover.width = 512;
       cover.height = 512;
@@ -56,25 +98,15 @@
     }
 
     function makeShelfBook(book) {
-      const shell = document.createElement('div');
+      const shell = document.createElement('img');
+      shell.src = 'images/reading-samples/spine-' + book.id + '.png';
+      shell.alt = '';
       shell.dataset.book = book.id;
       shell.className = 'shelf-book';
-      shell.setAttribute('aria-hidden', 'true');
       shell.style.left = book.x / artSize.width * 100 + '%';
       shell.style.top = book.y / artSize.height * 100 + '%';
       shell.style.width = book.width / artSize.width * 100 + '%';
       shell.style.height = book.height / artSize.height * 100 + '%';
-      shell.style.setProperty('--book-angle', book.angle + 'deg');
-      const art = document.createElement('span');
-      art.className = 'shelf-book-art';
-      if (book.spine) {
-        shell.classList.add('shelf-spine');
-        shell.style.setProperty('--spine-color', book.spine);
-        const label = document.createElement('span');
-        bind(label, book.title);
-        art.append(label);
-      } else art.append(coverImage(book));
-      shell.append(art);
       return shell;
     }
 
@@ -91,117 +123,80 @@
       card.append(art);
       card.addEventListener('click', () => {
         if (dialog.classList.contains('is-closing')) return;
-        selectedCard = card;
-        largeCover.src = 'images/covers/' + book.id + '.jpg';
-        largeCover.alt = text('{title} 표지', { title: text(book.title) });
-        bind(title, book.title);
-        collection.hidden = true;
-        detail.hidden = false;
-        coverReturn.focus({ preventScroll: true });
-        playPageTurn();
+        closePreview(book);
       });
       return card;
     }
 
-    for (const shelf of shelves) {
+    for (const book of books) stage.append(makeShelfBook(book));
+    for (const rowBooks of [books.slice(0, 3), books.slice(3)]) {
       const section = document.createElement('section');
-      const heading = document.createElement('h3');
-      heading.className = 'sr-only';
-      bind(heading, shelf.label);
       const row = document.createElement('div');
       row.className = 'shelf-cards';
-      for (const book of shelf.books) {
-        stage.append(makeShelfBook(book));
-        row.append(makeCard(book));
-      }
-      section.append(heading, row);
+      for (const book of rowBooks) row.append(makeCard(book));
+      section.append(row);
       collection.append(section);
     }
 
-    function showCollection() {
-      detail.hidden = true;
-      collection.hidden = false;
-    }
-
-    function placeMessage() {
-      const bounds = room.getBoundingClientRect();
-      const body = avatarFrame.getBoundingClientRect();
-      const margin = 7;
-      const half = message.offsetWidth / 2;
-      const center = body.left + body.width / 2 - bounds.left;
-      const x = Math.min(bounds.width - half - margin, Math.max(half + margin, center));
-      const y = Math.max(message.offsetHeight + margin, body.top - bounds.top - 8);
-      message.style.left = x + 'px';
-      message.style.top = y + 'px';
-    }
-
-    function showMessage() {
-      clearTimeout(messageTimer);
-      message.hidden = false;
-      placeMessage();
-      messageTimer = setTimeout(() => { message.hidden = true; }, 2900);
-    }
-
     function finishClose() {
+      clearTimeout(closeTimer);
       dialog.close();
       dialog.classList.remove('is-closing');
-      if (selectedCard) showMessage();
-      selectedCard = null;
-      showCollection();
+      if (pendingBook) hold(pendingBook);
+      pendingBook = null;
       entry.focus({ preventScroll: true });
     }
 
-    function closePreview() {
+    function closePreview(book = null) {
       if (!dialog.open || dialog.classList.contains('is-closing')) return;
+      pendingBook = book;
       if (stillMotion()) finishClose();
       else {
         dialog.classList.add('is-closing');
-        setTimeout(finishClose, 950);
+        closeTimer = setTimeout(finishClose, 950);
       }
     }
 
-    entry.addEventListener('click', () => {
+    function useShelf() {
       if (!canBrowse() || dialog.open) return;
-      clearTimeout(messageTimer);
-      message.hidden = true;
-      visit({ x: 76.6, y: 71.1 }, () => {
-        selectedCard = null;
-        showCollection();
+      visit(approach, () => {
+        if (heldBook) {
+          hold(null);
+          entry.focus({ preventScroll: true });
+          return;
+        }
         const bounds = room.getBoundingClientRect();
         const viewport = document.documentElement;
-        dialog.style.setProperty('--shelf-travel-x', (bounds.left + bounds.width * .77 - viewport.clientWidth / 2) * .55 + 'px');
-        dialog.style.setProperty('--shelf-travel-y', (bounds.top + bounds.height * .29 - viewport.clientHeight / 2) * .55 + 'px');
+        dialog.style.setProperty('--shelf-travel-x', (bounds.left + bounds.width * .85 - viewport.clientWidth / 2) * .55 + 'px');
+        dialog.style.setProperty('--shelf-travel-y', (bounds.top + bounds.height * .30 - viewport.clientHeight / 2) * .55 + 'px');
         dialog.classList.toggle('skip-motion', stillMotion());
         dialog.showModal();
-        playPageTurn();
       });
-    });
-    closeButton.addEventListener('click', closePreview);
+    }
+    entry.addEventListener('click', useShelf);
+    closeButton.addEventListener('click', () => closePreview());
     dialog.addEventListener('cancel', event => {
       event.preventDefault();
       closePreview();
     });
     dialog.addEventListener('keydown', event => {
-      if (event.altKey || event.ctrlKey || event.metaKey || event.repeat) return;
+      if (!roomSettings.testing || event.altKey || event.ctrlKey || event.metaKey || event.repeat) return;
       const layout = event.key.toLowerCase();
       if (layout !== 'a' && layout !== 'b') return;
       dialog.dataset.shelfLayout = layout;
       try { localStorage.setItem(layoutKey, layout); }
       catch { /* The selected layout still works for this visit. */ }
     });
-    coverReturn.addEventListener('click', () => {
-      showCollection();
-      selectedCard?.focus({ preventScroll: true });
-    });
-
-    function draw(position, mode) {
+    function draw(position, mode, available) {
+      entry.hidden = stage.hidden = !available;
       const near = (mode === 'idle' || mode === 'walking' || mode === 'bowing') &&
-        position.x >= 68 && position.x <= 88 && position.y >= 69 && position.y <= 79.5;
+        position.x >= 76 && position.x <= 91 && position.y >= 58 && position.y <= 73;
       entry.classList.toggle('is-near', near);
-      if (!message.hidden && mode === 'idle') placeMessage();
-      else if (mode !== 'idle') message.hidden = true;
     }
 
-    return { draw };
+    return {
+      draw, renderBook, isTurning: () => turning, hasBook: () => Boolean(heldBook),
+      returnBook: () => { if (heldBook) hold(null); },
+    };
   };
 })();
