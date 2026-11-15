@@ -2,6 +2,7 @@
   "visitors": [
     {
       "id": "man",
+      "walking": { "footRadiusPx": 22, "walkSpeedPxPerSec": 245, "accelPxPerSec2": 560, "maxTurnDegPerSec": 680, "gaitCycleSec": 0.55 },
       "label": "성인 남자",
       "atlas": "adults",
       "height": 0.42,
@@ -43,9 +44,10 @@
     },
     {
       "id": "woman",
+      "walking": { "footRadiusPx": 22, "walkSpeedPxPerSec": 245, "accelPxPerSec2": 560, "maxTurnDegPerSec": 680, "gaitCycleSec": 0.55 },
       "label": "성인 여자",
       "atlas": "adults",
-      "height": 0.405,
+      "height": 0.42,
       "seatedScale": 0.81,
       "frames": [
         {
@@ -84,6 +86,7 @@
     },
     {
       "id": "girl",
+      "walking": { "footRadiusPx": 17, "walkSpeedPxPerSec": 213, "accelPxPerSec2": 610, "maxTurnDegPerSec": 780, "gaitCycleSec": 0.43 },
       "label": "어린 소녀",
       "atlas": "children",
       "height": 0.29,
@@ -125,6 +128,7 @@
     },
     {
       "id": "boy",
+      "walking": { "footRadiusPx": 18, "walkSpeedPxPerSec": 213, "accelPxPerSec2": 610, "maxTurnDegPerSec": 780, "gaitCycleSec": 0.43 },
       "label": "어린 소년",
       "atlas": "children",
       "height": 0.295,

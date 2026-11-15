@@ -4,21 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>마음동화책방 · 새 책방</title>
-  <link rel="stylesheet" href="style.css?v=room-header-alignment-2">
-  <link rel="stylesheet" href="motion.css">
-  <link rel="stylesheet" href="bookshelf.css">
-  <script src="bookshelf.js?v=room-language" defer></script>
-  <script src="motion-check.js" defer></script>
-  <script src="seat-check.js" defer></script>
-  <script src="room.js?v=room-navigation" defer></script>
+  <link rel="stylesheet" href="style.css?v=room-layout-v2">
+  <link rel="stylesheet" href="motion.css?v=floor-weather">
+  <script src="settings.js?v=local-reading"></script>
+  <script>
+    // Parser-ordered scripts ensure optional features are ready before the room starts.
+    const optional = [];
+    if (roomSettings.reading) {
+      optional.push('<link rel="stylesheet" href="bookshelf.css?v=carry-walk">');
+      optional.push('<script src="bookshelf.js?v=local-reading" defer><\/script>');
+    }
+    if (roomSettings.testing) {
+      optional.push('<script src="motion-check.js?v=release-review" defer><\/script>');
+      optional.push('<script src="seat-check.js?v=release-review" defer><\/script>');
+    }
+    document.write(optional.join(''));
+  </script>
+  <script src="navigation.js?v=room-layout-v2" defer></script>
+  <script src="room.js?v=reading-girl-size" defer></script>
 </head>
 <body>
   <main id="experience" class="experience" aria-label="마음동화책방 새 책방" data-room-aria="마음동화책방 새 책방"
-    data-test-mode="off" data-avatar-warmth="1" data-window-bird="off">
+    data-avatar-warmth="1" data-window-bird="off">
     <header class="top room-width">
       <h1 data-room-text="마음동화책방">마음동화책방</h1>
       <div class="room-header-actions">
-        <a class="room-home" id="room-home" href="../../" data-room-text="첫 화면" data-room-aria="홈페이지 첫 화면으로" aria-label="홈페이지 첫 화면으로">첫 화면</a>
+        <a class="room-home" id="room-home" href="https://kimyoungji33-gg.github.io/heartstorybook/index.html" data-room-text="첫 화면" data-room-aria="홈페이지 첫 화면으로" aria-label="홈페이지 첫 화면으로">첫 화면</a>
         <label class="room-language">
           <span class="sr-only" data-room-text="언어">언어</span>
           <select id="room-language">
@@ -30,39 +41,72 @@
       </div>
     </header>
     <div id="stage" class="room room-width" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
-      <img class="room-picture" src="images/room_a_chair_03.webp" alt="벽난로, 정면 의자, 소파가 있는 책방" draggable="false">
-      <div class="curtain curtain-left" aria-hidden="true"></div>
-      <div class="curtain curtain-right" aria-hidden="true"></div>
-      <div class="garden-pane garden-grass" aria-hidden="true"><div class="garden-leaves"></div></div>
-      <div class="garden-pane garden-branches" aria-hidden="true"><div class="garden-leaves"></div></div>
+      <img class="room-picture" src="images/room_a_chair_03_shelf_v2.png?v=shelf-pot-removed" alt="벽난로와 안락의자, 바닥 방석이 있는 책방" draggable="false">
+      <button id="room-sound" class="sound" type="button" aria-pressed="false" aria-label="음소거" data-room-aria="음소거" title="음소거">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M11 5 6 9H3v6h3l5 4z"/>
+          <path class="sound-waves" d="M15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"/>
+          <path class="sound-mute" d="m16 9 5 6m0-6-5 6"/>
+        </svg>
+      </button>
+      <audio id="purr-sound" src="sfx/purr.mp3" preload="none"></audio>
+      <audio id="weather-sound" preload="none"></audio>
+      <svg class="weather-mask" width="0" height="0" aria-hidden="true" focusable="false">
+        <defs>
+          <clipPath id="weather-glass-panes" clipPathUnits="objectBoundingBox">
+            <rect x="0.584375" y="0.081481" width="0.004167" height="0.060185"/>
+            <rect x="0.593229" y="0.081481" width="0.022917" height="0.060185"/>
+            <rect x="0.620313" y="0.081481" width="0.024479" height="0.060185"/>
+            <rect x="0.661458" y="0.081481" width="0.026562" height="0.060185"/>
+            <rect x="0.692187" y="0.081481" width="0.023438" height="0.060185"/>
+            <rect x="0.719792" y="0.081481" width="0.013021" height="0.060185"/>
+            <rect x="0.584375" y="0.151852" width="0.004167" height="0.067593"/>
+            <rect x="0.593229" y="0.151852" width="0.022917" height="0.067593"/>
+            <rect x="0.620313" y="0.151852" width="0.024479" height="0.067593"/>
+            <rect x="0.661458" y="0.151852" width="0.026562" height="0.067593"/>
+            <rect x="0.692187" y="0.151852" width="0.023438" height="0.067593"/>
+            <rect x="0.719792" y="0.151852" width="0.013021" height="0.067593"/>
+            <rect x="0.584375" y="0.227778" width="0.004167" height="0.051852"/>
+            <rect x="0.593229" y="0.227778" width="0.022917" height="0.051852"/>
+            <rect x="0.620313" y="0.227778" width="0.024479" height="0.051852"/>
+            <rect x="0.661458" y="0.227778" width="0.026562" height="0.051852"/>
+            <rect x="0.692187" y="0.227778" width="0.023438" height="0.051852"/>
+            <rect x="0.719792" y="0.227778" width="0.013021" height="0.051852"/>
+            <rect x="0.584375" y="0.287037" width="0.004167" height="0.026852"/>
+            <rect x="0.593229" y="0.287037" width="0.022917" height="0.026852"/>
+            <rect x="0.620313" y="0.287037" width="0.024479" height="0.026852"/>
+            <rect x="0.661458" y="0.287037" width="0.026562" height="0.026852"/>
+            <rect x="0.692187" y="0.287037" width="0.023438" height="0.026852"/>
+            <rect x="0.719792" y="0.287037" width="0.013021" height="0.026852"/>
+            <rect x="0.584375" y="0.322222" width="0.004167" height="0.015741"/>
+            <rect x="0.593229" y="0.322222" width="0.022917" height="0.015741"/>
+          </clipPath>
+        </defs>
+      </svg>
+      <div id="weather-window" class="weather-window" aria-hidden="true"></div>
+      <img class="floor-overcast" src="images/floor-overcast.png" alt="" aria-hidden="true" draggable="false">
       <div class="leaf-shadow leaf-shadow-wall" aria-hidden="true"></div>
       <div class="leaf-shadow leaf-shadow-floor" aria-hidden="true"></div>
       <div class="ceiling-lamp" aria-hidden="true"></div>
       <div class="lamp-glow lamp-glow-ceiling" aria-hidden="true"></div>
       <div class="lamp-glow lamp-glow-shelf" aria-hidden="true"></div>
+      <template id="shelf-room-template">
       <div id="bookshelf" class="bookshelf" role="group" aria-label="새 책방 책장" data-room-aria="새 책방 책장">
-        <div class="shelf-back upper" aria-hidden="true"></div>
-        <div class="shelf-back lower" aria-hidden="true"></div>
-
       </div>
       <button id="shelf-entry" class="shelf-entry" type="button" aria-label="책장 가까이 보기" data-room-aria="책장 가까이 보기" aria-haspopup="dialog"></button>
-      <p id="shelf-message" class="shelf-message" role="status" data-room-text="서가에서 읽을 수 있어요" hidden>서가에서 읽을 수 있어요</p>
+      </template>
       <div class="furniture chair-layer" aria-hidden="true"></div>
-      <div class="furniture chair-back" aria-hidden="true"></div>
-      <div class="furniture chair-cushion" aria-hidden="true"></div>
-      <div class="furniture sofa-layer" aria-hidden="true"></div>
-      <div class="furniture sofa-press sofa-press-left" aria-hidden="true"></div>
-      <div class="furniture sofa-press sofa-press-right" aria-hidden="true"></div>
       <div class="furniture table-new" aria-hidden="true"></div>
       <div id="avatar" class="avatar is-idle" aria-hidden="true">
         <div class="avatar-shadow"></div>
         <div class="avatar-breath">
-          <div id="pose" class="avatar-pose"><div id="frame" class="avatar-frame"><img id="sprite" alt="" draggable="false"></div></div>
+          <div id="pose" class="avatar-pose">
+            <div id="frame" class="avatar-frame"><img id="sprite" alt="" draggable="false"></div>
+            <img id="bow-sprite" class="bow-sprite" alt="" draggable="false" hidden>
+          </div>
         </div>
         <div id="seat-pose" class="avatar-pose seat-pose"><div id="seat-frame" class="avatar-frame"><img id="seat-sprite" alt="" draggable="false"></div></div>
       </div>
-      <div class="chair-arms" aria-hidden="true"></div>
-      <div class="sofa-arms" aria-hidden="true"></div>
       <div class="hearth-flame" aria-hidden="true"></div>
       <div class="hearth-light" aria-hidden="true"></div>
       <div class="hearth-spill" aria-hidden="true"></div>
@@ -138,14 +182,24 @@
         </g>
       </svg>
       <div id="seat-guides" class="seat-guides" hidden aria-hidden="true">
-        <i id="seat-line"></i><i id="seat-point"></i><i id="hip-point" hidden></i>
+        <i id="seat-line"></i><i id="seat-point"></i><i id="hip-point" hidden></i><i id="book-point" hidden></i>
       </div>
-      <button id="chair" class="furniture-target chair-target" type="button" aria-label="정면 의자에 앉기"><span data-room-text="정면 의자">정면 의자</span></button>
-      <button id="sofa" class="furniture-target sofa-target" type="button" aria-label="소파에서 가까운 자리에 앉기" data-room-aria="소파에서 가까운 자리에 앉기"><span data-room-text="소파 가까운 자리">소파 가까운 자리</span></button>
-      <button id="sofa-left" class="furniture-target sofa-seat sofa-left" type="button" aria-label="소파 왼쪽에 앉기"><span data-room-text="왼쪽 자리">왼쪽 자리</span></button>
-      <button id="sofa-right" class="furniture-target sofa-seat sofa-right" type="button" aria-label="소파 오른쪽에 앉기"><span data-room-text="오른쪽 자리">오른쪽 자리</span></button>
-      <button class="furniture-target table-target" type="button" aria-label="작은 탁자" data-room-aria="작은 탁자"><span data-room-text="작은 탁자">작은 탁자</span></button>
+      <button id="chair" class="furniture-target chair-target" type="button" aria-label="바닥 방석에 앉기"><span data-room-text="바닥 방석">바닥 방석</span></button>
+      <button id="fruit-tray" class="furniture-target fruit-tray-target" type="button" aria-label="탁자 위 감, 감 드리기"><span data-room-text="감 드리기">감 드리기</span></button>
+      <button id="weather-radio" class="weather-radio" type="button" aria-haspopup="dialog" aria-controls="weather-dialog" aria-label="라디오" data-room-aria="라디오"></button>
     </div>
+    <dialog id="weather-dialog" class="weather-dialog" aria-labelledby="weather-heading" aria-describedby="weather-sound-note">
+      <h2 id="weather-heading" data-room-text="오늘의 마음 날씨">오늘의 마음 날씨</h2>
+      <div class="weather-options">
+        <button type="button" data-weather="sunny"><img src="images/weather-cards/sunny.png" alt="" width="48" height="48"><span data-room-text="맑음">맑음</span></button>
+        <button type="button" data-weather="cloudy"><img src="images/weather-cards/cloudy.png" alt="" width="48" height="48"><span data-room-text="흐림">흐림</span></button>
+        <button type="button" data-weather="rainy"><img src="images/weather-cards/rainy.png" alt="" width="48" height="48"><span data-room-text="비">비</span></button>
+        <button type="button" data-weather="snowy"><img src="images/weather-cards/snowy.png" alt="" width="48" height="48"><span data-room-text="눈">눈</span></button>
+      </div>
+      <p id="weather-sound-note" class="weather-sound-note" data-room-text="날씨를 누르면 어울리는 소리가 나요.">날씨를 누르면 어울리는 소리가 나요.</p>
+      <form method="dialog"><button type="submit" data-room-text="닫기">닫기</button></form>
+    </dialog>
+    <template id="shelf-dialog-template">
     <dialog id="shelf-dialog" class="shelf-dialog" data-shelf-layout="b" aria-labelledby="shelf-heading">
       <header class="shelf-preview-top">
         <button id="shelf-close" class="shelf-close" type="button" aria-label="새 책방으로 돌아가기" data-room-aria="새 책방으로 돌아가기" autofocus>
@@ -155,15 +209,11 @@
       </header>
       <div class="shelf-scene">
         <div id="shelf-collection"></div>
-        <section id="shelf-cover-view" class="shelf-cover-view" hidden>
-          <button id="shelf-cover-return" type="button" aria-label="다른 표지 보기" data-room-aria="다른 표지 보기"><img id="shelf-large-cover" alt="" width="512" height="512"></button>
-          <h3 id="shelf-cover-title"></h3>
-          <p data-room-text="서가에서 읽을 수 있어요">서가에서 읽을 수 있어요</p>
-        </section>
       </div>
     </dialog>
+    </template>
     <footer id="controls" class="controls" inert>
-      <p id="hint">바닥을 누르면 걸어요. 정면 의자나 소파에 앉아 보세요.</p>
+      <p id="hint">바닥을 누르면 걸어요. 바닥 방석에 앉아 보세요.</p>
       <button id="stand" type="button" data-room-text="일어나기" hidden>일어나기</button>
       <div id="visitors" class="visitors" role="group" aria-label="아바타 고르기" data-room-aria="아바타 고르기"></div>
     </footer>
@@ -175,7 +225,7 @@
       <p id="motion-copy-status" role="status"></p>
     </aside>
     <aside id="seat-report" class="seat-report" aria-label="앉는 자리 보기" hidden>
-      <strong>등받이·방석 → 아바타 → 팔걸이 앞</strong>
+      <strong>바닥 방석 → 아바타</strong>
       <p><span class="seat-color">●</span> 방석의 앉는 자리 · <span class="hip-color">●</span> 엉덩이</p>
       <p id="seat-values"></p>
       <p id="seat-keys"></p>
@@ -185,8 +235,8 @@
     <p class="motion-note" data-room-text="움직임 줄이기가 켜져 있어요">움직임 줄이기가 켜져 있어요</p>
     <p id="status" class="sr-only" role="status"></p>
   </main>
-  <script src="room-language.js?v=2"></script>
-  <script src="family.js?v=room-language"></script>
+  <script src="room-language.js?v=room-layout-v2"></script>
+  <script src="family.js?v=elder-bubble-above"></script>
 </body>
 </html>
 

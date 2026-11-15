@@ -1,33 +1,39 @@
 (() => {
   'use strict';
 
-  const translations = new Map([
+  if (roomSettings.reading) {
+    for (const id of ['shelf-room-template', 'shelf-dialog-template']) {
+      const template = document.getElementById(id);
+      template.after(template.content.cloneNode(true));
+    }
+  }
+
+  const rows = [
     ['언어', 'Language', 'Idioma'],
+    ['음소거', 'Mute sound', 'Silenciar sonido'],
+    ['인사하기', 'Say hello', 'Saludar'],
+    ['라디오', 'Radio', 'Radio'],
+    ['오늘의 마음 날씨', 'Today’s heart weather', 'El tiempo de mi corazón hoy'],
+    ['날씨를 누르면 어울리는 소리가 나요.', 'Choose a weather to hear its sound.', 'Elige un clima para escuchar su sonido.'],
+    ['맑음', 'Sunny', 'Soleado'],
+    ['흐림', 'Cloudy', 'Nublado'],
+    ['비', 'Rain', 'Lluvia'],
+    ['눈', 'Snow', 'Nieve'],
+    ['닫기', 'Close', 'Cerrar'],
     ['첫 화면', 'Home', 'Inicio'],
     ['홈페이지 첫 화면으로', 'Go to the home page', 'Ir a la página de inicio'],
     ['마음동화책방', 'The Heart Storybook Library', 'La biblioteca de los corazones'],
     ['마음동화책방 · 새 책방', 'The Heart Storybook Library · Living room', 'La biblioteca de los corazones · Sala'],
     ['마음동화책방 새 책방', 'The Heart Storybook Library living room', 'Sala de la biblioteca de los corazones'],
     ['햇살이 드는 책방', 'A sunlit reading room', 'Una sala de lectura soleada'],
-    ['벽난로, 정면 의자, 소파가 있는 책방', 'A reading room with a fireplace, an armchair, and a sofa', 'Una sala de lectura con chimenea, sillón y sofá'],
-    ['새 책방 책장', 'Living room bookshelf', 'Estantería de la sala'],
-    ['책장 가까이 보기', 'Take a closer look at the bookshelf', 'Mirar la estantería de cerca'],
-    ['서가에서 읽을 수 있어요', 'You can read this book in the library.', 'Puedes leer este libro en la biblioteca.'],
-    ['새 책방으로 돌아가기', 'Return to the living room', 'Volver a la sala'],
-    ['다른 표지 보기', 'See other covers', 'Ver otras portadas'],
-    ['정면 의자', 'Armchair', 'Sillón'],
-    ['소파 가까운 자리', 'Nearest sofa seat', 'Asiento más cercano del sofá'],
-    ['소파에서 가까운 자리에 앉기', 'Sit in the nearest sofa seat', 'Sentarse en el asiento más cercano del sofá'],
-    ['왼쪽 자리', 'Left seat', 'Asiento izquierdo'],
-    ['오른쪽 자리', 'Right seat', 'Asiento derecho'],
-    ['소파 왼쪽', 'left sofa seat', 'el asiento izquierdo del sofá'],
-    ['소파 오른쪽', 'right sofa seat', 'el asiento derecho del sofá'],
+    ['벽난로와 안락의자, 바닥 방석이 있는 책방', 'A reading room with a fireplace, armchairs, and a floor cushion', 'Una sala de lectura con chimenea, sillones y un cojín de suelo'],
+    ['바닥 방석', 'Floor cushion', 'Cojín de suelo'],
     ['작은 탁자', 'Small table', 'Mesa pequeña'],
     ['{name}에 앉기', 'Sit in {name}', 'Sentarse en {name}'],
     ['앉아 있는 {name}', 'Seated in {name}', 'Sentado en {name}'],
     ['{name}에 앉았어요.', 'You sat in {name}.', 'Te sentaste en {name}.'],
     ['{name}에서 일어났어요.', 'You stood up from {name}.', 'Te levantaste de {name}.'],
-    ['바닥을 누르면 걸어요. 창가 의자나 소파에 앉아 보세요.', 'Tap the floor to walk. Try sitting in the armchair or on the sofa.', 'Toca el suelo para caminar. Prueba a sentarte en el sillón o en el sofá.'],
+    ['바닥을 누르면 걸어요. 바닥 방석에 앉아 보세요.', 'Tap the floor to walk. Try sitting on the floor cushion.', 'Toca el suelo para caminar. Prueba a sentarte en el cojín de suelo.'],
     ['원하는 만큼 쉬어 가세요.', 'Rest here as long as you like.', 'Descansa aquí el tiempo que quieras.'],
     ['일어나기', 'Stand up', 'Levantarse'],
     ['아바타 고르기', 'Choose a character', 'Elegir un personaje'],
@@ -50,6 +56,14 @@
     ['같은 하루, 다른 마음', 'One Day, Different Hearts', 'Un día, distintos sentimientos'],
     ['만약 이랬다면 어땠을까', 'What If the Story Changed?', '¿Y si el cuento cambiara?'],
     ['마음열쇠 알아보기', 'Discover the heart keys', 'Descubre las llaves del corazón'],
+  ];
+  if (roomSettings.reading) rows.push(
+    ['새 책방 책장', 'Living room bookshelf', 'Estantería de la sala'],
+    ['책장 가까이 보기', 'Take a closer look at the bookshelf', 'Mirar la estantería de cerca'],
+    ['서가에서 읽을 수 있어요', 'You can read this book in the library.', 'Puedes leer este libro en la biblioteca.'],
+    ['새 책방으로 돌아가기', 'Return to the living room', 'Volver a la sala'],
+    ['임시', 'Temporary', 'Temporal'],
+    ['책 돌려놓기', 'Put the book back', 'Devolver el libro'],
     ['어른 동화', 'Stories for adults', 'Cuentos para adultos'],
     ['아이 동화', 'Stories for children', 'Cuentos para niños'],
     ['아직 남겨 둔 의자', 'Room on the Bench', 'Un sitio en el banco'],
@@ -63,7 +77,8 @@
     ['노란 공이 기다려 준 날', 'The Day the Yellow Ball Waited', 'El día que la pelota amarilla esperó'],
     ['삐뚤빼뚤, 우리의 별', 'Our Wonderfully Wobbly Stars', 'Nuestras estrellas un poquito torcidas'],
     ['{title} 표지', 'Cover of {title}', 'Portada de {title}']
-  ].map(([ko, en, es]) => [ko, {en, es}]));
+  );
+  const translations = new Map(rows.map(([ko, en, es]) => [ko, {en, es}]));
 
   const picker = document.getElementById('room-language');
   const url = new URL(location.href);
@@ -88,11 +103,11 @@
     document.documentElement.lang = language;
     document.title = text('마음동화책방 · 새 책방');
     picker.value = language;
-    document.getElementById('room-home').href = '../../?lang=' + language;
+    document.getElementById('room-home').href = 'https://kimyoungji33-gg.github.io/heartstorybook/index.html?lang=' + language;
     try { localStorage.setItem('heart-language', language); } catch {}
     document.querySelectorAll('[data-room-text]').forEach(el => { el.textContent = text(el.dataset.roomText); });
     document.querySelectorAll('[data-room-aria]').forEach(el => el.setAttribute('aria-label', text(el.dataset.roomAria)));
-    document.querySelector('.room-picture').alt = text('벽난로, 정면 의자, 소파가 있는 책방');
+    document.querySelector('.room-picture').alt = text('벽난로와 안락의자, 바닥 방석이 있는 책방');
   }
 
   window.roomLanguage = {

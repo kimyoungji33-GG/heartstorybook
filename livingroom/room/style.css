@@ -100,7 +100,7 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
   user-select: none;
   box-shadow: 0 14px 46px #150e0a80;
 }
-.room-picture, .furniture, .chair-arms, .sofa-arms {
+.room-picture, .furniture {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -149,58 +149,9 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
   z-index: 690;
   clip-path: polygon(20% 51%, 20.2% 49.5%, 22.2% 48%, 22.4% 41.8%, 22.7% 39.7%, 23.2% 38.8%, 24% 38.5%, 32.9% 38.5%, 33.6% 39%, 34% 40.2%, 34% 47.8%, 36.3% 49.4%, 37% 50.3%, 36.8% 51.5%, 36.4% 52%, 36.4% 68.8%, 34.7% 69.6%, 34.2% 68.8%, 34.2% 65.1%, 22.6% 65.3%, 22.5% 69%, 21.1% 69.6%, 20.8% 69.3%, 20.8% 52%, 20.2% 52%);
 }
-.sofa-layer {
-  z-index: 686;
-  clip-path: polygon(50.3% 48.4%, 50.8% 46.6%, 52% 45.6%, 53.7% 45.2%, 54% 42.2%, 54.5% 39.6%, 55.6% 38.8%, 60% 38.3%, 66.3% 38.1%, 68.4% 39%, 70% 38.6%, 79.6% 38.4%, 82% 39%, 83.1% 40.5%, 83.6% 44.2%, 85% 44.4%, 87% 45.4%, 88% 47.1%, 88.4% 50%, 88.2% 53.1%, 88.8% 61.9%, 88.5% 63.5%, 86.5% 63.9%, 85.9% 65.5%, 85.8% 67.5%, 84.8% 68.9%, 83.6% 68.4%, 83.3% 66.4%, 55.1% 65.9%, 54.8% 68.3%, 53.5% 68.8%, 52.9% 68.4%, 52.5% 65.8%, 51.9% 63%, 51.7% 56%, 50.7% 54%, 50.3% 51.2%);
-}
-/* The full silhouette is for walking behind the chair. Only the arm caps overlap a seated visitor. */
-.chair-back, .chair-cushion, .chair-arms, .sofa-arms, .sofa-press, .seat-pose { display: none; }
-.chair-back {
-  z-index: 690;
-  clip-path: polygon(22.4% 48.7%, 22.4% 41.8%, 22.7% 39.7%, 23.2% 38.8%, 24% 38.5%, 32.9% 38.5%, 33.6% 39%, 34% 40.2%, 34.1% 51.9%, 33.2% 55%, 22.5% 55%);
-}
-.chair-cushion {
-  z-index: 691;
-  clip-path: polygon(20.8% 51%, 23.5% 51.8%, 24.2% 53.1%, 32.8% 53%, 34.2% 51.6%, 36.4% 51%, 36.4% 68.8%, 34.7% 69.6%, 34.2% 68.8%, 34.2% 65.1%, 22.6% 65.3%, 22.5% 69%, 21.1% 69.6%, 20.8% 69.3%);
-}
-.chair-arms, .sofa-arms { z-index: 980; background: none; }
-.chair-arms::before, .chair-arms::after, .sofa-arms::before, .sofa-arms::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--room-image) center / 100% 100% no-repeat;
-}
-.chair-arms::before {
-  clip-path: polygon(20% 50.7%, 20.25% 49.95%, 21.06% 49.6%, 22.34% 49.32%, 22.61% 49.64%, 22.34% 50.52%, 21.95% 51.68%, 20.44% 52.04%, 20.08% 51.78%);
-}
-.chair-arms::after {
-  clip-path: polygon(34.2% 49.43%, 35.41% 49.51%, 36.5% 49.94%, 37% 50.53%, 36.75% 51.51%, 36.37% 51.94%, 34.48% 51.9%, 34.21% 51.35%);
-}
-.room[data-seat="window"] .chair-layer { display: none; }
-.room[data-seat="window"] :is(.chair-back, .chair-cushion, .chair-arms),
+.seat-pose { display: none; }
+.room[data-seat="cushion"] .chair-layer { display: none; }
 .room.is-seating .seat-pose { display: block; }
-.room[data-seat^="sofa-"] .sofa-arms { display: block; }
-.sofa-arms::before {
-  clip-path: polygon(50.3% 48.4%, 50.8% 46.8%, 52.1% 46.2%, 53.4% 46.7%, 54.3% 47.5%, 54.7% 49.1%, 54.3% 51.4%, 53.3% 52.9%, 51.8% 53.7%, 50.8% 52.6%, 50.3% 51.4%);
-}
-.sofa-arms::after {
-  clip-path: polygon(85.7% 47.7%, 87.1% 47.6%, 88.1% 48.7%, 88.4% 50.5%, 88.05% 52.6%, 87.2% 54.25%, 86.1% 54.4%, 85.3% 53.3%, 85% 51.5%, 85.25% 49.2%);
-}
-.sofa-press {
-  z-index: 687;
-  opacity: var(--sofa-press, 0);
-  transform: translateY(calc(2px * var(--sofa-press, 0)));
-}
-.sofa-press-left {
-  clip-path: inset(51.5% 31.7% 42.3% 55.6%);
-  mask-image: radial-gradient(ellipse 7.2% 4% at 62.1% 54.2%, #000 25%, transparent 88%);
-}
-.sofa-press-right {
-  clip-path: inset(51.5% 22.7% 42.3% 68.7%);
-  mask-image: radial-gradient(ellipse 4.6% 4% at 72.3% 54.2%, #000 23%, transparent 89%);
-}
-.room[data-seat="sofa-left"] .sofa-press-left,
-.room[data-seat="sofa-right"] .sofa-press-right { display: block; }
 .experience[data-avatar-warmth="0"] .avatar-shadow { opacity: 0; }
 .table-layer { position: absolute; left: 35.45%; top: 60%; width: 16.5%; height: 16.3%; z-index: 745; object-fit: fill; clip-path: inset(10% 26% 9% 26%); filter: drop-shadow(0 2px 1px #52321553); pointer-events: none; }
 .avatar { position: absolute; width: 0; height: 0; pointer-events: none; }
@@ -237,11 +188,8 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
 }
 .furniture-target span { bottom: 10%; }
 .chair-target { left: 20%; top: 39%; width: 17%; height: 23%; }
-.sofa-target { left: 51%; top: 39%; width: 37%; height: 23%; }
-.sofa-seat { top: 50.5%; height: 11%; min-width: 44px; }
-.sofa-left { left: 55.4%; width: 12.9%; }
-.sofa-right { left: 68.6%; width: 10.9%; }
-.table-target { left: 40%; top: 62.1%; width: 7.2%; height: 10%; min-width: 30px; }
+/* 탁자 위 감(페르시몬) 그릇 위치. 미리보기에서 어긋나면 이 네 값만 조정하면 돼요. */
+.fruit-tray-target { left: 34.7%; top: 46%; width: 9%; height: 7%; min-height: 0; }
 .chair-target::before {
   content: "";
   position: absolute;
@@ -282,7 +230,6 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
   .controls { flex-direction: column; gap: 7px; }
   .controls button { padding-inline: 8px; }
   .furniture-target span { font-size: 14px; }
-  .table-target { min-width: 44px; }
 }
 @media (max-width: 420px) {
   .top { gap: 6px; }
@@ -302,7 +249,6 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
   .controls { flex-direction: row; gap: 4px 8px; padding-block: 3px; }
   .controls p { font-size: 14px; }
   .controls button { font-size: 14px; }
-  .table-target { min-width: 44px; }
 }
 @media (orientation: landscape) and (max-height: 390px) and (max-width: 780px) {
   .experience { --room-max-width: max(320px, calc((100svh - 158px) * 1.7768)); }
@@ -314,6 +260,135 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
 }
 
 .is-quiet .furniture-target span { opacity: 0; }
+
+#room-sound {
+  position: absolute;
+  z-index: 1100;
+  inset: 8px 8px auto auto;
+  background: #33261ed9;
+}
+#room-sound svg { width: 22px; }
+.is-quiet #room-sound:not(:focus-visible) { opacity: 0; }
+
+.fam-actions {
+  position: absolute;
+  z-index: 9001;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  width: max-content;
+  max-width: calc(100% - 8px);
+  transform: translate(-50%, -100%);
+}
+.fam-actions .fam-btn {
+  min-height: 32px;
+  padding: 4px 8px;
+  font-size: clamp(11px, 2.8cqw, 15px);
+}
+.fam-actions .fam-btn:disabled { opacity: .65; cursor: default; }
+.fam.fam-elder img { animation: none; }
+.fam.fam-elder .sh { display: none; }
+[data-family="grandpa"] > img { clip-path: polygon(0.00% 0.00%, 100.00% 0.00%, 100.00% 20.69%, 59.20% 21.53%, 58.13% 22.53%, 60.78% 24.21%, 65.42% 25.59%, 68.82% 27.97%, 71.23% 32.41%, 72.80% 37.39%, 73.55% 41.76%, 72.97% 44.98%, 73.96% 47.74%, 72.72% 50.65%, 70.48% 52.26%, 71.23% 54.10%, 73.30% 56.09%, 74.13% 59.54%, 73.13% 63.60%, 70.81% 68.12%, 69.24% 72.34%, 67.74% 77.24%, 66.67% 81.15%, 66.50% 83.52%, 64.43% 85.36%, 63.02% 85.36%, 65.17% 88.51%, 67.91% 100.00%, 37.31% 100.00%, 38.72% 94.41%, 41.13% 89.12%, 44.20% 85.06%, 42.70% 84.14%, 41.87% 80.77%, 40.55% 78.08%, 38.06% 74.10%, 36.40% 70.27%, 34.91% 66.21%, 34.08% 62.91%, 32.50% 61.38%, 32.34% 58.62%, 35.24% 54.79%, 39.30% 51.95%, 40.38% 50.04%, 36.73% 51.03%, 34.16% 50.65%, 31.76% 49.35%, 28.61% 48.58%, 25.46% 46.90%, 24.13% 44.44%, 23.71% 42.07%, 24.05% 39.69%, 26.45% 36.32%, 29.77% 31.72%, 32.75% 28.58%, 34.83% 26.59%, 38.47% 24.52%, 41.13% 23.37%, 35.99% 22.91%, 0.00% 20.23%); }
+[data-family="grandma"] > img { clip-path: polygon(0.00% 0.00%, 100.00% 0.00%, 100.00% 20.48%, 69.49% 20.86%, 67.71% 22.06%, 66.53% 24.08%, 64.66% 26.56%, 67.29% 29.18%, 69.24% 32.78%, 70.76% 35.86%, 72.12% 39.38%, 72.71% 42.84%, 72.03% 46.21%, 70.68% 48.84%, 71.86% 51.01%, 72.97% 53.56%, 73.73% 56.26%, 76.19% 60.32%, 75.85% 62.42%, 73.73% 63.62%, 73.56% 66.32%, 71.69% 69.69%, 70.93% 72.84%, 71.61% 75.62%, 72.46% 79.07%, 72.12% 81.92%, 71.78% 84.40%, 70.42% 86.35%, 67.63% 88.22%, 62.88% 90.40%, 57.88% 90.47%, 60.34% 94.97%, 60.68% 100.00%, 37.63% 100.00%, 38.31% 94.67%, 40.42% 91.22%, 37.29% 91.00%, 33.90% 90.02%, 30.93% 88.60%, 28.47% 87.47%, 26.44% 85.82%, 24.75% 85.00%, 25.68% 81.17%, 27.12% 77.87%, 28.98% 75.02%, 26.36% 75.39%, 23.73% 74.04%, 21.78% 71.49%, 20.51% 69.09%, 20.17% 65.94%, 21.02% 63.62%, 21.19% 60.84%, 23.05% 58.51%, 26.69% 54.61%, 26.27% 52.81%, 25.25% 50.41%, 24.15% 47.94%, 23.90% 44.94%, 25.17% 41.64%, 27.03% 38.11%, 28.56% 34.13%, 31.69% 30.53%, 35.00% 28.06%, 37.63% 26.63%, 39.24% 24.53%, 37.03% 23.03%, 34.83% 20.86%, 0.00% 19.05%); }
+.fam-actions .fam-btn:focus-visible,
+.fam-bubble button:focus-visible { outline: 2px solid #795222; outline-offset: 2px; }
+.bow-sprite {
+  position: absolute;
+  max-width: none;
+  filter: brightness(var(--avatar-brightness, 1)) sepia(var(--avatar-sepia, 0)) saturate(var(--avatar-saturation, 1));
+}
+.experience[data-avatar-warmth="0"] .bow-sprite { filter: none; }
+.avatar.is-greeting.is-bowing { z-index: 1950 !important; }
+.fam-eyes {
+  display: none;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.is-petted .fam-eyes { display: block; }
+.fam-eyes i {
+  position: absolute;
+  width: var(--eye-width);
+  height: var(--eye-height);
+  border-radius: 50%;
+  background: var(--lid);
+  border-bottom: 1.5px solid #271b14;
+  transform: translate(-50%, -50%) rotate(var(--eye-angle));
+}
+.fam-eyes i:first-child { left: var(--eye-left-x); top: var(--eye-left-y); }
+.fam-eyes i:last-child { left: var(--eye-right-x); top: var(--eye-right-y); }
+[data-family="momo"] {
+  --eye-left-x: 42.5%; --eye-left-y: 35.9%;
+  --eye-right-x: 61.2%; --eye-right-y: 34%;
+  --eye-width: 9.5%; --eye-height: 4.7%; --eye-angle: -10deg; --lid: #624739;
+}
+[data-family="semi"] {
+  --eye-left-x: 56.4%; --eye-left-y: 29.7%;
+  --eye-right-x: 68.4%; --eye-right-y: 25.2%;
+  --eye-width: 8.5%; --eye-height: 5.5%; --eye-angle: -26deg; --lid: #a3784b;
+}
+.weather-radio {
+  position: absolute;
+  z-index: 1004;
+  left: 41.6%;
+  top: 23.2%;
+  width: 5.7%;
+  height: 6.6%;
+  background: transparent;
+  border: 0;
+  border-radius: 7px;
+}
+@font-face {
+  font-family: "Hi Melody Weather";
+  src: url("fonts/HiMelody-weather.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+.weather-dialog {
+  width: min(360px, calc(100% - 24px));
+  padding: 18px;
+  border: 1px solid #b89461;
+  border-radius: 16px;
+  background: #fff6e2;
+  color: #4a3322;
+  font: 400 1.25rem/1.35 "Hi Melody Weather", "Hi Melody", "Malgun Gothic", sans-serif;
+  box-shadow: 0 8px 24px #211b175e;
+}
+.weather-dialog::backdrop { background: #211b1766; }
+.weather-dialog h2 { margin: 0 0 14px; font-size: 1.65rem; font-weight: 400; }
+.weather-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.weather-options button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+}
+.weather-options img {
+  display: block;
+  width: clamp(34px, 11vw, 48px);
+  height: auto;
+  aspect-ratio: 1;
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+.weather-options span { overflow-wrap: anywhere; }
+.weather-sound-note {
+  margin: 12px 0 0;
+  font-size: 1.05rem;
+}
+.weather-dialog button {
+  min-height: 44px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  border: 1px solid #b89461;
+  background: #f7e6c6;
+}
+.weather-dialog button[aria-pressed="true"] { background: #6b4b30; color: #fff6e2; }
+.weather-dialog button:focus-visible { outline-color: #6b4b30; }
+.weather-dialog form { display: flex; justify-content: end; margin-top: 12px; }
 
 
 
@@ -359,3 +434,6 @@ html[lang="es"] .top h1 { font-size: clamp(13px, 4cqi, 36px); }
 .seat-color { color: #32b9ff; }
 .hip-color { color: #ff655d; }
 
+
+/* Give the elder’s links the full space while their bubble is open. */
+.room:has(.fam-elder-bubble) :is(.greet-button, .fam-actions) { display: none; }

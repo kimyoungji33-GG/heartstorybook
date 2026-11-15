@@ -7,13 +7,19 @@ const avatar = element('avatar');
 const poseBox = element('pose');
 const spriteFrame = element('frame');
 const sprite = element('sprite');
+const bowSprite = element('bow-sprite');
+const bowArt = {
+  man: { x: 430, y: 1405, height: 1273 },
+  woman: { x: 441, y: 1405, height: 1250 },
+  girl: { x: 460, y: 1412, height: 1265 },
+  boy: { x: 410, y: 1373, height: 1240 },
+};
 const seatedPose = element('seat-pose');
 const seatedFrame = element('seat-frame');
 const seatedSprite = element('seat-sprite');
 const controls = element('controls');
 const stand = element('stand');
 const chair = element('chair');
-const sofa = element('sofa');
 const shelfDialog = element('shelf-dialog');
 const visitors = element('visitors');
 const hint = element('hint');
@@ -26,106 +32,30 @@ const avatarWarmth = Math.max(0, Math.min(2, Number(experience.dataset.avatarWar
 const storeKey = 'heartstorybook-newroom-copy-v1';
 const entrance = { x: 92, y: 83 };
 const roomArtSize = { width: 1920, height: 1080 };
+// Lap anchors are in seated-sprite pixels, before scaling and mirroring.
+const lapBookDefaults = {
+  man: { x: 110, y: 234, width: 131 },
+  woman: { x: 109, y: 231, width: 122 },
+  girl: { x: 137, y: 255, width: 124 },
+  boy: { x: 125, y: 251, width: 120 },
+};
 const seats = {
   window: {
-    id: 'window',
-    label: '정면 의자',
+    id: 'cushion',
+    label: '바닥 방석',
     button: 'chair',
-    surface: { left: 1205, right: 1405 },
-    approach: { x: 68.1, y: 61.4 },
-    contact: { x: 1301, y: 514 },
-    childInset: { x: -3, y: -8 },
+    surface: { left: 1225, right: 1390 },
+    approach: { x: 68.1, y: 63.5 },
+    contact: { x: 1308, y: 566 },
+    childInset: { x: -3, y: -4 },
     facing: 1,
-  },
-  'sofa-left': {
-    id: 'sofa-left',
-    label: '소파 왼쪽',
-    button: 'sofa-left',
-    surface: { left: 512, right: 767 },
-    approach: { x: 32.4, y: 57 },
-    contact: { x: 638, y: 474 },
-    childInset: { x: -3, y: -9 },
-    facing: 1,
-  },
-  'sofa-right': {
-    id: 'sofa-right',
-    label: '소파 오른쪽',
-    button: 'sofa-right',
-    surface: { left: 772, right: 1039 },
-    approach: { x: 48.9, y: 57 },
-    contact: { x: 947, y: 472 },
-    childInset: { x: 3, y: -9 },
-    facing: -1,
   },
 };
-const sofaSeats = [seats['sofa-left'], seats['sofa-right']];
-const isSofaSeat = seat => Boolean(seat && seat !== seats.window);
-const floor = { left: 2.7, right: 97.6, back: 51.2, front: 95.5 };
-const obstacles = [
- { left: 0, right: 15.2, back: 51.2, front: 63.6 },
- { left: 16.4, right: 59.0, back: 51.2, front: 55.9 },
- { left: 29.0, right: 54.0, back: 57.8, front: 67.3 },
- { left: 59.3, right: 76.9, back: 51.2, front: 60.2 },
- { left: 78.4, right: 92.0, back: 51.2, front: 53.9 },
-];
-
+const navigation = window.makeRoomNavigation(room, () => window.roomFamily.blockers());
+const { floor, distance } = navigation;
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 const mix = (a, b, t) => a + (b - a) * t;
 const interpolate = (a, b, t) => ({ x: mix(a.x, b.x, t), y: mix(a.y, b.y, t) });
-const distance = (a, b) => Math.hypot(a.x - b.x, (a.y - b.y) * 1080 / 1920);
-const withinFloor = p => p.x >= floor.left && p.x <= floor.right && p.y >= floor.back && p.y <= floor.front;
-const inFurniture = p => obstacles.some(o => p.x > o.left && p.x < o.right && p.y > o.back && p.y < o.front);
-const walkable = p => withinFloor(p) && !inFurniture(p);
-const detours = obstacles.flatMap(o => [
-  { x: o.left, y: o.back }, { x: o.right, y: o.back },
-  { x: o.left, y: o.front }, { x: o.right, y: o.front },
-]).filter(walkable);
-
-function clearSegment(from, to) {
-  return obstacles.every(o => {
-    let entry = 0;
-    let exit = 1;
-    for (const [axis, low, high] of [['x', o.left, o.right], ['y', o.back, o.front]]) {
-      const delta = to[axis] - from[axis];
-      if (Math.abs(delta) < 0.00001) {
-        if (from[axis] <= low || from[axis] >= high) return true;
-        continue;
-      }
-      const a = (low - from[axis]) / delta;
-      const b = (high - from[axis]) / delta;
-      entry = Math.max(entry, Math.min(a, b));
-      exit = Math.min(exit, Math.max(a, b));
-    }
-    return exit - entry < 0.00001;
-  });
-}
-
-function routeTo(from, to) {
-  if (clearSegment(from, to)) return [from, to];
-  const points = [from, to, ...detours];
-  const remaining = new Set(points.keys());
-  const costs = points.map((_, i) => i === 0 ? 0 : Infinity);
-  const previous = [];
-  while (remaining.size) {
-    const best = [...remaining].reduce((a, b) => costs[a] <= costs[b] ? a : b);
-    if (!Number.isFinite(costs[best])) return null;
-    if (best === 1) {
-      const path = [to];
-      for (let i = previous[best]; i !== undefined; i = previous[i]) path.unshift(points[i]);
-      return path;
-    }
-    remaining.delete(best);
-    for (const next of remaining) {
-      if (!clearSegment(points[best], points[next])) continue;
-      const cost = costs[best] + distance(points[best], points[next]);
-      if (cost < costs[next]) {
-        costs[next] = cost;
-        previous[next] = best;
-      }
-    }
-  }
-  return null;
-}
 
 function readVisit() {
   try { return JSON.parse(localStorage.getItem(storeKey)) || {}; }
@@ -133,13 +63,115 @@ function readVisit() {
 }
 
 const saved = readVisit();
-let position = saved.position && walkable(saved.position) ? saved.position : entrance;
+let position = saved.position && navigation.valid(saved.position, navigation.blockers(0)) ? saved.position : entrance;
 let listenerPosition = position;
 let lastStanding = position;
 let direction = saved.direction === 1 ? 1 : -1;
 let mode = 'idle';
 let visitor;
 let frameNumber = 0;
+let walkCycleFrame = 0;
+let walkSway = 0;
+let walkHeading = direction === 1 ? 0 : Math.PI;
+let walkFacing = direction;
+let walkBob = 0;
+let walkingPath = [];
+let walkRevision = 0;
+// Add an avatar id with carry and reading paths. Turning and walking frames are optional.
+// Fit larger source art inside the avatar's existing pose frame when needed.
+const readingSprites = {
+  girl: {
+    poses: {
+      carry: 'images/reading-samples/carry_stand_girl.png',
+      reading: 'images/reading-samples/reading_sit_girl_a.png',
+      turning: 'images/reading-samples/reading_sit_girl_b.png',
+      stride: 'images/reading-samples/carry_walk_girl_1.png',
+      passing: 'images/reading-samples/carry_walk_girl_2.png',
+    },
+    walkFrame: { width: 213, height: 373 },
+    seatedZoom: 1.25,
+  },
+  boy: {
+    poses: {
+      carry: 'images/reading-samples/carry_stand_boy.png',
+      reading: 'images/reading-samples/reading_sit_boy_a.png',
+    },
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_boy_' + step + '.png'),
+    walkFrame: { width: 228, height: 373 },
+    fit: {
+      carry: { width: 820, height: 1918, scale: .198, x: -2, y: 1 },
+      reading: { width: 890, height: 1767, scale: .211, x: 0, y: -1 },
+    },
+  },
+  man: {
+    poses: {
+      carry: 'images/reading-samples/carry_stand_man.png',
+      reading: 'images/reading-samples/reading_sit_man_a.png',
+    },
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_man_' + step + '.png'),
+    walkFrame: { width: 1080, height: 2095, baseline: 2021 },
+    fit: {
+      carry: { width: 750, height: 2095, scale: .195, x: -5, y: 0 },
+      reading: { width: 889, height: 1769, scale: .207, x: -7, y: -4 },
+    },
+  },
+  woman: {
+    poses: {
+      carry: 'images/reading-samples/carry_stand_woman.png',
+      reading: 'images/reading-samples/reading_sit_woman_a.png',
+    },
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_woman_' + step + '.png'),
+    walkFrame: { width: 1080, height: 2095, baseline: 2021 },
+    fit: {
+      carry: { width: 750, height: 2095, scale: .185, x: 4, y: -2 },
+      reading: { width: 889, height: 1769, scale: .201, x: -9, y: -7 },
+    },
+  },
+};
+const readingArt = new Map();
+
+// 감 드리기(persimmon-giving) poses. Each avatar's carry/eating art shares the
+// exact canvas size as its book-carry art, so the same fit works for both poses.
+const persimmonSprites = {
+  girl: {
+    poses: {
+      carry: 'images/reading-samples/carry_tray_girl.png',
+      eating: 'images/reading-samples/eating_persimmon_girl.png',
+      stride: 'images/reading-samples/carry_tray_walk_girl_1.png',
+      passing: 'images/reading-samples/carry_tray_walk_girl_2.png',
+    },
+    walkFrame: { width: 213, height: 373 },
+  },
+  boy: {
+    poses: {
+      carry: 'images/reading-samples/carry_tray_boy.png',
+      eating: 'images/reading-samples/eating_persimmon_boy.png',
+    },
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_boy_' + step + '.png'),
+    walkFrame: { width: 228, height: 373 },
+    fit: { width: 820, height: 1918, scale: .198, x: -2, y: 1 },
+  },
+  man: {
+    poses: {
+      carry: 'images/reading-samples/carry_tray_man.png',
+      eating: 'images/reading-samples/eating_persimmon_man.png',
+    },
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_man_' + step + '.png'),
+    walkFrame: { width: 1080, height: 2095, baseline: 2021 },
+    fit: { width: 750, height: 2095, scale: .195, x: -5, y: 0 },
+  },
+  woman: {
+    poses: {
+      carry: 'images/reading-samples/carry_tray_woman.png',
+      eating: 'images/reading-samples/eating_persimmon_woman.png',
+    },
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_woman_' + step + '.png'),
+    walkFrame: { width: 1080, height: 2095, baseline: 2021 },
+    fit: { width: 750, height: 2095, scale: .185, x: 4, y: -2 },
+  },
+};
+const persimmonArt = new Map();
+let persimmonStage = null; // null | 'carry' | 'eating'
 let activeSeat = null;
 let lastSeat = seats.window;
 let seatProgress = 0;
@@ -156,6 +188,7 @@ let pressedAt;
 let swallowClick = false;
 let engaged = false;
 let quiet = false;
+let familyApproach = false;
 
 function saveVisit() {
   try {
@@ -167,27 +200,34 @@ function saveVisit() {
   }
 }
 
-const bookshelf = window.makeRoomBookshelf?.({
+const bookshelf = roomSettings.reading ? window.makeRoomBookshelf?.({
   room,
   artSize: roomArtSize,
-  canBrowse: () => Boolean(visitor) && ['idle', 'walking', 'seated'].includes(mode),
+  canBrowse: () => canReadBooks() && !familyApproach && !element('weather-dialog').open && ['idle', 'walking', 'seated'].includes(mode),
   visit: (destination, after) => {
     interact();
-    const approach = () => walkTo(destination, null, false, () => bowAtShelf(after));
+    const approach = () => walkTo(destination, null, false, () => {
+      direction = 1;
+      draw();
+      if (!element('weather-dialog').open) after();
+    });
     if (mode === 'seated') changeSeat(activeSeat, false, false, approach);
     else approach();
   },
-  playPageTurn: () => audio.pageTurn(),
   stillMotion,
-});
+  refresh: () => draw(),
+}) : null;
 
 const seatCheck = window.makeSeatCheck?.({
   artSize: roomArtSize,
+  lapBookDefaults,
   draw: () => draw(),
   getValues: () => visitor ? {
     visitor,
     seat: activeSeat || lastSeat,
     child: visitor.height < .4,
+    hasBook: bookshelf?.hasBook(),
+    hasReadingArt: Boolean(readingArt.get(visitor.id)?.reading),
   } : null,
 });
 
@@ -206,13 +246,90 @@ function standHeight(at) {
   return roomHeight * visitor.height * .89 * depth;
 }
 
-function paintFrame(frameElement, imageElement, frame, scale, anchor) {
-  const image = 'images/' + visitor.atlas + '.webp';
+function canReadBooks() {
+  return readingArt.has(visitor?.id);
+}
+
+const readingArtLoads = new Set();
+async function loadReadingArt(choice) {
+  const config = readingSprites[choice.id];
+  if (!bookshelf || !config?.poses.carry || !config.poses.reading || readingArtLoads.has(choice.id)) return;
+  readingArtLoads.add(choice.id);
+  const frames = {
+    carry: choice.frames[0],
+    reading: choice.frames[3],
+    turning: choice.frames[3],
+    stride: config.walkFrame,
+    passing: config.walkFrame,
+  };
+  const entries = await Promise.all(Object.entries(config.poses).map(([pose, path]) => new Promise(resolve => {
+    const image = new Image();
+    image.onload = () => {
+      const frame = config.fit?.[pose] ?? frames[pose];
+      resolve(image.naturalWidth === frame?.width && image.naturalHeight === frame?.height ? [pose, path] : null);
+    };
+    image.onerror = () => resolve(null);
+    image.src = path;
+  })));
+  if (entries.some(entry => !entry)) return;
+  const art = { ...Object.fromEntries(entries), walkFrame: config.walkFrame, fit: config.fit, seatedZoom: config.seatedZoom ?? 1 };
+  readingArt.set(choice.id, art);
+  if (visitor === choice) draw();
+  if (config.walkCycle) {
+    const ready = await Promise.all(config.walkCycle.map(path => new Promise(resolve => {
+      const image = new Image();
+      image.onload = () => resolve(image.naturalWidth === config.walkFrame.width && image.naturalHeight === config.walkFrame.height);
+      image.onerror = () => resolve(false);
+      image.src = path;
+    })));
+    if (ready.every(Boolean)) {
+      art.walkCycle = config.walkCycle;
+      if (visitor === choice) draw();
+    }
+  }
+}
+
+const persimmonArtLoads = new Set();
+async function loadPersimmonArt(choice) {
+  const config = persimmonSprites[choice.id];
+  if (!config || persimmonArtLoads.has(choice.id)) return;
+  persimmonArtLoads.add(choice.id);
+  const standing = config.fit ?? choice.frames[0];
+  const frames = { carry: standing, eating: standing, stride: config.walkFrame, passing: config.walkFrame };
+  const entries = await Promise.all(Object.entries(config.poses).map(([pose, path]) => new Promise(resolve => {
+    const image = new Image();
+    image.onload = () => {
+      const frame = frames[pose];
+      resolve(image.naturalWidth === frame?.width && image.naturalHeight === frame?.height ? [pose, path] : null);
+    };
+    image.onerror = () => resolve(null);
+    image.src = path;
+  })));
+  if (entries.some(entry => !entry)) return;
+  const art = { ...Object.fromEntries(entries), fit: config.fit, walkFrame: config.walkFrame };
+  persimmonArt.set(choice.id, art);
+  if (visitor === choice) draw();
+  if (config.walkCycle) {
+    const ready = await Promise.all(config.walkCycle.map(path => new Promise(resolve => {
+      const image = new Image();
+      image.onload = () => resolve(image.naturalWidth === config.walkFrame.width && image.naturalHeight === config.walkFrame.height);
+      image.onerror = () => resolve(false);
+      image.src = path;
+    })));
+    if (ready.every(Boolean)) {
+      art.walkCycle = config.walkCycle;
+      if (visitor === choice) draw();
+    }
+  }
+}
+
+function paintFrame(frameElement, imageElement, frame, scale, anchor, poseArt, fit) {
+  const image = poseArt || 'images/' + visitor.atlas + '.webp';
   if (imageElement.getAttribute('src') !== image) imageElement.src = image;
-  imageElement.style.width = 1024 * scale + 'px';
-  imageElement.style.height = 1536 * scale + 'px';
-  imageElement.style.left = -frame.x * scale + 'px';
-  imageElement.style.top = -frame.y * scale + 'px';
+  imageElement.style.width = (fit ? fit.width * fit.scale : poseArt ? frame.width : 1024) * scale + 'px';
+  imageElement.style.height = (fit ? fit.height * fit.scale : poseArt ? frame.height : 1536) * scale + 'px';
+  imageElement.style.left = (poseArt ? fit?.x ?? 0 : -frame.x) * scale + 'px';
+  imageElement.style.top = (poseArt ? fit?.y ?? 0 : -frame.y) * scale + 'px';
   frameElement.style.width = frame.width * scale + 'px';
   frameElement.style.height = frame.height * scale + 'px';
   frameElement.style.left = -anchor.x * scale + 'px';
@@ -231,12 +348,12 @@ function smooth(value) {
   return t * t * (3 - 2 * t);
 }
 
-function drawChairPose(standingHeight, geometry) {
+function drawChairPose(standingHeight, geometry, art) {
   const standing = visitor.frames[0];
   const sitting = visitor.frames[3];
   const standScale = standingHeight / standing.height;
   const sitScale = standHeight({ y: activeSeat.approach.y - 3.5 }) * visitor.seatedScale *
-    (visitor.height >= .4 ? 1.09 : 1) / sitting.height;
+    (visitor.height >= .4 ? .91 : .86) / sitting.height;
   const standingHip = visitor.standingHip;
   const facingOffset = mix(seatApproachFacing, activeSeat.facing, smooth(seatProgress / .28));
   const start = {
@@ -251,16 +368,32 @@ function drawChairPose(standingHeight, geometry) {
   const blend = smooth((seatProgress - .42) / .29);
   const hip = interpolate(start, target, shift);
   const lean = Math.sin(Math.PI * shift) * -7;
-  paintFrame(spriteFrame, sprite, standing, standScale, standingHip);
-  paintFrame(seatedFrame, seatedSprite, sitting, sitScale, geometry.hip);
-  seatedFrame.style.transformOrigin = (geometry.hip.x * sitScale) + 'px ' + (geometry.hip.y * sitScale) + 'px';
-  seatedFrame.style.setProperty('--breath-unit', .62 / Math.max(1, geometry.hip.y * sitScale));
+  paintFrame(spriteFrame, sprite, standing, standScale, standingHip, art?.carry, art?.fit?.carry);
+  const readingPose = bookshelf?.isTurning() && art?.turning ? art.turning : art?.reading;
+  const book = seatCheck?.bookPosition(visitor) || lapBookDefaults[visitor.id];
+  const defaultBook = lapBookDefaults[visitor.id];
+  const size = readingPose ? book.width / defaultBook.width : 1;
+  const poseScale = sitScale * size;
+  const zoom = readingPose ? art.seatedZoom : 1;
+  const footOffset = (sitting.height - geometry.hip.y) * poseScale * (zoom - 1);
+  paintFrame(seatedFrame, seatedSprite, sitting, poseScale * zoom, geometry.hip, readingPose, art?.fit?.reading);
+  const offset = readingPose ? {
+    x: (book.x - defaultBook.x) * sitScale * activeSeat.facing,
+    y: (book.y - defaultBook.y) * sitScale - footOffset,
+  } : { x: 0, y: 0 };
+  seatedFrame.style.transformOrigin = (geometry.hip.x * sitScale * zoom) + 'px ' + (geometry.hip.y * sitScale * zoom) + 'px';
+  seatedFrame.style.setProperty('--breath-unit', .62 / Math.max(1, geometry.hip.y * sitScale * zoom));
   positionPose(poseBox, hip, direction, 1 - blend, lean, 1 - .14 * shift);
-  positionPose(seatedPose, hip, activeSeat.facing, blend, lean * .4);
-  return {
+  positionPose(seatedPose, { x: hip.x + offset.x, y: hip.y + offset.y }, activeSeat.facing, blend, lean * .4);
+  const point = {
     x: (position.x / 100 + hip.x / (roomWidth || 1)) * roomArtSize.width,
     y: (position.y / 100 + hip.y / (roomHeight || 1)) * roomArtSize.height,
   };
+  const bookPoint = mode === 'seated' && readingPose && roomWidth && roomHeight ? {
+    x: point.x + (offset.x + (defaultBook.x - geometry.hip.x) * poseScale * zoom * activeSeat.facing) / roomWidth * roomArtSize.width,
+    y: point.y + (offset.y + (defaultBook.y - geometry.hip.y) * poseScale * zoom) / roomHeight * roomArtSize.height,
+  } : null;
+  return { point, bookPoint };
 }
 
 function draw() {
@@ -268,33 +401,63 @@ function draw() {
   avatar.style.left = position.x + '%';
   avatar.style.top = position.y + '%';
   const chairAction = Boolean(activeSeat);
-  avatar.style.zIndex = chairAction ? '910' : String(Math.round(position.y * 10));
+  const depth = activeSeat ? 910 : Math.round(position.y * 10) + 1;
+  avatar.style.zIndex = String(depth);
+  navigation.drawDebug(position, (visitor?.walking.footRadiusPx ?? 0) / roomArtSize.width * 100, walkingPath, depth / 10);
   room.classList.toggle('is-seating', chairAction);
   room.dataset.seat = activeSeat?.id || '';
-  if (isSofaSeat(activeSeat)) room.style.setProperty('--sofa-press', smooth((seatProgress - .66) / .34));
   room.classList.toggle('is-resting', mode === 'seated');
   avatar.classList.toggle('is-idle', mode === 'idle');
   avatar.classList.toggle('is-bowing', mode === 'bowing');
   if (visitor) {
     const standingHeight = standHeight(position);
+    const persimmon = persimmonStage ? persimmonArt.get(visitor.id) : null;
+    const activityArt = persimmon ? {
+      carry: persimmon[persimmonStage],
+      fit: { carry: persimmon.fit },
+      ...(persimmonStage === 'carry' ? {
+        walkCycle: persimmon.walkCycle,
+        stride: persimmon.stride,
+        passing: persimmon.passing,
+        walkFrame: persimmon.walkFrame,
+      } : {}),
+    } : null;
+    const art = activityArt || (bookshelf?.hasBook() ? readingArt.get(visitor.id) : null);
+    const greetingArt = bowArt[visitor.id];
+    bowSprite.hidden = mode !== 'bowing' || !avatar.classList.contains('is-greeting') || !greetingArt || !bowSprite.naturalWidth;
+    if (!bowSprite.hidden) {
+      const scale = standingHeight * .94 / greetingArt.height;
+      bowSprite.style.width = 1024 * scale + 'px';
+      bowSprite.style.left = -greetingArt.x * scale + 'px';
+      bowSprite.style.top = -greetingArt.y * scale + 'px';
+    }
+    spriteFrame.hidden = !bowSprite.hidden;
     avatar.style.setProperty('--breath-unit', .62 / Math.max(1, standingHeight));
     const geometry = seatGeometry(activeSeat || lastSeat);
-    let renderedHip = null;
+    let seated = null;
     if (chairAction) {
-      renderedHip = drawChairPose(standingHeight, geometry);
+      seated = drawChairPose(standingHeight, geometry, art);
       listenerPosition = interpolate(position, {
         x: geometry.contact.x / roomArtSize.width * 100,
         y: geometry.contact.y / roomArtSize.height * 100,
       }, smooth(seatProgress));
     } else {
-      const frame = visitor.frames[frameNumber];
-      paintFrame(spriteFrame, sprite, frame, standingHeight / frame.height,
-        { x: frame.width / 2, y: frame.height });
-      positionPose(poseBox, { x: 0, y: 0 }, direction, 1);
+      const walkArt = art?.carry && mode === 'walking'
+        ? (art.walkCycle?.[walkCycleFrame] ?? (frameNumber === 1 ? art.stride : frameNumber === 2 ? art.passing : null))
+        : null;
+      const frame = walkArt ? art.walkFrame : visitor.frames[art?.carry ? 0 : frameNumber];
+      const baseline = frame.baseline ?? frame.height;
+      paintFrame(spriteFrame, sprite, frame, standingHeight / baseline,
+        { x: frame.width / 2, y: baseline }, walkArt || art?.carry, walkArt ? undefined : art?.fit?.carry);
+      const sway = art?.carry && !walkArt && mode === 'walking' ? walkSway : 0;
+      const facing = mode === 'walking' && !art?.walkCycle ? walkFacing : direction;
+      positionPose(poseBox, { x: 0, y: -walkBob * roomWidth / roomArtSize.width },
+        facing, 1, sway * 1.2, 1 - Math.abs(sway) * .007);
     }
     avatar.style.setProperty('--shadow-width', standingHeight * .43 + 'px');
     avatar.style.setProperty('--shadow-height', standingHeight * .08 + 'px');
-    seatCheck?.render(geometry.contact, renderedHip);
+    bookshelf?.renderBook(mode === 'seated', art);
+    seatCheck?.render(geometry.contact, seated?.point, seated?.bookPoint);
   }
   audio.update(listenerPosition);
   if (avatarWarmth) {
@@ -307,7 +470,8 @@ function draw() {
     avatar.style.setProperty('--shadow-x', (listenerPosition.x - position.x) / 100 * roomWidth + 'px');
     avatar.style.setProperty('--shadow-y', (listenerPosition.y - position.y) / 100 * roomHeight + 'px');
   }
-  bookshelf?.draw(position, mode);
+  bookshelf?.draw(position, mode, canReadBooks());
+  window.roomFamily.draw(position, Boolean(visitor) && mode === 'idle');
 }
 function setQuiet(value) {
   quiet = value;
@@ -349,7 +513,7 @@ function showState() {
     const name = roomText(seat.label);
     button.setAttribute('aria-label', roomText(selected ? '앉아 있는 {name}' : '{name}에 앉기', { name }));
   }
-  hint.textContent = roomText(sitting ? '원하는 만큼 쉬어 가세요.' : '바닥을 누르면 걸어요. 창가 의자나 소파에 앉아 보세요.');
+  hint.textContent = roomText(sitting ? '원하는 만큼 쉬어 가세요.' : '바닥을 누르면 걸어요. 바닥 방석에 앉아 보세요.');
 }
 document.addEventListener('roomlanguagechange', showState);
 
@@ -358,6 +522,8 @@ function finishWalking(destination, seat, keyboard, onArrival) {
   lastStanding = position;
   mode = 'idle';
   frameNumber = 0;
+  walkBob = walkSway = 0;
+  walkingPath = [];
   draw();
   saveVisit();
   if (seat) changeSeat(seat, true, keyboard);
@@ -367,69 +533,111 @@ function finishWalking(destination, seat, keyboard, onArrival) {
   }
 }
 
-function walkingProgress(t) {
-  const ramp = .19;
-  const ease = part => part * part / (2 * ramp * (1 - ramp));
-  if (t < ramp) return ease(t);
-  if (t > 1 - ramp) return 1 - ease(1 - t);
-  return (t - ramp / 2) / (1 - ramp);
+function walkingProfile(length, speed, acceleration) {
+  const peak = Math.min(speed, Math.sqrt(length * acceleration));
+  const ramp = peak / acceleration;
+  const cruise = Math.max(0, (length - peak * ramp) / peak);
+  const duration = ramp * 2 + cruise;
+  return {
+    duration,
+    travelled(time) {
+      if (time < ramp) return acceleration * time ** 2 / 2;
+      if (time >= ramp + cruise) return length - acceleration * (duration - time) ** 2 / 2;
+      return peak * (time - ramp / 2);
+    },
+  };
 }
 
 function walkTo(destination, seat = null, keyboard = false, onArrival = null) {
-  if (mode !== 'idle' && mode !== 'walking') return;
-  if (!walkable(destination) || !visitor) return;
-  const path = routeTo(position, destination);
-  if (!path) return;
+  if (!visitor || (mode !== 'idle' && mode !== 'walking') || familyApproach) return false;
+  const { footRadiusPx, walkSpeedPxPerSec, accelPxPerSec2, maxTurnDegPerSec, gaitCycleSec } = visitor.walking;
+  const footRadius = footRadiusPx / roomArtSize.width * 100;
+  const shapes = navigation.blockers(footRadius);
+  const origin = navigation.nearest(position, shapes);
+  const target = seat ? destination : navigation.nearest(destination, shapes);
+  if (!origin || !target || !navigation.valid(target, shapes)) return false;
+  const path = navigation.route(origin, target, shapes, footRadius);
+  if (!path) return false;
+
   cancelAnimationFrame(animationId);
-  const lengths = path.slice(1).map((point, i) => distance(path[i], point));
+  const revision = ++walkRevision;
+  position = origin;
+  const lengths = path.slice(1).map((point, i) => distance(path[i], point) * roomArtSize.width / 100);
   const length = lengths.reduce((sum, value) => sum + value, 0);
-  const firstHorizontal = path[1].x - path[0].x;
-  if (Math.abs(firstHorizontal) > .05) direction = Math.sign(firstHorizontal);
-  if (stillMotion() || length < .35) {
-    finishWalking(destination, seat, keyboard, onArrival);
-    return;
+  if (stillMotion() || length < 3) {
+    const delta = target.x - position.x;
+    if (Math.abs(delta) > .05) direction = Math.sign(delta);
+    finishWalking(target, seat, keyboard, onArrival);
+    return true;
   }
 
+  if (mode !== 'walking') {
+    walkHeading = direction === 1 ? 0 : Math.PI;
+    walkFacing = direction;
+  }
   mode = 'walking';
+  walkingPath = path.slice(1);
   showState();
-  const duration = clamp(length * 74, 400, 8200);
+  const profile = walkingProfile(length, walkSpeedPxPerSec, accelPxPerSec2);
   const start = performance.now();
+  const stride = walkSpeedPxPerSec * gaitCycleSec / 2;
+  let lastTime = start;
   let stepNumber = 0;
   let segment = 0;
   let covered = 0;
 
-  function walk(time) {
-    const t = clamp((time - start) / duration, 0, 1);
-    if (t === 1 || stillMotion()) {
-      finishWalking(destination, seat, keyboard, onArrival);
+  function walk(now) {
+    if (revision !== walkRevision) return;
+    const time = (now - start) / 1000;
+    if (time >= profile.duration || stillMotion()) {
+      finishWalking(target, seat, keyboard, onArrival);
       return;
     }
-    // A gentle start and stop around a mostly steady walking pace.
-    const travelled = walkingProgress(t) * length;
-    while (segment < lengths.length - 1 && travelled > covered + lengths[segment]) {
+
+    const travelled = profile.travelled(time);
+    while (segment < lengths.length - 1 && travelled >= covered + lengths[segment]) {
       covered += lengths[segment++];
     }
     const from = path[segment];
     const to = path[segment + 1];
     position = interpolate(from, to, lengths[segment] ? clamp((travelled - covered) / lengths[segment], 0, 1) : 0);
     lastStanding = position;
-    if (Math.abs(to.x - from.x) > .05) direction = Math.sign(to.x - from.x);
-    const stride = visitor.height >= .4 ? 3.8 : 3.1;
-    const nextStep = Math.floor(travelled / stride + .68);
+    walkingPath = path.slice(segment + 1);
+
+    const heading = Math.atan2((to.y - from.y) * roomArtSize.height / roomArtSize.width, to.x - from.x);
+    const turn = Math.atan2(Math.sin(heading - walkHeading), Math.cos(heading - walkHeading));
+    const dt = Math.min((now - lastTime) / 1000, .05);
+    const maxTurn = maxTurnDegPerSec * Math.PI / 180 * dt;
+    walkHeading += clamp(turn, -maxTurn, maxTurn);
+    const desiredFacing = Math.abs(Math.cos(heading)) < .19 ? direction : Math.sign(Math.cos(walkHeading));
+    walkFacing += clamp(desiredFacing - walkFacing, -dt * 10, dt * 10);
+    const walkingWithCycleArt = (bookshelf?.hasBook() && readingArt.get(visitor.id)?.walkCycle) ||
+      (persimmonStage === 'carry' && persimmonArt.get(visitor.id)?.walkCycle);
+    if (walkingWithCycleArt) {
+      if (Math.abs(Math.cos(heading)) >= .19) direction = Math.sign(to.x - from.x);
+    } else if (Math.abs(walkFacing) >= .15) direction = Math.sign(walkFacing);
+    const phase = travelled / stride;
+    walkCycleFrame = Math.floor(phase * 2) % 4;
+    const nextStep = Math.floor(phase + .15);
     if (nextStep !== stepNumber) {
       stepNumber = nextStep;
       audio.step();
     }
-    frameNumber = nextStep ? 1 + nextStep % 2 : 0;
+    frameNumber = phase > .1 ? 1 + nextStep % 2 : 0;
+    const ease = Math.min(1, time * 6, (profile.duration - time) * 6);
+    walkSway = Math.sin(phase * Math.PI) * ease;
+    walkBob = (visitor.height < .4 ? 3 : 2) * Math.abs(Math.sin(phase * Math.PI)) * ease;
+    lastTime = now;
     draw();
     animationId = requestAnimationFrame(walk);
   }
   animationId = requestAnimationFrame(walk);
+  return true;
 }
 
-function bowAtShelf(after) {
+function bow(facing, after, duration = 950) {
   mode = 'bowing';
-  direction = 1;
+  direction = facing;
   draw();
   showState();
 
@@ -437,10 +645,10 @@ function bowAtShelf(after) {
     mode = 'idle';
     draw();
     showState();
-    after();
+    after?.();
   };
-  if (stillMotion()) finish();
-  else setTimeout(finish, 950);
+  if (stillMotion() && !avatar.classList.contains('is-greeting')) finish();
+  else setTimeout(finish, duration);
 }
 
 function changeSeat(seat, sit, keyboard = false, after = null) {
@@ -489,14 +697,13 @@ function playCue() {
 
 experience.addEventListener('pointerdown', interact);
 window.addEventListener('keydown', event => {
-  if (event.defaultPrevented || shelfDialog.open || event.target.closest?.('.room-header-actions')) return;
-  if (mode === 'seated' && isSofaSeat(activeSeat) &&
-      (event.key === 'Enter' || event.key === ' ') &&
-      !event.target.closest?.('button:not([data-sofa-seat]):not(#sofa):not(#stand), input, textarea, [contenteditable]')) {
-    event.preventDefault();
-    changeSeat(activeSeat, false, true);
-    return;
+  if (event.code === 'KeyD' && !event.repeat && !event.ctrlKey && !event.metaKey &&
+      !event.target.closest?.('input, textarea, select, [contenteditable], dialog') &&
+      roomSettings.testing) {
+    navigation.toggleDebug();
+    draw();
   }
+  if (event.defaultPrevented || shelfDialog?.open || event.target.closest?.('#weather-dialog, .room-header-actions')) return;
   const wasQuiet = quiet;
   interact();
   if (wasQuiet && (event.key === 'Tab' || event.key === 'Enter' || event.key === ' ')) {
@@ -506,10 +713,6 @@ window.addEventListener('keydown', event => {
 });
 function chooseSeat(event, seat) {
   if (swallowClick) return;
-  if (mode === 'seated') {
-    if (isSofaSeat(activeSeat) && isSofaSeat(seat)) changeSeat(activeSeat, false, event.detail === 0);
-    return;
-  }
   if (mode !== 'idle' && mode !== 'walking') return;
   interact();
   lastSeat = seat;
@@ -517,34 +720,23 @@ function chooseSeat(event, seat) {
 }
 
 chair.addEventListener('click', event => chooseSeat(event, seats.window));
-for (const seat of sofaSeats) {
-  const button = element(seat.button);
-  button.dataset.sofaSeat = '';
-  button.addEventListener('click', event => chooseSeat(event, seat));
-}
-sofa.addEventListener('click', event => {
-  const [left, right] = sofaSeats;
-  const closer = distance(position, left.approach) <= distance(position, right.approach) ? left : right;
-  chooseSeat(event, closer);
-});
 stand.addEventListener('click', event => changeSeat(activeSeat, false, event.detail === 0));
+element('fruit-tray')?.addEventListener('click', () => {
+  if (swallowClick) return;
+  interact();
+  window.roomFamily.givePersimmon?.();
+});
 
 room.addEventListener('click', event => {
-  if (event.target.closest('button')) return;
-  if (mode === 'seated') {
-    if (isSofaSeat(activeSeat)) {
-      const body = seatedFrame.getBoundingClientRect();
-      if (event.clientX >= body.left && event.clientX <= body.right &&
-          event.clientY >= body.top && event.clientY <= body.bottom) changeSeat(activeSeat, false);
-    }
-    return;
-  }
+  if (event.target.closest('button, .fam-bubble')) return;
+  if (mode === 'seated') return;
   interact();
   const bounds = room.getBoundingClientRect();
   const point = {
     x: (event.clientX - bounds.left) / bounds.width * 100,
     y: (event.clientY - bounds.top) / bounds.height * 100,
   };
+  if (!canReadBooks() && point.x >= 78.5 && point.x <= 91.5 && point.y >= 10 && point.y <= 53) return;
   walkTo(point);
 });
 
@@ -580,7 +772,7 @@ for (const target of room.querySelectorAll('.furniture-target')) {
 }
 
 async function loadVisitors() {
-  const response = await fetch('images/avatar-frames.json');
+  const response = await fetch('images/avatar-frames.json?v=walk-1');
   if (!response.ok) throw new Error('아바타 그림 정보를 열 수 없어요.');
   const { visitors: choices } = await response.json();
   visitor = choices.find(choice => choice.id === saved.visitor) || choices[1];
@@ -591,19 +783,117 @@ async function loadVisitors() {
     button.setAttribute('aria-pressed', String(choice === visitor));
     button.addEventListener('click', () => {
       if (mode !== 'idle') return;
+      if (choice !== visitor) bookshelf?.returnBook();
       visitor = choice;
+      loadReadingArt(visitor);
+      loadPersimmonArt(visitor);
+      loadBowArt();
       for (const control of visitors.children) control.setAttribute('aria-pressed', String(control === button));
       draw();
       saveVisit();
     });
     visitors.append(button);
   }
+  loadBowArt();
+  loadReadingArt(visitor);
+  loadPersimmonArt(visitor);
   draw();
   showState();
 }
 
+function loadBowArt() {
+  if (bowArt[visitor.id]) bowSprite.src = 'images/bow-' + visitor.id + '.png';
+  else bowSprite.removeAttribute('src');
+}
+
+bowSprite.addEventListener('load', draw);
+bowSprite.addEventListener('error', draw);
+
 const audio = { update() {}, step() {}, chair() {}, pageTurn() {} };
 const windowBird = { update() {} };
+window.roomAvatar = {
+  stillMotion,
+  approach(target, after, failed) {
+    if (!visitor || familyApproach || !['idle', 'walking', 'seated'].includes(mode)) return false;
+    const destination = {
+      x: clamp(target.x + (target.offsetX ?? 7.8), floor.left, floor.right),
+      y: clamp(target.y + (target.offsetY ?? 6), floor.back, floor.front),
+    };
+    const start = () => {
+      let arrived = false;
+      const started = walkTo(destination, null, false, () => {
+        arrived = true;
+        familyApproach = false;
+        after();
+      });
+      if (!arrived) familyApproach = started;
+      if (!started) failed();
+      return started;
+    };
+    if (mode !== 'seated') return start();
+    changeSeat(activeSeat, false, false, start);
+    return true;
+  },
+  bowToward(x, after) {
+    if (!visitor || mode !== 'idle') return;
+    const facing = x < position.x ? -1 : 1;
+    bow(facing, after, stillMotion() ? 300 : 900);
+  },
+  hasPersimmonArt() {
+    return persimmonArt.has(visitor?.id);
+  },
+  faceToward(x) {
+    if (!visitor || mode !== 'idle') return;
+    direction = x < position.x ? -1 : 1;
+    draw();
+  },
+  setCarrying(stage) {
+    persimmonStage = stage;
+    draw();
+  },
+  eatPersimmon(after) {
+    persimmonStage = 'eating';
+    draw();
+    setTimeout(() => {
+      persimmonStage = null;
+      draw();
+      after?.();
+    }, stillMotion() ? 200 : 1300);
+  },
+};
+
+const weatherKey = 'maeum_weather_v1';
+const weatherWindow = element('weather-window');
+const weatherRadio = element('weather-radio');
+const weatherDialog = element('weather-dialog');
+const weatherOptions = [...weatherDialog.querySelectorAll('[data-weather]')];
+const weatherNames = new Set(weatherOptions.map(option => option.dataset.weather));
+let selectedWeather;
+
+function showWeather(weather) {
+  selectedWeather = weather;
+  weatherWindow.dataset.weather = weather;
+  for (const option of weatherOptions) {
+    option.setAttribute('aria-pressed', String(option.dataset.weather === weather));
+  }
+
+}
+
+try { selectedWeather = localStorage.getItem(weatherKey); } catch {}
+if (weatherNames.has(selectedWeather)) showWeather(selectedWeather);
+else showWeather('sunny');
+weatherRadio.addEventListener('click', () => {
+  if (!weatherDialog.open) weatherDialog.showModal();
+});
+for (const option of weatherOptions) {
+  option.addEventListener('click', () => {
+    showWeather(option.dataset.weather);
+    window.roomFamily.playWeather(selectedWeather);
+    try { localStorage.setItem(weatherKey, selectedWeather); } catch {}
+    weatherDialog.close();
+  });
+}
+weatherDialog.addEventListener('close', () => weatherRadio.focus({ preventScroll: true }));
 window.addEventListener('pagehide', saveVisit);
 new ResizeObserver(([entry]) => {
   roomWidth = entry.contentRect.width;
