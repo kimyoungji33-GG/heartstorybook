@@ -48,9 +48,10 @@ const seats = {
     approach: { x: 68.1, y: 63.5 },
     contact: { x: 1308, y: 566 },
     childInset: { x: -3, y: -4 },
-    facing: 1,
+    facing: -1,
   },
 };
+const hearth = { centerX: 10.5, approach: { x: 13.4, y: 66.5 }, right: 21.5, top: 17, bottom: 60.5 };
 const navigation = window.makeRoomNavigation(room, () => window.roomFamily.blockers());
 const { floor, distance } = navigation;
 const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
@@ -89,7 +90,6 @@ const readingSprites = {
       passing: 'images/reading-samples/carry_walk_girl_2.png',
     },
     walkFrame: { width: 213, height: 373 },
-    seatedZoom: 1.25,
   },
   boy: {
     poses: {
@@ -130,7 +130,7 @@ const readingSprites = {
 };
 const readingArt = new Map();
 
-// 감 드리기(persimmon-giving) poses. Each avatar's carry/eating art shares the
+// 감 먹기(persimmon) poses. Each avatar's carry/eating art shares the
 // exact canvas size as its book-carry art, so the same fit works for both poses.
 const persimmonSprites = {
   girl: {
@@ -243,7 +243,11 @@ function seatGeometry(seat) {
 
 function standHeight(at) {
   const depth = mix(.79, 1.06, clamp((at.y - floor.back) / (floor.front - floor.back), 0, 1));
-  return roomHeight * visitor.height * .89 * depth;
+  return baseStandingHeight() * depth;
+}
+
+function baseStandingHeight() {
+  return roomHeight * visitor.height * .89;
 }
 
 function canReadBooks() {
@@ -272,7 +276,7 @@ async function loadReadingArt(choice) {
     image.src = path;
   })));
   if (entries.some(entry => !entry)) return;
-  const art = { ...Object.fromEntries(entries), walkFrame: config.walkFrame, fit: config.fit, seatedZoom: config.seatedZoom ?? 1 };
+  const art = { ...Object.fromEntries(entries), walkFrame: config.walkFrame, fit: config.fit };
   readingArt.set(choice.id, art);
   if (visitor === choice) draw();
   if (config.walkCycle) {
@@ -352,8 +356,8 @@ function drawChairPose(standingHeight, geometry, art) {
   const standing = visitor.frames[0];
   const sitting = visitor.frames[3];
   const standScale = standingHeight / standing.height;
-  const sitScale = standHeight({ y: activeSeat.approach.y - 3.5 }) * visitor.seatedScale *
-    (visitor.height >= .4 ? .91 : .86) / sitting.height;
+  // Match the standing sprite at the cushion's fixed approach point.
+  const sitScale = standHeight(activeSeat.approach) / standing.height;
   const standingHip = visitor.standingHip;
   const facingOffset = mix(seatApproachFacing, activeSeat.facing, smooth(seatProgress / .28));
   const start = {
@@ -372,28 +376,28 @@ function drawChairPose(standingHeight, geometry, art) {
   const readingPose = bookshelf?.isTurning() && art?.turning ? art.turning : art?.reading;
   const book = seatCheck?.bookPosition(visitor) || lapBookDefaults[visitor.id];
   const defaultBook = lapBookDefaults[visitor.id];
-  const size = readingPose ? book.width / defaultBook.width : 1;
-  const poseScale = sitScale * size;
-  const zoom = readingPose ? art.seatedZoom : 1;
-  const footOffset = (sitting.height - geometry.hip.y) * poseScale * (zoom - 1);
-  paintFrame(seatedFrame, seatedSprite, sitting, poseScale * zoom, geometry.hip, readingPose, art?.fit?.reading);
+  paintFrame(seatedFrame, seatedSprite, sitting, sitScale, geometry.hip, readingPose, art?.fit?.reading);
   const offset = readingPose ? {
     x: (book.x - defaultBook.x) * sitScale * activeSeat.facing,
-    y: (book.y - defaultBook.y) * sitScale - footOffset,
+    y: (book.y - defaultBook.y) * sitScale,
   } : { x: 0, y: 0 };
-  seatedFrame.style.transformOrigin = (geometry.hip.x * sitScale * zoom) + 'px ' + (geometry.hip.y * sitScale * zoom) + 'px';
-  seatedFrame.style.setProperty('--breath-unit', .62 / Math.max(1, geometry.hip.y * sitScale * zoom));
-  positionPose(poseBox, hip, direction, 1 - blend, lean, 1 - .14 * shift);
+  seatedFrame.style.transformOrigin = (geometry.hip.x * sitScale) + 'px ' + (geometry.hip.y * sitScale) + 'px';
+  seatedFrame.style.setProperty('--breath-unit', .62 / Math.max(1, geometry.hip.y * sitScale));
+  positionPose(poseBox, hip, direction, 1 - blend, lean);
   positionPose(seatedPose, { x: hip.x + offset.x, y: hip.y + offset.y }, activeSeat.facing, blend, lean * .4);
   const point = {
     x: (position.x / 100 + hip.x / (roomWidth || 1)) * roomArtSize.width,
     y: (position.y / 100 + hip.y / (roomHeight || 1)) * roomArtSize.height,
   };
   const bookPoint = mode === 'seated' && readingPose && roomWidth && roomHeight ? {
-    x: point.x + (offset.x + (defaultBook.x - geometry.hip.x) * poseScale * zoom * activeSeat.facing) / roomWidth * roomArtSize.width,
-    y: point.y + (offset.y + (defaultBook.y - geometry.hip.y) * poseScale * zoom) / roomHeight * roomArtSize.height,
+    x: point.x + (offset.x + (defaultBook.x - geometry.hip.x) * sitScale * activeSeat.facing) / roomWidth * roomArtSize.width,
+    y: point.y + (offset.y + (defaultBook.y - geometry.hip.y) * sitScale) / roomHeight * roomArtSize.height,
   } : null;
-  return { point, bookPoint };
+  const seatedFeet = {
+    x: target.x + offset.x + (sitting.width * .62 - geometry.hip.x) * sitScale * activeSeat.facing,
+    y: target.y + offset.y + (sitting.height - geometry.hip.y) * sitScale,
+  };
+  return { point, bookPoint, feet: interpolate({ x: 0, y: 0 }, seatedFeet, blend) };
 }
 
 function draw() {
@@ -401,9 +405,7 @@ function draw() {
   avatar.style.left = position.x + '%';
   avatar.style.top = position.y + '%';
   const chairAction = Boolean(activeSeat);
-  const depth = activeSeat ? 910 : Math.round(position.y * 10) + 1;
-  avatar.style.zIndex = String(depth);
-  navigation.drawDebug(position, (visitor?.walking.footRadiusPx ?? 0) / roomArtSize.width * 100, walkingPath, depth / 10);
+  let feet = { x: 0, y: 0 };
   room.classList.toggle('is-seating', chairAction);
   room.dataset.seat = activeSeat?.id || '';
   room.classList.toggle('is-resting', mode === 'seated');
@@ -437,6 +439,7 @@ function draw() {
     let seated = null;
     if (chairAction) {
       seated = drawChairPose(standingHeight, geometry, art);
+      feet = seated.feet;
       listenerPosition = interpolate(position, {
         x: geometry.contact.x / roomArtSize.width * 100,
         y: geometry.contact.y / roomArtSize.height * 100,
@@ -459,6 +462,12 @@ function draw() {
     bookshelf?.renderBook(mode === 'seated', art);
     seatCheck?.render(geometry.contact, seated?.point, seated?.bookPoint);
   }
+  const footY = position.y + feet.y / (roomHeight || 1) * 100;
+  const depth = Math.round(footY * 10) + 1;
+  avatar.style.zIndex = String(depth);
+  avatar.style.setProperty('--shadow-x', feet.x + 'px');
+  avatar.style.setProperty('--shadow-y', feet.y + 'px');
+  navigation.drawDebug(position, (visitor?.walking.footRadiusPx ?? 0) / roomArtSize.width * 100, walkingPath, footY);
   audio.update(listenerPosition);
   if (avatarWarmth) {
     const hearth = Math.max(0, 1 - distance(listenerPosition, { x: 12, y: 65 }) / 27);
@@ -466,9 +475,6 @@ function draw() {
     avatar.style.setProperty('--avatar-brightness', 1 + avatarWarmth * (.018 + .061 * hearth + .05 * windowLight));
     avatar.style.setProperty('--avatar-sepia', avatarWarmth * (.035 + .115 * hearth + .06 * windowLight));
     avatar.style.setProperty('--avatar-saturation', 1 + avatarWarmth * (.025 + .08 * hearth));
-    avatar.style.setProperty('--shadow-opacity', Math.min(1, avatarWarmth * (chairAction ? .72 : 1)));
-    avatar.style.setProperty('--shadow-x', (listenerPosition.x - position.x) / 100 * roomWidth + 'px');
-    avatar.style.setProperty('--shadow-y', (listenerPosition.y - position.y) / 100 * roomHeight + 'px');
   }
   bookshelf?.draw(position, mode, canReadBooks());
   window.roomFamily.draw(position, Boolean(visitor) && mode === 'idle');
@@ -737,7 +743,15 @@ room.addEventListener('click', event => {
     y: (event.clientY - bounds.top) / bounds.height * 100,
   };
   if (!canReadBooks() && point.x >= 78.5 && point.x <= 91.5 && point.y >= 10 && point.y <= 53) return;
-  walkTo(point);
+  if (point.x <= hearth.right && point.y >= hearth.top && point.y <= hearth.bottom) {
+    walkTo(hearth.approach, null, false, () => {
+      direction = hearth.centerX < position.x ? -1 : 1;
+      draw();
+      saveVisit();
+    });
+    return;
+  }
+  if (navigation.onFloor(point)) walkTo(point);
 });
 
 for (const target of room.querySelectorAll('.furniture-target')) {

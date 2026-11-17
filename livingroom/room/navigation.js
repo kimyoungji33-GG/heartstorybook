@@ -3,8 +3,15 @@
 
   // Percentages of the room artwork. Footprints and clearances are estimates.
   const floor = { left: 2.7, right: 97.6, back: 51.2, front: 95.5 };
+  // The left edge follows the floor in front of the angled stone hearth.
+  const boundary = [
+    { x: floor.left, y: 64 }, { x: 21.5, y: 54.4 },
+    { x: floor.right, y: 54.4 }, { x: floor.right, y: floor.front },
+    { x: floor.left, y: floor.front },
+  ];
   const furniture = [
-    { id: 'hearth', bounds: [0, 51.2, 15.2, 63.6], sortKey: 63.6, top: 22 },
+    { id: 'hearth', bounds: [0, 46, 20.8, 53.7], sortKey: 53.7, top: 18 },
+    { selector: '.basket-layer', bounds: [1, 58.5, 11.7, 62.8], sortKey: 62.8, top: 44.3 },
     { id: 'table', selector: '.table-new', bounds: [29, 58.5, 54, 67.3], sortKey: 65.6, top: 45 },
     { selector: '.chair-layer', bounds: [62.8, 51.8, 73.4, 58.8], sortKey: 58.7, top: 48.6 },
     { selector: '#bookshelf', bounds: [78.4, 48, 92, 53.9], sortKey: 50.5, top: 10 },
@@ -15,9 +22,9 @@
   const aspect = 1080 / 1920;
   const clamp = (value, low, high) => Math.min(high, Math.max(low, value));
   const distance = (a, b) => Math.hypot(a.x - b.x, (a.y - b.y) * aspect);
-  const inside = (point, polygon) => polygon.every((a, index) => {
+  const inside = (point, polygon, tolerance = .0001) => polygon.every((a, index) => {
     const b = polygon[(index + 1) % polygon.length];
-    return (b.x - a.x) * (point.y - a.y) - (b.y - a.y) * (point.x - a.x) > .0001;
+    return (b.x - a.x) * (point.y - a.y) - (b.y - a.y) * (point.x - a.x) > tolerance;
   });
 
   function crosses(from, to, polygon) {
@@ -63,14 +70,10 @@
       })));
     }
 
-    const within = p => p.x >= floor.left && p.x <= floor.right && p.y >= floor.back && p.y <= floor.front;
+    const within = p => inside(p, boundary, -.0001);
     const valid = (p, shapes) => within(p) && !shapes.some(shape => inside(p, shape.polygon));
     const clear = (a, b, shapes) => !shapes.some(shape => crosses(a, b, shape.polygon));
     function corners(shapes) {
-      const boundary = [
-        { x: floor.left, y: floor.back }, { x: floor.right, y: floor.back },
-        { x: floor.right, y: floor.front }, { x: floor.left, y: floor.front },
-      ];
       const polygons = [boundary, ...shapes.map(shape => shape.polygon)];
       const nodes = polygons.flat();
       const cross = (a, b) => a.x * b.y - a.y * b.x;
@@ -101,7 +104,7 @@
       const candidates = corners(shapes);
       const bounded = { x: clamp(p.x, floor.left, floor.right), y: clamp(p.y, floor.back, floor.front) };
       if (valid(bounded, shapes)) candidates.push(bounded);
-      for (const { polygon } of shapes) {
+      for (const polygon of [boundary, ...shapes.map(shape => shape.polygon)]) {
         polygon.forEach((a, i) => {
           const b = polygon[(i + 1) % polygon.length];
           const dx = b.x - a.x;
@@ -183,12 +186,13 @@
           label(x, y - 6, actor.sortKey));
       }
       const [x, y] = coordinates(point);
-      overlay.innerHTML = shapes.join('') + '<polyline points="' + points([point, ...path]) + '"/>' +
+      overlay.innerHTML = '<polygon points="' + points(boundary) + '" fill="none"/>' + shapes.join('') + '<polyline points="' + points([point, ...path]) + '"/>' +
         '<circle cx="' + x + '" cy="' + y + '" r="' + radius * 10 + '"/>' + label(x, y - 12, sortKey.toFixed(1));
     }
 
     return {
       floor, blockers, nearest, valid, distance, drawDebug,
+      onFloor: within,
       toggleDebug() { overlay.style.display = overlay.style.display === 'none' ? '' : 'none'; },
       route(from, to, shapes, radius) {
         // Plan with extra clearance so the smoothed path can stay within the actual free area.
