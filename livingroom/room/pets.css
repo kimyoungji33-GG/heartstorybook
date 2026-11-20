@@ -30,6 +30,11 @@
   position: absolute; transform: translate(-50%, -100%); width: 9%; padding: 0; border: 0; background: none; cursor: pointer;
   display: grid; justify-items: center; align-items: end;
 }
+/* 보리 그림(2026-11-20): 자세마다 그림 비율이 달라서 크기를 따로 맞춰요(같은 강아지 크기로 보이게). */
+.pet-bori:has(img:not([hidden]))[data-state="lie"] { width: 13%; }
+.pet-bori:has(img:not([hidden]))[data-state="sit"] { width: 7.5%; }
+.pet-bori:has(img:not([hidden]))[data-state="run"], .pet-bori:has(img:not([hidden]))[data-state="carry"] { width: 12%; }
+.pet-bori img[hidden] { display: none; }
 .pet-bori img { width: 100%; height: auto; display: block; transform: scaleX(var(--facing, -1)); transform-origin: 50% 100%; }
 .pet-bori-icon { font-size: clamp(30px, 4.6vw, 76px); line-height: 1; transform: scaleX(calc(-1 * var(--facing, -1))); filter: drop-shadow(0 4px 3px #3a1f0d55); }
 .pet-bori[data-state="lie"] .pet-bori-icon { transform: scaleX(calc(-1 * var(--facing, -1))) scaleY(.8); transform-origin: 50% 100%; }

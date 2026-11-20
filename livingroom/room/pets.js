@@ -45,8 +45,8 @@
     momo: { walk: 'images/pets/momo-walk.png', side: 'images/momo_right.webp', sleep: 'images/momo_sleep.webp', ...newCatArt('momo') },
     semi: { walk: 'images/pets/semi-walk.png', side: 'images/semi_right.webp', sleep: 'images/semi_sleep.webp', ...newCatArt('semi') },
     bori: {
-      lie: 'images/pets/bori-lie.png', sit: 'images/pets/bori-sit.png',
-      run: 'images/pets/bori-run.png', carry: 'images/pets/bori-carry.png',
+      lie: 'images/pets/bori-lie.webp', sit: 'images/pets/bori-sit.webp',
+      run: 'images/pets/bori-run.webp', carry: 'images/pets/bori-carry.png',
     },
     tower: 'images/pets/cat-tower.png',            // 2층 캣타워(있으면 씀)
     toyBasket: 'images/pets/toy-basket.png',       // 장난감 바구니(있으면 씀)
