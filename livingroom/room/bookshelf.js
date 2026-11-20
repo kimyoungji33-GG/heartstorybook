@@ -99,7 +99,7 @@
 
     function makeShelfBook(book) {
       const shell = document.createElement('img');
-      shell.src = 'images/reading-samples/spine-' + book.id + '.png';
+      shell.src = 'images/reading-samples/spine-' + book.id + '.webp';
       shell.alt = '';
       shell.dataset.book = book.id;
       shell.className = 'shelf-book';
@@ -200,6 +200,7 @@
 
     return {
       draw, renderBook, isTurning: () => turning, hasBook: () => Boolean(heldBook),
+      currentBook: () => heldBook,
       returnBook: () => { if (heldBook) hold(null); },
     };
   };

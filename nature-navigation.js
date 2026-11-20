@@ -1,18 +1,5 @@
 (()=>{
-  const add=()=>{
-    document.querySelectorAll('#book-menu,.simple-menu-dialog nav').forEach(nav=>{
-      if(nav.querySelector('[data-nature-link]')) return;
-      nav.insertAdjacentHTML('beforeend','<a data-nature-link class="standalone-menu-category menu-group-heading" href="./nature.html">마음으로 만나는 세상</a>');
-    });
-    const cards=document.querySelector('.entry:not(.same-day-entry) .entrances');
-    if(cards&&!cards.querySelector('[data-nature-entry]')){
-      cards.insertAdjacentHTML('beforeend','<a data-nature-entry class="entrance-card nature-entry" href="./nature.html"><strong>마음으로 만나는 세상</strong><span>책방 앞마당에서 씨앗을 심고 이야기를 만나 보세요.</span><em>마음정원</em></a>');
-    }
-    const guide=document.querySelector('#welcome-guide .guide-sections');
-    if(guide&&!guide.querySelector('[data-nature-guide]')){
-      guide.insertAdjacentHTML('beforeend','<li data-nature-guide><b>마음으로 만나는 세상</b><p>책방 앞마당에서 씨앗을 심고 이야기를 만나 보세요.</p></li>');
-    }
-  };
-  add();
-  new MutationObserver(add).observe(document.body,{childList:true,subtree:true});
+  // 마음정원(마음으로 만나는 세상)은 지금 닫아 두었어요(2026-11-19).
+  // 도서관 입구 카드, 책 목록 메뉴, 처음 안내에 들어가던 마음정원 링크를 더 이상 넣지 않아요.
+  // 다시 열 때는 이 파일을 이전 버전으로 되돌리면 돼요.
 })();

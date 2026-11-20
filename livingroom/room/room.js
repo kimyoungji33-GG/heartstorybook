@@ -83,20 +83,20 @@ let walkRevision = 0;
 const readingSprites = {
   girl: {
     poses: {
-      carry: 'images/reading-samples/carry_stand_girl.png',
-      reading: 'images/reading-samples/reading_sit_girl_a.png',
-      turning: 'images/reading-samples/reading_sit_girl_b.png',
-      stride: 'images/reading-samples/carry_walk_girl_1.png',
-      passing: 'images/reading-samples/carry_walk_girl_2.png',
+      carry: 'images/reading-samples/carry_stand_girl.webp',
+      reading: 'images/reading-samples/reading_sit_girl_a.webp',
+      turning: 'images/reading-samples/reading_sit_girl_b.webp',
+      stride: 'images/reading-samples/carry_walk_girl_1.webp',
+      passing: 'images/reading-samples/carry_walk_girl_2.webp',
     },
     walkFrame: { width: 213, height: 373 },
   },
   boy: {
     poses: {
-      carry: 'images/reading-samples/carry_stand_boy.png',
-      reading: 'images/reading-samples/reading_sit_boy_a.png',
+      carry: 'images/reading-samples/carry_stand_boy.webp',
+      reading: 'images/reading-samples/reading_sit_boy_a.webp',
     },
-    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_boy_' + step + '.png'),
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_boy_' + step + '.webp'),
     walkFrame: { width: 228, height: 373 },
     fit: {
       carry: { width: 820, height: 1918, scale: .198, x: -2, y: 1 },
@@ -105,10 +105,10 @@ const readingSprites = {
   },
   man: {
     poses: {
-      carry: 'images/reading-samples/carry_stand_man.png',
-      reading: 'images/reading-samples/reading_sit_man_a.png',
+      carry: 'images/reading-samples/carry_stand_man.webp',
+      reading: 'images/reading-samples/reading_sit_man_a.webp',
     },
-    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_man_' + step + '.png'),
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_man_' + step + '.webp'),
     walkFrame: { width: 1080, height: 2095, baseline: 2021 },
     fit: {
       carry: { width: 750, height: 2095, scale: .195, x: -5, y: 0 },
@@ -117,10 +117,10 @@ const readingSprites = {
   },
   woman: {
     poses: {
-      carry: 'images/reading-samples/carry_stand_woman.png',
-      reading: 'images/reading-samples/reading_sit_woman_a.png',
+      carry: 'images/reading-samples/carry_stand_woman.webp',
+      reading: 'images/reading-samples/reading_sit_woman_a.webp',
     },
-    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_woman_' + step + '.png'),
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/walk_woman_' + step + '.webp'),
     walkFrame: { width: 1080, height: 2095, baseline: 2021 },
     fit: {
       carry: { width: 750, height: 2095, scale: .185, x: 4, y: -2 },
@@ -135,37 +135,37 @@ const readingArt = new Map();
 const persimmonSprites = {
   girl: {
     poses: {
-      carry: 'images/reading-samples/carry_tray_girl.png',
-      eating: 'images/reading-samples/eating_persimmon_girl.png',
-      stride: 'images/reading-samples/carry_tray_walk_girl_1.png',
-      passing: 'images/reading-samples/carry_tray_walk_girl_2.png',
+      carry: 'images/reading-samples/carry_tray_girl.webp',
+      eating: 'images/reading-samples/eating_persimmon_girl.webp',
+      stride: 'images/reading-samples/carry_tray_walk_girl_1.webp',
+      passing: 'images/reading-samples/carry_tray_walk_girl_2.webp',
     },
     walkFrame: { width: 213, height: 373 },
   },
   boy: {
     poses: {
-      carry: 'images/reading-samples/carry_tray_boy.png',
-      eating: 'images/reading-samples/eating_persimmon_boy.png',
+      carry: 'images/reading-samples/carry_tray_boy.webp',
+      eating: 'images/reading-samples/eating_persimmon_boy.webp',
     },
-    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_boy_' + step + '.png'),
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_boy_' + step + '.webp'),
     walkFrame: { width: 228, height: 373 },
     fit: { width: 820, height: 1918, scale: .198, x: -2, y: 1 },
   },
   man: {
     poses: {
-      carry: 'images/reading-samples/carry_tray_man.png',
-      eating: 'images/reading-samples/eating_persimmon_man.png',
+      carry: 'images/reading-samples/carry_tray_man.webp',
+      eating: 'images/reading-samples/eating_persimmon_man.webp',
     },
-    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_man_' + step + '.png'),
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_man_' + step + '.webp'),
     walkFrame: { width: 1080, height: 2095, baseline: 2021 },
     fit: { width: 750, height: 2095, scale: .195, x: -5, y: 0 },
   },
   woman: {
     poses: {
-      carry: 'images/reading-samples/carry_tray_woman.png',
-      eating: 'images/reading-samples/eating_persimmon_woman.png',
+      carry: 'images/reading-samples/carry_tray_woman.webp',
+      eating: 'images/reading-samples/eating_persimmon_woman.webp',
     },
-    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_woman_' + step + '.png'),
+    walkCycle: [1, 2, 3, 4].map(step => 'images/reading-samples/carry_tray_walk_woman_' + step + '.webp'),
     walkFrame: { width: 1080, height: 2095, baseline: 2021 },
     fit: { width: 750, height: 2095, scale: .185, x: 4, y: -2 },
   },
@@ -215,7 +215,7 @@ const bookshelf = roomSettings.reading ? window.makeRoomBookshelf?.({
     else approach();
   },
   stillMotion,
-  refresh: () => draw(),
+  refresh: () => { draw(); showState(); },
 }) : null;
 
 const seatCheck = window.makeSeatCheck?.({
@@ -487,7 +487,8 @@ function setQuiet(value) {
 
 function timeToRest() {
   clearTimeout(quietTimer);
-  if (mode === 'seated') {
+  // 책을 들고 앉았을 때는 '동화 펼치기'가 숨지 않게 조용한 쉬기를 하지 않아요(Claude 추가).
+  if (mode === 'seated' && !bookshelf?.hasBook()) {
     quietTimer = setTimeout(() => {
       if (controls.contains(document.activeElement)) document.activeElement.blur();
       setQuiet(true);
@@ -511,6 +512,7 @@ function showState() {
   const sitting = mode === 'seated';
   windowBird.update(sitting);
   stand.hidden = !sitting;
+  element('home-story-open').hidden = !sitting || !bookshelf?.hasBook();
   visitors.hidden = mode !== 'idle';
   for (const seat of Object.values(seats)) {
     const button = element(seat.button);
@@ -519,7 +521,11 @@ function showState() {
     const name = roomText(seat.label);
     button.setAttribute('aria-label', roomText(selected ? '앉아 있는 {name}' : '{name}에 앉기', { name }));
   }
-  hint.textContent = roomText(sitting ? '원하는 만큼 쉬어 가세요.' : '바닥을 누르면 걸어요. 바닥 방석에 앉아 보세요.');
+  // 책을 들고 있으면 방석에 앉아 펼치라고 알려 줘요(Claude 추가, 뮤즈 리뷰 2번).
+  const holding = Boolean(bookshelf?.hasBook());
+  hint.textContent = roomText(sitting
+    ? (holding ? '동화 펼치기를 누르면 이야기가 열려요.' : '원하는 만큼 쉬어 가세요.')
+    : (holding ? '책을 들었어요. 바닥 방석에 앉아 펼쳐 보세요.' : '바닥을 누르면 걸어요. 바닥 방석에 앉아 보세요.'));
 }
 document.addEventListener('roomlanguagechange', showState);
 
@@ -709,7 +715,7 @@ window.addEventListener('keydown', event => {
     navigation.toggleDebug();
     draw();
   }
-  if (event.defaultPrevented || shelfDialog?.open || event.target.closest?.('#weather-dialog, .room-header-actions')) return;
+  if (experience.hidden || element('home-story').open || event.defaultPrevented || shelfDialog?.open || event.target.closest?.('#weather-dialog, .room-header-actions')) return;
   const wasQuiet = quiet;
   interact();
   if (wasQuiet && (event.key === 'Tab' || event.key === 'Enter' || event.key === ' ')) {
@@ -724,6 +730,26 @@ function chooseSeat(event, seat) {
   lastSeat = seat;
   walkTo(seat.approach, seat, event.detail === 0);
 }
+
+const kitchenEntry = element('kitchen-entry');
+const kitchenDoorway = { x: 4, y: 90 };
+kitchenEntry.addEventListener('click', () => {
+  if (!visitor || familyApproach || window.roomKitchen.active() || element('weather-dialog').open || shelfDialog?.open) return;
+  const go = () => walkTo(kitchenDoorway, null, false, () => window.roomKitchen.enter(visitor, kitchenEntry, stillMotion));
+  if (mode === 'seated') changeSeat(activeSeat, false, false, go);
+  else go();
+});
+const gardenEntry = element('garden-entry');
+const gardenDoorway = { x: 93, y: 80 };
+gardenEntry?.addEventListener('click', () => {
+  if (!visitor || familyApproach || !window.roomGarden || window.roomGarden.active() || window.roomKitchen?.active() || element('weather-dialog').open || shelfDialog?.open) return;
+  const go = () => walkTo(gardenDoorway, null, false, () => window.roomGarden.enter(visitor, gardenEntry, stillMotion));
+  if (mode === 'seated') changeSeat(activeSeat, false, false, go);
+  else go();
+});
+element('home-story-open').addEventListener('click', () => {
+  if (mode === 'seated') window.roomKitchen.read(bookshelf?.currentBook());
+});
 
 chair.addEventListener('click', event => chooseSeat(event, seats.window));
 stand.addEventListener('click', event => changeSeat(activeSeat, false, event.detail === 0));
@@ -816,7 +842,7 @@ async function loadVisitors() {
 }
 
 function loadBowArt() {
-  if (bowArt[visitor.id]) bowSprite.src = 'images/bow-' + visitor.id + '.png';
+  if (bowArt[visitor.id]) bowSprite.src = 'images/bow-' + visitor.id + '.webp';
   else bowSprite.removeAttribute('src');
 }
 

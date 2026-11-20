@@ -1,0 +1,487 @@
+{
+  "_설명": "마음 텃밭 설정이에요. 꽃은 책 한 권에 한 송이예요. 주인공 마음으로 끝까지 읽으면 씨앗, 다른 사람 마음으로 하나 읽을 때마다 한 단계씩 자라요(씨앗 → 새싹 → 꽃). 그림은 images/garden/ 폴더에 (꽃 id)-1.png(씨앗), -2.png(새싹), -3.png(꽃)으로 넣으면 자동으로 바뀌어요.",
+  "flowers": [
+    {
+      "book": "errand",
+      "title": "작은 손에 담긴 따뜻한 빵",
+      "id": "freesia",
+      "name": "프리지아",
+      "meaning": "새로운 시작",
+      "icons": [
+        "🌰",
+        "🌱",
+        "🌼"
+      ],
+      "views": [
+        {
+          "view": "read",
+          "who": "지우",
+          "line": "모르는 건 물어보니까 마음이 훨씬 편해졌어요.",
+          "en": {
+            "who": "Jiwoo",
+            "line": "Asking about what I didn’t know made my heart feel so much lighter."
+          },
+          "es": {
+            "who": "Jiwoo",
+            "line": "Preguntar lo que no sabía me dejó el corazón mucho más tranquilo."
+          }
+        },
+        {
+          "view": "role-0",
+          "who": "준호",
+          "line": "내가 짐작한 거랑 이유가 달라서, 듣고 나니 가벼워졌어.",
+          "en": {
+            "who": "Junho",
+            "line": "The reason was different from what I guessed. Hearing it made me feel lighter."
+          },
+          "es": {
+            "who": "Junho",
+            "line": "La razón era distinta a lo que yo pensaba. Al escucharla me sentí más ligero."
+          }
+        },
+        {
+          "view": "role-1",
+          "who": "빵집 주인",
+          "line": "서툴러도 마음을 말하려는 아이들 모습이 참 예뻤단다.",
+          "en": {
+            "who": "The baker",
+            "line": "Watching the children try to say what they felt, even clumsily, was lovely."
+          },
+          "es": {
+            "who": "La panadera",
+            "line": "Ver a los niños intentar decir lo que sentían, aunque con torpeza, fue precioso."
+          }
+        }
+      ],
+      "en": {
+        "title": "Warm Bread in Little Hands",
+        "name": "Freesia",
+        "meaning": "A new beginning"
+      },
+      "es": {
+        "title": "Pan tibio en manos pequeñas",
+        "name": "Fresia",
+        "meaning": "Un nuevo comienzo"
+      }
+    },
+    {
+      "book": "cups",
+      "title": "생일날, 두 개의 잔",
+      "id": "lily-of-the-valley",
+      "name": "은방울꽃",
+      "meaning": "다시 찾은 행복",
+      "icons": [
+        "🌰",
+        "🌱",
+        "🤍"
+      ],
+      "views": [
+        {
+          "view": "read",
+          "who": "민서",
+          "line": "유나가 왜 잔을 보고 있었는지 이제야 알았어요.",
+          "en": {
+            "who": "Minseo",
+            "line": "Now I know why Yuna kept looking at my cup."
+          },
+          "es": {
+            "who": "Minseo",
+            "line": "Ahora sé por qué Yuna miraba mi taza."
+          }
+        },
+        {
+          "view": "role-0",
+          "who": "유나",
+          "line": "다음엔 걱정되는 걸 바로 말해 줄게.",
+          "en": {
+            "who": "Yuna",
+            "line": "Next time I’ll tell you right away when I’m worried."
+          },
+          "es": {
+            "who": "Yuna",
+            "line": "La próxima vez te diré enseguida lo que me preocupa."
+          }
+        },
+        {
+          "view": "role-1",
+          "who": "파티를 준비한 어른",
+          "line": "둘이 다시 웃는 걸 보니 나도 마음이 놓였어요.",
+          "en": {
+            "who": "The party host",
+            "line": "Seeing the two of them laughing again put my mind at ease."
+          },
+          "es": {
+            "who": "La anfitriona",
+            "line": "Verlas reír otra vez me dejó tranquila."
+          }
+        }
+      ],
+      "en": {
+        "title": "Two Cups on a Birthday",
+        "name": "Lily of the valley",
+        "meaning": "Happiness found again"
+      },
+      "es": {
+        "title": "Dos tazas en un cumpleaños",
+        "name": "Lirio de los valles",
+        "meaning": "La felicidad recuperada"
+      }
+    },
+    {
+      "book": "plate",
+      "title": "마지막 한 조각은 누구에게?",
+      "id": "cosmos",
+      "name": "코스모스",
+      "meaning": "조화",
+      "icons": [
+        "🌰",
+        "🌱",
+        "🌸"
+      ],
+      "views": [
+        {
+          "view": "read",
+          "who": "소피아",
+          "line": "빵을 나눠 먹으니 서운했던 마음도 풀렸어요.",
+          "en": {
+            "who": "Sofia",
+            "line": "Sharing the bread melted away my hurt feelings."
+          },
+          "es": {
+            "who": "Sofía",
+            "line": "Compartir el pan hizo que se me pasara el disgusto."
+          }
+        },
+        {
+          "view": "role-0",
+          "who": "노아",
+          "line": "주고 싶은 마음도 말로 하면 더 잘 전해지나 봐.",
+          "en": {
+            "who": "Noah",
+            "line": "Maybe saying I wanted to give it helps the feeling get across."
+          },
+          "es": {
+            "who": "Noah",
+            "line": "Quizá decir que quería dárselo ayuda a que se entienda."
+          }
+        },
+        {
+          "view": "role-1",
+          "who": "식당 주인",
+          "line": "서두르지 않고 기다려 주길 잘했어요.",
+          "en": {
+            "who": "The restaurant owner",
+            "line": "I’m glad I waited instead of rushing them."
+          },
+          "es": {
+            "who": "La dueña del restaurante",
+            "line": "Me alegra haber esperado sin apurarlos."
+          }
+        }
+      ],
+      "en": {
+        "title": "Who Is the Last Piece For?",
+        "name": "Cosmos",
+        "meaning": "Harmony"
+      },
+      "es": {
+        "title": "¿Para quién es el último trocito?",
+        "name": "Cosmos",
+        "meaning": "Armonía"
+      }
+    },
+    {
+      "book": "door",
+      "title": "문 뒤에 숨겨 둔 별",
+      "id": "carnation",
+      "name": "카네이션",
+      "meaning": "사랑과 감사",
+      "icons": [
+        "🌰",
+        "🌱",
+        "🌺"
+      ],
+      "views": [
+        {
+          "view": "read",
+          "who": "소라",
+          "line": "별을 다 못 만들어서 조마조마했다고 말할 수 있었어요.",
+          "en": {
+            "who": "Sora",
+            "line": "I could finally say I was nervous because my star wasn’t finished."
+          },
+          "es": {
+            "who": "Sora",
+            "line": "Por fin pude decir que estaba nerviosa porque no había terminado la estrella."
+          }
+        },
+        {
+          "view": "role-0",
+          "who": "엄마",
+          "line": "다음에도 무슨 생각인지 먼저 물어봐야겠어.",
+          "en": {
+            "who": "Mom",
+            "line": "Next time I’ll ask what she’s thinking first."
+          },
+          "es": {
+            "who": "Mamá",
+            "line": "La próxima vez le preguntaré primero qué piensa."
+          }
+        },
+        {
+          "view": "role-1",
+          "who": "수아",
+          "line": "피하는 줄 알았는데, 이유를 듣고 나니 서운함이 풀렸어.",
+          "en": {
+            "who": "Sua",
+            "line": "I thought she was avoiding me, but hearing why made the hurt go away."
+          },
+          "es": {
+            "who": "Sua",
+            "line": "Creía que me evitaba, pero al saber por qué se me pasó la pena."
+          }
+        }
+      ],
+      "en": {
+        "title": "The Star Behind the Door",
+        "name": "Carnation",
+        "meaning": "Love and gratitude"
+      },
+      "es": {
+        "title": "La estrella detrás de la puerta",
+        "name": "Clavel",
+        "meaning": "Amor y gratitud"
+      }
+    },
+    {
+      "book": "ball",
+      "title": "노란 공이 기다려 준 날",
+      "id": "dandelion",
+      "name": "민들레",
+      "meaning": "행복",
+      "icons": [
+        "🌰",
+        "🌱",
+        "🌼"
+      ],
+      "views": [
+        {
+          "view": "read",
+          "who": "지아",
+          "line": "처음엔 서운했다고, 루카한테 조금 말해 봤어요.",
+          "en": {
+            "who": "Gia",
+            "line": "I told Luca a little about how hurt I felt at first."
+          },
+          "es": {
+            "who": "Gia",
+            "line": "Le conté un poquito a Luca que al principio me sentí triste."
+          }
+        },
+        {
+          "view": "role-0",
+          "who": "루카",
+          "line": "다음엔 왜 기다리는지 먼저 말해 줄게.",
+          "en": {
+            "who": "Luca",
+            "line": "Next time I’ll tell you first why I’m waiting."
+          },
+          "es": {
+            "who": "Luca",
+            "line": "La próxima vez te diré primero por qué espero."
+          }
+        },
+        {
+          "view": "role-1",
+          "who": "안내자",
+          "line": "두 아이 이야기를 다 듣고 나서야 공을 기다린 이유를 알았어요.",
+          "en": {
+            "who": "The park helper",
+            "line": "Only after hearing both children did I understand why the ball waited."
+          },
+          "es": {
+            "who": "La encargada del parque",
+            "line": "Solo después de escuchar a los dos entendí por qué la pelota esperó."
+          }
+        }
+      ],
+      "en": {
+        "title": "The Day the Yellow Ball Waited",
+        "name": "Dandelion",
+        "meaning": "Happiness"
+      },
+      "es": {
+        "title": "El día que la pelota amarilla esperó",
+        "name": "Diente de león",
+        "meaning": "Felicidad"
+      }
+    },
+    {
+      "book": "stars",
+      "title": "삐뚤빼뚤, 우리의 별",
+      "id": "babys-breath",
+      "name": "안개꽃",
+      "meaning": "맑은 마음",
+      "icons": [
+        "🌰",
+        "🌱",
+        "💮"
+      ],
+      "views": [
+        {
+          "view": "read",
+          "who": "준",
+          "line": "하린이 별이 내 별 옆에 있어서 좋았어요.",
+          "en": {
+            "who": "Jun",
+            "line": "I liked having Harin’s star right next to mine."
+          },
+          "es": {
+            "who": "Jun",
+            "line": "Me gustó que la estrella de Harin estuviera junto a la mía."
+          }
+        },
+        {
+          "view": "role-0",
+          "who": "하린",
+          "line": "내 별을 지우지 않고 같이 붙였어. 걱정을 말해서 다행이야.",
+          "en": {
+            "who": "Harin",
+            "line": "I didn’t erase my star — we stuck them up together. I’m glad I said I was worried."
+          },
+          "es": {
+            "who": "Harin",
+            "line": "No borré mi estrella: las pegamos juntos. Me alegro de haber dicho que estaba preocupada."
+          }
+        },
+        {
+          "view": "role-1",
+          "who": "선생님",
+          "line": "모양이 다른 별들이 한 종이에 나란히 붙었네요.",
+          "en": {
+            "who": "The teacher",
+            "line": "Stars of different shapes sit side by side on one sheet."
+          },
+          "es": {
+            "who": "La maestra",
+            "line": "Estrellas de formas distintas, una al lado de la otra en la misma hoja."
+          }
+        }
+      ],
+      "en": {
+        "title": "Our Wonderfully Wobbly Stars",
+        "name": "Baby's breath",
+        "meaning": "A clear, pure heart"
+      },
+      "es": {
+        "title": "Nuestras estrellas un poquito torcidas",
+        "name": "Paniculata",
+        "meaning": "Un corazón limpio"
+      }
+    }
+  ],
+  "vegetables": {
+    "_설명": "채소는 물을 줄 때마다 한 단계씩 자라요(심음 → 자람 → 수확). 수확하면 할머니 시골밥상에 그 반찬이 올라가요. 그림은 images/garden/(id)-1.png ~ -3.png.",
+    "items": [
+      {
+        "id": "lettuce",
+        "name": "상추",
+        "icons": [
+          "🟫",
+          "🌱",
+          "🥬"
+        ],
+        "dish": {
+          "id": "ssam",
+          "name": "상추쌈",
+          "icon": "🥬",
+          "utensil": "chopsticks",
+          "sound": "crunch",
+          "intro": "텃밭에서 딴 상추에 밥 한 숟갈, 쌈장 콕",
+          "en": {
+            "name": "Lettuce wraps",
+            "intro": "Garden lettuce with a spoonful of rice and a dab of ssamjang"
+          },
+          "es": {
+            "name": "Rollitos de lechuga",
+            "intro": "Lechuga del huerto con una cucharada de arroz y un toque de ssamjang"
+          }
+        },
+        "en": {
+          "name": "Lettuce"
+        },
+        "es": {
+          "name": "Lechuga"
+        }
+      },
+      {
+        "id": "pepper",
+        "name": "풋고추",
+        "icons": [
+          "🟫",
+          "🌱",
+          "🫑"
+        ],
+        "dish": {
+          "id": "pepper-ssamjang",
+          "name": "풋고추와 쌈장",
+          "icon": "🫑",
+          "utensil": "chopsticks",
+          "sound": "crunch",
+          "intro": "텃밭 풋고추를 쌈장에 쿡",
+          "en": {
+            "name": "Green peppers with ssamjang",
+            "intro": "Garden peppers dipped in ssamjang"
+          },
+          "es": {
+            "name": "Pimientos con ssamjang",
+            "intro": "Pimientos del huerto mojados en ssamjang"
+          }
+        },
+        "en": {
+          "name": "Green pepper"
+        },
+        "es": {
+          "name": "Pimiento verde"
+        }
+      },
+      {
+        "id": "zucchini",
+        "name": "애호박",
+        "icons": [
+          "🟫",
+          "🌱",
+          "🥒"
+        ],
+        "dish": {
+          "id": "hobak-bokkeum",
+          "name": "애호박볶음",
+          "icon": "🥒",
+          "utensil": "chopsticks",
+          "sound": "chew",
+          "intro": "텃밭 애호박을 새우젓에 달달 볶았어요",
+          "en": {
+            "name": "Stir-fried zucchini",
+            "intro": "Garden zucchini sautéed with salted shrimp"
+          },
+          "es": {
+            "name": "Calabacín salteado",
+            "intro": "Calabacín del huerto salteado con camarón salado"
+          }
+        },
+        "en": {
+          "name": "Zucchini"
+        },
+        "es": {
+          "name": "Calabacín"
+        }
+      }
+    ]
+  },
+  "cans": {
+    "_설명": "물뿌리개 받는 방법: 하루 한 번 이모에게서 1개, 이미 읽은 시선을 다른 날 다시 끝까지 읽으면 1개. 비 오는 날(거실 라디오 날씨)에는 채소에 물이 저절로 줘져요.",
+    "dailyFromAunt": 1,
+    "perReread": 1
+  },
+  "_꽃말설명": "꽃말은 한국에서 흔히 알려진 꽃말이에요. 프리지아(새로운 시작), 은방울꽃(다시 찾은 행복), 코스모스(조화), 카네이션(사랑과 감사), 민들레(행복), 안개꽃(맑은 마음)."
+}

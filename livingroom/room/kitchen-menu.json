@@ -1,0 +1,1227 @@
+{
+  "_설명": "할머니 댁 부엌과 아랫목이에요. 모두 무료예요. 지금 쓰는 것: 차와 주스, 간식 냉장고, 할머니 시골밥상. 안 쓰는 메뉴는 맨 아래 「보관」에 있어요. 그림은 images/kitchen/(id).png, 소리는 sfx/kitchen/(id).mp3",
+  "stars": {
+    "_설명": "마음 별은 지금 꺼 두었어요(enabled: false). 나중에 켜면 아래 숫자대로 별을 줘요.",
+    "enabled": false,
+    "firstRead": 2,
+    "rereadDaily": 1
+  },
+  "drinks": {
+    "_설명": "주전자를 누르면 나오는 차와 주스예요. 언제든 몇 번이고 마실 수 있어요.",
+    "items": [
+      {
+        "id": "ginger-tea",
+        "name": "생강차",
+        "icon": "🫖",
+        "sound": "pour",
+        "line": "생강차는 몸을 따끈하게 데워 준단다. 꿀도 조금 넣었어.",
+        "en": {
+          "name": "Ginger tea",
+          "line": "Ginger tea warms you from the inside. I added a little honey."
+        },
+        "es": {
+          "name": "Té de jengibre",
+          "line": "El té de jengibre te calienta por dentro. Le puse un poco de miel."
+        }
+      },
+      {
+        "id": "apple-carrot-juice",
+        "name": "사과당근주스",
+        "icon": "🥕",
+        "sound": "pour",
+        "line": "뒷마당 사과에 텃밭 당근을 같이 갈았단다.",
+        "en": {
+          "name": "Apple-carrot juice",
+          "line": "Backyard apples blended with garden carrots."
+        },
+        "es": {
+          "name": "Jugo de manzana y zanahoria",
+          "line": "Manzanas del patio licuadas con zanahorias del huerto."
+        }
+      },
+      {
+        "id": "hibiscus-tea",
+        "name": "히비스커스 차",
+        "icon": "🌺",
+        "sound": "pour",
+        "line": "새콤하고 빨간 히비스커스 차란다. 더 마시고 싶으면 주전자를 또 누르렴.",
+        "en": {
+          "name": "Hibiscus tea",
+          "line": "Tangy red hibiscus tea. Tap the teapot again if you want more."
+        },
+        "es": {
+          "name": "Té de hibisco",
+          "line": "Un té de hibisco rojo y ácido. Toca la tetera otra vez si quieres más."
+        }
+      },
+      {
+        "id": "jujube-tea",
+        "name": "대추차",
+        "icon": "🍵",
+        "sound": "pour",
+        "line": "할머니가 오래 끓인 대추차란다.",
+        "en": {
+          "name": "Jujube tea",
+          "line": "Grandma simmered this jujube tea for a long time."
+        },
+        "es": {
+          "name": "Té de azufaifa",
+          "line": "La abuela coció este té de azufaifa durante mucho rato."
+        }
+      }
+    ],
+    "title": "차와 주스",
+    "en": {
+      "title": "Tea and juice"
+    },
+    "es": {
+      "title": "Té y jugos"
+    }
+  },
+  "shelf": {
+    "_설명": "부엌 한쪽 간식 선반(광)이에요. 시골 간식이 들어 있어요.",
+    "title": "간식 선반",
+    "items": [],
+    "en": {
+      "title": "Snack shelf"
+    },
+    "es": {
+      "title": "Estante de meriendas"
+    }
+  },
+  "fridge": {
+    "_설명": "옛날 냉장고예요. 도시 간식과 시원한 것이 들어 있어요.",
+    "title": "간식 냉장고",
+    "items": [
+      {
+        "id": "choco-pie",
+        "name": "초코파이",
+        "icon": "🍫",
+        "sound": "chew",
+        "line": "정이 듬뿍 든 초코파이.",
+        "en": {
+          "name": "Chocolate snack cake",
+          "line": "A chocolate cake full of love."
+        },
+        "es": {
+          "name": "Pastelito de chocolate",
+          "line": "Un pastelito de chocolate lleno de cariño."
+        }
+      },
+      {
+        "id": "banana-milk",
+        "name": "바나나 우유",
+        "icon": "🍌",
+        "sound": "slurp",
+        "line": "목욕탕 다녀오면 꼭 마시던 바나나 우유란다.",
+        "en": {
+          "name": "Banana milk",
+          "line": "The banana milk we always drank after the bathhouse."
+        },
+        "es": {
+          "name": "Leche de plátano",
+          "line": "La leche de plátano que siempre tomábamos después del baño público."
+        }
+      },
+      {
+        "id": "almonds",
+        "name": "고급 아몬드",
+        "icon": "🥜",
+        "sound": "crunch",
+        "line": "명절에 선물로 들어온 아몬드란다. 몸에 좋으니 한 줌 먹으렴.",
+        "en": {
+          "name": "Fancy almonds",
+          "line": "Almonds from a holiday gift box. They’re good for you, have a handful."
+        },
+        "es": {
+          "name": "Almendras de regalo",
+          "line": "Almendras de una caja de regalo de las fiestas. Son buenas, toma un puñado."
+        }
+      }
+    ],
+    "en": {
+      "title": "Snack fridge"
+    },
+    "es": {
+      "title": "Nevera de meriendas"
+    }
+  },
+  "meals": {
+    "_설명": "지금은 할머니 시골밥상 하나만 써요. 메뉴판 없이 할머니가 그냥 차려 줘요. 반찬을 누르면 식구가 한마디씩 해요(talk). x, y 는 소반 위 자리(%).",
+    "items": [
+      {
+        "id": "country",
+        "name": "할머니 시골밥상",
+        "line": "다 같이 먹자. 천천히, 많이 먹어라.",
+        "dishes": [
+          {
+            "id": "rice",
+            "name": "흰쌀밥",
+            "icon": "🍚",
+            "x": 28,
+            "y": 72,
+            "utensil": "spoon",
+            "sound": "chew",
+            "intro": "가마솥에 지은 고슬고슬한 흰쌀밥",
+            "en": {
+              "name": "Steamed rice",
+              "intro": "Fluffy rice cooked in the iron pot"
+            },
+            "es": {
+              "name": "Arroz blanco",
+              "intro": "Arroz esponjoso hecho en la olla de hierro"
+            },
+            "talk": {
+              "who": "할머니",
+              "line": "밥 한 숟갈 더 먹어라. 많이 먹어야 마음도 든든하지.",
+              "en": {
+                "who": "Grandma",
+                "line": "Have another spoonful. A full tummy makes a strong heart."
+              },
+              "es": {
+                "who": "Abuela",
+                "line": "Toma otra cucharada. Con la barriga llena, el corazón está fuerte."
+              }
+            }
+          },
+          {
+            "id": "doenjang-jjigae",
+            "name": "된장찌개",
+            "icon": "🍲",
+            "x": 50,
+            "y": 70,
+            "utensil": "spoon",
+            "sound": "bubble",
+            "intro": "뚝배기에서 보글보글 끓는 된장찌개",
+            "en": {
+              "name": "Soybean paste stew",
+              "intro": "Doenjang stew bubbling in an earthen pot"
+            },
+            "es": {
+              "name": "Guiso de pasta de soja",
+              "intro": "Guiso de doenjang burbujeando en una olla de barro"
+            },
+            "talk": {
+              "who": "할머니",
+              "line": "된장은 할머니가 장독대에서 푹 익힌 거란다.",
+              "en": {
+                "who": "Grandma",
+                "line": "I aged this soybean paste in the crock out back myself."
+              },
+              "es": {
+                "who": "Abuela",
+                "line": "Yo misma dejé madurar esta pasta de soja en la tinaja del patio."
+              }
+            }
+          },
+          {
+            "id": "kimchi",
+            "name": "배추김치",
+            "icon": "🌶️",
+            "x": 42,
+            "y": 22,
+            "utensil": "chopsticks",
+            "sound": "crunch",
+            "intro": "아삭아삭 잘 익은 할머니 배추김치",
+            "en": {
+              "name": "Napa cabbage kimchi",
+              "intro": "Grandma’s crunchy, well-ripened kimchi"
+            },
+            "es": {
+              "name": "Kimchi de col",
+              "intro": "El kimchi crujiente y bien fermentado de la abuela"
+            },
+            "talk": {
+              "who": "할아버지",
+              "line": "할머니 김치 맛은 동네에서 제일이지.",
+              "en": {
+                "who": "Grandpa",
+                "line": "Grandma’s kimchi is the best in the whole village."
+              },
+              "es": {
+                "who": "Abuelo",
+                "line": "El kimchi de la abuela es el mejor del pueblo."
+              }
+            }
+          },
+          {
+            "id": "gyeran-mari",
+            "name": "계란말이",
+            "icon": "🍳",
+            "x": 80,
+            "y": 28,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "할머니가 돌돌 만 폭신한 계란말이",
+            "en": {
+              "name": "Rolled omelet",
+              "intro": "A fluffy omelet Grandma rolled up"
+            },
+            "es": {
+              "name": "Tortilla enrollada",
+              "intro": "Una tortilla esponjosa que enrolló la abuela"
+            },
+            "talk": {
+              "who": "이모",
+              "line": "계란말이는 이모가 말았어. 모양은 좀 삐뚤어도 맛있지?",
+              "en": {
+                "who": "Aunt",
+                "line": "I rolled the omelet. It’s a bit wobbly, but tasty, right?"
+              },
+              "es": {
+                "who": "Tía",
+                "line": "La tortilla la enrollé yo. Está un poco torcida, pero rica, ¿no?"
+              }
+            }
+          },
+          {
+            "id": "spinach-namul",
+            "name": "시금치나물",
+            "icon": "🥬",
+            "x": 22,
+            "y": 26,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "참기름 넣고 조물조물 무친 시금치나물",
+            "en": {
+              "name": "Spinach namul",
+              "intro": "Spinach tossed by hand with sesame oil"
+            },
+            "es": {
+              "name": "Namul de espinaca",
+              "intro": "Espinaca aliñada a mano con aceite de sésamo"
+            },
+            "talk": {
+              "who": "삼촌",
+              "line": "시금치는 아침에 텃밭에서 뜯어 왔어.",
+              "en": {
+                "who": "Uncle",
+                "line": "I picked the spinach from the garden this morning."
+              },
+              "es": {
+                "who": "Tío",
+                "line": "Recogí la espinaca del huerto esta mañana."
+              }
+            }
+          },
+          {
+            "id": "gamja-jorim",
+            "name": "감자조림",
+            "icon": "🥔",
+            "x": 62,
+            "y": 22,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "달큰하게 졸인 감자조림",
+            "en": {
+              "name": "Braised potatoes",
+              "intro": "Potatoes simmered sweet and savory"
+            },
+            "es": {
+              "name": "Papas guisadas",
+              "intro": "Papas cocidas a fuego lento, dulces y saladas"
+            },
+            "talk": {
+              "who": "할아버지",
+              "line": "할아버지는 어릴 때 감자 하나로 하루를 버텼단다.",
+              "en": {
+                "who": "Grandpa",
+                "line": "When I was little, one potato had to last me all day."
+              },
+              "es": {
+                "who": "Abuelo",
+                "line": "De niño, una papa me tenía que durar todo el día."
+              }
+            }
+          },
+          {
+            "id": "godeungeo",
+            "name": "고등어구이",
+            "icon": "🐟",
+            "x": 72,
+            "y": 72,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "노릇하게 구운 고등어구이",
+            "en": {
+              "name": "Grilled mackerel",
+              "intro": "Mackerel grilled golden brown"
+            },
+            "es": {
+              "name": "Caballa a la parrilla",
+              "intro": "Caballa asada hasta quedar dorada"
+            },
+            "talk": {
+              "who": "할머니",
+              "line": "가시 조심하고, 천천히 먹으렴.",
+              "en": {
+                "who": "Grandma",
+                "line": "Watch out for the bones, and eat slowly."
+              },
+              "es": {
+                "who": "Abuela",
+                "line": "Cuidado con las espinas, y come despacio."
+              }
+            }
+          }
+        ],
+        "en": {
+          "name": "Grandma's Country Table",
+          "line": "Let’s all eat together. Slowly, and plenty."
+        },
+        "es": {
+          "name": "La mesa de campo de la abuela",
+          "line": "Comamos todos juntos. Despacio y bien."
+        }
+      }
+    ]
+  },
+  "_언어설명": "en, es 묶음은 영어판·스페인어판에서 보이는 이름과 대사예요. 없으면 한국어로 나와요.",
+  "araet": {
+    "_설명": "아랫목에서 이불 깔고 눕기. 그림: images/kitchen/ibul.png(이불), lie-(아바타).png(누운 모습), bori-sleep.png(골든리트리버 보리). 고양이는 거실 고양이 그림(momo_sleep, semi_sleep)을 써요.",
+    "pets": [
+      {
+        "id": "momo",
+        "image": "images/momo_sleep.webp",
+        "x": 37,
+        "y": 93,
+        "w": 10,
+        "delay": 1200,
+        "sound": "purr",
+        "line": "모모가 와서 발치에 동그랗게 누웠어요.",
+        "en": {
+          "line": "Momo curled up at your feet."
+        },
+        "es": {
+          "line": "Momo se acurrucó a tus pies."
+        }
+      },
+      {
+        "id": "semi",
+        "image": "images/semi_sleep.webp",
+        "x": 9,
+        "y": 74,
+        "w": 9,
+        "delay": 2600,
+        "sound": "purr",
+        "line": "세미도 베개 옆에서 꾸벅꾸벅 졸아요.",
+        "en": {
+          "line": "Semi is dozing next to your pillow."
+        },
+        "es": {
+          "line": "Semi dormita junto a tu almohada."
+        }
+      },
+      {
+        "id": "bori",
+        "image": "images/kitchen/bori-sleep.png",
+        "icon": "🐕",
+        "x": 48,
+        "y": 93,
+        "w": 11,
+        "delay": 4000,
+        "sound": "snore",
+        "line": "보리도 슬그머니 들어와 꼬리를 살랑이다 엎드렸어요.",
+        "en": {
+          "line": "Bori the golden retriever sneaked in, wagged, and lay down."
+        },
+        "es": {
+          "line": "Bori, el golden retriever, entró despacito, movió la cola y se tumbó."
+        }
+      }
+    ]
+  },
+  "family": {
+    "_설명": "아랫목 밥상에 둘러앉는 식구예요. 그림: images/kitchen/family-(id).png (방바닥에 앉은 모습). 없으면 임시 그림. reading 은 손님이 읽은 책이 있을 때 하는 말이에요({title} 책 제목, {who} 그 책의 다른 인물).",
+    "members": [
+      {
+        "id": "aunt",
+        "who": "이모",
+        "icon": "👩",
+        "x": 30,
+        "y": 60,
+        "en": {
+          "who": "Aunt"
+        },
+        "es": {
+          "who": "Tía"
+        },
+        "reading": {
+          "line": "『{title}』, {who} 마음으로도 읽어 봤어? 이모는 그게 제일 좋더라.",
+          "en": {
+            "line": "Did you read “{title}” through {who}’s heart too? That’s my favorite part."
+          },
+          "es": {
+            "line": "¿Leíste «{title}» desde el corazón de {who}? Es lo que más me gusta."
+          }
+        },
+        "lines": [
+          {
+            "line": "이 집에 오면 마음이 말랑해져.",
+            "en": {
+              "line": "Coming to this house always softens my heart."
+            },
+            "es": {
+              "line": "Venir a esta casa siempre me ablanda el corazón."
+            }
+          },
+          {
+            "line": "천천히 먹어. 이야기도 천천히 하고.",
+            "en": {
+              "line": "Eat slowly. And talk slowly too."
+            },
+            "es": {
+              "line": "Come despacio. Y habla despacio también."
+            }
+          }
+        ]
+      },
+      {
+        "id": "grandpa",
+        "who": "할아버지",
+        "icon": "👴",
+        "x": 47,
+        "y": 57,
+        "en": {
+          "who": "Grandpa"
+        },
+        "es": {
+          "who": "Abuelo"
+        },
+        "reading": {
+          "line": "할아버지도 어릴 때 『{title}』 속 아이처럼 그런 마음 든 적 있단다.",
+          "en": {
+            "line": "When I was little, I felt just like the child in “{title}”."
+          },
+          "es": {
+            "line": "De niño, yo también me sentí como el niño de «{title}»."
+          }
+        },
+        "lines": [
+          {
+            "line": "밥은 도망 안 간다. 꼭꼭 씹어 먹어라.",
+            "en": {
+              "line": "The rice isn’t going anywhere. Chew it well."
+            },
+            "es": {
+              "line": "El arroz no se va a escapar. Mastica bien."
+            }
+          },
+          {
+            "line": "이렇게 다 같이 먹으니 좋구나.",
+            "en": {
+              "line": "It’s so nice when we all eat together."
+            },
+            "es": {
+              "line": "Qué bonito comer todos juntos."
+            }
+          }
+        ]
+      },
+      {
+        "id": "grandma",
+        "who": "할머니",
+        "icon": "👵",
+        "x": 64,
+        "y": 57,
+        "en": {
+          "who": "Grandma"
+        },
+        "es": {
+          "who": "Abuela"
+        },
+        "reading": {
+          "line": "『{title}』 읽었다며? 그 이야기 어땠니?",
+          "en": {
+            "line": "I hear you read “{title}”. How was it?"
+          },
+          "es": {
+            "line": "¿Así que leíste «{title}»? ¿Qué te pareció?"
+          }
+        },
+        "lines": [
+          {
+            "line": "오늘 하루는 어땠니? 할머니한테 얘기해 보렴.",
+            "en": {
+              "line": "How was your day? Tell Grandma all about it."
+            },
+            "es": {
+              "line": "¿Qué tal tu día? Cuéntaselo a la abuela."
+            }
+          },
+          {
+            "line": "속상한 일 있으면 밥 먹고 털어 버리자.",
+            "en": {
+              "line": "If something upset you, let’s eat and shake it off."
+            },
+            "es": {
+              "line": "Si algo te molestó, comamos y olvidémoslo."
+            }
+          }
+        ]
+      },
+      {
+        "id": "uncle",
+        "who": "삼촌",
+        "icon": "👨",
+        "x": 81,
+        "y": 95,
+        "en": {
+          "who": "Uncle"
+        },
+        "es": {
+          "who": "Tío"
+        },
+        "reading": {
+          "line": "『{title}』 다 읽었으면 텃밭에 꽃 피었나 보러 가자.",
+          "en": {
+            "line": "If you finished “{title}”, let’s go see if a flower bloomed."
+          },
+          "es": {
+            "line": "Si terminaste «{title}», vamos a ver si floreció algo."
+          }
+        },
+        "lines": [
+          {
+            "line": "다 먹고 아랫목에서 한숨 자도 돼.",
+            "en": {
+              "line": "After we eat, you can nap on the warm floor."
+            },
+            "es": {
+              "line": "Después de comer puedes echarte una siesta en el suelo tibio."
+            }
+          },
+          {
+            "line": "밥 먹고 텃밭에 같이 가 볼래?",
+            "en": {
+              "line": "Want to go to the garden together after we eat?"
+            },
+            "es": {
+              "line": "¿Vamos juntos al huerto después de comer?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "보관": {
+    "_설명": "지금은 쓰지 않고 보관만 하는 메뉴예요(나중에 비공개 공간 등에서 다시 쓸 수 있어요). 다시 쓰려면 위쪽 목록으로 옮기면 돼요.",
+    "drinks": [
+      {
+        "id": "yuja-tea",
+        "name": "유자차",
+        "icon": "🍋",
+        "sound": "pour",
+        "line": "달콤한 유자차 한 잔이면 몸이 따뜻해질 거야.",
+        "en": {
+          "name": "Yuja citron tea",
+          "line": "A cup of sweet yuja tea will warm you right up."
+        },
+        "es": {
+          "name": "Té de yuja",
+          "line": "Una taza de dulce té de yuja te calentará enseguida."
+        }
+      },
+      {
+        "id": "apple-juice",
+        "name": "사과 주스",
+        "icon": "🍎",
+        "sound": "pour",
+        "line": "뒷마당 사과로 짠 주스야.",
+        "en": {
+          "name": "Apple juice",
+          "line": "Juice pressed from the apples in the backyard."
+        },
+        "es": {
+          "name": "Jugo de manzana",
+          "line": "Jugo de las manzanas del patio."
+        }
+      },
+      {
+        "id": "carrot-juice",
+        "name": "당근 주스",
+        "icon": "🥕",
+        "sound": "pour",
+        "line": "삼촌이 텃밭에서 키운 당근으로 만들었단다.",
+        "en": {
+          "name": "Carrot juice",
+          "line": "Made with carrots your uncle grew in the garden."
+        },
+        "es": {
+          "name": "Jugo de zanahoria",
+          "line": "Hecho con zanahorias que tu tío cultivó en el huerto."
+        }
+      }
+    ],
+    "shelf": [
+      {
+        "id": "gotgam",
+        "name": "곶감",
+        "icon": "🟠",
+        "sound": "chew",
+        "line": "할머니가 처마 밑에 말린 곶감이야. 쫀득하지?",
+        "en": {
+          "name": "Dried persimmon (gotgam)",
+          "line": "Grandma dried these persimmons under the eaves. Chewy, right?"
+        },
+        "es": {
+          "name": "Caqui seco (gotgam)",
+          "line": "La abuela secó estos caquis bajo el alero. ¿A que son masticables?"
+        }
+      },
+      {
+        "id": "gangjeong",
+        "name": "쌀강정",
+        "icon": "🍘",
+        "sound": "crunch",
+        "line": "바삭바삭 쌀강정. 부스러기는 괜찮아, 할머니가 쓸면 돼.",
+        "en": {
+          "name": "Puffed rice cake (gangjeong)",
+          "line": "Crunchy rice gangjeong. Don’t worry about crumbs, Grandma will sweep."
+        },
+        "es": {
+          "name": "Galleta de arroz inflado (gangjeong)",
+          "line": "Gangjeong crujiente de arroz. No te preocupes por las migas, la abuela barre."
+        }
+      },
+      {
+        "id": "nurungji",
+        "name": "누룽지",
+        "icon": "🍚",
+        "sound": "crunch",
+        "line": "가마솥 바닥에서 긁은 누룽지란다.",
+        "en": {
+          "name": "Scorched rice (nurungji)",
+          "line": "Crispy rice scraped from the bottom of the iron pot."
+        },
+        "es": {
+          "name": "Arroz tostado (nurungji)",
+          "line": "Arroz crujiente raspado del fondo de la olla de hierro."
+        }
+      },
+      {
+        "id": "corn",
+        "name": "찐 옥수수",
+        "icon": "🌽",
+        "sound": "chew",
+        "line": "한 줄씩 뜯어 먹으면 더 맛있어.",
+        "en": {
+          "name": "Steamed corn",
+          "line": "It tastes even better if you nibble it row by row."
+        },
+        "es": {
+          "name": "Maíz al vapor",
+          "line": "Sabe aún mejor si lo comes fila por fila."
+        }
+      },
+      {
+        "id": "yakgwa",
+        "name": "약과",
+        "icon": "🍪",
+        "sound": "chew",
+        "line": "제사 지내고 남겨 둔 약과란다. 달콤하지?",
+        "en": {
+          "name": "Honey cookie (yakgwa)",
+          "line": "A honey cookie saved from the holiday table. Sweet, isn’t it?"
+        },
+        "es": {
+          "name": "Galleta de miel (yakgwa)",
+          "line": "Una galleta de miel guardada de la fiesta. ¿Verdad que es dulce?"
+        }
+      }
+    ],
+    "fridge": [
+      {
+        "id": "ice-cream",
+        "name": "아이스크림",
+        "icon": "🍦",
+        "sound": "lick",
+        "line": "삼촌이 읍내에서 사 온 아이스크림이란다. 녹기 전에 먹으렴.",
+        "en": {
+          "name": "Ice cream",
+          "line": "Your uncle bought it in town. Eat it before it melts!"
+        },
+        "es": {
+          "name": "Helado",
+          "line": "Tu tío lo compró en el pueblo. ¡Cómetelo antes de que se derrita!"
+        }
+      },
+      {
+        "id": "ice-pop",
+        "name": "쭈쭈바",
+        "icon": "🧊",
+        "sound": "lick",
+        "line": "이모가 제일 좋아하던 거야.",
+        "en": {
+          "name": "Ice pop",
+          "line": "This was your aunt’s favorite."
+        },
+        "es": {
+          "name": "Polo de hielo",
+          "line": "Era el favorito de tu tía."
+        }
+      },
+      {
+        "id": "chips",
+        "name": "과자",
+        "icon": "🥨",
+        "sound": "crunch",
+        "line": "과자 봉지는 할머니가 뜯어 줄게.",
+        "en": {
+          "name": "Chips",
+          "line": "Grandma will open the bag for you."
+        },
+        "es": {
+          "name": "Papitas",
+          "line": "La abuela te abre la bolsa."
+        }
+      }
+    ],
+    "meals": [
+      {
+        "id": "bunsik",
+        "name": "학창시절 분식세트",
+        "line": "친구들이랑 하하호호 웃던 그 시절처럼, 오늘 고민도 잠시 내려놓으렴.",
+        "dishes": [
+          {
+            "id": "tteokbokki",
+            "name": "떡볶이",
+            "icon": "🍢",
+            "x": 34,
+            "y": 58,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "맵지 않게 달콤하게 만든 할머니 떡볶이",
+            "en": {
+              "name": "Tteokbokki",
+              "intro": "Grandma’s rice cakes, sweet and not too spicy"
+            },
+            "es": {
+              "name": "Tteokbokki",
+              "intro": "Pastelitos de arroz de la abuela, dulces y poco picantes"
+            }
+          },
+          {
+            "id": "eomuk",
+            "name": "어묵 꼬치",
+            "icon": "🍡",
+            "x": 62,
+            "y": 58,
+            "utensil": "chopsticks",
+            "sound": "slurp",
+            "intro": "뜨끈한 국물에 담긴 어묵 꼬치",
+            "en": {
+              "name": "Fish cake skewers",
+              "intro": "Fish cakes soaking in warm broth"
+            },
+            "es": {
+              "name": "Brochetas de pastel de pescado",
+              "intro": "Pastel de pescado en caldo calentito"
+            }
+          },
+          {
+            "id": "yachae-twigim",
+            "name": "야채튀김",
+            "icon": "🥕",
+            "x": 26,
+            "y": 30,
+            "utensil": "chopsticks",
+            "sound": "crunch",
+            "intro": "채소를 듬뿍 넣고 바삭하게 튀긴 야채튀김",
+            "en": {
+              "name": "Vegetable fritters",
+              "intro": "Crispy fritters packed with vegetables"
+            },
+            "es": {
+              "name": "Frituras de verduras",
+              "intro": "Frituras crujientes llenas de verduras"
+            }
+          },
+          {
+            "id": "sundae",
+            "name": "순대",
+            "icon": "🌭",
+            "x": 50,
+            "y": 28,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "소금 콕 찍어 먹는 순대",
+            "en": {
+              "name": "Sundae",
+              "intro": "Korean sausage you dip in a pinch of salt"
+            },
+            "es": {
+              "name": "Sundae",
+              "intro": "Salchicha coreana que se moja en sal"
+            }
+          },
+          {
+            "id": "danmuji",
+            "name": "단무지",
+            "icon": "🟨",
+            "x": 74,
+            "y": 32,
+            "utensil": "chopsticks",
+            "sound": "crunch",
+            "intro": "새콤달콤 노란 단무지",
+            "en": {
+              "name": "Pickled radish",
+              "intro": "Sweet and tangy yellow radish"
+            },
+            "es": {
+              "name": "Rábano encurtido",
+              "intro": "Rábano amarillo, dulce y ácido"
+            }
+          },
+          {
+            "id": "cool-drink",
+            "name": "쿨피스",
+            "icon": "🥤",
+            "x": 80,
+            "y": 62,
+            "utensil": "spoon",
+            "sound": "slurp",
+            "intro": "그 시절 분식집의 새콤한 음료",
+            "en": {
+              "name": "Tangy yogurt drink",
+              "intro": "The sweet-sour drink from old snack shops"
+            },
+            "es": {
+              "name": "Bebida de yogur",
+              "intro": "La bebida agridulce de los puestos de antes"
+            }
+          }
+        ],
+        "en": {
+          "name": "School-Days Snack Set",
+          "line": "Like laughing with friends back then, set your worries down for a while."
+        },
+        "es": {
+          "name": "Merienda de la escuela",
+          "line": "Como cuando reías con tus amigos, deja tus preocupaciones un ratito."
+        }
+      },
+      {
+        "id": "drama",
+        "name": "드라마 속 그 음식 한상",
+        "line": "드라마 주인공처럼, 오늘 하루도 멋지게 해냈구나!",
+        "dishes": [
+          {
+            "id": "ramyeon",
+            "name": "냄비 라면",
+            "icon": "🍜",
+            "x": 34,
+            "y": 58,
+            "utensil": "chopsticks",
+            "sound": "slurp",
+            "intro": "냄비 뚜껑에 덜어 먹는 꼬들꼬들 라면",
+            "en": {
+              "name": "Pot ramyeon",
+              "intro": "Chewy noodles eaten from the pot lid"
+            },
+            "es": {
+              "name": "Ramyeon en olla",
+              "intro": "Fideos firmes que se comen en la tapa de la olla"
+            }
+          },
+          {
+            "id": "gimbap",
+            "name": "김밥",
+            "icon": "🍙",
+            "x": 64,
+            "y": 58,
+            "utensil": "chopsticks",
+            "sound": "chew",
+            "intro": "알록달록 한 줄 김밥",
+            "en": {
+              "name": "Gimbap",
+              "intro": "A colorful roll of rice and seaweed"
+            },
+            "es": {
+              "name": "Gimbap",
+              "intro": "Un rollo colorido de arroz y alga"
+            }
+          },
+          {
+            "id": "chicken",
+            "name": "치킨",
+            "icon": "🍗",
+            "x": 26,
+            "y": 30,
+            "utensil": "chopsticks",
+            "sound": "crunch",
+            "intro": "바삭한 치킨 한 조각",
+            "en": {
+              "name": "Fried chicken",
+              "intro": "A crispy piece of fried chicken"
+            },
+            "es": {
+              "name": "Pollo frito",
+              "intro": "Un trozo de pollo frito crujiente"
+            }
+          },
+          {
+            "id": "japaguri",
+            "name": "짜파구리",
+            "icon": "🍜",
+            "x": 52,
+            "y": 28,
+            "utensil": "chopsticks",
+            "sound": "slurp",
+            "intro": "짜장 라면과 얼큰한 우동 라면을 섞고 소고기를 얹은 한 그릇",
+            "en": {
+              "name": "Jjapaguri (ram-don)",
+              "intro": "Black bean ramyeon mixed with spicy udon ramyeon, topped with beef"
+            },
+            "es": {
+              "name": "Jjapaguri (ram-don)",
+              "intro": "Ramyeon de soja negra mezclado con udon picante y carne de res por encima"
+            }
+          },
+          {
+            "id": "samgyeopsal",
+            "name": "삼겹살 구이",
+            "icon": "🥓",
+            "x": 78,
+            "y": 34,
+            "utensil": "chopsticks",
+            "sound": "bubble",
+            "intro": "지글지글 구워 상추에 싸 먹는 삼겹살",
+            "en": {
+              "name": "Grilled pork belly (samgyeopsal)",
+              "intro": "Sizzling pork belly wrapped in lettuce"
+            },
+            "es": {
+              "name": "Panceta a la parrilla (samgyeopsal)",
+              "intro": "Panceta chisporroteante envuelta en lechuga"
+            }
+          }
+        ],
+        "en": {
+          "name": "That Dish from the Drama",
+          "line": "Just like a drama hero, you did great today!"
+        },
+        "es": {
+          "name": "Ese plato de la serie",
+          "line": "¡Igual que en una serie, hoy lo hiciste genial!"
+        },
+        "flyer": {
+          "title": "📺 오늘 밤, 할머니 댁 아랫목 특별 편성",
+          "subtitle": "이 음식, 어디서 봤더라?",
+          "note": "작품 이름은 음식이 나온 곳을 알려 주는 소개예요. 그림은 음식만 그렸어요.",
+          "lines": [
+            {
+              "dish": "ramyeon",
+              "tag": "늦은 밤 장면의 단골 · 냄비 뚜껑에 덜어 먹어야 제맛",
+              "from": "수많은 한국 드라마의 늦은 밤 장면"
+            },
+            {
+              "dish": "gimbap",
+              "tag": "한 줄 들고 다니며 먹는 김밥",
+              "from": "애니메이션 영화 〈케이팝 데몬 헌터스〉"
+            },
+            {
+              "dish": "chicken",
+              "tag": "갈비 양념을 바른 통닭",
+              "from": "영화 〈극한직업〉"
+            },
+            {
+              "dish": "japaguri",
+              "tag": "두 가지 라면을 섞고 소고기를 얹은 한 그릇",
+              "from": "영화 〈기생충〉"
+            },
+            {
+              "dish": "samgyeopsal",
+              "tag": "지글지글 불판 앞 회식 장면",
+              "from": "로맨스 드라마의 회식 장면"
+            }
+          ],
+          "en": {
+            "title": "📺 Tonight: a special on Grandma’s warm floor",
+            "subtitle": "Where have I seen this dish?",
+            "note": "The titles just tell you where the dish appeared. The pictures show only the food.",
+            "lines": [
+              "A late-night regular · best eaten from the pot lid",
+              "Gimbap you carry and eat on the go",
+              "Whole chicken brushed with galbi sauce",
+              "Two kinds of ramyeon mixed together, topped with beef",
+              "Sizzling at the grill in an office-dinner scene"
+            ],
+            "from": [
+              "Late-night scenes in countless Korean dramas",
+              "The animated film “KPop Demon Hunters”",
+              "The film “Extreme Job”",
+              "The film “Parasite”",
+              "Office-dinner scenes in romance dramas"
+            ]
+          },
+          "es": {
+            "title": "📺 Esta noche: especial en el cuarto tibio de la abuela",
+            "subtitle": "¿Dónde he visto este plato?",
+            "note": "Los títulos solo dicen dónde apareció el plato. Los dibujos muestran solo la comida.",
+            "lines": [
+              "Un clásico de medianoche · mejor en la tapa de la olla",
+              "Gimbap para comer por el camino",
+              "Pollo entero untado con salsa galbi",
+              "Dos ramyeon mezclados con carne de res encima",
+              "Chisporroteando en la parrilla en una cena de trabajo"
+            ],
+            "from": [
+              "Escenas nocturnas de muchísimos dramas coreanos",
+              "La película animada «Las guerreras k-pop»",
+              "La película «Extreme Job»",
+              "La película «Parásitos»",
+              "Cenas de trabajo en dramas románticos"
+            ]
+          }
+        }
+      }
+    ],
+    "dishes_country": [
+      {
+        "id": "kongnamul",
+        "name": "콩나물무침",
+        "icon": "🌱",
+        "x": 28,
+        "y": 20,
+        "utensil": "chopsticks",
+        "sound": "crunch",
+        "intro": "아삭아삭 고소한 콩나물무침",
+        "en": {
+          "name": "Bean sprout salad",
+          "intro": "Crunchy, nutty seasoned bean sprouts"
+        },
+        "es": {
+          "name": "Ensalada de brotes de soja",
+          "intro": "Brotes de soja aliñados, crujientes y sabrosos"
+        }
+      },
+      {
+        "id": "gosari",
+        "name": "고사리나물",
+        "icon": "🌿",
+        "x": 42,
+        "y": 19,
+        "utensil": "chopsticks",
+        "sound": "chew",
+        "intro": "들기름에 볶은 고사리나물",
+        "en": {
+          "name": "Fernbrake namul",
+          "intro": "Fernbrake stir-fried in perilla oil"
+        },
+        "es": {
+          "name": "Namul de helecho",
+          "intro": "Helecho salteado en aceite de perilla"
+        }
+      },
+      {
+        "id": "kkakdugi",
+        "name": "깍두기",
+        "icon": "🟥",
+        "x": 70,
+        "y": 20,
+        "utensil": "chopsticks",
+        "sound": "crunch",
+        "intro": "무를 깍둑깍둑 썰어 담근 깍두기",
+        "en": {
+          "name": "Radish kimchi (kkakdugi)",
+          "intro": "Radish cut into little cubes and pickled"
+        },
+        "es": {
+          "name": "Kimchi de rábano (kkakdugi)",
+          "intro": "Rábano en cubitos fermentado"
+        }
+      },
+      {
+        "id": "gim",
+        "name": "구운 김",
+        "icon": "🟩",
+        "x": 84,
+        "y": 22,
+        "utensil": "chopsticks",
+        "sound": "crunch",
+        "intro": "들기름 발라 구운 바삭한 김",
+        "en": {
+          "name": "Roasted seaweed",
+          "intro": "Crispy seaweed brushed with perilla oil"
+        },
+        "es": {
+          "name": "Alga tostada",
+          "intro": "Alga crujiente untada con aceite de perilla"
+        }
+      },
+      {
+        "id": "hobak-jeon",
+        "name": "애호박전",
+        "icon": "🥒",
+        "x": 32,
+        "y": 46,
+        "utensil": "chopsticks",
+        "sound": "chew",
+        "intro": "노릇노릇 부친 애호박전",
+        "en": {
+          "name": "Zucchini pancakes",
+          "intro": "Zucchini slices pan-fried golden"
+        },
+        "es": {
+          "name": "Tortitas de calabacín",
+          "intro": "Rodajas de calabacín doradas en la sartén"
+        }
+      },
+      {
+        "id": "myeolchi",
+        "name": "멸치볶음",
+        "icon": "🐟",
+        "x": 68,
+        "y": 46,
+        "utensil": "chopsticks",
+        "sound": "crunch",
+        "intro": "꿀 넣고 볶은 바삭한 멸치볶음",
+        "en": {
+          "name": "Stir-fried anchovies",
+          "intro": "Crispy little anchovies glazed with honey"
+        },
+        "es": {
+          "name": "Anchoítas salteadas",
+          "intro": "Anchoítas crujientes glaseadas con miel"
+        }
+      },
+      {
+        "id": "jangajji",
+        "name": "오이 장아찌",
+        "icon": "🥒",
+        "x": 84,
+        "y": 48,
+        "utensil": "chopsticks",
+        "sound": "crunch",
+        "intro": "짭조름한 오이 장아찌",
+        "en": {
+          "name": "Pickled cucumber",
+          "intro": "Salty-sweet pickled cucumber"
+        },
+        "es": {
+          "name": "Pepino encurtido",
+          "intro": "Pepino encurtido, salado y dulce"
+        }
+      },
+      {
+        "id": "dongchimi",
+        "name": "동치미",
+        "icon": "🥣",
+        "x": 80,
+        "y": 75,
+        "utensil": "spoon",
+        "sound": "slurp",
+        "intro": "시원한 국물이 일품인 동치미",
+        "en": {
+          "name": "Radish water kimchi",
+          "intro": "Refreshing cold radish kimchi soup"
+        },
+        "es": {
+          "name": "Kimchi de rábano en agua",
+          "intro": "Un caldo frío y refrescante de rábano"
+        }
+      }
+    ]
+  }
+}

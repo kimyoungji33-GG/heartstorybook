@@ -1,0 +1,295 @@
+/* 할머니 댁 부엌과 아랫목 */
+.home-stars {
+  display: inline-flex; align-items: center; min-height: 34px; padding: 4px 12px;
+  border: 1px solid #d8b46a; border-radius: 999px; background: #3a2a1d; color: #ffe9b0;
+  font-size: 15px; white-space: nowrap;
+}
+.home-stars::before { content: "★"; margin-right: 6px; color: #ffd36b; }
+.room-stars { order: 3; }
+
+.kitchen-door {
+  position: absolute; z-index: 2000; padding: 8px 14px;
+  border: 1px solid #c79e5f; border-radius: 999px; background: #fff2d6e6; color: #4a3123;
+  font-size: clamp(13px, 1.3vw, 17px); box-shadow: 0 4px 14px #24160d55;
+}
+.kitchen-door:hover { background: #fff8e8; }
+.kitchen-entry { left: 10.5%; top: 79%; transform: translateX(-50%); }
+.kitchen-return { left: 1.2%; top: 88%; }
+.to-araet { right: 1.2%; top: 50%; }
+.araet-return { left: 1.2%; top: 88%; }
+.araet-change { right: 1.2%; top: 88%; }
+
+.kitchen {
+  min-height: 100vh; min-height: 100svh; display: grid; grid-template-rows: auto 1fr;
+  justify-items: center; align-content: start; gap: 6px; padding-bottom: 16px;
+  background: radial-gradient(ellipse at 46% 51%, #54392b 0%, #2d211b 58%, #1d1815 100%);
+}
+.kitchen-header {
+  width: 100%; max-width: min(calc((100svh - 90px) * 1.7778), 1800px);
+  display: flex; align-items: center; justify-content: space-between; min-height: 52px;
+  padding: 6px clamp(10px, 2vw, 18px);
+}
+.kitchen-header h1 { margin: 0; font: 600 clamp(22px, 3vw, 32px)/1.2 "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+.kitchen-stage {
+  position: relative; width: 100%; max-width: min(calc((100svh - 90px) * 1.7778), 1800px);
+  aspect-ratio: 16 / 9; overflow: hidden; isolation: isolate; user-select: none; touch-action: manipulation;
+  box-shadow: 0 14px 46px #150e0a80; background: #e9cf9f;
+}
+/* 화면 나누기: data-scene 에 맞는 것만 보여요 */
+.kitchen-stage[data-scene="kitchen"] .scene-araet,
+.kitchen-stage[data-scene="araet"] .scene-kitchen { display: none !important; }
+.scene-backdrop { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.kitchen-stage.has-kitchen-backdrop .kitchen-sketch,
+.kitchen-stage.has-araet-backdrop .araet-sketch { display: none; }
+
+/* ----- 부엌 임시 스케치 ----- */
+.kitchen-sketch, .araet-sketch { position: absolute; inset: 0; pointer-events: none; }
+.kitchen-sketch > *, .araet-sketch > * { position: absolute; }
+.k-wall { inset: 0 0 30% 0; background: linear-gradient(#efe0bf, #e2c999); }
+.kitchen-sketch::after { /* 흙바닥 */
+  content: ""; position: absolute; inset: 70% 0 0 0;
+  background: radial-gradient(ellipse at 50% 0, #b48a5c, #8f6a44 70%);
+}
+.k-beam { left: 0; right: 0; top: 4%; height: 4%; background: #6d4a2c; }
+.k-window { left: 40%; top: 13%; width: 14%; height: 20%; background: repeating-linear-gradient(90deg, #f9f2df 0 23%, #8a5a33 23% 25%), #f9f2df; border: 6px solid #8a5a33; }
+.k-shelf { /* 간식 선반(광) */
+  left: 3%; top: 16%; width: 17%; height: 56%; border: 6px solid #7a4f2c; background:
+    linear-gradient(#7a4f2c, #7a4f2c) 0 33% / 100% 4% no-repeat,
+    linear-gradient(#7a4f2c, #7a4f2c) 0 66% / 100% 4% no-repeat,
+    radial-gradient(circle at 20% 25%, #e58b3a 0 9%, #0000 10%),
+    radial-gradient(circle at 55% 24%, #f2e3b3 0 11%, #0000 12%),
+    radial-gradient(circle at 82% 26%, #c9673e 0 9%, #0000 10%),
+    radial-gradient(circle at 30% 57%, #e8c66a 0 12%, #0000 13%),
+    radial-gradient(circle at 72% 57%, #b7743f 0 12%, #0000 13%),
+    radial-gradient(circle at 25% 88%, #f0d79a 0 12%, #0000 13%),
+    radial-gradient(circle at 70% 88%, #a6c37a 0 12%, #0000 13%),
+    #b0814f;
+}
+.k-fridge { /* 옛날 냉장고 */
+  left: 22%; top: 26%; width: 10%; height: 46%; border-radius: 14px 14px 6px 6px;
+  background: linear-gradient(90deg, #cfe8e2, #a9d3c8); box-shadow: inset 0 -4px 0 #7fb3a6, 0 6px 10px #5a3b2240;
+}
+.k-fridge::after { content: ""; position: absolute; right: 10%; top: 32%; width: 8%; height: 18%; border-radius: 4px; background: #e9eef0; }
+.k-stove { /* 아궁이 */
+  left: 42%; top: 48%; width: 22%; height: 24%; border-radius: 10px 10px 0 0;
+  background: radial-gradient(ellipse at 50% 85%, #ff9a3c 0 12%, #3a2416 13% 24%, #0000 25%), linear-gradient(#a7896d, #7f6248);
+}
+.k-pot { /* 가마솥 */
+  left: 46%; top: 38%; width: 14%; height: 12%; border-radius: 0 0 50% 50% / 0 0 80% 80%;
+  background: linear-gradient(#3c3530, #1f1b18); box-shadow: 0 -6px 0 -2px #4d4540;
+}
+.k-cupboard { left: 66%; top: 18%; width: 14%; height: 26%; border: 5px solid #7a4f2c; background: repeating-linear-gradient(90deg, #a8774a 0 48%, #7a4f2c 48% 52%); }
+.k-teatable { left: 74%; top: 58%; width: 14%; height: 6%; border-radius: 6px; background: #8f5f37; box-shadow: 0 10px 0 -2px #6d4626; }
+.k-teatable::before { content: "🫖"; position: absolute; left: 30%; bottom: 80%; font-size: clamp(18px, 2.4vw, 40px); }
+.k-door { right: 2%; top: 22%; width: 9%; height: 50%; background: repeating-linear-gradient(#f6ecd4 0 23%, #8a5a33 23% 25%); border: 6px solid #8a5a33; }
+
+/* ----- 아랫목 임시 스케치 ----- */
+.a-wall { inset: 0 0 40% 0; background: linear-gradient(#f3e6c8, #e8d3a6); }
+.a-paperdoor { left: 30%; top: 8%; width: 40%; height: 44%; border: 7px solid #8a5a33; background:
+  repeating-linear-gradient(90deg, #0000 0 24%, #8a5a33 24% 25%), repeating-linear-gradient(#0000 0 32%, #8a5a33 32% 33.5%), #fbf5e6; }
+.a-closet { left: 76%; top: 12%; width: 18%; height: 46%; background: #a06b3d; border: 5px solid #6d4626; }
+.a-floor { inset: 60% 0 0 0; background: repeating-linear-gradient(90deg, #d9a45d 0 12%, #cf974f 12% 12.4%), #d9a45d; }
+.a-warm { left: 0; top: 60%; width: 45%; height: 40%; background: radial-gradient(ellipse at 20% 80%, #a8552a88, #0000 70%); }
+.a-cushion { left: 17.5%; top: 86%; width: 13%; height: 7%; border-radius: 50%; background: radial-gradient(ellipse at 50% 40%, #c94f3d, #9c3427 75%); box-shadow: 0 4px 0 #6f2219; }
+
+/* ----- 누르는 자리 ----- */
+.kitchen-spot {
+  position: absolute; z-index: 5; padding: 0; border: 2px dashed #fff4d699; border-radius: 12px; background: #fff4d610;
+}
+.kitchen-spot span {
+  position: absolute; left: 50%; bottom: -6px; transform: translate(-50%, 100%);
+  padding: 3px 10px; border-radius: 999px; background: #fff2d6; color: #4a3123; font-size: clamp(11px, 1.1vw, 15px); white-space: nowrap;
+}
+.kitchen-spot:hover { background: #fff4d630; }
+#spot-shelf { left: 3%; top: 16%; width: 17%; height: 56%; }
+#spot-fridge { left: 22%; top: 26%; width: 10%; height: 46%; }
+#spot-tea { left: 74%; top: 46%; width: 14%; height: 18%; }
+.kitchen-stage.has-kitchen-backdrop .kitchen-spot { border-color: #0000; background: none; }
+
+.kitchen-grandma { position: absolute; left: 62%; top: 36%; width: 12%; height: 36%; z-index: 6; padding: 0; border: 0; background: none; }
+.kitchen-grandma img { width: 100%; height: 100%; object-fit: contain; object-position: bottom; pointer-events: none; }
+.kitchen-grandma:hover img { filter: brightness(1.06) drop-shadow(0 0 8px #fff3c8); }
+.kitchen-grandma.has-art { top: 30%; height: 44%; }
+
+/* ----- 소반 ----- */
+.soban { position: absolute; left: 32%; top: 55%; width: 52%; height: 36%; z-index: 880; }
+.soban::before { /* 그림이 없을 때 소반 */
+  content: ""; position: absolute; inset: 8% 0 16% 0; border-radius: 46% / 40%;
+  background: radial-gradient(ellipse at 50% 40%, #b8783e, #8a5226 80%); box-shadow: 0 14px 0 -4px #5f3518, 0 22px 26px #3a1f0d55;
+}
+.soban:has(.soban-art:not([hidden]))::before { display: none; }
+.soban-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.soban-dishes { position: absolute; inset: 0; }
+.soban-dish {
+  position: absolute; transform: translate(-50%, -50%); padding: 0; border: 0; background: none;
+  display: grid; justify-items: center;
+}
+.soban-dish-art { display: grid; place-items: center; width: clamp(30px, 4.4vw, 76px); height: clamp(30px, 4.4vw, 76px); font-size: clamp(18px, 2.7vw, 46px); border-radius: 50%; background: #fff8ec; box-shadow: 0 3px 0 #d8c39b, 0 6px 10px #3a1f0d40; }
+.soban-dish-art img { width: 100%; height: 100%; object-fit: contain; }
+.soban:has(.soban-dish-art img) .soban-dish-art { background: none; box-shadow: none; }
+.soban-dish-name {
+  margin-top: 2px; padding: 1px 8px; border-radius: 999px; background: #fff2d6e8; color: #4a3123;
+  font-size: clamp(10px, 1vw, 14px); white-space: nowrap; opacity: 0; transition: opacity .2s;
+}
+.soban-dish:hover .soban-dish-name, .soban-dish:focus-visible .soban-dish-name, .soban-dish.is-tasted .soban-dish-name { opacity: 1; }
+.soban-dish:hover .soban-dish-art { transform: translateY(-3px); }
+
+/* ----- 아바타 ----- */
+.kitchen-avatar { position: absolute; width: 0; height: 0; pointer-events: none; }
+.kitchen-shadow {
+  position: absolute; left: 0; top: 0; width: var(--shadow-width, 60px); height: var(--shadow-height, 12px);
+  transform: translate(-50%, -50%); border-radius: 50%; background: #000; opacity: .22; filter: blur(2px);
+}
+.kitchen-figure { position: absolute; left: 0; top: 0; }
+.kitchen-frame { position: absolute; overflow: hidden; }
+.kitchen-frame img { position: absolute; max-width: none; }
+.kitchen-eat-art { position: absolute; width: auto; max-width: none; }
+.kitchen-bite, .kitchen-utensil {
+  position: absolute; left: 0; top: 0; font-size: clamp(20px, 2.6vw, 38px);
+  transform: translate(-50%, calc(-1 * var(--figure-height, 120px) - 10px));
+}
+.kitchen-bite-art { display: block; }
+.kitchen-bite-art img { display: block; width: clamp(34px, 4vw, 64px); height: auto; }
+.kitchen-avatar.is-eating .kitchen-bite { animation: kitchen-bite .65s ease-in-out infinite alternate; }
+@keyframes kitchen-bite { to { transform: translate(-50%, calc(-1 * var(--figure-height, 120px) - 18px)) scale(1.08); } }
+/* 숟가락·젓가락으로 그릇에서 입으로 */
+.kitchen-avatar.is-scooping .kitchen-utensil { animation: kitchen-scoop 1.1s ease-in-out infinite; }
+.kitchen-avatar.is-scooping .kitchen-bite { animation: kitchen-scoop-food 1.1s ease-in-out infinite; }
+@keyframes kitchen-scoop {
+  0% { transform: translate(120%, calc(-.45 * var(--figure-height, 120px))) rotate(20deg); }
+  55% { transform: translate(20%, calc(-.82 * var(--figure-height, 120px))) rotate(-10deg); }
+  100% { transform: translate(120%, calc(-.45 * var(--figure-height, 120px))) rotate(20deg); }
+}
+@keyframes kitchen-scoop-food {
+  0%, 100% { opacity: 0; transform: translate(60%, calc(-.5 * var(--figure-height, 120px))) scale(.5); }
+  40% { opacity: 1; }
+  55% { opacity: 1; transform: translate(0%, calc(-.85 * var(--figure-height, 120px))) scale(.6); }
+  70% { opacity: 0; }
+}
+
+.kitchen-speech {
+  position: absolute; left: 50%; top: 4%; z-index: 3000; max-width: min(56%, 620px); transform: translateX(-50%);
+  margin: 0; padding: 10px 16px; border-radius: 18px; background: #fff4dc; color: #4a3123;
+  font-size: clamp(13px, 1.5vw, 19px); line-height: 1.5; box-shadow: 0 6px 18px #2b190d40;
+}
+
+/* ----- 고르기 창 ----- */
+.kitchen-dialog { width: min(92vw, 560px); padding: 22px; border: 2px solid #c79e5f; border-radius: 18px; background: #fff6e4; color: #4a3123; }
+.kitchen-dialog::backdrop { background: #1d120b99; }
+.kitchen-dialog h2 { margin: 0 0 6px; font: 600 22px/1.3 "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; text-align: center; }
+.kitchen-menu-note { margin: 0 0 14px; text-align: center; font-size: 14px; color: #8a5a33; }
+.kitchen-dialog form { margin-top: 14px; text-align: center; }
+.kitchen-dialog button { min-height: 40px; padding: 6px 16px; border: 1px solid #c79e5f; border-radius: 999px; background: #f3dfb6; color: #4a3123; }
+.kitchen-dialog button:hover { background: #f8e9c9; }
+.kitchen-dialog.has-board { background: #fff6e4 var(--menu-board) center / cover no-repeat; }
+.kitchen-foods { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 10px; }
+.kitchen-dialog .kitchen-food { display: grid; justify-items: center; gap: 4px; padding: 10px 6px; border-radius: 14px; background: #fffaf0; }
+.kitchen-food-icon { font-size: 34px; line-height: 1.1; }
+.kitchen-food-icon img { display: block; width: 72px; height: 72px; object-fit: contain; }
+.kitchen-food-name { font-weight: 600; font-size: 15px; }
+.kitchen-meal-icons { letter-spacing: 2px; }
+
+#home-story-open { min-height: 40px; padding: 6px 16px; border: 1px solid #b89461; border-radius: 999px; background: #33261e; }
+
+.home-fade { position: fixed; inset: 0; z-index: 9999; background: #1d120b; opacity: 0; transition: opacity .4s ease; pointer-events: none; }
+.home-fade.is-dark { opacity: 1; }
+.home-star-reward {
+  position: fixed; left: 50%; top: 18%; z-index: 9998; margin: 0; padding: 10px 18px; transform: translateX(-50%);
+  border-radius: 999px; background: #fff1c4; color: #6a4316; font-size: 20px; font-weight: 600;
+}
+
+@media (max-width: 650px) {
+  .kitchen-door { padding: 5px 9px; font-size: 12px; }
+  .home-stars { font-size: 13px; min-height: 28px; padding: 2px 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-fade { transition: none; }
+  .kitchen-avatar.is-eating .kitchen-bite, .kitchen-avatar.is-scooping .kitchen-utensil, .kitchen-avatar.is-scooping .kitchen-bite { animation: none; }
+}
+
+/* ----- 아랫목: 이불, 눕기, 뒹굴뒹굴, 고양이와 강아지 ----- */
+.araet-sleep { right: 1.2%; top: 76%; }
+.araet-roll { right: 1.2%; top: 64%; }
+.araet-ibul {
+  position: absolute; left: 3%; top: 70%; width: 33%; height: 25%; z-index: 820;
+  border-radius: 14px; background:
+    repeating-linear-gradient(45deg, #0000 0 14px, #ffffff22 14px 16px),
+    radial-gradient(circle at 30% 40%, #f7c9c0 0 6%, #0000 7%), radial-gradient(circle at 70% 65%, #f7c9c0 0 6%, #0000 7%),
+    linear-gradient(#e86f6a, #c9504c);
+  box-shadow: inset 0 0 0 5px #f4e3c8, 0 8px 14px #3a1f0d40;
+}
+.araet-ibul.has-art { background: center / 100% 100% no-repeat; box-shadow: none; }
+.araet-pillow { position: absolute; left: 4%; top: 18%; width: 18%; height: 46%; border-radius: 40%; background: linear-gradient(#fff8ec, #ead8b8); box-shadow: 0 3px 0 #d6c19b; }
+.kitchen-stage.is-resting .a-cushion { display: none; }
+.kitchen-avatar.is-lying .kitchen-shadow { opacity: .12; }
+.kitchen-stage.is-rolling .kitchen-avatar { animation: araet-roll 1.3s ease-in-out 2; }
+@keyframes araet-roll {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3%) translateY(-1%); }
+  50% { transform: translateX(-6%) scaleY(-1); }
+  75% { transform: translateX(-3%) translateY(-1%); }
+}
+.araet-pets { position: absolute; inset: 0; pointer-events: none; }
+.araet-pet {
+  position: absolute; transform: translate(-50%, -100%); padding: 0; border: 0; background: none; pointer-events: auto;
+  animation: araet-pet-in .9s ease-out both;
+}
+.araet-pet img { display: block; width: 100%; height: auto; }
+.araet-pet-icon { display: block; font-size: clamp(30px, 5vw, 80px); line-height: 1; transform: scaleX(-1); }
+.araet-pet.is-petted { animation: araet-pet-pat .5s ease-in-out; }
+@keyframes araet-pet-in { from { opacity: 0; transform: translate(-30%, -100%); } to { opacity: 1; transform: translate(-50%, -100%); } }
+@keyframes araet-pet-pat { 50% { transform: translate(-50%, -100%) scale(1.06, .94); } }
+.araet-night {
+  position: absolute; inset: 0; z-index: 1900; pointer-events: none; opacity: 0; transition: opacity 2s ease;
+  background: radial-gradient(ellipse at 25% 85%, #0000 0 18%, #1b2240aa 70%);
+}
+.araet-night span { position: absolute; left: 12%; top: 58%; color: #fff6d8; font: 600 clamp(18px, 2.6vw, 40px)/1 "Malgun Gothic", sans-serif; letter-spacing: .3em; animation: araet-zzz 3s ease-in-out infinite; }
+.kitchen-stage.is-asleep .araet-night { opacity: 1; }
+@keyframes araet-zzz { 0% { opacity: 0; transform: translateY(10px); } 30%, 70% { opacity: 1; } 100% { opacity: 0; transform: translateY(-24px); } }
+/* ----- 드라마 한상 전단지 ----- */
+.araet-flyer {
+  position: absolute; left: 7%; top: 10%; width: 11%; aspect-ratio: .72; z-index: 5; padding: 6% 0 0; border: 0;
+  background: linear-gradient(#d83a33 0 22%, #fffdf3 22%); box-shadow: 2px 4px 8px #3a1f0d55; transform: rotate(-4deg);
+  color: #4a3123; font-size: clamp(10px, 1.1vw, 15px); font-weight: 700;
+}
+.araet-flyer::before { content: "📺"; position: absolute; left: 50%; top: 3%; transform: translateX(-50%); font-size: 1.4em; }
+.araet-flyer::after { content: ""; position: absolute; left: 50%; top: -4%; width: 10%; aspect-ratio: 1; transform: translateX(-50%); border-radius: 50%; background: #c0392b; box-shadow: 0 2px 2px #0006; }
+.araet-flyer:hover { transform: rotate(-2deg) scale(1.04); }
+.kitchen-dialog.is-flyer { background: #fffdf3; border: 0; border-top: 18px solid #d83a33; box-shadow: 0 16px 40px #0008; }
+.kitchen-dialog.is-flyer h2 { color: #b52e28; }
+.kitchen-dialog.is-flyer .kitchen-menu-note { font-size: 20px; font-weight: 700; color: #4a3123; }
+.kitchen-dialog.is-flyer .kitchen-foods { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.flyer-row { display: flex; align-items: center; gap: 12px; padding: 8px 10px; border-bottom: 2px dashed #e5c9a5; }
+.flyer-row .kitchen-food-icon { font-size: 32px; flex: none; }
+.flyer-row .kitchen-food-icon img { width: 56px; height: 56px; }
+.flyer-row b { display: block; font-size: 16px; }
+.flyer-row small { display: block; color: #8a5a33; font-size: 13px; }
+.flyer-note { margin: 6px 0 0; font-size: 12px; color: #9a8466; text-align: center; }
+@media (prefers-reduced-motion: reduce) {
+  .kitchen-stage.is-rolling .kitchen-avatar, .araet-pet, .araet-night span { animation: none; }
+}
+
+.araet-pets-toggle { right: 1.2%; top: 52%; }
+.araet-pets-toggle[aria-pressed="true"] { background: #fff1c4; border-color: #d8a94a; }
+.flyer-scene { flex: none; width: 120px; aspect-ratio: 4 / 3; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 6px #3a1f0d33; }
+.flyer-scene img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.kitchen-dialog .flyer-from { display: inline-block; min-height: 0; margin-top: 4px; padding: 2px 10px; border: 1px dashed #d8a94a; border-radius: 999px; background: #fff8e0; font-size: 12px; color: #8a5a33; }
+.kitchen-dialog .flyer-from.is-open { border-style: solid; background: #fde9c4; color: #6a3d12; font-weight: 600; opacity: 1; cursor: default; }
+
+/* ----- 밥상에 둘러앉은 식구들 ----- */
+.araet-family { position: absolute; inset: 0; pointer-events: none; }
+.araet-member { position: absolute; transform: translate(-50%, -100%); padding: 0; border: 0; background: none; pointer-events: auto; display: flex; flex-direction: column; align-items: center; }
+.araet-member img { height: 22vw; max-height: 300px; width: auto; }
+.araet-member-icon { font-size: clamp(34px, 5.4vw, 90px); line-height: 1; filter: drop-shadow(0 4px 4px #3a1f0d55); }
+.araet-member-name { margin-top: 2px; padding: 1px 9px; border-radius: 999px; background: #fff2d6e8; color: #4a3123; font-size: clamp(10px, 1vw, 14px); }
+.araet-member:hover .araet-member-icon, .araet-member:hover img { transform: translateY(-3px); }
+.kitchen-speech b { color: #a0522d; }
+/* 동화를 다 읽고 오면 거실 부엌 버튼 위에 뜨는 말풍선 */
+.kitchen-entry.is-inviting { animation: kitchen-invite 1.4s ease-in-out infinite alternate; }
+.kitchen-entry.is-inviting::after {
+  content: attr(data-invite); position: absolute; left: 50%; bottom: calc(100% + 8px); transform: translateX(-50%); white-space: nowrap;
+  padding: 4px 10px; border-radius: 12px; background: #fff4dc; color: #6a3d12; font-size: clamp(11px, 1.1vw, 14px); box-shadow: 0 4px 10px #2b190d40;
+}
+@keyframes kitchen-invite { to { box-shadow: 0 0 0 4px #ffe58a99, 0 4px 14px #24160d55; } }
+@media (prefers-reduced-motion: reduce) { .kitchen-entry.is-inviting { animation: none; } }

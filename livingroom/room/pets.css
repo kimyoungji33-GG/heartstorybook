@@ -1,0 +1,88 @@
+/* 거실의 동물 식구와 놀이 (pets.js) */
+
+/* 고양이 걷기·옆모습·잠·점프 */
+.fam.pet-side img, .fam.pet-sleeping img, .fam.pet-jumping img { object-fit: contain; object-position: center bottom; }
+.fam.pet-side .semi-eyes, .fam.pet-side .fam-eyes, .fam.pet-sleeping .semi-eyes, .fam.pet-sleeping .fam-eyes { display: none; }
+.fam.pet-walking img { animation: pet-trot .32s ease-in-out infinite alternate; }
+@keyframes pet-trot { from { translate: 0 0; } to { translate: 0 -6%; } }
+.fam.pet-sleeping img { animation: pet-breathe 3.6s ease-in-out infinite; }
+@keyframes pet-breathe { 50% { transform: scale(1.02, .97); } }
+.fam.pet-jumping img { animation: pet-jump .7s ease-in-out infinite; }
+@keyframes pet-jump { 0%, 100% { translate: 0 0; } 45% { translate: 0 -55%; rotate: -8deg; } 60% { translate: 0 -48%; rotate: 6deg; } }
+
+/* 2층 캣타워: 벽난로 옆(담요 바구니 자리). 그림(cat-tower.png)이 오기 전 임시 모양 */
+.pet-cat-tower {
+  position: absolute; transform: translate(-50%, -100%); width: 9.5%; aspect-ratio: .79; padding: 0; border: 0; cursor: pointer;
+  background: transparent; filter: drop-shadow(0 6px 6px #4a2d1855);
+}
+.pet-cat-tower > span { position: absolute; left: 50%; translate: -50% 0; }
+.pet-cat-tower .tw-post { top: 20%; bottom: 4%; width: 17%; background: repeating-linear-gradient(0deg, #c9a46a 0 5px, #b48c52 5px 7px); border-radius: 3px; }
+.pet-cat-tower .tw-floor { width: 94%; height: 9%; border-radius: 40% / 50%; background: radial-gradient(ellipse at 50% 35%, #f3e3c4 0 55%, #dcc49a 70%); box-shadow: inset 0 -5px 0 #b79560; }
+.pet-cat-tower .tw-floor-2 { top: 14%; width: 82%; height: 11%; }
+.pet-cat-tower .tw-floor-1 { top: 57%; height: 11%; }
+.pet-cat-tower .tw-base { bottom: 0; width: 100%; height: 7%; border-radius: 6px; background: #c9a46a; box-shadow: inset 0 -4px 0 #9d7a45; }
+.pet-cat-tower.has-art { background: center bottom / contain no-repeat; filter: none; }
+.pet-cat-tower.has-art > span { display: none; }
+.fam.pet-hopping img { animation: none; }
+
+/* 보리 */
+.pet-bori {
+  position: absolute; transform: translate(-50%, -100%); width: 9%; padding: 0; border: 0; background: none; cursor: pointer;
+  display: grid; justify-items: center; align-items: end;
+}
+.pet-bori img { width: 100%; height: auto; display: block; transform: scaleX(var(--facing, -1)); transform-origin: 50% 100%; }
+.pet-bori-icon { font-size: clamp(30px, 4.6vw, 76px); line-height: 1; transform: scaleX(calc(-1 * var(--facing, -1))); filter: drop-shadow(0 4px 3px #3a1f0d55); }
+.pet-bori[data-state="lie"] .pet-bori-icon { transform: scaleX(calc(-1 * var(--facing, -1))) scaleY(.8); transform-origin: 50% 100%; }
+.pet-bori[data-state="run"] img, .pet-bori[data-state="run"] .pet-bori-icon,
+.pet-bori[data-state="carry"] img, .pet-bori[data-state="carry"] .pet-bori-icon { animation: pet-run .22s ease-in-out infinite alternate; }
+@keyframes pet-run { to { translate: 0 -10%; } }
+.pet-bori.is-wagging { animation: pet-wag .18s ease-in-out 6 alternate; }
+@keyframes pet-wag { from { rotate: -3deg; } to { rotate: 3deg; } }
+
+/* 장난감 */
+.pet-toy { position: absolute; transform: translate(-50%, -50%); font-size: clamp(16px, 2vw, 32px); pointer-events: none; transition: opacity .5s; }
+.pet-toy img { width: clamp(20px, 2.4vw, 42px); height: auto; display: block; }
+.pet-toy.is-fading { opacity: 0; }
+.pet-toy-wand.is-swinging { transform-origin: 50% 0; animation: pet-wand .5s ease-in-out infinite alternate; }
+@keyframes pet-wand { from { transform: translate(-50%, -50%) rotate(-28deg); } to { transform: translate(-50%, -50%) rotate(28deg); } }
+.pet-toy-wand::before { content: ""; position: absolute; left: 50%; bottom: 60%; width: 2px; height: 300%; background: #6d4626; transform-origin: bottom; }
+.pet-heart { position: absolute; transform: translate(-50%, -50%); z-index: 3000; color: #e2566b; font-size: clamp(14px, 1.8vw, 28px); pointer-events: none; animation: pet-heart 1.2s ease-out forwards; }
+@keyframes pet-heart { from { opacity: 0; translate: 0 6px; } 30% { opacity: 1; } to { opacity: 0; translate: 0 -24px; } }
+
+/* 장난감 바구니(벽난로 옆 담요 바구니)와 군고구마 찜기 */
+.pet-basket-target { left: 1%; top: 65.5%; width: 4.2%; height: 6.5%; min-height: 0; }
+/* 장난감 바구니(그림 toy-basket.png 이 오기 전 임시 모양) */
+.pet-basket-target:not(.has-art) { background: radial-gradient(circle at 30% 18%, #e0503c 0 13%, #0000 14%), radial-gradient(circle at 62% 14%, #c8925a 0 12%, #0000 13%), linear-gradient(#0000 28%, #b8834a 28%, #a06d38 100%); border-radius: 4px 4px 40% 40% / 4px 4px 30% 30%; }
+.pet-basket-target.has-art { background: center bottom / contain no-repeat; }
+.pet-pot-target { left: 14.8%; top: 40.5%; width: 4.6%; height: 7.5%; min-height: 0; }
+.pet-toy-menu {
+  position: absolute; left: 6%; top: 50%; z-index: 4000; display: grid; gap: 6px; padding: 10px;
+  border-radius: 14px; background: #fff6e4f2; box-shadow: 0 8px 22px #2b190d55;
+}
+.pet-toy-menu button { min-height: 38px; padding: 4px 14px; border: 1px solid #c79e5f; border-radius: 999px; background: #fffaf0; color: #4a3123; font-size: clamp(12px, 1.2vw, 15px); text-align: left; }
+.pet-toy-menu button:hover { background: #f8e9c9; }
+
+/* 군고구마 */
+.pet-sweet-potato { position: absolute; transform: translate(-50%, -100%); z-index: 2800; font-size: clamp(20px, 2.6vw, 40px); pointer-events: none; animation: pet-nibble .5s ease-in-out infinite alternate; }
+.pet-sweet-potato img { width: clamp(28px, 3.4vw, 56px); height: auto; display: block; }
+.pet-steam { position: absolute; left: 30%; bottom: 90%; font-size: .6em; color: #fff8; animation: pet-steam 1.4s ease-out infinite; }
+@keyframes pet-steam { from { opacity: .8; translate: 0 0; } to { opacity: 0; translate: 0 -14px; } }
+@keyframes pet-nibble { to { translate: 0 -4px; } }
+.pet-sweet-potato.is-carried { animation: none; font-size: clamp(16px, 2vw, 30px); z-index: 2850; }
+.pet-sweet-potato.is-carried img { width: clamp(22px, 2.6vw, 42px); }
+/* 호호 부는 입김: 김이 옆으로 훅 날아가요 */
+.pet-blow { position: absolute; left: 10%; top: 10%; width: .9em; height: .45em; border-radius: 50%; background: #fffbf2cc; filter: blur(2px); pointer-events: none; animation: pet-blow .9s ease-out forwards; }
+@keyframes pet-blow { from { opacity: .9; translate: 0 0; scale: .5; } to { opacity: 0; translate: 1.4em -.5em; scale: 1.4; } }
+.pet-say {
+  position: absolute; transform: translate(-50%, -100%); z-index: 2900; margin: 0; padding: 6px 12px; border-radius: 14px; white-space: nowrap;
+  background: #fff8e8f5; color: #4a3322; font-size: clamp(12px, 1.3vw, 16px); box-shadow: 0 4px 12px #3c230f40;
+}
+
+/* 벽난로: 누르면 타닥타닥 소리 */
+.fire-target { left: 6.6%; top: 26.5%; width: 8.4%; height: 13%; min-height: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fam.pet-walking img, .fam.pet-sleeping img, .fam.pet-jumping img, .pet-bori img, .pet-bori-icon, .pet-bori.is-wagging,
+  .pet-toy-wand.is-swinging, .pet-heart, .pet-sweet-potato, .pet-steam { animation: none; }
+  .pet-blow { display: none; }
+}

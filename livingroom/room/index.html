@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>마음동화책방 · 새 책방</title>
   <link rel="stylesheet" href="style.css?v=cushion-seat-contact">
+  <link rel="stylesheet" href="kitchen.css?v=kitchen-stage-3b">
+  <link rel="stylesheet" href="garden.css?v=garden-5">
+  <link rel="stylesheet" href="pets.css?v=pets-7">
   <link rel="stylesheet" href="motion.css?v=floor-weather">
   <script src="settings.js?v=public-reading"></script>
   <script>
@@ -12,7 +15,7 @@
     const optional = [];
     if (roomSettings.reading) {
       optional.push('<link rel="stylesheet" href="bookshelf.css?v=public-reading">');
-      optional.push('<script src="bookshelf.js?v=public-reading" defer><\/script>');
+      optional.push('<script src="bookshelf.js?v=webp-1" defer><\/script>');
     }
     if (roomSettings.testing) {
       optional.push('<script src="motion-check.js?v=release-review" defer><\/script>');
@@ -21,7 +24,14 @@
     document.write(optional.join(''));
   </script>
   <script src="navigation.js?v=cushion-floor" defer></script>
-  <script src="room.js?v=cushion-seat-contact" defer></script>
+  <script src="home-features.js?v=features-2" defer></script>
+  <script src="home-text.js?v=home-text-10" defer></script>
+  <script src="kitchen.js?v=webp-1" defer></script>
+  <script src="garden.js?v=webp-1" defer></script>
+  <script src="family-photo.js?v=photo-1" defer></script>
+  <script src="pets.js?v=pets-9" defer></script>
+  <script src="fireplace.js?v=fire-3" defer></script>
+  <script src="room.js?v=book-hint-1" defer></script>
 </head>
 <body>
   <main id="experience" class="experience" aria-label="마음동화책방 새 책방" data-room-aria="마음동화책방 새 책방"
@@ -39,10 +49,13 @@
           </select>
         </label>
       </div>
+      <output class="home-stars room-stars" data-home-stars hidden>마음 별 5개</output>
     </header>
     <div id="stage" class="room room-width" style="--room-image: url('images/room_a_chair_03_shelf_v2.webp?v=lighter')" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
       <img class="room-picture" src="images/room_a_chair_03_shelf_v2.webp?v=lighter" alt="벽난로와 안락의자, 바닥 방석이 있는 책방" draggable="false"
         onerror="if(!this.dataset.retries||+this.dataset.retries<3){this.dataset.retries=(+this.dataset.retries||0)+1;var s=this.src.split('?')[0];setTimeout(()=>{this.src=s+'?retry='+this.dataset.retries+'-'+Date.now();}, 400*this.dataset.retries);}">
+      <button id="kitchen-entry" class="kitchen-door kitchen-entry" type="button" data-home-text="← 부엌 가기">← 부엌 가기</button>
+      <button id="garden-entry" class="kitchen-door garden-entry" type="button" data-home-text="텃밭 가기 →">텃밭 가기 →</button>
       <button id="room-sound" class="sound" type="button" aria-pressed="false" aria-label="음소거" data-room-aria="음소거" title="음소거">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M11 5 6 9H3v6h3l5 4z"/>
@@ -85,7 +98,7 @@
         </defs>
       </svg>
       <div id="weather-window" class="weather-window" aria-hidden="true"></div>
-      <img class="floor-overcast" src="images/floor-overcast.png" alt="" aria-hidden="true" draggable="false">
+      <img class="floor-overcast" src="images/floor-overcast.webp" alt="" aria-hidden="true" draggable="false">
       <div class="leaf-shadow leaf-shadow-wall" aria-hidden="true"></div>
       <div class="leaf-shadow leaf-shadow-floor" aria-hidden="true"></div>
       <div class="ceiling-lamp" aria-hidden="true"></div>
@@ -216,6 +229,7 @@
     </template>
     <footer id="controls" class="controls" inert>
       <p id="hint">바닥을 누르면 걸어요. 바닥 방석에 앉아 보세요.</p>
+      <button id="home-story-open" type="button" data-room-text="동화 펼치기" hidden>동화 펼치기</button>
       <button id="stand" type="button" data-room-text="일어나기" hidden>일어나기</button>
       <div id="visitors" class="visitors" role="group" aria-label="아바타 고르기" data-room-aria="아바타 고르기"></div>
     </footer>
@@ -237,8 +251,115 @@
     <p class="motion-note" data-room-text="움직임 줄이기가 켜져 있어요">움직임 줄이기가 켜져 있어요</p>
     <p id="status" class="sr-only" role="status"></p>
   </main>
-  <script src="room-language.js?v=room-layout-v2"></script>
-  <script src="family.js?v=elder-bubble-above"></script>
+  <section id="kitchen" class="kitchen" aria-labelledby="kitchen-heading" hidden>
+    <header class="kitchen-header">
+      <h1 id="kitchen-heading">할머니 댁 부엌</h1>
+      <output class="home-stars" data-home-stars hidden>마음 별 5개</output>
+    </header>
+    <div id="kitchen-stage" class="kitchen-stage" data-scene="kitchen">
+      <img id="kitchen-backdrop" class="scene-backdrop scene-kitchen" alt="" hidden>
+      <img id="araet-backdrop" class="scene-backdrop scene-araet" alt="" hidden>
+
+      <!-- 부엌: 그림이 없을 때 쓰는 임시 스케치 -->
+      <div class="kitchen-sketch scene-kitchen" aria-hidden="true">
+        <div class="k-wall"></div><div class="k-beam"></div><div class="k-window"></div>
+        <div class="k-shelf"></div><div class="k-fridge"></div>
+        <div class="k-stove"></div><div class="k-pot"></div><div class="k-cupboard"></div>
+        <div class="k-teatable"></div><div class="k-door"></div>
+      </div>
+      <!-- 아랫목: 그림이 없을 때 쓰는 임시 스케치 -->
+      <div class="araet-sketch scene-araet" aria-hidden="true">
+        <div class="a-wall"></div><div class="a-paperdoor"></div><div class="a-closet"></div><div class="a-floor"></div><div class="a-warm"></div><div class="a-cushion"></div>
+      </div>
+
+      <button id="spot-shelf" class="kitchen-spot scene-kitchen" type="button" data-store="shelf"><span data-home-text="간식 선반">간식 선반</span></button>
+      <button id="spot-fridge" class="kitchen-spot scene-kitchen" type="button" data-store="fridge"><span data-home-text="간식 냉장고">간식 냉장고</span></button>
+      <button id="spot-tea" class="kitchen-spot scene-kitchen" type="button" data-store="drinks"><span data-home-text="차와 주스">차와 주스</span></button>
+      <button id="kitchen-grandma" class="kitchen-grandma scene-kitchen" type="button" aria-label="할머니에게 밥상 부탁하기" data-home-aria="할머니에게 밥상 부탁하기">
+        <img src="images/grandma_chair.webp" alt="" draggable="false">
+      </button>
+      <button id="kitchen-return" class="kitchen-door kitchen-return scene-kitchen" type="button" data-home-text="← 거실">← 거실</button>
+      <button id="to-araet" class="kitchen-door to-araet scene-kitchen" type="button" data-home-text="아랫목 →">아랫목 →</button>
+
+      <div id="soban" class="soban scene-araet">
+        <img id="soban-art" class="soban-art" alt="" hidden>
+        <div id="soban-dishes" class="soban-dishes"></div>
+      </div>
+      <div id="araet-ibul" class="araet-ibul scene-araet" hidden aria-hidden="true"><span class="araet-pillow"></span></div>
+      <div id="araet-pets" class="araet-pets scene-araet"></div>
+      <div class="araet-night scene-araet" aria-hidden="true"><span>Z z z</span></div>
+      <button id="araet-flyer" class="araet-flyer scene-araet" type="button" hidden><span data-home-text="전단지">전단지</span></button>
+      <button id="araet-sleep" class="kitchen-door araet-sleep scene-araet" type="button" data-home-text="이불 펴고 눕기">이불 펴고 눕기</button>
+      <button id="araet-pets-toggle" class="kitchen-door araet-pets-toggle scene-araet" type="button" aria-pressed="false">🐾 동물 친구: 끔</button>
+      <button id="araet-roll" class="kitchen-door araet-roll scene-araet" type="button" data-home-text="뒹굴뒹굴" hidden>뒹굴뒹굴</button>
+      <button id="araet-return" class="kitchen-door araet-return scene-araet" type="button" data-home-text="← 부엌">← 부엌</button>
+      <button id="araet-change" class="kitchen-door araet-change scene-araet" type="button" data-home-text="다른 상 차려 주세요">다른 상 차려 주세요</button>
+
+      <div id="kitchen-avatar" class="kitchen-avatar" aria-hidden="true">
+        <div class="kitchen-shadow"></div>
+        <div class="kitchen-figure">
+          <div class="kitchen-frame"><img alt="" draggable="false"></div>
+          <img class="kitchen-eat-art" alt="" draggable="false" hidden>
+        </div>
+        <span class="kitchen-bite"></span>
+        <span class="kitchen-utensil"></span>
+      </div>
+      <p id="kitchen-speech" class="kitchen-speech" role="status" hidden></p>
+    </div>
+    <dialog id="kitchen-menu" class="kitchen-dialog" aria-labelledby="kitchen-menu-title">
+      <h2 id="kitchen-menu-title">할머니 댁 부엌</h2>
+      <p id="kitchen-menu-note" class="kitchen-menu-note"></p>
+      <div id="kitchen-foods" class="kitchen-foods"></div>
+      <form method="dialog"><button type="submit" data-home-text="닫기">닫기</button></form>
+    </dialog>
+  </section>
+  <section id="garden" class="kitchen garden" aria-labelledby="garden-heading" hidden>
+    <header class="kitchen-header">
+      <h1 id="garden-heading" data-home-text="마음 텃밭">마음 텃밭</h1>
+      <output id="garden-cans" class="garden-cans">물뿌리개 0개</output>
+    </header>
+    <div id="garden-stage" class="kitchen-stage garden-stage">
+      <img id="garden-backdrop" class="scene-backdrop" alt="" hidden>
+      <!-- 그림이 없을 때 쓰는 임시 스케치 -->
+      <div class="garden-sketch" aria-hidden="true">
+        <div class="g-sky"></div><div class="g-hill"></div><div class="g-house"></div><div class="g-fence"></div>
+        <div class="g-bed g-bed-flower"></div><div class="g-bed g-bed-veg"></div><div class="g-path"></div><div class="g-rain"></div>
+      </div>
+      <div id="garden-plots" class="garden-plots"></div>
+      <button id="garden-aunt" class="garden-person garden-aunt" type="button" aria-label="이모" data-home-aria="이모">
+        <img id="garden-aunt-art" alt="" draggable="false" hidden><span class="garden-person-fallback" aria-hidden="true">👩‍🌾</span><span class="garden-person-name" data-home-text="이모">이모</span>
+      </button>
+      <button id="garden-uncle" class="garden-person garden-uncle" type="button" aria-label="삼촌" data-home-aria="삼촌">
+        <img id="garden-uncle-art" alt="" draggable="false" hidden><span class="garden-person-fallback" aria-hidden="true">👨‍🌾</span><span class="garden-person-name" data-home-text="삼촌">삼촌</span>
+      </button>
+      <button id="garden-return" class="kitchen-door garden-return" type="button" data-home-text="← 거실">← 거실</button>
+      <div id="garden-avatar" class="kitchen-avatar" aria-hidden="true">
+        <div class="kitchen-shadow"></div>
+        <div class="kitchen-figure"><div class="kitchen-frame"><img alt="" draggable="false"></div></div>
+      </div>
+      <div id="garden-effect" class="garden-effect" aria-hidden="true"></div>
+      <p id="garden-speech" class="kitchen-speech" role="status" hidden></p>
+    </div>
+    <dialog id="garden-card" class="kitchen-dialog garden-card" aria-label="밭 살펴보기">
+      <div id="garden-card-body"></div>
+      <form method="dialog"><button type="submit" data-home-text="닫기">닫기</button></form>
+    </dialog>
+  </section>
+  <dialog id="home-story" class="kitchen-dialog home-story" aria-labelledby="home-story-title">
+    <h2 id="home-story-title"></h2>
+    <p id="home-story-page"></p>
+    <h3 id="home-story-heading"></h3>
+    <p id="home-story-text"></p>
+    <nav aria-label="동화 페이지">
+      <button id="home-story-prev" type="button">이전 장</button>
+      <button id="home-story-next" type="button">다음 장</button>
+      <button id="home-story-finish" type="button" hidden>다 읽었어요 · 책 덮기</button>
+    </nav>
+    <form method="dialog"><button type="submit">닫기</button></form>
+  </dialog>
+  <div id="home-fade" class="home-fade" aria-hidden="true" hidden></div>
+  <script src="room-language.js?v=book-hint-1"></script>
+  <script src="family.js?v=momo-quiet-1"></script>
 </body>
 </html>
 

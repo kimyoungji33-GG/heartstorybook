@@ -20,16 +20,17 @@
       say: '왔니. 이야기 하나 같이 볼까?',
       links: [{ label: '같은 하루, 다른 마음', url: URLS.sameDay },
               { label: '만약 이랬다면 어땠을까', url: URLS.whatIf }] },
-    { id: 'momo', name: '모모', img: 'images/momo-storybook.png', x: 22, y: 60.4, w: 5.25, cat: true, action: 'door',
-      say: '곧 열려요.' },
-    { id: 'semi', name: '세미', img: 'images/semi-storybook.png', x: 57.3, y: 60.8, w: 6.625, cat: true,
+    // 체험관이 열릴 때까지 모모는 말 없이 가르릉만 해요(Claude 수정, 2026-11-19).
+    // 체험관이 열리면 아래 두 가지를 다시 넣어요: action: 'door', say: '곧 열려요.'
+    { id: 'momo', name: '모모', img: 'images/momo-storybook.webp', x: 22, y: 60.4, w: 5.25, cat: true },
+    { id: 'semi', name: '세미', img: 'images/semi-storybook.webp', x: 57.3, y: 60.8, w: 6.625, cat: true,
       say: '이야기 속 마음을 찾는 열쇠가 있다냥. 같이 알아볼까냥?',
       links: [{ label: '마음열쇠 알아보기', url: 'https://kimyoungji33-gg.github.io/heartstorybook/heart-keys.html' }] }
   ];
   const DOOR = { x: 95, y: 48 }; // 문 틈으로 빛이 새는 위치(%)
   // 감 쟁반을 집는 위치(%). 미리보기에서 어색하면 숫자만 조정하면 돼요.
   const FRUIT_TABLE = { x: 40, y: 63 };
-  const EATING_IMG = { grandpa: 'images/reading-samples/grandpa_eating.png', grandma: 'images/reading-samples/grandma_eating.png' };
+  const EATING_IMG = { grandpa: 'images/reading-samples/grandpa_eating.webp', grandma: 'images/reading-samples/grandma_eating.webp' };
   const GREETING_DISTANCE = 15; // 숫자를 키우면 더 멀리서도 '인사하기'가 떠요.
   const SEMI_BLINK_MS = 4100;
   const stage = document.getElementById('stage') ||
@@ -251,6 +252,7 @@
       door.classList.add('on');
       setTimeout(function () { door.classList.remove('on'); }, 4500);
     }
+    if (!c.say && !(c.links || []).length) return;   // 할 말이 없으면 말풍선을 띄우지 않아요.
     showBubble(el, function (b) {
       const p = document.createElement('div');
       bind(p, c.say);
@@ -390,6 +392,32 @@
     }, finishPersimmon)) finishPersimmon();
   }
 
+  // 군고구마처럼 감 말고 다른 간식도 할머니 → 할아버지 순서로 드려요(Claude 추가, pets.js 가 씀).
+  function serveSnack({ pickup, onPickup, feed, eat, end }) {
+    if (busy || !avatarReady) return false;
+    beginFamilyAction();
+    const finish = () => { busy = false; end?.(); drawActions(); };
+    const order = [els.grandma, els.grandpa].filter(Boolean);
+    function next(index) {
+      if (index >= order.length) { eat(finish); return; }
+      const entry = order[index];
+      const target = { ...entry.c, offsetX: entry.c.id === 'grandma' ? 8.8 : -8.8, offsetY: 8 };
+      if (!window.roomAvatar.approach(target, () => {
+        window.roomAvatar.faceToward(entry.c.x);
+        entry.el.classList.add('is-nodding');
+        feed(entry.c.id, entry.el, () => {
+          entry.el.classList.remove('is-nodding');
+          next(index + 1);
+        });
+      }, finish)) finish();
+    }
+    if (!window.roomAvatar.approach({ ...pickup, offsetX: 0, offsetY: 0 }, () => {
+      onPickup?.();
+      next(0);
+    }, finish)) { finish(); return false; }
+    return true;
+  }
+
   function placeGreeting(control) {
     if (!control.offsetWidth) return;
     const room = stage.getBoundingClientRect();
@@ -456,7 +484,10 @@
 
   window.roomFamily = {
     draw: drawActions,
+    // pets.js 가 고양이를 돌아다니게 할 때 써요(Claude 추가).
+    pets: () => FAMILY.filter(c => c.cat && els[c.id]).map(c => els[c.id]),
     givePersimmon,
+    serveSnack,
     blockers: () => FAMILY.filter(c => els[c.id]?.el.isConnected).map(c => ({
       x: c.x, y: c.y - (c.cat ? 1 : 3.2),
       rx: c.w * (c.cat ? .31 : .34), ry: c.cat ? 2.1 : 5.3,
