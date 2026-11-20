@@ -47,6 +47,11 @@
     bori: {
       lie: 'images/pets/bori-lie.webp', sit: 'images/pets/bori-sit.webp',
       run: 'images/pets/bori-run.webp', carry: 'images/pets/bori-carry.png',
+      // 11-20 저녁: 있으면 씀(ChatGPT 그림 → Claude가 webp로 바꿔 넣음)
+      walk1: 'images/pets/bori-walk-1.webp', walk2: 'images/pets/bori-walk-2.webp',
+      walk3: 'images/pets/bori-walk-3.webp', walk4: 'images/pets/bori-walk-4.webp',
+      wake: 'images/pets/bori-wake.webp',
+      // bori-lean(턱 괴고 쉬기) 그림은 폴더에 보관. 나중에 이야기 나누기 낮은 방석에 둘러앉을 때 쓸 예정.
     },
     tower: 'images/pets/cat-tower.png',            // 2층 캣타워(있으면 씀)
     toyBasket: 'images/pets/toy-basket.png',       // 장난감 바구니(있으면 씀)
@@ -93,7 +98,7 @@
   const whoosh = () => tone(500, .35, 'sine', .05, 2.2);
 
   // ---------- 움직이기 ----------
-  function moveTo(item, target, speed, onStep, done) {
+  function moveTo(item, target, speed, onStep, done, steady = false) {
     cancelAnimationFrame(item.frame || 0);
     const start = { x: item.x, y: item.y };
     const length = Math.hypot((target.x - start.x) * 1.78, target.y - start.y);
@@ -101,7 +106,8 @@
     const began = performance.now();
     const step = now => {
       const p = duration ? Math.min(1, (now - began) / duration) : 1;
-      const e = p < .5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+      // steady: 걷기 그림과 맞게 같은 빠르기로(처음과 끝에 미끄러지지 않게)
+      const e = steady ? p : (p < .5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2);
       item.x = start.x + (target.x - start.x) * e;
       item.y = start.y + (target.y - start.y) * e;
       onStep?.();
@@ -284,7 +290,19 @@
   }
 
   // ---------- 보리 ----------
-  const bori = { x: BORI_HOME.x, y: BORI_HOME.y, state: 'lie', facing: -1, frame: 0, el: null, img: null, icon: null };
+  // 11-20 저녁: 자연스럽게 다듬기
+  // - 그림을 바꿀 때 툭 바뀌지 않고 0.5초 동안 스르르 겹쳐 바뀌어요(두 장을 겹쳐 두고 번갈아 씀).
+  // - 걸을 때: 걷기 그림 4장(bori-walk-1~4)이 있으면 번갈아 보여 진짜 걷는 것처럼, 없으면 걸음 그림 한 장이 살짝만 흔들려요.
+  // - 자다가 누르면: 고개 드는 그림(bori-wake)이 있으면 먼저 고개를 들고, 그다음 천천히 일어나 앉아요. 잠시 뒤 다시 엎드려요.
+  // - 책 읽기: 누군가 책을 읽으면 노란 방석 오른쪽으로 와서 몸을 붙이고 엎드려요.
+  const bori = { x: BORI_HOME.x, y: BORI_HOME.y, state: 'lie', facing: -1, frame: 0, el: null, img: null, imgs: null, cur: 0, icon: null, walkTimer: 0, fadeTimer: 0, napTimer: 0 };
+  // 그림 크기(보리 상자 너비 13% 기준, 같은 강아지 크기로 보이게)
+  const BORI_SIZE = { lie: 100, wake: 100, sit: 57.7, run: 92.3, walk: 96.5, carry: 92.3 };
+  const BORI_WALK = [ART.bori.walk1, ART.bori.walk2, ART.bori.walk3, ART.bori.walk4];
+  const hasWalkFrames = () => BORI_WALK.every(path => found[path]);
+  // 걸음 빠르기(어슬렁어슬렁): 다리 한 동작 0.38초, 몸은 그 걸음만큼만 나아가게(다리만 파다닥 빨리 움직이지 않게)
+  const BORI_STEP_MS = 380;
+  const BORI_WALK_SPEED = 6.5;
   function boriAvailable() {
     return Boolean(found[ART.bori.lie] || found[ART.bori.sit]) || !isPublic;
   }
@@ -295,32 +313,43 @@
     el.className = 'pet-bori';
     el.dataset.homeAria = '보리';
     el.setAttribute('aria-label', t('보리'));
-    const img = document.createElement('img');
-    img.alt = '';
-    img.draggable = false;
+    const imgs = [0, 1].map(() => {
+      const img = document.createElement('img');
+      img.alt = '';
+      img.draggable = false;
+      img.hidden = true;
+      return img;
+    });
     const icon = document.createElement('span');
     icon.className = 'pet-bori-icon';
     icon.textContent = '🐕';
-    el.append(img, icon);
+    el.append(...imgs, icon);
     el.addEventListener('click', event => {
       event.stopPropagation();
-      // 11-20: 누르면 소리와 하트 없이, 꼬리만 살랑이고 누워 있었으면 일어나 앉아요.
-      el.classList.remove('is-wagging');
-      void el.offsetWidth;
-      el.classList.add('is-wagging');
-      if (bori.state === 'lie') showBori('sit');
+      // 소리·하트 없이: 자고 있었으면 천천히 깨서 일어나 앉아요.
+      if (bori.state !== 'lie' || readingWithBori || bori.frame) return;
+      clearTimeout(bori.napTimer);
+      const sitUp = () => {
+        if (bori.state !== 'wake' && bori.state !== 'lie') return;
+        showBori('sit');
+        bori.napTimer = setTimeout(() => {
+          if (bori.state === 'sit' && !readingWithBori && !bori.frame) showBori('lie');
+        }, still() ? 0 : 12000);
+      };
+      if (found[ART.bori.wake]) { showBori('wake'); bori.napTimer = setTimeout(sitUp, still() ? 0 : 1100); }
+      else sitUp();
     });
     stage.append(el);
-    Object.assign(bori, { el, img, icon });
+    Object.assign(bori, { el, imgs, img: imgs[0], icon });
     blockAvatarAtBori();
     placeBori();
-    showBori('lie');
+    showBori('lie', bori.facing, false);
   }
   // 11-20: 아바타가 보리를 통과하지 않고 비켜 가게, 가만히 있는 보리 자리를 길막이(고양이처럼)로 더해요.
   // room.js 는 그대로 두고, family.js 의 blockers 목록에 보리 하나만 덧붙여요.
   function boriShape() {
-    if (!bori.el || bori.state === 'run' || bori.state === 'carry') return null;
-    const lying = bori.state === 'lie';
+    if (!bori.el || bori.state === 'run' || bori.state === 'carry' || bori.frame) return null;
+    const lying = bori.state === 'lie' || bori.state === 'wake';
     const shape = { x: bori.x, y: bori.y - (lying ? 1.2 : 1), rx: lying ? 5.2 : 2.4, ry: lying ? 1.7 : 1.4, sortKey: bori.y };
     // 아바타가 이미 보리 자리에 서 있으면(보리가 그 옆으로 온 경우) 갇히지 않게 이번엔 빼요.
     const a = avatarSpot();
@@ -345,22 +374,58 @@
     bori.el.style.top = bori.y + '%';
     bori.el.style.zIndex = String(Math.round(bori.y * 10));
   }
-  function showBori(state, facing = bori.facing) {
+  // 그림 바꾸기: fade 이면 새 그림이 스르르 나타나고 예전 그림이 스르르 사라져요.
+  function setBoriArt(path, size, fade) {
+    const [a, b] = [bori.imgs[bori.cur], bori.imgs[1 - bori.cur]];
+    clearTimeout(bori.fadeTimer);
+    b.classList.remove('is-in', 'is-out');
+    a.classList.remove('is-in', 'is-out');
+    if (a.dataset.path === path && !a.hidden) { a.style.width = size + '%'; b.hidden = true; return; }
+    if (!fade || still() || a.hidden) {
+      a.src = path; a.dataset.path = path; a.style.width = size + '%'; a.hidden = false; b.hidden = true;
+      return;
+    }
+    b.src = path; b.dataset.path = path; b.style.width = size + '%'; b.hidden = false;
+    b.classList.add('is-in');
+    a.classList.add('is-out');
+    bori.cur = 1 - bori.cur;
+    bori.img = b;
+    bori.fadeTimer = setTimeout(() => { a.hidden = true; a.classList.remove('is-out'); b.classList.remove('is-in'); }, 520);
+  }
+  function stopWalking() {
+    clearInterval(bori.walkTimer);
+    bori.walkTimer = 0;
+    bori.el?.classList.remove('has-walk');
+  }
+  function showBori(state, facing = bori.facing, fade = true) {
     if (!bori.el) return;
+    stopWalking();
     bori.state = state;
     bori.facing = facing;
-    const order = { lie: ['lie', 'sit'], sit: ['sit', 'lie'], run: ['run', 'sit'], carry: ['carry', 'run', 'sit'] }[state];
-    const path = order.map(key => found[ART.bori[key]] && ART.bori[key]).find(Boolean);
-    bori.img.hidden = !path;
-    bori.icon.hidden = Boolean(path);
-    if (path && bori.img.getAttribute('src') !== path) bori.img.src = path;
     bori.el.style.setProperty('--facing', facing < 0 ? -1 : 1);
     bori.el.dataset.state = state;
+    if ((state === 'run' || state === 'carry') && hasWalkFrames()) {
+      let i = 0;
+      bori.el.classList.add('has-art', 'has-walk');
+      bori.icon.hidden = true;
+      setBoriArt(found[BORI_WALK[0]], BORI_SIZE.walk, false);
+      if (!still()) bori.walkTimer = setInterval(() => { i = (i + 1) % 4; setBoriArt(found[BORI_WALK[i]], BORI_SIZE.walk, false); }, BORI_STEP_MS);
+      return;
+    }
+    const order = { lie: ['lie', 'sit'], sit: ['sit', 'lie'], wake: ['wake', 'sit', 'lie'], run: ['run', 'sit'], carry: ['carry', 'run', 'sit'] }[state];
+    const key = order.find(k => found[ART.bori[k]]);
+    bori.icon.hidden = Boolean(key);
+    bori.el.classList.toggle('has-art', Boolean(key));
+    if (!key) { bori.imgs.forEach(img => { img.hidden = true; }); return; }
+    // 걷기 시작과 멈춤은 바로, 나머지(깨기, 일어나기, 엎드리기, 기대기)는 스르르
+    const quick = state === 'run' || state === 'carry' || bori.imgs[bori.cur].dataset.path?.includes('-walk-');
+    setBoriArt(found[ART.bori[key]], BORI_SIZE[key], fade && !quick);
   }
 
   // ---------- 보리와 같이 책 읽기 ----------
-  // 방석에 앉아 책을 펴면 보리가 와서 옆에 엎드려요. 책을 덮거나 일어나면 원래 자리로 돌아가요.
-  const READ_SPOT = { x: 63.5, y: 67.5 };   // 방석 왼쪽 앞, 아바타를 바라보는 자리
+  // 방석에 앉아 책을 펴면 보리가 와서 옆에 기대거나 엎드려요. 책을 덮거나 일어나면 원래 자리로 돌아가요.
+  // 11-20: 누군가 책을 읽으면 햇살 자리에서 쉬던 보리가 노란 방석 오른쪽으로 와서 몸을 붙이고 엎드려요(턱은 앞발에, 세미와 안 겹치게).
+  const READ_SPOT = { x: 77, y: 61.5 };
   let readingWithBori = false;
   function isReading() {
     const open = $('home-story-open');
@@ -371,13 +436,13 @@
     const reading = isReading();
     if (reading === readingWithBori) return;
     readingWithBori = reading;
+    clearTimeout(bori.napTimer);
     const target = reading ? READ_SPOT : BORI_HOME;
     cancelAnimationFrame(bori.frame || 0);
     showBori('run', target.x < bori.x ? -1 : 1);
-    moveTo(bori, target, 7, placeBori, () => {
-      if (readingWithBori) { showBori('sit', 1); setTimeout(() => readingWithBori && showBori('lie', 1), still() ? 0 : 1200); }
-      else showBori('lie', -1);
-    });
+    moveTo(bori, target, BORI_WALK_SPEED, placeBori, () => {
+      showBori('lie', -1);
+    }, hasWalkFrames());
   }
   setInterval(watchReading, 700);
 
