@@ -304,17 +304,40 @@
     el.append(img, icon);
     el.addEventListener('click', event => {
       event.stopPropagation();
-      woof();
+      // 11-20: 누르면 소리와 하트 없이, 꼬리만 살랑이고 누워 있었으면 일어나 앉아요.
       el.classList.remove('is-wagging');
       void el.offsetWidth;
       el.classList.add('is-wagging');
-      heart(bori.x, bori.y - 9);
       if (bori.state === 'lie') showBori('sit');
     });
     stage.append(el);
     Object.assign(bori, { el, img, icon });
+    blockAvatarAtBori();
     placeBori();
     showBori('lie');
+  }
+  // 11-20: 아바타가 보리를 통과하지 않고 비켜 가게, 가만히 있는 보리 자리를 길막이(고양이처럼)로 더해요.
+  // room.js 는 그대로 두고, family.js 의 blockers 목록에 보리 하나만 덧붙여요.
+  function boriShape() {
+    if (!bori.el || bori.state === 'run' || bori.state === 'carry') return null;
+    const lying = bori.state === 'lie';
+    const shape = { x: bori.x, y: bori.y - (lying ? 1.2 : 1), rx: lying ? 5.2 : 2.4, ry: lying ? 1.7 : 1.4, sortKey: bori.y };
+    // 아바타가 이미 보리 자리에 서 있으면(보리가 그 옆으로 온 경우) 갇히지 않게 이번엔 빼요.
+    const a = avatarSpot();
+    const dx = (a.x - shape.x) / (shape.rx + 2.5);
+    const dy = (a.y - shape.y) / (shape.ry + 3);
+    return dx * dx + dy * dy < 1 ? null : shape;
+  }
+  function blockAvatarAtBori() {
+    const family = window.roomFamily;
+    if (!family || family.withBori) return;
+    const base = family.blockers;
+    family.blockers = () => {
+      const list = base();
+      const shape = boriShape();
+      return shape ? list.concat(shape) : list;
+    };
+    family.withBori = true;
   }
   function placeBori() {
     if (!bori.el) return;
