@@ -257,7 +257,7 @@
 
 
 /* 새 방의 배경과 가구 윤곽 */
-.room { --room-image: url("images/room_a_chair_03_shelf_v2.png?v=shelf-pot-removed"); --shadow-tune: .7; aspect-ratio: 16/9; }
+.room { --room-image: url("images/room_a_chair_03_shelf_v2.png?v=no-basket"); --shadow-tune: .7; aspect-ratio: 16/9; }
 .chair-layer {clip-path:ellipse(5.6% 5.2% at 68.1% 53.5%); z-index:587;}
 .chair-target {left:62.5%;top:48.6%;width:11.2%;height:10.2%;border-radius:50%;}
 .weather-radio {left:48.15%;top:23.9%;width:4.05%;height:5.85%;}

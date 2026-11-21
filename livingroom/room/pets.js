@@ -18,7 +18,9 @@
   // ---------- 켜고 끄기 ----------
   // 11-17 밤: 고양이는 할아버지·할머니처럼 원래 자리에 가만히 있어요. 보리만 더해서 같이 책 읽기.
   // 캣타워, 고양이 돌아다니기, 장난감 바구니(낚싯대·공·인형)는 코드만 남겨 두고 꺼 뒀어요. 다시 쓰려면 true.
-  const FEATURES = { catsMove: false, catTower: false, toyBasket: false };
+  const FEATURES = { catsMove: false, catTower: false, toyBasket: false, catNap: true };
+  // 11-21: 모모·세미는 보리 곁 햇살 자리에서 낮잠. 누르면 일어나 앉았다가 12초 뒤 다시 자요(걷기는 나중에).
+  const NAP_SPOT = { momo: { x: 86.8, y: 70.6, facing: 1, width: 12 }, semi: { x: 77.4, y: 70.9, facing: 1, width: 7.2 } }; // 보리 아래쪽(앞). width: 새 자는 그림(11-21) 너비 %
 
   // ---------- 자리(거실 그림 기준 %) ----------
   // 2층 캣타워: 벽난로 옆(담요 바구니 자리). 1층은 세미, 2층은 모모 자리예요.
@@ -163,6 +165,27 @@
       });
     }
     if (FEATURES.catsMove) cats.forEach(cat => schedule(cat, 6000 + Math.random() * 10000));
+    if (FEATURES.catNap) cats.forEach(napWithBori);
+  }
+
+  // 보리 곁에서 낮잠, 누르면 일어나 앉기
+  function napWithBori(cat) {
+    const spot = NAP_SPOT[cat.id];
+    if (!spot || cat.napSetup) return;
+    cat.napSetup = true;
+    cat.x = spot.x; cat.y = spot.y; cat.home = { x: spot.x, y: spot.y };
+    placeCat(cat);
+    showCat(cat, 'sleep', spot.facing);
+    // 새 자는 그림이 늦게 불러와져도 다시 그려요.
+    probe(ART[cat.id]?.newSleep, () => { if (cat.state === 'sleep') showCat(cat, 'sleep', spot.facing); });
+    cat.el.addEventListener('click', () => {
+      clearTimeout(cat.napTimer);
+      if (cat.state === 'sleep') showCat(cat, 'sit', spot.facing);
+      cat.napTimer = setTimeout(() => {
+        if (document.querySelector('.fam-bubble') && cat.id === 'semi') { cat.napTimer = setTimeout(() => showCat(cat, 'sleep', spot.facing), 8000); return; }
+        showCat(cat, 'sleep', spot.facing);
+      }, still() ? 4000 : 12000);
+    });
   }
 
   function placeCat(cat) {
@@ -185,7 +208,7 @@
     if (state === 'side') src = side;
     if (state === 'jump') src = found[art.newJump] || side;
     if (state === 'walk' || state === 'side' || state === 'jump') width = cat.baseWidth * (cat.id === 'momo' ? 1.25 : 1.05);
-    if (state === 'sleep') { src = found[art.newSleep] || art.sleep; width = cat.baseWidth * 1.5; }
+    if (state === 'sleep') { src = found[art.newSleep] || art.sleep; width = found[art.newSleep] && NAP_SPOT[cat.id]?.width || cat.baseWidth * 1.5; }
     if (cat.img.getAttribute('src') !== src) cat.img.src = src;
     const front = state === 'sit';
     cat.img.style.aspectRatio = front ? '' : 'auto';

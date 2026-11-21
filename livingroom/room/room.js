@@ -893,6 +893,10 @@ window.roomAvatar = {
   hasPersimmonArt() {
     return persimmonArt.has(visitor?.id);
   },
+  // 지금 아바타 종류(woman, man, boy, girl). 불멍 그림 고를 때 씀(Claude 추가, 11-21).
+  visitorId() {
+    return visitor?.id;
+  },
   faceToward(x) {
     if (!visitor || mode !== 'idle') return;
     direction = x < position.x ? -1 : 1;

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="kitchen.css?v=kitchen-stage-3b">
   <link rel="stylesheet" href="garden.css?v=garden-5">
   <link rel="stylesheet" href="pets.css?v=sweet-potato-tray-1">
-  <link rel="stylesheet" href="motion.css?v=floor-weather">
+  <link rel="stylesheet" href="motion.css?v=no-basket">
   <script src="settings.js?v=public-reading"></script>
   <script>
     // Parser-ordered scripts ensure optional features are ready before the room starts.
@@ -29,9 +29,10 @@
   <script src="kitchen.js?v=webp-1" defer></script>
   <script src="garden.js?v=webp-1" defer></script>
   <script src="family-photo.js?v=photo-1" defer></script>
-  <script src="pets.js?v=sweet-potato-tray-2" defer></script>
+  <script src="pets.js?v=cat-nap-3" defer></script>
   <script src="fireplace.js?v=fire-3" defer></script>
-  <script src="room.js?v=sweet-potato-tray-1" defer></script>
+  <script src="firewatch.js?v=fw-3" defer></script>
+  <script src="room.js?v=firewatch-1" defer></script>
 </head>
 <body>
   <main id="experience" class="experience" aria-label="마음동화책방 새 책방" data-room-aria="마음동화책방 새 책방"
@@ -51,8 +52,8 @@
       </div>
       <output class="home-stars room-stars" data-home-stars hidden>마음 별 5개</output>
     </header>
-    <div id="stage" class="room room-width" style="--room-image: url('images/room_a_chair_03_shelf_v2.webp?v=lighter')" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
-      <img class="room-picture" src="images/room_a_chair_03_shelf_v2.webp?v=lighter" alt="벽난로와 안락의자, 바닥 방석이 있는 책방" draggable="false"
+    <div id="stage" class="room room-width" style="--room-image: url('images/room_a_chair_03_shelf_v2.webp?v=no-basket')" aria-label="햇살이 드는 책방" data-room-aria="햇살이 드는 책방">
+      <img class="room-picture" src="images/room_a_chair_03_shelf_v2.webp?v=no-basket" alt="벽난로와 안락의자, 바닥 방석이 있는 책방" draggable="false"
         onerror="if(!this.dataset.retries||+this.dataset.retries<3){this.dataset.retries=(+this.dataset.retries||0)+1;var s=this.src.split('?')[0];setTimeout(()=>{this.src=s+'?retry='+this.dataset.retries+'-'+Date.now();}, 400*this.dataset.retries);}">
       <button id="kitchen-entry" class="kitchen-door kitchen-entry" type="button" data-home-text="← 부엌 가기">← 부엌 가기</button>
       <button id="garden-entry" class="kitchen-door garden-entry" type="button" data-home-text="텃밭 가기 →">텃밭 가기 →</button>
