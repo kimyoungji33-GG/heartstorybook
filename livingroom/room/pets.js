@@ -56,8 +56,8 @@
     tower: 'images/pets/cat-tower.png',            // 2층 캣타워(있으면 씀)
     toyBasket: 'images/pets/toy-basket.png',       // 장난감 바구니(있으면 씀)
     ball: 'images/pets/toy-ball.png', doll: 'images/pets/toy-doll.png', wand: 'images/pets/toy-wand.png',
-    sweetPotato: 'images/pets/sweet-potato.png',
-    elderEat: { grandma: 'images/pets/grandma-sweet-potato.png', grandpa: 'images/pets/grandpa-sweet-potato.png' },
+    sweetPotato: 'images/pets/sweet-potato.webp',   // 11-20: ChatGPT 그림(원본 png 도 폴더에)
+    elderEat: { grandma: 'images/pets/grandma-sweet-potato.webp', grandpa: 'images/pets/grandpa-sweet-potato.webp' },
   };
   const found = {};
   function probe(path, done) {
@@ -696,6 +696,8 @@
     }, still() ? 600 : 1800);
   }
   function steamPuff() {
+    // 군고구마 그림에 김이 그려져 있으면 글자 김(〰)은 넣지 않아요.
+    if (found[ART.sweetPotato]) return document.createTextNode('');
     const steam = document.createElement('span');
     steam.className = 'pet-steam';
     steam.textContent = '〰';
@@ -705,11 +707,17 @@
     event.stopPropagation();
     if (eating || !window.roomAvatar) return;
     eating = true;
-    const done = () => { stopCarry(); eating = false; };
+    // 감처럼 쟁반에 담아 나르기: 아바타의 군고구마 쟁반 그림이 있으면 그걸, 없으면 예전처럼 손 앞에 고구마.
+    const tray = Boolean(window.roomAvatar.hasPersimmonArt?.());
+    const done = () => { stopCarry(); if (tray) window.roomAvatar.setCarrying(null); eating = false; };
     const serve = window.roomFamily?.serveSnack;
     const started = serve ? serve({
       pickup: POT_APPROACH,
-      onPickup: () => { window.roomAvatar.faceToward(POT.x); startCarry(); },
+      onPickup: () => {
+        window.roomAvatar.faceToward(POT.x);
+        if (tray) window.roomAvatar.setCarrying('carry', 'sweetPotato');
+        else startCarry();
+      },
       feed: feedElder,
       eat: finish => { stopCarry(); eatSweetPotato(finish); },
       end: done,
@@ -721,6 +729,25 @@
   });
   // 대사 없이, 호호 불어서 먹어요(김이 훅 날아가요).
   function eatSweetPotato(done) {
+    if (window.roomAvatar.hasPersimmonArt?.()) {
+      // 포크로 한 조각 들고 호호 불어 먹는 그림 + 입김
+      const frame = $('frame')?.getBoundingClientRect();
+      const box = stage.getBoundingClientRect();
+      const facing = window.roomAvatar.facing?.() ?? 1;
+      const spot = document.createElement('span');
+      spot.className = 'pet-sweet-potato pet-blow-spot';
+      if (frame) {
+        spot.style.left = pct(frame.left + frame.width * (facing > 0 ? .64 : .36) - box.left, box.width);
+        spot.style.top = pct(frame.top + frame.height * .2 - box.top, box.height);
+      }
+      if (facing < 0) spot.style.scale = '-1 1';
+      stage.append(spot);
+      const blow = () => { const puff = document.createElement('span'); puff.className = 'pet-blow'; spot.append(puff); setTimeout(() => puff.remove(), 900); };
+      blow(); const second = setTimeout(blow, 800); const third = setTimeout(blow, 1700);
+      tone(300, .25, 'sine', .05, .8);
+      window.roomAvatar.eatPersimmon(() => { clearTimeout(second); clearTimeout(third); spot.remove(); done(); }, 'sweetPotato', 3000);
+      return;
+    }
     const frame = $('frame')?.getBoundingClientRect();
     const box = stage.getBoundingClientRect();
     const piece = snackIcon(found[ART.sweetPotato]);

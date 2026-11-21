@@ -172,6 +172,17 @@ const persimmonSprites = {
 };
 const persimmonArt = new Map();
 let persimmonStage = null; // null | 'carry' | 'eating'
+// 군고구마도 감 쟁반 그림과 같은 크기의 그림(carry_sweetpotato_*, eating_sweetpotato_*)으로 바꿔 써요(Claude 추가, 2026-11-20).
+let snackKind = 'persimmon';
+function snackPath(path) {
+  if (snackKind !== 'sweetPotato' || typeof path !== 'string') return path;
+  return path.replace('carry_tray_', 'carry_sweetpotato_').replace('eating_persimmon_', 'eating_sweetpotato_');
+}
+function preloadSnack(art) {
+  if (!art) return;
+  [art.carry, art.eating, art.stride, art.passing, ...(art.walkCycle || [])]
+    .forEach(path => { if (typeof path === 'string') new Image().src = snackPath(path); });
+}
 let activeSeat = null;
 let lastSeat = seats.window;
 let seatProgress = 0;
@@ -415,12 +426,12 @@ function draw() {
     const standingHeight = standHeight(position);
     const persimmon = persimmonStage ? persimmonArt.get(visitor.id) : null;
     const activityArt = persimmon ? {
-      carry: persimmon[persimmonStage],
+      carry: snackPath(persimmon[persimmonStage]),
       fit: { carry: persimmon.fit },
       ...(persimmonStage === 'carry' ? {
-        walkCycle: persimmon.walkCycle,
-        stride: persimmon.stride,
-        passing: persimmon.passing,
+        walkCycle: persimmon.walkCycle?.map(snackPath),
+        stride: snackPath(persimmon.stride),
+        passing: snackPath(persimmon.passing),
         walkFrame: persimmon.walkFrame,
       } : {}),
     } : null;
@@ -887,19 +898,25 @@ window.roomAvatar = {
     direction = x < position.x ? -1 : 1;
     draw();
   },
-  setCarrying(stage) {
+  setCarrying(stage, kind = 'persimmon') {
     persimmonStage = stage;
+    snackKind = stage ? kind : 'persimmon';
+    if (stage) preloadSnack(persimmonArt.get(visitor?.id));
     draw();
   },
-  eatPersimmon(after) {
+  eatPersimmon(after, kind = 'persimmon', ms = 1300) {
     persimmonStage = 'eating';
+    snackKind = kind;
     draw();
     setTimeout(() => {
       persimmonStage = null;
+      snackKind = 'persimmon';
       draw();
       after?.();
-    }, stillMotion() ? 200 : 1300);
+    }, stillMotion() ? 200 : ms);
   },
+  // 먹는 그림의 입 쪽 위치(아바타 그림 상자 기준 0~1). 호호 입김 놓을 때 씀.
+  facing() { return direction; },
 };
 
 const weatherKey = 'maeum_weather_v1';
