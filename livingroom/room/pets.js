@@ -60,12 +60,17 @@
     elderEat: { grandma: 'images/pets/grandma-sweet-potato.webp', grandpa: 'images/pets/grandpa-sweet-potato.webp' },
   };
   const found = {};
+  // 그림을 불러오는 중에 다시 물어보면, 다 불러온 뒤에 알려 줘요(11-20 고침: 공개판에서 찜기가 계속 숨어 있던 문제).
+  const waiting = {};
   function probe(path, done) {
-    if (found[path] !== undefined) { if (found[path]) done?.(path); return; }
+    if (found[path]) { done?.(path); return; }
+    if (found[path] === false) return;
+    if (done) (waiting[path] ||= []).push(done);
+    if (found[path] === null) return;
     found[path] = null;
     const image = new Image();
-    image.onload = () => { found[path] = path; done?.(path); };
-    image.onerror = () => { found[path] = false; };
+    image.onload = () => { found[path] = path; (waiting[path] || []).forEach(f => f(path)); delete waiting[path]; };
+    image.onerror = () => { found[path] = false; delete waiting[path]; };
     image.src = path;
   }
   Object.values(ART).forEach(value => {
