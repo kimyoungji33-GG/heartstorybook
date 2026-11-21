@@ -716,7 +716,6 @@
       piece.append(steamPuff());
       stage.append(piece);
     }
-    tone(330, .2, 'sine', .04, .8);
     setTimeout(() => {
       piece?.remove();
       if (own && img && before) img.src = before;
@@ -735,9 +734,10 @@
     event.stopPropagation();
     if (eating || !window.roomAvatar) return;
     eating = true;
+    pot.classList.add('is-open');
     // 감처럼 쟁반에 담아 나르기: 아바타의 군고구마 쟁반 그림이 있으면 그걸, 없으면 예전처럼 손 앞에 고구마.
     const tray = Boolean(window.roomAvatar.hasPersimmonArt?.());
-    const done = () => { stopCarry(); if (tray) window.roomAvatar.setCarrying(null); eating = false; };
+    const done = () => { stopCarry(); if (tray) window.roomAvatar.setCarrying(null); pot.classList.remove('is-open'); eating = false; };
     const serve = window.roomFamily?.serveSnack;
     const started = serve ? serve({
       pickup: POT_APPROACH,
@@ -772,7 +772,6 @@
       stage.append(spot);
       const blow = () => { const puff = document.createElement('span'); puff.className = 'pet-blow'; spot.append(puff); setTimeout(() => puff.remove(), 900); };
       blow(); const second = setTimeout(blow, 800); const third = setTimeout(blow, 1700);
-      tone(300, .25, 'sine', .05, .8);
       window.roomAvatar.eatPersimmon(() => { clearTimeout(second); clearTimeout(third); spot.remove(); done(); }, 'sweetPotato', 3000);
       return;
     }
@@ -788,7 +787,6 @@
     stage.append(piece);
     const blow = () => { const puff = document.createElement('span'); puff.className = 'pet-blow'; piece.append(puff); setTimeout(() => puff.remove(), 900); };
     blow(); const second = setTimeout(blow, 700);
-    tone(300, .25, 'sine', .05, .8);
     setTimeout(() => { clearTimeout(second); piece.remove(); done(); }, still() ? 1500 : 3400);
   }
 
