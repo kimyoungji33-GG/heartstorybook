@@ -65,6 +65,17 @@
 .pet-basket-target:not(.has-art) { background: radial-gradient(circle at 30% 18%, #e0503c 0 13%, #0000 14%), radial-gradient(circle at 62% 14%, #c8925a 0 12%, #0000 13%), linear-gradient(#0000 28%, #b8834a 28%, #a06d38 100%); border-radius: 4px 4px 40% 40% / 4px 4px 30% 30%; }
 .pet-basket-target.has-art { background: center bottom / contain no-repeat; }
 .pet-pot-target { left: 14.8%; top: 40.5%; width: 4.6%; height: 7.5%; min-height: 0; }
+/* 11-21: 솥이 누르는 곳인지 알아보게 김이 살짝 피어올라요 */
+.pet-pot-target::before, .pet-pot-target::after {
+  content: ""; position: absolute; left: -72%; bottom: 108%; width: 50%; height: 85%; border-radius: 50%;
+  background: radial-gradient(ellipse at center, #fffdf8f0 0%, #fffaf088 40%, #fff8ec00 70%);
+  filter: blur(3px); pointer-events: none; opacity: 0; animation: pot-steam 3.6s ease-out infinite;
+}
+.pet-pot-target::after { left: -92%; animation-delay: 1.8s; }
+@keyframes pot-steam { 0% { opacity: 0; translate: 0 6px; scale: .6; } 25% { opacity: 1; } 100% { opacity: 0; translate: 6px -40px; scale: 1.6; } }
+.pet-pot-target:hover::before, .pet-pot-target:hover::after { animation-duration: 2.2s; }
+@media (prefers-reduced-motion: reduce) { .pet-pot-target::before, .pet-pot-target::after { animation: none; opacity: .5; } }
+
 .pet-toy-menu {
   position: absolute; left: 6%; top: 50%; z-index: 4000; display: grid; gap: 6px; padding: 10px;
   border-radius: 14px; background: #fff6e4f2; box-shadow: 0 8px 22px #2b190d55;
