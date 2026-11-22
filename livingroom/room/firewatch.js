@@ -98,6 +98,7 @@
     cushions[index]?.classList.add('is-taken');
     requestAnimationFrame(() => sitter.classList.add('is-shown'));
     sitting = { index, sitter };
+    window.roomYuzuTea?.startCollecting?.();
     const crackle = () => { window.roomFire?.crackle?.(8, .45); crackleTimer = setTimeout(crackle, 7600); };
     crackle();
   }
@@ -108,6 +109,7 @@
     window.roomFire?.quiet?.();
     const { index, sitter } = sitting;
     sitting = null;
+    window.roomYuzuTea?.stopCollecting?.();
     document.body.classList.remove('is-firewatching');
     cushions[index]?.classList.remove('is-taken');
     sitter.remove();
