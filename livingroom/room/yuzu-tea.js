@@ -146,10 +146,7 @@
 
   function startCollecting() {
     collectedThisSitting = 0;
-    // 앉을 때마다 0개부터 새로 모아요.
-    count = 0;
-    saveCount();
-    drawJar();
+    // 일어났다 다시 앉아도 모은 유자는 그대로, 이어서 모여요.
     scheduleNext();
   }
 
@@ -232,7 +229,13 @@
       // 할머니 → 할아버지 다음에 아바타도 자기 찻잔으로 한 모금 마셔요(drink_yuzutea_*).
       eat: finish => {
         stopCarry();
-        window.roomAvatar.eatPersimmon(finish, 'yuzuTea', 1800);
+        window.roomAvatar.eatPersimmon(() => {
+          // 할머니, 할아버지, 아바타가 다 마신 뒤에만 0개로 돌아가요.
+          count = 0;
+          saveCount();
+          drawJar();
+          finish();
+        }, 'yuzuTea', 1800);
       },
       end: finishServing,
     });
@@ -240,10 +243,6 @@
       finishServing();
       return false;
     }
-    // 차를 드리면 0개로 돌아가요.
-    count = 0;
-    saveCount();
-    drawJar();
     return true;
   }
 
