@@ -11,12 +11,15 @@
   // 할머니 찻잔 오른쪽에 주전자와 유자 단지를 나란히 놓아요.
   const TEAPOT = { x: 47.8, y: 52.2, w: 5.3 };
   const JAR = { x: 50.6, y: 52.2, w: 2.35 };
-  const PICKUP = { x: JAR.x, y: 49.5 };
+  // 감 쟁반처럼 탁자 앞에서 집어 들어요(탁자 뒤로 들어가지 않게).
+  const PICKUP = { x: 49, y: 63 };
+  // 단지와 주전자는 탁자 그림(table-new, 656) 바로 위에 놓여요.
+  // 아바타가 탁자 앞에 서면 아바타가 더 앞에 보여요.
+  const TABLE_DEPTH = 658;
   const ART = {
     jars: [0, 1, 2, 3].map(index => `images/tea/yuzu-jar-${index}.webp`),
     teapot: 'images/tea/yuzu-teapot.png',
     pieces: ['images/tea/yuzu-peel.webp', 'images/tea/yuzu-slice.webp'],
-    tray: 'images/tea/tea-yuzu.webp',
     drinking: {
       grandma: 'images/tea/grandma-yuzutea.webp',
       grandpa: 'images/tea/grandpa-yuzutea.webp',
@@ -30,12 +33,12 @@
   const css = document.createElement('style');
   css.textContent = `
     .yuzu-jar{position:absolute;left:${JAR.x}%;top:${JAR.y}%;width:${JAR.w}%;padding:0;border:0;background:none;
-      transform:translate(-50%,-100%);cursor:pointer;z-index:748;-webkit-tap-highlight-color:transparent}
+      transform:translate(-50%,-100%);cursor:pointer;z-index:${TABLE_DEPTH};-webkit-tap-highlight-color:transparent}
     .yuzu-jar img{display:block;width:100%;height:auto;filter:drop-shadow(0 1px 1px #4d2e1738);pointer-events:none}
     .yuzu-jar:is(:hover,:focus-visible) img{filter:brightness(1.05) drop-shadow(0 1px 2px #4d2e1755)}
     .yuzu-jar:focus-visible{outline:2px solid #fff0bf;outline-offset:3px;border-radius:5px}
     .yuzu-teapot{position:absolute;left:${TEAPOT.x}%;top:${TEAPOT.y}%;width:${TEAPOT.w}%;height:auto;
-      transform:translate(-50%,-100%);z-index:747;pointer-events:none;filter:drop-shadow(0 1px 1px #4d2e1730)}
+      transform:translate(-50%,-100%);z-index:${TABLE_DEPTH - 1};pointer-events:none;filter:drop-shadow(0 1px 1px #4d2e1730)}
     .yuzu-piece-flight{position:absolute;width:3.3%;z-index:1200;pointer-events:none;transform:translate(-50%,-50%)}
     .yuzu-piece-flight img{display:block;width:100%;height:auto;filter:drop-shadow(0 0 5px #ffe46f)}
     .yuzu-piece-flight::after{content:'✦';position:absolute;right:-14%;top:-20%;color:#fff1a0;font-size:clamp(12px,1.5vw,24px);
@@ -44,8 +47,6 @@
     .yuzu-notice{position:absolute;left:${JAR.x}%;top:${JAR.y + 1.2}%;z-index:9000;transform:translate(-18%,-100%);
       max-width:min(300px,78%);padding:8px 12px;border:1.5px solid #c89650a8;border-radius:14px;background:#fff8e8f7;color:#4a3322;
       box-shadow:0 5px 16px #3c230f38;font:16px/1.35 "Malgun Gothic","Apple SD Gothic Neo",sans-serif}
-    .yuzu-carried{position:absolute;z-index:1450;pointer-events:none;transform:translate(-50%,-50%);width:6%;}
-    .yuzu-carried img{display:block;width:100%;height:auto;filter:drop-shadow(0 2px 2px #4d2d1738)}
     .fam.is-yuzu-serving>img{clip-path:none}
     @media(prefers-reduced-motion:reduce){.yuzu-piece-flight::after{animation:none}}
   `;
@@ -54,7 +55,7 @@
   let count = 0;
   try {
     const saved = Number.parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
-    if (Number.isFinite(saved) && saved >= 0) count = saved;
+    if (Number.isFinite(saved) && saved >= 0) count = Math.min(3, saved);
   } catch {}
 
   function saveCount() {
@@ -62,10 +63,8 @@
   }
 
   function jarStage() {
-    if (count >= 6) return 3;
-    if (count >= 3) return 2;
-    if (count >= 1) return 1;
-    return 0;
+    // 유자는 3개까지만 모여요. 3개면 가득 찬 단지(차 드릴 준비 끝).
+    return Math.min(3, Math.max(0, count));
   }
 
   const jar = document.createElement('button');
@@ -93,7 +92,7 @@
   }
   drawJar();
 
-  [...ART.jars, ART.teapot, ...ART.pieces, ART.tray, ...Object.values(ART.drinking), ...Object.values(ART.thanks)]
+  [...ART.jars, ART.teapot, ...ART.pieces, ...Object.values(ART.drinking), ...Object.values(ART.thanks)]
     .forEach(src => { const image = new Image(); image.src = src; });
 
   let collectTimer = 0;
@@ -126,7 +125,7 @@
 
   // 나중에 불멍 그림이 생겨도 이 함수만 같은 자리에서 부르면 돼요.
   function gainYuzuPiece() {
-    if (collectedThisSitting >= 3) return false;
+    if (collectedThisSitting >= 3 || count >= 3) return false;
     const art = ART.pieces[pieceIndex++ % ART.pieces.length];
     collectedThisSitting += 1;
     count += 1;
@@ -147,6 +146,10 @@
 
   function startCollecting() {
     collectedThisSitting = 0;
+    // 앉을 때마다 0개부터 새로 모아요.
+    count = 0;
+    saveCount();
+    drawJar();
     scheduleNext();
   }
 
@@ -168,36 +171,9 @@
     noticeTimer = setTimeout(() => notice.remove(), 3000);
   }
 
-  let carried = null;
-  let carryFrame = 0;
-  function startCarry() {
-    stopCarry();
-    carried = document.createElement('span');
-    carried.className = 'yuzu-carried';
-    const image = new Image();
-    image.src = ART.tray;
-    image.alt = '';
-    carried.append(image);
-    stage.append(carried);
-    const follow = () => {
-      const frame = document.getElementById('frame')?.getBoundingClientRect();
-      const room = stage.getBoundingClientRect();
-      if (carried && frame && room.width) {
-        carried.style.left = ((frame.left + frame.width * .5 - room.left) / room.width * 100) + '%';
-        carried.style.top = ((frame.top + frame.height * .38 - room.top) / room.height * 100) + '%';
-        carried.style.width = Math.max(4.8, frame.width / room.width * 100 * .58) + '%';
-      }
-      carryFrame = requestAnimationFrame(follow);
-    };
-    follow();
-  }
-
-  function stopCarry() {
-    cancelAnimationFrame(carryFrame);
-    carryFrame = 0;
-    carried?.remove();
-    carried = null;
-  }
+  // 찻잔 쟁반은 아바타 그림(carry_yuzutea_*)에 그려져 있어서 따로 겹치지 않아요.
+  function startCarry() {}
+  function stopCarry() {}
 
   const artExists = new Map();
   function hasArt(src, after) {
@@ -214,8 +190,9 @@
     const before = image.src;
     element.classList.add('is-yuzu-serving');
     image.src = ART.drinking[id];
-    const drinkingMs = TESTING ? 4500 : 2400;
-    const thanksMs = TESTING ? 4500 : 2200;
+    // 할머니가 마시고 고맙다고 하면 바로 다음 분께 가요(시험 모드도 같은 시간).
+    const drinkingMs = 1800;
+    const thanksMs = 1400;
     setTimeout(() => {
       hasArt(ART.thanks[id], exists => {
         if (!exists) {
@@ -252,10 +229,10 @@
         startCarry();
       },
       feed: feedElder,
+      // 할머니 → 할아버지 다음에 아바타도 자기 찻잔으로 한 모금 마셔요(drink_yuzutea_*).
       eat: finish => {
         stopCarry();
-        window.roomAvatar.setCarrying(null);
-        finish();
+        window.roomAvatar.eatPersimmon(finish, 'yuzuTea', 1800);
       },
       end: finishServing,
     });
@@ -263,7 +240,8 @@
       finishServing();
       return false;
     }
-    count -= 3;
+    // 차를 드리면 0개로 돌아가요.
+    count = 0;
     saveCount();
     drawJar();
     return true;

@@ -175,6 +175,8 @@ let persimmonStage = null; // null | 'carry' | 'eating'
 // 군고구마도 감 쟁반 그림과 같은 크기의 그림(carry_sweetpotato_*, eating_sweetpotato_*)으로 바꿔 써요(Claude 추가, 2026-11-20).
 let snackKind = 'persimmon';
 function snackPath(path) {
+  // 유자차는 감 대신 작은 찻잔이 놓인 쟁반 그림(carry_yuzutea_*)을 써요.
+  if (snackKind === 'yuzuTea' && typeof path === 'string') return path.replace('carry_tray_', 'carry_yuzutea_').replace('eating_persimmon_', 'drink_yuzutea_');
   if (snackKind !== 'sweetPotato' || typeof path !== 'string') return path;
   return path.replace('carry_tray_', 'carry_sweetpotato_').replace('eating_persimmon_', 'eating_sweetpotato_');
 }

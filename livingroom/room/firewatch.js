@@ -117,7 +117,8 @@
 
   // 다른 곳을 누르면 일어나서 그쪽으로 가요.
   stage.addEventListener('click', event => {
-    if (sitting && !event.target.closest('.firewatch-cushion')) stand();
+    // 음소거 버튼은 소리만 끄고, 앉아 있는 아바타는 그대로 둬요.
+    if (sitting && !event.target.closest('.firewatch-cushion, #room-sound')) stand();
   }, true);
   document.addEventListener('keydown', event => { if (event.key === 'Escape') stand(); });
   document.addEventListener('hometextchange', () => {
