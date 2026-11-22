@@ -64,7 +64,7 @@
 /* 장난감 바구니(그림 toy-basket.png 이 오기 전 임시 모양) */
 .pet-basket-target:not(.has-art) { background: radial-gradient(circle at 30% 18%, #e0503c 0 13%, #0000 14%), radial-gradient(circle at 62% 14%, #c8925a 0 12%, #0000 13%), linear-gradient(#0000 28%, #b8834a 28%, #a06d38 100%); border-radius: 4px 4px 40% 40% / 4px 4px 30% 30%; }
 .pet-basket-target.has-art { background: center bottom / contain no-repeat; }
-.pet-pot-target { left: 14%; top: 40.3%; width: 6.2%; height: 8.2%; min-height: 0; background: url('images/pets/sweet-potato-pot-closed.png') center / contain no-repeat; }
+.pet-pot-target { left: 14%; top: 40.3%; width: 6.2%; height: 8.2%; min-height: 0; z-index: 486; background: url('images/pets/sweet-potato-pot-closed.png') center / contain no-repeat; }
 .pet-pot-target.is-open { background-image: url('images/pets/sweet-potato-pot-open.png'); animation: pot-lid-open .45s ease-out; }
 @keyframes pot-lid-open { 0% { scale: 1; } 55% { scale: 1.06; } 100% { scale: 1; } }
 /* 11-21: 솥이 누르는 곳인지 알아보게 김이 살짝 피어올라요 */
