@@ -9,16 +9,11 @@
   const stage = document.getElementById('stage');
   if (!stage) return;
   const t = text => window.homeText ? window.homeText.t(text) : text;
-  const CUSHION = 'images/cushions/floor-cushion.webp';
+  const layout = window.roomFloorCushions;
+  if (!layout) return;
+  const CUSHION = layout.image;
   const pct = (v, total) => (v / total * 100) + '%';
-  // 거실 그림(1920 × 1080) 기준: 방석 왼쪽 위 x, y, 너비, 좌우 뒤집기, 앉으면 보는 쪽(불이 왼쪽에 있으면 left)
-  // 방석 너비 240: 앉은 그림의 사람 키가 서 있는 아바타 키의 절반 남짓이 되는 크기(11-21 고침, 전엔 150이라 앉으면 작아짐)
-  const SPOTS = [
-    { x: 14, y: 676, w: 240, flip: false, look: 'right' },   // 벽난로 받침 앞 바닥(11-21: 받침 위로 떠 보여 내림)
-    { x: 248, y: 640, w: 240, flip: true, look: 'left' },
-    { x: 196, y: 808, w: 240, flip: false, look: 'left' },
-  ];
-  const ASPECT = 181 / 300; // 방석 그림 높이/너비
+  const SPOTS = layout.spots;
 
   const css = document.createElement('style');
   css.textContent = `
@@ -34,6 +29,7 @@
     body.is-firewatching #avatar { visibility: hidden; }
   `;
   document.head.append(css);
+  layout.installStyles();
 
   const cushions = [];
   const probe = new Image();
@@ -46,11 +42,7 @@
     button.className = 'firewatch-cushion' + (spot.flip ? ' is-flipped' : '');
     button.dataset.homeAria = '벽난로 앞 방석';
     button.setAttribute('aria-label', t('벽난로 앞 방석'));
-    const bottom = spot.y + spot.w * ASPECT;
-    button.style.left = pct(spot.x, 1920);
-    button.style.top = pct(spot.y, 1080);
-    button.style.width = pct(spot.w, 1920);
-    button.style.zIndex = String(Math.round(bottom / 1080 * 1000));
+    layout.place(button, spot, index);
     const image = document.createElement('img');
     image.src = CUSHION;
     image.alt = '';
@@ -72,28 +64,31 @@
     if (sitting) stand();
     const id = avatar.visitorId?.() || 'woman';
     const art = 'images/firewatch/firewatch-' + id + (spot.look === 'right' ? '-right' : '') + '.webp';
-    const centerX = (spot.x + spot.w / 2) / 1920 * 100;
-    const bottomY = (spot.y + spot.w * ASPECT) / 1080 * 100;
+    const box = layout.geometry(spot);
+    const centerX = box.centerX / 1920 * 100;
+    const bottomY = box.floorY / 1080 * 100;
     const target = { x: centerX, y: bottomY, offsetX: spot.look === 'left' ? 3 : -3, offsetY: 2 };
     walking = true;
+    layout.allow(index);
     const started = avatar.approach(target, () => {
       walking = false;
+      layout.allow();
       const pic = new Image();
       pic.onload = () => show(spot, index, art);
       pic.onerror = () => {};
       pic.src = art;
-    }, () => { walking = false; });
-    if (!started) walking = false;
+    }, () => { walking = false; layout.allow(); });
+    if (!started) { walking = false; layout.allow(); }
   }
 
   function show(spot, index, art) {
     const sitter = document.createElement('div');
     sitter.className = 'firewatch-sitter';
-    const bottom = spot.y + spot.w * ASPECT;
-    sitter.style.left = pct(spot.x, 1920);
-    sitter.style.top = pct(bottom + 2, 1080);
-    sitter.style.width = pct(spot.w, 1920);
-    sitter.style.zIndex = String(Math.round(bottom / 1080 * 1000) + 1);
+    const box = layout.geometry(spot);
+    sitter.style.left = pct(box.left, 1920);
+    sitter.style.top = pct(box.floorY + 2, 1080);
+    sitter.style.width = pct(box.width, 1920);
+    sitter.style.zIndex = String(box.zIndex + 1);
     const image = document.createElement('img');
     image.src = art;
     image.alt = '';
