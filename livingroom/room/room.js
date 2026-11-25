@@ -923,6 +923,8 @@ window.roomAvatar = {
   },
   // 먹는 그림의 입 쪽 위치(아바타 그림 상자 기준 0~1). 호호 입김 놓을 때 씀.
   facing() { return direction; },
+  // 같이 놀기(multiplayer.js)가 내 아바타 자리·종류를 읽기만 하는 함수예요(Claude 추가, 11-24).
+  snapshot() { return visitor ? { x: position.x, y: position.y, avatar: visitor.id, facing: direction, walking: mode === 'walking', path: mode === 'walking' ? walkingPath : null, floor: { back: floor.back, front: floor.front } } : null; },
 };
 
 const weatherKey = 'maeum_weather_v1';

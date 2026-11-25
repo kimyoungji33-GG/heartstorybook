@@ -1,0 +1,180 @@
+/* 마음동화책방 거실 · 같이 놀기 1단계 모양 (Claude, 2026-11-24) */
+
+/* 버튼 줄: 기존 .controls button 모양을 그대로 따라요. */
+.controls .mp-say { display: flex; gap: 6px; align-items: center; }
+.controls .mp-say[hidden], .controls .mp-leave[hidden], .controls .mp-join[hidden] { display: none; }
+.controls .mp-say input {
+  width: min(15em, 52vw);
+  min-height: 44px;
+  border: 1px solid #bf9a6b85;
+  border-radius: 16px;
+  background: #fbf3e6;
+  color: #3a2a1f;
+  padding: 0 12px;
+  font: inherit;
+  font-size: 16px;
+}
+.controls .mp-say input::placeholder { color: #8a7461; }
+.controls .mp-say input:focus-visible { outline: 2px solid #e8c48f; outline-offset: 1px; }
+
+/* 다른 사람 아바타: 기존 .avatar 모양을 쓰고, 누를 수 없게 해요. */
+.mp-avatar { pointer-events: none; }
+
+/* 이름표·말풍선 층 */
+/* 할머니·할아버지의 '인사하기' 단추(9001)보다 위에 떠야 말풍선이 가려지지 않아요. */
+.mp-labels { position: absolute; inset: 0; pointer-events: none; z-index: 9002; }
+.mp-tag {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  transform: translate(-50%, -100%);
+}
+.mp-tag[hidden], .mp-bubble[hidden] { display: none; }
+.mp-name {
+  padding: 1px 8px;
+  border-radius: 9px;
+  background: #3b2c22b8;
+  color: #f6ead6;
+  font-size: clamp(11px, .9vw, 13px);
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.mp-bubble {
+  position: relative;
+  margin: 0 0 4px;
+  max-width: 220px;
+  padding: 7px 12px;
+  border-radius: 14px;
+  border: 1.5px solid #c8955099;
+  background: #fff8ec;
+  color: #3a2a1f;
+  box-shadow: 0 3px 10px #3b2c2240;
+  font-size: clamp(14px, 1.2vw, 17px);
+  line-height: 1.45;
+  text-align: center;
+  overflow-wrap: anywhere;
+  animation: mp-bubble-in .35s ease-out;
+}
+.mp-bubble::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  border: 6px solid transparent;
+  border-top-color: #fff8ec;
+  filter: drop-shadow(0 1.5px 0 #c8955099);
+  border-bottom: 0;
+  transform: translateX(-50%);
+}
+@keyframes mp-bubble-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+/* "지금은 자리가 없어요" 같은 안내 */
+.mp-note {
+  position: absolute;
+  left: 50%;
+  top: 9%;
+  z-index: 9003;
+  max-width: min(90%, 420px);
+  margin: 0;
+  padding: 10px 18px;
+  border-radius: 16px;
+  background: #3b2c22e8;
+  color: #f6ead6;
+  font-size: clamp(14px, 1.2vw, 17px);
+  line-height: 1.5;
+  text-align: center;
+  transform: translateX(-50%);
+  pointer-events: none;
+  animation: mp-bubble-in .35s ease-out;
+}
+.mp-note[hidden] { display: none; }
+
+/* 이름 묻는 창 */
+.mp-dialog {
+  max-width: min(92vw, 340px);
+  border: 0;
+  border-radius: 18px;
+  background: #fbf3e6;
+  color: #3a2a1f;
+  padding: 22px 22px 18px;
+  box-shadow: 0 10px 30px #2a1d1440;
+}
+.mp-dialog::backdrop { background: #1e140a59; }
+.mp-dialog h2 { margin: 0 0 8px; font-size: 20px; }
+.mp-dialog p { margin: 0 0 12px; line-height: 1.55; }
+.mp-dialog .mp-dialog-small { font-size: 13px; color: #6d5845; }
+.mp-dialog input {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  margin-bottom: 10px;
+  border: 1px solid #c9a97f;
+  border-radius: 12px;
+  background: #fffaf2;
+  color: inherit;
+  padding: 0 12px;
+  font: inherit;
+  font-size: 17px;
+}
+.mp-dialog-actions { display: flex; gap: 8px; justify-content: flex-end; }
+.mp-dialog button {
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid #bf9a6b;
+  border-radius: 14px;
+  background: #fffaf2;
+  color: #3a2a1f;
+  font: inherit;
+  cursor: pointer;
+}
+.mp-dialog .mp-primary { background: #3b2c22; color: #f6ead6; border-color: #3b2c22; }
+
+/* 관리자 화면 (?admin=1 일 때만) */
+.mp-admin {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 2147483000;
+  width: min(330px, calc(100vw - 24px));
+  max-height: 70vh;
+  overflow: auto;
+  border-radius: 14px;
+  background: #fbf3e6f2;
+  color: #3a2a1f;
+  box-shadow: 0 6px 20px #2a1d1440;
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.mp-admin-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.mp-admin p { margin: 6px 0; }
+.mp-admin-where { font-size: 12px; color: #6d5845; }
+.mp-admin ul { margin: 6px 0; padding: 0; list-style: none; }
+.mp-admin li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px 8px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #c9a97f88;
+}
+.mp-admin li span { overflow-wrap: anywhere; }
+.mp-admin button {
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid #bf9a6b;
+  border-radius: 10px;
+  background: #fffaf2;
+  color: #3a2a1f;
+  font: inherit;
+  cursor: pointer;
+}
+.mp-admin-tools > button { margin: 4px 6px 0 0; }
+.mp-admin [hidden] { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .mp-bubble, .mp-note { animation: none; }
+}
